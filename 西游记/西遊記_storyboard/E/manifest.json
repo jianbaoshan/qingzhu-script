@@ -1,0 +1,8360 @@
+[
+  {
+    "segment": "E01-01",
+    "seconds": 10,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      3,
+      6
+    ],
+    "prompt": "E/E01-01/prompt.md",
+    "pictures": [
+      "E/E01-01/f1.png",
+      "E/E01-01/f2.png",
+      "E/E01-01/f3.png"
+    ],
+    "missing": [
+      "E/E01-01/f1.png",
+      "E/E01-01/f2.png",
+      "E/E01-01/f3.png"
+    ]
+  },
+  {
+    "segment": "E01-02",
+    "seconds": 9,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      3,
+      6
+    ],
+    "prompt": "E/E01-02/prompt.md",
+    "pictures": [
+      "E/E01-02/f1.png",
+      "E/E01-02/f2.png",
+      "E/E01-02/f3.png"
+    ],
+    "missing": [
+      "E/E01-02/f1.png",
+      "E/E01-02/f2.png",
+      "E/E01-02/f3.png"
+    ]
+  },
+  {
+    "segment": "E01-03",
+    "seconds": 10,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      3,
+      7
+    ],
+    "prompt": "E/E01-03/prompt.md",
+    "pictures": [
+      "E/E01-03/f1.png",
+      "E/E01-03/f2.png",
+      "E/E01-03/f3.png"
+    ],
+    "missing": [
+      "E/E01-03/f1.png",
+      "E/E01-03/f2.png",
+      "E/E01-03/f3.png"
+    ]
+  },
+  {
+    "segment": "E01-04",
+    "seconds": 10,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      3,
+      6
+    ],
+    "prompt": "E/E01-04/prompt.md",
+    "pictures": [
+      "E/E01-04/f1.png",
+      "E/E01-04/f2.png",
+      "E/E01-04/f3.png"
+    ],
+    "missing": [
+      "E/E01-04/f1.png",
+      "E/E01-04/f2.png",
+      "E/E01-04/f3.png"
+    ]
+  },
+  {
+    "segment": "E01-05",
+    "seconds": 11,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      5,
+      8
+    ],
+    "prompt": "E/E01-05/prompt.md",
+    "pictures": [
+      "E/E01-05/f1.png",
+      "E/E01-05/f2.png",
+      "E/E01-05/f3.png"
+    ],
+    "missing": [
+      "E/E01-05/f1.png",
+      "E/E01-05/f2.png",
+      "E/E01-05/f3.png"
+    ]
+  },
+  {
+    "segment": "E01-06",
+    "seconds": 12,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      4,
+      9
+    ],
+    "prompt": "E/E01-06/prompt.md",
+    "pictures": [
+      "E/E01-06/f1.png",
+      "E/E01-06/f2.png",
+      "E/E01-06/f3.png"
+    ],
+    "missing": [
+      "E/E01-06/f1.png",
+      "E/E01-06/f2.png",
+      "E/E01-06/f3.png"
+    ]
+  },
+  {
+    "segment": "E01-07",
+    "seconds": 10,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      3,
+      7
+    ],
+    "prompt": "E/E01-07/prompt.md",
+    "pictures": [
+      "E/E01-07/f1.png",
+      "E/E01-07/f2.png",
+      "E/E01-07/f3.png"
+    ],
+    "missing": [
+      "E/E01-07/f1.png",
+      "E/E01-07/f2.png",
+      "E/E01-07/f3.png"
+    ]
+  },
+  {
+    "segment": "E01-08",
+    "seconds": 10,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      3,
+      7
+    ],
+    "prompt": "E/E01-08/prompt.md",
+    "pictures": [
+      "E/E01-08/f1.png",
+      "E/E01-08/f2.png",
+      "E/E01-08/f3.png"
+    ],
+    "missing": [
+      "E/E01-08/f1.png",
+      "E/E01-08/f2.png",
+      "E/E01-08/f3.png"
+    ]
+  },
+  {
+    "segment": "E01-09",
+    "seconds": 10,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      4,
+      7
+    ],
+    "prompt": "E/E01-09/prompt.md",
+    "pictures": [
+      "E/E01-09/f1.png",
+      "E/E01-09/f2.png",
+      "E/E01-09/f3.png"
+    ],
+    "missing": [
+      "E/E01-09/f1.png",
+      "E/E01-09/f2.png",
+      "E/E01-09/f3.png"
+    ]
+  },
+  {
+    "segment": "E01-10",
+    "seconds": 15,
+    "cuts": 4,
+    "cutStarts": [
+      0,
+      4,
+      7,
+      12
+    ],
+    "prompt": "E/E01-10/prompt.md",
+    "pictures": [
+      "E/E01-10/f1.png",
+      "E/E01-10/f2.png",
+      "E/E01-10/f3.png",
+      "E/E01-10/f4.png"
+    ],
+    "missing": [
+      "E/E01-10/f1.png",
+      "E/E01-10/f2.png",
+      "E/E01-10/f3.png",
+      "E/E01-10/f4.png"
+    ]
+  },
+  {
+    "segment": "E01-11",
+    "seconds": 15,
+    "cuts": 4,
+    "cutStarts": [
+      0,
+      4,
+      8,
+      11
+    ],
+    "prompt": "E/E01-11/prompt.md",
+    "pictures": [
+      "E/E01-11/f1.png",
+      "E/E01-11/f2.png",
+      "E/E01-11/f3.png",
+      "E/E01-11/f4.png"
+    ],
+    "missing": [
+      "E/E01-11/f1.png",
+      "E/E01-11/f2.png",
+      "E/E01-11/f3.png",
+      "E/E01-11/f4.png"
+    ]
+  },
+  {
+    "segment": "E01-12",
+    "seconds": 10,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      3,
+      7
+    ],
+    "prompt": "E/E01-12/prompt.md",
+    "pictures": [
+      "E/E01-12/f1.png",
+      "E/E01-12/f2.png",
+      "E/E01-12/f3.png"
+    ],
+    "missing": [
+      "E/E01-12/f1.png",
+      "E/E01-12/f2.png",
+      "E/E01-12/f3.png"
+    ]
+  },
+  {
+    "segment": "E01-13",
+    "seconds": 11,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      4,
+      8
+    ],
+    "prompt": "E/E01-13/prompt.md",
+    "pictures": [
+      "E/E01-13/f1.png",
+      "E/E01-13/f2.png",
+      "E/E01-13/f3.png"
+    ],
+    "missing": [
+      "E/E01-13/f1.png",
+      "E/E01-13/f2.png",
+      "E/E01-13/f3.png"
+    ]
+  },
+  {
+    "segment": "E01-14",
+    "seconds": 11,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      3,
+      7
+    ],
+    "prompt": "E/E01-14/prompt.md",
+    "pictures": [
+      "E/E01-14/f1.png",
+      "E/E01-14/f2.png",
+      "E/E01-14/f3.png"
+    ],
+    "missing": [
+      "E/E01-14/f1.png",
+      "E/E01-14/f2.png",
+      "E/E01-14/f3.png"
+    ]
+  },
+  {
+    "segment": "E01-15",
+    "seconds": 12,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      4,
+      7
+    ],
+    "prompt": "E/E01-15/prompt.md",
+    "pictures": [
+      "E/E01-15/f1.png",
+      "E/E01-15/f2.png",
+      "E/E01-15/f3.png"
+    ],
+    "missing": [
+      "E/E01-15/f1.png",
+      "E/E01-15/f2.png",
+      "E/E01-15/f3.png"
+    ]
+  },
+  {
+    "segment": "E01-16",
+    "seconds": 11,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      3,
+      7
+    ],
+    "prompt": "E/E01-16/prompt.md",
+    "pictures": [
+      "E/E01-16/f1.png",
+      "E/E01-16/f2.png",
+      "E/E01-16/f3.png"
+    ],
+    "missing": [
+      "E/E01-16/f1.png",
+      "E/E01-16/f2.png",
+      "E/E01-16/f3.png"
+    ]
+  },
+  {
+    "segment": "E01-17",
+    "seconds": 14,
+    "cuts": 4,
+    "cutStarts": [
+      0,
+      3,
+      6,
+      10
+    ],
+    "prompt": "E/E01-17/prompt.md",
+    "pictures": [
+      "E/E01-17/f1.png",
+      "E/E01-17/f2.png",
+      "E/E01-17/f3.png",
+      "E/E01-17/f4.png"
+    ],
+    "missing": [
+      "E/E01-17/f1.png",
+      "E/E01-17/f2.png",
+      "E/E01-17/f3.png",
+      "E/E01-17/f4.png"
+    ]
+  },
+  {
+    "segment": "E01-18",
+    "seconds": 10,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      6
+    ],
+    "prompt": "E/E01-18/prompt.md",
+    "pictures": [
+      "E/E01-18/f1.png",
+      "E/E01-18/f2.png"
+    ],
+    "missing": [
+      "E/E01-18/f1.png",
+      "E/E01-18/f2.png"
+    ]
+  },
+  {
+    "segment": "E02-01",
+    "seconds": 9,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      4
+    ],
+    "prompt": "E/E02-01/prompt.md",
+    "pictures": [
+      "E/E02-01/f1.png",
+      "E/E02-01/f2.png"
+    ],
+    "missing": [
+      "E/E02-01/f1.png",
+      "E/E02-01/f2.png"
+    ]
+  },
+  {
+    "segment": "E02-02",
+    "seconds": 8,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      3
+    ],
+    "prompt": "E/E02-02/prompt.md",
+    "pictures": [
+      "E/E02-02/f1.png",
+      "E/E02-02/f2.png"
+    ],
+    "missing": [
+      "E/E02-02/f1.png",
+      "E/E02-02/f2.png"
+    ]
+  },
+  {
+    "segment": "E02-03",
+    "seconds": 11,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      3,
+      6
+    ],
+    "prompt": "E/E02-03/prompt.md",
+    "pictures": [
+      "E/E02-03/f1.png",
+      "E/E02-03/f2.png",
+      "E/E02-03/f3.png"
+    ],
+    "missing": [
+      "E/E02-03/f1.png",
+      "E/E02-03/f2.png",
+      "E/E02-03/f3.png"
+    ]
+  },
+  {
+    "segment": "E02-04",
+    "seconds": 12,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      3,
+      9
+    ],
+    "prompt": "E/E02-04/prompt.md",
+    "pictures": [
+      "E/E02-04/f1.png",
+      "E/E02-04/f2.png",
+      "E/E02-04/f3.png"
+    ],
+    "missing": [
+      "E/E02-04/f1.png",
+      "E/E02-04/f2.png",
+      "E/E02-04/f3.png"
+    ]
+  },
+  {
+    "segment": "E02-05",
+    "seconds": 8,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      4
+    ],
+    "prompt": "E/E02-05/prompt.md",
+    "pictures": [
+      "E/E02-05/f1.png",
+      "E/E02-05/f2.png"
+    ],
+    "missing": [
+      "E/E02-05/f1.png",
+      "E/E02-05/f2.png"
+    ]
+  },
+  {
+    "segment": "E02-06",
+    "seconds": 12,
+    "cuts": 4,
+    "cutStarts": [
+      0,
+      3,
+      5,
+      8
+    ],
+    "prompt": "E/E02-06/prompt.md",
+    "pictures": [
+      "E/E02-06/f1.png",
+      "E/E02-06/f2.png",
+      "E/E02-06/f3.png",
+      "E/E02-06/f4.png"
+    ],
+    "missing": [
+      "E/E02-06/f1.png",
+      "E/E02-06/f2.png",
+      "E/E02-06/f3.png",
+      "E/E02-06/f4.png"
+    ]
+  },
+  {
+    "segment": "E02-07",
+    "seconds": 10,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      4,
+      7
+    ],
+    "prompt": "E/E02-07/prompt.md",
+    "pictures": [
+      "E/E02-07/f1.png",
+      "E/E02-07/f2.png",
+      "E/E02-07/f3.png"
+    ],
+    "missing": [
+      "E/E02-07/f1.png",
+      "E/E02-07/f2.png",
+      "E/E02-07/f3.png"
+    ]
+  },
+  {
+    "segment": "E02-08",
+    "seconds": 12,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      4,
+      8
+    ],
+    "prompt": "E/E02-08/prompt.md",
+    "pictures": [
+      "E/E02-08/f1.png",
+      "E/E02-08/f2.png",
+      "E/E02-08/f3.png"
+    ],
+    "missing": [
+      "E/E02-08/f1.png",
+      "E/E02-08/f2.png",
+      "E/E02-08/f3.png"
+    ]
+  },
+  {
+    "segment": "E02-09",
+    "seconds": 7,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      4
+    ],
+    "prompt": "E/E02-09/prompt.md",
+    "pictures": [
+      "E/E02-09/f1.png",
+      "E/E02-09/f2.png"
+    ],
+    "missing": [
+      "E/E02-09/f1.png",
+      "E/E02-09/f2.png"
+    ]
+  },
+  {
+    "segment": "E02-10",
+    "seconds": 7,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      4
+    ],
+    "prompt": "E/E02-10/prompt.md",
+    "pictures": [
+      "E/E02-10/f1.png",
+      "E/E02-10/f2.png"
+    ],
+    "missing": [
+      "E/E02-10/f1.png",
+      "E/E02-10/f2.png"
+    ]
+  },
+  {
+    "segment": "E02-11",
+    "seconds": 7,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      4
+    ],
+    "prompt": "E/E02-11/prompt.md",
+    "pictures": [
+      "E/E02-11/f1.png",
+      "E/E02-11/f2.png"
+    ],
+    "missing": [
+      "E/E02-11/f1.png",
+      "E/E02-11/f2.png"
+    ]
+  },
+  {
+    "segment": "E02-12",
+    "seconds": 9,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      5
+    ],
+    "prompt": "E/E02-12/prompt.md",
+    "pictures": [
+      "E/E02-12/f1.png",
+      "E/E02-12/f2.png"
+    ],
+    "missing": [
+      "E/E02-12/f1.png",
+      "E/E02-12/f2.png"
+    ]
+  },
+  {
+    "segment": "E02-13",
+    "seconds": 7,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      4
+    ],
+    "prompt": "E/E02-13/prompt.md",
+    "pictures": [
+      "E/E02-13/f1.png",
+      "E/E02-13/f2.png"
+    ],
+    "missing": [
+      "E/E02-13/f1.png",
+      "E/E02-13/f2.png"
+    ]
+  },
+  {
+    "segment": "E02-14",
+    "seconds": 9,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      3,
+      6
+    ],
+    "prompt": "E/E02-14/prompt.md",
+    "pictures": [
+      "E/E02-14/f1.png",
+      "E/E02-14/f2.png",
+      "E/E02-14/f3.png"
+    ],
+    "missing": [
+      "E/E02-14/f1.png",
+      "E/E02-14/f2.png",
+      "E/E02-14/f3.png"
+    ]
+  },
+  {
+    "segment": "E02-15",
+    "seconds": 6,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      3
+    ],
+    "prompt": "E/E02-15/prompt.md",
+    "pictures": [
+      "E/E02-15/f1.png",
+      "E/E02-15/f2.png"
+    ],
+    "missing": [
+      "E/E02-15/f1.png",
+      "E/E02-15/f2.png"
+    ]
+  },
+  {
+    "segment": "E02-16",
+    "seconds": 10,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      3,
+      7
+    ],
+    "prompt": "E/E02-16/prompt.md",
+    "pictures": [
+      "E/E02-16/f1.png",
+      "E/E02-16/f2.png",
+      "E/E02-16/f3.png"
+    ],
+    "missing": [
+      "E/E02-16/f1.png",
+      "E/E02-16/f2.png",
+      "E/E02-16/f3.png"
+    ]
+  },
+  {
+    "segment": "E02-17",
+    "seconds": 7,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      3
+    ],
+    "prompt": "E/E02-17/prompt.md",
+    "pictures": [
+      "E/E02-17/f1.png",
+      "E/E02-17/f2.png"
+    ],
+    "missing": [
+      "E/E02-17/f1.png",
+      "E/E02-17/f2.png"
+    ]
+  },
+  {
+    "segment": "E02-18",
+    "seconds": 9,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      4
+    ],
+    "prompt": "E/E02-18/prompt.md",
+    "pictures": [
+      "E/E02-18/f1.png",
+      "E/E02-18/f2.png"
+    ],
+    "missing": [
+      "E/E02-18/f1.png",
+      "E/E02-18/f2.png"
+    ]
+  },
+  {
+    "segment": "E02-19",
+    "seconds": 12,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      4,
+      8
+    ],
+    "prompt": "E/E02-19/prompt.md",
+    "pictures": [
+      "E/E02-19/f1.png",
+      "E/E02-19/f2.png",
+      "E/E02-19/f3.png"
+    ],
+    "missing": [
+      "E/E02-19/f1.png",
+      "E/E02-19/f2.png",
+      "E/E02-19/f3.png"
+    ]
+  },
+  {
+    "segment": "E02-20",
+    "seconds": 4,
+    "cuts": 1,
+    "cutStarts": [
+      0
+    ],
+    "prompt": "E/E02-20/prompt.md",
+    "pictures": [
+      "E/E02-20/f1.png"
+    ],
+    "missing": [
+      "E/E02-20/f1.png"
+    ]
+  },
+  {
+    "segment": "E03-01",
+    "seconds": 8,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      4
+    ],
+    "prompt": "E/E03-01/prompt.md",
+    "pictures": [
+      "E/E03-01/f1.png",
+      "E/E03-01/f2.png"
+    ],
+    "missing": [
+      "E/E03-01/f1.png",
+      "E/E03-01/f2.png"
+    ]
+  },
+  {
+    "segment": "E03-02",
+    "seconds": 10,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      4,
+      7
+    ],
+    "prompt": "E/E03-02/prompt.md",
+    "pictures": [
+      "E/E03-02/f1.png",
+      "E/E03-02/f2.png",
+      "E/E03-02/f3.png"
+    ],
+    "missing": [
+      "E/E03-02/f1.png",
+      "E/E03-02/f2.png",
+      "E/E03-02/f3.png"
+    ]
+  },
+  {
+    "segment": "E03-03",
+    "seconds": 11,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      4,
+      8
+    ],
+    "prompt": "E/E03-03/prompt.md",
+    "pictures": [
+      "E/E03-03/f1.png",
+      "E/E03-03/f2.png",
+      "E/E03-03/f3.png"
+    ],
+    "missing": [
+      "E/E03-03/f1.png",
+      "E/E03-03/f2.png",
+      "E/E03-03/f3.png"
+    ]
+  },
+  {
+    "segment": "E03-04",
+    "seconds": 7,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      4
+    ],
+    "prompt": "E/E03-04/prompt.md",
+    "pictures": [
+      "E/E03-04/f1.png",
+      "E/E03-04/f2.png"
+    ],
+    "missing": [
+      "E/E03-04/f1.png",
+      "E/E03-04/f2.png"
+    ]
+  },
+  {
+    "segment": "E03-05",
+    "seconds": 10,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      6
+    ],
+    "prompt": "E/E03-05/prompt.md",
+    "pictures": [
+      "E/E03-05/f1.png",
+      "E/E03-05/f2.png"
+    ],
+    "missing": [
+      "E/E03-05/f1.png",
+      "E/E03-05/f2.png"
+    ]
+  },
+  {
+    "segment": "E03-06",
+    "seconds": 13,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      5,
+      9
+    ],
+    "prompt": "E/E03-06/prompt.md",
+    "pictures": [
+      "E/E03-06/f1.png",
+      "E/E03-06/f2.png",
+      "E/E03-06/f3.png"
+    ],
+    "missing": [
+      "E/E03-06/f1.png",
+      "E/E03-06/f2.png",
+      "E/E03-06/f3.png"
+    ]
+  },
+  {
+    "segment": "E03-07",
+    "seconds": 8,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      4
+    ],
+    "prompt": "E/E03-07/prompt.md",
+    "pictures": [
+      "E/E03-07/f1.png",
+      "E/E03-07/f2.png"
+    ],
+    "missing": [
+      "E/E03-07/f1.png",
+      "E/E03-07/f2.png"
+    ]
+  },
+  {
+    "segment": "E03-08",
+    "seconds": 15,
+    "cuts": 4,
+    "cutStarts": [
+      0,
+      5,
+      8,
+      12
+    ],
+    "prompt": "E/E03-08/prompt.md",
+    "pictures": [
+      "E/E03-08/f1.png",
+      "E/E03-08/f2.png",
+      "E/E03-08/f3.png",
+      "E/E03-08/f4.png"
+    ],
+    "missing": [
+      "E/E03-08/f1.png",
+      "E/E03-08/f2.png",
+      "E/E03-08/f3.png",
+      "E/E03-08/f4.png"
+    ]
+  },
+  {
+    "segment": "E03-09",
+    "seconds": 11,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      4,
+      8
+    ],
+    "prompt": "E/E03-09/prompt.md",
+    "pictures": [
+      "E/E03-09/f1.png",
+      "E/E03-09/f2.png",
+      "E/E03-09/f3.png"
+    ],
+    "missing": [
+      "E/E03-09/f1.png",
+      "E/E03-09/f2.png",
+      "E/E03-09/f3.png"
+    ]
+  },
+  {
+    "segment": "E03-10",
+    "seconds": 11,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      5,
+      8
+    ],
+    "prompt": "E/E03-10/prompt.md",
+    "pictures": [
+      "E/E03-10/f1.png",
+      "E/E03-10/f2.png",
+      "E/E03-10/f3.png"
+    ],
+    "missing": [
+      "E/E03-10/f1.png",
+      "E/E03-10/f2.png",
+      "E/E03-10/f3.png"
+    ]
+  },
+  {
+    "segment": "E03-11",
+    "seconds": 11,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      4,
+      8
+    ],
+    "prompt": "E/E03-11/prompt.md",
+    "pictures": [
+      "E/E03-11/f1.png",
+      "E/E03-11/f2.png",
+      "E/E03-11/f3.png"
+    ],
+    "missing": [
+      "E/E03-11/f1.png",
+      "E/E03-11/f2.png",
+      "E/E03-11/f3.png"
+    ]
+  },
+  {
+    "segment": "E03-12",
+    "seconds": 13,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      5,
+      8
+    ],
+    "prompt": "E/E03-12/prompt.md",
+    "pictures": [
+      "E/E03-12/f1.png",
+      "E/E03-12/f2.png",
+      "E/E03-12/f3.png"
+    ],
+    "missing": [
+      "E/E03-12/f1.png",
+      "E/E03-12/f2.png",
+      "E/E03-12/f3.png"
+    ]
+  },
+  {
+    "segment": "E03-13",
+    "seconds": 7,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      4
+    ],
+    "prompt": "E/E03-13/prompt.md",
+    "pictures": [
+      "E/E03-13/f1.png",
+      "E/E03-13/f2.png"
+    ],
+    "missing": [
+      "E/E03-13/f1.png",
+      "E/E03-13/f2.png"
+    ]
+  },
+  {
+    "segment": "E03-14",
+    "seconds": 14,
+    "cuts": 4,
+    "cutStarts": [
+      0,
+      4,
+      7,
+      10
+    ],
+    "prompt": "E/E03-14/prompt.md",
+    "pictures": [
+      "E/E03-14/f1.png",
+      "E/E03-14/f2.png",
+      "E/E03-14/f3.png",
+      "E/E03-14/f4.png"
+    ],
+    "missing": [
+      "E/E03-14/f1.png",
+      "E/E03-14/f2.png",
+      "E/E03-14/f3.png",
+      "E/E03-14/f4.png"
+    ]
+  },
+  {
+    "segment": "E03-15",
+    "seconds": 8,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      4
+    ],
+    "prompt": "E/E03-15/prompt.md",
+    "pictures": [
+      "E/E03-15/f1.png",
+      "E/E03-15/f2.png"
+    ],
+    "missing": [
+      "E/E03-15/f1.png",
+      "E/E03-15/f2.png"
+    ]
+  },
+  {
+    "segment": "E03-16",
+    "seconds": 11,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      4,
+      8
+    ],
+    "prompt": "E/E03-16/prompt.md",
+    "pictures": [
+      "E/E03-16/f1.png",
+      "E/E03-16/f2.png",
+      "E/E03-16/f3.png"
+    ],
+    "missing": [
+      "E/E03-16/f1.png",
+      "E/E03-16/f2.png",
+      "E/E03-16/f3.png"
+    ]
+  },
+  {
+    "segment": "E03-17",
+    "seconds": 8,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      4
+    ],
+    "prompt": "E/E03-17/prompt.md",
+    "pictures": [
+      "E/E03-17/f1.png",
+      "E/E03-17/f2.png"
+    ],
+    "missing": [
+      "E/E03-17/f1.png",
+      "E/E03-17/f2.png"
+    ]
+  },
+  {
+    "segment": "E04-01",
+    "seconds": 9,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      3,
+      6
+    ],
+    "prompt": "E/E04-01/prompt.md",
+    "pictures": [
+      "E/E04-01/f1.png",
+      "E/E04-01/f2.png",
+      "E/E04-01/f3.png"
+    ],
+    "missing": [
+      "E/E04-01/f1.png",
+      "E/E04-01/f2.png",
+      "E/E04-01/f3.png"
+    ]
+  },
+  {
+    "segment": "E04-02",
+    "seconds": 11,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      3,
+      6
+    ],
+    "prompt": "E/E04-02/prompt.md",
+    "pictures": [
+      "E/E04-02/f1.png",
+      "E/E04-02/f2.png",
+      "E/E04-02/f3.png"
+    ],
+    "missing": [
+      "E/E04-02/f1.png",
+      "E/E04-02/f2.png",
+      "E/E04-02/f3.png"
+    ]
+  },
+  {
+    "segment": "E04-03",
+    "seconds": 10,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      4,
+      7
+    ],
+    "prompt": "E/E04-03/prompt.md",
+    "pictures": [
+      "E/E04-03/f1.png",
+      "E/E04-03/f2.png",
+      "E/E04-03/f3.png"
+    ],
+    "missing": [
+      "E/E04-03/f1.png",
+      "E/E04-03/f2.png",
+      "E/E04-03/f3.png"
+    ]
+  },
+  {
+    "segment": "E04-04",
+    "seconds": 12,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      4,
+      7
+    ],
+    "prompt": "E/E04-04/prompt.md",
+    "pictures": [
+      "E/E04-04/f1.png",
+      "E/E04-04/f2.png",
+      "E/E04-04/f3.png"
+    ],
+    "missing": [
+      "E/E04-04/f1.png",
+      "E/E04-04/f2.png",
+      "E/E04-04/f3.png"
+    ]
+  },
+  {
+    "segment": "E04-05",
+    "seconds": 13,
+    "cuts": 4,
+    "cutStarts": [
+      0,
+      3,
+      6,
+      9
+    ],
+    "prompt": "E/E04-05/prompt.md",
+    "pictures": [
+      "E/E04-05/f1.png",
+      "E/E04-05/f2.png",
+      "E/E04-05/f3.png",
+      "E/E04-05/f4.png"
+    ],
+    "missing": [
+      "E/E04-05/f1.png",
+      "E/E04-05/f2.png",
+      "E/E04-05/f3.png",
+      "E/E04-05/f4.png"
+    ]
+  },
+  {
+    "segment": "E04-06",
+    "seconds": 14,
+    "cuts": 4,
+    "cutStarts": [
+      0,
+      3,
+      6,
+      9
+    ],
+    "prompt": "E/E04-06/prompt.md",
+    "pictures": [
+      "E/E04-06/f1.png",
+      "E/E04-06/f2.png",
+      "E/E04-06/f3.png",
+      "E/E04-06/f4.png"
+    ],
+    "missing": [
+      "E/E04-06/f1.png",
+      "E/E04-06/f2.png",
+      "E/E04-06/f3.png",
+      "E/E04-06/f4.png"
+    ]
+  },
+  {
+    "segment": "E04-07",
+    "seconds": 15,
+    "cuts": 4,
+    "cutStarts": [
+      0,
+      4,
+      8,
+      12
+    ],
+    "prompt": "E/E04-07/prompt.md",
+    "pictures": [
+      "E/E04-07/f1.png",
+      "E/E04-07/f2.png",
+      "E/E04-07/f3.png",
+      "E/E04-07/f4.png"
+    ],
+    "missing": [
+      "E/E04-07/f1.png",
+      "E/E04-07/f2.png",
+      "E/E04-07/f3.png",
+      "E/E04-07/f4.png"
+    ]
+  },
+  {
+    "segment": "E04-08",
+    "seconds": 15,
+    "cuts": 4,
+    "cutStarts": [
+      0,
+      4,
+      8,
+      11
+    ],
+    "prompt": "E/E04-08/prompt.md",
+    "pictures": [
+      "E/E04-08/f1.png",
+      "E/E04-08/f2.png",
+      "E/E04-08/f3.png",
+      "E/E04-08/f4.png"
+    ],
+    "missing": [
+      "E/E04-08/f1.png",
+      "E/E04-08/f2.png",
+      "E/E04-08/f3.png",
+      "E/E04-08/f4.png"
+    ]
+  },
+  {
+    "segment": "E04-09",
+    "seconds": 10,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      4,
+      7
+    ],
+    "prompt": "E/E04-09/prompt.md",
+    "pictures": [
+      "E/E04-09/f1.png",
+      "E/E04-09/f2.png",
+      "E/E04-09/f3.png"
+    ],
+    "missing": [
+      "E/E04-09/f1.png",
+      "E/E04-09/f2.png",
+      "E/E04-09/f3.png"
+    ]
+  },
+  {
+    "segment": "E04-10",
+    "seconds": 15,
+    "cuts": 4,
+    "cutStarts": [
+      0,
+      4,
+      8,
+      11
+    ],
+    "prompt": "E/E04-10/prompt.md",
+    "pictures": [
+      "E/E04-10/f1.png",
+      "E/E04-10/f2.png",
+      "E/E04-10/f3.png",
+      "E/E04-10/f4.png"
+    ],
+    "missing": [
+      "E/E04-10/f1.png",
+      "E/E04-10/f2.png",
+      "E/E04-10/f3.png",
+      "E/E04-10/f4.png"
+    ]
+  },
+  {
+    "segment": "E04-11",
+    "seconds": 9,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      3,
+      6
+    ],
+    "prompt": "E/E04-11/prompt.md",
+    "pictures": [
+      "E/E04-11/f1.png",
+      "E/E04-11/f2.png",
+      "E/E04-11/f3.png"
+    ],
+    "missing": [
+      "E/E04-11/f1.png",
+      "E/E04-11/f2.png",
+      "E/E04-11/f3.png"
+    ]
+  },
+  {
+    "segment": "E04-12",
+    "seconds": 13,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      4,
+      8
+    ],
+    "prompt": "E/E04-12/prompt.md",
+    "pictures": [
+      "E/E04-12/f1.png",
+      "E/E04-12/f2.png",
+      "E/E04-12/f3.png"
+    ],
+    "missing": [
+      "E/E04-12/f1.png",
+      "E/E04-12/f2.png",
+      "E/E04-12/f3.png"
+    ]
+  },
+  {
+    "segment": "E04-13",
+    "seconds": 13,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      5,
+      8
+    ],
+    "prompt": "E/E04-13/prompt.md",
+    "pictures": [
+      "E/E04-13/f1.png",
+      "E/E04-13/f2.png",
+      "E/E04-13/f3.png"
+    ],
+    "missing": [
+      "E/E04-13/f1.png",
+      "E/E04-13/f2.png",
+      "E/E04-13/f3.png"
+    ]
+  },
+  {
+    "segment": "E04-14",
+    "seconds": 15,
+    "cuts": 4,
+    "cutStarts": [
+      0,
+      5,
+      8,
+      11
+    ],
+    "prompt": "E/E04-14/prompt.md",
+    "pictures": [
+      "E/E04-14/f1.png",
+      "E/E04-14/f2.png",
+      "E/E04-14/f3.png",
+      "E/E04-14/f4.png"
+    ],
+    "missing": [
+      "E/E04-14/f1.png",
+      "E/E04-14/f2.png",
+      "E/E04-14/f3.png",
+      "E/E04-14/f4.png"
+    ]
+  },
+  {
+    "segment": "E04-15",
+    "seconds": 11,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      3,
+      6
+    ],
+    "prompt": "E/E04-15/prompt.md",
+    "pictures": [
+      "E/E04-15/f1.png",
+      "E/E04-15/f2.png",
+      "E/E04-15/f3.png"
+    ],
+    "missing": [
+      "E/E04-15/f1.png",
+      "E/E04-15/f2.png",
+      "E/E04-15/f3.png"
+    ]
+  },
+  {
+    "segment": "E04-16",
+    "seconds": 11,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      3,
+      8
+    ],
+    "prompt": "E/E04-16/prompt.md",
+    "pictures": [
+      "E/E04-16/f1.png",
+      "E/E04-16/f2.png",
+      "E/E04-16/f3.png"
+    ],
+    "missing": [
+      "E/E04-16/f1.png",
+      "E/E04-16/f2.png",
+      "E/E04-16/f3.png"
+    ]
+  },
+  {
+    "segment": "E04-17",
+    "seconds": 10,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      5
+    ],
+    "prompt": "E/E04-17/prompt.md",
+    "pictures": [
+      "E/E04-17/f1.png",
+      "E/E04-17/f2.png"
+    ],
+    "missing": [
+      "E/E04-17/f1.png",
+      "E/E04-17/f2.png"
+    ]
+  },
+  {
+    "segment": "E05-01",
+    "seconds": 12,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      5,
+      8
+    ],
+    "prompt": "E/E05-01/prompt.md",
+    "pictures": [
+      "E/E05-01/f1.png",
+      "E/E05-01/f2.png",
+      "E/E05-01/f3.png"
+    ],
+    "missing": [
+      "E/E05-01/f1.png",
+      "E/E05-01/f2.png",
+      "E/E05-01/f3.png"
+    ]
+  },
+  {
+    "segment": "E05-02",
+    "seconds": 15,
+    "cuts": 4,
+    "cutStarts": [
+      0,
+      5,
+      7,
+      12
+    ],
+    "prompt": "E/E05-02/prompt.md",
+    "pictures": [
+      "E/E05-02/f1.png",
+      "E/E05-02/f2.png",
+      "E/E05-02/f3.png",
+      "E/E05-02/f4.png"
+    ],
+    "missing": [
+      "E/E05-02/f1.png",
+      "E/E05-02/f2.png",
+      "E/E05-02/f3.png",
+      "E/E05-02/f4.png"
+    ]
+  },
+  {
+    "segment": "E05-03",
+    "seconds": 13,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      5,
+      8
+    ],
+    "prompt": "E/E05-03/prompt.md",
+    "pictures": [
+      "E/E05-03/f1.png",
+      "E/E05-03/f2.png",
+      "E/E05-03/f3.png"
+    ],
+    "missing": [
+      "E/E05-03/f1.png",
+      "E/E05-03/f2.png",
+      "E/E05-03/f3.png"
+    ]
+  },
+  {
+    "segment": "E05-04",
+    "seconds": 9,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      4,
+      6
+    ],
+    "prompt": "E/E05-04/prompt.md",
+    "pictures": [
+      "E/E05-04/f1.png",
+      "E/E05-04/f2.png",
+      "E/E05-04/f3.png"
+    ],
+    "missing": [
+      "E/E05-04/f1.png",
+      "E/E05-04/f2.png",
+      "E/E05-04/f3.png"
+    ]
+  },
+  {
+    "segment": "E05-05",
+    "seconds": 11,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      3,
+      6
+    ],
+    "prompt": "E/E05-05/prompt.md",
+    "pictures": [
+      "E/E05-05/f1.png",
+      "E/E05-05/f2.png",
+      "E/E05-05/f3.png"
+    ],
+    "missing": [
+      "E/E05-05/f1.png",
+      "E/E05-05/f2.png",
+      "E/E05-05/f3.png"
+    ]
+  },
+  {
+    "segment": "E05-06",
+    "seconds": 14,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      5,
+      9
+    ],
+    "prompt": "E/E05-06/prompt.md",
+    "pictures": [
+      "E/E05-06/f1.png",
+      "E/E05-06/f2.png",
+      "E/E05-06/f3.png"
+    ],
+    "missing": [
+      "E/E05-06/f1.png",
+      "E/E05-06/f2.png",
+      "E/E05-06/f3.png"
+    ]
+  },
+  {
+    "segment": "E05-07",
+    "seconds": 10,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      3,
+      6
+    ],
+    "prompt": "E/E05-07/prompt.md",
+    "pictures": [
+      "E/E05-07/f1.png",
+      "E/E05-07/f2.png",
+      "E/E05-07/f3.png"
+    ],
+    "missing": [
+      "E/E05-07/f1.png",
+      "E/E05-07/f2.png",
+      "E/E05-07/f3.png"
+    ]
+  },
+  {
+    "segment": "E05-08",
+    "seconds": 10,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      3,
+      6
+    ],
+    "prompt": "E/E05-08/prompt.md",
+    "pictures": [
+      "E/E05-08/f1.png",
+      "E/E05-08/f2.png",
+      "E/E05-08/f3.png"
+    ],
+    "missing": [
+      "E/E05-08/f1.png",
+      "E/E05-08/f2.png",
+      "E/E05-08/f3.png"
+    ]
+  },
+  {
+    "segment": "E05-09",
+    "seconds": 7,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      3
+    ],
+    "prompt": "E/E05-09/prompt.md",
+    "pictures": [
+      "E/E05-09/f1.png",
+      "E/E05-09/f2.png"
+    ],
+    "missing": [
+      "E/E05-09/f1.png",
+      "E/E05-09/f2.png"
+    ]
+  },
+  {
+    "segment": "E05-10",
+    "seconds": 12,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      3,
+      9
+    ],
+    "prompt": "E/E05-10/prompt.md",
+    "pictures": [
+      "E/E05-10/f1.png",
+      "E/E05-10/f2.png",
+      "E/E05-10/f3.png"
+    ],
+    "missing": [
+      "E/E05-10/f1.png",
+      "E/E05-10/f2.png",
+      "E/E05-10/f3.png"
+    ]
+  },
+  {
+    "segment": "E05-11",
+    "seconds": 11,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      4,
+      8
+    ],
+    "prompt": "E/E05-11/prompt.md",
+    "pictures": [
+      "E/E05-11/f1.png",
+      "E/E05-11/f2.png",
+      "E/E05-11/f3.png"
+    ],
+    "missing": [
+      "E/E05-11/f1.png",
+      "E/E05-11/f2.png",
+      "E/E05-11/f3.png"
+    ]
+  },
+  {
+    "segment": "E05-12",
+    "seconds": 11,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      4,
+      7
+    ],
+    "prompt": "E/E05-12/prompt.md",
+    "pictures": [
+      "E/E05-12/f1.png",
+      "E/E05-12/f2.png",
+      "E/E05-12/f3.png"
+    ],
+    "missing": [
+      "E/E05-12/f1.png",
+      "E/E05-12/f2.png",
+      "E/E05-12/f3.png"
+    ]
+  },
+  {
+    "segment": "E05-13",
+    "seconds": 9,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      3,
+      6
+    ],
+    "prompt": "E/E05-13/prompt.md",
+    "pictures": [
+      "E/E05-13/f1.png",
+      "E/E05-13/f2.png",
+      "E/E05-13/f3.png"
+    ],
+    "missing": [
+      "E/E05-13/f1.png",
+      "E/E05-13/f2.png",
+      "E/E05-13/f3.png"
+    ]
+  },
+  {
+    "segment": "E05-14",
+    "seconds": 9,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      5
+    ],
+    "prompt": "E/E05-14/prompt.md",
+    "pictures": [
+      "E/E05-14/f1.png",
+      "E/E05-14/f2.png"
+    ],
+    "missing": [
+      "E/E05-14/f1.png",
+      "E/E05-14/f2.png"
+    ]
+  },
+  {
+    "segment": "E05-15",
+    "seconds": 9,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      5
+    ],
+    "prompt": "E/E05-15/prompt.md",
+    "pictures": [
+      "E/E05-15/f1.png",
+      "E/E05-15/f2.png"
+    ],
+    "missing": [
+      "E/E05-15/f1.png",
+      "E/E05-15/f2.png"
+    ]
+  },
+  {
+    "segment": "E05-16",
+    "seconds": 12,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      4,
+      9
+    ],
+    "prompt": "E/E05-16/prompt.md",
+    "pictures": [
+      "E/E05-16/f1.png",
+      "E/E05-16/f2.png",
+      "E/E05-16/f3.png"
+    ],
+    "missing": [
+      "E/E05-16/f1.png",
+      "E/E05-16/f2.png",
+      "E/E05-16/f3.png"
+    ]
+  },
+  {
+    "segment": "E05-17",
+    "seconds": 10,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      4,
+      7
+    ],
+    "prompt": "E/E05-17/prompt.md",
+    "pictures": [
+      "E/E05-17/f1.png",
+      "E/E05-17/f2.png",
+      "E/E05-17/f3.png"
+    ],
+    "missing": [
+      "E/E05-17/f1.png",
+      "E/E05-17/f2.png",
+      "E/E05-17/f3.png"
+    ]
+  },
+  {
+    "segment": "E05-18",
+    "seconds": 11,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      3,
+      6
+    ],
+    "prompt": "E/E05-18/prompt.md",
+    "pictures": [
+      "E/E05-18/f1.png",
+      "E/E05-18/f2.png",
+      "E/E05-18/f3.png"
+    ],
+    "missing": [
+      "E/E05-18/f1.png",
+      "E/E05-18/f2.png",
+      "E/E05-18/f3.png"
+    ]
+  },
+  {
+    "segment": "E06-01",
+    "seconds": 10,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      4,
+      7
+    ],
+    "prompt": "E/E06-01/prompt.md",
+    "pictures": [
+      "E/E06-01/f1.png",
+      "E/E06-01/f2.png",
+      "E/E06-01/f3.png"
+    ],
+    "missing": [
+      "E/E06-01/f1.png",
+      "E/E06-01/f2.png",
+      "E/E06-01/f3.png"
+    ]
+  },
+  {
+    "segment": "E06-02",
+    "seconds": 10,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      4,
+      7
+    ],
+    "prompt": "E/E06-02/prompt.md",
+    "pictures": [
+      "E/E06-02/f1.png",
+      "E/E06-02/f2.png",
+      "E/E06-02/f3.png"
+    ],
+    "missing": [
+      "E/E06-02/f1.png",
+      "E/E06-02/f2.png",
+      "E/E06-02/f3.png"
+    ]
+  },
+  {
+    "segment": "E06-03",
+    "seconds": 11,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      4,
+      7
+    ],
+    "prompt": "E/E06-03/prompt.md",
+    "pictures": [
+      "E/E06-03/f1.png",
+      "E/E06-03/f2.png",
+      "E/E06-03/f3.png"
+    ],
+    "missing": [
+      "E/E06-03/f1.png",
+      "E/E06-03/f2.png",
+      "E/E06-03/f3.png"
+    ]
+  },
+  {
+    "segment": "E06-04",
+    "seconds": 12,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      5,
+      8
+    ],
+    "prompt": "E/E06-04/prompt.md",
+    "pictures": [
+      "E/E06-04/f1.png",
+      "E/E06-04/f2.png",
+      "E/E06-04/f3.png"
+    ],
+    "missing": [
+      "E/E06-04/f1.png",
+      "E/E06-04/f2.png",
+      "E/E06-04/f3.png"
+    ]
+  },
+  {
+    "segment": "E06-05",
+    "seconds": 11,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      5,
+      8
+    ],
+    "prompt": "E/E06-05/prompt.md",
+    "pictures": [
+      "E/E06-05/f1.png",
+      "E/E06-05/f2.png",
+      "E/E06-05/f3.png"
+    ],
+    "missing": [
+      "E/E06-05/f1.png",
+      "E/E06-05/f2.png",
+      "E/E06-05/f3.png"
+    ]
+  },
+  {
+    "segment": "E06-06",
+    "seconds": 11,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      4,
+      7
+    ],
+    "prompt": "E/E06-06/prompt.md",
+    "pictures": [
+      "E/E06-06/f1.png",
+      "E/E06-06/f2.png",
+      "E/E06-06/f3.png"
+    ],
+    "missing": [
+      "E/E06-06/f1.png",
+      "E/E06-06/f2.png",
+      "E/E06-06/f3.png"
+    ]
+  },
+  {
+    "segment": "E06-07",
+    "seconds": 12,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      4,
+      7
+    ],
+    "prompt": "E/E06-07/prompt.md",
+    "pictures": [
+      "E/E06-07/f1.png",
+      "E/E06-07/f2.png",
+      "E/E06-07/f3.png"
+    ],
+    "missing": [
+      "E/E06-07/f1.png",
+      "E/E06-07/f2.png",
+      "E/E06-07/f3.png"
+    ]
+  },
+  {
+    "segment": "E06-08",
+    "seconds": 11,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      3,
+      6
+    ],
+    "prompt": "E/E06-08/prompt.md",
+    "pictures": [
+      "E/E06-08/f1.png",
+      "E/E06-08/f2.png",
+      "E/E06-08/f3.png"
+    ],
+    "missing": [
+      "E/E06-08/f1.png",
+      "E/E06-08/f2.png",
+      "E/E06-08/f3.png"
+    ]
+  },
+  {
+    "segment": "E06-09",
+    "seconds": 13,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      5,
+      9
+    ],
+    "prompt": "E/E06-09/prompt.md",
+    "pictures": [
+      "E/E06-09/f1.png",
+      "E/E06-09/f2.png",
+      "E/E06-09/f3.png"
+    ],
+    "missing": [
+      "E/E06-09/f1.png",
+      "E/E06-09/f2.png",
+      "E/E06-09/f3.png"
+    ]
+  },
+  {
+    "segment": "E06-10",
+    "seconds": 12,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      4,
+      7
+    ],
+    "prompt": "E/E06-10/prompt.md",
+    "pictures": [
+      "E/E06-10/f1.png",
+      "E/E06-10/f2.png",
+      "E/E06-10/f3.png"
+    ],
+    "missing": [
+      "E/E06-10/f1.png",
+      "E/E06-10/f2.png",
+      "E/E06-10/f3.png"
+    ]
+  },
+  {
+    "segment": "E06-11",
+    "seconds": 12,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      3,
+      7
+    ],
+    "prompt": "E/E06-11/prompt.md",
+    "pictures": [
+      "E/E06-11/f1.png",
+      "E/E06-11/f2.png",
+      "E/E06-11/f3.png"
+    ],
+    "missing": [
+      "E/E06-11/f1.png",
+      "E/E06-11/f2.png",
+      "E/E06-11/f3.png"
+    ]
+  },
+  {
+    "segment": "E06-12",
+    "seconds": 11,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      4,
+      8
+    ],
+    "prompt": "E/E06-12/prompt.md",
+    "pictures": [
+      "E/E06-12/f1.png",
+      "E/E06-12/f2.png",
+      "E/E06-12/f3.png"
+    ],
+    "missing": [
+      "E/E06-12/f1.png",
+      "E/E06-12/f2.png",
+      "E/E06-12/f3.png"
+    ]
+  },
+  {
+    "segment": "E06-13",
+    "seconds": 13,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      4,
+      8
+    ],
+    "prompt": "E/E06-13/prompt.md",
+    "pictures": [
+      "E/E06-13/f1.png",
+      "E/E06-13/f2.png",
+      "E/E06-13/f3.png"
+    ],
+    "missing": [
+      "E/E06-13/f1.png",
+      "E/E06-13/f2.png",
+      "E/E06-13/f3.png"
+    ]
+  },
+  {
+    "segment": "E06-14",
+    "seconds": 15,
+    "cuts": 4,
+    "cutStarts": [
+      0,
+      3,
+      7,
+      11
+    ],
+    "prompt": "E/E06-14/prompt.md",
+    "pictures": [
+      "E/E06-14/f1.png",
+      "E/E06-14/f2.png",
+      "E/E06-14/f3.png",
+      "E/E06-14/f4.png"
+    ],
+    "missing": [
+      "E/E06-14/f1.png",
+      "E/E06-14/f2.png",
+      "E/E06-14/f3.png",
+      "E/E06-14/f4.png"
+    ]
+  },
+  {
+    "segment": "E07-01",
+    "seconds": 15,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      3,
+      9
+    ],
+    "prompt": "E/E07-01/prompt.md",
+    "pictures": [
+      "E/E07-01/f1.png",
+      "E/E07-01/f2.png",
+      "E/E07-01/f3.png"
+    ],
+    "missing": [
+      "E/E07-01/f1.png",
+      "E/E07-01/f2.png",
+      "E/E07-01/f3.png"
+    ]
+  },
+  {
+    "segment": "E07-02",
+    "seconds": 13,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      3,
+      9
+    ],
+    "prompt": "E/E07-02/prompt.md",
+    "pictures": [
+      "E/E07-02/f1.png",
+      "E/E07-02/f2.png",
+      "E/E07-02/f3.png"
+    ],
+    "missing": [
+      "E/E07-02/f1.png",
+      "E/E07-02/f2.png",
+      "E/E07-02/f3.png"
+    ]
+  },
+  {
+    "segment": "E07-03",
+    "seconds": 13,
+    "cuts": 4,
+    "cutStarts": [
+      0,
+      3,
+      6,
+      9
+    ],
+    "prompt": "E/E07-03/prompt.md",
+    "pictures": [
+      "E/E07-03/f1.png",
+      "E/E07-03/f2.png",
+      "E/E07-03/f3.png",
+      "E/E07-03/f4.png"
+    ],
+    "missing": [
+      "E/E07-03/f1.png",
+      "E/E07-03/f2.png",
+      "E/E07-03/f3.png",
+      "E/E07-03/f4.png"
+    ]
+  },
+  {
+    "segment": "E07-04",
+    "seconds": 11,
+    "cuts": 4,
+    "cutStarts": [
+      0,
+      3,
+      6,
+      9
+    ],
+    "prompt": "E/E07-04/prompt.md",
+    "pictures": [
+      "E/E07-04/f1.png",
+      "E/E07-04/f2.png",
+      "E/E07-04/f3.png",
+      "E/E07-04/f4.png"
+    ],
+    "missing": [
+      "E/E07-04/f1.png",
+      "E/E07-04/f2.png",
+      "E/E07-04/f3.png",
+      "E/E07-04/f4.png"
+    ]
+  },
+  {
+    "segment": "E07-05",
+    "seconds": 15,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      5,
+      10
+    ],
+    "prompt": "E/E07-05/prompt.md",
+    "pictures": [
+      "E/E07-05/f1.png",
+      "E/E07-05/f2.png",
+      "E/E07-05/f3.png"
+    ],
+    "missing": [
+      "E/E07-05/f1.png",
+      "E/E07-05/f2.png",
+      "E/E07-05/f3.png"
+    ]
+  },
+  {
+    "segment": "E07-06",
+    "seconds": 13,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      6
+    ],
+    "prompt": "E/E07-06/prompt.md",
+    "pictures": [
+      "E/E07-06/f1.png",
+      "E/E07-06/f2.png"
+    ],
+    "missing": [
+      "E/E07-06/f1.png",
+      "E/E07-06/f2.png"
+    ]
+  },
+  {
+    "segment": "E07-07",
+    "seconds": 14,
+    "cuts": 4,
+    "cutStarts": [
+      0,
+      4,
+      8,
+      11
+    ],
+    "prompt": "E/E07-07/prompt.md",
+    "pictures": [
+      "E/E07-07/f1.png",
+      "E/E07-07/f2.png",
+      "E/E07-07/f3.png",
+      "E/E07-07/f4.png"
+    ],
+    "missing": [
+      "E/E07-07/f1.png",
+      "E/E07-07/f2.png",
+      "E/E07-07/f3.png",
+      "E/E07-07/f4.png"
+    ]
+  },
+  {
+    "segment": "E07-08",
+    "seconds": 12,
+    "cuts": 4,
+    "cutStarts": [
+      0,
+      3,
+      6,
+      9
+    ],
+    "prompt": "E/E07-08/prompt.md",
+    "pictures": [
+      "E/E07-08/f1.png",
+      "E/E07-08/f2.png",
+      "E/E07-08/f3.png",
+      "E/E07-08/f4.png"
+    ],
+    "missing": [
+      "E/E07-08/f1.png",
+      "E/E07-08/f2.png",
+      "E/E07-08/f3.png",
+      "E/E07-08/f4.png"
+    ]
+  },
+  {
+    "segment": "E07-09",
+    "seconds": 10,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      3,
+      6
+    ],
+    "prompt": "E/E07-09/prompt.md",
+    "pictures": [
+      "E/E07-09/f1.png",
+      "E/E07-09/f2.png",
+      "E/E07-09/f3.png"
+    ],
+    "missing": [
+      "E/E07-09/f1.png",
+      "E/E07-09/f2.png",
+      "E/E07-09/f3.png"
+    ]
+  },
+  {
+    "segment": "E07-10",
+    "seconds": 15,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      5,
+      9
+    ],
+    "prompt": "E/E07-10/prompt.md",
+    "pictures": [
+      "E/E07-10/f1.png",
+      "E/E07-10/f2.png",
+      "E/E07-10/f3.png"
+    ],
+    "missing": [
+      "E/E07-10/f1.png",
+      "E/E07-10/f2.png",
+      "E/E07-10/f3.png"
+    ]
+  },
+  {
+    "segment": "E07-11",
+    "seconds": 10,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      3,
+      7
+    ],
+    "prompt": "E/E07-11/prompt.md",
+    "pictures": [
+      "E/E07-11/f1.png",
+      "E/E07-11/f2.png",
+      "E/E07-11/f3.png"
+    ],
+    "missing": [
+      "E/E07-11/f1.png",
+      "E/E07-11/f2.png",
+      "E/E07-11/f3.png"
+    ]
+  },
+  {
+    "segment": "E07-12",
+    "seconds": 15,
+    "cuts": 4,
+    "cutStarts": [
+      0,
+      6,
+      9,
+      12
+    ],
+    "prompt": "E/E07-12/prompt.md",
+    "pictures": [
+      "E/E07-12/f1.png",
+      "E/E07-12/f2.png",
+      "E/E07-12/f3.png",
+      "E/E07-12/f4.png"
+    ],
+    "missing": [
+      "E/E07-12/f1.png",
+      "E/E07-12/f2.png",
+      "E/E07-12/f3.png",
+      "E/E07-12/f4.png"
+    ]
+  },
+  {
+    "segment": "E07-13",
+    "seconds": 13,
+    "cuts": 4,
+    "cutStarts": [
+      0,
+      4,
+      7,
+      10
+    ],
+    "prompt": "E/E07-13/prompt.md",
+    "pictures": [
+      "E/E07-13/f1.png",
+      "E/E07-13/f2.png",
+      "E/E07-13/f3.png",
+      "E/E07-13/f4.png"
+    ],
+    "missing": [
+      "E/E07-13/f1.png",
+      "E/E07-13/f2.png",
+      "E/E07-13/f3.png",
+      "E/E07-13/f4.png"
+    ]
+  },
+  {
+    "segment": "E07-14",
+    "seconds": 15,
+    "cuts": 5,
+    "cutStarts": [
+      0,
+      3,
+      6,
+      9,
+      13
+    ],
+    "prompt": "E/E07-14/prompt.md",
+    "pictures": [
+      "E/E07-14/f1.png",
+      "E/E07-14/f2.png",
+      "E/E07-14/f3.png",
+      "E/E07-14/f4.png",
+      "E/E07-14/f5.png"
+    ],
+    "missing": [
+      "E/E07-14/f1.png",
+      "E/E07-14/f2.png",
+      "E/E07-14/f3.png",
+      "E/E07-14/f4.png",
+      "E/E07-14/f5.png"
+    ]
+  },
+  {
+    "segment": "E07-15",
+    "seconds": 12,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      5,
+      8
+    ],
+    "prompt": "E/E07-15/prompt.md",
+    "pictures": [
+      "E/E07-15/f1.png",
+      "E/E07-15/f2.png",
+      "E/E07-15/f3.png"
+    ],
+    "missing": [
+      "E/E07-15/f1.png",
+      "E/E07-15/f2.png",
+      "E/E07-15/f3.png"
+    ]
+  },
+  {
+    "segment": "E08-01",
+    "seconds": 13,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      4,
+      10
+    ],
+    "prompt": "E/E08-01/prompt.md",
+    "pictures": [
+      "E/E08-01/f1.png",
+      "E/E08-01/f2.png",
+      "E/E08-01/f3.png"
+    ],
+    "missing": [
+      "E/E08-01/f1.png",
+      "E/E08-01/f2.png",
+      "E/E08-01/f3.png"
+    ]
+  },
+  {
+    "segment": "E08-02",
+    "seconds": 14,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      3,
+      9
+    ],
+    "prompt": "E/E08-02/prompt.md",
+    "pictures": [
+      "E/E08-02/f1.png",
+      "E/E08-02/f2.png",
+      "E/E08-02/f3.png"
+    ],
+    "missing": [
+      "E/E08-02/f1.png",
+      "E/E08-02/f2.png",
+      "E/E08-02/f3.png"
+    ]
+  },
+  {
+    "segment": "E08-03",
+    "seconds": 14,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      6,
+      9
+    ],
+    "prompt": "E/E08-03/prompt.md",
+    "pictures": [
+      "E/E08-03/f1.png",
+      "E/E08-03/f2.png",
+      "E/E08-03/f3.png"
+    ],
+    "missing": [
+      "E/E08-03/f1.png",
+      "E/E08-03/f2.png",
+      "E/E08-03/f3.png"
+    ]
+  },
+  {
+    "segment": "E08-04",
+    "seconds": 15,
+    "cuts": 4,
+    "cutStarts": [
+      0,
+      5,
+      8,
+      11
+    ],
+    "prompt": "E/E08-04/prompt.md",
+    "pictures": [
+      "E/E08-04/f1.png",
+      "E/E08-04/f2.png",
+      "E/E08-04/f3.png",
+      "E/E08-04/f4.png"
+    ],
+    "missing": [
+      "E/E08-04/f1.png",
+      "E/E08-04/f2.png",
+      "E/E08-04/f3.png",
+      "E/E08-04/f4.png"
+    ]
+  },
+  {
+    "segment": "E08-05",
+    "seconds": 9,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      4
+    ],
+    "prompt": "E/E08-05/prompt.md",
+    "pictures": [
+      "E/E08-05/f1.png",
+      "E/E08-05/f2.png"
+    ],
+    "missing": [
+      "E/E08-05/f1.png",
+      "E/E08-05/f2.png"
+    ]
+  },
+  {
+    "segment": "E08-06",
+    "seconds": 11,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      6
+    ],
+    "prompt": "E/E08-06/prompt.md",
+    "pictures": [
+      "E/E08-06/f1.png",
+      "E/E08-06/f2.png"
+    ],
+    "missing": [
+      "E/E08-06/f1.png",
+      "E/E08-06/f2.png"
+    ]
+  },
+  {
+    "segment": "E08-07",
+    "seconds": 11,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      3,
+      8
+    ],
+    "prompt": "E/E08-07/prompt.md",
+    "pictures": [
+      "E/E08-07/f1.png",
+      "E/E08-07/f2.png",
+      "E/E08-07/f3.png"
+    ],
+    "missing": [
+      "E/E08-07/f1.png",
+      "E/E08-07/f2.png",
+      "E/E08-07/f3.png"
+    ]
+  },
+  {
+    "segment": "E08-08",
+    "seconds": 12,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      2,
+      5
+    ],
+    "prompt": "E/E08-08/prompt.md",
+    "pictures": [
+      "E/E08-08/f1.png",
+      "E/E08-08/f2.png",
+      "E/E08-08/f3.png"
+    ],
+    "missing": [
+      "E/E08-08/f1.png",
+      "E/E08-08/f2.png",
+      "E/E08-08/f3.png"
+    ]
+  },
+  {
+    "segment": "E08-09",
+    "seconds": 12,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      6,
+      9
+    ],
+    "prompt": "E/E08-09/prompt.md",
+    "pictures": [
+      "E/E08-09/f1.png",
+      "E/E08-09/f2.png",
+      "E/E08-09/f3.png"
+    ],
+    "missing": [
+      "E/E08-09/f1.png",
+      "E/E08-09/f2.png",
+      "E/E08-09/f3.png"
+    ]
+  },
+  {
+    "segment": "E08-10",
+    "seconds": 15,
+    "cuts": 4,
+    "cutStarts": [
+      0,
+      3,
+      7,
+      10
+    ],
+    "prompt": "E/E08-10/prompt.md",
+    "pictures": [
+      "E/E08-10/f1.png",
+      "E/E08-10/f2.png",
+      "E/E08-10/f3.png",
+      "E/E08-10/f4.png"
+    ],
+    "missing": [
+      "E/E08-10/f1.png",
+      "E/E08-10/f2.png",
+      "E/E08-10/f3.png",
+      "E/E08-10/f4.png"
+    ]
+  },
+  {
+    "segment": "E08-11",
+    "seconds": 13,
+    "cuts": 4,
+    "cutStarts": [
+      0,
+      4,
+      7,
+      10
+    ],
+    "prompt": "E/E08-11/prompt.md",
+    "pictures": [
+      "E/E08-11/f1.png",
+      "E/E08-11/f2.png",
+      "E/E08-11/f3.png",
+      "E/E08-11/f4.png"
+    ],
+    "missing": [
+      "E/E08-11/f1.png",
+      "E/E08-11/f2.png",
+      "E/E08-11/f3.png",
+      "E/E08-11/f4.png"
+    ]
+  },
+  {
+    "segment": "E08-12",
+    "seconds": 11,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      6
+    ],
+    "prompt": "E/E08-12/prompt.md",
+    "pictures": [
+      "E/E08-12/f1.png",
+      "E/E08-12/f2.png"
+    ],
+    "missing": [
+      "E/E08-12/f1.png",
+      "E/E08-12/f2.png"
+    ]
+  },
+  {
+    "segment": "E08-13",
+    "seconds": 9,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      5
+    ],
+    "prompt": "E/E08-13/prompt.md",
+    "pictures": [
+      "E/E08-13/f1.png",
+      "E/E08-13/f2.png"
+    ],
+    "missing": [
+      "E/E08-13/f1.png",
+      "E/E08-13/f2.png"
+    ]
+  },
+  {
+    "segment": "E08-14",
+    "seconds": 11,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      4,
+      8
+    ],
+    "prompt": "E/E08-14/prompt.md",
+    "pictures": [
+      "E/E08-14/f1.png",
+      "E/E08-14/f2.png",
+      "E/E08-14/f3.png"
+    ],
+    "missing": [
+      "E/E08-14/f1.png",
+      "E/E08-14/f2.png",
+      "E/E08-14/f3.png"
+    ]
+  },
+  {
+    "segment": "E08-15",
+    "seconds": 7,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      4
+    ],
+    "prompt": "E/E08-15/prompt.md",
+    "pictures": [
+      "E/E08-15/f1.png",
+      "E/E08-15/f2.png"
+    ],
+    "missing": [
+      "E/E08-15/f1.png",
+      "E/E08-15/f2.png"
+    ]
+  },
+  {
+    "segment": "E08-16",
+    "seconds": 15,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      6,
+      11
+    ],
+    "prompt": "E/E08-16/prompt.md",
+    "pictures": [
+      "E/E08-16/f1.png",
+      "E/E08-16/f2.png",
+      "E/E08-16/f3.png"
+    ],
+    "missing": [
+      "E/E08-16/f1.png",
+      "E/E08-16/f2.png",
+      "E/E08-16/f3.png"
+    ]
+  },
+  {
+    "segment": "E09-01",
+    "seconds": 13,
+    "cuts": 4,
+    "cutStarts": [
+      0,
+      3,
+      6,
+      9
+    ],
+    "prompt": "E/E09-01/prompt.md",
+    "pictures": [
+      "E/E09-01/f1.png",
+      "E/E09-01/f2.png",
+      "E/E09-01/f3.png",
+      "E/E09-01/f4.png"
+    ],
+    "missing": [
+      "E/E09-01/f1.png",
+      "E/E09-01/f2.png",
+      "E/E09-01/f3.png",
+      "E/E09-01/f4.png"
+    ]
+  },
+  {
+    "segment": "E09-02",
+    "seconds": 10,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      3,
+      6
+    ],
+    "prompt": "E/E09-02/prompt.md",
+    "pictures": [
+      "E/E09-02/f1.png",
+      "E/E09-02/f2.png",
+      "E/E09-02/f3.png"
+    ],
+    "missing": [
+      "E/E09-02/f1.png",
+      "E/E09-02/f2.png",
+      "E/E09-02/f3.png"
+    ]
+  },
+  {
+    "segment": "E09-03",
+    "seconds": 9,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      3,
+      6
+    ],
+    "prompt": "E/E09-03/prompt.md",
+    "pictures": [
+      "E/E09-03/f1.png",
+      "E/E09-03/f2.png",
+      "E/E09-03/f3.png"
+    ],
+    "missing": [
+      "E/E09-03/f1.png",
+      "E/E09-03/f2.png",
+      "E/E09-03/f3.png"
+    ]
+  },
+  {
+    "segment": "E09-04",
+    "seconds": 12,
+    "cuts": 4,
+    "cutStarts": [
+      0,
+      3,
+      6,
+      9
+    ],
+    "prompt": "E/E09-04/prompt.md",
+    "pictures": [
+      "E/E09-04/f1.png",
+      "E/E09-04/f2.png",
+      "E/E09-04/f3.png",
+      "E/E09-04/f4.png"
+    ],
+    "missing": [
+      "E/E09-04/f1.png",
+      "E/E09-04/f2.png",
+      "E/E09-04/f3.png",
+      "E/E09-04/f4.png"
+    ]
+  },
+  {
+    "segment": "E09-05",
+    "seconds": 12,
+    "cuts": 4,
+    "cutStarts": [
+      0,
+      3,
+      6,
+      9
+    ],
+    "prompt": "E/E09-05/prompt.md",
+    "pictures": [
+      "E/E09-05/f1.png",
+      "E/E09-05/f2.png",
+      "E/E09-05/f3.png",
+      "E/E09-05/f4.png"
+    ],
+    "missing": [
+      "E/E09-05/f1.png",
+      "E/E09-05/f2.png",
+      "E/E09-05/f3.png",
+      "E/E09-05/f4.png"
+    ]
+  },
+  {
+    "segment": "E09-06",
+    "seconds": 14,
+    "cuts": 4,
+    "cutStarts": [
+      0,
+      3,
+      6,
+      9
+    ],
+    "prompt": "E/E09-06/prompt.md",
+    "pictures": [
+      "E/E09-06/f1.png",
+      "E/E09-06/f2.png",
+      "E/E09-06/f3.png",
+      "E/E09-06/f4.png"
+    ],
+    "missing": [
+      "E/E09-06/f1.png",
+      "E/E09-06/f2.png",
+      "E/E09-06/f3.png",
+      "E/E09-06/f4.png"
+    ]
+  },
+  {
+    "segment": "E09-07",
+    "seconds": 15,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      4,
+      11
+    ],
+    "prompt": "E/E09-07/prompt.md",
+    "pictures": [
+      "E/E09-07/f1.png",
+      "E/E09-07/f2.png",
+      "E/E09-07/f3.png"
+    ],
+    "missing": [
+      "E/E09-07/f1.png",
+      "E/E09-07/f2.png",
+      "E/E09-07/f3.png"
+    ]
+  },
+  {
+    "segment": "E09-08",
+    "seconds": 13,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      7
+    ],
+    "prompt": "E/E09-08/prompt.md",
+    "pictures": [
+      "E/E09-08/f1.png",
+      "E/E09-08/f2.png"
+    ],
+    "missing": [
+      "E/E09-08/f1.png",
+      "E/E09-08/f2.png"
+    ]
+  },
+  {
+    "segment": "E09-09",
+    "seconds": 14,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      8
+    ],
+    "prompt": "E/E09-09/prompt.md",
+    "pictures": [
+      "E/E09-09/f1.png",
+      "E/E09-09/f2.png"
+    ],
+    "missing": [
+      "E/E09-09/f1.png",
+      "E/E09-09/f2.png"
+    ]
+  },
+  {
+    "segment": "E09-10",
+    "seconds": 12,
+    "cuts": 4,
+    "cutStarts": [
+      0,
+      3,
+      6,
+      9
+    ],
+    "prompt": "E/E09-10/prompt.md",
+    "pictures": [
+      "E/E09-10/f1.png",
+      "E/E09-10/f2.png",
+      "E/E09-10/f3.png",
+      "E/E09-10/f4.png"
+    ],
+    "missing": [
+      "E/E09-10/f1.png",
+      "E/E09-10/f2.png",
+      "E/E09-10/f3.png",
+      "E/E09-10/f4.png"
+    ]
+  },
+  {
+    "segment": "E09-11",
+    "seconds": 11,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      5
+    ],
+    "prompt": "E/E09-11/prompt.md",
+    "pictures": [
+      "E/E09-11/f1.png",
+      "E/E09-11/f2.png"
+    ],
+    "missing": [
+      "E/E09-11/f1.png",
+      "E/E09-11/f2.png"
+    ]
+  },
+  {
+    "segment": "E09-12",
+    "seconds": 11,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      6
+    ],
+    "prompt": "E/E09-12/prompt.md",
+    "pictures": [
+      "E/E09-12/f1.png",
+      "E/E09-12/f2.png"
+    ],
+    "missing": [
+      "E/E09-12/f1.png",
+      "E/E09-12/f2.png"
+    ]
+  },
+  {
+    "segment": "E09-13",
+    "seconds": 14,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      5,
+      8
+    ],
+    "prompt": "E/E09-13/prompt.md",
+    "pictures": [
+      "E/E09-13/f1.png",
+      "E/E09-13/f2.png",
+      "E/E09-13/f3.png"
+    ],
+    "missing": [
+      "E/E09-13/f1.png",
+      "E/E09-13/f2.png",
+      "E/E09-13/f3.png"
+    ]
+  },
+  {
+    "segment": "E09-14",
+    "seconds": 10,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      3,
+      6
+    ],
+    "prompt": "E/E09-14/prompt.md",
+    "pictures": [
+      "E/E09-14/f1.png",
+      "E/E09-14/f2.png",
+      "E/E09-14/f3.png"
+    ],
+    "missing": [
+      "E/E09-14/f1.png",
+      "E/E09-14/f2.png",
+      "E/E09-14/f3.png"
+    ]
+  },
+  {
+    "segment": "E09-15",
+    "seconds": 9,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      4
+    ],
+    "prompt": "E/E09-15/prompt.md",
+    "pictures": [
+      "E/E09-15/f1.png",
+      "E/E09-15/f2.png"
+    ],
+    "missing": [
+      "E/E09-15/f1.png",
+      "E/E09-15/f2.png"
+    ]
+  },
+  {
+    "segment": "E10-01",
+    "seconds": 12.5,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      3,
+      6
+    ],
+    "prompt": "E/E10-01/prompt.md",
+    "pictures": [
+      "E/E10-01/f1.png",
+      "E/E10-01/f2.png",
+      "E/E10-01/f3.png"
+    ],
+    "missing": [
+      "E/E10-01/f1.png",
+      "E/E10-01/f2.png",
+      "E/E10-01/f3.png"
+    ]
+  },
+  {
+    "segment": "E10-02",
+    "seconds": 10.5,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      5.5
+    ],
+    "prompt": "E/E10-02/prompt.md",
+    "pictures": [
+      "E/E10-02/f1.png",
+      "E/E10-02/f2.png"
+    ],
+    "missing": [
+      "E/E10-02/f1.png",
+      "E/E10-02/f2.png"
+    ]
+  },
+  {
+    "segment": "E10-03",
+    "seconds": 14.5,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      8
+    ],
+    "prompt": "E/E10-03/prompt.md",
+    "pictures": [
+      "E/E10-03/f1.png",
+      "E/E10-03/f2.png"
+    ],
+    "missing": [
+      "E/E10-03/f1.png",
+      "E/E10-03/f2.png"
+    ]
+  },
+  {
+    "segment": "E10-04",
+    "seconds": 11.5,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      6.5
+    ],
+    "prompt": "E/E10-04/prompt.md",
+    "pictures": [
+      "E/E10-04/f1.png",
+      "E/E10-04/f2.png"
+    ],
+    "missing": [
+      "E/E10-04/f1.png",
+      "E/E10-04/f2.png"
+    ]
+  },
+  {
+    "segment": "E10-05",
+    "seconds": 11,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      3,
+      6
+    ],
+    "prompt": "E/E10-05/prompt.md",
+    "pictures": [
+      "E/E10-05/f1.png",
+      "E/E10-05/f2.png",
+      "E/E10-05/f3.png"
+    ],
+    "missing": [
+      "E/E10-05/f1.png",
+      "E/E10-05/f2.png",
+      "E/E10-05/f3.png"
+    ]
+  },
+  {
+    "segment": "E10-06",
+    "seconds": 8.5,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      3
+    ],
+    "prompt": "E/E10-06/prompt.md",
+    "pictures": [
+      "E/E10-06/f1.png",
+      "E/E10-06/f2.png"
+    ],
+    "missing": [
+      "E/E10-06/f1.png",
+      "E/E10-06/f2.png"
+    ]
+  },
+  {
+    "segment": "E10-07",
+    "seconds": 9.5,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      4
+    ],
+    "prompt": "E/E10-07/prompt.md",
+    "pictures": [
+      "E/E10-07/f1.png",
+      "E/E10-07/f2.png"
+    ],
+    "missing": [
+      "E/E10-07/f1.png",
+      "E/E10-07/f2.png"
+    ]
+  },
+  {
+    "segment": "E10-08",
+    "seconds": 7,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      3
+    ],
+    "prompt": "E/E10-08/prompt.md",
+    "pictures": [
+      "E/E10-08/f1.png",
+      "E/E10-08/f2.png"
+    ],
+    "missing": [
+      "E/E10-08/f1.png",
+      "E/E10-08/f2.png"
+    ]
+  },
+  {
+    "segment": "E10-09",
+    "seconds": 12,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      3,
+      6
+    ],
+    "prompt": "E/E10-09/prompt.md",
+    "pictures": [
+      "E/E10-09/f1.png",
+      "E/E10-09/f2.png",
+      "E/E10-09/f3.png"
+    ],
+    "missing": [
+      "E/E10-09/f1.png",
+      "E/E10-09/f2.png",
+      "E/E10-09/f3.png"
+    ]
+  },
+  {
+    "segment": "E10-10",
+    "seconds": 13,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      4,
+      8
+    ],
+    "prompt": "E/E10-10/prompt.md",
+    "pictures": [
+      "E/E10-10/f1.png",
+      "E/E10-10/f2.png",
+      "E/E10-10/f3.png"
+    ],
+    "missing": [
+      "E/E10-10/f1.png",
+      "E/E10-10/f2.png",
+      "E/E10-10/f3.png"
+    ]
+  },
+  {
+    "segment": "E10-11",
+    "seconds": 11,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      3,
+      6
+    ],
+    "prompt": "E/E10-11/prompt.md",
+    "pictures": [
+      "E/E10-11/f1.png",
+      "E/E10-11/f2.png",
+      "E/E10-11/f3.png"
+    ],
+    "missing": [
+      "E/E10-11/f1.png",
+      "E/E10-11/f2.png",
+      "E/E10-11/f3.png"
+    ]
+  },
+  {
+    "segment": "E10-12",
+    "seconds": 10,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      6
+    ],
+    "prompt": "E/E10-12/prompt.md",
+    "pictures": [
+      "E/E10-12/f1.png",
+      "E/E10-12/f2.png"
+    ],
+    "missing": [
+      "E/E10-12/f1.png",
+      "E/E10-12/f2.png"
+    ]
+  },
+  {
+    "segment": "E10-13",
+    "seconds": 11.5,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      4.5
+    ],
+    "prompt": "E/E10-13/prompt.md",
+    "pictures": [
+      "E/E10-13/f1.png",
+      "E/E10-13/f2.png"
+    ],
+    "missing": [
+      "E/E10-13/f1.png",
+      "E/E10-13/f2.png"
+    ]
+  },
+  {
+    "segment": "E10-14",
+    "seconds": 14,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      7,
+      11
+    ],
+    "prompt": "E/E10-14/prompt.md",
+    "pictures": [
+      "E/E10-14/f1.png",
+      "E/E10-14/f2.png",
+      "E/E10-14/f3.png"
+    ],
+    "missing": [
+      "E/E10-14/f1.png",
+      "E/E10-14/f2.png",
+      "E/E10-14/f3.png"
+    ]
+  },
+  {
+    "segment": "E10-15",
+    "seconds": 9.5,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      3.5
+    ],
+    "prompt": "E/E10-15/prompt.md",
+    "pictures": [
+      "E/E10-15/f1.png",
+      "E/E10-15/f2.png"
+    ],
+    "missing": [
+      "E/E10-15/f1.png",
+      "E/E10-15/f2.png"
+    ]
+  },
+  {
+    "segment": "E10-16",
+    "seconds": 9,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      6
+    ],
+    "prompt": "E/E10-16/prompt.md",
+    "pictures": [
+      "E/E10-16/f1.png",
+      "E/E10-16/f2.png"
+    ],
+    "missing": [
+      "E/E10-16/f1.png",
+      "E/E10-16/f2.png"
+    ]
+  },
+  {
+    "segment": "E10-17",
+    "seconds": 12,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      3,
+      8
+    ],
+    "prompt": "E/E10-17/prompt.md",
+    "pictures": [
+      "E/E10-17/f1.png",
+      "E/E10-17/f2.png",
+      "E/E10-17/f3.png"
+    ],
+    "missing": [
+      "E/E10-17/f1.png",
+      "E/E10-17/f2.png",
+      "E/E10-17/f3.png"
+    ]
+  },
+  {
+    "segment": "E11-01",
+    "seconds": 11.5,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      3,
+      6
+    ],
+    "prompt": "E/E11-01/prompt.md",
+    "pictures": [
+      "E/E11-01/f1.png",
+      "E/E11-01/f2.png",
+      "E/E11-01/f3.png"
+    ],
+    "missing": [
+      "E/E11-01/f1.png",
+      "E/E11-01/f2.png",
+      "E/E11-01/f3.png"
+    ]
+  },
+  {
+    "segment": "E11-02",
+    "seconds": 9.5,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      4.5
+    ],
+    "prompt": "E/E11-02/prompt.md",
+    "pictures": [
+      "E/E11-02/f1.png",
+      "E/E11-02/f2.png"
+    ],
+    "missing": [
+      "E/E11-02/f1.png",
+      "E/E11-02/f2.png"
+    ]
+  },
+  {
+    "segment": "E11-03",
+    "seconds": 8.5,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      4.5
+    ],
+    "prompt": "E/E11-03/prompt.md",
+    "pictures": [
+      "E/E11-03/f1.png",
+      "E/E11-03/f2.png"
+    ],
+    "missing": [
+      "E/E11-03/f1.png",
+      "E/E11-03/f2.png"
+    ]
+  },
+  {
+    "segment": "E11-04",
+    "seconds": 6,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      3
+    ],
+    "prompt": "E/E11-04/prompt.md",
+    "pictures": [
+      "E/E11-04/f1.png",
+      "E/E11-04/f2.png"
+    ],
+    "missing": [
+      "E/E11-04/f1.png",
+      "E/E11-04/f2.png"
+    ]
+  },
+  {
+    "segment": "E11-05",
+    "seconds": 7,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      4
+    ],
+    "prompt": "E/E11-05/prompt.md",
+    "pictures": [
+      "E/E11-05/f1.png",
+      "E/E11-05/f2.png"
+    ],
+    "missing": [
+      "E/E11-05/f1.png",
+      "E/E11-05/f2.png"
+    ]
+  },
+  {
+    "segment": "E11-06",
+    "seconds": 8.5,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      3
+    ],
+    "prompt": "E/E11-06/prompt.md",
+    "pictures": [
+      "E/E11-06/f1.png",
+      "E/E11-06/f2.png"
+    ],
+    "missing": [
+      "E/E11-06/f1.png",
+      "E/E11-06/f2.png"
+    ]
+  },
+  {
+    "segment": "E11-07",
+    "seconds": 7.5,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      4.5
+    ],
+    "prompt": "E/E11-07/prompt.md",
+    "pictures": [
+      "E/E11-07/f1.png",
+      "E/E11-07/f2.png"
+    ],
+    "missing": [
+      "E/E11-07/f1.png",
+      "E/E11-07/f2.png"
+    ]
+  },
+  {
+    "segment": "E11-08",
+    "seconds": 7.5,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      4.5
+    ],
+    "prompt": "E/E11-08/prompt.md",
+    "pictures": [
+      "E/E11-08/f1.png",
+      "E/E11-08/f2.png"
+    ],
+    "missing": [
+      "E/E11-08/f1.png",
+      "E/E11-08/f2.png"
+    ]
+  },
+  {
+    "segment": "E11-09",
+    "seconds": 7.5,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      3
+    ],
+    "prompt": "E/E11-09/prompt.md",
+    "pictures": [
+      "E/E11-09/f1.png",
+      "E/E11-09/f2.png"
+    ],
+    "missing": [
+      "E/E11-09/f1.png",
+      "E/E11-09/f2.png"
+    ]
+  },
+  {
+    "segment": "E11-10",
+    "seconds": 6.5,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      3
+    ],
+    "prompt": "E/E11-10/prompt.md",
+    "pictures": [
+      "E/E11-10/f1.png",
+      "E/E11-10/f2.png"
+    ],
+    "missing": [
+      "E/E11-10/f1.png",
+      "E/E11-10/f2.png"
+    ]
+  },
+  {
+    "segment": "E11-11",
+    "seconds": 6,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      3
+    ],
+    "prompt": "E/E11-11/prompt.md",
+    "pictures": [
+      "E/E11-11/f1.png",
+      "E/E11-11/f2.png"
+    ],
+    "missing": [
+      "E/E11-11/f1.png",
+      "E/E11-11/f2.png"
+    ]
+  },
+  {
+    "segment": "E11-12",
+    "seconds": 7.5,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      3
+    ],
+    "prompt": "E/E11-12/prompt.md",
+    "pictures": [
+      "E/E11-12/f1.png",
+      "E/E11-12/f2.png"
+    ],
+    "missing": [
+      "E/E11-12/f1.png",
+      "E/E11-12/f2.png"
+    ]
+  },
+  {
+    "segment": "E11-13",
+    "seconds": 13,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      7.5
+    ],
+    "prompt": "E/E11-13/prompt.md",
+    "pictures": [
+      "E/E11-13/f1.png",
+      "E/E11-13/f2.png"
+    ],
+    "missing": [
+      "E/E11-13/f1.png",
+      "E/E11-13/f2.png"
+    ]
+  },
+  {
+    "segment": "E11-14",
+    "seconds": 10.5,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      5.5
+    ],
+    "prompt": "E/E11-14/prompt.md",
+    "pictures": [
+      "E/E11-14/f1.png",
+      "E/E11-14/f2.png"
+    ],
+    "missing": [
+      "E/E11-14/f1.png",
+      "E/E11-14/f2.png"
+    ]
+  },
+  {
+    "segment": "E11-15",
+    "seconds": 7.5,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      4.5
+    ],
+    "prompt": "E/E11-15/prompt.md",
+    "pictures": [
+      "E/E11-15/f1.png",
+      "E/E11-15/f2.png"
+    ],
+    "missing": [
+      "E/E11-15/f1.png",
+      "E/E11-15/f2.png"
+    ]
+  },
+  {
+    "segment": "E11-16",
+    "seconds": 10.5,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      3
+    ],
+    "prompt": "E/E11-16/prompt.md",
+    "pictures": [
+      "E/E11-16/f1.png",
+      "E/E11-16/f2.png"
+    ],
+    "missing": [
+      "E/E11-16/f1.png",
+      "E/E11-16/f2.png"
+    ]
+  },
+  {
+    "segment": "E11-17",
+    "seconds": 9.5,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      4
+    ],
+    "prompt": "E/E11-17/prompt.md",
+    "pictures": [
+      "E/E11-17/f1.png",
+      "E/E11-17/f2.png"
+    ],
+    "missing": [
+      "E/E11-17/f1.png",
+      "E/E11-17/f2.png"
+    ]
+  },
+  {
+    "segment": "E11-18",
+    "seconds": 8.5,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      3
+    ],
+    "prompt": "E/E11-18/prompt.md",
+    "pictures": [
+      "E/E11-18/f1.png",
+      "E/E11-18/f2.png"
+    ],
+    "missing": [
+      "E/E11-18/f1.png",
+      "E/E11-18/f2.png"
+    ]
+  },
+  {
+    "segment": "E11-19",
+    "seconds": 8,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      4.5
+    ],
+    "prompt": "E/E11-19/prompt.md",
+    "pictures": [
+      "E/E11-19/f1.png",
+      "E/E11-19/f2.png"
+    ],
+    "missing": [
+      "E/E11-19/f1.png",
+      "E/E11-19/f2.png"
+    ]
+  },
+  {
+    "segment": "E11-20",
+    "seconds": 9.5,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      6.5
+    ],
+    "prompt": "E/E11-20/prompt.md",
+    "pictures": [
+      "E/E11-20/f1.png",
+      "E/E11-20/f2.png"
+    ],
+    "missing": [
+      "E/E11-20/f1.png",
+      "E/E11-20/f2.png"
+    ]
+  },
+  {
+    "segment": "E11-21",
+    "seconds": 8,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      3
+    ],
+    "prompt": "E/E11-21/prompt.md",
+    "pictures": [
+      "E/E11-21/f1.png",
+      "E/E11-21/f2.png"
+    ],
+    "missing": [
+      "E/E11-21/f1.png",
+      "E/E11-21/f2.png"
+    ]
+  },
+  {
+    "segment": "E11-22",
+    "seconds": 7,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      3
+    ],
+    "prompt": "E/E11-22/prompt.md",
+    "pictures": [
+      "E/E11-22/f1.png",
+      "E/E11-22/f2.png"
+    ],
+    "missing": [
+      "E/E11-22/f1.png",
+      "E/E11-22/f2.png"
+    ]
+  },
+  {
+    "segment": "E12-01",
+    "seconds": 6,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      3
+    ],
+    "prompt": "E/E12-01/prompt.md",
+    "pictures": [
+      "E/E12-01/f1.png",
+      "E/E12-01/f2.png"
+    ],
+    "missing": [
+      "E/E12-01/f1.png",
+      "E/E12-01/f2.png"
+    ]
+  },
+  {
+    "segment": "E12-02",
+    "seconds": 9,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      4
+    ],
+    "prompt": "E/E12-02/prompt.md",
+    "pictures": [
+      "E/E12-02/f1.png",
+      "E/E12-02/f2.png"
+    ],
+    "missing": [
+      "E/E12-02/f1.png",
+      "E/E12-02/f2.png"
+    ]
+  },
+  {
+    "segment": "E12-03",
+    "seconds": 7.5,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      3
+    ],
+    "prompt": "E/E12-03/prompt.md",
+    "pictures": [
+      "E/E12-03/f1.png",
+      "E/E12-03/f2.png"
+    ],
+    "missing": [
+      "E/E12-03/f1.png",
+      "E/E12-03/f2.png"
+    ]
+  },
+  {
+    "segment": "E12-04",
+    "seconds": 9,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      3
+    ],
+    "prompt": "E/E12-04/prompt.md",
+    "pictures": [
+      "E/E12-04/f1.png",
+      "E/E12-04/f2.png"
+    ],
+    "missing": [
+      "E/E12-04/f1.png",
+      "E/E12-04/f2.png"
+    ]
+  },
+  {
+    "segment": "E12-05",
+    "seconds": 8,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      5
+    ],
+    "prompt": "E/E12-05/prompt.md",
+    "pictures": [
+      "E/E12-05/f1.png",
+      "E/E12-05/f2.png"
+    ],
+    "missing": [
+      "E/E12-05/f1.png",
+      "E/E12-05/f2.png"
+    ]
+  },
+  {
+    "segment": "E12-06",
+    "seconds": 11.5,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      5
+    ],
+    "prompt": "E/E12-06/prompt.md",
+    "pictures": [
+      "E/E12-06/f1.png",
+      "E/E12-06/f2.png"
+    ],
+    "missing": [
+      "E/E12-06/f1.png",
+      "E/E12-06/f2.png"
+    ]
+  },
+  {
+    "segment": "E12-07",
+    "seconds": 6,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      3
+    ],
+    "prompt": "E/E12-07/prompt.md",
+    "pictures": [
+      "E/E12-07/f1.png",
+      "E/E12-07/f2.png"
+    ],
+    "missing": [
+      "E/E12-07/f1.png",
+      "E/E12-07/f2.png"
+    ]
+  },
+  {
+    "segment": "E12-08",
+    "seconds": 8,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      3
+    ],
+    "prompt": "E/E12-08/prompt.md",
+    "pictures": [
+      "E/E12-08/f1.png",
+      "E/E12-08/f2.png"
+    ],
+    "missing": [
+      "E/E12-08/f1.png",
+      "E/E12-08/f2.png"
+    ]
+  },
+  {
+    "segment": "E12-09",
+    "seconds": 10,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      3,
+      6
+    ],
+    "prompt": "E/E12-09/prompt.md",
+    "pictures": [
+      "E/E12-09/f1.png",
+      "E/E12-09/f2.png",
+      "E/E12-09/f3.png"
+    ],
+    "missing": [
+      "E/E12-09/f1.png",
+      "E/E12-09/f2.png",
+      "E/E12-09/f3.png"
+    ]
+  },
+  {
+    "segment": "E12-10",
+    "seconds": 6,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      3
+    ],
+    "prompt": "E/E12-10/prompt.md",
+    "pictures": [
+      "E/E12-10/f1.png",
+      "E/E12-10/f2.png"
+    ],
+    "missing": [
+      "E/E12-10/f1.png",
+      "E/E12-10/f2.png"
+    ]
+  },
+  {
+    "segment": "E12-11",
+    "seconds": 8,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      5
+    ],
+    "prompt": "E/E12-11/prompt.md",
+    "pictures": [
+      "E/E12-11/f1.png",
+      "E/E12-11/f2.png"
+    ],
+    "missing": [
+      "E/E12-11/f1.png",
+      "E/E12-11/f2.png"
+    ]
+  },
+  {
+    "segment": "E12-12",
+    "seconds": 13,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      6.5
+    ],
+    "prompt": "E/E12-12/prompt.md",
+    "pictures": [
+      "E/E12-12/f1.png",
+      "E/E12-12/f2.png"
+    ],
+    "missing": [
+      "E/E12-12/f1.png",
+      "E/E12-12/f2.png"
+    ]
+  },
+  {
+    "segment": "E12-13",
+    "seconds": 13,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      8
+    ],
+    "prompt": "E/E12-13/prompt.md",
+    "pictures": [
+      "E/E12-13/f1.png",
+      "E/E12-13/f2.png"
+    ],
+    "missing": [
+      "E/E12-13/f1.png",
+      "E/E12-13/f2.png"
+    ]
+  },
+  {
+    "segment": "E12-14",
+    "seconds": 13,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      3,
+      6
+    ],
+    "prompt": "E/E12-14/prompt.md",
+    "pictures": [
+      "E/E12-14/f1.png",
+      "E/E12-14/f2.png",
+      "E/E12-14/f3.png"
+    ],
+    "missing": [
+      "E/E12-14/f1.png",
+      "E/E12-14/f2.png",
+      "E/E12-14/f3.png"
+    ]
+  },
+  {
+    "segment": "E12-15",
+    "seconds": 10.5,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      6
+    ],
+    "prompt": "E/E12-15/prompt.md",
+    "pictures": [
+      "E/E12-15/f1.png",
+      "E/E12-15/f2.png"
+    ],
+    "missing": [
+      "E/E12-15/f1.png",
+      "E/E12-15/f2.png"
+    ]
+  },
+  {
+    "segment": "E12-16",
+    "seconds": 6,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      3
+    ],
+    "prompt": "E/E12-16/prompt.md",
+    "pictures": [
+      "E/E12-16/f1.png",
+      "E/E12-16/f2.png"
+    ],
+    "missing": [
+      "E/E12-16/f1.png",
+      "E/E12-16/f2.png"
+    ]
+  },
+  {
+    "segment": "E12-17",
+    "seconds": 7,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      4
+    ],
+    "prompt": "E/E12-17/prompt.md",
+    "pictures": [
+      "E/E12-17/f1.png",
+      "E/E12-17/f2.png"
+    ],
+    "missing": [
+      "E/E12-17/f1.png",
+      "E/E12-17/f2.png"
+    ]
+  },
+  {
+    "segment": "E12-18",
+    "seconds": 6,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      3
+    ],
+    "prompt": "E/E12-18/prompt.md",
+    "pictures": [
+      "E/E12-18/f1.png",
+      "E/E12-18/f2.png"
+    ],
+    "missing": [
+      "E/E12-18/f1.png",
+      "E/E12-18/f2.png"
+    ]
+  },
+  {
+    "segment": "E12-19",
+    "seconds": 14,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      6.5
+    ],
+    "prompt": "E/E12-19/prompt.md",
+    "pictures": [
+      "E/E12-19/f1.png",
+      "E/E12-19/f2.png"
+    ],
+    "missing": [
+      "E/E12-19/f1.png",
+      "E/E12-19/f2.png"
+    ]
+  },
+  {
+    "segment": "E12-20",
+    "seconds": 4,
+    "cuts": 1,
+    "cutStarts": [
+      0
+    ],
+    "prompt": "E/E12-20/prompt.md",
+    "pictures": [
+      "E/E12-20/f1.png"
+    ],
+    "missing": [
+      "E/E12-20/f1.png"
+    ]
+  },
+  {
+    "segment": "E13-01",
+    "seconds": 6,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      3
+    ],
+    "prompt": "E/E13-01/prompt.md",
+    "pictures": [
+      "E/E13-01/f1.png",
+      "E/E13-01/f2.png"
+    ],
+    "missing": [
+      "E/E13-01/f1.png",
+      "E/E13-01/f2.png"
+    ]
+  },
+  {
+    "segment": "E13-02",
+    "seconds": 11,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      6
+    ],
+    "prompt": "E/E13-02/prompt.md",
+    "pictures": [
+      "E/E13-02/f1.png",
+      "E/E13-02/f2.png"
+    ],
+    "missing": [
+      "E/E13-02/f1.png",
+      "E/E13-02/f2.png"
+    ]
+  },
+  {
+    "segment": "E13-03",
+    "seconds": 12,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      6
+    ],
+    "prompt": "E/E13-03/prompt.md",
+    "pictures": [
+      "E/E13-03/f1.png",
+      "E/E13-03/f2.png"
+    ],
+    "missing": [
+      "E/E13-03/f1.png",
+      "E/E13-03/f2.png"
+    ]
+  },
+  {
+    "segment": "E13-04",
+    "seconds": 5,
+    "cuts": 1,
+    "cutStarts": [
+      0
+    ],
+    "prompt": "E/E13-04/prompt.md",
+    "pictures": [
+      "E/E13-04/f1.png"
+    ],
+    "missing": [
+      "E/E13-04/f1.png"
+    ]
+  },
+  {
+    "segment": "E13-05",
+    "seconds": 9,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      3
+    ],
+    "prompt": "E/E13-05/prompt.md",
+    "pictures": [
+      "E/E13-05/f1.png",
+      "E/E13-05/f2.png"
+    ],
+    "missing": [
+      "E/E13-05/f1.png",
+      "E/E13-05/f2.png"
+    ]
+  },
+  {
+    "segment": "E13-06",
+    "seconds": 8,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      5
+    ],
+    "prompt": "E/E13-06/prompt.md",
+    "pictures": [
+      "E/E13-06/f1.png",
+      "E/E13-06/f2.png"
+    ],
+    "missing": [
+      "E/E13-06/f1.png",
+      "E/E13-06/f2.png"
+    ]
+  },
+  {
+    "segment": "E13-07",
+    "seconds": 9,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      6
+    ],
+    "prompt": "E/E13-07/prompt.md",
+    "pictures": [
+      "E/E13-07/f1.png",
+      "E/E13-07/f2.png"
+    ],
+    "missing": [
+      "E/E13-07/f1.png",
+      "E/E13-07/f2.png"
+    ]
+  },
+  {
+    "segment": "E13-08",
+    "seconds": 8,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      3
+    ],
+    "prompt": "E/E13-08/prompt.md",
+    "pictures": [
+      "E/E13-08/f1.png",
+      "E/E13-08/f2.png"
+    ],
+    "missing": [
+      "E/E13-08/f1.png",
+      "E/E13-08/f2.png"
+    ]
+  },
+  {
+    "segment": "E13-09",
+    "seconds": 11,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      6
+    ],
+    "prompt": "E/E13-09/prompt.md",
+    "pictures": [
+      "E/E13-09/f1.png",
+      "E/E13-09/f2.png"
+    ],
+    "missing": [
+      "E/E13-09/f1.png",
+      "E/E13-09/f2.png"
+    ]
+  },
+  {
+    "segment": "E13-10",
+    "seconds": 9,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      3
+    ],
+    "prompt": "E/E13-10/prompt.md",
+    "pictures": [
+      "E/E13-10/f1.png",
+      "E/E13-10/f2.png"
+    ],
+    "missing": [
+      "E/E13-10/f1.png",
+      "E/E13-10/f2.png"
+    ]
+  },
+  {
+    "segment": "E13-11",
+    "seconds": 10,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      5
+    ],
+    "prompt": "E/E13-11/prompt.md",
+    "pictures": [
+      "E/E13-11/f1.png",
+      "E/E13-11/f2.png"
+    ],
+    "missing": [
+      "E/E13-11/f1.png",
+      "E/E13-11/f2.png"
+    ]
+  },
+  {
+    "segment": "E13-12",
+    "seconds": 7,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      4
+    ],
+    "prompt": "E/E13-12/prompt.md",
+    "pictures": [
+      "E/E13-12/f1.png",
+      "E/E13-12/f2.png"
+    ],
+    "missing": [
+      "E/E13-12/f1.png",
+      "E/E13-12/f2.png"
+    ]
+  },
+  {
+    "segment": "E13-13",
+    "seconds": 10,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      5
+    ],
+    "prompt": "E/E13-13/prompt.md",
+    "pictures": [
+      "E/E13-13/f1.png",
+      "E/E13-13/f2.png"
+    ],
+    "missing": [
+      "E/E13-13/f1.png",
+      "E/E13-13/f2.png"
+    ]
+  },
+  {
+    "segment": "E13-14",
+    "seconds": 10,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      6
+    ],
+    "prompt": "E/E13-14/prompt.md",
+    "pictures": [
+      "E/E13-14/f1.png",
+      "E/E13-14/f2.png"
+    ],
+    "missing": [
+      "E/E13-14/f1.png",
+      "E/E13-14/f2.png"
+    ]
+  },
+  {
+    "segment": "E13-15",
+    "seconds": 8,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      3
+    ],
+    "prompt": "E/E13-15/prompt.md",
+    "pictures": [
+      "E/E13-15/f1.png",
+      "E/E13-15/f2.png"
+    ],
+    "missing": [
+      "E/E13-15/f1.png",
+      "E/E13-15/f2.png"
+    ]
+  },
+  {
+    "segment": "E13-16",
+    "seconds": 10,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      5
+    ],
+    "prompt": "E/E13-16/prompt.md",
+    "pictures": [
+      "E/E13-16/f1.png",
+      "E/E13-16/f2.png"
+    ],
+    "missing": [
+      "E/E13-16/f1.png",
+      "E/E13-16/f2.png"
+    ]
+  },
+  {
+    "segment": "E13-17",
+    "seconds": 10,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      3
+    ],
+    "prompt": "E/E13-17/prompt.md",
+    "pictures": [
+      "E/E13-17/f1.png",
+      "E/E13-17/f2.png"
+    ],
+    "missing": [
+      "E/E13-17/f1.png",
+      "E/E13-17/f2.png"
+    ]
+  },
+  {
+    "segment": "E13-18",
+    "seconds": 10,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      5
+    ],
+    "prompt": "E/E13-18/prompt.md",
+    "pictures": [
+      "E/E13-18/f1.png",
+      "E/E13-18/f2.png"
+    ],
+    "missing": [
+      "E/E13-18/f1.png",
+      "E/E13-18/f2.png"
+    ]
+  },
+  {
+    "segment": "E13-19",
+    "seconds": 6,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      3
+    ],
+    "prompt": "E/E13-19/prompt.md",
+    "pictures": [
+      "E/E13-19/f1.png",
+      "E/E13-19/f2.png"
+    ],
+    "missing": [
+      "E/E13-19/f1.png",
+      "E/E13-19/f2.png"
+    ]
+  },
+  {
+    "segment": "E13-20",
+    "seconds": 9,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      4
+    ],
+    "prompt": "E/E13-20/prompt.md",
+    "pictures": [
+      "E/E13-20/f1.png",
+      "E/E13-20/f2.png"
+    ],
+    "missing": [
+      "E/E13-20/f1.png",
+      "E/E13-20/f2.png"
+    ]
+  },
+  {
+    "segment": "E13-21",
+    "seconds": 8,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      4
+    ],
+    "prompt": "E/E13-21/prompt.md",
+    "pictures": [
+      "E/E13-21/f1.png",
+      "E/E13-21/f2.png"
+    ],
+    "missing": [
+      "E/E13-21/f1.png",
+      "E/E13-21/f2.png"
+    ]
+  },
+  {
+    "segment": "E13-22",
+    "seconds": 9,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      3,
+      6
+    ],
+    "prompt": "E/E13-22/prompt.md",
+    "pictures": [
+      "E/E13-22/f1.png",
+      "E/E13-22/f2.png",
+      "E/E13-22/f3.png"
+    ],
+    "missing": [
+      "E/E13-22/f1.png",
+      "E/E13-22/f2.png",
+      "E/E13-22/f3.png"
+    ]
+  },
+  {
+    "segment": "E14-01",
+    "seconds": 7,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      4
+    ],
+    "prompt": "E/E14-01/prompt.md",
+    "pictures": [
+      "E/E14-01/f1.png",
+      "E/E14-01/f2.png"
+    ],
+    "missing": [
+      "E/E14-01/f1.png",
+      "E/E14-01/f2.png"
+    ]
+  },
+  {
+    "segment": "E14-02",
+    "seconds": 13,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      5,
+      9
+    ],
+    "prompt": "E/E14-02/prompt.md",
+    "pictures": [
+      "E/E14-02/f1.png",
+      "E/E14-02/f2.png",
+      "E/E14-02/f3.png"
+    ],
+    "missing": [
+      "E/E14-02/f1.png",
+      "E/E14-02/f2.png",
+      "E/E14-02/f3.png"
+    ]
+  },
+  {
+    "segment": "E14-03",
+    "seconds": 6,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      3
+    ],
+    "prompt": "E/E14-03/prompt.md",
+    "pictures": [
+      "E/E14-03/f1.png",
+      "E/E14-03/f2.png"
+    ],
+    "missing": [
+      "E/E14-03/f1.png",
+      "E/E14-03/f2.png"
+    ]
+  },
+  {
+    "segment": "E14-04",
+    "seconds": 10,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      6
+    ],
+    "prompt": "E/E14-04/prompt.md",
+    "pictures": [
+      "E/E14-04/f1.png",
+      "E/E14-04/f2.png"
+    ],
+    "missing": [
+      "E/E14-04/f1.png",
+      "E/E14-04/f2.png"
+    ]
+  },
+  {
+    "segment": "E14-05",
+    "seconds": 8,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      5
+    ],
+    "prompt": "E/E14-05/prompt.md",
+    "pictures": [
+      "E/E14-05/f1.png",
+      "E/E14-05/f2.png"
+    ],
+    "missing": [
+      "E/E14-05/f1.png",
+      "E/E14-05/f2.png"
+    ]
+  },
+  {
+    "segment": "E14-06",
+    "seconds": 10,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      5
+    ],
+    "prompt": "E/E14-06/prompt.md",
+    "pictures": [
+      "E/E14-06/f1.png",
+      "E/E14-06/f2.png"
+    ],
+    "missing": [
+      "E/E14-06/f1.png",
+      "E/E14-06/f2.png"
+    ]
+  },
+  {
+    "segment": "E14-07",
+    "seconds": 7,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      4
+    ],
+    "prompt": "E/E14-07/prompt.md",
+    "pictures": [
+      "E/E14-07/f1.png",
+      "E/E14-07/f2.png"
+    ],
+    "missing": [
+      "E/E14-07/f1.png",
+      "E/E14-07/f2.png"
+    ]
+  },
+  {
+    "segment": "E14-08",
+    "seconds": 9,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      5
+    ],
+    "prompt": "E/E14-08/prompt.md",
+    "pictures": [
+      "E/E14-08/f1.png",
+      "E/E14-08/f2.png"
+    ],
+    "missing": [
+      "E/E14-08/f1.png",
+      "E/E14-08/f2.png"
+    ]
+  },
+  {
+    "segment": "E14-09",
+    "seconds": 7,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      4
+    ],
+    "prompt": "E/E14-09/prompt.md",
+    "pictures": [
+      "E/E14-09/f1.png",
+      "E/E14-09/f2.png"
+    ],
+    "missing": [
+      "E/E14-09/f1.png",
+      "E/E14-09/f2.png"
+    ]
+  },
+  {
+    "segment": "E14-10",
+    "seconds": 8,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      5
+    ],
+    "prompt": "E/E14-10/prompt.md",
+    "pictures": [
+      "E/E14-10/f1.png",
+      "E/E14-10/f2.png"
+    ],
+    "missing": [
+      "E/E14-10/f1.png",
+      "E/E14-10/f2.png"
+    ]
+  },
+  {
+    "segment": "E14-11",
+    "seconds": 9,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      3
+    ],
+    "prompt": "E/E14-11/prompt.md",
+    "pictures": [
+      "E/E14-11/f1.png",
+      "E/E14-11/f2.png"
+    ],
+    "missing": [
+      "E/E14-11/f1.png",
+      "E/E14-11/f2.png"
+    ]
+  },
+  {
+    "segment": "E14-12",
+    "seconds": 12,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      6
+    ],
+    "prompt": "E/E14-12/prompt.md",
+    "pictures": [
+      "E/E14-12/f1.png",
+      "E/E14-12/f2.png"
+    ],
+    "missing": [
+      "E/E14-12/f1.png",
+      "E/E14-12/f2.png"
+    ]
+  },
+  {
+    "segment": "E14-13",
+    "seconds": 7,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      3
+    ],
+    "prompt": "E/E14-13/prompt.md",
+    "pictures": [
+      "E/E14-13/f1.png",
+      "E/E14-13/f2.png"
+    ],
+    "missing": [
+      "E/E14-13/f1.png",
+      "E/E14-13/f2.png"
+    ]
+  },
+  {
+    "segment": "E14-14",
+    "seconds": 13,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      7
+    ],
+    "prompt": "E/E14-14/prompt.md",
+    "pictures": [
+      "E/E14-14/f1.png",
+      "E/E14-14/f2.png"
+    ],
+    "missing": [
+      "E/E14-14/f1.png",
+      "E/E14-14/f2.png"
+    ]
+  },
+  {
+    "segment": "E14-15",
+    "seconds": 10,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      3
+    ],
+    "prompt": "E/E14-15/prompt.md",
+    "pictures": [
+      "E/E14-15/f1.png",
+      "E/E14-15/f2.png"
+    ],
+    "missing": [
+      "E/E14-15/f1.png",
+      "E/E14-15/f2.png"
+    ]
+  },
+  {
+    "segment": "E14-16",
+    "seconds": 9,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      6
+    ],
+    "prompt": "E/E14-16/prompt.md",
+    "pictures": [
+      "E/E14-16/f1.png",
+      "E/E14-16/f2.png"
+    ],
+    "missing": [
+      "E/E14-16/f1.png",
+      "E/E14-16/f2.png"
+    ]
+  },
+  {
+    "segment": "E14-17",
+    "seconds": 10,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      5
+    ],
+    "prompt": "E/E14-17/prompt.md",
+    "pictures": [
+      "E/E14-17/f1.png",
+      "E/E14-17/f2.png"
+    ],
+    "missing": [
+      "E/E14-17/f1.png",
+      "E/E14-17/f2.png"
+    ]
+  },
+  {
+    "segment": "E14-18",
+    "seconds": 7,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      3
+    ],
+    "prompt": "E/E14-18/prompt.md",
+    "pictures": [
+      "E/E14-18/f1.png",
+      "E/E14-18/f2.png"
+    ],
+    "missing": [
+      "E/E14-18/f1.png",
+      "E/E14-18/f2.png"
+    ]
+  },
+  {
+    "segment": "E14-19",
+    "seconds": 13,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      6
+    ],
+    "prompt": "E/E14-19/prompt.md",
+    "pictures": [
+      "E/E14-19/f1.png",
+      "E/E14-19/f2.png"
+    ],
+    "missing": [
+      "E/E14-19/f1.png",
+      "E/E14-19/f2.png"
+    ]
+  },
+  {
+    "segment": "E14-20",
+    "seconds": 6,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      3
+    ],
+    "prompt": "E/E14-20/prompt.md",
+    "pictures": [
+      "E/E14-20/f1.png",
+      "E/E14-20/f2.png"
+    ],
+    "missing": [
+      "E/E14-20/f1.png",
+      "E/E14-20/f2.png"
+    ]
+  },
+  {
+    "segment": "E15-01",
+    "seconds": 6,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      3
+    ],
+    "prompt": "E/E15-01/prompt.md",
+    "pictures": [
+      "E/E15-01/f1.png",
+      "E/E15-01/f2.png"
+    ],
+    "missing": [
+      "E/E15-01/f1.png",
+      "E/E15-01/f2.png"
+    ]
+  },
+  {
+    "segment": "E15-02",
+    "seconds": 12,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      7
+    ],
+    "prompt": "E/E15-02/prompt.md",
+    "pictures": [
+      "E/E15-02/f1.png",
+      "E/E15-02/f2.png"
+    ],
+    "missing": [
+      "E/E15-02/f1.png",
+      "E/E15-02/f2.png"
+    ]
+  },
+  {
+    "segment": "E15-03",
+    "seconds": 12,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      6
+    ],
+    "prompt": "E/E15-03/prompt.md",
+    "pictures": [
+      "E/E15-03/f1.png",
+      "E/E15-03/f2.png"
+    ],
+    "missing": [
+      "E/E15-03/f1.png",
+      "E/E15-03/f2.png"
+    ]
+  },
+  {
+    "segment": "E15-04",
+    "seconds": 8,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      3
+    ],
+    "prompt": "E/E15-04/prompt.md",
+    "pictures": [
+      "E/E15-04/f1.png",
+      "E/E15-04/f2.png"
+    ],
+    "missing": [
+      "E/E15-04/f1.png",
+      "E/E15-04/f2.png"
+    ]
+  },
+  {
+    "segment": "E15-05",
+    "seconds": 10,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      5
+    ],
+    "prompt": "E/E15-05/prompt.md",
+    "pictures": [
+      "E/E15-05/f1.png",
+      "E/E15-05/f2.png"
+    ],
+    "missing": [
+      "E/E15-05/f1.png",
+      "E/E15-05/f2.png"
+    ]
+  },
+  {
+    "segment": "E15-06",
+    "seconds": 6,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      3
+    ],
+    "prompt": "E/E15-06/prompt.md",
+    "pictures": [
+      "E/E15-06/f1.png",
+      "E/E15-06/f2.png"
+    ],
+    "missing": [
+      "E/E15-06/f1.png",
+      "E/E15-06/f2.png"
+    ]
+  },
+  {
+    "segment": "E15-07",
+    "seconds": 11,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      6
+    ],
+    "prompt": "E/E15-07/prompt.md",
+    "pictures": [
+      "E/E15-07/f1.png",
+      "E/E15-07/f2.png"
+    ],
+    "missing": [
+      "E/E15-07/f1.png",
+      "E/E15-07/f2.png"
+    ]
+  },
+  {
+    "segment": "E15-08",
+    "seconds": 12,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      3,
+      7
+    ],
+    "prompt": "E/E15-08/prompt.md",
+    "pictures": [
+      "E/E15-08/f1.png",
+      "E/E15-08/f2.png",
+      "E/E15-08/f3.png"
+    ],
+    "missing": [
+      "E/E15-08/f1.png",
+      "E/E15-08/f2.png",
+      "E/E15-08/f3.png"
+    ]
+  },
+  {
+    "segment": "E15-09",
+    "seconds": 9,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      3,
+      6
+    ],
+    "prompt": "E/E15-09/prompt.md",
+    "pictures": [
+      "E/E15-09/f1.png",
+      "E/E15-09/f2.png",
+      "E/E15-09/f3.png"
+    ],
+    "missing": [
+      "E/E15-09/f1.png",
+      "E/E15-09/f2.png",
+      "E/E15-09/f3.png"
+    ]
+  },
+  {
+    "segment": "E15-10",
+    "seconds": 7,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      4
+    ],
+    "prompt": "E/E15-10/prompt.md",
+    "pictures": [
+      "E/E15-10/f1.png",
+      "E/E15-10/f2.png"
+    ],
+    "missing": [
+      "E/E15-10/f1.png",
+      "E/E15-10/f2.png"
+    ]
+  },
+  {
+    "segment": "E15-11",
+    "seconds": 14,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      4,
+      9
+    ],
+    "prompt": "E/E15-11/prompt.md",
+    "pictures": [
+      "E/E15-11/f1.png",
+      "E/E15-11/f2.png",
+      "E/E15-11/f3.png"
+    ],
+    "missing": [
+      "E/E15-11/f1.png",
+      "E/E15-11/f2.png",
+      "E/E15-11/f3.png"
+    ]
+  },
+  {
+    "segment": "E15-12",
+    "seconds": 13,
+    "cuts": 4,
+    "cutStarts": [
+      0,
+      3,
+      7,
+      10
+    ],
+    "prompt": "E/E15-12/prompt.md",
+    "pictures": [
+      "E/E15-12/f1.png",
+      "E/E15-12/f2.png",
+      "E/E15-12/f3.png",
+      "E/E15-12/f4.png"
+    ],
+    "missing": [
+      "E/E15-12/f1.png",
+      "E/E15-12/f2.png",
+      "E/E15-12/f3.png",
+      "E/E15-12/f4.png"
+    ]
+  },
+  {
+    "segment": "E15-13",
+    "seconds": 9,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      3,
+      6
+    ],
+    "prompt": "E/E15-13/prompt.md",
+    "pictures": [
+      "E/E15-13/f1.png",
+      "E/E15-13/f2.png",
+      "E/E15-13/f3.png"
+    ],
+    "missing": [
+      "E/E15-13/f1.png",
+      "E/E15-13/f2.png",
+      "E/E15-13/f3.png"
+    ]
+  },
+  {
+    "segment": "E15-14",
+    "seconds": 11,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      4,
+      7
+    ],
+    "prompt": "E/E15-14/prompt.md",
+    "pictures": [
+      "E/E15-14/f1.png",
+      "E/E15-14/f2.png",
+      "E/E15-14/f3.png"
+    ],
+    "missing": [
+      "E/E15-14/f1.png",
+      "E/E15-14/f2.png",
+      "E/E15-14/f3.png"
+    ]
+  },
+  {
+    "segment": "E15-15",
+    "seconds": 12,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      5
+    ],
+    "prompt": "E/E15-15/prompt.md",
+    "pictures": [
+      "E/E15-15/f1.png",
+      "E/E15-15/f2.png"
+    ],
+    "missing": [
+      "E/E15-15/f1.png",
+      "E/E15-15/f2.png"
+    ]
+  },
+  {
+    "segment": "E15-16",
+    "seconds": 8,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      3
+    ],
+    "prompt": "E/E15-16/prompt.md",
+    "pictures": [
+      "E/E15-16/f1.png",
+      "E/E15-16/f2.png"
+    ],
+    "missing": [
+      "E/E15-16/f1.png",
+      "E/E15-16/f2.png"
+    ]
+  },
+  {
+    "segment": "E15-17",
+    "seconds": 9,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      3,
+      6
+    ],
+    "prompt": "E/E15-17/prompt.md",
+    "pictures": [
+      "E/E15-17/f1.png",
+      "E/E15-17/f2.png",
+      "E/E15-17/f3.png"
+    ],
+    "missing": [
+      "E/E15-17/f1.png",
+      "E/E15-17/f2.png",
+      "E/E15-17/f3.png"
+    ]
+  },
+  {
+    "segment": "E15-18",
+    "seconds": 12,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      6
+    ],
+    "prompt": "E/E15-18/prompt.md",
+    "pictures": [
+      "E/E15-18/f1.png",
+      "E/E15-18/f2.png"
+    ],
+    "missing": [
+      "E/E15-18/f1.png",
+      "E/E15-18/f2.png"
+    ]
+  },
+  {
+    "segment": "E16-01",
+    "seconds": 11,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      3,
+      6
+    ],
+    "prompt": "E/E16-01/prompt.md",
+    "pictures": [
+      "E/E16-01/f1.png",
+      "E/E16-01/f2.png",
+      "E/E16-01/f3.png"
+    ],
+    "missing": [
+      "E/E16-01/f1.png",
+      "E/E16-01/f2.png",
+      "E/E16-01/f3.png"
+    ]
+  },
+  {
+    "segment": "E16-02",
+    "seconds": 8,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      5
+    ],
+    "prompt": "E/E16-02/prompt.md",
+    "pictures": [
+      "E/E16-02/f1.png",
+      "E/E16-02/f2.png"
+    ],
+    "missing": [
+      "E/E16-02/f1.png",
+      "E/E16-02/f2.png"
+    ]
+  },
+  {
+    "segment": "E16-03",
+    "seconds": 10,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      4
+    ],
+    "prompt": "E/E16-03/prompt.md",
+    "pictures": [
+      "E/E16-03/f1.png",
+      "E/E16-03/f2.png"
+    ],
+    "missing": [
+      "E/E16-03/f1.png",
+      "E/E16-03/f2.png"
+    ]
+  },
+  {
+    "segment": "E16-04",
+    "seconds": 6,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      3
+    ],
+    "prompt": "E/E16-04/prompt.md",
+    "pictures": [
+      "E/E16-04/f1.png",
+      "E/E16-04/f2.png"
+    ],
+    "missing": [
+      "E/E16-04/f1.png",
+      "E/E16-04/f2.png"
+    ]
+  },
+  {
+    "segment": "E16-05",
+    "seconds": 13,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      5,
+      8
+    ],
+    "prompt": "E/E16-05/prompt.md",
+    "pictures": [
+      "E/E16-05/f1.png",
+      "E/E16-05/f2.png",
+      "E/E16-05/f3.png"
+    ],
+    "missing": [
+      "E/E16-05/f1.png",
+      "E/E16-05/f2.png",
+      "E/E16-05/f3.png"
+    ]
+  },
+  {
+    "segment": "E16-06",
+    "seconds": 13,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      3,
+      8
+    ],
+    "prompt": "E/E16-06/prompt.md",
+    "pictures": [
+      "E/E16-06/f1.png",
+      "E/E16-06/f2.png",
+      "E/E16-06/f3.png"
+    ],
+    "missing": [
+      "E/E16-06/f1.png",
+      "E/E16-06/f2.png",
+      "E/E16-06/f3.png"
+    ]
+  },
+  {
+    "segment": "E16-07",
+    "seconds": 9,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      3,
+      6
+    ],
+    "prompt": "E/E16-07/prompt.md",
+    "pictures": [
+      "E/E16-07/f1.png",
+      "E/E16-07/f2.png",
+      "E/E16-07/f3.png"
+    ],
+    "missing": [
+      "E/E16-07/f1.png",
+      "E/E16-07/f2.png",
+      "E/E16-07/f3.png"
+    ]
+  },
+  {
+    "segment": "E16-08",
+    "seconds": 11,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      5
+    ],
+    "prompt": "E/E16-08/prompt.md",
+    "pictures": [
+      "E/E16-08/f1.png",
+      "E/E16-08/f2.png"
+    ],
+    "missing": [
+      "E/E16-08/f1.png",
+      "E/E16-08/f2.png"
+    ]
+  },
+  {
+    "segment": "E16-09",
+    "seconds": 9,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      6
+    ],
+    "prompt": "E/E16-09/prompt.md",
+    "pictures": [
+      "E/E16-09/f1.png",
+      "E/E16-09/f2.png"
+    ],
+    "missing": [
+      "E/E16-09/f1.png",
+      "E/E16-09/f2.png"
+    ]
+  },
+  {
+    "segment": "E16-10",
+    "seconds": 9,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      3,
+      6
+    ],
+    "prompt": "E/E16-10/prompt.md",
+    "pictures": [
+      "E/E16-10/f1.png",
+      "E/E16-10/f2.png",
+      "E/E16-10/f3.png"
+    ],
+    "missing": [
+      "E/E16-10/f1.png",
+      "E/E16-10/f2.png",
+      "E/E16-10/f3.png"
+    ]
+  },
+  {
+    "segment": "E16-11",
+    "seconds": 13,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      3,
+      9
+    ],
+    "prompt": "E/E16-11/prompt.md",
+    "pictures": [
+      "E/E16-11/f1.png",
+      "E/E16-11/f2.png",
+      "E/E16-11/f3.png"
+    ],
+    "missing": [
+      "E/E16-11/f1.png",
+      "E/E16-11/f2.png",
+      "E/E16-11/f3.png"
+    ]
+  },
+  {
+    "segment": "E16-12",
+    "seconds": 9,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      3,
+      6
+    ],
+    "prompt": "E/E16-12/prompt.md",
+    "pictures": [
+      "E/E16-12/f1.png",
+      "E/E16-12/f2.png",
+      "E/E16-12/f3.png"
+    ],
+    "missing": [
+      "E/E16-12/f1.png",
+      "E/E16-12/f2.png",
+      "E/E16-12/f3.png"
+    ]
+  },
+  {
+    "segment": "E16-13",
+    "seconds": 10,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      4,
+      7
+    ],
+    "prompt": "E/E16-13/prompt.md",
+    "pictures": [
+      "E/E16-13/f1.png",
+      "E/E16-13/f2.png",
+      "E/E16-13/f3.png"
+    ],
+    "missing": [
+      "E/E16-13/f1.png",
+      "E/E16-13/f2.png",
+      "E/E16-13/f3.png"
+    ]
+  },
+  {
+    "segment": "E16-14",
+    "seconds": 14,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      5,
+      10
+    ],
+    "prompt": "E/E16-14/prompt.md",
+    "pictures": [
+      "E/E16-14/f1.png",
+      "E/E16-14/f2.png",
+      "E/E16-14/f3.png"
+    ],
+    "missing": [
+      "E/E16-14/f1.png",
+      "E/E16-14/f2.png",
+      "E/E16-14/f3.png"
+    ]
+  },
+  {
+    "segment": "E16-15",
+    "seconds": 11,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      3,
+      6
+    ],
+    "prompt": "E/E16-15/prompt.md",
+    "pictures": [
+      "E/E16-15/f1.png",
+      "E/E16-15/f2.png",
+      "E/E16-15/f3.png"
+    ],
+    "missing": [
+      "E/E16-15/f1.png",
+      "E/E16-15/f2.png",
+      "E/E16-15/f3.png"
+    ]
+  },
+  {
+    "segment": "E16-16",
+    "seconds": 14,
+    "cuts": 4,
+    "cutStarts": [
+      0,
+      3,
+      7,
+      11
+    ],
+    "prompt": "E/E16-16/prompt.md",
+    "pictures": [
+      "E/E16-16/f1.png",
+      "E/E16-16/f2.png",
+      "E/E16-16/f3.png",
+      "E/E16-16/f4.png"
+    ],
+    "missing": [
+      "E/E16-16/f1.png",
+      "E/E16-16/f2.png",
+      "E/E16-16/f3.png",
+      "E/E16-16/f4.png"
+    ]
+  },
+  {
+    "segment": "E16-17",
+    "seconds": 6,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      3
+    ],
+    "prompt": "E/E16-17/prompt.md",
+    "pictures": [
+      "E/E16-17/f1.png",
+      "E/E16-17/f2.png"
+    ],
+    "missing": [
+      "E/E16-17/f1.png",
+      "E/E16-17/f2.png"
+    ]
+  },
+  {
+    "segment": "E17-01",
+    "seconds": 9,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      3,
+      6
+    ],
+    "prompt": "E/E17-01/prompt.md",
+    "pictures": [
+      "E/E17-01/f1.png",
+      "E/E17-01/f2.png",
+      "E/E17-01/f3.png"
+    ],
+    "missing": [
+      "E/E17-01/f1.png",
+      "E/E17-01/f2.png",
+      "E/E17-01/f3.png"
+    ]
+  },
+  {
+    "segment": "E17-02",
+    "seconds": 11,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      6
+    ],
+    "prompt": "E/E17-02/prompt.md",
+    "pictures": [
+      "E/E17-02/f1.png",
+      "E/E17-02/f2.png"
+    ],
+    "missing": [
+      "E/E17-02/f1.png",
+      "E/E17-02/f2.png"
+    ]
+  },
+  {
+    "segment": "E17-03",
+    "seconds": 6,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      3
+    ],
+    "prompt": "E/E17-03/prompt.md",
+    "pictures": [
+      "E/E17-03/f1.png",
+      "E/E17-03/f2.png"
+    ],
+    "missing": [
+      "E/E17-03/f1.png",
+      "E/E17-03/f2.png"
+    ]
+  },
+  {
+    "segment": "E17-04",
+    "seconds": 10,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      4,
+      7
+    ],
+    "prompt": "E/E17-04/prompt.md",
+    "pictures": [
+      "E/E17-04/f1.png",
+      "E/E17-04/f2.png",
+      "E/E17-04/f3.png"
+    ],
+    "missing": [
+      "E/E17-04/f1.png",
+      "E/E17-04/f2.png",
+      "E/E17-04/f3.png"
+    ]
+  },
+  {
+    "segment": "E17-05",
+    "seconds": 10,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      4,
+      7
+    ],
+    "prompt": "E/E17-05/prompt.md",
+    "pictures": [
+      "E/E17-05/f1.png",
+      "E/E17-05/f2.png",
+      "E/E17-05/f3.png"
+    ],
+    "missing": [
+      "E/E17-05/f1.png",
+      "E/E17-05/f2.png",
+      "E/E17-05/f3.png"
+    ]
+  },
+  {
+    "segment": "E17-06",
+    "seconds": 10,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      3,
+      7
+    ],
+    "prompt": "E/E17-06/prompt.md",
+    "pictures": [
+      "E/E17-06/f1.png",
+      "E/E17-06/f2.png",
+      "E/E17-06/f3.png"
+    ],
+    "missing": [
+      "E/E17-06/f1.png",
+      "E/E17-06/f2.png",
+      "E/E17-06/f3.png"
+    ]
+  },
+  {
+    "segment": "E17-07",
+    "seconds": 8,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      3
+    ],
+    "prompt": "E/E17-07/prompt.md",
+    "pictures": [
+      "E/E17-07/f1.png",
+      "E/E17-07/f2.png"
+    ],
+    "missing": [
+      "E/E17-07/f1.png",
+      "E/E17-07/f2.png"
+    ]
+  },
+  {
+    "segment": "E17-08",
+    "seconds": 11,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      3,
+      8
+    ],
+    "prompt": "E/E17-08/prompt.md",
+    "pictures": [
+      "E/E17-08/f1.png",
+      "E/E17-08/f2.png",
+      "E/E17-08/f3.png"
+    ],
+    "missing": [
+      "E/E17-08/f1.png",
+      "E/E17-08/f2.png",
+      "E/E17-08/f3.png"
+    ]
+  },
+  {
+    "segment": "E17-09",
+    "seconds": 13,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      4,
+      8
+    ],
+    "prompt": "E/E17-09/prompt.md",
+    "pictures": [
+      "E/E17-09/f1.png",
+      "E/E17-09/f2.png",
+      "E/E17-09/f3.png"
+    ],
+    "missing": [
+      "E/E17-09/f1.png",
+      "E/E17-09/f2.png",
+      "E/E17-09/f3.png"
+    ]
+  },
+  {
+    "segment": "E17-10",
+    "seconds": 11,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      3,
+      7
+    ],
+    "prompt": "E/E17-10/prompt.md",
+    "pictures": [
+      "E/E17-10/f1.png",
+      "E/E17-10/f2.png",
+      "E/E17-10/f3.png"
+    ],
+    "missing": [
+      "E/E17-10/f1.png",
+      "E/E17-10/f2.png",
+      "E/E17-10/f3.png"
+    ]
+  },
+  {
+    "segment": "E17-11",
+    "seconds": 7,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      4
+    ],
+    "prompt": "E/E17-11/prompt.md",
+    "pictures": [
+      "E/E17-11/f1.png",
+      "E/E17-11/f2.png"
+    ],
+    "missing": [
+      "E/E17-11/f1.png",
+      "E/E17-11/f2.png"
+    ]
+  },
+  {
+    "segment": "E17-12",
+    "seconds": 7,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      3
+    ],
+    "prompt": "E/E17-12/prompt.md",
+    "pictures": [
+      "E/E17-12/f1.png",
+      "E/E17-12/f2.png"
+    ],
+    "missing": [
+      "E/E17-12/f1.png",
+      "E/E17-12/f2.png"
+    ]
+  },
+  {
+    "segment": "E17-13",
+    "seconds": 8,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      3
+    ],
+    "prompt": "E/E17-13/prompt.md",
+    "pictures": [
+      "E/E17-13/f1.png",
+      "E/E17-13/f2.png"
+    ],
+    "missing": [
+      "E/E17-13/f1.png",
+      "E/E17-13/f2.png"
+    ]
+  },
+  {
+    "segment": "E17-14",
+    "seconds": 8,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      3
+    ],
+    "prompt": "E/E17-14/prompt.md",
+    "pictures": [
+      "E/E17-14/f1.png",
+      "E/E17-14/f2.png"
+    ],
+    "missing": [
+      "E/E17-14/f1.png",
+      "E/E17-14/f2.png"
+    ]
+  },
+  {
+    "segment": "E17-15",
+    "seconds": 15,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      5,
+      10
+    ],
+    "prompt": "E/E17-15/prompt.md",
+    "pictures": [
+      "E/E17-15/f1.png",
+      "E/E17-15/f2.png",
+      "E/E17-15/f3.png"
+    ],
+    "missing": [
+      "E/E17-15/f1.png",
+      "E/E17-15/f2.png",
+      "E/E17-15/f3.png"
+    ]
+  },
+  {
+    "segment": "E17-16",
+    "seconds": 12,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      3,
+      6
+    ],
+    "prompt": "E/E17-16/prompt.md",
+    "pictures": [
+      "E/E17-16/f1.png",
+      "E/E17-16/f2.png",
+      "E/E17-16/f3.png"
+    ],
+    "missing": [
+      "E/E17-16/f1.png",
+      "E/E17-16/f2.png",
+      "E/E17-16/f3.png"
+    ]
+  },
+  {
+    "segment": "E17-17",
+    "seconds": 12,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      5,
+      8
+    ],
+    "prompt": "E/E17-17/prompt.md",
+    "pictures": [
+      "E/E17-17/f1.png",
+      "E/E17-17/f2.png",
+      "E/E17-17/f3.png"
+    ],
+    "missing": [
+      "E/E17-17/f1.png",
+      "E/E17-17/f2.png",
+      "E/E17-17/f3.png"
+    ]
+  },
+  {
+    "segment": "E17-18",
+    "seconds": 10,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      3,
+      6
+    ],
+    "prompt": "E/E17-18/prompt.md",
+    "pictures": [
+      "E/E17-18/f1.png",
+      "E/E17-18/f2.png",
+      "E/E17-18/f3.png"
+    ],
+    "missing": [
+      "E/E17-18/f1.png",
+      "E/E17-18/f2.png",
+      "E/E17-18/f3.png"
+    ]
+  },
+  {
+    "segment": "E18-01",
+    "seconds": 10,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      3,
+      6
+    ],
+    "prompt": "E/E18-01/prompt.md",
+    "pictures": [
+      "E/E18-01/f1.png",
+      "E/E18-01/f2.png",
+      "E/E18-01/f3.png"
+    ],
+    "missing": [
+      "E/E18-01/f1.png",
+      "E/E18-01/f2.png",
+      "E/E18-01/f3.png"
+    ]
+  },
+  {
+    "segment": "E18-02",
+    "seconds": 10,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      3
+    ],
+    "prompt": "E/E18-02/prompt.md",
+    "pictures": [
+      "E/E18-02/f1.png",
+      "E/E18-02/f2.png"
+    ],
+    "missing": [
+      "E/E18-02/f1.png",
+      "E/E18-02/f2.png"
+    ]
+  },
+  {
+    "segment": "E18-03",
+    "seconds": 8,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      5
+    ],
+    "prompt": "E/E18-03/prompt.md",
+    "pictures": [
+      "E/E18-03/f1.png",
+      "E/E18-03/f2.png"
+    ],
+    "missing": [
+      "E/E18-03/f1.png",
+      "E/E18-03/f2.png"
+    ]
+  },
+  {
+    "segment": "E18-04",
+    "seconds": 10,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      4,
+      7
+    ],
+    "prompt": "E/E18-04/prompt.md",
+    "pictures": [
+      "E/E18-04/f1.png",
+      "E/E18-04/f2.png",
+      "E/E18-04/f3.png"
+    ],
+    "missing": [
+      "E/E18-04/f1.png",
+      "E/E18-04/f2.png",
+      "E/E18-04/f3.png"
+    ]
+  },
+  {
+    "segment": "E18-05",
+    "seconds": 14,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      4,
+      7
+    ],
+    "prompt": "E/E18-05/prompt.md",
+    "pictures": [
+      "E/E18-05/f1.png",
+      "E/E18-05/f2.png",
+      "E/E18-05/f3.png"
+    ],
+    "missing": [
+      "E/E18-05/f1.png",
+      "E/E18-05/f2.png",
+      "E/E18-05/f3.png"
+    ]
+  },
+  {
+    "segment": "E18-06",
+    "seconds": 7,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      3
+    ],
+    "prompt": "E/E18-06/prompt.md",
+    "pictures": [
+      "E/E18-06/f1.png",
+      "E/E18-06/f2.png"
+    ],
+    "missing": [
+      "E/E18-06/f1.png",
+      "E/E18-06/f2.png"
+    ]
+  },
+  {
+    "segment": "E18-07",
+    "seconds": 8,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      4
+    ],
+    "prompt": "E/E18-07/prompt.md",
+    "pictures": [
+      "E/E18-07/f1.png",
+      "E/E18-07/f2.png"
+    ],
+    "missing": [
+      "E/E18-07/f1.png",
+      "E/E18-07/f2.png"
+    ]
+  },
+  {
+    "segment": "E18-08",
+    "seconds": 11,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      4,
+      8
+    ],
+    "prompt": "E/E18-08/prompt.md",
+    "pictures": [
+      "E/E18-08/f1.png",
+      "E/E18-08/f2.png",
+      "E/E18-08/f3.png"
+    ],
+    "missing": [
+      "E/E18-08/f1.png",
+      "E/E18-08/f2.png",
+      "E/E18-08/f3.png"
+    ]
+  },
+  {
+    "segment": "E18-09",
+    "seconds": 12,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      3,
+      9
+    ],
+    "prompt": "E/E18-09/prompt.md",
+    "pictures": [
+      "E/E18-09/f1.png",
+      "E/E18-09/f2.png",
+      "E/E18-09/f3.png"
+    ],
+    "missing": [
+      "E/E18-09/f1.png",
+      "E/E18-09/f2.png",
+      "E/E18-09/f3.png"
+    ]
+  },
+  {
+    "segment": "E18-10",
+    "seconds": 7,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      3
+    ],
+    "prompt": "E/E18-10/prompt.md",
+    "pictures": [
+      "E/E18-10/f1.png",
+      "E/E18-10/f2.png"
+    ],
+    "missing": [
+      "E/E18-10/f1.png",
+      "E/E18-10/f2.png"
+    ]
+  },
+  {
+    "segment": "E18-11",
+    "seconds": 10,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      3,
+      8
+    ],
+    "prompt": "E/E18-11/prompt.md",
+    "pictures": [
+      "E/E18-11/f1.png",
+      "E/E18-11/f2.png",
+      "E/E18-11/f3.png"
+    ],
+    "missing": [
+      "E/E18-11/f1.png",
+      "E/E18-11/f2.png",
+      "E/E18-11/f3.png"
+    ]
+  },
+  {
+    "segment": "E18-12",
+    "seconds": 7,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      4
+    ],
+    "prompt": "E/E18-12/prompt.md",
+    "pictures": [
+      "E/E18-12/f1.png",
+      "E/E18-12/f2.png"
+    ],
+    "missing": [
+      "E/E18-12/f1.png",
+      "E/E18-12/f2.png"
+    ]
+  },
+  {
+    "segment": "E18-13",
+    "seconds": 10,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      6
+    ],
+    "prompt": "E/E18-13/prompt.md",
+    "pictures": [
+      "E/E18-13/f1.png",
+      "E/E18-13/f2.png"
+    ],
+    "missing": [
+      "E/E18-13/f1.png",
+      "E/E18-13/f2.png"
+    ]
+  },
+  {
+    "segment": "E18-14",
+    "seconds": 9,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      3,
+      6
+    ],
+    "prompt": "E/E18-14/prompt.md",
+    "pictures": [
+      "E/E18-14/f1.png",
+      "E/E18-14/f2.png",
+      "E/E18-14/f3.png"
+    ],
+    "missing": [
+      "E/E18-14/f1.png",
+      "E/E18-14/f2.png",
+      "E/E18-14/f3.png"
+    ]
+  },
+  {
+    "segment": "E18-15",
+    "seconds": 12,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      4,
+      8
+    ],
+    "prompt": "E/E18-15/prompt.md",
+    "pictures": [
+      "E/E18-15/f1.png",
+      "E/E18-15/f2.png",
+      "E/E18-15/f3.png"
+    ],
+    "missing": [
+      "E/E18-15/f1.png",
+      "E/E18-15/f2.png",
+      "E/E18-15/f3.png"
+    ]
+  },
+  {
+    "segment": "E18-16",
+    "seconds": 8,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      5
+    ],
+    "prompt": "E/E18-16/prompt.md",
+    "pictures": [
+      "E/E18-16/f1.png",
+      "E/E18-16/f2.png"
+    ],
+    "missing": [
+      "E/E18-16/f1.png",
+      "E/E18-16/f2.png"
+    ]
+  },
+  {
+    "segment": "E18-17",
+    "seconds": 13,
+    "cuts": 4,
+    "cutStarts": [
+      0,
+      3,
+      6,
+      10
+    ],
+    "prompt": "E/E18-17/prompt.md",
+    "pictures": [
+      "E/E18-17/f1.png",
+      "E/E18-17/f2.png",
+      "E/E18-17/f3.png",
+      "E/E18-17/f4.png"
+    ],
+    "missing": [
+      "E/E18-17/f1.png",
+      "E/E18-17/f2.png",
+      "E/E18-17/f3.png",
+      "E/E18-17/f4.png"
+    ]
+  },
+  {
+    "segment": "E18-18",
+    "seconds": 14,
+    "cuts": 4,
+    "cutStarts": [
+      0,
+      4,
+      8,
+      11
+    ],
+    "prompt": "E/E18-18/prompt.md",
+    "pictures": [
+      "E/E18-18/f1.png",
+      "E/E18-18/f2.png",
+      "E/E18-18/f3.png",
+      "E/E18-18/f4.png"
+    ],
+    "missing": [
+      "E/E18-18/f1.png",
+      "E/E18-18/f2.png",
+      "E/E18-18/f3.png",
+      "E/E18-18/f4.png"
+    ]
+  },
+  {
+    "segment": "E19-01",
+    "seconds": 9,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      3,
+      6
+    ],
+    "prompt": "E/E19-01/prompt.md",
+    "pictures": [
+      "E/E19-01/f1.png",
+      "E/E19-01/f2.png",
+      "E/E19-01/f3.png"
+    ],
+    "missing": [
+      "E/E19-01/f1.png",
+      "E/E19-01/f2.png",
+      "E/E19-01/f3.png"
+    ]
+  },
+  {
+    "segment": "E19-02",
+    "seconds": 14,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      6,
+      9
+    ],
+    "prompt": "E/E19-02/prompt.md",
+    "pictures": [
+      "E/E19-02/f1.png",
+      "E/E19-02/f2.png",
+      "E/E19-02/f3.png"
+    ],
+    "missing": [
+      "E/E19-02/f1.png",
+      "E/E19-02/f2.png",
+      "E/E19-02/f3.png"
+    ]
+  },
+  {
+    "segment": "E19-03",
+    "seconds": 11,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      4,
+      8
+    ],
+    "prompt": "E/E19-03/prompt.md",
+    "pictures": [
+      "E/E19-03/f1.png",
+      "E/E19-03/f2.png",
+      "E/E19-03/f3.png"
+    ],
+    "missing": [
+      "E/E19-03/f1.png",
+      "E/E19-03/f2.png",
+      "E/E19-03/f3.png"
+    ]
+  },
+  {
+    "segment": "E19-04",
+    "seconds": 12,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      3,
+      6
+    ],
+    "prompt": "E/E19-04/prompt.md",
+    "pictures": [
+      "E/E19-04/f1.png",
+      "E/E19-04/f2.png",
+      "E/E19-04/f3.png"
+    ],
+    "missing": [
+      "E/E19-04/f1.png",
+      "E/E19-04/f2.png",
+      "E/E19-04/f3.png"
+    ]
+  },
+  {
+    "segment": "E19-05",
+    "seconds": 12,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      4,
+      9
+    ],
+    "prompt": "E/E19-05/prompt.md",
+    "pictures": [
+      "E/E19-05/f1.png",
+      "E/E19-05/f2.png",
+      "E/E19-05/f3.png"
+    ],
+    "missing": [
+      "E/E19-05/f1.png",
+      "E/E19-05/f2.png",
+      "E/E19-05/f3.png"
+    ]
+  },
+  {
+    "segment": "E19-06",
+    "seconds": 11,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      3,
+      6
+    ],
+    "prompt": "E/E19-06/prompt.md",
+    "pictures": [
+      "E/E19-06/f1.png",
+      "E/E19-06/f2.png",
+      "E/E19-06/f3.png"
+    ],
+    "missing": [
+      "E/E19-06/f1.png",
+      "E/E19-06/f2.png",
+      "E/E19-06/f3.png"
+    ]
+  },
+  {
+    "segment": "E19-07",
+    "seconds": 13,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      7
+    ],
+    "prompt": "E/E19-07/prompt.md",
+    "pictures": [
+      "E/E19-07/f1.png",
+      "E/E19-07/f2.png"
+    ],
+    "missing": [
+      "E/E19-07/f1.png",
+      "E/E19-07/f2.png"
+    ]
+  },
+  {
+    "segment": "E19-08",
+    "seconds": 8,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      3
+    ],
+    "prompt": "E/E19-08/prompt.md",
+    "pictures": [
+      "E/E19-08/f1.png",
+      "E/E19-08/f2.png"
+    ],
+    "missing": [
+      "E/E19-08/f1.png",
+      "E/E19-08/f2.png"
+    ]
+  },
+  {
+    "segment": "E19-09",
+    "seconds": 12,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      5
+    ],
+    "prompt": "E/E19-09/prompt.md",
+    "pictures": [
+      "E/E19-09/f1.png",
+      "E/E19-09/f2.png"
+    ],
+    "missing": [
+      "E/E19-09/f1.png",
+      "E/E19-09/f2.png"
+    ]
+  },
+  {
+    "segment": "E19-10",
+    "seconds": 12,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      5,
+      9
+    ],
+    "prompt": "E/E19-10/prompt.md",
+    "pictures": [
+      "E/E19-10/f1.png",
+      "E/E19-10/f2.png",
+      "E/E19-10/f3.png"
+    ],
+    "missing": [
+      "E/E19-10/f1.png",
+      "E/E19-10/f2.png",
+      "E/E19-10/f3.png"
+    ]
+  },
+  {
+    "segment": "E19-11",
+    "seconds": 11,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      3,
+      6
+    ],
+    "prompt": "E/E19-11/prompt.md",
+    "pictures": [
+      "E/E19-11/f1.png",
+      "E/E19-11/f2.png",
+      "E/E19-11/f3.png"
+    ],
+    "missing": [
+      "E/E19-11/f1.png",
+      "E/E19-11/f2.png",
+      "E/E19-11/f3.png"
+    ]
+  },
+  {
+    "segment": "E19-12",
+    "seconds": 10,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      4,
+      7
+    ],
+    "prompt": "E/E19-12/prompt.md",
+    "pictures": [
+      "E/E19-12/f1.png",
+      "E/E19-12/f2.png",
+      "E/E19-12/f3.png"
+    ],
+    "missing": [
+      "E/E19-12/f1.png",
+      "E/E19-12/f2.png",
+      "E/E19-12/f3.png"
+    ]
+  },
+  {
+    "segment": "E19-13",
+    "seconds": 10,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      3,
+      6
+    ],
+    "prompt": "E/E19-13/prompt.md",
+    "pictures": [
+      "E/E19-13/f1.png",
+      "E/E19-13/f2.png",
+      "E/E19-13/f3.png"
+    ],
+    "missing": [
+      "E/E19-13/f1.png",
+      "E/E19-13/f2.png",
+      "E/E19-13/f3.png"
+    ]
+  },
+  {
+    "segment": "E19-14",
+    "seconds": 11,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      5,
+      8
+    ],
+    "prompt": "E/E19-14/prompt.md",
+    "pictures": [
+      "E/E19-14/f1.png",
+      "E/E19-14/f2.png",
+      "E/E19-14/f3.png"
+    ],
+    "missing": [
+      "E/E19-14/f1.png",
+      "E/E19-14/f2.png",
+      "E/E19-14/f3.png"
+    ]
+  },
+  {
+    "segment": "E19-15",
+    "seconds": 9,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      3,
+      6
+    ],
+    "prompt": "E/E19-15/prompt.md",
+    "pictures": [
+      "E/E19-15/f1.png",
+      "E/E19-15/f2.png",
+      "E/E19-15/f3.png"
+    ],
+    "missing": [
+      "E/E19-15/f1.png",
+      "E/E19-15/f2.png",
+      "E/E19-15/f3.png"
+    ]
+  },
+  {
+    "segment": "E19-16",
+    "seconds": 11,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      5,
+      8
+    ],
+    "prompt": "E/E19-16/prompt.md",
+    "pictures": [
+      "E/E19-16/f1.png",
+      "E/E19-16/f2.png",
+      "E/E19-16/f3.png"
+    ],
+    "missing": [
+      "E/E19-16/f1.png",
+      "E/E19-16/f2.png",
+      "E/E19-16/f3.png"
+    ]
+  },
+  {
+    "segment": "E19-17",
+    "seconds": 3,
+    "cuts": 1,
+    "cutStarts": [
+      0
+    ],
+    "prompt": "E/E19-17/prompt.md",
+    "pictures": [
+      "E/E19-17/f1.png"
+    ],
+    "missing": [
+      "E/E19-17/f1.png"
+    ]
+  },
+  {
+    "segment": "E20-01",
+    "seconds": 12,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      3,
+      6
+    ],
+    "prompt": "E/E20-01/prompt.md",
+    "pictures": [
+      "E/E20-01/f1.png",
+      "E/E20-01/f2.png",
+      "E/E20-01/f3.png"
+    ],
+    "missing": [
+      "E/E20-01/f1.png",
+      "E/E20-01/f2.png",
+      "E/E20-01/f3.png"
+    ]
+  },
+  {
+    "segment": "E20-02",
+    "seconds": 14,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      5,
+      10
+    ],
+    "prompt": "E/E20-02/prompt.md",
+    "pictures": [
+      "E/E20-02/f1.png",
+      "E/E20-02/f2.png",
+      "E/E20-02/f3.png"
+    ],
+    "missing": [
+      "E/E20-02/f1.png",
+      "E/E20-02/f2.png",
+      "E/E20-02/f3.png"
+    ]
+  },
+  {
+    "segment": "E20-03",
+    "seconds": 13,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      6,
+      10
+    ],
+    "prompt": "E/E20-03/prompt.md",
+    "pictures": [
+      "E/E20-03/f1.png",
+      "E/E20-03/f2.png",
+      "E/E20-03/f3.png"
+    ],
+    "missing": [
+      "E/E20-03/f1.png",
+      "E/E20-03/f2.png",
+      "E/E20-03/f3.png"
+    ]
+  },
+  {
+    "segment": "E20-04",
+    "seconds": 12,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      3,
+      8
+    ],
+    "prompt": "E/E20-04/prompt.md",
+    "pictures": [
+      "E/E20-04/f1.png",
+      "E/E20-04/f2.png",
+      "E/E20-04/f3.png"
+    ],
+    "missing": [
+      "E/E20-04/f1.png",
+      "E/E20-04/f2.png",
+      "E/E20-04/f3.png"
+    ]
+  },
+  {
+    "segment": "E20-05",
+    "seconds": 10,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      3,
+      7
+    ],
+    "prompt": "E/E20-05/prompt.md",
+    "pictures": [
+      "E/E20-05/f1.png",
+      "E/E20-05/f2.png",
+      "E/E20-05/f3.png"
+    ],
+    "missing": [
+      "E/E20-05/f1.png",
+      "E/E20-05/f2.png",
+      "E/E20-05/f3.png"
+    ]
+  },
+  {
+    "segment": "E20-06",
+    "seconds": 13,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      5,
+      8
+    ],
+    "prompt": "E/E20-06/prompt.md",
+    "pictures": [
+      "E/E20-06/f1.png",
+      "E/E20-06/f2.png",
+      "E/E20-06/f3.png"
+    ],
+    "missing": [
+      "E/E20-06/f1.png",
+      "E/E20-06/f2.png",
+      "E/E20-06/f3.png"
+    ]
+  },
+  {
+    "segment": "E20-07",
+    "seconds": 11,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      4,
+      7
+    ],
+    "prompt": "E/E20-07/prompt.md",
+    "pictures": [
+      "E/E20-07/f1.png",
+      "E/E20-07/f2.png",
+      "E/E20-07/f3.png"
+    ],
+    "missing": [
+      "E/E20-07/f1.png",
+      "E/E20-07/f2.png",
+      "E/E20-07/f3.png"
+    ]
+  },
+  {
+    "segment": "E20-08",
+    "seconds": 11,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      5,
+      8
+    ],
+    "prompt": "E/E20-08/prompt.md",
+    "pictures": [
+      "E/E20-08/f1.png",
+      "E/E20-08/f2.png",
+      "E/E20-08/f3.png"
+    ],
+    "missing": [
+      "E/E20-08/f1.png",
+      "E/E20-08/f2.png",
+      "E/E20-08/f3.png"
+    ]
+  },
+  {
+    "segment": "E20-09",
+    "seconds": 11,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      3,
+      7
+    ],
+    "prompt": "E/E20-09/prompt.md",
+    "pictures": [
+      "E/E20-09/f1.png",
+      "E/E20-09/f2.png",
+      "E/E20-09/f3.png"
+    ],
+    "missing": [
+      "E/E20-09/f1.png",
+      "E/E20-09/f2.png",
+      "E/E20-09/f3.png"
+    ]
+  },
+  {
+    "segment": "E20-10",
+    "seconds": 10,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      3,
+      7
+    ],
+    "prompt": "E/E20-10/prompt.md",
+    "pictures": [
+      "E/E20-10/f1.png",
+      "E/E20-10/f2.png",
+      "E/E20-10/f3.png"
+    ],
+    "missing": [
+      "E/E20-10/f1.png",
+      "E/E20-10/f2.png",
+      "E/E20-10/f3.png"
+    ]
+  },
+  {
+    "segment": "E20-11",
+    "seconds": 10,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      3,
+      6
+    ],
+    "prompt": "E/E20-11/prompt.md",
+    "pictures": [
+      "E/E20-11/f1.png",
+      "E/E20-11/f2.png",
+      "E/E20-11/f3.png"
+    ],
+    "missing": [
+      "E/E20-11/f1.png",
+      "E/E20-11/f2.png",
+      "E/E20-11/f3.png"
+    ]
+  },
+  {
+    "segment": "E20-12",
+    "seconds": 7,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      3
+    ],
+    "prompt": "E/E20-12/prompt.md",
+    "pictures": [
+      "E/E20-12/f1.png",
+      "E/E20-12/f2.png"
+    ],
+    "missing": [
+      "E/E20-12/f1.png",
+      "E/E20-12/f2.png"
+    ]
+  },
+  {
+    "segment": "E20-13",
+    "seconds": 6,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      3
+    ],
+    "prompt": "E/E20-13/prompt.md",
+    "pictures": [
+      "E/E20-13/f1.png",
+      "E/E20-13/f2.png"
+    ],
+    "missing": [
+      "E/E20-13/f1.png",
+      "E/E20-13/f2.png"
+    ]
+  },
+  {
+    "segment": "E20-14",
+    "seconds": 7,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      4
+    ],
+    "prompt": "E/E20-14/prompt.md",
+    "pictures": [
+      "E/E20-14/f1.png",
+      "E/E20-14/f2.png"
+    ],
+    "missing": [
+      "E/E20-14/f1.png",
+      "E/E20-14/f2.png"
+    ]
+  },
+  {
+    "segment": "E20-15",
+    "seconds": 11,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      3,
+      6
+    ],
+    "prompt": "E/E20-15/prompt.md",
+    "pictures": [
+      "E/E20-15/f1.png",
+      "E/E20-15/f2.png",
+      "E/E20-15/f3.png"
+    ],
+    "missing": [
+      "E/E20-15/f1.png",
+      "E/E20-15/f2.png",
+      "E/E20-15/f3.png"
+    ]
+  },
+  {
+    "segment": "E20-16",
+    "seconds": 12,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      4,
+      7
+    ],
+    "prompt": "E/E20-16/prompt.md",
+    "pictures": [
+      "E/E20-16/f1.png",
+      "E/E20-16/f2.png",
+      "E/E20-16/f3.png"
+    ],
+    "missing": [
+      "E/E20-16/f1.png",
+      "E/E20-16/f2.png",
+      "E/E20-16/f3.png"
+    ]
+  },
+  {
+    "segment": "E20-17",
+    "seconds": 11,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      5
+    ],
+    "prompt": "E/E20-17/prompt.md",
+    "pictures": [
+      "E/E20-17/f1.png",
+      "E/E20-17/f2.png"
+    ],
+    "missing": [
+      "E/E20-17/f1.png",
+      "E/E20-17/f2.png"
+    ]
+  },
+  {
+    "segment": "E20-18",
+    "seconds": 10,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      4,
+      7
+    ],
+    "prompt": "E/E20-18/prompt.md",
+    "pictures": [
+      "E/E20-18/f1.png",
+      "E/E20-18/f2.png",
+      "E/E20-18/f3.png"
+    ],
+    "missing": [
+      "E/E20-18/f1.png",
+      "E/E20-18/f2.png",
+      "E/E20-18/f3.png"
+    ]
+  },
+  {
+    "segment": "E21-01",
+    "seconds": 12,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      3,
+      6
+    ],
+    "prompt": "E/E21-01/prompt.md",
+    "pictures": [
+      "E/E21-01/f1.png",
+      "E/E21-01/f2.png",
+      "E/E21-01/f3.png"
+    ],
+    "missing": [
+      "E/E21-01/f1.png",
+      "E/E21-01/f2.png",
+      "E/E21-01/f3.png"
+    ]
+  },
+  {
+    "segment": "E21-02",
+    "seconds": 11,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      5
+    ],
+    "prompt": "E/E21-02/prompt.md",
+    "pictures": [
+      "E/E21-02/f1.png",
+      "E/E21-02/f2.png"
+    ],
+    "missing": [
+      "E/E21-02/f1.png",
+      "E/E21-02/f2.png"
+    ]
+  },
+  {
+    "segment": "E21-03",
+    "seconds": 10,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      4
+    ],
+    "prompt": "E/E21-03/prompt.md",
+    "pictures": [
+      "E/E21-03/f1.png",
+      "E/E21-03/f2.png"
+    ],
+    "missing": [
+      "E/E21-03/f1.png",
+      "E/E21-03/f2.png"
+    ]
+  },
+  {
+    "segment": "E21-04",
+    "seconds": 10,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      6
+    ],
+    "prompt": "E/E21-04/prompt.md",
+    "pictures": [
+      "E/E21-04/f1.png",
+      "E/E21-04/f2.png"
+    ],
+    "missing": [
+      "E/E21-04/f1.png",
+      "E/E21-04/f2.png"
+    ]
+  },
+  {
+    "segment": "E21-05",
+    "seconds": 13,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      3,
+      8
+    ],
+    "prompt": "E/E21-05/prompt.md",
+    "pictures": [
+      "E/E21-05/f1.png",
+      "E/E21-05/f2.png",
+      "E/E21-05/f3.png"
+    ],
+    "missing": [
+      "E/E21-05/f1.png",
+      "E/E21-05/f2.png",
+      "E/E21-05/f3.png"
+    ]
+  },
+  {
+    "segment": "E21-06",
+    "seconds": 10,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      6
+    ],
+    "prompt": "E/E21-06/prompt.md",
+    "pictures": [
+      "E/E21-06/f1.png",
+      "E/E21-06/f2.png"
+    ],
+    "missing": [
+      "E/E21-06/f1.png",
+      "E/E21-06/f2.png"
+    ]
+  },
+  {
+    "segment": "E21-07",
+    "seconds": 10,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      6
+    ],
+    "prompt": "E/E21-07/prompt.md",
+    "pictures": [
+      "E/E21-07/f1.png",
+      "E/E21-07/f2.png"
+    ],
+    "missing": [
+      "E/E21-07/f1.png",
+      "E/E21-07/f2.png"
+    ]
+  },
+  {
+    "segment": "E21-08",
+    "seconds": 13,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      5,
+      10
+    ],
+    "prompt": "E/E21-08/prompt.md",
+    "pictures": [
+      "E/E21-08/f1.png",
+      "E/E21-08/f2.png",
+      "E/E21-08/f3.png"
+    ],
+    "missing": [
+      "E/E21-08/f1.png",
+      "E/E21-08/f2.png",
+      "E/E21-08/f3.png"
+    ]
+  },
+  {
+    "segment": "E21-09",
+    "seconds": 8,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      4
+    ],
+    "prompt": "E/E21-09/prompt.md",
+    "pictures": [
+      "E/E21-09/f1.png",
+      "E/E21-09/f2.png"
+    ],
+    "missing": [
+      "E/E21-09/f1.png",
+      "E/E21-09/f2.png"
+    ]
+  },
+  {
+    "segment": "E21-10",
+    "seconds": 10,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      3,
+      6
+    ],
+    "prompt": "E/E21-10/prompt.md",
+    "pictures": [
+      "E/E21-10/f1.png",
+      "E/E21-10/f2.png",
+      "E/E21-10/f3.png"
+    ],
+    "missing": [
+      "E/E21-10/f1.png",
+      "E/E21-10/f2.png",
+      "E/E21-10/f3.png"
+    ]
+  },
+  {
+    "segment": "E21-11",
+    "seconds": 6,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      3
+    ],
+    "prompt": "E/E21-11/prompt.md",
+    "pictures": [
+      "E/E21-11/f1.png",
+      "E/E21-11/f2.png"
+    ],
+    "missing": [
+      "E/E21-11/f1.png",
+      "E/E21-11/f2.png"
+    ]
+  },
+  {
+    "segment": "E21-12",
+    "seconds": 8,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      5
+    ],
+    "prompt": "E/E21-12/prompt.md",
+    "pictures": [
+      "E/E21-12/f1.png",
+      "E/E21-12/f2.png"
+    ],
+    "missing": [
+      "E/E21-12/f1.png",
+      "E/E21-12/f2.png"
+    ]
+  },
+  {
+    "segment": "E21-13",
+    "seconds": 11,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      5,
+      8
+    ],
+    "prompt": "E/E21-13/prompt.md",
+    "pictures": [
+      "E/E21-13/f1.png",
+      "E/E21-13/f2.png",
+      "E/E21-13/f3.png"
+    ],
+    "missing": [
+      "E/E21-13/f1.png",
+      "E/E21-13/f2.png",
+      "E/E21-13/f3.png"
+    ]
+  },
+  {
+    "segment": "E21-14",
+    "seconds": 14,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      4,
+      10
+    ],
+    "prompt": "E/E21-14/prompt.md",
+    "pictures": [
+      "E/E21-14/f1.png",
+      "E/E21-14/f2.png",
+      "E/E21-14/f3.png"
+    ],
+    "missing": [
+      "E/E21-14/f1.png",
+      "E/E21-14/f2.png",
+      "E/E21-14/f3.png"
+    ]
+  },
+  {
+    "segment": "E21-15",
+    "seconds": 13,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      4,
+      7
+    ],
+    "prompt": "E/E21-15/prompt.md",
+    "pictures": [
+      "E/E21-15/f1.png",
+      "E/E21-15/f2.png",
+      "E/E21-15/f3.png"
+    ],
+    "missing": [
+      "E/E21-15/f1.png",
+      "E/E21-15/f2.png",
+      "E/E21-15/f3.png"
+    ]
+  },
+  {
+    "segment": "E21-16",
+    "seconds": 6,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      3
+    ],
+    "prompt": "E/E21-16/prompt.md",
+    "pictures": [
+      "E/E21-16/f1.png",
+      "E/E21-16/f2.png"
+    ],
+    "missing": [
+      "E/E21-16/f1.png",
+      "E/E21-16/f2.png"
+    ]
+  },
+  {
+    "segment": "E21-17",
+    "seconds": 9,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      6
+    ],
+    "prompt": "E/E21-17/prompt.md",
+    "pictures": [
+      "E/E21-17/f1.png",
+      "E/E21-17/f2.png"
+    ],
+    "missing": [
+      "E/E21-17/f1.png",
+      "E/E21-17/f2.png"
+    ]
+  },
+  {
+    "segment": "E22-01",
+    "seconds": 12,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      3,
+      6
+    ],
+    "prompt": "E/E22-01/prompt.md",
+    "pictures": [
+      "E/E22-01/f1.png",
+      "E/E22-01/f2.png",
+      "E/E22-01/f3.png"
+    ],
+    "missing": [
+      "E/E22-01/f1.png",
+      "E/E22-01/f2.png",
+      "E/E22-01/f3.png"
+    ]
+  },
+  {
+    "segment": "E22-02",
+    "seconds": 13,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      7
+    ],
+    "prompt": "E/E22-02/prompt.md",
+    "pictures": [
+      "E/E22-02/f1.png",
+      "E/E22-02/f2.png"
+    ],
+    "missing": [
+      "E/E22-02/f1.png",
+      "E/E22-02/f2.png"
+    ]
+  },
+  {
+    "segment": "E22-03",
+    "seconds": 14,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      6,
+      11
+    ],
+    "prompt": "E/E22-03/prompt.md",
+    "pictures": [
+      "E/E22-03/f1.png",
+      "E/E22-03/f2.png",
+      "E/E22-03/f3.png"
+    ],
+    "missing": [
+      "E/E22-03/f1.png",
+      "E/E22-03/f2.png",
+      "E/E22-03/f3.png"
+    ]
+  },
+  {
+    "segment": "E22-04",
+    "seconds": 6,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      3
+    ],
+    "prompt": "E/E22-04/prompt.md",
+    "pictures": [
+      "E/E22-04/f1.png",
+      "E/E22-04/f2.png"
+    ],
+    "missing": [
+      "E/E22-04/f1.png",
+      "E/E22-04/f2.png"
+    ]
+  },
+  {
+    "segment": "E22-05",
+    "seconds": 9,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      3
+    ],
+    "prompt": "E/E22-05/prompt.md",
+    "pictures": [
+      "E/E22-05/f1.png",
+      "E/E22-05/f2.png"
+    ],
+    "missing": [
+      "E/E22-05/f1.png",
+      "E/E22-05/f2.png"
+    ]
+  },
+  {
+    "segment": "E22-06",
+    "seconds": 11,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      4
+    ],
+    "prompt": "E/E22-06/prompt.md",
+    "pictures": [
+      "E/E22-06/f1.png",
+      "E/E22-06/f2.png"
+    ],
+    "missing": [
+      "E/E22-06/f1.png",
+      "E/E22-06/f2.png"
+    ]
+  },
+  {
+    "segment": "E22-07",
+    "seconds": 11,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      5,
+      8
+    ],
+    "prompt": "E/E22-07/prompt.md",
+    "pictures": [
+      "E/E22-07/f1.png",
+      "E/E22-07/f2.png",
+      "E/E22-07/f3.png"
+    ],
+    "missing": [
+      "E/E22-07/f1.png",
+      "E/E22-07/f2.png",
+      "E/E22-07/f3.png"
+    ]
+  },
+  {
+    "segment": "E22-08",
+    "seconds": 12,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      3,
+      7
+    ],
+    "prompt": "E/E22-08/prompt.md",
+    "pictures": [
+      "E/E22-08/f1.png",
+      "E/E22-08/f2.png",
+      "E/E22-08/f3.png"
+    ],
+    "missing": [
+      "E/E22-08/f1.png",
+      "E/E22-08/f2.png",
+      "E/E22-08/f3.png"
+    ]
+  },
+  {
+    "segment": "E22-09",
+    "seconds": 14,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      3,
+      9
+    ],
+    "prompt": "E/E22-09/prompt.md",
+    "pictures": [
+      "E/E22-09/f1.png",
+      "E/E22-09/f2.png",
+      "E/E22-09/f3.png"
+    ],
+    "missing": [
+      "E/E22-09/f1.png",
+      "E/E22-09/f2.png",
+      "E/E22-09/f3.png"
+    ]
+  },
+  {
+    "segment": "E22-10",
+    "seconds": 12,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      6,
+      9
+    ],
+    "prompt": "E/E22-10/prompt.md",
+    "pictures": [
+      "E/E22-10/f1.png",
+      "E/E22-10/f2.png",
+      "E/E22-10/f3.png"
+    ],
+    "missing": [
+      "E/E22-10/f1.png",
+      "E/E22-10/f2.png",
+      "E/E22-10/f3.png"
+    ]
+  },
+  {
+    "segment": "E22-11",
+    "seconds": 14,
+    "cuts": 4,
+    "cutStarts": [
+      0,
+      4,
+      8,
+      11
+    ],
+    "prompt": "E/E22-11/prompt.md",
+    "pictures": [
+      "E/E22-11/f1.png",
+      "E/E22-11/f2.png",
+      "E/E22-11/f3.png",
+      "E/E22-11/f4.png"
+    ],
+    "missing": [
+      "E/E22-11/f1.png",
+      "E/E22-11/f2.png",
+      "E/E22-11/f3.png",
+      "E/E22-11/f4.png"
+    ]
+  },
+  {
+    "segment": "E22-12",
+    "seconds": 11,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      6
+    ],
+    "prompt": "E/E22-12/prompt.md",
+    "pictures": [
+      "E/E22-12/f1.png",
+      "E/E22-12/f2.png"
+    ],
+    "missing": [
+      "E/E22-12/f1.png",
+      "E/E22-12/f2.png"
+    ]
+  },
+  {
+    "segment": "E22-13",
+    "seconds": 13,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      3,
+      7
+    ],
+    "prompt": "E/E22-13/prompt.md",
+    "pictures": [
+      "E/E22-13/f1.png",
+      "E/E22-13/f2.png",
+      "E/E22-13/f3.png"
+    ],
+    "missing": [
+      "E/E22-13/f1.png",
+      "E/E22-13/f2.png",
+      "E/E22-13/f3.png"
+    ]
+  },
+  {
+    "segment": "E22-14",
+    "seconds": 13,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      3,
+      7
+    ],
+    "prompt": "E/E22-14/prompt.md",
+    "pictures": [
+      "E/E22-14/f1.png",
+      "E/E22-14/f2.png",
+      "E/E22-14/f3.png"
+    ],
+    "missing": [
+      "E/E22-14/f1.png",
+      "E/E22-14/f2.png",
+      "E/E22-14/f3.png"
+    ]
+  },
+  {
+    "segment": "E22-15",
+    "seconds": 13,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      7,
+      10
+    ],
+    "prompt": "E/E22-15/prompt.md",
+    "pictures": [
+      "E/E22-15/f1.png",
+      "E/E22-15/f2.png",
+      "E/E22-15/f3.png"
+    ],
+    "missing": [
+      "E/E22-15/f1.png",
+      "E/E22-15/f2.png",
+      "E/E22-15/f3.png"
+    ]
+  },
+  {
+    "segment": "E22-16",
+    "seconds": 13,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      6
+    ],
+    "prompt": "E/E22-16/prompt.md",
+    "pictures": [
+      "E/E22-16/f1.png",
+      "E/E22-16/f2.png"
+    ],
+    "missing": [
+      "E/E22-16/f1.png",
+      "E/E22-16/f2.png"
+    ]
+  },
+  {
+    "segment": "E22-17",
+    "seconds": 6,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      3
+    ],
+    "prompt": "E/E22-17/prompt.md",
+    "pictures": [
+      "E/E22-17/f1.png",
+      "E/E22-17/f2.png"
+    ],
+    "missing": [
+      "E/E22-17/f1.png",
+      "E/E22-17/f2.png"
+    ]
+  },
+  {
+    "segment": "E23-01",
+    "seconds": 12,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      3,
+      6
+    ],
+    "prompt": "E/E23-01/prompt.md",
+    "pictures": [
+      "E/E23-01/f1.png",
+      "E/E23-01/f2.png",
+      "E/E23-01/f3.png"
+    ],
+    "missing": [
+      "E/E23-01/f1.png",
+      "E/E23-01/f2.png",
+      "E/E23-01/f3.png"
+    ]
+  },
+  {
+    "segment": "E23-02",
+    "seconds": 9,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      6
+    ],
+    "prompt": "E/E23-02/prompt.md",
+    "pictures": [
+      "E/E23-02/f1.png",
+      "E/E23-02/f2.png"
+    ],
+    "missing": [
+      "E/E23-02/f1.png",
+      "E/E23-02/f2.png"
+    ]
+  },
+  {
+    "segment": "E23-03",
+    "seconds": 11,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      5
+    ],
+    "prompt": "E/E23-03/prompt.md",
+    "pictures": [
+      "E/E23-03/f1.png",
+      "E/E23-03/f2.png"
+    ],
+    "missing": [
+      "E/E23-03/f1.png",
+      "E/E23-03/f2.png"
+    ]
+  },
+  {
+    "segment": "E23-04",
+    "seconds": 13,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      7
+    ],
+    "prompt": "E/E23-04/prompt.md",
+    "pictures": [
+      "E/E23-04/f1.png",
+      "E/E23-04/f2.png"
+    ],
+    "missing": [
+      "E/E23-04/f1.png",
+      "E/E23-04/f2.png"
+    ]
+  },
+  {
+    "segment": "E23-05",
+    "seconds": 12,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      6
+    ],
+    "prompt": "E/E23-05/prompt.md",
+    "pictures": [
+      "E/E23-05/f1.png",
+      "E/E23-05/f2.png"
+    ],
+    "missing": [
+      "E/E23-05/f1.png",
+      "E/E23-05/f2.png"
+    ]
+  },
+  {
+    "segment": "E23-06",
+    "seconds": 9,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      6
+    ],
+    "prompt": "E/E23-06/prompt.md",
+    "pictures": [
+      "E/E23-06/f1.png",
+      "E/E23-06/f2.png"
+    ],
+    "missing": [
+      "E/E23-06/f1.png",
+      "E/E23-06/f2.png"
+    ]
+  },
+  {
+    "segment": "E23-07",
+    "seconds": 9,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      3
+    ],
+    "prompt": "E/E23-07/prompt.md",
+    "pictures": [
+      "E/E23-07/f1.png",
+      "E/E23-07/f2.png"
+    ],
+    "missing": [
+      "E/E23-07/f1.png",
+      "E/E23-07/f2.png"
+    ]
+  },
+  {
+    "segment": "E23-08",
+    "seconds": 12,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      6,
+      9
+    ],
+    "prompt": "E/E23-08/prompt.md",
+    "pictures": [
+      "E/E23-08/f1.png",
+      "E/E23-08/f2.png",
+      "E/E23-08/f3.png"
+    ],
+    "missing": [
+      "E/E23-08/f1.png",
+      "E/E23-08/f2.png",
+      "E/E23-08/f3.png"
+    ]
+  },
+  {
+    "segment": "E23-09",
+    "seconds": 13,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      7
+    ],
+    "prompt": "E/E23-09/prompt.md",
+    "pictures": [
+      "E/E23-09/f1.png",
+      "E/E23-09/f2.png"
+    ],
+    "missing": [
+      "E/E23-09/f1.png",
+      "E/E23-09/f2.png"
+    ]
+  },
+  {
+    "segment": "E23-10",
+    "seconds": 12,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      6
+    ],
+    "prompt": "E/E23-10/prompt.md",
+    "pictures": [
+      "E/E23-10/f1.png",
+      "E/E23-10/f2.png"
+    ],
+    "missing": [
+      "E/E23-10/f1.png",
+      "E/E23-10/f2.png"
+    ]
+  },
+  {
+    "segment": "E23-11",
+    "seconds": 12,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      6,
+      9
+    ],
+    "prompt": "E/E23-11/prompt.md",
+    "pictures": [
+      "E/E23-11/f1.png",
+      "E/E23-11/f2.png",
+      "E/E23-11/f3.png"
+    ],
+    "missing": [
+      "E/E23-11/f1.png",
+      "E/E23-11/f2.png",
+      "E/E23-11/f3.png"
+    ]
+  },
+  {
+    "segment": "E23-12",
+    "seconds": 14,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      6,
+      11
+    ],
+    "prompt": "E/E23-12/prompt.md",
+    "pictures": [
+      "E/E23-12/f1.png",
+      "E/E23-12/f2.png",
+      "E/E23-12/f3.png"
+    ],
+    "missing": [
+      "E/E23-12/f1.png",
+      "E/E23-12/f2.png",
+      "E/E23-12/f3.png"
+    ]
+  },
+  {
+    "segment": "E23-13",
+    "seconds": 11,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      6
+    ],
+    "prompt": "E/E23-13/prompt.md",
+    "pictures": [
+      "E/E23-13/f1.png",
+      "E/E23-13/f2.png"
+    ],
+    "missing": [
+      "E/E23-13/f1.png",
+      "E/E23-13/f2.png"
+    ]
+  },
+  {
+    "segment": "E23-14",
+    "seconds": 12,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      7
+    ],
+    "prompt": "E/E23-14/prompt.md",
+    "pictures": [
+      "E/E23-14/f1.png",
+      "E/E23-14/f2.png"
+    ],
+    "missing": [
+      "E/E23-14/f1.png",
+      "E/E23-14/f2.png"
+    ]
+  },
+  {
+    "segment": "E23-15",
+    "seconds": 9,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      6
+    ],
+    "prompt": "E/E23-15/prompt.md",
+    "pictures": [
+      "E/E23-15/f1.png",
+      "E/E23-15/f2.png"
+    ],
+    "missing": [
+      "E/E23-15/f1.png",
+      "E/E23-15/f2.png"
+    ]
+  },
+  {
+    "segment": "E23-16",
+    "seconds": 6,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      3
+    ],
+    "prompt": "E/E23-16/prompt.md",
+    "pictures": [
+      "E/E23-16/f1.png",
+      "E/E23-16/f2.png"
+    ],
+    "missing": [
+      "E/E23-16/f1.png",
+      "E/E23-16/f2.png"
+    ]
+  },
+  {
+    "segment": "E24-01",
+    "seconds": 12,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      3,
+      6
+    ],
+    "prompt": "E/E24-01/prompt.md",
+    "pictures": [
+      "E/E24-01/f1.png",
+      "E/E24-01/f2.png",
+      "E/E24-01/f3.png"
+    ],
+    "missing": [
+      "E/E24-01/f1.png",
+      "E/E24-01/f2.png",
+      "E/E24-01/f3.png"
+    ]
+  },
+  {
+    "segment": "E24-02",
+    "seconds": 11,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      5
+    ],
+    "prompt": "E/E24-02/prompt.md",
+    "pictures": [
+      "E/E24-02/f1.png",
+      "E/E24-02/f2.png"
+    ],
+    "missing": [
+      "E/E24-02/f1.png",
+      "E/E24-02/f2.png"
+    ]
+  },
+  {
+    "segment": "E24-03",
+    "seconds": 13,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      6,
+      9
+    ],
+    "prompt": "E/E24-03/prompt.md",
+    "pictures": [
+      "E/E24-03/f1.png",
+      "E/E24-03/f2.png",
+      "E/E24-03/f3.png"
+    ],
+    "missing": [
+      "E/E24-03/f1.png",
+      "E/E24-03/f2.png",
+      "E/E24-03/f3.png"
+    ]
+  },
+  {
+    "segment": "E24-04",
+    "seconds": 10,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      3,
+      6
+    ],
+    "prompt": "E/E24-04/prompt.md",
+    "pictures": [
+      "E/E24-04/f1.png",
+      "E/E24-04/f2.png",
+      "E/E24-04/f3.png"
+    ],
+    "missing": [
+      "E/E24-04/f1.png",
+      "E/E24-04/f2.png",
+      "E/E24-04/f3.png"
+    ]
+  },
+  {
+    "segment": "E24-05",
+    "seconds": 13,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      7
+    ],
+    "prompt": "E/E24-05/prompt.md",
+    "pictures": [
+      "E/E24-05/f1.png",
+      "E/E24-05/f2.png"
+    ],
+    "missing": [
+      "E/E24-05/f1.png",
+      "E/E24-05/f2.png"
+    ]
+  },
+  {
+    "segment": "E24-06",
+    "seconds": 13,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      6,
+      10
+    ],
+    "prompt": "E/E24-06/prompt.md",
+    "pictures": [
+      "E/E24-06/f1.png",
+      "E/E24-06/f2.png",
+      "E/E24-06/f3.png"
+    ],
+    "missing": [
+      "E/E24-06/f1.png",
+      "E/E24-06/f2.png",
+      "E/E24-06/f3.png"
+    ]
+  },
+  {
+    "segment": "E24-07",
+    "seconds": 15,
+    "cuts": 4,
+    "cutStarts": [
+      0,
+      3,
+      6,
+      12
+    ],
+    "prompt": "E/E24-07/prompt.md",
+    "pictures": [
+      "E/E24-07/f1.png",
+      "E/E24-07/f2.png",
+      "E/E24-07/f3.png",
+      "E/E24-07/f4.png"
+    ],
+    "missing": [
+      "E/E24-07/f1.png",
+      "E/E24-07/f2.png",
+      "E/E24-07/f3.png",
+      "E/E24-07/f4.png"
+    ]
+  },
+  {
+    "segment": "E24-08",
+    "seconds": 11,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      8
+    ],
+    "prompt": "E/E24-08/prompt.md",
+    "pictures": [
+      "E/E24-08/f1.png",
+      "E/E24-08/f2.png"
+    ],
+    "missing": [
+      "E/E24-08/f1.png",
+      "E/E24-08/f2.png"
+    ]
+  },
+  {
+    "segment": "E24-09",
+    "seconds": 15,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      7,
+      10
+    ],
+    "prompt": "E/E24-09/prompt.md",
+    "pictures": [
+      "E/E24-09/f1.png",
+      "E/E24-09/f2.png",
+      "E/E24-09/f3.png"
+    ],
+    "missing": [
+      "E/E24-09/f1.png",
+      "E/E24-09/f2.png",
+      "E/E24-09/f3.png"
+    ]
+  },
+  {
+    "segment": "E24-10",
+    "seconds": 12,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      7
+    ],
+    "prompt": "E/E24-10/prompt.md",
+    "pictures": [
+      "E/E24-10/f1.png",
+      "E/E24-10/f2.png"
+    ],
+    "missing": [
+      "E/E24-10/f1.png",
+      "E/E24-10/f2.png"
+    ]
+  },
+  {
+    "segment": "E24-11",
+    "seconds": 13,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      3,
+      10
+    ],
+    "prompt": "E/E24-11/prompt.md",
+    "pictures": [
+      "E/E24-11/f1.png",
+      "E/E24-11/f2.png",
+      "E/E24-11/f3.png"
+    ],
+    "missing": [
+      "E/E24-11/f1.png",
+      "E/E24-11/f2.png",
+      "E/E24-11/f3.png"
+    ]
+  },
+  {
+    "segment": "E24-12",
+    "seconds": 12,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      5
+    ],
+    "prompt": "E/E24-12/prompt.md",
+    "pictures": [
+      "E/E24-12/f1.png",
+      "E/E24-12/f2.png"
+    ],
+    "missing": [
+      "E/E24-12/f1.png",
+      "E/E24-12/f2.png"
+    ]
+  },
+  {
+    "segment": "E24-13",
+    "seconds": 9,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      3
+    ],
+    "prompt": "E/E24-13/prompt.md",
+    "pictures": [
+      "E/E24-13/f1.png",
+      "E/E24-13/f2.png"
+    ],
+    "missing": [
+      "E/E24-13/f1.png",
+      "E/E24-13/f2.png"
+    ]
+  },
+  {
+    "segment": "E24-14",
+    "seconds": 13,
+    "cuts": 3,
+    "cutStarts": [
+      0,
+      5,
+      8
+    ],
+    "prompt": "E/E24-14/prompt.md",
+    "pictures": [
+      "E/E24-14/f1.png",
+      "E/E24-14/f2.png",
+      "E/E24-14/f3.png"
+    ],
+    "missing": [
+      "E/E24-14/f1.png",
+      "E/E24-14/f2.png",
+      "E/E24-14/f3.png"
+    ]
+  },
+  {
+    "segment": "E24-15",
+    "seconds": 9,
+    "cuts": 2,
+    "cutStarts": [
+      0,
+      6
+    ],
+    "prompt": "E/E24-15/prompt.md",
+    "pictures": [
+      "E/E24-15/f1.png",
+      "E/E24-15/f2.png"
+    ],
+    "missing": [
+      "E/E24-15/f1.png",
+      "E/E24-15/f2.png"
+    ]
+  }
+]

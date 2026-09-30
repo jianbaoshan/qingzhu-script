@@ -1,0 +1,38 @@
+{
+  "name": "菩提祖师",
+  "aliases": ["须菩提祖师", "祖师"],
+  "importance": "minor",
+  "oneLiner": "灵台方寸山斜月三星洞的祖师，悟空之师，传授七十二变与筋斗云后隐没无踪。",
+  "persona": {
+    "gender": "男",
+    "ageRange": "仙风道骨的隐者（推断）",
+    "identity": "西牛贺洲灵台方寸山斜月三星洞的须菩提祖师，悟空的授业恩师",
+    "appearance": "登坛讲道、持杖执戒尺的仙真，两边众仙侍立。端坐瑶台、耐心教道，设「术、流、静、动」诸门引悟空择道；见其顽劣，用戒尺在悟空头上打了三下、倒背手归中门，暗点三更传道。临别严命悟空不许说是自己的徒弟。为隐逸山林、仙风道骨的老仙，具体长相原文未细写（推断）。",
+    "personality": ["高深莫测", "严厉惜才", "明察机锋", "淡泊避世"],
+    "temperament": "言语机锋暗藏、点到为止，既惜悟空之才又不容他卖弄、逐之决绝。",
+    "motivation": "寻可传之人授以真道，又恐徒惹麻烦而隐姓埋名。",
+    "arc": "悟空之师，教七十二变与筋斗云",
+    "relationships": [{ "name": "孙悟空", "relation": "授业恩师" }],
+    "evidence": [
+      "祖師急拽杖出門來問道：「是何人在此喧嘩？」",
+      "手持戒尺，指定悟空道：「你這猢猻，這般不學，那般不學，卻待怎麼？」",
+      "教你姓『猻』倒好。猻字去了獸傍，乃是個子系"
+    ]
+  },
+  "image": {
+    "prompt": "A reclusive Daoist immortal sage in a mountain hermitage: an aged man with a high serene brow, deep wise eyes, a long white-bearded countenance, hair gathered in a topknot under a simple wooden hairpin, wearing a plain undyed Daoist robe with wide sleeves. He holds a walking staff or a wooden ruler. Era: Tang-dynasty China, a Daoist immortal celestials' retreat. Utterly unpretentious, keen, and unfathomably learned — a master whose simplicity is a disguise.",
+    "promptLocal": "一位隐居山林、仙风道骨的道门老仙：眉宇开阔安逸，目光深邃睿智，长须垂胸，长发在头顶挽一个简簪高髻，穿一身本色未染的宽袖道袍。手持一根拐杖或一方戒尺。设定为唐代背景下山中道观里的隐世高人，朴素无华、机锋内敛、深不可测——一副以拙藏慧的宗师模样。",
+    "negativePrompt": "same generic face as another character, Buddhist shaved head, ornate ceremonial robes, sword or weapon, grim fierce look, perfectly symmetrical face, stiff mannequin pose, extra fingers, deformed limbs",
+    "tags": ["Tang dynasty China", "Daoist immortal sage", "white beard", "topknot hairpin", "undyed Taoist robe", "walking staff", "mountain hermitage", "inscrutable simplicity"],
+    "sheet": "ONE 16:9 landscape canvas, plain white background with even margins, thin hairline rules separating three zones. ONE single character only. LEFT ZONE (about 34% of canvas width): a large front-facing head-and-shoulders bust as the facial design reference, shoulders complete, bottom edge cropped flat, the aged sage face fully detailed, LIGHTING IN THE LEFT ZONE ONLY: soft directional key from upper left, natural falloff, ambient occlusion under the brows and at collar-neck junction for volume. RIGHT-TOP ZONE: three FULL-BODY views side by side (front, side, back) sharing a single ground line, identical head-to-body proportion, showing the wide-sleeved Taoist robe, the staff, and the topknot. RIGHT-BOTTOM ZONE: four to five small isolated close-up studies aligned in one row (the white beard, the wooden hairpin, the staff head, the ruler, the robe hem), clearly smaller than the full-body figures. LIGHTING IN THE RIGHT ZONES: flat even orthographic lighting, no directional key, no shadow. PROPORTIONS ARE CRITICAL: keep the three full-body figures equal height with correct head-to-body ratio and limbs, feet on one ground line, headroom and footing clear; never stretch or squash the figure to fit. One face across all views; the bust is the baseline, right zones follow it. If the detail studies overflow the row, extend them as a column down the right edge—the detail studies give way, not the figures."
+  },
+  "voice": {
+    "timbre": "苍老柔和的道门男声，清而远",
+    "pitch": "中低",
+    "pace": "缓慢从容，句句机锋",
+    "accent": "清朗的乡雅口音，转圜自然",
+    "emotion": "端严、惜才、点到即止",
+    "prompt": "Elderly male voice, aged clear alto-tenor, mid-low pitch, thin resonant quality, narrow dynamic range. Slow even cadence, measured gentle articulation, phrases that land like hints. Refined rustic Daoist tang. Stern yet fond, shrewd, deliberately unhurried.",
+    "referenceHint": "声音苍老清越，说话慢慢吞吞却字字有深意"
+  }
+}

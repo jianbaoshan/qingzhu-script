@@ -1,0 +1,885 @@
+﻿<!doctype html>
+<html lang="zh"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>西游记（维基文库·百回） · 短剧改编大纲</title>
+<style>
+:root{
+  --paper:#eceded; --panel:#f5f6f5; --side:#e4e6e3; --ink:#191d21; --ink-2:#5b636a; --ink-3:#8c9298;
+  --rule:#d2d5d0; --rule-2:#c2c6bf; --seal:#8a3324; --seal-2:#c56a4e; --seal-3:#e0a98c; --seal-soft:#8a332412; --ok:#3d6b4f;
+  --serif:"Songti SC","STSong","Source Han Serif SC","Noto Serif CJK SC",Georgia,serif;
+  --sans:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,-apple-system,sans-serif;
+  --mono:ui-monospace,"SF Mono",Menlo,Consolas,monospace;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:14px/1.7 var(--sans);-webkit-font-smoothing:antialiased}
+.page{max-width:1600px;margin:0 auto;padding:24px 32px 90px}
+h1,h2,h3{margin:0;font-weight:400}
+
+.hd{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;border-bottom:2px solid var(--ink);padding-bottom:12px}
+.hd h1{font:400 28px/1.1 var(--serif);letter-spacing:.06em}
+.hd .sub{font-size:13px;color:var(--ink-2)}
+.hd .right{margin-left:auto;display:flex;align-items:center;gap:10px}
+.gatepill{display:inline-flex;align-items:center;gap:6px;font:500 12px/1 var(--sans);border-radius:99px;padding:6px 12px}
+.gatepill.pass{color:var(--ok);border:1px solid var(--ok)}
+.gatepill.fail{color:var(--seal);border:1px solid var(--seal);background:var(--seal-soft)}
+.expo{font:500 11px/1 var(--sans);color:var(--ink-2);background:var(--panel);
+  border:1px solid var(--rule-2);border-radius:2px;padding:7px 11px;cursor:pointer;transition:.15s}
+.expo:hover{border-color:var(--seal);color:var(--seal)}
+.expo:focus-visible{outline:2px solid var(--seal);outline-offset:2px}
+
+.kpis{display:grid;grid-template-columns:repeat(6,1fr);gap:12px;margin:18px 0 6px}
+@media(max-width:980px){.kpis{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:560px){.kpis{grid-template-columns:repeat(2,1fr)}}
+.kpi{background:var(--panel);border:1px solid var(--rule);border-radius:2px;padding:11px 14px 9px}
+.kpi .l{font:500 10px/1 var(--sans);letter-spacing:.18em;color:var(--ink-3)}
+.kpi .v{font:400 28px/1.15 var(--serif);margin-top:5px}
+.kpi .v small{font:400 14px var(--serif);color:var(--ink-2)}
+.kpi .v.mode{font-size:21px;padding-top:5px}
+.kpi .d{font-size:11px;color:var(--ink-2);margin-top:1px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.kpi.accent{border-top:2px solid var(--seal)}
+
+.galert{margin:14px 0 0;border:1px solid var(--seal);background:var(--seal-soft);border-radius:2px;
+  padding:10px 14px;font-size:13px}
+.galert b{color:var(--seal)}
+.galert span{display:block;font-size:12px;color:var(--ink-2)}
+
+section{margin-top:34px}
+.sec-h{display:flex;align-items:baseline;gap:12px;border-bottom:1px solid var(--rule-2);padding-bottom:8px;margin-bottom:16px}
+.sec-h .no{font:500 12px/1 var(--mono);color:var(--seal)}
+.sec-h h2{font:400 20px/1.2 var(--serif);letter-spacing:.05em}
+.sec-h .note{margin-left:auto;font-size:12px;color:var(--ink-3)}
+
+/* beat-rhythm chart/table tabs */
+.tabs{display:flex;width:max-content;margin-bottom:12px;border:1px solid var(--rule-2);
+  border-radius:2px;overflow:hidden}
+.tab{font:500 12px/1 var(--sans);letter-spacing:.06em;padding:7px 16px;background:var(--panel);
+  border:0;cursor:pointer;color:var(--ink-2);transition:.15s}
+.tab + .tab{border-left:1px solid var(--rule-2)}
+.tab.on{background:var(--seal);color:#fff}
+.tab:focus-visible{outline:2px solid var(--seal);outline-offset:-2px}
+.tabpane{display:none}
+.tabpane.on{display:block}
+
+/* episode overview: first three cards, fade-out + expand */
+.epswrap{position:relative}
+.eps{position:relative}
+.epswrap.clip .eps .ep:nth-child(n+4){display:none}
+.epswrap.clip .eps::after{content:'';position:absolute;left:0;right:0;bottom:0;height:90px;
+  background:linear-gradient(180deg,transparent,var(--paper));pointer-events:none}
+.epsmore{display:block;margin:10px auto 0;font:500 12px/1 var(--sans);letter-spacing:.06em;
+  color:var(--ink-2);background:var(--panel);border:1px solid var(--rule-2);border-radius:2px;
+  padding:8px 18px;cursor:pointer;transition:.15s}
+.epsmore:hover{border-color:var(--seal);color:var(--seal)}
+.epsmore:focus-visible{outline:2px solid var(--seal);outline-offset:2px}
+
+/* key decisions: the three sign-off items */
+.dec3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:24px;align-items:start}
+@media(max-width:1080px){.dec3{grid-template-columns:1fr}}
+.dcol{background:var(--panel);border:1px solid var(--rule);border-radius:2px;padding:4px 18px 14px}
+.dhead{margin:8px 0 0;font-size:12.5px;color:var(--ink-2)}
+.dlist{list-style:none;margin:8px 0 0;padding:0}
+.dlist li{padding:7px 0;border-top:1px solid var(--rule)}
+.dlist li:first-child{border-top:0}
+.dlist b{display:block;font:400 13.5px/1.6 var(--serif)}
+.dlist small{display:block;font-size:11.5px;color:var(--ink-2);line-height:1.6}
+.dnote{margin:10px 0 0;font-size:12px;color:var(--ink-2);line-height:1.7}
+.dnote.seal{color:var(--seal);background:var(--seal-soft);padding:7px 10px;border-radius:2px}
+.dmaj{list-style:none;margin:8px 0 0;padding:0}
+.dmaj li{display:flex;gap:9px;align-items:baseline;padding:5.5px 0;border-top:1px solid var(--rule);font-size:12.5px}
+.dmaj li:first-child{border-top:0}
+.dmaj i{flex:none;font:500 11px/1 var(--mono);color:var(--seal);font-style:normal;min-width:38px}
+.dmaj b{font:400 12.5px var(--serif)}
+.dmaj span{min-width:0}
+.dmaj em{flex:none;margin-left:auto;font:500 10px/1 var(--sans);letter-spacing:.1em;font-style:normal;
+  color:var(--seal);border:1px solid var(--seal);border-radius:99px;padding:2px 7px}
+
+/* beat-rhythm timeline */
+.chart{background:var(--panel);border:1px solid var(--rule);border-radius:2px;padding:16px 20px 10px}
+.chart .legend{display:flex;gap:18px;font-size:12px;color:var(--ink-2);margin-bottom:2px}
+.chart .legend i{font-style:normal;display:inline-flex;align-items:center;gap:6px}
+.dotk{display:inline-block;width:9px;height:9px;border-radius:50%;background:var(--seal-2)}
+.dotk.major{width:12px;height:12px;background:var(--seal)}
+.rhythm svg{display:block;width:100%;height:auto}
+.rhythm .axis{stroke:var(--rule-2);stroke-width:1.5}
+.rhythm .tick{font:400 10.5px var(--mono);fill:var(--ink-3);paint-order:stroke;stroke:var(--panel);stroke-width:3px}
+.rhythm .stem{stroke:var(--seal-2);stroke-width:1.5}
+.rhythm .stem.major{stroke:var(--seal)}
+.rhythm .bdot{fill:var(--seal-2);stroke:var(--panel);stroke-width:2}
+.rhythm .bdot.major{fill:var(--seal)}
+.rhythm .blabel{font:500 12px var(--sans);fill:var(--ink)}
+.rhythm .bsub{font:400 10.5px var(--sans);fill:var(--ink-2)}
+.rhythm .gapnote{font:400 10.5px var(--sans);fill:var(--ink-3)}
+.rhythm .gapnote.bad{fill:var(--seal);font-weight:500}
+
+/* beat detail table + generic tables */
+table{width:100%;border-collapse:collapse;background:var(--panel);border:1px solid var(--rule);font-size:13px}
+th,td{padding:8px 12px;border-bottom:1px solid var(--rule);text-align:left;vertical-align:top}
+th{font:500 11px/1 var(--sans);letter-spacing:.1em;color:var(--ink-3);background:var(--side)}
+tr:last-child td{border-bottom:0}
+td:first-child{font-family:var(--mono);font-size:12px;color:var(--ink-2);white-space:nowrap}
+q{quotes:"「" "」";font-family:var(--serif);border-left:2px solid var(--seal);padding-left:8px;display:inline-block}
+
+/* episode cards */
+.eps{display:grid;grid-template-columns:repeat(auto-fill,minmax(430px,1fr));gap:13px}
+.ep{background:var(--panel);border:1px solid var(--rule);border-radius:2px;padding:14px 16px 12px;position:relative}
+.ep .num{position:absolute;top:10px;right:14px;font:400 30px/1 var(--serif);color:var(--rule-2)}
+.ep header{display:flex;align-items:center;gap:8px;margin-bottom:8px;padding-right:44px;flex-wrap:wrap}
+.ep header b{font:500 15px var(--serif);letter-spacing:.04em}
+.bt{font-style:normal;font-size:11px;padding:2px 8px;border:1px solid var(--seal);border-radius:99px;color:var(--seal)}
+.bt.major{background:var(--seal);color:#fff}
+.ep .syn{margin:0 0 8px;font-size:13px;line-height:1.75}
+.hk{display:grid;grid-template-columns:max-content minmax(0,1fr);gap:8px;font-size:12.5px;padding:6px 0;border-top:1px solid var(--rule)}
+.hk b{font:500 11px/1.8 var(--sans);letter-spacing:.14em;color:var(--seal);white-space:nowrap}
+:root[lang="en"] .hk b,html[lang="en"] .hk b{letter-spacing:.06em}
+.ep .meta{display:flex;flex-wrap:wrap;gap:4px;margin-top:8px}
+.ep .meta i{font-style:normal;font:400 10.5px/1.5 var(--mono);border:1px solid var(--rule-2);
+  border-radius:2px;padding:0 5px;background:var(--paper);color:var(--ink-2)}
+.ep .meta .warn{border-color:var(--seal);color:var(--seal);background:var(--seal-soft)}
+
+/* dispatch matrix */
+.matrix{background:var(--panel);border:1px solid var(--rule);border-radius:2px;padding:16px 18px;overflow-x:auto}
+.matrix table{border-collapse:separate;border-spacing:3px;font-size:12px;background:none;border:0;width:auto}
+.matrix th,.matrix td{border:0;padding:0}
+.matrix th{font:500 10px/1 var(--sans);letter-spacing:.1em;color:var(--ink-3);background:none;
+  text-align:left;padding:0 8px 5px 0;white-space:nowrap}
+.matrix th.ep-h{text-align:center;padding:0 0 5px;font-family:var(--mono)}
+.matrix td.name{padding-right:10px;white-space:nowrap;font-family:var(--serif);font-size:13px}
+.matrix td.tier{padding-right:10px;color:var(--ink-3);font-size:11px;white-space:nowrap}
+.matrix td.mc{width:var(--cw,26px);min-width:var(--cw,26px);height:22px;border-radius:2px;
+  background:var(--paper);border:1px solid var(--rule)}
+.matrix td.mc.on{background:var(--seal);border-color:var(--seal)}
+.matrix td.mc.on.sc{background:var(--seal-2);border-color:var(--seal-2)}
+.matrix td.mc.on.pp{background:var(--seal-3);border-color:var(--seal-3)}
+.matrix td.n{padding-left:10px;font-family:var(--mono);font-size:11px;color:var(--ink-2);white-space:nowrap}
+.matrix tr.div td{padding:8px 0 3px;font:500 10px/1 var(--sans);letter-spacing:.18em;color:var(--ink-3)}
+.matrix .mnote{font-size:11px;color:var(--ink-3);margin:10px 0 0}
+
+/* scene overview cards: full-width multi-column grid */
+.scenes{display:grid;grid-template-columns:repeat(auto-fill,minmax(380px,1fr));gap:13px;align-items:start}
+.scard{position:relative;background:var(--panel);border:1px solid var(--rule);border-radius:2px;padding:14px 16px}
+.snum{position:absolute;top:10px;right:16px;font:400 26px/1 var(--serif);color:var(--rule-2);letter-spacing:.04em}
+.scard h3{font:400 16px/1.3 var(--serif);letter-spacing:.03em;display:flex;align-items:center;gap:8px;
+  padding-right:90px;flex-wrap:wrap}
+.scard h3 .id{font:400 10.5px var(--mono);color:var(--ink-3)}
+.badge{font:500 10.5px/1 var(--sans);padding:2px 8px;border-radius:99px;border:1px solid var(--seal);color:var(--seal)}
+.badge.once{border-color:var(--seal-2);color:var(--seal-2)}
+.strip{display:flex;flex-wrap:wrap;gap:3px;margin:7px 0 6px}
+.strip i{width:16px;height:10px;border-radius:2px;background:var(--paper);border:1px solid var(--rule)}
+.strip i.on{background:var(--seal);border-color:var(--seal)}
+.strip i.on.lt{background:var(--seal-2);border-color:var(--seal-2)}
+.srow{font-size:11.5px;color:var(--ink-2);display:flex;gap:6px;flex-wrap:wrap;align-items:baseline;margin-top:3px}
+.srow b{font:500 10px/1.8 var(--sans);letter-spacing:.12em;color:var(--ink-3);flex:none}
+.srow i{font-style:normal;font:400 10.5px/1.5 var(--mono);border:1px solid var(--rule-2);
+  border-radius:2px;padding:0 5px;background:var(--paper)}
+.srow .reuse{color:var(--seal)}
+
+/* asset conversion */
+.plan{background:var(--panel);border:1px solid var(--rule);border-radius:2px;padding:16px 18px}
+.plan table{background:none;border:0}
+.plan th{background:none;padding-left:0}
+.plan td{padding-left:0;border-top:1px solid var(--rule);border-bottom:0}
+.plan tr:first-child td{border-top:0}
+.plan td:first-child{font-family:var(--serif);font-size:13px;color:var(--ink)}
+
+/* adaptation notes */
+.core{font:400 17px/1.9 var(--serif);margin:0 0 6px}
+h3.sub{font:500 12px/1 var(--sans);letter-spacing:.18em;color:var(--seal);margin:20px 0 8px}
+
+/* quality gates */
+.gate{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:2px 28px}
+@media(max-width:900px){.gate{grid-template-columns:1fr}}
+.gate li{display:flex;gap:8px;padding:5px 0;font-size:12.5px;line-height:1.55}
+.gate .m{flex:none;font-weight:700}
+.gate .ok .m,.gate li.ok .m{color:var(--ok)}
+.gate li.bad .m{color:var(--seal)}
+.gate li.bad{background:var(--seal-soft);border-radius:2px;padding-left:6px}
+.gate small{display:block;color:var(--ink-3)}
+.gsum{margin:10px 0 0;font-size:12px;color:var(--ink-2)}
+.gsum b{color:var(--seal)}
+
+.foot{margin-top:40px;font-size:11px;color:var(--ink-3);border-top:1px solid var(--rule);padding-top:14px}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+/* print: expand everything — both tab panes, all episode cards */
+@media print{
+  .expo,.tabs,.epsmore{display:none!important}
+  .tabpane{display:block!important;margin-bottom:14px}
+  .epswrap.clip .eps .ep{display:block!important}
+  .epswrap.clip .eps::after{display:none}
+  .page{max-width:none;padding:0}
+  section,.ep,.scard{page-break-inside:avoid}
+  body{background:#fff}
+}
+</style></head><body>
+<div class="page">
+
+<header class="hd">
+  <h1>西游记（维基文库·百回）</h1>
+  <span class="sub">短剧改编大纲 · 24 集 × 3 分钟 · 神魔仙侠 · 抽核改编</span>
+  <span class="right">
+    <span class="gatepill pass">✓ 质量门 14 / 14</span>
+    <button class="expo" data-name="西游记（维基文库·百回）-outline.json">导出 JSON</button>
+  </span>
+</header>
+
+<div class="kpis">
+  <div class="kpi accent"><div class="l">总集数</div><div class="v">24 <small>× 3 分钟</small></div><div class="d">正片约 72 分钟</div></div>
+  <div class="kpi"><div class="l">爽点</div><div class="v">24</div><div class="d">8 大爆点 · 最大间隔 1 集</div></div>
+  <div class="kpi"><div class="l">角色</div><div class="v">15</div><div class="d">主角 4 · 配角 6 · 功能 5</div></div>
+  <div class="kpi"><div class="l">主场景</div><div class="v">7 <small>+4</small></div><div class="d">一次性场景 4，需复用方案</div></div>
+  <div class="kpi"><div class="l">生成难点</div><div class="v">14</div><div class="d">人群 ×7（第 1、6、15、19、20、21、…</div></div>
+  <div class="kpi"><div class="l">改编幅度</div><div class="v mode">抽核</div><div class="d">砍 4 线 · 合 3 组</div></div>
+</div>
+
+
+<section id="sec-rhythm">
+  <div class="sec-h"><span class="no">01</span><h2>爽点节奏</h2></div>
+  <div class="tabs" role="tablist">
+    <button class="tab on" data-pane="pane-timeline">时间轴</button>
+    <button class="tab" data-pane="pane-table">明细表</button>
+  </div>
+  <div class="tabpane on" id="pane-timeline"><div class="chart rhythm">
+  <div class="legend">
+    <i><span class="dotk major"></span>大爆点</i>
+    <i><span class="dotk"></span>常规爽点</i>
+  </div>
+  <svg viewBox="0 0 1520 352" role="img" aria-label="爽点节奏">
+    <line class="axis" x1="30" y1="92" x2="1490" y2="92"/>
+    <line class="axis" x1="66.5" y1="88" x2="66.5" y2="96"/>
+    <line class="axis" x1="139.5" y1="88" x2="139.5" y2="96"/>
+    <line class="axis" x1="212.5" y1="88" x2="212.5" y2="96"/>
+    <line class="axis" x1="285.5" y1="88" x2="285.5" y2="96"/>
+    <line class="axis" x1="358.5" y1="88" x2="358.5" y2="96"/>
+    <line class="axis" x1="431.5" y1="88" x2="431.5" y2="96"/>
+    <line class="axis" x1="504.5" y1="88" x2="504.5" y2="96"/>
+    <line class="axis" x1="577.5" y1="88" x2="577.5" y2="96"/>
+    <line class="axis" x1="650.5" y1="88" x2="650.5" y2="96"/>
+    <line class="axis" x1="723.5" y1="88" x2="723.5" y2="96"/>
+    <line class="axis" x1="796.5" y1="88" x2="796.5" y2="96"/>
+    <line class="axis" x1="869.5" y1="88" x2="869.5" y2="96"/>
+    <line class="axis" x1="942.5" y1="88" x2="942.5" y2="96"/>
+    <line class="axis" x1="1015.5" y1="88" x2="1015.5" y2="96"/>
+    <line class="axis" x1="1088.5" y1="88" x2="1088.5" y2="96"/>
+    <line class="axis" x1="1161.5" y1="88" x2="1161.5" y2="96"/>
+    <line class="axis" x1="1234.5" y1="88" x2="1234.5" y2="96"/>
+    <line class="axis" x1="1307.5" y1="88" x2="1307.5" y2="96"/>
+    <line class="axis" x1="1380.5" y1="88" x2="1380.5" y2="96"/>
+    <line class="axis" x1="1453.5" y1="88" x2="1453.5" y2="96"/>
+    <line class="axis" x1="30" y1="268" x2="322" y2="268"/>
+    <line class="axis" x1="66.5" y1="264" x2="66.5" y2="272"/>
+    <line class="axis" x1="139.5" y1="264" x2="139.5" y2="272"/>
+    <line class="axis" x1="212.5" y1="264" x2="212.5" y2="272"/>
+    <line class="axis" x1="285.5" y1="264" x2="285.5" y2="272"/>
+    <line class="stem" x1="66.5" y1="92" x2="66.5" y2="62"/>
+    <circle class="bdot" cx="66.5" cy="56" r="6"><title>B01 立威｜石猴率先跳入水帘洞、寻得安身福地 → 被众猴拥立为美猴王</title></circle>
+    <text class="blabel" x="66.5" y="34" text-anchor="middle">立威</text>
+    <text class="bsub" x="66.5" y="20" text-anchor="middle">石猴率先跳入水帘洞、寻得安身…</text>
+    <line class="stem" x1="139.5" y1="92" x2="139.5" y2="122"/>
+    <circle class="bdot" cx="139.5" cy="128" r="6"><title>B02 学艺｜悟空飘洋过海访仙求道，拜上菩提祖师 → 学得七十二变与筋斗云</title></circle>
+    <text class="blabel" x="139.5" y="150" text-anchor="middle">学艺</text>
+    <text class="bsub" x="139.5" y="164" text-anchor="middle">悟空飘洋过海访仙求道，拜上菩…</text>
+    <line class="stem major" x1="212.5" y1="92" x2="212.5" y2="57"/>
+    <circle class="bdot major" cx="212.5" cy="48" r="9"><title>B03 得宝｜悟空下东海龙宫讨要称手兵器 → 取走定海神针金箍棒，可大可小</title></circle>
+    <text class="blabel" x="212.5" y="26" text-anchor="middle">得宝</text>
+    <text class="bsub" x="212.5" y="12" text-anchor="middle">悟空下东海龙宫讨要称手兵器</text>
+    <line class="stem" x1="285.5" y1="92" x2="285.5" y2="122"/>
+    <circle class="bdot" cx="285.5" cy="128" r="6"><title>B04 破枷｜阴司拘魂，悟空寻到阎王殿 → 一笔勾销生死簿猴属名号</title></circle>
+    <text class="blabel" x="285.5" y="150" text-anchor="middle">破枷</text>
+    <text class="bsub" x="285.5" y="164" text-anchor="middle">阴司拘魂，悟空寻到阎王殿</text>
+    <line class="stem" x1="358.5" y1="92" x2="358.5" y2="62"/>
+    <circle class="bdot" cx="358.5" cy="56" r="6"><title>B05 博弈｜玉帝怕他闹事，遣太白金星招安 → 悟空封弼马温，旋知小职翻脸</title></circle>
+    <text class="blabel" x="358.5" y="34" text-anchor="middle">博弈</text>
+    <text class="bsub" x="358.5" y="20" text-anchor="middle">玉帝怕他闹事，遣太白金星招安</text>
+    <line class="stem major" x1="431.5" y1="92" x2="431.5" y2="127"/>
+    <circle class="bdot major" cx="431.5" cy="136" r="9"><title>B06 反抗｜悟空自封齐天大圣，大闹天宫无人可挡 → 砸翻灵霄宝殿、横扫天兵天将</title></circle>
+    <text class="blabel" x="431.5" y="158" text-anchor="middle">反抗</text>
+    <text class="bsub" x="431.5" y="172" text-anchor="middle">悟空自封齐天大圣，大闹天宫无…</text>
+    <line class="stem" x1="504.5" y1="92" x2="504.5" y2="62"/>
+    <circle class="bdot" cx="504.5" cy="56" r="6"><title>B07 压制｜如来出手设赌，悟空翻不出掌心 → 被压五行山下五百年，并引出取经人</title></circle>
+    <text class="blabel" x="504.5" y="34" text-anchor="middle">压制</text>
+    <text class="bsub" x="504.5" y="20" text-anchor="middle">如来出手设赌，悟空翻不出掌心</text>
+    <line class="stem major" x1="577.5" y1="92" x2="577.5" y2="127"/>
+    <circle class="bdot major" cx="577.5" cy="136" r="9"><title>B08 归正｜唐僧救出悟空，悟空暴走却受紧箍咒 → 归队首战，打死拦路猛虎正式护行</title></circle>
+    <text class="blabel" x="577.5" y="158" text-anchor="middle">归正</text>
+    <text class="bsub" x="577.5" y="172" text-anchor="middle">唐僧救出悟空，悟空暴走却受紧…</text>
+    <line class="stem" x1="650.5" y1="92" x2="650.5" y2="62"/>
+    <circle class="bdot" cx="650.5" cy="56" r="6"><title>B09 收服｜白马来咬，观音点破其西海龙子来历 → 化作白龙马，成为唐僧坐骑</title></circle>
+    <text class="blabel" x="650.5" y="34" text-anchor="middle">收服</text>
+    <text class="bsub" x="650.5" y="20" text-anchor="middle">白马来咬，观音点破其西海龙子…</text>
+    <line class="stem" x1="723.5" y1="92" x2="723.5" y2="122"/>
+    <circle class="bdot" cx="723.5" cy="128" r="6"><title>B10 收徒｜高老庄闹腾，悟空追进云栈洞 → 收服猪八戒入队</title></circle>
+    <text class="blabel" x="723.5" y="150" text-anchor="middle">收徒</text>
+    <text class="bsub" x="723.5" y="164" text-anchor="middle">高老庄闹腾，悟空追进云栈洞</text>
+    <line class="stem" x1="796.5" y1="92" x2="796.5" y2="62"/>
+    <circle class="bdot" cx="796.5" cy="56" r="6"><title>B11 聚齐｜流沙河怪物拦路又拜服 → 收沙僧，师徒四人加白龙马聚齐</title></circle>
+    <text class="blabel" x="796.5" y="34" text-anchor="middle">聚齐</text>
+    <text class="bsub" x="796.5" y="20" text-anchor="middle">流沙河怪物拦路又拜服</text>
+    <line class="stem" x1="869.5" y1="92" x2="869.5" y2="122"/>
+    <circle class="bdot" cx="869.5" cy="128" r="6"><title>B12 夺宝｜异宝锦斓袈裟引来妖风 → 悟空识破败露，护住袈裟驱散来敌</title></circle>
+    <text class="blabel" x="869.5" y="150" text-anchor="middle">夺宝</text>
+    <text class="bsub" x="869.5" y="164" text-anchor="middle">异宝锦斓袈裟引来妖风</text>
+    <line class="stem major" x1="942.5" y1="92" x2="942.5" y2="57"/>
+    <circle class="bdot major" cx="942.5" cy="48" r="9"><title>B13 打脸｜白骨精三变人形、三骗唐僧逐退悟空 → 悟空三次看破棒杀白骨精，虽被逐含冤</title></circle>
+    <text class="blabel" x="942.5" y="26" text-anchor="middle">打脸</text>
+    <text class="bsub" x="942.5" y="12" text-anchor="middle">白骨精三变人形、三骗唐僧逐退…</text>
+    <line class="stem" x1="1015.5" y1="92" x2="1015.5" y2="122"/>
+    <circle class="bdot" cx="1015.5" cy="128" r="6"><title>B14 反转｜悟空走后唐僧落难，八戒沙僧救不得 → 悟空归心全力相救，心猿归正</title></circle>
+    <text class="blabel" x="1015.5" y="150" text-anchor="middle">反转</text>
+    <text class="bsub" x="1015.5" y="164" text-anchor="middle">悟空走后唐僧落难，八戒沙僧救…</text>
+    <line class="stem" x1="1088.5" y1="92" x2="1088.5" y2="62"/>
+    <circle class="bdot" cx="1088.5" cy="56" r="6"><title>B15 遇险｜孩童扮妖吐出三昧真火烧退悟空 → 唐僧束手，红孩儿以牛魔王之子现形</title></circle>
+    <text class="blabel" x="1088.5" y="34" text-anchor="middle">遇险</text>
+    <text class="bsub" x="1088.5" y="20" text-anchor="middle">孩童扮妖吐出三昧真火烧退悟空</text>
+    <line class="stem major" x1="1161.5" y1="92" x2="1161.5" y2="127"/>
+    <circle class="bdot major" cx="1161.5" cy="136" r="9"><title>B16 难破｜悟空借水攻难破，请来观音 → 被收为善财童子，妖焰平息</title></circle>
+    <text class="blabel" x="1161.5" y="158" text-anchor="middle">难破</text>
+    <text class="bsub" x="1161.5" y="172" text-anchor="middle">悟空借水攻难破，请来观音</text>
+    <line class="stem" x1="1234.5" y1="92" x2="1234.5" y2="62"/>
+    <circle class="bdot" cx="1234.5" cy="56" r="6"><title>B17 设伏｜冒出个假悟空，打昏唐僧抢走行李 → 真假猴王对峙，天庭地府皆辨不真</title></circle>
+    <text class="blabel" x="1234.5" y="34" text-anchor="middle">设伏</text>
+    <text class="bsub" x="1234.5" y="20" text-anchor="middle">冒出个假悟空，打昏唐僧抢走行…</text>
+    <line class="stem major" x1="1307.5" y1="92" x2="1307.5" y2="127"/>
+    <circle class="bdot major" cx="1307.5" cy="136" r="9"><title>B18 辨心｜两个悟空闹到灵山，照出本相 → 劈开心魔假我，悟空自此心澄，忠心既定</title></circle>
+    <text class="blabel" x="1307.5" y="158" text-anchor="middle">辨心</text>
+    <text class="bsub" x="1307.5" y="172" text-anchor="middle">两个悟空闹到灵山，照出本相</text>
+    <line class="stem" x1="1380.5" y1="92" x2="1380.5" y2="62"/>
+    <circle class="bdot" cx="1380.5" cy="56" r="6"><title>B19 拦路｜火焰山炙烤难行，悟空去铁扇处借扇遭拒 → 与牛魔王正面对上，借扇落空转硬战</title></circle>
+    <text class="blabel" x="1380.5" y="34" text-anchor="middle">拦路</text>
+    <text class="bsub" x="1380.5" y="20" text-anchor="middle">火焰山炙烤难行，悟空去铁扇处…</text>
+    <line class="stem major" x1="1453.5" y1="92" x2="1453.5" y2="127"/>
+    <circle class="bdot major" cx="1453.5" cy="136" r="9"><title>B20 决战｜悟空化身术诓扇被识破，兄弟反目大战牛魔王 → 三调芭蕉扇、大破牛魔王，扇灭火焰山</title></circle>
+    <text class="blabel" x="1453.5" y="158" text-anchor="middle">决战</text>
+    <text class="bsub" x="1453.5" y="172" text-anchor="middle">悟空化身术诓扇被识破，兄弟反…</text>
+    <line class="stem" x1="66.5" y1="268" x2="66.5" y2="238"/>
+    <circle class="bdot" cx="66.5" cy="232" r="6"><title>B21 登门｜师徒踏上灵山，如来授经 → 捧回无字真经，众人不解其意</title></circle>
+    <text class="blabel" x="66.5" y="210" text-anchor="middle">登门</text>
+    <text class="bsub" x="66.5" y="196" text-anchor="middle">师徒踏上灵山，如来授经</text>
+    <line class="stem" x1="139.5" y1="268" x2="139.5" y2="298"/>
+    <circle class="bdot" cx="139.5" cy="304" r="6"><title>B22 末劫｜没读满难数，坠入通天河落水 → 晒经一难，八十一难圆满</title></circle>
+    <text class="blabel" x="139.5" y="326" text-anchor="middle">末劫</text>
+    <text class="bsub" x="139.5" y="340" text-anchor="middle">没读满难数，坠入通天河落水</text>
+    <line class="stem" x1="212.5" y1="268" x2="212.5" y2="238"/>
+    <circle class="bdot" cx="212.5" cy="232" r="6"><title>B23 开悟｜无字经点破经在方寸之处 → 悟空唐僧参透道心，重取真本真意</title></circle>
+    <text class="blabel" x="212.5" y="210" text-anchor="middle">开悟</text>
+    <text class="bsub" x="212.5" y="196" text-anchor="middle">无字经点破经在方寸之处</text>
+    <line class="stem major" x1="285.5" y1="268" x2="285.5" y2="303"/>
+    <circle class="bdot major" cx="285.5" cy="312" r="9"><title>B24 圆满｜凌云渡脱去凡壳 → 悟空修成斗战胜佛，取经一行各正果封正</title></circle>
+    <text class="blabel" x="285.5" y="334" text-anchor="middle">圆满</text>
+    <text class="bsub" x="285.5" y="348" text-anchor="middle">凌云渡脱去凡壳</text>
+    <text class="tick" x="66.5" y="112" text-anchor="middle">1</text>
+    <text class="tick" x="139.5" y="112" text-anchor="middle">2</text>
+    <text class="tick" x="212.5" y="112" text-anchor="middle">3</text>
+    <text class="tick" x="285.5" y="112" text-anchor="middle">4</text>
+    <text class="tick" x="358.5" y="112" text-anchor="middle">5</text>
+    <text class="tick" x="431.5" y="112" text-anchor="middle">6</text>
+    <text class="tick" x="504.5" y="112" text-anchor="middle">7</text>
+    <text class="tick" x="577.5" y="112" text-anchor="middle">8</text>
+    <text class="tick" x="650.5" y="112" text-anchor="middle">9</text>
+    <text class="tick" x="723.5" y="112" text-anchor="middle">10</text>
+    <text class="tick" x="796.5" y="112" text-anchor="middle">11</text>
+    <text class="tick" x="869.5" y="112" text-anchor="middle">12</text>
+    <text class="tick" x="942.5" y="112" text-anchor="middle">13</text>
+    <text class="tick" x="1015.5" y="112" text-anchor="middle">14</text>
+    <text class="tick" x="1088.5" y="112" text-anchor="middle">15</text>
+    <text class="tick" x="1161.5" y="112" text-anchor="middle">16</text>
+    <text class="tick" x="1234.5" y="112" text-anchor="middle">17</text>
+    <text class="tick" x="1307.5" y="112" text-anchor="middle">18</text>
+    <text class="tick" x="1380.5" y="112" text-anchor="middle">19</text>
+    <text class="tick" x="1453.5" y="112" text-anchor="middle">20</text>
+    <text class="tick" x="66.5" y="288" text-anchor="middle">21</text>
+    <text class="tick" x="139.5" y="288" text-anchor="middle">22</text>
+    <text class="tick" x="212.5" y="288" text-anchor="middle">23</text>
+    <text class="tick" x="285.5" y="288" text-anchor="middle">24</text>
+  </svg>
+</div></div>
+  <div class="tabpane" id="pane-table">
+  <table><thead><tr><th>ID</th><th>类型</th><th>量级</th><th>集</th><th>铺垫</th><th>兑现</th></tr></thead>
+<tbody><tr><td>B01</td><td>立威</td><td>常规</td><td>1</td><td>石猴率先跳入水帘洞、寻得安身福地</td><td>被众猴拥立为美猴王</td></tr>
+<tr><td>B02</td><td>学艺</td><td>常规</td><td>2</td><td>悟空飘洋过海访仙求道，拜上菩提祖师</td><td>学得七十二变与筋斗云</td></tr>
+<tr><td>B03</td><td>得宝</td><td>大爆点</td><td>3</td><td>悟空下东海龙宫讨要称手兵器</td><td>取走定海神针金箍棒，可大可小</td></tr>
+<tr><td>B04</td><td>破枷</td><td>常规</td><td>4</td><td>阴司拘魂，悟空寻到阎王殿</td><td>一笔勾销生死簿猴属名号</td></tr>
+<tr><td>B05</td><td>博弈</td><td>常规</td><td>5</td><td>玉帝怕他闹事，遣太白金星招安</td><td>悟空封弼马温，旋知小职翻脸</td></tr>
+<tr><td>B06</td><td>反抗</td><td>大爆点</td><td>6</td><td>悟空自封齐天大圣，大闹天宫无人可挡</td><td>砸翻灵霄宝殿、横扫天兵天将</td></tr>
+<tr><td>B07</td><td>压制</td><td>常规</td><td>7</td><td>如来出手设赌，悟空翻不出掌心</td><td>被压五行山下五百年，并引出取经人</td></tr>
+<tr><td>B08</td><td>归正</td><td>大爆点</td><td>8</td><td>唐僧救出悟空，悟空暴走却受紧箍咒</td><td>归队首战，打死拦路猛虎正式护行</td></tr>
+<tr><td>B09</td><td>收服</td><td>常规</td><td>9</td><td>白马来咬，观音点破其西海龙子来历</td><td>化作白龙马，成为唐僧坐骑</td></tr>
+<tr><td>B10</td><td>收徒</td><td>常规</td><td>10</td><td>高老庄闹腾，悟空追进云栈洞</td><td>收服猪八戒入队</td></tr>
+<tr><td>B11</td><td>聚齐</td><td>常规</td><td>11</td><td>流沙河怪物拦路又拜服</td><td>收沙僧，师徒四人加白龙马聚齐</td></tr>
+<tr><td>B12</td><td>夺宝</td><td>常规</td><td>12</td><td>异宝锦斓袈裟引来妖风</td><td>悟空识破败露，护住袈裟驱散来敌</td></tr>
+<tr><td>B13</td><td>打脸</td><td>大爆点</td><td>13</td><td>白骨精三变人形、三骗唐僧逐退悟空</td><td>悟空三次看破棒杀白骨精，虽被逐含冤</td></tr>
+<tr><td>B14</td><td>反转</td><td>常规</td><td>14</td><td>悟空走后唐僧落难，八戒沙僧救不得</td><td>悟空归心全力相救，心猿归正</td></tr>
+<tr><td>B15</td><td>遇险</td><td>常规</td><td>15</td><td>孩童扮妖吐出三昧真火烧退悟空</td><td>唐僧束手，红孩儿以牛魔王之子现形</td></tr>
+<tr><td>B16</td><td>难破</td><td>大爆点</td><td>16</td><td>悟空借水攻难破，请来观音</td><td>被收为善财童子，妖焰平息</td></tr>
+<tr><td>B17</td><td>设伏</td><td>常规</td><td>17</td><td>冒出个假悟空，打昏唐僧抢走行李</td><td>真假猴王对峙，天庭地府皆辨不真</td></tr>
+<tr><td>B18</td><td>辨心</td><td>大爆点</td><td>18</td><td>两个悟空闹到灵山，照出本相</td><td>劈开心魔假我，悟空自此心澄，忠心既定</td></tr>
+<tr><td>B19</td><td>拦路</td><td>常规</td><td>19</td><td>火焰山炙烤难行，悟空去铁扇处借扇遭拒</td><td>与牛魔王正面对上，借扇落空转硬战</td></tr>
+<tr><td>B20</td><td>决战</td><td>大爆点</td><td>20</td><td>悟空化身术诓扇被识破，兄弟反目大战牛魔王</td><td>三调芭蕉扇、大破牛魔王，扇灭火焰山</td></tr>
+<tr><td>B21</td><td>登门</td><td>常规</td><td>21</td><td>师徒踏上灵山，如来授经</td><td>捧回无字真经，众人不解其意</td></tr>
+<tr><td>B22</td><td>末劫</td><td>常规</td><td>22</td><td>没读满难数，坠入通天河落水</td><td>晒经一难，八十一难圆满</td></tr>
+<tr><td>B23</td><td>开悟</td><td>常规</td><td>23</td><td>无字经点破经在方寸之处</td><td>悟空唐僧参透道心，重取真本真意</td></tr>
+<tr><td>B24</td><td>圆满</td><td>大爆点</td><td>24</td><td>凌云渡脱去凡壳</td><td>悟空修成斗战胜佛，取经一行各正果封正</td></tr></tbody></table>
+  </div>
+</section>
+
+<section id="sec-episodes">
+  <div class="sec-h"><span class="no">02</span><h2>分集概览</h2><span class="note">核心交付 · 每集三栏齐全</span></div>
+  <div class="epswrap clip">
+    <div class="eps">
+<article class="ep" id="ep-1">
+  <span class="num">1</span>
+  <header><b>第 1 集</b><i class="bt">立威</i></header>
+  <p class="syn">石猴自仙石迸裂出世，通灵拜四方。群猴寻水源头，以敢跳入水帘洞者为王，石猴纵身而入得见福地，被拥立为美猴王，由此生出求长生、避无常之念。</p>
+  <div class="hk"><b>钩子</b><span>谁会第一个跳进水帘洞里</span></div>
+  <div class="hk"><b>悬念</b><span>这座花果山之王要靠什么本事来当</span></div>
+  <div class="meta"><i>S01</i><i>C01</i><i class="warn">人群</i></div>
+</article>
+<article class="ep" id="ep-2">
+  <span class="num">2</span>
+  <header><b>第 2 集</b><i class="bt">学艺</i></header>
+  <p class="syn">孙悟空因恐年老命休，漂洋渡海访仙。辗转拜上菩提祖师座下，祖师看透其根器，七年传道，倾囊授出七十二变与筋斗云，悟空神通齐备，辞师回山。</p>
+  <div class="hk"><b>钩子</b><span>猴王能否寻到使他长生的路</span></div>
+  <div class="hk"><b>悬念</b><span>学艺途中究竟藏了什么真本领</span></div>
+  <div class="meta"><i>S03</i><i>C01</i><i>C11</i></div>
+</article>
+<article class="ep" id="ep-3">
+  <span class="num">3</span>
+  <header><b>第 3 集</b><i class="bt major">得宝</i></header>
+  <p class="syn">孙悟空使不动常兵，下东海龙宫讨兵器。龙王层层加码仍不称手，悟空径自取走定海神针金箍棒，试得可大可小，又讨要一身披挂，闹罢龙宫得意而去。</p>
+  <div class="hk"><b>钩子</b><span>龙宫有没有趁手神兵</span></div>
+  <div class="hk"><b>悬念</b><span>这定海神针到底有多邪乎</span></div>
+  <div class="meta"><i>S08</i><i>C01</i></div>
+</article>
+<article class="ep" id="ep-4">
+  <span class="num">4</span>
+  <header><b>第 4 集</b><i class="bt">破枷</i></header>
+  <p class="syn">孙悟空梦中被阴司索魂，怒闯阎王殿。阎王以名册相压，悟空夺过生死簿，把猴属名号一笔勾销，扬长而去。归来更觉本事齐天，生出与天齐名之念。</p>
+  <div class="hk"><b>钩子</b><span>地府凭什么拘他性命</span></div>
+  <div class="hk"><b>悬念</b><span>勾了生死簿还取不取他性命</span></div>
+  <div class="meta"><i>S02</i><i>C01</i><i>C14</i></div>
+</article>
+<article class="ep" id="ep-5">
+  <span class="num">5</span>
+  <header><b>第 5 集</b><i class="bt">博弈</i></header>
+  <p class="syn">玉帝怕猴闹事，听太白金星进言招安。悟空上天受封弼马温，起初欢喜，日角马便知职分低微，一怒翻下天去，自回花果山竖起齐天大圣旗号。</p>
+  <div class="hk"><b>钩子</b><span>天庭是招安还是收服</span></div>
+  <div class="hk"><b>悬念</b><span>弼马温这个官名意味着什么</span></div>
+  <div class="meta"><i>S02</i><i>S01</i><i>C01</i><i>C07</i><i>C12</i><i class="warn" title="悟空与玉帝天兵分处天宫与花果山两场，无同框冲突，分场拍">同框拆解 ✓</i></div>
+</article>
+<article class="ep" id="ep-6">
+  <span class="num">6</span>
+  <header><b>第 6 集</b><i class="bt major">反抗</i></header>
+  <p class="syn">悟空自封齐天大圣，玉帝围剿反被横扫。悟空怒气直冲灵霄宝殿，抡棒砸宫、以一敌众，天兵天将溃不成军，玉帝束手，不得已遣使西天请如来出手。</p>
+  <div class="hk"><b>钩子</b><span>大圣单枪能否掀翻天宫</span></div>
+  <div class="hk"><b>悬念</b><span>玉帝这次请不请得动如来</span></div>
+  <div class="meta"><i>S02</i><i>C01</i><i>C07</i><i class="warn">人群</i></div>
+</article>
+<article class="ep" id="ep-7">
+  <span class="num">7</span>
+  <header><b>第 7 集</b><i class="bt">压制</i></header>
+  <p class="syn">如来设打赌，悟空自恃筋斗云，却翻不出如来手掌。如来反掌推出，将悟空压在五行山下，仅露头手，只等五百年后取经人来揭封。山间再传取经人将出的风声。</p>
+  <div class="hk"><b>钩子</b><span>他翻得出手掌心吗</span></div>
+  <div class="hk"><b>悬念</b><span>这一压要到何年何月才到头</span></div>
+  <div class="meta"><i>S05</i><i>C01</i><i>C08</i></div>
+</article>
+<article class="ep" id="ep-8">
+  <span class="num">8</span>
+  <header><b>第 8 集</b><i class="bt major">归正</i></header>
+  <p class="syn">唐僧奉旨西行，行至五行山揭牒救出悟空，收为大徒弟。悟空初归野性难驯，观音暗中授唐僧紧箍咒。悟空与归途遇猛虎，一棒打死护得师父周全，自此正式护行。</p>
+  <div class="hk"><b>钩子</b><span>揭封的和尚真能管住泼猴吗</span></div>
+  <div class="hk"><b>悬念</b><span>紧箍咒一带便再难摘下</span></div>
+  <div class="meta"><i>S05</i><i>S03</i><i>C01</i><i>C02</i><i>C06</i><i class="warn" title="唐僧与悟空同场对垒，观音仅是暗中一旁观照，以话筒带过，无三人同框对峙">同框拆解 ✓</i></div>
+</article>
+<article class="ep" id="ep-9">
+  <span class="num">9</span>
+  <header><b>第 9 集</b><i class="bt">收服</i></header>
+  <p class="syn">西行路上一条白龙吞马作乱，悟空欲打，观音现身点破，此乃西海龙子，因纵火烧了殿上明珠贬在此处，召来化作白马供唐僧代步，悟空收住手。</p>
+  <div class="hk"><b>钩子</b><span>白龙马从哪来的</span></div>
+  <div class="hk"><b>悬念</b><span>龙子为何甘为坐骑</span></div>
+  <div class="meta"><i>S03</i><i>C01</i><i>C02</i><i>C06</i><i>C15</i><i class="warn" title="观音宣白龙另处点化，与师徒分两场，唐僧悟空为主场，无三人同框对峙">同框拆解 ✓</i></div>
+</article>
+<article class="ep" id="ep-10">
+  <span class="num">10</span>
+  <header><b>第 10 集</b><i class="bt">收徒</i></header>
+  <p class="syn">高老庄一女子被怪婿困住，哀求僧人除害。悟空探明是猪八戒作祟，追入云栈洞缠斗，八戒转世本为天蓬，憨贪粗莽，斗败拜服，随唐僧剃度为徒，得号八戒。</p>
+  <div class="hk"><b>钩子</b><span>高老庄闹腾的怪婿是谁</span></div>
+  <div class="hk"><b>悬念</b><span>这呆子一身蛮力如何收得住</span></div>
+  <div class="meta"><i>S09</i><i>S03</i><i>C01</i><i>C02</i><i>C03</i><i class="warn">肢体接触</i><i class="warn" title="高员外报信为过场，主力是悟空与八戒打的洞内战，唐僧在庄外接应，分场拍无同框">同框拆解 ✓</i></div>
+</article>
+<article class="ep" id="ep-11">
+  <span class="num">11</span>
+  <header><b>第 11 集</b><i class="bt">聚齐</i></header>
+  <p class="syn">流沙河黑水阻路，河中毒龙频伤人。八戒先去试水败阵，悟空设计诱其上岸，才知是卷帘大将贬此、以吃人为生，观音显现度化，沙僧皈依加入，四徒一马正式聚齐西行。</p>
+  <div class="hk"><b>钩子</b><span>流沙河里藏了什么妖物</span></div>
+  <div class="hk"><b>悬念</b><span>聚齐队伍从此还松不松得开</span></div>
+  <div class="meta"><i>S10</i><i>C01</i><i>C02</i><i>C03</i><i>C04</i><i>C06</i><i class="warn">肢体接触</i><i class="warn" title="孙悟空、八戒、沙僧河上缠斗为一组机位居中，唐僧与观音岸上观战另机位，避免妖型与圣像同框，分三组拍">同框拆解 ✓</i></div>
+</article>
+<article class="ep" id="ep-12">
+  <span class="num">12</span>
+  <header><b>第 12 集</b><i class="bt">夺宝</i></header>
+  <p class="syn">借宿寺中，唐僧亮出锦斓袈裟引来觊觎，夜里妖风骤起、宝衣被卷。悟空追查出是同寺火头生贪勾结山妖，一番追索，取回袈裟，山妖现出形迹却借风中遁走产下一难伏笔。</p>
+  <div class="hk"><b>钩子</b><span>一件袈裟值奇珍也能招灾</span></div>
+  <div class="hk"><b>悬念</b><span>夺袈裟的妖到底是哪个洞主</span></div>
+  <div class="meta"><i>S03</i><i>S04</i><i>C01</i><i>C02</i><i>C13</i><i class="warn" title="悟空追妖、唐僧守寺、土地公报信三人分处三场，无同框冲突，分场拍">同框拆解 ✓</i></div>
+</article>
+<article class="ep" id="ep-13">
+  <span class="num">13</span>
+  <header><b>第 13 集</b><i class="bt major">打脸</i></header>
+  <p class="syn">白骨精三变人形——少女、老妇、老翁——三骗唐僧，屡屡被悟空识破棒杀。唐僧肉眼凡胎，见悟空连伤人性命怒斥，亲念紧箍咒，逐悟空回山，师徒一时决裂。</p>
+  <div class="hk"><b>钩子</b><span>这妇人少女老翁真面目是谁</span></div>
+  <div class="hk"><b>悬念</b><span>悟空三次棒杀还要蒙受多大的冤</span></div>
+  <div class="meta"><i>S03</i><i>S04</i><i>C01</i><i>C02</i><i>C09</i><i>C03</i><i>C04</i><i class="warn">肢体接触</i><i class="warn" title="悟空与白骨精洞外缠斗一组，唐僧八戒沙僧洞内对峙一组，两机位分场，同帧只容三徒共框">同框拆解 ✓</i></div>
+</article>
+<article class="ep" id="ep-14">
+  <span class="num">14</span>
+  <header><b>第 14 集</b><i class="bt">反转</i></header>
+  <p class="syn">悟空被逐回山，唐僧一行行至黑松林受害，八戒沙僧救不得。走投无路时悟空闻讯破云而至，念及一路恩义拼死相救，三徒同心救出师父，师徒和好，心猿自此归正。</p>
+  <div class="hk"><b>钩子</b><span>悟空真就撒手不管了吗</span></div>
+  <div class="hk"><b>悬念</b><span>被逐后队伍还能不能走下去</span></div>
+  <div class="meta"><i>S03</i><i>S04</i><i>C01</i><i>C02</i><i>C03</i><i>C04</i><i class="warn" title="悟空救场动作戏为一组，唐僧等被困另一组，救援后重逢四人同框可由两镜合拢收，拆解机位">同框拆解 ✓</i></div>
+</article>
+<article class="ep" id="ep-15">
+  <span class="num">15</span>
+  <header><b>第 15 集</b><i class="bt">遇险</i></header>
+  <p class="syn">前方红孩儿变作被绑孩童拦路，悟空识破反引三昧真火烧退众人，唐僧被掳走。悟空得知红孩儿乃牛魔王之子，暗合天宫结义旧怨，救不得反倒连吃火亏。</p>
+  <div class="hk"><b>钩子</b><span>谁会对他兄弟下杀手</span></div>
+  <div class="hk"><b>悬念</b><span>这孩童怎么偏说是牛魔王的儿子</span></div>
+  <div class="meta"><i>S04</i><i>C01</i><i>C02</i><i>C10</i><i class="warn">人群</i><i class="warn" title="红孩儿单斗悟空为一组，唐僧被掳守洞另一组，分场拍">同框拆解 ✓</i></div>
+</article>
+<article class="ep" id="ep-16">
+  <span class="num">16</span>
+  <header><b>第 16 集</b><i class="bt major">难破</i></header>
+  <p class="syn">悟空请来龙王车水仍不敌火，转求观音。观音以玉净瓶甘露浇灭真火，又设法收红孩儿为善财童子，妖焰平息，唐僧得救，火焰山之仇却由此结下，牛魔王记恨在案。</p>
+  <div class="hk"><b>钩子</b><span>三昧真火拿什么来破</span></div>
+  <div class="hk"><b>悬念</b><span>这红孩儿最终归向何处</span></div>
+  <div class="meta"><i>S04</i><i>C01</i><i>C02</i><i>C10</i><i>C06</i><i class="warn">肢体接触</i><i class="warn" title="观音收妖舍利与红孩儿对战悟空分两场，唐僧在场边受护，机位拆解避免多主体同框">同框拆解 ✓</i></div>
+</article>
+<article class="ep" id="ep-17">
+  <span class="num">17</span>
+  <header><b>第 17 集</b><i class="bt">设伏</i></header>
+  <p class="syn">取经路上忽现一个假悟空，打昏唐僧、抢走行囊，真悟空与之缠斗难分。真假二猴上天入地，天庭、地府、龙宫诸神都辨不出本相，只好一路闹上灵山。</p>
+  <div class="hk"><b>钩子</b><span>怎么冒出来个一模一样的自己</span></div>
+  <div class="hk"><b>悬念</b><span>真假猴王闹到天上地上都分不清</span></div>
+  <div class="meta"><i>S03</i><i>S02</i><i>C01</i><i>C07</i><i>C14</i><i class="warn">肢体接触</i><i class="warn" title="真假悟空的打斗为主体，玉帝地府的辨伪均为旁观单场，分场拍">同框拆解 ✓</i></div>
+</article>
+<article class="ep" id="ep-18">
+  <span class="num">18</span>
+  <header><b>第 18 集</b><i class="bt major">辨心</i></header>
+  <p class="syn">如来以法眼点破真伪，真悟空受点化，认清那假猴正是自身心魔所化。悟空棒劈心魔、了然澄澈，自此忠心既定，不再有二心，回队归队，师徒一行人重新上路。</p>
+  <div class="hk"><b>钩子</b><span>佛祖拿出什么照妖镜</span></div>
+  <div class="hk"><b>悬念</b><span>悟空看清的其实是哪一个自己</span></div>
+  <div class="meta"><i>S07</i><i>C01</i><i>C02</i><i>C08</i><i class="warn" title="悟空劈心魔的灵山段与唐僧等候的取经野为两组，机位拆解，同框只容师徒点对">同框拆解 ✓</i></div>
+</article>
+<article class="ep" id="ep-19">
+  <span class="num">19</span>
+  <header><b>第 19 集</b><i class="bt">拦路</i></header>
+  <p class="syn">众人难越火焰山炙热，悟空去往铁扇处借芭蕉扇，忆起牛魔王旧怨反遭轻视拒不借扇。悟空化入铁扇腹中威逼得扇，回山中扇动烈火愈旺，方知借来是假扇，正悬硬仗。</p>
+  <div class="hk"><b>钩子</b><span>火焰山哪个来借扇</span></div>
+  <div class="hk"><b>悬念</b><span>铁扇公主手里的扇子到底借不借</span></div>
+  <div class="meta"><i>S06</i><i>S04</i><i>C01</i><i>C02</i><i>C05</i><i class="warn">人群</i><i class="warn" title="悟空与牛魔王对峙一组，唐僧众望风避炎另一组，双重机位分场拍">同框拆解 ✓</i></div>
+</article>
+<article class="ep" id="ep-20">
+  <span class="num">20</span>
+  <header><b>第 20 集</b><i class="bt major">决战</i></header>
+  <p class="syn">悟空连番化身诓扇皆被牛魔王识破，牛魔王记恨火焰山旧怨与悟空死战。悟空请来众神助阵，几经周折终调换真扇，一扇扇灭火焰山千里烈焰，大破牛魔王，师徒得以继续西行。</p>
+  <div class="hk"><b>钩子</b><span>假扇真扇如何调换</span></div>
+  <div class="hk"><b>悬念</b><span>兄弟相残这一仗打完还有安生吗</span></div>
+  <div class="meta"><i>S06</i><i>S04</i><i>C01</i><i>C02</i><i>C03</i><i>C04</i><i>C05</i><i class="warn">肢体接触</i><i class="warn">人群</i><i class="warn" title="悟空牛魔王空战为主体，八戒沙僧扇侧助阵、唐僧远阵指挥，机位分组避免五主体同框，同帧上限三身">同框拆解 ✓</i></div>
+</article>
+<article class="ep" id="ep-21">
+  <span class="num">21</span>
+  <header><b>第 21 集</b><i class="bt">登门</i></header>
+  <p class="syn">取经四人历难登灵山，如来授经，塔尔迦叶讨索，师徒捧回藏经。归途僧人翻检，发觉经卷具无字，疑虑顿生，只道千辛万苦竟换来这般，末难未满众人皆惑。</p>
+  <div class="hk"><b>钩子</b><span>灵山真经终于到手了吗</span></div>
+  <div class="hk"><b>悬念</b><span>经卷带回去为何疑点重重</span></div>
+  <div class="meta"><i>S07</i><i>C01</i><i>C02</i><i>C03</i><i>C04</i><i class="warn">人群</i><i class="warn" title="灵山受经礼场为大场面，机位以经卷为中心分列四徒，同框上限两人点对">同框拆解 ✓</i></div>
+</article>
+<article class="ep" id="ep-22">
+  <span class="num">22</span>
+  <header><b>第 22 集</b><i class="bt">末劫</i></header>
+  <p class="syn">师徒行至通天河，重整旧路欲渡，河中老鼋驮渡却因当年嘱托未偿而坠水，四人落水、经卷浸湿。岸边晒经又损数卷，卷数不满，末难现出，八十一难自此坐满。</p>
+  <div class="hk"><b>钩子</b><span>通天河谁知还摆着一难</span></div>
+  <div class="hk"><b>悬念</b><span>被水淹身、晒经散页算不算数</span></div>
+  <div class="meta"><i>S11</i><i>C01</i><i>C02</i><i>C03</i><i>C04</i><i class="warn">肢体接触</i><i class="warn" title="四徒与老鼋共坠水中为一组，晒经滩忙乱另一组，同框上限三人，余以背影过肩带过">同框拆解 ✓</i></div>
+</article>
+<article class="ep" id="ep-23">
+  <span class="num">23</span>
+  <header><b>第 23 集</b><i class="bt">开悟</i></header>
+  <p class="syn">观音显圣释疑，道明无字真经乃珍本，取经贵在明心见性而非文字。悟空唐僧参透，道心洞明，重上灵山取回真本真意，此行到此方算功德圆满，却尚缺凌烟最后一步。</p>
+  <div class="hk"><b>钩子</b><span>无字经到底是真还是假</span></div>
+  <div class="hk"><b>悬念</b><span>道心若明还需那几卷经书吗</span></div>
+  <div class="meta"><i>S07</i><i>C01</i><i>C02</i><i>C06</i><i>C08</i><i class="warn" title="观音与悟空唐僧参经为灵山内场，如来于外场授卷，机位拆解，同框上限三人">同框拆解 ✓</i></div>
+</article>
+<article class="ep" id="ep-24">
+  <span class="num">24</span>
+  <header><b>第 24 集</b><i class="bt major">圆满</i></header>
+  <p class="syn">取经登上凌云渡，脱去凡胎，抵达灵山面见如来。如来授果封正，悟空受封斗战胜佛，唐僧为旃檀功德佛，八戒沙僧亦各有正果，白龙化为八部天龙归位，此行既成、大义方遂。</p>
+  <div class="hk"><b>钩子</b><span>凌空一步脱不脱得这几世凡躯</span></div>
+  <div class="hk"><b>悬念</b><span>师徒一个个最后都成了什么果位</span></div>
+  <div class="meta"><i>S07</i><i>C01</i><i>C02</i><i>C03</i><i>C04</i><i>C08</i><i class="warn">人群</i><i class="warn" title="受封礼场排行为大场面，四人依次上前受封，如来居中高台，机位以两人一组点对出入，避免五主体共框">同框拆解 ✓</i></div>
+</article>
+    </div>
+    <button class="epsmore">▾ 展开全部 24 集</button>
+  </div>
+</section>
+
+<section id="sec-scenes">
+  <div class="sec-h"><span class="no">03</span><h2>场景概览</h2><span class="note">右上 = 出现集</span></div>
+  <div class="scenes">
+<article class="scard">
+  <span class="snum">1 · 5</span>
+  <h3><span class="id">S01</span>花果山水帘洞<span class="badge">主场景</span></h3>
+  <div class="strip"><i class="on"></i><i class=""></i><i class=""></i><i class=""></i><i class="on"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i></div>
+  <div class="srow"><b>承载爽点</b><span>立威 · 博弈</span></div>
+  <div class="srow"><b>复用方案</b><span class="reuse">全剧起点，可复用为山村/水榭底景</span></div>
+</article>
+<article class="scard">
+  <span class="snum">4 · 5 · 6 · 17</span>
+  <h3><span class="id">S02</span>天宫灵霄宝殿<span class="badge">主场景</span></h3>
+  <div class="strip"><i class=""></i><i class=""></i><i class=""></i><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class="on"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i></div>
+  <div class="srow"><b>承载爽点</b><span>破枷 · 博弈 · 反抗 · 设伏</span></div>
+  <div class="srow"><b>复用方案</b><span class="reuse">大闹天宫主战场，可复用宫苑改幽暗为地府</span></div>
+</article>
+<article class="scard">
+  <span class="snum">8 集</span>
+  <h3><span class="id">S03</span>取经路山野<span class="badge">主场景</span></h3>
+  <div class="strip"><i class=""></i><i class="on"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i><i class=""></i><i class="on"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i></div>
+  <div class="srow"><b>承载爽点</b><span>学艺 · 归正 · 收服 · 收徒 · 夺宝 · 打脸 · 反转 · 设伏</span></div>
+  <div class="srow"><b>复用方案</b><span class="reuse">贯穿主场景，荒山、村落、洞穴皆由它变形</span></div>
+</article>
+<article class="scard">
+  <span class="snum">7 集</span>
+  <h3><span class="id">S04</span>妖窟高山洞口<span class="badge">主场景</span></h3>
+  <div class="strip"><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i><i class=""></i><i class="on"></i><i class="on"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i></div>
+  <div class="srow"><b>承载爽点</b><span>夺宝 · 打脸 · 反转 · 遇险 · 难破 · 拦路 · 决战</span></div>
+  <div class="srow"><b>复用方案</b><span class="reuse">白骨/红孩儿/牛魔王的妖境统一复用</span></div>
+</article>
+<article class="scard">
+  <span class="snum">7–8</span>
+  <h3><span class="id">S05</span>五行山<span class="badge">主场景</span></h3>
+  <div class="strip"><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class="on"></i><i class="on"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i></div>
+  <div class="srow"><b>承载爽点</b><span>压制 · 归正</span></div>
+  <div class="srow"><b>复用方案</b><span class="reuse">压山处，可复用群山谷地改出</span></div>
+</article>
+<article class="scard">
+  <span class="snum">19–20</span>
+  <h3><span class="id">S06</span>火焰山<span class="badge">主场景</span></h3>
+  <div class="strip"><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class="on"></i><i class="on"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i></div>
+  <div class="srow"><b>承载爽点</b><span>拦路 · 决战</span></div>
+  <div class="srow"><b>复用方案</b><span class="reuse">终战热景，红土烈焰基调</span></div>
+</article>
+<article class="scard">
+  <span class="snum">18 · 21 · 23 · 24</span>
+  <h3><span class="id">S07</span>灵山大雷音寺<span class="badge">主场景</span></h3>
+  <div class="strip"><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class="on"></i><i class=""></i><i class=""></i><i class="on"></i><i class=""></i><i class="on"></i><i class="on"></i></div>
+  <div class="srow"><b>承载爽点</b><span>辨心 · 登门 · 开悟 · 圆满</span></div>
+  <div class="srow"><b>复用方案</b><span class="reuse">终局封赏，可复用寺庙大殿改金殿</span></div>
+</article>
+<article class="scard">
+  <span class="snum">3</span>
+  <h3><span class="id">S08</span>东海龙宫<span class="badge once">一次性</span></h3>
+  <div class="strip"><i class=""></i><i class=""></i><i class="on lt"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i></div>
+  <div class="srow"><b>承载爽点</b><span>得宝</span></div>
+  <div class="srow"><b>复用方案</b><span class="reuse">借水帘洞水流与石景改海底宫阙</span></div>
+</article>
+<article class="scard">
+  <span class="snum">10</span>
+  <h3><span class="id">S09</span>高老庄<span class="badge once">一次性</span></h3>
+  <div class="strip"><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class="on lt"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i></div>
+  <div class="srow"><b>承载爽点</b><span>收徒</span></div>
+  <div class="srow"><b>复用方案</b><span class="reuse">复用取经路村落改高员外宅院</span></div>
+</article>
+<article class="scard">
+  <span class="snum">11</span>
+  <h3><span class="id">S10</span>流沙河<span class="badge once">一次性</span></h3>
+  <div class="strip"><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class="on lt"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i></div>
+  <div class="srow"><b>承载爽点</b><span>聚齐</span></div>
+  <div class="srow"><b>复用方案</b><span class="reuse">复用取经路水景改黑水河滩</span></div>
+</article>
+<article class="scard">
+  <span class="snum">22</span>
+  <h3><span class="id">S11</span>通天河畔<span class="badge once">一次性</span></h3>
+  <div class="strip"><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class="on lt"></i><i class=""></i><i class=""></i></div>
+  <div class="srow"><b>承载爽点</b><span>末劫</span></div>
+  <div class="srow"><b>复用方案</b><span class="reuse">复用流沙河水景改晒经滩</span></div>
+</article>
+  </div>
+</section>
+
+<section id="sec-decisions">
+  <div class="sec-h"><span class="no">04</span><h2>关键决策</h2><span class="note">拍板过的三件事，落进纸面</span></div>
+  <div class="dec3">
+  <div class="dcol">
+    <h3 class="sub">砍了哪条线</h3>
+    <ul class="dlist"><li><b>女儿国情感线</b><small>与神魔打怪主题不符，短剧节奏装不下，整线砍掉</small></li><li><b>王国剧情（车迟国/灭法国/比丘国/寇员外等）</b><small>群像统治与劝诫是长篇节奏，抽核里全线大砍，只留走皇城取经道具</small></li><li><b>通天河、车迟国、盘丝洞、狮驼岭、金平府等多数妖难</b><small>九九八十一难在 24 集里只能摘四场代表作，其余全砍，凸显主要沙场</small></li><li><b>五庄观人参果、乌鸡国等旁支</b><small>独立单元，不推进主心性线，整体略去</small></li></ul>
+    <p class="dnote seal">这意味着：全剧终点是灵山成佛封正，只保留「崛起—归正—历难—成正果」一条主线和至多一条副线（火焰山牛魔王伏线），百回原著其余支线基本不用。</p>
+  </div>
+  <div class="dcol">
+    <h3 class="sub">合了哪些人</h3>
+    <p class="dhead">15 个角色位（主角组 4 · 重要配角 6 · 功能性 5）</p>
+    <p class="dhead">主角组：孙悟空、唐僧、猪八戒、牛魔王</p>
+    <ul class="dlist"><li><b>天上诸神权柄合并为天庭（玉帝）与灵山（如来、观音）两个权威</b><small>避免散神多派系，冲突点集中到悟空对天庭的反叛和对取经的服膺</small></li><li><b>各路洞府妖窟合并为一处可复用的妖窟主场景</b><small>制作面收拢场景资产，白骨精/红孩儿/火焰山之战在统一妖境展开</small></li><li><b>牛魔王与火焰山之难合并为主反派贯穿线</b><small>红孩儿为牛魔王之子、早期花果山结义，天然把大闹天宫伏线与最终决战串成一条反派线</small></li></ul>
+    <p class="dnote seal">主角组五人取经团（悟空、唐僧、八戒、沙僧）+ 主反派牛魔王入选 lead：取经团成员各有完整转变弧，牛魔王则把开篇反叛伏线一路引到终局决战。</p>
+  </div>
+  <div class="dcol">
+    <h3 class="sub">大爆点落在第几集</h3>
+    <ul class="dmaj"><li><i>ep3</i><span><b>得宝</b> 取走定海神针金箍棒，可大可小</span><em>首个</em></li><li><i>ep6</i><span><b>反抗</b> 砸翻灵霄宝殿、横扫天兵天将</span></li><li><i>ep8</i><span><b>归正</b> 归队首战，打死拦路猛虎正式护行</span></li><li><i>ep13</i><span><b>打脸</b> 悟空三次看破棒杀白骨精，虽被逐含冤</span></li><li><i>ep16</i><span><b>难破</b> 被收为善财童子，妖焰平息</span></li><li><i>ep18</i><span><b>辨心</b> 劈开心魔假我，悟空自此心澄，忠心既定</span></li><li><i>ep20</i><span><b>决战</b> 三调芭蕉扇、大破牛魔王，扇灭火焰山</span></li><li><i>ep24</i><span><b>圆满</b> 悟空修成斗战胜佛，取经一行各正果封正</span><em>终局</em></li></ul>
+  </div>
+</div>
+</section>
+
+<section id="sec-matrix">
+  <div class="sec-h"><span class="no">05</span><h2>每集调度矩阵</h2><span class="note">一列 = 这一集要谁、在哪拍</span></div>
+  <div class="matrix" style="--cw:20px">
+  <table>
+    <tr><th>角色 / 场景 / 道具</th><th>层级</th><th class="ep-h">1</th><th class="ep-h">2</th><th class="ep-h">3</th><th class="ep-h">4</th><th class="ep-h">5</th><th class="ep-h">6</th><th class="ep-h">7</th><th class="ep-h">8</th><th class="ep-h">9</th><th class="ep-h">10</th><th class="ep-h">11</th><th class="ep-h">12</th><th class="ep-h">13</th><th class="ep-h">14</th><th class="ep-h">15</th><th class="ep-h">16</th><th class="ep-h">17</th><th class="ep-h">18</th><th class="ep-h">19</th><th class="ep-h">20</th><th class="ep-h">21</th><th class="ep-h">22</th><th class="ep-h">23</th><th class="ep-h">24</th><th>合计</th></tr>
+    <tr><td class="name">孙悟空</td><td class="tier">主角组</td><td class="mc on"></td><td class="mc on"></td><td class="mc on"></td><td class="mc on"></td><td class="mc on"></td><td class="mc on"></td><td class="mc on"></td><td class="mc on"></td><td class="mc on"></td><td class="mc on"></td><td class="mc on"></td><td class="mc on"></td><td class="mc on"></td><td class="mc on"></td><td class="mc on"></td><td class="mc on"></td><td class="mc on"></td><td class="mc on"></td><td class="mc on"></td><td class="mc on"></td><td class="mc on"></td><td class="mc on"></td><td class="mc on"></td><td class="mc on"></td><td class="n">24</td></tr>
+<tr><td class="name">唐僧</td><td class="tier">主角组</td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on"></td><td class="mc on"></td><td class="mc on"></td><td class="mc on"></td><td class="mc on"></td><td class="mc on"></td><td class="mc on"></td><td class="mc on"></td><td class="mc on"></td><td class="mc"></td><td class="mc on"></td><td class="mc on"></td><td class="mc on"></td><td class="mc on"></td><td class="mc on"></td><td class="mc on"></td><td class="mc on"></td><td class="n">16</td></tr>
+<tr><td class="name">猪八戒</td><td class="tier">主角组</td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on"></td><td class="mc on"></td><td class="mc"></td><td class="mc on"></td><td class="mc on"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on"></td><td class="mc on"></td><td class="mc on"></td><td class="mc"></td><td class="mc on"></td><td class="n">8</td></tr>
+<tr><td class="name">牛魔王</td><td class="tier">主角组</td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on"></td><td class="mc on"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="n">2</td></tr>
+<tr><td class="name">沙僧</td><td class="tier">重要配角</td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on"></td><td class="mc"></td><td class="mc on"></td><td class="mc on"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on"></td><td class="mc on"></td><td class="mc on"></td><td class="mc"></td><td class="mc on"></td><td class="n">7</td></tr>
+<tr><td class="name">观音菩萨</td><td class="tier">重要配角</td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on"></td><td class="mc on"></td><td class="mc"></td><td class="mc on"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on"></td><td class="mc"></td><td class="n">5</td></tr>
+<tr><td class="name">玉皇大帝</td><td class="tier">重要配角</td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on"></td><td class="mc on"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="n">3</td></tr>
+<tr><td class="name">如来佛祖</td><td class="tier">重要配角</td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on"></td><td class="mc on"></td><td class="n">4</td></tr>
+<tr><td class="name">白骨精</td><td class="tier">重要配角</td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="n">1</td></tr>
+<tr><td class="name">红孩儿</td><td class="tier">重要配角</td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on"></td><td class="mc on"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="n">2</td></tr>
+<tr><td class="name">菩提祖师</td><td class="tier">功能性角色</td><td class="mc"></td><td class="mc on"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="n">1</td></tr>
+<tr><td class="name">太白金星</td><td class="tier">功能性角色</td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="n">1</td></tr>
+<tr><td class="name">土地公</td><td class="tier">功能性角色</td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="n">1</td></tr>
+<tr><td class="name">阎王</td><td class="tier">功能性角色</td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="n">2</td></tr>
+<tr><td class="name">白龙马</td><td class="tier">功能性角色</td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="n">1</td></tr>
+<tr class="div"><td colspan="27">场　景</td></tr>
+<tr><td class="name">花果山水帘洞</td><td class="tier">主场景</td><td class="mc on sc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on sc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="n">2</td></tr>
+<tr><td class="name">天宫灵霄宝殿</td><td class="tier">主场景</td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on sc"></td><td class="mc on sc"></td><td class="mc on sc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on sc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="n">4</td></tr>
+<tr><td class="name">取经路山野</td><td class="tier">主场景</td><td class="mc"></td><td class="mc on sc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on sc"></td><td class="mc on sc"></td><td class="mc on sc"></td><td class="mc"></td><td class="mc on sc"></td><td class="mc on sc"></td><td class="mc on sc"></td><td class="mc"></td><td class="mc"></td><td class="mc on sc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="n">8</td></tr>
+<tr><td class="name">妖窟高山洞口</td><td class="tier">主场景</td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on sc"></td><td class="mc on sc"></td><td class="mc on sc"></td><td class="mc on sc"></td><td class="mc on sc"></td><td class="mc"></td><td class="mc"></td><td class="mc on sc"></td><td class="mc on sc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="n">7</td></tr>
+<tr><td class="name">五行山</td><td class="tier">主场景</td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on sc"></td><td class="mc on sc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="n">2</td></tr>
+<tr><td class="name">火焰山</td><td class="tier">主场景</td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on sc"></td><td class="mc on sc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="n">2</td></tr>
+<tr><td class="name">灵山大雷音寺</td><td class="tier">主场景</td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on sc"></td><td class="mc"></td><td class="mc"></td><td class="mc on sc"></td><td class="mc"></td><td class="mc on sc"></td><td class="mc on sc"></td><td class="n">4</td></tr>
+<tr><td class="name">东海龙宫</td><td class="tier">一次性</td><td class="mc"></td><td class="mc"></td><td class="mc on sc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="n">1 ⚠</td></tr>
+<tr><td class="name">高老庄</td><td class="tier">一次性</td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on sc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="n">1 ⚠</td></tr>
+<tr><td class="name">流沙河</td><td class="tier">一次性</td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on sc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="n">1 ⚠</td></tr>
+<tr><td class="name">通天河畔</td><td class="tier">一次性</td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on sc"></td><td class="mc"></td><td class="mc"></td><td class="n">1 ⚠</td></tr>
+<tr class="div"><td colspan="27">道　具</td></tr>
+<tr><td class="name">金箍棒</td><td class="tier">B03、B06、B13、B18、B20</td><td class="mc"></td><td class="mc"></td><td class="mc on pp"></td><td class="mc on pp"></td><td class="mc"></td><td class="mc on pp"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on pp"></td><td class="mc"></td><td class="mc on pp"></td><td class="mc"></td><td class="mc on pp"></td><td class="mc"></td><td class="mc"></td><td class="mc on pp"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on pp"></td><td class="n">8</td></tr>
+<tr><td class="name">紧箍咒</td><td class="tier">B11、B13、B18</td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on pp"></td><td class="mc"></td><td class="mc"></td><td class="mc on pp"></td><td class="mc"></td><td class="mc on pp"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on pp"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="n">4</td></tr>
+<tr><td class="name">芭蕉扇</td><td class="tier">B19、B20</td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on pp"></td><td class="mc on pp"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="n">2</td></tr>
+<tr><td class="name">锦斓袈裟</td><td class="tier">B12</td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on pp"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="n">1</td></tr>
+<tr><td class="name">无字经卷</td><td class="tier">B23</td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on pp"></td><td class="mc on pp"></td><td class="mc on pp"></td><td class="mc"></td><td class="n">3</td></tr>
+  </table>
+  <p class="mnote">⚠ 东海龙宫 · 复用方案：借水帘洞水流与石景改海底宫阙<br>⚠ 高老庄 · 复用方案：复用取经路村落改高员外宅院<br>⚠ 流沙河 · 复用方案：复用取经路水景改黑水河滩<br>⚠ 通天河畔 · 复用方案：复用流沙河水景改晒经滩</p>
+</div>
+</section>
+
+<section id="sec-plan">
+  <div class="sec-h"><span class="no">06</span><h2>资产量折算</h2><span class="note">按档自动折算 · 不让模型写</span></div>
+  <div class="plan">
+  <table><thead><tr><th>层级</th><th>人数</th><th>角色</th><th>资产量</th></tr></thead>
+<tbody><tr><td>主角组</td><td>4</td><td>孙悟空、唐僧、猪八戒、牛魔王</td><td>全套角色设定图 + 逐镜一致性核对</td></tr>
+<tr><td>重要配角</td><td>6</td><td>沙僧、观音菩萨、玉皇大帝、如来佛祖、白骨精、红孩儿</td><td>半身参考图，关键戏核对</td></tr>
+<tr><td>功能性角色</td><td>5</td><td>菩提祖师、太白金星、土地公、阎王、白龙马</td><td>提示词直出，松散一致即可</td></tr>
+<tr><td>场景环境</td><td>7+4</td><td>花果山水帘洞、天宫灵霄宝殿、取经路山野、妖窟高山洞口、五行山、火焰山、灵山大雷音寺（+东海龙宫、高老庄、流沙河、通天河畔复用）</td><td>主场景各一套环境参考 + 光照基调</td></tr>
+<tr><td>叙事道具</td><td>5</td><td>金箍棒、紧箍咒、芭蕉扇、锦斓袈裟、无字经卷</td><td>每件一套白底设定图 + 状态变体，跨集要长一样</td></tr>
+<tr><td>生成难点</td><td>14</td><td>人群 ×7（第 1、6、15、19、20、21、24 集） · 肢体接触 ×7（第 10、11、13、16、17、20、22 集）</td><td>拍摄前逐条过预警清单</td></tr></tbody></table>
+  </div>
+</section>
+
+<section id="sec-characters">
+  <div class="sec-h"><span class="no">07</span><h2>人物表</h2></div>
+  <table><thead><tr><th>ID</th><th>角色</th><th>层级</th><th>定位</th><th>人物弧</th><th>← 改动记录</th></tr></thead>
+<tbody><tr><td>C01</td><td>孙悟空</td><td>主角组</td><td>男主，取经团中坚，斗战胜佛</td><td>从不可一世的野猴，到被压百年学会敬畏，再于八十一难中收服心魔、忠于使命，最终修成斗战胜佛</td><td>原著：石猴/美猴王/齐天大圣/孙悟空</td></tr>
+<tr><td>C02</td><td>唐僧</td><td>主角组</td><td>取经人，金蝉子转世</td><td>从一心向佛的肉体凡胎，历经磨难与徒弟冲突，最终坚定道心、取回真经</td><td>原著：唐玄奘/金蝉子转世</td></tr>
+<tr><td>C03</td><td>猪八戒</td><td>主角组</td><td>取经团喜剧担当，天蓬转世</td><td>从贪懒好吃、爱耍小聪明的高老庄女婿，到一路斗妖、生死与共的老搭档，封净坛使者</td><td>原著：天蓬元帅/猪悟能/猪八戒</td></tr>
+<tr><td>C05</td><td>牛魔王</td><td>主角组</td><td>主反派，火焰山之主</td><td>大闹天宫时与悟空结义的平天大圣，后据火焰山阻路，被悟空借三调芭蕉扇击败收服</td><td>原著：平天大圣牛魔王，合并：火焰山铁扇公主线</td></tr>
+<tr><td>C04</td><td>沙僧</td><td>重要配角</td><td>取经团磐石，挑担断后</td><td>从流沙河吃人的卷帘大将，皈依后成为最稳的队友与调解者</td><td>原著：卷帘大将/沙悟净/沙僧</td></tr>
+<tr><td>C06</td><td>观音菩萨</td><td>重要配角</td><td>取经总策划与关键救场者</td><td>点化天庭寻取经人，多次在悟空绝境时出手，始终是取经路的守护符</td><td>原著：观音菩萨</td></tr>
+<tr><td>C07</td><td>玉皇大帝</td><td>重要配角</td><td>天庭权威，流程化的对手</td><td>压不住悟空而招安、再围剿，最终请如来压山，是悟空束缚的源头</td><td>原著：玉皇大帝，合并：天庭众神</td></tr>
+<tr><td>C08</td><td>如来佛祖</td><td>重要配角</td><td>取经发起者与终局封赏者</td><td>以五行山压悟空，又授意取经渡难，最后一手封赏正果</td><td>原著：如来佛祖</td></tr>
+<tr><td>C09</td><td>白骨精</td><td>重要配角</td><td>妖难反派，三打对象</td><td>三变人形挑拨师徒，被悟空三次看破打死，埋下逐徒又重逢的心性转折</td><td>原著：白骨精</td></tr>
+<tr><td>C10</td><td>红孩儿</td><td>重要配角</td><td>妖难反派，牛魔王之子</td><td>三昧真火逞凶，被观音收为善财童子，串起火焰山伏线</td><td>原著：圣婴大王/红孩儿</td></tr>
+<tr><td>C11</td><td>菩提祖师</td><td>功能性角色</td><td>传授悟空本领的师父</td><td>悟空之师，教七十二变与筋斗云</td><td>原著：菩提祖师</td></tr>
+<tr><td>C12</td><td>太白金星</td><td>功能性角色</td><td>天庭传旨招安者</td><td>—</td><td>原著：太白金星</td></tr>
+<tr><td>C13</td><td>土地公</td><td>功能性角色</td><td>沿途报信摘路的山神</td><td>—</td><td>原著：山神土地</td></tr>
+<tr><td>C14</td><td>阎王</td><td>功能性角色</td><td>地府勾销生死籍的对手</td><td>—</td><td>原著：十殿阎王</td></tr>
+<tr><td>C15</td><td>白龙马</td><td>功能性角色</td><td>唐僧坐骑，西海龙子所化</td><td>—</td><td>原著：小白龙</td></tr></tbody></table>
+</section>
+
+<section id="sec-adaptation">
+  <div class="sec-h"><span class="no">08</span><h2>改编说明</h2><span class="note">为什么这么改 · 附原文依据</span></div>
+  <p class="core">天生石猴从大闹天宫、被压五行山，到护送唐僧西行历经磨难、收服心性，最终取回真经修成正果的故事。</p>
+  <h3 class="sub">保留</h3><table><thead><tr><th>内容</th><th>理由</th><th>原文依据</th></tr></thead>
+<tbody><tr><td>石猴出身与称王水帘洞</td><td>全剧起点，确立悟空的天性与自由意志</td><td><q>「有本事鑽進去尋個源頭出來……我等即拜他為王」「自此，石猿高登王位……遂稱美猴王」</q></td></tr>
+<tr><td>拜菩提学艺、龙宫得金箍棒、大闹天宫</td><td>悟空战力与逆反的完整成因，是抽核的主躯干</td><td><q>原著第一至七回的学艺、取棒、反天宫主干</q></td></tr>
+<tr><td>五行山被压并随唐僧西行、聚齐三徒</td><td>归正主线，锁死取经团</td><td><q>第八至二十二回收徒聚齐的核心事件</q></td></tr>
+<tr><td>白骨精三打、真假美猴王、火焰山三调芭蕉扇</td><td>三场最经典妖难，见心性收服、辨假与最终决战</td><td><q>第二十七回三打白骨精、第五十八回真假美猴王、第五十九至六十一回三调芭蕉扇</q></td></tr>
+<tr><td>灵山受经、凌云渡脱凡成佛</td><td>取经终点与封正，收束全剧</td><td><q>第九十八至一百回的受经、成佛结局</q></td></tr></tbody></table>
+  <h3 class="sub">砍掉</h3><table><thead><tr><th>内容</th><th>理由</th></tr></thead>
+<tbody><tr><td>女儿国情感线</td><td>与神魔打怪主题不符，短剧节奏装不下，整线砍掉</td></tr>
+<tr><td>王国剧情（车迟国/灭法国/比丘国/寇员外等）</td><td>群像统治与劝诫是长篇节奏，抽核里全线大砍，只留走皇城取经道具</td></tr>
+<tr><td>通天河、车迟国、盘丝洞、狮驼岭、金平府等多数妖难</td><td>九九八十一难在 24 集里只能摘四场代表作，其余全砍，凸显主要沙场</td></tr>
+<tr><td>五庄观人参果、乌鸡国等旁支</td><td>独立单元，不推进主心性线，整体略去</td></tr></tbody></table>
+  <h3 class="sub">合并</h3><table><thead><tr><th>内容</th><th>理由</th></tr></thead>
+<tbody><tr><td>天上诸神权柄合并为天庭（玉帝）与灵山（如来、观音）两个权威</td><td>避免散神多派系，冲突点集中到悟空对天庭的反叛和对取经的服膺</td></tr>
+<tr><td>各路洞府妖窟合并为一处可复用的妖窟主场景</td><td>制作面收拢场景资产，白骨精/红孩儿/火焰山之战在统一妖境展开</td></tr>
+<tr><td>牛魔王与火焰山之难合并为主反派贯穿线</td><td>红孩儿为牛魔王之子、早期花果山结义，天然把大闹天宫伏线与最终决战串成一条反派线</td></tr></tbody></table>
+  <h3 class="sub">风险与对策</h3><table><thead><tr><th>内容</th><th>对策</th></tr></thead>
+<tbody><tr><td>多场妖难被压缩为代表性四场，原著粉丝或觉跳脱</td><td>用白骨精、红孩儿、真假美猴王、火焰山四段代表作串因果，implies取经之路千难万险，缺场可用台词一笔带过</td></tr>
+<tr><td>真假美猴王的心魔意象抽象，拍成打架易扁平</td><td>段式分镜搭配两猴同框拆解，把「打杀的是自我」用镜中倒影、影子分立来落视觉</td></tr>
+<tr><td>火焰山牛魔王决战是终战，特效重</td><td>预警手部特写与人群战场，借三调芭蕉扇的节奏错开连续大场面</td></tr></tbody></table>
+</section>
+
+<section id="sec-gates">
+  <div class="sec-h"><span class="no">09</span><h2>质量门</h2></div>
+  <ul class="gate">
+  <li class="ok"><span class="m">✓</span><span>主角组 1–5 人</span></li>
+  <li class="ok"><span class="m">✓</span><span>重要配角 ≤ 10 人</span></li>
+  <li class="ok"><span class="m">✓</span><span>功能性角色 ≤ 10 人</span></li>
+  <li class="ok"><span class="m">✓</span><span>主场景 ≤ 7</span></li>
+  <li class="ok"><span class="m">✓</span><span>叙事道具 ≤ 8 件</span></li>
+  <li class="ok"><span class="m">✓</span><span>一次性场景已标注规避方案</span></li>
+  <li class="ok"><span class="m">✓</span><span>爽点间隔 ≤ 3 集，无真空区</span></li>
+  <li class="ok"><span class="m">✓</span><span>第 1 集有钩子</span></li>
+  <li class="ok"><span class="m">✓</span><span>大爆点不在最后一集才首次出现</span></li>
+  <li class="ok"><span class="m">✓</span><span>每集梗概三栏齐全（含【钩子】【悬念】）</span></li>
+  <li class="ok"><span class="m">✓</span><span>三人以上同框已标注拆解方案</span></li>
+  <li class="ok"><span class="m">✓</span><span>生成难点已进预警清单</span></li>
+  <li class="ok"><span class="m">✓</span><span>场景/角色/道具引用完整，无失业角色、无空转场景、无零集道具</span></li>
+  <li class="ok"><span class="m">✓</span><span>梗概是叙述体，无引号对白</span></li>
+</ul>
+  <p class="gsum">全部通过</p>
+</section>
+
+<p class="foot">大纲由模型依据原文生成，质量门由脚本确定性检查。</p>
+</div>
+
+<script type="application/json" id="outline-data">{"source":"西游记（维基文库·百回）","lang":"zh","params":{"episodes":24,"minutesPerEpisode":3,"genre":"神魔仙侠","adaptMode":"抽核","preferences":[]},"adaptation":{"core":"天生石猴从大闹天宫、被压五行山，到护送唐僧西行历经磨难、收服心性，最终取回真经修成正果的故事。","keep":[{"what":"石猴出身与称王水帘洞","why":"全剧起点，确立悟空的天性与自由意志","evidence":"「有本事鑽進去尋個源頭出來……我等即拜他為王」「自此，石猿高登王位……遂稱美猴王」"},{"what":"拜菩提学艺、龙宫得金箍棒、大闹天宫","why":"悟空战力与逆反的完整成因，是抽核的主躯干","evidence":"原著第一至七回的学艺、取棒、反天宫主干"},{"what":"五行山被压并随唐僧西行、聚齐三徒","why":"归正主线，锁死取经团","evidence":"第八至二十二回收徒聚齐的核心事件"},{"what":"白骨精三打、真假美猴王、火焰山三调芭蕉扇","why":"三场最经典妖难，见心性收服、辨假与最终决战","evidence":"第二十七回三打白骨精、第五十八回真假美猴王、第五十九至六十一回三调芭蕉扇"},{"what":"灵山受经、凌云渡脱凡成佛","why":"取经终点与封正，收束全剧","evidence":"第九十八至一百回的受经、成佛结局"}],"cut":[{"what":"女儿国情感线","why":"与神魔打怪主题不符，短剧节奏装不下，整线砍掉"},{"what":"王国剧情（车迟国/灭法国/比丘国/寇员外等）","why":"群像统治与劝诫是长篇节奏，抽核里全线大砍，只留走皇城取经道具"},{"what":"通天河、车迟国、盘丝洞、狮驼岭、金平府等多数妖难","why":"九九八十一难在 24 集里只能摘四场代表作，其余全砍，凸显主要沙场"},{"what":"五庄观人参果、乌鸡国等旁支","why":"独立单元，不推进主心性线，整体略去"}],"cutNote":"这意味着：全剧终点是灵山成佛封正，只保留「崛起—归正—历难—成正果」一条主线和至多一条副线（火焰山牛魔王伏线），百回原著其余支线基本不用。","merge":[{"what":"天上诸神权柄合并为天庭（玉帝）与灵山（如来、观音）两个权威","why":"避免散神多派系，冲突点集中到悟空对天庭的反叛和对取经的服膺"},{"what":"各路洞府妖窟合并为一处可复用的妖窟主场景","why":"制作面收拢场景资产，白骨精/红孩儿/火焰山之战在统一妖境展开"},{"what":"牛魔王与火焰山之难合并为主反派贯穿线","why":"红孩儿为牛魔王之子、早期花果山结义，天然把大闹天宫伏线与最终决战串成一条反派线"}],"mergeNote":"主角组五人取经团（悟空、唐僧、八戒、沙僧）+ 主反派牛魔王入选 lead：取经团成员各有完整转变弧，牛魔王则把开篇反叛伏线一路引到终局决战。","risks":[{"what":"多场妖难被压缩为代表性四场，原著粉丝或觉跳脱","plan":"用白骨精、红孩儿、真假美猴王、火焰山四段代表作串因果，implies取经之路千难万险，缺场可用台词一笔带过"},{"what":"真假美猴王的心魔意象抽象，拍成打架易扁平","plan":"段式分镜搭配两猴同框拆解，把「打杀的是自我」用镜中倒影、影子分立来落视觉"},{"what":"火焰山牛魔王决战是终战，特效重","plan":"预警手部特写与人群战场，借三调芭蕉扇的节奏错开连续大场面"}]},"characters":[{"id":"C01","name":"孙悟空","role":"男主，取经团中坚，斗战胜佛","tier":"lead","arc":"从不可一世的野猴，到被压百年学会敬畏，再于八十一难中收服心魔、忠于使命，最终修成斗战胜佛","from":["原著：石猴/美猴王/齐天大圣/孙悟空"]},{"id":"C02","name":"唐僧","role":"取经人，金蝉子转世","tier":"lead","arc":"从一心向佛的肉体凡胎，历经磨难与徒弟冲突，最终坚定道心、取回真经","from":["原著：唐玄奘/金蝉子转世"]},{"id":"C03","name":"猪八戒","role":"取经团喜剧担当，天蓬转世","tier":"lead","arc":"从贪懒好吃、爱耍小聪明的高老庄女婿，到一路斗妖、生死与共的老搭档，封净坛使者","from":["原著：天蓬元帅/猪悟能/猪八戒"]},{"id":"C04","name":"沙僧","role":"取经团磐石，挑担断后","tier":"support","arc":"从流沙河吃人的卷帘大将，皈依后成为最稳的队友与调解者","from":["原著：卷帘大将/沙悟净/沙僧"]},{"id":"C05","name":"牛魔王","role":"主反派，火焰山之主","tier":"lead","arc":"大闹天宫时与悟空结义的平天大圣，后据火焰山阻路，被悟空借三调芭蕉扇击败收服","from":["原著：平天大圣牛魔王，合并：火焰山铁扇公主线"]},{"id":"C06","name":"观音菩萨","role":"取经总策划与关键救场者","tier":"support","arc":"点化天庭寻取经人，多次在悟空绝境时出手，始终是取经路的守护符","from":["原著：观音菩萨"]},{"id":"C07","name":"玉皇大帝","role":"天庭权威，流程化的对手","tier":"support","arc":"压不住悟空而招安、再围剿，最终请如来压山，是悟空束缚的源头","from":["原著：玉皇大帝，合并：天庭众神"]},{"id":"C08","name":"如来佛祖","role":"取经发起者与终局封赏者","tier":"support","arc":"以五行山压悟空，又授意取经渡难，最后一手封赏正果","from":["原著：如来佛祖"]},{"id":"C09","name":"白骨精","role":"妖难反派，三打对象","tier":"support","arc":"三变人形挑拨师徒，被悟空三次看破打死，埋下逐徒又重逢的心性转折","from":["原著：白骨精"]},{"id":"C10","name":"红孩儿","role":"妖难反派，牛魔王之子","tier":"support","arc":"三昧真火逞凶，被观音收为善财童子，串起火焰山伏线","from":["原著：圣婴大王/红孩儿"]},{"id":"C11","name":"菩提祖师","role":"传授悟空本领的师父","tier":"functional","arc":"悟空之师，教七十二变与筋斗云","from":["原著：菩提祖师"]},{"id":"C12","name":"太白金星","role":"天庭传旨招安者","tier":"functional","from":["原著：太白金星"]},{"id":"C13","name":"土地公","role":"沿途报信摘路的山神","tier":"functional","from":["原著：山神土地"]},{"id":"C14","name":"阎王","role":"地府勾销生死籍的对手","tier":"functional","from":["原著：十殿阎王"]},{"id":"C15","name":"白龙马","role":"唐僧坐骑，西海龙子所化","tier":"functional","from":["原著：小白龙"]}],"scenes":[{"id":"S01","name":"花果山水帘洞","primary":true,"reusePlan":"全剧起点，可复用为山村/水榭底景"},{"id":"S02","name":"天宫灵霄宝殿","primary":true,"reusePlan":"大闹天宫主战场，可复用宫苑改幽暗为地府"},{"id":"S03","name":"取经路山野","primary":true,"reusePlan":"贯穿主场景，荒山、村落、洞穴皆由它变形"},{"id":"S04","name":"妖窟高山洞口","primary":true,"reusePlan":"白骨/红孩儿/牛魔王的妖境统一复用"},{"id":"S05","name":"五行山","primary":true,"reusePlan":"压山处，可复用群山谷地改出"},{"id":"S06","name":"火焰山","primary":true,"reusePlan":"终战热景，红土烈焰基调"},{"id":"S07","name":"灵山大雷音寺","primary":true,"reusePlan":"终局封赏，可复用寺庙大殿改金殿"},{"id":"S08","name":"东海龙宫","primary":false,"reusePlan":"借水帘洞水流与石景改海底宫阙"},{"id":"S09","name":"高老庄","primary":false,"reusePlan":"复用取经路村落改高员外宅院"},{"id":"S10","name":"流沙河","primary":false,"reusePlan":"复用取经路水景改黑水河滩"},{"id":"S11","name":"通天河畔","primary":false,"reusePlan":"复用流沙河水景改晒经滩"}],"props":[{"id":"P01","name":"金箍棒","function":"悟空战力与身份凭证，龙宫所取，随他大闹天宫与降妖","beatIds":["B03","B06","B13","B18","B20"]},{"id":"P02","name":"紧箍咒","function":"约束悟空的枷锁，师父一念便头痛，是忠诚与矛盾的双重来源","beatIds":["B11","B13","B18"]},{"id":"P03","name":"芭蕉扇","function":"扑灭火焰山的关键法器，三调三次，一场一场磨出品性","beatIds":["B19","B20"]},{"id":"P04","name":"锦斓袈裟","function":"唐僧取经身份象征，异宝招妖来夺，引出一难","beatIds":["B12"]},{"id":"P05","name":"无字经卷","function":"真假经辨试，点破取经重在方寸道心而非经书本身","beatIds":["B23"]}],"beats":[{"id":"B01","type":"立威","weight":"minor","episode":1,"setup":"石猴率先跳入水帘洞、寻得安身福地","payoff":"被众猴拥立为美猴王"},{"id":"B02","type":"学艺","weight":"minor","episode":2,"setup":"悟空飘洋过海访仙求道，拜上菩提祖师","payoff":"学得七十二变与筋斗云"},{"id":"B03","type":"得宝","weight":"major","episode":3,"setup":"悟空下东海龙宫讨要称手兵器","payoff":"取走定海神针金箍棒，可大可小"},{"id":"B04","type":"破枷","weight":"minor","episode":4,"setup":"阴司拘魂，悟空寻到阎王殿","payoff":"一笔勾销生死簿猴属名号"},{"id":"B05","type":"博弈","weight":"minor","episode":5,"setup":"玉帝怕他闹事，遣太白金星招安","payoff":"悟空封弼马温，旋知小职翻脸"},{"id":"B06","type":"反抗","weight":"major","episode":6,"setup":"悟空自封齐天大圣，大闹天宫无人可挡","payoff":"砸翻灵霄宝殿、横扫天兵天将"},{"id":"B07","type":"压制","weight":"minor","episode":7,"setup":"如来出手设赌，悟空翻不出掌心","payoff":"被压五行山下五百年，并引出取经人"},{"id":"B08","type":"归正","weight":"major","episode":8,"setup":"唐僧救出悟空，悟空暴走却受紧箍咒","payoff":"归队首战，打死拦路猛虎正式护行"},{"id":"B09","type":"收服","weight":"minor","episode":9,"setup":"白马来咬，观音点破其西海龙子来历","payoff":"化作白龙马，成为唐僧坐骑"},{"id":"B10","type":"收徒","weight":"minor","episode":10,"setup":"高老庄闹腾，悟空追进云栈洞","payoff":"收服猪八戒入队"},{"id":"B11","type":"聚齐","weight":"minor","episode":11,"setup":"流沙河怪物拦路又拜服","payoff":"收沙僧，师徒四人加白龙马聚齐"},{"id":"B12","type":"夺宝","weight":"minor","episode":12,"setup":"异宝锦斓袈裟引来妖风","payoff":"悟空识破败露，护住袈裟驱散来敌"},{"id":"B13","type":"打脸","weight":"major","episode":13,"setup":"白骨精三变人形、三骗唐僧逐退悟空","payoff":"悟空三次看破棒杀白骨精，虽被逐含冤"},{"id":"B14","type":"反转","weight":"minor","episode":14,"setup":"悟空走后唐僧落难，八戒沙僧救不得","payoff":"悟空归心全力相救，心猿归正"},{"id":"B15","type":"遇险","weight":"minor","episode":15,"setup":"孩童扮妖吐出三昧真火烧退悟空","payoff":"唐僧束手，红孩儿以牛魔王之子现形"},{"id":"B16","type":"难破","weight":"major","episode":16,"setup":"悟空借水攻难破，请来观音","payoff":"被收为善财童子，妖焰平息"},{"id":"B17","type":"设伏","weight":"minor","episode":17,"setup":"冒出个假悟空，打昏唐僧抢走行李","payoff":"真假猴王对峙，天庭地府皆辨不真"},{"id":"B18","type":"辨心","weight":"major","episode":18,"setup":"两个悟空闹到灵山，照出本相","payoff":"劈开心魔假我，悟空自此心澄，忠心既定"},{"id":"B19","type":"拦路","weight":"minor","episode":19,"setup":"火焰山炙烤难行，悟空去铁扇处借扇遭拒","payoff":"与牛魔王正面对上，借扇落空转硬战"},{"id":"B20","type":"决战","weight":"major","episode":20,"setup":"悟空化身术诓扇被识破，兄弟反目大战牛魔王","payoff":"三调芭蕉扇、大破牛魔王，扇灭火焰山"},{"id":"B21","type":"登门","weight":"minor","episode":21,"setup":"师徒踏上灵山，如来授经","payoff":"捧回无字真经，众人不解其意"},{"id":"B22","type":"末劫","weight":"minor","episode":22,"setup":"没读满难数，坠入通天河落水","payoff":"晒经一难，八十一难圆满"},{"id":"B23","type":"开悟","weight":"minor","episode":23,"setup":"无字经点破经在方寸之处","payoff":"悟空唐僧参透道心，重取真本真意"},{"id":"B24","type":"圆满","weight":"major","episode":24,"setup":"凌云渡脱去凡壳","payoff":"悟空修成斗战胜佛，取经一行各正果封正"}],"episodes":[{"ep":1,"hook":"谁会第一个跳进水帘洞里","suspense":"这座花果山之王要靠什么本事来当","synopsis":"石猴自仙石迸裂出世，通灵拜四方。群猴寻水源头，以敢跳入水帘洞者为王，石猴纵身而入得见福地，被拥立为美猴王，由此生出求长生、避无常之念。","sceneIds":["S01"],"characterIds":["C01"],"propIds":[],"crowdPlan":"","warnings":["人群"]},{"ep":2,"hook":"猴王能否寻到使他长生的路","suspense":"学艺途中究竟藏了什么真本领","synopsis":"孙悟空因恐年老命休，漂洋渡海访仙。辗转拜上菩提祖师座下，祖师看透其根器，七年传道，倾囊授出七十二变与筋斗云，悟空神通齐备，辞师回山。","sceneIds":["S03"],"characterIds":["C01","C11"],"propIds":[],"crowdPlan":"","warnings":[]},{"ep":3,"hook":"龙宫有没有趁手神兵","suspense":"这定海神针到底有多邪乎","synopsis":"孙悟空使不动常兵，下东海龙宫讨兵器。龙王层层加码仍不称手，悟空径自取走定海神针金箍棒，试得可大可小，又讨要一身披挂，闹罢龙宫得意而去。","sceneIds":["S08"],"characterIds":["C01"],"propIds":["P01"],"crowdPlan":"","warnings":[]},{"ep":4,"hook":"地府凭什么拘他性命","suspense":"勾了生死簿还取不取他性命","synopsis":"孙悟空梦中被阴司索魂，怒闯阎王殿。阎王以名册相压，悟空夺过生死簿，把猴属名号一笔勾销，扬长而去。归来更觉本事齐天，生出与天齐名之念。","sceneIds":["S02"],"characterIds":["C01","C14"],"propIds":["P01"],"crowdPlan":"","warnings":[]},{"ep":5,"hook":"天庭是招安还是收服","suspense":"弼马温这个官名意味着什么","synopsis":"玉帝怕猴闹事，听太白金星进言招安。悟空上天受封弼马温，起初欢喜，日角马便知职分低微，一怒翻下天去，自回花果山竖起齐天大圣旗号。","sceneIds":["S02","S01"],"characterIds":["C01","C07","C12"],"propIds":[],"crowdPlan":"悟空与玉帝天兵分处天宫与花果山两场，无同框冲突，分场拍","warnings":[]},{"ep":6,"hook":"大圣单枪能否掀翻天宫","suspense":"玉帝这次请不请得动如来","synopsis":"悟空自封齐天大圣，玉帝围剿反被横扫。悟空怒气直冲灵霄宝殿，抡棒砸宫、以一敌众，天兵天将溃不成军，玉帝束手，不得已遣使西天请如来出手。","sceneIds":["S02"],"characterIds":["C01","C07"],"propIds":["P01"],"crowdPlan":"","warnings":["人群"]},{"ep":7,"hook":"他翻得出手掌心吗","suspense":"这一压要到何年何月才到头","synopsis":"如来设打赌，悟空自恃筋斗云，却翻不出如来手掌。如来反掌推出，将悟空压在五行山下，仅露头手，只等五百年后取经人来揭封。山间再传取经人将出的风声。","sceneIds":["S05"],"characterIds":["C01","C08"],"propIds":[],"crowdPlan":"","warnings":[]},{"ep":8,"hook":"揭封的和尚真能管住泼猴吗","suspense":"紧箍咒一带便再难摘下","synopsis":"唐僧奉旨西行，行至五行山揭牒救出悟空，收为大徒弟。悟空初归野性难驯，观音暗中授唐僧紧箍咒。悟空与归途遇猛虎，一棒打死护得师父周全，自此正式护行。","sceneIds":["S05","S03"],"characterIds":["C01","C02","C06"],"propIds":["P02"],"crowdPlan":"唐僧与悟空同场对垒，观音仅是暗中一旁观照，以话筒带过，无三人同框对峙","warnings":[]},{"ep":9,"hook":"白龙马从哪来的","suspense":"龙子为何甘为坐骑","synopsis":"西行路上一条白龙吞马作乱，悟空欲打，观音现身点破，此乃西海龙子，因纵火烧了殿上明珠贬在此处，召来化作白马供唐僧代步，悟空收住手。","sceneIds":["S03"],"characterIds":["C01","C02","C06","C15"],"propIds":[],"crowdPlan":"观音宣白龙另处点化，与师徒分两场，唐僧悟空为主场，无三人同框对峙","warnings":[]},{"ep":10,"hook":"高老庄闹腾的怪婿是谁","suspense":"这呆子一身蛮力如何收得住","synopsis":"高老庄一女子被怪婿困住，哀求僧人除害。悟空探明是猪八戒作祟，追入云栈洞缠斗，八戒转世本为天蓬，憨贪粗莽，斗败拜服，随唐僧剃度为徒，得号八戒。","sceneIds":["S09","S03"],"characterIds":["C01","C02","C03"],"propIds":[],"crowdPlan":"高员外报信为过场，主力是悟空与八戒打的洞内战，唐僧在庄外接应，分场拍无同框","warnings":["肢体接触"]},{"ep":11,"hook":"流沙河里藏了什么妖物","suspense":"聚齐队伍从此还松不松得开","synopsis":"流沙河黑水阻路，河中毒龙频伤人。八戒先去试水败阵，悟空设计诱其上岸，才知是卷帘大将贬此、以吃人为生，观音显现度化，沙僧皈依加入，四徒一马正式聚齐西行。","sceneIds":["S10"],"characterIds":["C01","C02","C03","C04","C06"],"propIds":["P02"],"crowdPlan":"孙悟空、八戒、沙僧河上缠斗为一组机位居中，唐僧与观音岸上观战另机位，避免妖型与圣像同框，分三组拍","warnings":["肢体接触"]},{"ep":12,"hook":"一件袈裟值奇珍也能招灾","suspense":"夺袈裟的妖到底是哪个洞主","synopsis":"借宿寺中，唐僧亮出锦斓袈裟引来觊觎，夜里妖风骤起、宝衣被卷。悟空追查出是同寺火头生贪勾结山妖，一番追索，取回袈裟，山妖现出形迹却借风中遁走产下一难伏笔。","sceneIds":["S03","S04"],"characterIds":["C01","C02","C13"],"propIds":["P04"],"crowdPlan":"悟空追妖、唐僧守寺、土地公报信三人分处三场，无同框冲突，分场拍","warnings":[]},{"ep":13,"hook":"这妇人少女老翁真面目是谁","suspense":"悟空三次棒杀还要蒙受多大的冤","synopsis":"白骨精三变人形——少女、老妇、老翁——三骗唐僧，屡屡被悟空识破棒杀。唐僧肉眼凡胎，见悟空连伤人性命怒斥，亲念紧箍咒，逐悟空回山，师徒一时决裂。","sceneIds":["S03","S04"],"characterIds":["C01","C02","C09","C03","C04"],"propIds":["P02","P01"],"crowdPlan":"悟空与白骨精洞外缠斗一组，唐僧八戒沙僧洞内对峙一组，两机位分场，同帧只容三徒共框","warnings":["肢体接触"]},{"ep":14,"hook":"悟空真就撒手不管了吗","suspense":"被逐后队伍还能不能走下去","synopsis":"悟空被逐回山，唐僧一行行至黑松林受害，八戒沙僧救不得。走投无路时悟空闻讯破云而至，念及一路恩义拼死相救，三徒同心救出师父，师徒和好，心猿自此归正。","sceneIds":["S03","S04"],"characterIds":["C01","C02","C03","C04"],"propIds":[],"crowdPlan":"悟空救场动作戏为一组，唐僧等被困另一组，救援后重逢四人同框可由两镜合拢收，拆解机位","warnings":[]},{"ep":15,"hook":"谁会对他兄弟下杀手","suspense":"这孩童怎么偏说是牛魔王的儿子","synopsis":"前方红孩儿变作被绑孩童拦路，悟空识破反引三昧真火烧退众人，唐僧被掳走。悟空得知红孩儿乃牛魔王之子，暗合天宫结义旧怨，救不得反倒连吃火亏。","sceneIds":["S04"],"characterIds":["C01","C02","C10"],"propIds":["P01"],"crowdPlan":"红孩儿单斗悟空为一组，唐僧被掳守洞另一组，分场拍","warnings":["人群"]},{"ep":16,"hook":"三昧真火拿什么来破","suspense":"这红孩儿最终归向何处","synopsis":"悟空请来龙王车水仍不敌火，转求观音。观音以玉净瓶甘露浇灭真火，又设法收红孩儿为善财童子，妖焰平息，唐僧得救，火焰山之仇却由此结下，牛魔王记恨在案。","sceneIds":["S04"],"characterIds":["C01","C02","C10","C06"],"propIds":[],"crowdPlan":"观音收妖舍利与红孩儿对战悟空分两场，唐僧在场边受护，机位拆解避免多主体同框","warnings":["肢体接触"]},{"ep":17,"hook":"怎么冒出来个一模一样的自己","suspense":"真假猴王闹到天上地上都分不清","synopsis":"取经路上忽现一个假悟空，打昏唐僧、抢走行囊，真悟空与之缠斗难分。真假二猴上天入地，天庭、地府、龙宫诸神都辨不出本相，只好一路闹上灵山。","sceneIds":["S03","S02"],"characterIds":["C01","C07","C14"],"propIds":["P01"],"crowdPlan":"真假悟空的打斗为主体，玉帝地府的辨伪均为旁观单场，分场拍","warnings":["肢体接触"]},{"ep":18,"hook":"佛祖拿出什么照妖镜","suspense":"悟空看清的其实是哪一个自己","synopsis":"如来以法眼点破真伪，真悟空受点化，认清那假猴正是自身心魔所化。悟空棒劈心魔、了然澄澈，自此忠心既定，不再有二心，回队归队，师徒一行人重新上路。","sceneIds":["S07"],"characterIds":["C01","C02","C08"],"propIds":["P02"],"crowdPlan":"悟空劈心魔的灵山段与唐僧等候的取经野为两组，机位拆解，同框只容师徒点对","warnings":[]},{"ep":19,"hook":"火焰山哪个来借扇","suspense":"铁扇公主手里的扇子到底借不借","synopsis":"众人难越火焰山炙热，悟空去往铁扇处借芭蕉扇，忆起牛魔王旧怨反遭轻视拒不借扇。悟空化入铁扇腹中威逼得扇，回山中扇动烈火愈旺，方知借来是假扇，正悬硬仗。","sceneIds":["S06","S04"],"characterIds":["C01","C02","C05"],"propIds":["P03"],"crowdPlan":"悟空与牛魔王对峙一组，唐僧众望风避炎另一组，双重机位分场拍","warnings":["人群"]},{"ep":20,"hook":"假扇真扇如何调换","suspense":"兄弟相残这一仗打完还有安生吗","synopsis":"悟空连番化身诓扇皆被牛魔王识破，牛魔王记恨火焰山旧怨与悟空死战。悟空请来众神助阵，几经周折终调换真扇，一扇扇灭火焰山千里烈焰，大破牛魔王，师徒得以继续西行。","sceneIds":["S06","S04"],"characterIds":["C01","C02","C03","C04","C05"],"propIds":["P03","P01"],"crowdPlan":"悟空牛魔王空战为主体，八戒沙僧扇侧助阵、唐僧远阵指挥，机位分组避免五主体同框，同帧上限三身","warnings":["肢体接触","人群"]},{"ep":21,"hook":"灵山真经终于到手了吗","suspense":"经卷带回去为何疑点重重","synopsis":"取经四人历难登灵山，如来授经，塔尔迦叶讨索，师徒捧回藏经。归途僧人翻检，发觉经卷具无字，疑虑顿生，只道千辛万苦竟换来这般，末难未满众人皆惑。","sceneIds":["S07"],"characterIds":["C01","C02","C03","C04"],"propIds":["P05"],"crowdPlan":"灵山受经礼场为大场面，机位以经卷为中心分列四徒，同框上限两人点对","warnings":["人群"]},{"ep":22,"hook":"通天河谁知还摆着一难","suspense":"被水淹身、晒经散页算不算数","synopsis":"师徒行至通天河，重整旧路欲渡，河中老鼋驮渡却因当年嘱托未偿而坠水，四人落水、经卷浸湿。岸边晒经又损数卷，卷数不满，末难现出，八十一难自此坐满。","sceneIds":["S11"],"characterIds":["C01","C02","C03","C04"],"propIds":["P05"],"crowdPlan":"四徒与老鼋共坠水中为一组，晒经滩忙乱另一组，同框上限三人，余以背影过肩带过","warnings":["肢体接触"]},{"ep":23,"hook":"无字经到底是真还是假","suspense":"道心若明还需那几卷经书吗","synopsis":"观音显圣释疑，道明无字真经乃珍本，取经贵在明心见性而非文字。悟空唐僧参透，道心洞明，重上灵山取回真本真意，此行到此方算功德圆满，却尚缺凌烟最后一步。","sceneIds":["S07"],"characterIds":["C01","C02","C06","C08"],"propIds":["P05"],"crowdPlan":"观音与悟空唐僧参经为灵山内场，如来于外场授卷，机位拆解，同框上限三人","warnings":[]},{"ep":24,"hook":"凌空一步脱不脱得这几世凡躯","suspense":"师徒一个个最后都成了什么果位","synopsis":"取经登上凌云渡，脱去凡胎，抵达灵山面见如来。如来授果封正，悟空受封斗战胜佛，唐僧为旃檀功德佛，八戒沙僧亦各有正果，白龙化为八部天龙归位，此行既成、大义方遂。","sceneIds":["S07"],"characterIds":["C01","C02","C03","C04","C08"],"propIds":["P01"],"crowdPlan":"受封礼场排行为大场面，四人依次上前受封，如来居中高台，机位以两人一组点对出入，避免五主体共框","warnings":["人群"]}]}</script>
+<script>
+// beat rhythm: chart / table toggle
+document.querySelectorAll('.tab').forEach((btn) => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.tab').forEach((b) => b.classList.toggle('on', b === btn));
+    document.querySelectorAll('.tabpane').forEach((p) => p.classList.toggle('on', p.id === btn.dataset.pane));
+  });
+});
+
+// episode overview: first three by default, one click expands for good
+const epsMore = document.querySelector('.epsmore');
+if (epsMore) {
+  epsMore.addEventListener('click', () => {
+    document.querySelector('.epswrap').classList.remove('clip');
+    epsMore.remove();
+  });
+}
+
+// export: the report carries outline.json verbatim; the download is byte-identical
+document.querySelector('.expo').addEventListener('click', (e) => {
+  const btn = e.currentTarget;
+  const url = URL.createObjectURL(
+    new Blob([document.getElementById('outline-data').textContent], { type: 'application/json' }),
+  );
+  const a = Object.assign(document.createElement('a'), { href: url, download: btn.dataset.name });
+  a.click();
+  // don't revoke immediately — Safari may kill the blob before the download finishes reading
+  setTimeout(() => URL.revokeObjectURL(url), 10000);
+});
+</script>
+</body></html>

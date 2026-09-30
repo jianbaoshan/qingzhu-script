@@ -1,0 +1,447 @@
+[
+  {
+    "id": "E11-01", "sceneIndex": 1,
+    "blocking": "灰蒙蒙的流沙河边，悟空立于岸上居中靠前，唐僧、八戒立于岸侧稍后；浑黄急流横在画面下方。",
+    "soundscape": "流沙河浊浪翻滚的水声，河岸风声，悟空投石的入水轻响",
+    "music": "弦声沉沉压住，前路被水断开的凝重",
+    "soundscapeEn": "The rolling muddy torrent of the Flowing-sand River, the wind on the bank, and the light splash of the stone.",
+    "musicEn": "Strings pressing low, the road cut off by water.",
+    "cuts": [
+      { "beats": [1, 1], "seconds": 3, "size": "wide", "camera": "Static Shot", "characters": ["C01"],
+        "frame": "全景：灰蒙蒙的流沙河边，浑黄的河水卷着白沫急急奔流，把去路拦腰斩断。悟空立在岸边望着水直皱眉。",
+        "shot": "固定机位，阴晦的天光下浑黄河水卷着白沫奔流，矮小的猴军立在岸边望着水面皱眉。",
+        "lens": "24mm 广角，深景深", "cameraPosition": "孙悟空 + 平视侧面", "composition": "对角线", "eyeline": "望向奔流的河水", "focus": "锁定望水皱眉的猴军", "stability": "stable",
+        "body": "a static wide shot of the muddy torrent rolling with white foam across the grey river, the short monkey on the bank frowning at the water" },
+      { "beats": [2, 2], "seconds": 3, "size": "medium", "camera": "Static Shot", "characters": ["C01"],
+        "frame": "中景：悟空弯腰捡起一块石头，扬手投进河里，起了个水漂，眨眼就被浊浪吞没。",
+        "shot": "固定机位，岸边的猴军弯腰拾起一块石头扬手投进河，起了一个水漂，转眼被浊浪吞没。",
+        "lens": "50mm 标准，中浅景深", "cameraPosition": "孙悟空 + 平视侧面", "composition": "三分法", "eyeline": "望向投石落点", "focus": "锁定投石的动作", "stability": "stable",
+        "body": "a static medium shot of the monkey picking up a stone and skimming it into the river, the splash swallowed in an instant" },
+      { "beats": [3, 3], "seconds": 5.5, "size": "close", "camera": "Static Shot", "characters": ["C01"],
+        "frame": "特写：悟空望着河面皱眉开口，说这河又急又浑连个船影都没有，可怎么过去。",
+        "shot": "固定机位贴着他，望水的猴军皱眉开口，说这河又急又浑、连船影都寻不着。",
+        "lens": "85mm 长焦，极浅景深", "cameraPosition": "孙悟空 + 平视正面", "composition": "中心构图", "eyeline": "望向河面", "focus": "锁定悟空犯难的神色", "stability": "stable",
+        "body": "a static close-up on the monkey frowning at the current, saying the river is too swift and muddied, with no boat in sight" }
+    ]
+  },
+  {
+    "id": "E11-02", "sceneIndex": 1,
+    "blocking": "唐僧立于悟空身侧居中，八戒在另一侧；三人一并望着河面商量渡河。",
+    "soundscape": "唐僧缓声的劝慰，八戒摩拳擦掌的响动，河水依旧奔流",
+    "music": "弦声短暂松弛，寻计渡河的商量",
+    "soundscapeEn": "The monk's calm words, the second man's eager stirring, and the river rushing on.",
+    "musicEn": "Strings briefly easing, planning the crossing.",
+    "cuts": [
+      { "beats": [4, 4], "seconds": 4.5, "size": "medium", "camera": "Static Shot", "characters": ["C02"],
+        "frame": "中景：唐僧在旁温声开口，劝悟空莫急，先看看有无渡桥或舟船。",
+        "shot": "固定机位，立在旁的僧人温声开口，劝那猴军莫急，先寻渡桥或舟船。",
+        "lens": "50mm 标准，中浅景深", "cameraPosition": "唐僧 + 平视正面", "composition": "三分法", "eyeline": "望向河面", "focus": "锁定唐僧安抚的神色", "stability": "stable",
+        "body": "a static medium shot of the robed monk speaking gently, urging patience and a search for a bridge or boat" },
+      { "beats": [5, 5], "seconds": 5, "size": "medium", "camera": "Static Shot", "characters": ["C03"],
+        "frame": "中景：八戒拍拍肚子接过话，说自己会凫水，先下水替众人探探深浅。",
+        "shot": "固定机位，那黑粗壮的汉子摩拳擦掌接过话，说自己颇会凫水，要下水探深浅。",
+        "lens": "50mm 标准，中浅景深", "cameraPosition": "壮汉 + 平视正面", "composition": "三分法", "eyeline": "望向河面", "focus": "锁定壮汉拍腹请缨", "stability": "stable",
+        "body": "a static medium shot of the burly dark man volunteering, confident in his swimming, to sound the water first" }
+    ]
+  },
+  {
+    "id": "E11-03", "sceneIndex": 1,
+    "blocking": "悟空与八戒相对而立，唐僧在中间侧望；两人斗嘴，八戒摩挲着就要下水。",
+    "soundscape": "悟空打趣的话音，八戒不服的应答，河水在旁奔流",
+    "music": "弦声轻快带揶揄，师兄弟的水性之争",
+    "soundscapeEn": "The monkey's teasing, the burly man's held-off reply, and the river running nearby.",
+    "musicEn": "Strings light with teasing, a contest over swimming.",
+    "cuts": [
+      { "beats": [6, 6], "seconds": 4.5, "size": "close", "camera": "Static Shot", "characters": ["C01"],
+        "frame": "特写：悟空抱棒打趣，说你那一身膘掉下去怕是要沉底喂鱼。",
+        "shot": "固定机位贴着他，抱棒的猴军扬声打趣，揶揄那壮汉一身膘掉水里怕要喂鱼。",
+        "lens": "85mm 长焦，极浅景深", "cameraPosition": "孙悟空 + 平视正面", "composition": "中心构图", "eyeline": "望向八戒", "focus": "锁定悟空揶揄的神色", "stability": "stable",
+        "body": "a static close-up on the monkey teasing that the man's heft would sink him to feed the fish" },
+      { "beats": [7, 7], "seconds": 4, "size": "close", "camera": "Static Shot", "characters": ["C03"],
+        "frame": "特写：八戒不服回嘴，说自己水性是实打实的。",
+        "shot": "固定机位贴着他，壮汉不服回嘴，硬说自己这一身水性是实打实的。",
+        "lens": "85mm 长焦，极浅景深", "cameraPosition": "壮汉 + 平视正面", "composition": "中心构图", "eyeline": "望向悟空", "focus": "锁定八戒不服的神色", "stability": "stable",
+        "body": "a static close-up on the burly man retorting that his swimming is the genuine article" }
+    ]
+  },
+  {
+    "id": "E11-04", "sceneIndex": 1,
+    "blocking": "八戒扑通跳入浊流居于河心偏右，悟空立于岸上；河心猛地翻起巨浪。",
+    "soundscape": "八戒入水的扑通声，河心巨浪翻起的水声，黑影蹿起的浪响",
+    "music": "鼓点猛然砸下，下水即惊变",
+    "soundscapeEn": "The splash of the dive, the great surge of a wave at mid-stream, and the rush of a dark shape leaping.",
+    "musicEn": "A heavy drumfall as the water turns violent at once.",
+    "cuts": [
+      { "beats": [8, 8], "seconds": 3, "size": "wide", "camera": "Static Shot", "characters": ["C03"],
+        "frame": "全景：八戒扑通跳入浊流，刚游出两步，河心猛地翻起一个老高的巨浪。",
+        "shot": "固定机位，那黑粗壮的汉子扑通跳入浊流才游出两步，河心猛地翻起一个老高的巨浪。",
+        "lens": "24mm 广角，深景深", "cameraPosition": "壮汉 + 平视侧面", "composition": "中心构图", "eyeline": "望向河心", "focus": "锁定翻起的巨浪", "stability": "slight-shake",
+        "body": "a static wide shot of the burly man diving into the muddy current, only to have a towering wave rear up mid-river" },
+      { "beats": [9, 9], "seconds": 3, "size": "medium", "camera": "Static Shot", "characters": ["C03"],
+        "frame": "中景：一条黑影从浪里蹿起，一把拽住八戒的腿，直往深水底下拖。",
+        "shot": "固定机位，一条黑影自浪头蹿起，一把拽住水中壮汉的腿，直往深水底下拖。",
+        "lens": "50mm 标准，中浅景深", "cameraPosition": "壮汉 + 平视侧面", "composition": "三分法", "eyeline": "望向水下的手", "focus": "锁定拽腿的黑影", "stability": "slight-shake",
+        "body": "a static medium shot of a dark shape bursting from the wave to seize the swimmer's leg, hauling him down into the deep" }
+    ]
+  },
+  {
+    "id": "E11-05", "sceneIndex": 1,
+    "blocking": "八戒在河心被拖入水只露头，悟空自岸上一个筋斗跃下；他捞起八戒甩回岸上。",
+    "soundscape": "八戒入水的呼救，悟空跃水的破声，甩人上岸的水花",
+    "music": "弦声一紧一放，抢救上岸",
+    "soundscapeEn": "The swimmer's cry, the monkey leaping in, and the splash as the man is hurled ashore.",
+    "musicEn": "Strings tightening then relaxing as the rescue lands him dry.",
+    "cuts": [
+      { "beats": [10, 10], "seconds": 4, "size": "close", "camera": "Static Shot", "characters": ["C03"],
+        "frame": "特写：八戒被拖只露出头，挣扎呼喊，说有什么东西咬住了自己，快救人。",
+        "shot": "固定机位贴着他，被拖入水的黑粗壮汉挣扎着只露出头，扬声呼喊有东西咬住自己、快救人。",
+        "lens": "85mm 长焦，极浅景深", "cameraPosition": "壮汉 + 俯视 20°", "composition": "中心构图", "eyeline": "望向岸上", "focus": "锁定挣扎呼救的壮汉", "stability": "slight-shake",
+        "body": "a static close-up on the burly man struggling, head above water, crying that something has seized him" },
+      { "beats": [11, 11], "seconds": 3, "size": "medium", "camera": "Static Shot", "characters": ["C01", "C03"],
+        "frame": "中景：悟空看势头不对，一个筋斗跃下河，把八戒拦腰一捞甩手掷回岸上。",
+        "shot": "固定机位，见势不妙的猴军一个筋斗跃下河，拦腰一捞把壮汉甩手掷回岸上。",
+        "lens": "50mm 标准，中浅景深", "cameraPosition": "双人 + 平视侧面", "composition": "三分法", "eyeline": "望向河中的壮汉", "focus": "锁定捞人掷回的动作", "stability": "slight-shake",
+        "body": "a static medium shot of the monkey leaping in and, catching the man round the middle, hurling him back onto the bank" }
+    ]
+  },
+  {
+    "id": "E11-06", "sceneIndex": 1,
+    "blocking": "八戒爬上岸居右，悟空立于岸侧居左，两人一并望着那浑河；八戒咳出几口水。",
+    "soundscape": "八戒爬岸的粗喘，他咳出河水的声，悟空在旁问话",
+    "music": "弦声重新落定，探河无果的收束",
+    "soundscapeEn": "The man scrambling ashore, coughing up river water, and the monkey's query beside him.",
+    "musicEn": "Strings settling again, the probe that came to nothing.",
+    "cuts": [
+      { "beats": [12, 12], "seconds": 3, "size": "wide", "camera": "Static Shot", "characters": ["C03"],
+        "frame": "全景：八戒爬上岸，咳出几口水，惊魂未定地回头望着那浑河。",
+        "shot": "固定机位，那黑粗壮汉爬上岸咳出几口水，惊魂未定地回头望着身后的浑河。",
+        "lens": "24mm 广角，深景深", "cameraPosition": "壮汉 + 平视侧面", "composition": "三分法", "eyeline": "回头望河", "focus": "锁定惊魂未定的壮汉", "stability": "stable",
+        "body": "a static wide shot of the burly man scrambling ashore and coughing, glancing back at the river with lingering shock" },
+      { "beats": [13, 13], "seconds": 5.5, "size": "close", "camera": "Static Shot", "characters": ["C03"],
+        "frame": "特写：八戒一抹嘴角喘着气说，那东西力气大得出奇，拽着就往河底拖。",
+        "shot": "固定机位贴着他，爬上岸的壮汉一抹嘴角喘着气说，那东西力气奇大，一路把他拖向河底。",
+        "lens": "85mm 长焦，极浅景深", "cameraPosition": "壮汉 + 平视正面", "composition": "中心构图", "eyeline": "望向河水", "focus": "锁定八戒余悸的神色", "stability": "stable",
+        "body": "a static close-up on the burly man wiping his mouth and gasping that the thing's strength was immense, dragging him to the bottom" }
+    ]
+  },
+  {
+    "id": "E11-07", "sceneIndex": 1,
+    "blocking": "悟空立于岸上拍棒就要下水，唐僧在旁急忙伸手拦住他。",
+    "soundscape": "悟空不屑他的话声，唐僧伸手拦阻的衣响，河水奔流",
+    "music": "弦声一扬，悟空要亲自会一会",
+    "soundscapeEn": "The monkey's scoffing, the rustle of the monk reaching to stay him, and the running river.",
+    "musicEn": "Strings lifting as the monkey sets out to face it.",
+    "cuts": [
+      { "beats": [14, 14], "seconds": 4.5, "size": "close", "camera": "Static Shot", "characters": ["C01"],
+        "frame": "特写：悟空不屑应声，说瞧你那点出息，自己去会会水里的东西。",
+        "shot": "固定机位贴着他，岸上的猴军不屑应声，说要去会会水里的东西。",
+        "lens": "85mm 长焦，极浅景深", "cameraPosition": "孙悟空 + 平视正面", "composition": "中心构图", "eyeline": "望向河面", "focus": "锁定悟空不屑的神色", "stability": "stable",
+        "body": "a static close-up on the monkey scoffing and declaring he will go face whatever lurks in the water" },
+      { "beats": [15, 15], "seconds": 3, "size": "medium", "camera": "Static Shot", "characters": ["C02"],
+        "frame": "中景：唐僧在旁看得心惊，忙伸手拦住悟空，劝他莫要贸然下水。",
+        "shot": "固定机位，心惊的僧人忙伸手拦住那猴军，劝他莫要贸然下水。",
+        "lens": "50mm 标准，中浅景深", "cameraPosition": "唐僧 + 平视正面", "composition": "三分法", "eyeline": "望向悟空", "focus": "锁定唐僧伸手拦阻", "stability": "stable",
+        "body": "a static medium shot of the alarmed monk reaching out to stay the monkey, urging him not to plunge in rashly" }
+    ]
+  },
+  {
+    "id": "E11-08", "sceneIndex": 1,
+    "blocking": "悟空立于岸边亮棒，唐僧在侧欲拦；河心又翻大浪，黑影探出半截身直逼岸边。",
+    "soundscape": "悟空应声的话音，河中翻浪的水声，黑影逼近的潜响",
+    "music": "弦声猛然拔高，妖物再次冒头",
+    "soundscapeEn": "The monkey's answer, the surge of another wave, and the approaching rumble of the dark shape.",
+    "musicEn": "Strings leaping, the monster surfacing again.",
+    "cuts": [
+      { "beats": [16, 16], "seconds": 4.5, "size": "close", "camera": "Static Shot", "characters": ["C01"],
+        "frame": "特写：悟空扬声宽慰，说自己自会水，岂怕它几个浪头。",
+        "shot": "固定机位贴着他，岸边的猴军扬声宽慰，说自己是水性再好不过，岂怕它几个浪头。",
+        "lens": "85mm 长焦，极浅景深", "cameraPosition": "孙悟空 + 平视正面", "composition": "中心构图", "eyeline": "望向河面", "focus": "锁定悟空从容的神色", "stability": "stable",
+        "body": "a static close-up on the monkey reassuring, unafraid of a few waves" },
+      { "beats": [17, 17], "seconds": 3, "size": "wide", "camera": "Static Shot", "characters": ["C01"],
+        "frame": "全景：悟空才要下水，河中又翻一道大浪，那黑影探出半截身直逼岸边。",
+        "shot": "固定机位，猴军正要下水，河中又翻一道大浪，一条黑影探出半截身直逼到他跟前。",
+        "lens": "24mm 广角，深景深", "cameraPosition": "孙悟空 + 平视侧面", "composition": "对角线", "eyeline": "紧盯逼来的黑影", "focus": "锁定逼近的黑影", "stability": "slight-shake",
+        "body": "a static wide shot as another wave rises and a dark shape leans half out of the water, bearing straight toward the bank" }
+    ]
+  },
+  {
+    "id": "E11-09", "sceneIndex": 1,
+    "blocking": "悟空亮出金箍棒虚晃一棒，转身往岸上跑；那黑影自浪中踏水直追。",
+    "soundscape": "悟空亮棒虚晃的破风，他转身跑动的脚步，黑影踏浪的水声",
+    "music": "鼓点两句紧追，引蛇出洞的计策",
+    "soundscapeEn": "The whoosh of the feint, the monkey's footsteps as he runs, and the splash of the shape giving chase.",
+    "musicEn": "Drums hot on his heels, the bait taken.",
+    "cuts": [
+      { "beats": [18, 18], "seconds": 3, "size": "wide", "camera": "Tracking Shot", "characters": ["C01"],
+        "frame": "全景：悟空眼珠一转，亮出金箍棒朝那黑影虚晃一棒，转身就往岸上跑。",
+        "shot": "跟拍，猴军眼珠一转，亮棒朝那条黑影虚晃一记，转身就往岸上跑。",
+        "lens": "24mm 广角，深景深", "cameraPosition": "孙悟空 + 平视侧面", "composition": "对角线", "eyeline": "望向黑影又回身", "focus": "锁定亮棒回跑的动作", "stability": "slight-shake",
+        "body": "a tracking wide shot of the monkey feinting his staff at the dark shape, then turning and making for the bank" },
+      { "beats": [19, 19], "seconds": 4.5, "size": "close", "camera": "Static Shot", "characters": ["C01"],
+        "frame": "特写：悟空边跑边扬声叫阵，说就让那怪物追来，自己好腾出手收拾它。",
+        "shot": "固定机位贴着他，奔跑中的猴军回身扬声叫阵，诱那水中怪物追来，好腾手收拾。",
+        "lens": "85mm 长焦，极浅景深", "cameraPosition": "孙悟空 + 平视正面", "composition": "中心构图", "eyeline": "望向身后水面", "focus": "锁定悟空回头叫阵", "stability": "slight-shake",
+        "body": "a static close-up on the monkey calling back over his shoulder, baiting the river creature to give chase" }
+    ]
+  },
+  {
+    "id": "E11-10", "sceneIndex": 1,
+    "blocking": "那黑影自浪中哗地蹿出，扑上岸现出真身居于画面右；悟空立于左侧备棒。",
+    "soundscape": "黑影破浪蹿出的水声，它扑上岸的沉重落地，悟空备棒的轻响",
+    "music": "鼓点一顿，妖物正式现形",
+    "soundscapeEn": "The creature bursting from the surf, its heavy landing on the bank, and the monkey readying his staff.",
+    "musicEn": "A drum holds still as the monster reveals itself.",
+    "cuts": [
+      { "beats": [20, 20], "seconds": 3, "size": "wide", "camera": "Static Shot", "characters": ["C01", "C04"],
+        "frame": "全景：那黑影果然大怒，哗地从浪里蹿出整个人扑上岸来，现出真身。",
+        "shot": "固定机位，那条黑影果然大怒，哗地破浪蹿出，整个人扑上岸来现出真身。",
+        "lens": "24mm 广角，深景深", "cameraPosition": "双人 + 平视侧面", "composition": "对角线", "eyeline": "怒视岸上猴军", "focus": "锁定扑上岸来的黑影", "stability": "slight-shake",
+        "body": "a static wide shot of the enraged dark shape bursting from the waves and hurling itself ashore to show its true form" },
+      { "beats": [21, 21], "seconds": 3.5, "size": "medium", "camera": "Static Shot", "characters": ["C04"],
+        "frame": "中景：那现形的青脸妖汉立定怒喝，说敢在自己河里叫嚣，休想活着走。",
+        "shot": "固定机位，现出原形的青脸妖汉立定怒喝，扬言今番别想活着离开。",
+        "lens": "50mm 标准，中浅景深", "cameraPosition": "妖汉 + 平视正面", "composition": "三分法", "eyeline": "怒视悟空", "focus": "锁定现形的妖汉", "stability": "stable",
+        "body": "a static medium shot of the revealed beast, an azure-faced figure, shouting that none may speak boldly in his river and live" }
+    ]
+  },
+  {
+    "id": "E11-11", "sceneIndex": 1,
+    "blocking": "悟空绕跑一段回身抡棒居左，妖汉持械居右；沙岸上缠斗几个来回。",
+    "soundscape": "悟空回身抡棒的破风，两人缠斗的脚步，被拍翻倒地的闷响",
+    "music": "鼓点密成一阵，缠斗推向压制",
+    "soundscapeEn": "The swish of the staff, the scuffle of the fight, and the dull thud of the foe brought down.",
+    "musicEn": "Drums running thick, the struggle tipping into a takedown.",
+    "cuts": [
+      { "beats": [22, 22], "seconds": 3, "size": "wide", "camera": "Static Shot", "characters": ["C01", "C04"],
+        "frame": "全景：悟空跑出一段猛地回身抡棒就迎上去，把那人扫了个趔趄。",
+        "shot": "固定机位，猴军跑出一段猛地回身抡棒迎上，把那青脸妖汉扫了个趔趄。",
+        "lens": "24mm 广角，深景深", "cameraPosition": "双人 + 平视侧面", "composition": "对角线", "eyeline": "望向扫出的棒", "focus": "锁定回身迎击的一棒", "stability": "slight-shake",
+        "body": "a static wide shot of the monkey whirling round to sweep his staff at the foe, sending the creature staggering" },
+      { "beats": [23, 23], "seconds": 3, "size": "medium", "camera": "Static Shot", "characters": ["C01", "C04"],
+        "frame": "中景：两人在沙岸上缠斗几个来回，那人渐渐落下风，被悟空一掌拍翻在地。",
+        "shot": "固定机位，沙岸上两人缠斗几个来回，那青脸妖汉渐渐落下风，被猴军一掌拍翻在地。",
+        "lens": "50mm 标准，中浅景深", "cameraPosition": "双人 + 俯视 15°", "composition": "三分法", "eyeline": "望向拍翻的一掌", "focus": "锁定被拍翻的妖汉", "stability": "slight-shake",
+        "body": "a static medium shot of the pair trading blows before the creature is overpowered and struck down by a single palm" }
+    ]
+  },
+  {
+    "id": "E11-12", "sceneIndex": 1,
+    "blocking": "悟空上前一脚踩住妖汉背脊居左，低头看他颈前的骷髅串；妖汉趴地居右。",
+    "soundscape": "悟空踩住背脊的压实声，妖汉的低喘，他颈上骷髅串的轻响",
+    "music": "弦声一沉，战后的盘问",
+    "soundscapeEn": "The foot pressing down, the creature's low breathing, and the faint rattle of the skull beads at his neck.",
+    "musicEn": "Strings settling low for the interrogation.",
+    "cuts": [
+      { "beats": [24, 24], "seconds": 3, "size": "close", "camera": "Static Shot", "characters": ["C01", "C04"],
+        "frame": "特写：悟空上前一脚踩住他背脊，低头一瞧见颈上挂着一串骷髅珠，不由一怔。",
+        "shot": "固定机位贴着他，猴军一脚踩住那青脸妖汉的背脊，低头瞧见他颈上一串骷髅珠，不由一怔。",
+        "lens": "85mm 长焦，极浅景深", "cameraPosition": "俯视 25°", "composition": "中心构图", "eyeline": "望向骷髅珠", "focus": "锁定颈前的骷髅串", "stability": "stable",
+        "body": "a static close-up on the monkey planting a foot on the creature's back and pausing at the skull beads strung at its neck" },
+      { "beats": [25, 25], "seconds": 4.5, "size": "close", "camera": "Static Shot", "characters": ["C01"],
+        "frame": "特写：悟空沉声追问，问他到底是何方妖物，为何颈上挂着这种东西。",
+        "shot": "固定机位贴着他，踩定背脊的猴军沉声追问，问那妖汉的来历与颈上骷髅的缘由。",
+        "lens": "85mm 长焦，极浅景深", "cameraPosition": "孙悟空 + 平视正面", "composition": "中心构图", "eyeline": "俯望妖汉", "focus": "锁定悟空追问的神色", "stability": "stable",
+        "body": "a static close-up on the monkey pressing him low, demanding to know what creature he is and why the skulls hang round his neck" }
+    ]
+  },
+  {
+    "id": "E11-13", "sceneIndex": 1,
+    "blocking": "悟空踩定背脊俯身听，妖汉趴地低头自述身世；唐僧走近岸侧倾听。",
+    "soundscape": "妖汉趴地沉声自述，悟空俯身细听，岸边河水奔流",
+    "music": "弦声转悲凉，一段被贬的身世",
+    "soundscapeEn": "The creature's grave account from the ground, the monkey listening close, and the river running below.",
+    "musicEn": "Strings turning plaintive, a banished past told.",
+    "cuts": [
+      { "beats": [26, 26], "seconds": 7.5, "size": "medium", "camera": "Static Shot", "characters": ["C04"],
+        "frame": "中景：那妖汉趴地低头自述，说自己本是天宫卷帘大将，因打碎琉璃盏被贬下界。",
+        "shot": "固定机位，趴地的青脸妖汉低头自述，说自己原是天上卷帘一职，因砸碎琉璃盏被贬落到此间。",
+        "lens": "50mm 标准，中浅景深", "cameraPosition": "妖汉 + 俯视 20°", "composition": "三分法", "eyeline": "望向地面", "focus": "锁定妖汉低头的忏悔", "stability": "stable",
+        "body": "a static medium shot of the azure-faced creature recounting from the ground how he served as a curtain-bearer in heaven until breaking a jade cup and being banished" },
+      { "beats": [27, 27], "seconds": 5.5, "size": "medium", "camera": "Static Shot", "characters": ["C02"],
+        "frame": "中景：唐僧走近岸侧，合掌轻叹，说原是仙班中人，何苦在此以吃人为生。",
+        "shot": "固定机位，走近岸侧的僧人合掌轻叹，说既是仙班中人，何苦在此以吃人为生。",
+        "lens": "50mm 标准，中浅景深", "cameraPosition": "唐僧 + 平视正面", "composition": "三分法", "eyeline": "俯望趴地妖汉", "focus": "锁定唐僧叹惋的神色", "stability": "stable",
+        "body": "a static medium shot of the monk sighing with joined hands, asking why a once-celestial being would live by devouring men" }
+    ]
+  },
+  {
+    "id": "E11-14", "sceneIndex": 1,
+    "blocking": "唐僧立于妖汉身前俯视，妖汉趴地抬头回话；悟空在侧踩定背脊。",
+    "soundscape": "妖汉无力的诉苦，唐僧温声的往开导，河水的呜咽",
+    "music": "弦声低回，一丝归正的微光",
+    "soundscapeEn": "The creature's helpless lament, the monk's gentle guidance, and the river's low wail.",
+    "musicEn": "Strings low and turning, a faint light of amendment.",
+    "cuts": [
+      { "beats": [28, 28], "seconds": 5.5, "size": "close", "camera": "Static Shot", "characters": ["C04"],
+        "frame": "特写：那妖汉抬头无力地诉苦，说自己不能回天，不吃人又能靠什么活命。",
+        "shot": "固定机位贴着他，抬头的青脸妖汉无力诉苦，说自己回不去天界，不吃人又靠什么活命。",
+        "lens": "85mm 长焦，极浅景深", "cameraPosition": "妖汉 + 仰视 20°", "composition": "中心构图", "eyeline": "望向唐僧", "focus": "锁定妖汉无力的神色", "stability": "stable",
+        "body": "a static close-up on the creature lifting his head to lament that, unable to return to heaven, devouring men is all he knows for survival" },
+      { "beats": [29, 29], "seconds": 5, "size": "medium", "camera": "Static Shot", "characters": ["C02"],
+        "frame": "中景：唐僧温声说，你若肯洗心，贫僧倒愿意带你走一条归正的路。",
+        "shot": "固定机位，僧人温声许诺，说若肯洗心革面，自己愿意引他走一条归正的路。",
+        "lens": "50mm 标准，中浅景深", "cameraPosition": "唐僧 + 俯视 15°", "composition": "三分法", "eyeline": "俯望妖汉", "focus": "锁定唐僧劝化的神色", "stability": "stable",
+        "body": "a static medium shot of the monk speaking gently, promising to guide the creature onto a righteous path if he will turn from evil" }
+    ]
+  },
+  {
+    "id": "E11-15", "sceneIndex": 1,
+    "blocking": "妖汉趴地自嫌罪业，悟空在侧欲发作；话未落，天边云开一线、金光落在河上。",
+    "soundscape": "妖汉低沉的应话，悟空欲发作的怒喝，天边金光的异响",
+    "music": "弦声骤然荡开，神明显圣的转场",
+    "soundscapeEn": "The creature's low reply, the monkey's rising indignation, and the strange chime of golden light over the river.",
+    "musicEn": "Strings sweeping open, a divine intercession.",
+    "cuts": [
+      { "beats": [30, 30], "seconds": 4.5, "size": "close", "camera": "Static Shot", "characters": ["C04"],
+        "frame": "特写：那妖汉低头苦笑，说自己一身罪业，怕是连路都要压塌。",
+        "shot": "固定机位贴着他，低头的青脸妖汉苦笑，说自己罪业太重，恐怕连道都要压垮。",
+        "lens": "85mm 长焦，极浅景深", "cameraPosition": "妖汉 + 仰视 20°", "composition": "中心构图", "eyeline": "微微低头", "focus": "锁定妖汉自嘲的神情", "stability": "stable",
+        "body": "a static close-up on the creature smiling bitterly, saying his accumulating sins would crush even a path" },
+      { "beats": [31, 31], "seconds": 3, "size": "wide", "camera": "Static Shot", "characters": ["C01"],
+        "frame": "全景：悟空在旁看不下去正要发作，话音未落天边忽地云开一线，一道金光落在河上。",
+        "shot": "固定机位，鹊起的猴军正要发作，天边却忽然云开一线，一道金光灿然落在河上。",
+        "lens": "24mm 广角，深景深", "cameraPosition": "孙悟空 + 平视侧面", "composition": "中心构图", "eyeline": "望向天边金光", "focus": "锁定落向河面的金光", "stability": "stable",
+        "body": "a static wide shot as the monkey moves to speak, only for the clouds to part and shaft of golden light to fall upon the river" }
+    ]
+  },
+  {
+    "id": "E11-16", "sceneIndex": 1,
+    "blocking": "金光中观音踏浪立于河心居画面偏上，众人立于河岸仰望；妖汉仍趴地。",
+    "soundscape": "河面金光盈盈，观音踏浪的字音，河岸众人屏息的静",
+    "music": "弦声转空灵庄严，观世音显圣",
+    "soundscapeEn": "The golden gleam on the water, the goddess stepping on the waves, and the hush of the watchers ashore.",
+    "musicEn": "Strings turning ethereal and solemn, the bodhisattva manifest.",
+    "cuts": [
+      { "beats": [32, 32], "seconds": 3, "size": "wide", "camera": "Static Shot", "characters": ["C06"],
+        "frame": "全景：观音自金光中显出身形，踏浪立在河心，须臾现出真容。",
+        "shot": "固定机位，一道金光中现出一道雍容女相，踏浪立在河心，须臾显真容。",
+        "lens": "24mm 广角，深景深", "cameraPosition": "观音 + 仰视 20°", "composition": "中心构图", "eyeline": "俯瞰众人", "focus": "锁定踏浪而立的观音", "stability": "stable",
+        "body": "a static wide shot of a radiant goddess stepping out of the golden light to stand upon the river's heart" },
+      { "beats": [33, 33], "seconds": 7.5, "size": "medium", "camera": "Static Shot", "characters": ["C06"],
+        "frame": "中景：观音端立河心，声音慈和，唤那妖汉悟净，说他罪业在身，皈依方可赎了这一难。",
+        "shot": "固定机位居于河上略高，那位雍容女相声音慈和，唤妖汉的名号，说他罪业在身，皈依取经方得赎难。",
+        "lens": "50mm 标准，中浅景深", "cameraPosition": "观音 + 俯视 20°", "composition": "中心构图", "eyeline": "俯瞰岸上妖汉", "focus": "锁定观音慈和的神色", "stability": "stable",
+        "body": "a static medium shot of the goddess speaking gently over the water, calling the creature to repent and redeem his sin by following the pilgrim west" }
+    ]
+  },
+  {
+    "id": "E11-17", "sceneIndex": 1,
+    "blocking": "妖汉跪伏于地抬头许愿皈依，八戒在侧喜上眉梢；众人围拢。",
+    "soundscape": "妖汉皈依的应声，八戒在旁鼓动的笑音，河面金光渐收",
+    "music": "弦声转暖，皈依之愿落定",
+    "soundscapeEn": "The creature's vow to take refuge, the sliding man's cheerful urging, and the golden light receding.",
+    "musicEn": "Strings warming, the vow of refuge made.",
+    "cuts": [
+      { "beats": [34, 34], "seconds": 4, "size": "close", "camera": "Static Shot", "characters": ["C04"],
+        "frame": "特写：那妖汉跪伏抬头，应声愿皈依，求菩萨指一条明路。",
+        "shot": "固定机位贴着他，抬头跪伏的青脸妖汉应声，说愿皈依，求那位女相指条明路。",
+        "lens": "85mm 长焦，极浅景深", "cameraPosition": "妖汉 + 仰视 20°", "composition": "中心构图", "eyeline": "仰望河心观音", "focus": "锁定妖汉皈依的虔诚", "stability": "stable",
+        "body": "a static close-up on the azure-faced creature kneeling to vow refuge, asking the goddess to show the way" },
+      { "beats": [35, 35], "seconds": 5.5, "size": "medium", "camera": "Static Shot", "characters": ["C03"],
+        "frame": "中景：八戒在旁喜上眉梢，催师弟快些拜了师父，好过河赶路。",
+        "shot": "固定机位，立在旁的黑粗壮汉喜上眉梢，催新师弟赶紧拜师，好过河赶路。",
+        "lens": "50mm 标准，中浅景深", "cameraPosition": "壮汉 + 平视正面", "composition": "三分法", "eyeline": "望向河心观音", "focus": "锁定八戒催促的神色", "stability": "stable",
+        "body": "a static medium shot of the burly dark man grinning and hurrying the new junior disciple to take his vows so they may cross and ride on" }
+    ]
+  },
+  {
+    "id": "E11-18", "sceneIndex": 1,
+    "blocking": "沙僧起身走到唐僧面前双膝跪下，接过一支月牙铲担在肩头；唐僧立定受拜。",
+    "soundscape": "沙僧起身跪步的衣响，月牙铲到手的轻响，唐僧受拜的静",
+    "music": "弦声庄重落定，拜师之仪完成",
+    "soundscapeEn": "The rustle of rising and kneeling, the moon-scraper staff taken in hand, and the quiet of the master receiving the bow.",
+    "musicEn": "Strings settling solemn, the ceremony of homage completed.",
+    "cuts": [
+      { "beats": [36, 36], "seconds": 3, "size": "wide", "camera": "Static Shot", "characters": ["C04"],
+        "frame": "全景：沙僧起身走到唐僧面前双膝跪下，接过一支月牙铲担在肩头。",
+        "shot": "固定机位，那青脸汉子起身走到僧人面前双膝跪下，接过一支月牙铲担上肩头。",
+        "lens": "24mm 广角，深景深", "cameraPosition": "沙僧 + 平视侧面", "composition": "三分法", "eyeline": "仰望唐僧", "focus": "锁定跪接月牙铲的动作", "stability": "stable",
+        "body": "a static wide shot of the azure-faced man walking before the monk, kneeling on both knees, and taking a moon-blade staff onto his shoulder" },
+      { "beats": [37, 37], "seconds": 5.5, "size": "medium", "camera": "Static Shot", "characters": ["C04"],
+        "frame": "中景：沙僧跪地低头，自称悟净拜见师父，说自己一路替他挑担驯马。",
+        "shot": "固定机位，跪地的青脸汉子低头自称，说从此为师父挑担驯马。",
+        "lens": "50mm 标准，中浅景深", "cameraPosition": "沙僧 + 俯视 15°", "composition": "三分法", "eyeline": "低头望向地面", "focus": "锁定沙僧拜师的身姿", "stability": "stable",
+        "body": "a static medium shot of the azure-faced man kneeling low and announcing himself, ready to bear loads and tend the horse for his master" }
+    ]
+  },
+  {
+    "id": "E11-19", "sceneIndex": 1,
+    "blocking": "沙僧拜师后立起，八戒在旁打量，唐僧居中颔首；众人望向河面准备渡河。",
+    "soundscape": "沙僧允诺的沉稳，八戒在旁打趣的笑音，河水奔流",
+    "music": "弦声轻快，同伴渐齐的和乐",
+    "soundscapeEn": "The steady promise of the new disciple, the sliding man's jest, and the river running on.",
+    "musicEn": "Strings light, the camaraderie of a growing band.",
+    "cuts": [
+      { "beats": [38, 38], "seconds": 4.5, "size": "medium", "camera": "Static Shot", "characters": ["C04"],
+        "frame": "中景：沙僧直起身应声，说往后挑担打水跑腿喂马，全交给自己。",
+        "shot": "固定机位，立定的青脸汉子沉声应下，说往后挑担打水、跑腿喂马的活计都归他。",
+        "lens": "50mm 标准，中浅景深", "cameraPosition": "沙僧 + 平视正面", "composition": "三分法", "eyeline": "望向唐僧", "focus": "锁定沙僧沉稳的神色", "stability": "stable",
+        "body": "a static medium shot of the azure-faced man standing tall and answering that henceforth all the fetching, watering and stable work is his" },
+      { "beats": [39, 39], "seconds": 3.5, "size": "medium", "camera": "Static Shot", "characters": ["C03"],
+        "frame": "中景：八戒在旁咧嘴打趣，说又多一个给自己扛行李的，感情好。",
+        "shot": "固定机位，旁立的黑粗壮汉咧嘴打趣，说多一个替自己扛行李的朋友是桩美事。",
+        "lens": "50mm 标准，中浅景深", "cameraPosition": "壮汉 + 平视正面", "composition": "三分法", "eyeline": "望向沙僧", "focus": "锁定八戒咧嘴的笑", "stability": "stable",
+        "body": "a static medium shot of the burly dark man grinning, glad to have another pair of hands to share the load" }
+    ]
+  },
+  {
+    "id": "E11-20", "sceneIndex": 1,
+    "blocking": "唐僧居中颔首目望，八戒、沙僧分列两侧，悟空在旁；众人望着河面。",
+    "soundscape": "唐僧感慰的话音，众人整装渡河的动静，河水由急转平",
+    "music": "弦声回暖上扬，师徒四人齐了",
+    "soundscapeEn": "The monk's grateful words, the stir of the party preparing, and the river easing.",
+    "musicEn": "Strings warming and rising, the four disciples now complete.",
+    "cuts": [
+      { "beats": [40, 40], "seconds": 6.5, "size": "medium", "camera": "Static Shot", "characters": ["C02"],
+        "frame": "中景：唐僧感慰颔首，说自此师徒四人再加那匹白龙马，一队人总算是齐了。",
+        "shot": "固定机位，僧人感慰颔首，说自此师徒四人再加那匹坐骑，一支队伍总算齐了。",
+        "lens": "50mm 标准，中浅景深", "cameraPosition": "唐僧 + 平视正面", "composition": "三分法", "eyeline": "望向众人", "focus": "锁定唐僧感慰的神情", "stability": "stable",
+        "body": "a static medium shot of the monk nodding with quiet relief that master, three disciples and the steed together make a full company" },
+      { "beats": [41, 41], "seconds": 3, "size": "wide", "camera": "Static Shot", "characters": ["C02", "C04"],
+        "frame": "全景：唐僧领着众人转向河滩，寻了处浅处，一齐涉水过了流沙河。",
+        "shot": "固定机位，僧人领着众人转向河滩寻了处浅处，一行人涉水过了流沙河。",
+        "lens": "24mm 广角，深景深", "cameraPosition": "居中 + 平视侧面", "composition": "对角线", "eyeline": "望向对岸", "focus": "锁定涉水渡河的队伍", "stability": "slight-shake",
+        "body": "a static wide shot of the monk leading the party to a shallow spot, all wading across the Flowing-sand River" }
+    ]
+  },
+  {
+    "id": "E11-21", "sceneIndex": 1,
+    "blocking": "沙僧挑行李居左跟在马后，悟空在前引路居右，唐僧骑马居中；一行人上了对岸。",
+    "soundscape": "沙僧挑担的沉稳脚步，悟空带笑的话音，上岸后衣摆滴水",
+    "music": "弦声轻快，过了河的松快",
+    "soundscapeEn": "The steady step of the load-bearer, the monkey's cheerful tone, and the drip of water after the crossing.",
+    "musicEn": "Strings light, the ease of being across.",
+    "cuts": [
+      { "beats": [42, 42], "seconds": 3, "size": "wide", "camera": "Static Shot", "characters": ["C04"],
+        "frame": "全景：沙僧把行李挑上肩，稳稳跟在马后，落后半步不紧不慢。",
+        "shot": "固定机位，那青脸汉子把行李挑上肩，稳稳跟在马后落后半步，不紧不慢。",
+        "lens": "24mm 广角，深景深", "cameraPosition": "沙僧 + 平视侧面", "composition": "三分法", "eyeline": "望向前路", "focus": "锁定挑担稳行的沙僧", "stability": "stable",
+        "body": "a static wide shot of the azure-faced man hefting the load onto his shoulder and pacing steadily half a step behind the horse" },
+      { "beats": [43, 43], "seconds": 5, "size": "close", "camera": "Static Shot", "characters": ["C01"],
+        "frame": "特写：悟空在前头侧头勉励，说老沙你沉得住性子，往后遇事咱俩好生商量。",
+        "shot": "固定机位贴着他，前头引路的猴军侧头扬声勉励，说这新师弟性子沉稳，往后有事好生商量。",
+        "lens": "85mm 长焦，极浅景深", "cameraPosition": "孙悟空 + 平视正面", "composition": "中心构图", "eyeline": "望向身后沙僧", "focus": "锁定悟空勉励的神色", "stability": "stable",
+        "body": "a static close-up on the monkey glancing back to encourage the steady junior, saying they should always counsel together" }
+    ]
+  },
+  {
+    "id": "E11-22", "sceneIndex": 1,
+    "blocking": "沙僧居左挑担随行，唐僧骑马居中，悟空在右引路；黄昏河边四人一马朝西而行。",
+    "soundscape": "沙僧恭顺的应答，马蹄与脚步相随，河水渐渐落在身后",
+    "music": "弦声舒展收远，取经队伍正式启程",
+    "soundscapeEn": "The junior's respectful answer, the mingled fall of hooves and feet, and the river receding behind.",
+    "musicEn": "Strings widening, the pilgrim company setting out.",
+    "cuts": [
+      { "beats": [44, 44], "seconds": 3, "size": "close", "camera": "Static Shot", "characters": ["C04"],
+        "frame": "特写：沙僧低声应诺，说全凭师兄与师父吩咐。",
+        "shot": "固定机位贴着他，挑担随行的青脸汉子低声应诺，把听从师兄师父吩咐的话说得诚恳。",
+        "lens": "85mm 长焦，极浅景深", "cameraPosition": "沙僧 + 平视正面", "composition": "中心构图", "eyeline": "望向前路", "focus": "锁定沙僧恭顺的神色", "stability": "stable",
+        "body": "a static close-up on the azure-faced man answering low and humbly, ready to follow his elders' bidding" },
+      { "beats": [45, 45], "seconds": 4, "size": "wide", "camera": "Tracking Shot", "characters": ["C01", "C02", "C04"],
+        "frame": "全景：黄昏的河边，四人一马过了岸，顺着前路缓缓往西行去。",
+        "shot": "跟拍，黄昏的河岸上四人一马过了岸，顺着前路缓缓朝西行去。",
+        "lens": "24mm 广角，深景深", "cameraPosition": "空镜 + 平视正前方", "composition": "对角线", "eyeline": "望向西方前路", "focus": "锁定一行西行的身影", "stability": "slight-shake",
+        "body": "a tracking wide shot of the four and the horse making the far shore and moving slowly westward into the dusk" }
+    ]
+  }
+]

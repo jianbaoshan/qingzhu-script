@@ -1,0 +1,547 @@
+﻿{
+  "source": "西游记（维基文库·百回）",
+  "lang": "zh",
+  "summary": "",
+  "characters": [
+    {
+      "id": "C01",
+      "name": "孙悟空",
+      "importance": "protagonist",
+      "aliases": [],
+      "oneLiner": "",
+      "persona": {
+        "gender": "",
+        "ageRange": "",
+        "identity": "",
+        "appearance": "",
+        "personality": [],
+        "temperament": "",
+        "motivation": "",
+        "arc": "从不可一世的野猴，到被压百年学会敬畏，再于八十一难中收服心魔、忠于使命，最终修成斗战胜佛",
+        "relationships": [],
+        "evidence": []
+      },
+      "image": {
+        "prompt": "",
+        "promptLocal": "",
+        "negativePrompt": "",
+        "tags": [],
+        "sheet": ""
+      },
+      "voice": {
+        "timbre": "",
+        "pitch": "",
+        "pace": "",
+        "accent": "",
+        "emotion": "",
+        "prompt": "",
+        "referenceHint": ""
+      },
+      "seedNote": "角色码 C01　大纲定位：男主，取经团中坚，斗战胜佛　大纲分档：lead　合并自：原著：石猴/美猴王/齐天大圣/孙悟空"
+    },
+    {
+      "id": "C02",
+      "name": "唐僧",
+      "importance": "protagonist",
+      "aliases": [],
+      "oneLiner": "",
+      "persona": {
+        "gender": "",
+        "ageRange": "",
+        "identity": "",
+        "appearance": "",
+        "personality": [],
+        "temperament": "",
+        "motivation": "",
+        "arc": "从一心向佛的肉体凡胎，历经磨难与徒弟冲突，最终坚定道心、取回真经",
+        "relationships": [],
+        "evidence": []
+      },
+      "image": {
+        "prompt": "",
+        "promptLocal": "",
+        "negativePrompt": "",
+        "tags": [],
+        "sheet": ""
+      },
+      "voice": {
+        "timbre": "",
+        "pitch": "",
+        "pace": "",
+        "accent": "",
+        "emotion": "",
+        "prompt": "",
+        "referenceHint": ""
+      },
+      "seedNote": "角色码 C02　大纲定位：取经人，金蝉子转世　大纲分档：lead　合并自：原著：唐玄奘/金蝉子转世"
+    },
+    {
+      "id": "C03",
+      "name": "猪八戒",
+      "importance": "protagonist",
+      "aliases": [],
+      "oneLiner": "",
+      "persona": {
+        "gender": "",
+        "ageRange": "",
+        "identity": "",
+        "appearance": "",
+        "personality": [],
+        "temperament": "",
+        "motivation": "",
+        "arc": "从贪懒好吃、爱耍小聪明的高老庄女婿，到一路斗妖、生死与共的老搭档，封净坛使者",
+        "relationships": [],
+        "evidence": []
+      },
+      "image": {
+        "prompt": "",
+        "promptLocal": "",
+        "negativePrompt": "",
+        "tags": [],
+        "sheet": ""
+      },
+      "voice": {
+        "timbre": "",
+        "pitch": "",
+        "pace": "",
+        "accent": "",
+        "emotion": "",
+        "prompt": "",
+        "referenceHint": ""
+      },
+      "seedNote": "角色码 C03　大纲定位：取经团喜剧担当，天蓬转世　大纲分档：lead　合并自：原著：天蓬元帅/猪悟能/猪八戒"
+    },
+    {
+      "id": "C04",
+      "name": "沙僧",
+      "importance": "supporting",
+      "aliases": [],
+      "oneLiner": "",
+      "persona": {
+        "gender": "",
+        "ageRange": "",
+        "identity": "",
+        "appearance": "",
+        "personality": [],
+        "temperament": "",
+        "motivation": "",
+        "arc": "从流沙河吃人的卷帘大将，皈依后成为最稳的队友与调解者",
+        "relationships": [],
+        "evidence": []
+      },
+      "image": {
+        "prompt": "",
+        "promptLocal": "",
+        "negativePrompt": "",
+        "tags": [],
+        "sheet": ""
+      },
+      "voice": {
+        "timbre": "",
+        "pitch": "",
+        "pace": "",
+        "accent": "",
+        "emotion": "",
+        "prompt": "",
+        "referenceHint": ""
+      },
+      "seedNote": "角色码 C04　大纲定位：取经团磐石，挑担断后　大纲分档：support　合并自：原著：卷帘大将/沙悟净/沙僧"
+    },
+    {
+      "id": "C05",
+      "name": "牛魔王",
+      "importance": "protagonist",
+      "aliases": [],
+      "oneLiner": "",
+      "persona": {
+        "gender": "",
+        "ageRange": "",
+        "identity": "",
+        "appearance": "",
+        "personality": [],
+        "temperament": "",
+        "motivation": "",
+        "arc": "大闹天宫时与悟空结义的平天大圣，后据火焰山阻路，被悟空借三调芭蕉扇击败收服",
+        "relationships": [],
+        "evidence": []
+      },
+      "image": {
+        "prompt": "",
+        "promptLocal": "",
+        "negativePrompt": "",
+        "tags": [],
+        "sheet": ""
+      },
+      "voice": {
+        "timbre": "",
+        "pitch": "",
+        "pace": "",
+        "accent": "",
+        "emotion": "",
+        "prompt": "",
+        "referenceHint": ""
+      },
+      "seedNote": "角色码 C05　大纲定位：主反派，火焰山之主　大纲分档：lead　合并自：原著：平天大圣牛魔王，合并：火焰山铁扇公主线"
+    },
+    {
+      "id": "C06",
+      "name": "观音菩萨",
+      "importance": "supporting",
+      "aliases": [],
+      "oneLiner": "",
+      "persona": {
+        "gender": "",
+        "ageRange": "",
+        "identity": "",
+        "appearance": "",
+        "personality": [],
+        "temperament": "",
+        "motivation": "",
+        "arc": "点化天庭寻取经人，多次在悟空绝境时出手，始终是取经路的守护符",
+        "relationships": [],
+        "evidence": []
+      },
+      "image": {
+        "prompt": "",
+        "promptLocal": "",
+        "negativePrompt": "",
+        "tags": [],
+        "sheet": ""
+      },
+      "voice": {
+        "timbre": "",
+        "pitch": "",
+        "pace": "",
+        "accent": "",
+        "emotion": "",
+        "prompt": "",
+        "referenceHint": ""
+      },
+      "seedNote": "角色码 C06　大纲定位：取经总策划与关键救场者　大纲分档：support　合并自：原著：观音菩萨"
+    },
+    {
+      "id": "C07",
+      "name": "玉皇大帝",
+      "importance": "supporting",
+      "aliases": [],
+      "oneLiner": "",
+      "persona": {
+        "gender": "",
+        "ageRange": "",
+        "identity": "",
+        "appearance": "",
+        "personality": [],
+        "temperament": "",
+        "motivation": "",
+        "arc": "压不住悟空而招安、再围剿，最终请如来压山，是悟空束缚的源头",
+        "relationships": [],
+        "evidence": []
+      },
+      "image": {
+        "prompt": "",
+        "promptLocal": "",
+        "negativePrompt": "",
+        "tags": [],
+        "sheet": ""
+      },
+      "voice": {
+        "timbre": "",
+        "pitch": "",
+        "pace": "",
+        "accent": "",
+        "emotion": "",
+        "prompt": "",
+        "referenceHint": ""
+      },
+      "seedNote": "角色码 C07　大纲定位：天庭权威，流程化的对手　大纲分档：support　合并自：原著：玉皇大帝，合并：天庭众神"
+    },
+    {
+      "id": "C08",
+      "name": "如来佛祖",
+      "importance": "supporting",
+      "aliases": [],
+      "oneLiner": "",
+      "persona": {
+        "gender": "",
+        "ageRange": "",
+        "identity": "",
+        "appearance": "",
+        "personality": [],
+        "temperament": "",
+        "motivation": "",
+        "arc": "以五行山压悟空，又授意取经渡难，最后一手封赏正果",
+        "relationships": [],
+        "evidence": []
+      },
+      "image": {
+        "prompt": "",
+        "promptLocal": "",
+        "negativePrompt": "",
+        "tags": [],
+        "sheet": ""
+      },
+      "voice": {
+        "timbre": "",
+        "pitch": "",
+        "pace": "",
+        "accent": "",
+        "emotion": "",
+        "prompt": "",
+        "referenceHint": ""
+      },
+      "seedNote": "角色码 C08　大纲定位：取经发起者与终局封赏者　大纲分档：support　合并自：原著：如来佛祖"
+    },
+    {
+      "id": "C09",
+      "name": "白骨精",
+      "importance": "supporting",
+      "aliases": [],
+      "oneLiner": "",
+      "persona": {
+        "gender": "",
+        "ageRange": "",
+        "identity": "",
+        "appearance": "",
+        "personality": [],
+        "temperament": "",
+        "motivation": "",
+        "arc": "三变人形挑拨师徒，被悟空三次看破打死，埋下逐徒又重逢的心性转折",
+        "relationships": [],
+        "evidence": []
+      },
+      "image": {
+        "prompt": "",
+        "promptLocal": "",
+        "negativePrompt": "",
+        "tags": [],
+        "sheet": ""
+      },
+      "voice": {
+        "timbre": "",
+        "pitch": "",
+        "pace": "",
+        "accent": "",
+        "emotion": "",
+        "prompt": "",
+        "referenceHint": ""
+      },
+      "seedNote": "角色码 C09　大纲定位：妖难反派，三打对象　大纲分档：support　合并自：原著：白骨精"
+    },
+    {
+      "id": "C10",
+      "name": "红孩儿",
+      "importance": "supporting",
+      "aliases": [],
+      "oneLiner": "",
+      "persona": {
+        "gender": "",
+        "ageRange": "",
+        "identity": "",
+        "appearance": "",
+        "personality": [],
+        "temperament": "",
+        "motivation": "",
+        "arc": "三昧真火逞凶，被观音收为善财童子，串起火焰山伏线",
+        "relationships": [],
+        "evidence": []
+      },
+      "image": {
+        "prompt": "",
+        "promptLocal": "",
+        "negativePrompt": "",
+        "tags": [],
+        "sheet": ""
+      },
+      "voice": {
+        "timbre": "",
+        "pitch": "",
+        "pace": "",
+        "accent": "",
+        "emotion": "",
+        "prompt": "",
+        "referenceHint": ""
+      },
+      "seedNote": "角色码 C10　大纲定位：妖难反派，牛魔王之子　大纲分档：support　合并自：原著：圣婴大王/红孩儿"
+    },
+    {
+      "id": "C11",
+      "name": "菩提祖师",
+      "importance": "minor",
+      "aliases": [],
+      "oneLiner": "",
+      "persona": {
+        "gender": "",
+        "ageRange": "",
+        "identity": "",
+        "appearance": "",
+        "personality": [],
+        "temperament": "",
+        "motivation": "",
+        "arc": "悟空之师，教七十二变与筋斗云",
+        "relationships": [],
+        "evidence": []
+      },
+      "image": {
+        "prompt": "",
+        "promptLocal": "",
+        "negativePrompt": "",
+        "tags": [],
+        "sheet": ""
+      },
+      "voice": {
+        "timbre": "",
+        "pitch": "",
+        "pace": "",
+        "accent": "",
+        "emotion": "",
+        "prompt": "",
+        "referenceHint": ""
+      },
+      "seedNote": "角色码 C11　大纲定位：传授悟空本领的师父　大纲分档：functional　合并自：原著：菩提祖师"
+    },
+    {
+      "id": "C12",
+      "name": "太白金星",
+      "importance": "minor",
+      "aliases": [],
+      "oneLiner": "",
+      "persona": {
+        "gender": "",
+        "ageRange": "",
+        "identity": "",
+        "appearance": "",
+        "personality": [],
+        "temperament": "",
+        "motivation": "",
+        "arc": "",
+        "relationships": [],
+        "evidence": []
+      },
+      "image": {
+        "prompt": "",
+        "promptLocal": "",
+        "negativePrompt": "",
+        "tags": [],
+        "sheet": ""
+      },
+      "voice": {
+        "timbre": "",
+        "pitch": "",
+        "pace": "",
+        "accent": "",
+        "emotion": "",
+        "prompt": "",
+        "referenceHint": ""
+      },
+      "seedNote": "角色码 C12　大纲定位：天庭传旨招安者　大纲分档：functional　合并自：原著：太白金星"
+    },
+    {
+      "id": "C13",
+      "name": "土地公",
+      "importance": "minor",
+      "aliases": [],
+      "oneLiner": "",
+      "persona": {
+        "gender": "",
+        "ageRange": "",
+        "identity": "",
+        "appearance": "",
+        "personality": [],
+        "temperament": "",
+        "motivation": "",
+        "arc": "",
+        "relationships": [],
+        "evidence": []
+      },
+      "image": {
+        "prompt": "",
+        "promptLocal": "",
+        "negativePrompt": "",
+        "tags": [],
+        "sheet": ""
+      },
+      "voice": {
+        "timbre": "",
+        "pitch": "",
+        "pace": "",
+        "accent": "",
+        "emotion": "",
+        "prompt": "",
+        "referenceHint": ""
+      },
+      "seedNote": "角色码 C13　大纲定位：沿途报信摘路的山神　大纲分档：functional　合并自：原著：山神土地"
+    },
+    {
+      "id": "C14",
+      "name": "阎王",
+      "importance": "minor",
+      "aliases": [],
+      "oneLiner": "",
+      "persona": {
+        "gender": "",
+        "ageRange": "",
+        "identity": "",
+        "appearance": "",
+        "personality": [],
+        "temperament": "",
+        "motivation": "",
+        "arc": "",
+        "relationships": [],
+        "evidence": []
+      },
+      "image": {
+        "prompt": "",
+        "promptLocal": "",
+        "negativePrompt": "",
+        "tags": [],
+        "sheet": ""
+      },
+      "voice": {
+        "timbre": "",
+        "pitch": "",
+        "pace": "",
+        "accent": "",
+        "emotion": "",
+        "prompt": "",
+        "referenceHint": ""
+      },
+      "seedNote": "角色码 C14　大纲定位：地府勾销生死籍的对手　大纲分档：functional　合并自：原著：十殿阎王"
+    },
+    {
+      "id": "C15",
+      "name": "白龙马",
+      "importance": "minor",
+      "aliases": [],
+      "oneLiner": "",
+      "persona": {
+        "gender": "",
+        "ageRange": "",
+        "identity": "",
+        "appearance": "",
+        "personality": [],
+        "temperament": "",
+        "motivation": "",
+        "arc": "",
+        "relationships": [],
+        "evidence": []
+      },
+      "image": {
+        "prompt": "",
+        "promptLocal": "",
+        "negativePrompt": "",
+        "tags": [],
+        "sheet": ""
+      },
+      "voice": {
+        "timbre": "",
+        "pitch": "",
+        "pace": "",
+        "accent": "",
+        "emotion": "",
+        "prompt": "",
+        "referenceHint": ""
+      },
+      "seedNote": "角色码 C15　大纲定位：唐僧坐骑，西海龙子所化　大纲分档：functional　合并自：原著：小白龙"
+    }
+  ]
+}

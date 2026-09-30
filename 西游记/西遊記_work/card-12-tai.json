@@ -1,0 +1,38 @@
+{
+  "name": "太白金星",
+  "aliases": ["太白长庚星", "金星", "李长庚"],
+  "importance": "minor",
+  "oneLiner": "天庭的老仙宿臣，两度下界招安悟空、又在险时化老翁指点取经人。",
+  "persona": {
+    "gender": "男",
+    "ageRange": "苍老仙翁（推断）",
+    "identity": "天庭宿臣西方太白长庚星，奉命招安、传旨、指点、报信的和事老仙",
+    "appearance": "仙家道袍的老仙翁，下界时被见到「外面有一老人，背着一角文书」；常化作山林老翁指路：髻髪蓬松、白发飘搔、稀朗银须，项挂一串数珠，手拄一根龙头拐杖，作罢化阵清风腾空而去。温和圆场、與人为善，玉帝座前力保悟空、献「有官无禄」之策。",
+    "personality": ["温厚圆融", "明哲保身", "善解人意", "成人之美"],
+    "temperament": "语调和软老成，爱打圆场、居中调停，说话带着仙家的看透与好脾气。",
+    "motivation": "维护天庭脸面、稳住君臣之间，尽力把事办圆。",
+    "arc": "两度下界招安悟空、又在悟空离队时化身老翁指路，始终是天庭里居中调停的和事老",
+    "relationships": [{ "name": "孙悟空", "relation": "两度招安安抚的妖仙" }, { "name": "玉皇大帝", "relation": "奉其旨传诏的老臣" }],
+    "evidence": [
+      "外面有一老人，背著一角文書，言是上天差來的天使",
+      "鬢蓬鬆，白髮飄搔；鬚稀朗，銀絲擺動；項掛一串數珠子，手持拐杖現龍頭",
+      "上聖，三界中凡有九竅者，皆可修仙"
+    ]
+  },
+  "image": {
+    "prompt": "An affable elderly celestial scholar-minister: a kindly wrinkled face, wisps of white hair loose around the temples, a thin sparse silver beard, a string of meditation beads at his neck, dressed in a plain celestial Daoist robe. He carries a walking staff carved with a dragon head. Era: Tang-dynasty Chinese heaven, a veteran celestial minister who acts as a peacemaker among gods. Warm, tactful, unassuming, the human face of celestial bureaucracy.",
+    "promptLocal": "一位和蔼圆融、上了年纪的天庭文臣老仙：面容和善多纹，两鬓白发蓬松飘散，银须稀疏，项下挂一串念珠，穿一袭素净的仙家道袍，手持一根雕龙头的拐杖。设定为唐代天庭背景下居中调停、与人为善的天庭老臣，热络圆滑、平易不摆架子，是天庭官僚里最好说话的一位。",
+    "negativePrompt": "same generic face as another character, bearded fierce warrior, dim serious scowl, imperial crown, bold brocade embroidered with combat imagery, perfectly symmetrical face, stiff mannequin pose, extra fingers, deformed limbs",
+    "tags": ["Tang dynasty China", "elderly celestial minister", "sparse silver beard", "white sideburns", "meditation beads", "dragon-head staff", "celestial Daoist robe", "genial peacemaker"],
+    "sheet": "ONE 16:9 landscape canvas, plain white background with even margins, thin hairline rules separating three zones. ONE single character only. LEFT ZONE (about 34% of canvas width): a large front-facing head-and-shoulders bust as the facial design reference, shoulders complete, bottom edge cropped flat, the kindly old face fully detailed, LIGHTING IN THE LEFT ZONE ONLY: soft directional key from upper left, natural falloff, ambient occlusion under the brows and at collar-neck junction for volume. RIGHT-TOP ZONE: three FULL-BODY views side by side (front, side, back) sharing a single ground line, identical head-to-body proportion, showing the loose Daoist robe and the dragon-head staff. RIGHT-BOTTOM ZONE: four to five small isolated close-up studies aligned in one row (the sparse beard, the meditation bead string, the dragon-head staff top, the sleeve cuff, the cloud-shoe), clearly smaller than the full-body figures. LIGHTING IN THE RIGHT ZONES: flat even orthographic lighting, no directional key, no shadow. PROPORTIONS ARE CRITICAL: keep the three full-body figures equal height with correct head-to-body ratio and limbs, feet on one ground line, headroom and footing clear; never stretch or squash the figure to fit. One face across all views; the bust is the baseline, right zones follow it. If the detail studies overflow the row, extend them as a column down the right edge—the detail studies give way, not the figures."
+  },
+  "voice": {
+    "timbre": "清亮和软的老年男声，透着仙气",
+    "pitch": "中高",
+    "pace": "从容舒缓，爱打圆场的絮语",
+    "accent": "圆润的官话，带老好人腔",
+    "emotion": "和善、圆滑、乐在其中",
+    "prompt": "Elderly male voice, bright mellow tenor, mid-high pitch, light airy resonance, moderate dynamic range. Slow smooth pacifying pace, gracious rounded articulation, diplomatic soothing cadence. Standard Mandarin with an affable old-gentleman warmth. Kindly, diplomatic, genial and softly persuasive.",
+    "referenceHint": "声音清和好脾气的老人腔，总在打圆场"
+  }
+}

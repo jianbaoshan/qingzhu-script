@@ -1,0 +1,38 @@
+{
+  "name": "玉皇大帝",
+  "aliases": ["玉帝", "玉皇大天尊", "昊天上圣"],
+  "importance": "supporting",
+  "oneLiner": "凌霄宝殿上端坐的昊天至尊，统领天庭众仙，对闹天宫的猴王招安又围剿，最终请如来镇压。",
+  "persona": {
+    "gender": "男",
+    "ageRange": "宝相威严、无年岁（推断）",
+    "identity": "高天上圣大慈仁者玉皇大天尊，端坐金阙云宫凌霄宝殿，主宰天庭",
+    "appearance": "端坐灵霄宝殿垂帘高座的天帝，冕旒垂面、九龙朝服，通身帝王威仪，众仙朝拜、仅闻其声。他先后两次招安悟空（封弼马温、齐天大圣），又因龙王冥王上表而遣李天王哪吒围剿，最终听如来言压住猴王。姿容端然，威严而流程化地处置天庭之事。",
+    "personality": ["威严端重", "惜才宽厚", "讲求仪轨", "略被猴头搅得无奈"],
+    "temperament": "言语庄重简短、依卿所奏，带着天子的居高临下，对难缠的妖仙也显出罕见的宽仁。",
+    "motivation": "维持天庭的纲纪秩序，息事宁人中也想招致能才。",
+    "arc": "压不住悟空而招安、再围剿，最终请如来压山，是悟空束缚的源头",
+    "relationships": [{ "name": "孙悟空", "relation": "曾招安又围剿的闹天宫妖仙" }, { "name": "如来佛祖", "relation": "最终请来镇压悟空" }, { "name": "观音菩萨", "relation": "麾下策士，荐出重臣" }],
+    "evidence": [
+      "下方之物，乃天地精華所生，不足為異",
+      "那個是妖仙？",
+      "依卿所奏"
+    ]
+  },
+  "image": {
+    "prompt": "An august all-powerful celestial sovereign seated in court: a majestic male figure with a dignified long face, full beard, serene commanding gaze, wearing the heavy imperial court dress of a celestial emperor — a flowing dragon-embroidered robe, a formal flat-topped ceremonial crown with dangling strings of beads (mian guan) that veil the brows. Deep gold, vermilion and jade tones. Era: Tang-dynasty Chinese heaven. Authority, peerless calm, and the immovable gravity of an emperor who rarely raises his voice.",
+    "promptLocal": "一位端坐天庭朝堂、威仪天成的至尊天帝：面目端庄、长须垂胸、目光沉静威严，着一身流云织金的衮龙朝服，头戴冕旒垂珠的平天冠，珠串轻掩眉目。配色以金、朱、玉青为主。设定为唐代中国天庭背景下的至尊天帝，威重端凝、气定神闲，是一位不怒自威、极少高嗓门的天子。",
+    "negativePrompt": "same generic face as another character, simple peasant robes, youthful clean-shaven look, no crown, warrior armor, perfectly symmetrical face, stiff mannequin pose, extra fingers, deformed limbs",
+    "tags": ["Tang dynasty China", "celestial emperor", "dragon-embroidered robe", "flat crown with bead strings", "full beard", "gold and vermilion", "throne-heavy grandeur", "composed might"],
+    "sheet": "ONE 16:9 landscape canvas, plain white background with even margins, thin hairline rules separating three zones. ONE single character only. LEFT ZONE (about 34% of canvas width): a large front-facing head-and-shoulders bust as the facial design reference, shoulders complete, bottom edge cropped flat, the august crowned face fully detailed, LIGHTING IN THE LEFT ZONE ONLY: soft directional key from upper left, natural falloff, ambient occlusion under the crown and at collar-neck junction for volume. RIGHT-TOP ZONE: three FULL-BODY views side by side (front, side, back) sharing a single ground line, identical head-to-body proportion, showing the dragon robe, the flat crown, the broad sash and long sleeves. RIGHT-BOTTOM ZONE: four to five small isolated close-up studies aligned in one row (the bead-string crown ornament, the embroidered dragon, the jade belt plaque, the long sleeve, the celestial shoes), clearly smaller than the full-body figures. LIGHTING IN THE RIGHT ZONES: flat even orthographic lighting, no directional key, no shadow. PROPORTIONS ARE CRITICAL: keep the three full-body figures equal height with correct head-to-body ratio and limbs, feet on one ground line, headroom and footing clear; never stretch or squash the figure to fit. One face across all views; the bust is the baseline, right zones follow it. If the detail studies overflow the row, extend them as a column down the right edge—the detail studies give way, not the figures."
+  },
+  "voice": {
+    "timbre": "浑厚庄重的男低音，气度雍容",
+    "pitch": "低平",
+    "pace": "缓慢沉稳，一字一句格外郑重",
+    "accent": "字正腔圆的国语，端方典雅",
+    "emotion": "威严、从容、不怒自威",
+    "prompt": "Majestic middle-aged to elder male voice, deep rich bass-baritone, low steady pitch, broad chest resonance, moderate dynamic range. Slow stately pace, weighty precise articulation, measured courtly cadence. Standard Mandarin with a gravely dignified register. Imperial, imperturbable, quietly powerful.",
+    "referenceHint": "声音又低又稳，不急不慢，天生一副天子的派头"
+  }
+}

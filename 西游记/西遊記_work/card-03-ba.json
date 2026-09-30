@@ -1,0 +1,40 @@
+{
+  "name": "猪八戒",
+  "aliases": ["猪悟能", "八戒", "呆子", "天蓬元帅"],
+  "importance": "protagonist",
+  "oneLiner": "天蓬元帅转世成的猪妖，长嘴大耳贪吃好睡，嘴上抱怨却一路卖力挑担、同生共死。",
+  "persona": {
+    "gender": "男",
+    "ageRange": "外观为壮汉，实际为天人转世（推断）",
+    "identity": "取经团二徒弟，前身是天蓬元帅，因错投猪胎成猪妖，法名猪悟能，唐僧又起别名八戒",
+    "appearance": "黑脸短毛、长嘴大耳、脑后一溜鬃毛、头脸似猪的壮实汉子，肚子胖大，通身粗糙。穿一领青不青蓝不蓝的梭布直裰，系一条花布手巾，怀抱一柄九齿钉钯。贪吃，一顿能吃三五斗米饭。",
+    "personality": ["贪吃懒惰", "胆小恋家", "憨直可爱", "爱发牢骚"],
+    "temperament": "说话直白憨厚，带着村野的粗与近人，好讨嘴上的便宜，遇事先缩一缩又肯上去卖力，喜乐都写在脸上。",
+    "motivation": "一路虽散伙的话常挂嘴边，终究愿意挑着担子跟着师父走到底。",
+    "arc": "从贪懒好吃、爱耍小聪明的高老庄女婿，到一路斗妖、生死与共的老搭档，封净坛使者",
+    "relationships": [{ "name": "孙悟空", "relation": "大师兄，常斗嘴却并肩" }, { "name": "唐僧", "relation": "师父，法名八戒" }, { "name": "沙僧", "relation": "三师弟，一起挑担赶路" }],
+    "evidence": [
+      "黑臉短毛，長喙大耳；穿一領青不青、藍不藍的梭布直裰，繫一條花布手巾",
+      "初來時是一條黑胖漢，後來就變做一個長嘴大耳朵的獃子",
+      "我有天罡數的變化，九齒的釘鈀",
+      "我以相貌為姓，故姓豬，官名叫做豬剛鬣",
+      "碓梃嘴，蒲扇耳朵，鐵片臉"
+    ]
+  },
+  "image": {
+    "prompt": "A heavyset, broad male figure of a boar-headed man: dark furred face, black skin, a prominent snout and a wide mouth with small tusks, long pointed ears like a pig, a bristly mane down the nape, a large round belly, burly rough build. He wears a coarse indigo-and-grey sackcloth monk's robe (zhi dao), a patterned cotton waist cloth, worn footwear. He carries a nine-tined rake. Era: Tang-dynasty China. Jolly, greedy, slovenly country-and-heaven beast, homely and approachable rather than menacing.",
+    "promptLocal": "一位体态壮硕宽厚、猪头人身的男性：黑色的毛脸与皮肤，嘴吻前突、阔口微露小獠牙，耳长似猪，脑后一溜毛鬃，肚子滚圆，身架粗壮敦实。穿一领青蓝杂糅的粗布直裰，系花布腰巾，着旧鞋，抱一柄九齿钉钯。设定为唐代中国背景下一只投胎转世的猪怪，憨态贪吃、邋遢近人而不凶恶。",
+    "negativePrompt": "same generic face as another character, clean human nose, thin slim build, refined features, perfectly symmetrical face, stiff mannequin pose, extra fingers, deformed limbs and tusks",
+    "tags": ["Tang dynasty China", "boar-headed man", "pig snout and ears", "large belly", "sackcloth monk robe", "nine-tined rake", "jolly greedy", "earthen palette"],
+    "sheet": "ONE 16:9 landscape canvas, plain white background with even margins, thin hairline rules separating three zones. ONE single character only. LEFT ZONE (about 34% of canvas width): a large front-facing head-and-shoulders bust as the facial design reference, shoulders complete, bottom edge cropped flat, the boar face, snout and ears fully detailed, LIGHTING IN THE LEFT ZONE ONLY: soft directional key from upper left, natural falloff, ambient occlusion under brow and at collar-neck junction for volume. RIGHT-TOP ZONE: three FULL-BODY views side by side (front, side, back) sharing a single ground line, identical head-to-body proportion, showing the bulky build, the sackcloth robe, waist cloth, the bristly nape mane, and the nine-tined rake. RIGHT-BOTTOM ZONE: four to five small isolated close-up studies aligned in one row (the snout and tusks, the long ear, the nape mane, the woven waist cloth, the rake tines), clearly smaller than the full-body figures. LIGHTING IN THE RIGHT ZONES: flat even orthographic lighting, no directional key, no shadow. PROPORTIONS ARE CRITICAL: keep the three full-body figures equal height with correct head-to-body ratio and limbs, feet on one ground line, headroom and footing clear; never stretch or squash the figure to fit. One face across all views; the bust is the baseline, right zones follow it. If the detail studies overflow the row, extend them as a column down the right edge—the detail studies give way, not the figures."
+  },
+  "voice": {
+    "timbre": "浑厚沉浊的男低音，带鼻音与憨气",
+    "pitch": "偏低",
+    "pace": "偏慢，说话拖沓、句句带懒劲儿",
+    "accent": "北方村话口音，粗声大嗓",
+    "emotion": "憨直、贪嘴、爱抱怨又乐观",
+    "prompt": "Middle-aged male voice, low rough baritone-bass with a nasal lazy color, deep pitch, heavy chest resonance, moderate dynamic range. Slow drawling pace, thick slurred articulation, sighing cadence. Northern folk peasant accent. Slothful, greedy, grumblingly good-natured and easy to cheer up.",
+    "referenceHint": "声音又低又懒常哼哼，像打了盹被叫起来去干活的人"
+  }
+}

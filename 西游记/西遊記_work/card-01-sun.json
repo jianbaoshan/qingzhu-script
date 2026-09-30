@@ -1,0 +1,40 @@
+{
+  "name": "孙悟空",
+  "aliases": ["孙行者", "美猴王", "齐天大圣", "弼马温", "石猴"],
+  "importance": "protagonist",
+  "oneLiner": "由仙石迸出的石猴，火眼金睛、七十二变，曾大闹天宫，后保唐僧西天取经成正果。",
+  "persona": {
+    "gender": "男",
+    "ageRange": "外观如青年，实际已历数百年（推断）",
+    "identity": "取经团大徒弟，齐天大圣，师从菩提祖师修得七十二变与筋斗云",
+    "appearance": "矮小的猴子，身不满四尺。孤拐脸、凹脸尖嘴、雷公嘴，磕额头，獠牙向外生，满身黄毛，一双火眼金睛，后面拖一条尾巴，尾根/臀部有红斑。头戴金箍，系一条金黄绦子的虎皮裙，穿绵布直裰，足踏麂皮靴，耳朵里收着一根可化作棒的金箍棒。",
+    "personality": ["桀骜不驯", "机敏狡黠", "重情仗义", "顽皮爱耍"],
+    "temperament": "谈吐带着山林的野与机灵，语速快，答话爱占上风，急了会龇牙现出雷公相，但转瞬又能说笑如常。",
+    "motivation": "既要保全师父、修成正果，也放不下当年齐天大圣的自在与闯性。",
+    "arc": "从不可一世的野猴，到被压百年学会敬畏，再于八十一难中收服心魔、忠于使命，最终修成斗战胜佛",
+    "relationships": [{ "name": "唐僧", "relation": "师父，受紧箍儿咒拘束" }, { "name": "猪八戒", "relation": "二师弟，常斗嘴又并肩作战" }, { "name": "牛魔王", "relation": "五百年前结义的兄长，后为敌" }],
+    "evidence": [
+      "那猴子孤拐面，凹臉尖嘴",
+      "目運兩道金光，射沖斗府",
+      "這條虎皮裙子，能值幾個銅錢",
+      "把一雙眼火煼紅了，弄做個老害病眼，故喚作「火眼金睛」",
+      "頭戴著三額金冠，身穿著黃金鎧甲，手執著金箍棒，足踏著步雲履"
+    ]
+  },
+  "image": {
+    "prompt": "A short, wiry monkey-bodied youth, barely four feet tall, hunched and agile. A fierce monkey face with a pointed snout, sunken cheeks, a jutting mandible, a protruding brow, and whiskers growing outward, covered in fine golden-brown fur. Piercing fiery-gold eyes with vivid pupils. A golden band cinched around the crown of his head. He wears a pale cotton monk's robe over his thin frame and a tiger-skin skirt tied at the waist with a yellow cord, dark deerskin boots. A compact iron rod tucked into his ear. Era: Tang-dynasty China and celestial myth. The look of a Daoist-trained immortal monkey-warrior, plain and travel-worn rather than ornate.",
+    "promptLocal": "一个身高不足四尺、瘦削灵活的猴身少年，弓背敏捷。猴脸尖嘴、凹颊、下巴前伸，额头凸出、獠牙外翘，满身金黄细毛。一双灼灼的金睛火眼。头顶束着金箍。穿一件素色棉布僧袍，腰间围一幅黄绦虎皮裙，足踏麂皮靴，耳中藏一根铁棒。设定为唐代中国的天地神话背景下，经道门点化的猴猴武者，素净而经风霜，不求华丽。",
+    "negativePrompt": "same generic face as another character, oversized childlike eyes, overpolished skin, perfectly symmetrical face, lifeless dead eyes, helmet-like hair without flyaway strands, stiff mannequin pose, extra fingers, deformed limbs",
+    "tags": ["Tang dynasty China", "celestial monkey", "fiery gold eyes", "golden fur", "tiger-skin skirt", "gold band on head", "travel-worn monastic", "autumn-gold palette"],
+    "sheet": "ONE 16:9 landscape canvas, plain white background with even margins, thin hairline rules separating three zones. ONE single character only. LEFT ZONE (about 34% of canvas width): a large front-facing head-and-shoulders bust as the facial design reference, shoulders complete, bottom edge cropped flat, the monkey face fully detailed with fiery-gold eyes and the gold headband, LIGHTING IN THE LEFT ZONE ONLY: soft directional key from upper left, natural falloff, ambient occlusion under brow and jaw and at collar-neck junction for volume. RIGHT-TOP ZONE: three FULL-BODY views side by side (front, side, back) sharing a single ground line, identical head-to-body proportion and limb length, showing the cotton monk's robe, tiger-skin skirt, deerskin boots, thin tail, and the iron rod. RIGHT-BOTTOM ZONE: four to five small isolated close-up studies aligned in one row (the gold headband, the fiery-gold eye, the tiger-skin skirt, the deerskin boots, the iron rod), clearly smaller than the full-body figures. LIGHTING IN THE RIGHT ZONES: flat even orthographic lighting, no directional key, no shadow. PROPORTIONS ARE CRITICAL: keep the three full-body figures equal height with correct head-to-body ratio and limbs, feet on one ground line, headroom and footing clear; never stretch or squash the figure to fit. One face across all views; the bust is the baseline, right zones follow it. If the detail studies overflow the row, extend them as a column down the right edge—the detail studies give way, not the figures."
+  },
+  "voice": {
+    "timbre": "清亮而带童气的男声，轻快尖亮",
+    "pitch": "偏高",
+    "pace": "快，语速急促灵巧",
+    "accent": "普通话略带山林野气，咬字劲脆",
+    "emotion": "机灵、俏皮、桀骜不驯又带亲昵",
+    "prompt": "Teenage-voiced male, clear bright tenor with a resonant edge, mid-to-high pitch, agile chest support, wide dynamic range. Quick brisk pace, sharp crisp articulation, clipped energetic rhythm. Standard Mandarin with a sly playful spark. Cheeky, defiant, quick-witted, affectionate at heart.",
+    "referenceHint": "声音年轻亮堂、说得飞快，像山里的猴子占了上风时"
+  }
+}

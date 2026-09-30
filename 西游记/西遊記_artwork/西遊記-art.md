@@ -1,0 +1,693 @@
+﻿# 西游记 · 美术设定集
+
+## 场景清单
+
+| ID | 场景 | 类型 | 出现集 | 锚点 | 光照 | 变体 |
+| --- | --- | --- | --- | --- | --- | --- |
+| S01 | 花果山水帘洞 | 主场景 | 1、5 | 4 | 正午透光 | — |
+| S02 | 天宫灵霄宝殿 | 主场景 | 5、6、17 | 4 | 朝会明光 | — |
+| S03 | 取经路山野 | 主场景 | 2、8、9、10、12、13、14、17 | 4 | 黄昏赶路 | — |
+| S04 | 妖窟高山洞口 | 主场景 | 12、13、14、15、16、19、20 | 4 | 夜半冷火 | — |
+| S05 | 五行山 | 变体 ← S03 | 7、8 | 4 | 清冷晌午 | 取经路山野的地貌隆起为五峰连山的厚重山体，主峰下生出一道深岩缝并贴上金色六字经帖，碎石坡替代道路，色调由黄昏转冷清正午。 |
+| S06 | 火焰山 | 变体 ← S04 | 19、20 | 4 | 赤焰白昼 | 妖窟的阴冷山岩升维为火焰山的焦红土坡与地裂烈焰，冷火石灯变为地缝明黄火舌，色调由幽蓝转炽红，夜半冷火转赤焰白昼。 |
+| S07 | 灵山大雷音寺 | 主场景 | 18、21、23、24 | 4 | 圣洁正午 | — |
+| S08 | 东海龙宫 | 变体 ← S01 | 3 | 4 | 海底幽光 | 水帘洞的石窟改造成海底龙宫：石桥变珊瑚柱廊、石座变礁石宝台、飞瀑变海面上透下的粼粼波光，色调由石青转而幽绿海水蓝。 |
+| S09 | 高老庄 | 变体 ← S03 | 10 | 4 | 黄昏农院 | 取经路山野的道旁空地立起一座土夯农庄院墙，道路变院前土坪，杂树变院墙草头，色调由苍茫转向暖黄的农院黄昏。 |
+| S10 | 流沙河 | 变体 ← S03 | 11 | 4 | 阴晦白昼 | 取经路山野的土路改造成一条浑黄河边：道路变黑泥浅滩，石壁变缓坡沙岸，杂树变零落芦苇，色调由干燥土黄转为阴浑水色。 |
+| S11 | 通天河畔 | 变体 ← S10 | 22 | 4 | 劫后清光 | 流沙河的黑泥浅滩加宽成一片平缓的大石滩，水色由浑黄转清浅退去的滩水，滩上多出晾晒的经卷包，天色由阴晦转雨后的清亮。 |
+| S12 | 森罗宝殿 | 一次性 | 4 | 4 | 幽焰冷光 | — |
+
+---
+
+## S01 花果山水帘洞
+
+设计意图：全剧起点的乐园——一座被巨大飞瀑罩住的水帘洞，是悟空称王、发迹、聚起猴群的舞台。要的是野性与福地并存的世外桃源：瀑布是气口与门帘，洞内是天然仙家洞府的安乐窝，先让人爱上这里，后面抛出求长生之念才有力。
+
+### 一致性锚点
+
+1. **飞瀑水帘** — 洞口一道数丈宽的白练瀑布倾泻而下，把洞口整个罩住，水珠飞溅、常年湿润
+2. **铁板石桥** — 洞内一座窄窄的铁板桥横架深潭之上，桥身生锈，是进洞的唯一通道
+3. **天然石座** — 洞中一块天然大石凿成的王座，座面被日久摩挲得光滑，悟空称王即坐于此
+4. **石锅石灶** — 洞壁一角垒起的石锅石灶，常年炊烟熏出的一圈碳黑
+
+### 光照与时段
+
+- **正午透光**：`empty stone cavern hidden behind a broad white waterfall, bright midday sunlight filtering through the falling water curtain, water-reflected light ripples dancing across the wet cave walls, mist and spray in the air, humid luminous atmosphere`
+
+### 出图提示词包
+
+**主视角 EN**
+
+```text
+empty natural stone cavern interior behind a mighty waterfall, wide sheet of white water cascading across the mouth, a narrow rusty iron-plank bridge over a dark pool, a large smooth natural rock throne, stone cooking hearth blackened by soot, wet mossy cave walls catching dappled sunlight through the water curtain, bright humid air, empty scene with no people anywhere, cinematic wide angle
+```
+
+**反向提示词**
+
+```text
+people, human figures, characters, crowds, silhouettes of people, any living creature, oversaturated colours, sterile showroom cleanliness, warped perspective, melted geometry, floating objects, text, watermark, signature
+```
+
+**设定图 EN**
+
+```text
+ONE 16:9 landscape environment reference sheet, plain neutral background, thin hairline rules separating an L-shaped detail border. MAIN VIEW in the upper-left, about 72% wide x 70% high: the standard establishing view of the cavern interior shot from behind the pool toward the waterfall curtain, with the first lighting state and the iron-plank bridge and rock throne in frame. RIGHT COLUMN and BOTTOM ROW are all close-up detail crops of the same space: the rusty iron-plank bridge slabs, the smooth polished rock throne seat, the soot-blackened stone hearth, the wet mossy cave wall, the frothing edge of the waterfall. Every detail panel is a magnified crop of the main view; nothing invented that is not present in the master view. THE SPACE MUST BE IDENTICAL ACROSS ALL PANELS. Absolutely no people anywhere. 
+```
+
+`environment sheet`, `weathered materials`, `cinematic`, `stone cavern`, `waterfall`, `cave rock`, `moss`, `humid light`
+
+---
+
+## S02 天宫灵霄宝殿
+
+设计意图：玉帝端坐的凌霄宝殿，天庭权威与秩序的总象征。要的是云海之上巍峨空旷、庄严肃穆到让人望而生畏的金阙——悟空的天性和这里的森严礼法天然相冲，这座殿越庄重，猴王砸下去的反叛就越响。
+
+### 一致性锚点
+
+1. **丹墀玉阶** — 大殿正中一条铺到大殿深处的白玉御阶，阶面通体雪白、打磨光滑
+2. **九龙金柱** — 两侧盘着鎏金蟠龙的粗大金柱，柱身金漆光亮如新
+3. **垂珠珠帘** — 宝座前垂下一挂细密的水晶珠帘，把御座若隐若现地隔开，只闻其声不见其人
+4. **云雾玉墀** — 大殿外沿与丹墀之间萦绕的浅薄云气，渗进殿脚下的玉砖
+
+### 光照与时段
+
+- **朝会明光**：`empty vast golden celestial audience hall above the clouds, cold bright faintly-shaded daylight from a high unseen source, long shadows across the white jade steps, faint drifting cloud-mist at the base of the pillars, solemn hushed atmosphere, no people anywhere`
+
+### 出图提示词包
+
+**主视角 EN**
+
+```text
+empty vast and majestic golden celestial audience hall floating above clouds, long white jade ceremonial stairs leading up a dais, a throne partly veiled behind a curtain of fine crystal beads, gilded dragon-encircled columns, shallow drifting cloud-mist across the polished jade floor, cold bright hallowed light, towering empty hall, no people anywhere, cinematic symmetrical wide shot
+```
+
+**反向提示词**
+
+```text
+people, human figures, characters, crowds, silhouettes of people, any living creature, cramped mundane room, oversaturated colours, warped perspective, melted geometry, floating objects, text, watermark, signature
+```
+
+**设定图 EN**
+
+```text
+ONE 16:9 landscape environment reference sheet, plain neutral background, thin hairline rules separating an L-shaped detail border. MAIN VIEW in the upper-left, about 72% wide x 70% high: the standard establishing view looking up the white jade stairs toward the beaded throne, with the first lighting state and the dragon columns in frame. RIGHT COLUMN and BOTTOM ROW are all close-up detail crops of the same space: the polished white jade step treads, the gilded dragon head coiling a pillar, the fine crystal bead curtain, the settled cloud fringe on the jade floor, a gilded palace lantern. Every detail panel is a magnified crop of the main view; nothing invented that is not present in the master view. THE SPACE MUST BE IDENTICAL ACROSS ALL PANELS. Absolutely no people anywhere.
+```
+
+`environment sheet`, `well-maintained`, `cinematic`, `celestial palace`, `jade`, `gilded wood`, `clouds`, `hallowed light`
+
+---
+
+## S03 取经路山野
+
+设计意图：贯穿全剧的主干道，从两界山到火焰山之间一切荒山野路的统一底景。要一种孤零零走在天地之间的苍茫感——山高路远、草木萧索、人烟稀少，让师徒一行显得渺小又坚韧。既是路，也是所有妖难发生前那段不安的铺垫。
+
+### 一致性锚点
+
+1. **土埂官道** — 一条被踩实的黄土官道，两侧杂树荆棘，路面车辙与蹄印交错
+2. **歪脖老松** — 道旁一棵虬枝横生的老松树，树干裸露的根须盘踞地面，是认路的路标
+3. **荒山石壁** — 路边一堵灰褐风化的石壁，布满苔藓与裂纹
+4. **摇曳草穗** — 道旁成片的枯黄野草，风一吹成片倒伏
+
+### 光照与时段
+
+- **黄昏赶路**：`empty solitary wilderness mountain trail at dusk, long warm low light, dusty yellow dirt road winding between sparse trees and withered grass, tall reeds bending in the breeze, hazy orange-gold sunset haze over distant barren hills, melancholic lonely atmosphere, empty road with no people, no animals, cinematic wide shot`
+
+### 出图提示词包
+
+**主视角 EN**
+
+```text
+empty lonely wilderness mountain road, a dirt track winding through sparse dry trees and swaying withered grass, a gnarled old pine with exposed roots by the trail, grey weathered rock cliff, pale blue-grey sky with drifting clouds, dusty windblown atmosphere, no people nowhere, cinematic wide pastoral view
+```
+
+**反向提示词**
+
+```text
+people, human figures, characters, crowds, silhouettes of people, any living creature, animals, buildings dense town, oversaturated colours, warped perspective, melted geometry, floating objects, text, watermark, signature
+```
+
+**设定图 EN**
+
+```text
+ONE 16:9 landscape environment reference sheet, plain neutral background, thin hairline rules separating an L-shaped detail border. MAIN VIEW in the upper-left, about 72% wide x 70% high: the standard establishing view of the dirt road stretching away between the old pine and the rock wall, with the first lighting state in frame. RIGHT COLUMN and BOTTOM ROW are all close-up detail crops of the same place: the rutted sun-baked road surface, the gnarled pine trunk and exposed roots, the mossy cracked rock face, the bent dry grass heads, the stone debris at the roadside. Every detail panel is a magnified crop of the main view; nothing invented that is not present in the master view. THE SPACE MUST BE IDENTICAL ACROSS ALL PANELS. Absolutely no people anywhere.
+```
+
+`environment sheet`, `weathered materials`, `cinematic`, `wilderness`, `dirt road`, `dry grass`, `rock`, `dusk light`
+
+---
+
+## S04 妖窟高山洞口
+
+设计意图：白骨精、红孩儿、牛魔王三场妖难的统一妖境。要的不是同一张贴图，而是同一套「妖怪地盘」的基调——阴森、潮湿、冷火，藏在绝壁高处、被藤蔓和乱石遮蔽的野洞。统一锚点保证三场妖难像是在同一片妖山里串着发生。
+
+### 一致性锚点
+
+1. **高崖洞口** — 半山绝壁上一个不大却被藤蔓枯枝半掩的洞门，洞口常年阴湿
+2. **冷火石灯** — 洞口两侧架着的石灯槽，燃着幽蓝或泛绿的冷火，火光缕缕
+3. **白骨散件** — 洞口碎石间散落的白骨与残枝，被苔藓半掩
+4. **盘根老藤** — 从崖顶垂挂下来的粗壮枯藤，缠绕洞沿，像爪子般扒住岩石
+
+### 光照与时段
+
+- **夜半冷火**：`empty demon cave entrance high on a cliff at night, eerie blue-green cold torches flickering in stone lamp brackets, damp rock, hanging dead vines, scattered pale bones half-buried in scree, thin cold mist, sinister hushed atmosphere, empty scene with no people and no monsters, cinematic wide shot`
+
+### 出图提示词包
+
+**主视角 EN**
+
+```text
+empty sinister demon cave entrance high on a cliff, a cave mouth half-shrouded by tangled dead vines and dry branches, eerie cold blue-green flames burning in stone lamp brackets, damp dark rock, scattered pale bones among loose scree, a few wisps of cold fog, dark foreboding sky, empty scene with no people and no monsters anywhere, cinematic wide shot
+```
+
+**反向提示词**
+
+```text
+people, human figures, characters, crowds, silhouettes of people, monsters, demons, any living creature, bright cheerful daylight, oversaturated colours, warped perspective, melted geometry, floating objects, text, watermark, signature
+```
+
+**设定图 EN**
+
+```text
+ONE 16:9 landscape environment reference sheet, plain neutral background, thin hairline rules separating an L-shaped detail border. MAIN VIEW in the upper-left, about 72% wide x 70% high: the standard establishing view of the cave mouth on the cliff with the cold torch flames and the vine curtain, with the first lighting state in frame. RIGHT COLUMN and BOTTOM ROW are all close-up detail crops of the same place: the stone torch bracket and its blue flame, the knotted dead vine gripping the rock, a half-buried pale bone in the scree, the damp crack in the cliff, the ash of the cold fire. Every detail panel is a magnified crop of the main view; nothing invented that is not present in the master view. THE SPACE MUST BE IDENTICAL ACROSS ALL PANELS. Absolutely no people and no monsters anywhere.
+```
+
+`environment sheet`, `weathered materials`, `cinematic`, `demon cave`, `cliff`, `cold fire`, `vines`, `bones`, `night`
+
+---
+
+## S05 五行山
+
+设计意图：压住悟空五百年的山，是「被镇压」这个意象本身。要一座从取经路山野底景里长出来的、铁青沉重的五峰连山，山脚下岩缝里压着封印，人站在山下会感到渺小与困顿。它是惩罚，也是最后释压的起点。
+
+### 一致性锚点
+
+1. **五峰连脉** — 五座铁青色的山峰紧挨着连成一脉，山头圆钝、山体厚重，中间最高
+2. **压封岩缝** — 主峰下一道极深的狭窄岩缝，缝口正好容一物，被老藤枯枝盖住大半
+3. **六字金帖** — 岩缝上方贴着一方泛金光、写满经文的金黄色纸条，历经日晒雨淋仍端正
+4. **山麓碎石** — 山脚堆着大片杂色碎石坡，杂树从石缝里钻出
+
+### 光照与时段
+
+- **清冷晌午**：`empty five connected iron-grey peaks rising together, a deep narrow crevice at the foot of the tallest peak sealed by a weathered gold scripture talisman, scattered boulders and scrub trees at the foot, cold bright noon light, heavy still air, awe and imprisonment, empty landscape with no people, cinematic wide shot`
+
+> 变体来源：S03　改动：取经路山野的地貌隆起为五峰连山的厚重山体，主峰下生出一道深岩缝并贴上金色六字经帖，碎石坡替代道路，色调由黄昏转冷清正午。
+
+### 出图提示词包
+
+**主视角 EN**
+
+```text
+empty five connected heavy iron-grey mountain peaks rising in a line, deep narrow rock crevice at the foot of the central peak beneath a weathered gold scripture talisman, slopes of loose greyley scree and scrub trees, cold clear noon light, which is a transformed continuation of the parent road landscape now billboard as a forbidding five-peak range, no people anywhere, cinematic wide shot
+```
+
+**反向提示词**
+
+```text
+people, human figures, characters, crowds, silhouettes of people, any living creature, the parental dusty road texture, oversaturated colours, warped perspective, melted geometry, floating objects, text, watermark, signature
+```
+
+**设定图 EN**
+
+```text
+ONE 16:9 landscape environment reference sheet for a variant of S03, plain neutral background, thin hairline rules separating an L-shaped detail border. MAIN VIEW in the upper-left is the parent mountain-road environment lifted into the five-peak range: the central peak with the crevice and gold talisman, replacing the dirt road with scree slopes; keep the structure, materials and wear identical to the reference image. RIGHT COLUMN and BOTTOM ROW are close-up detail crops of the same scene: the gold scripture talisman on the rock, the narrow crevice mouth, the joint where two peaks meet, a gnarled scrub tree gripping the scree, the weathered crack in the cliff. Every detail panel is a magnified crop of the main view; nothing invented that is not present in the master view. THE SPACE MUST BE IDENTICAL ACROSS ALL PANELS. Absolutely no people anywhere.
+```
+
+`environment sheet`, `weathered materials`, `cinematic`, `mountain range`, `crevice`, `talisman`, `scree`, `iron-grey rock`
+
+---
+
+## S06 火焰山
+
+设计意图：终战的极致热景。从统一妖窟底景升维出来的烈火世界——红土焦裂、地缝冒焰、空气扭曲，热到连风都是烫的。它是牛魔王的主场，颜色和质感必须和前面所有阴冷场景拉开，做全剧最烫的一片红。
+
+### 一致性锚点
+
+1. **焦红土坡** — 整片赤红干裂的焦土坡地，土面龟裂成格子，泛着暗热的炭色
+2. **地缝烈焰** — 地面数道纵深的地裂缝里窜出明黄火舌与热浪
+3. **扭曲热浪** — 贴地一层被烤得扭曲的热浪，让远处山影都在抖动
+4. **烧裸山脊** — 远处一道被火燎光、寸草不生的赭色山脊
+
+### 光照与时段
+
+- **赤焰白昼**：`empty blazing fiery land under a scorched orange-white sky, cracked redbrown earth with fissures spouting tongues of yellow flame, heat-haze distorting the distant ridge, the whole ground shimmering with infernal heat, oppressive scorching red atmosphere, empty scene with no people, cinematic wide shot`
+
+> 变体来源：S04　改动：妖窟的阴冷山岩升维为火焰山的焦红土坡与地裂烈焰，冷火石灯变为地缝明黄火舌，色调由幽蓝转炽红，夜半冷火转赤焰白昼。
+
+### 出图提示词包
+
+**主视角 EN**
+
+```text
+empty blazing fire mountain landscape, cracked scorched red-earth slopes with glowing fissures spouting yellow flames, heat-haze rippling across a bare ochre ridge, shimmering infernal air, turning the once cold demon-cliff into a furnace of red heat, no people anywhere, cinematic wide shot
+```
+
+**反向提示词**
+
+```text
+people, human figures, characters, crowds, silhouettes of people, monsters, any living creature, cool blue palette of the parent demon cave, green vegetation, water, oversaturated colours, warped perspective, melted geometry, floating objects, text, watermark, signature
+```
+
+**设定图 EN**
+
+```text
+ONE 16:9 landscape environment reference sheet for a variant of S04, plain neutral background, thin hairline rules separating an L-shaped detail border. MAIN VIEW in the upper-left is the parent demon-cliff environment transformed into the fiery land: the cold torch cave replaced by cracked red earth with fissure flames, the cave mouth replaced by bare scorched ridge; keep the structure, materials and wear identical to the reference image. RIGHT COLUMN and BOTTOM ROW are close-up detail crops of the same scene: a glowing fissure spouting yellow flame, the cracked dry red earth, the heat-rippled distant ridge, a baked blackened rock, an ember-licked patch of scorched ground. Every detail panel is a magnified crop of the main view; nothing invented that is not present in the master view. THE SPACE MUST BE IDENTICAL ACROSS ALL PANELS. Absolutely no people and no monsters anywhere.
+```
+
+`environment sheet`, `weathered materials`, `cinematic`, `fire mountain`, `red earth`, `flame fissures`, `heat haze`, `scorched ridge`
+
+---
+
+## S07 灵山大雷音寺
+
+设计意图：取经终点的极乐世界，大雷音寺是整条取经路的落点。要一座悬浮在云海之间的、金碧辉煌却不逼仄的庄严佛寺——开阔、明亮、鹅毛般飘着莲瓣，让一路风尘到这里都安静下来，是和解与正果该有的地方。
+
+### 一致性锚点
+
+1. **莲花云台** — 寺院前开阔的莲瓣形石台，周围云海托底、雾气流动
+2. **鎏金大殿** — 正中巍峨的鎏金歇山顶大殿，金瓦在日光里发亮
+3. **飘落莲瓣** — 空中缓慢飘落的一片片浅粉莲瓣，落在大石台上
+4. **经幡宝幢** — 殿前几列迎风轻摆的五色经幡与宝幢
+
+### 光照与时段
+
+- **圣洁正午**：`empty majestic golden Buddhist temple floating on a sea of clouds, an open lotus-petal stone terrace before the hall, pink lotus petals drifting down through sunlit air, five-coloured prayer banners swaying, soft radiant hallowed light, peaceful serene atmosphere, empty scene with no people, cinematic wide shot`
+
+### 出图提示词包
+
+**主视角 EN**
+
+```text
+empty majestic golden Buddhist temple perched upon a sea of clouds, a vast lotus-petal stone terrace before a gilded hip-roofed hall, pale pink lotus petals drifting in the air, rows of five-coloured silk prayer banners, soft luminous sacred daylight from above, open and peaceful, empty scene with no people anywhere, cinematic wide establishing shot
+```
+
+**反向提示词**
+
+```text
+people, human figures, characters, crowds, silhouettes of people, monks, any living creature, dark gloomy palette, oversaturated colours, warped perspective, melted geometry, floating objects, text, watermark, signature
+```
+
+**设定图 EN**
+
+```text
+ONE 16:9 landscape environment reference sheet, plain neutral background, thin hairline rules separating an L-shaped detail border. MAIN VIEW in the upper-left, about 72% wide x 70% high: the standard establishing view of the golden temple from across the lotus terrace with drifting petals and banners in frame. RIGHT COLUMN and BOTTOM ROW are all close-up detail crops of the same place: the golden tile of the gilded roof, a single falling pink petal on the stone, the embroidered edge of a prayer banner, the carved lotus petal of the terrace edge, the soft cloud bank lapping the platform. Every detail panel is a magnified crop of the main view; nothing invented that is not present in the master view. THE SPACE MUST BE IDENTICAL ACROSS ALL PANELS. Absolutely no people anywhere.
+```
+
+`environment sheet`, `well-maintained`, `cinematic`, `Buddhist temple`, `golden roof`, `clouds`, `lotus petals`, `prayer banners`
+
+---
+
+## S08 东海龙宫
+
+设计意图：从花果山石景变体出来的水下宫阙——悟空讨兵器的去处。要一套珊瑚贝光明亮、海水通透的海底宫殿，既有深海的神秘又不像阴府，因为这里是「得宝」的福地，满载宝物与宝光。
+
+### 一致性锚点
+
+1. **珊瑚立柱** — 殿内一排排珊瑚与海贝垒成的立柱，周身泛着温润珍珠色
+2. **珠蚌宫灯** — 顶悬的蚌壳宫灯，蚌里亮着柔和的夜明珠光
+3. **宝光水影** — 透过殿壁海水洒进来的粼粼波光，在殿内地面上晃动
+4. **海底礁台** — 殿前一座海藻披覆的珊瑚礁石台，是展示兵器的宝台
+
+### 光照与时段
+
+- **海底幽光**：`empty underwater palace interior, coral and shell pillars, pearl-lit clam shell lanterns from the ceiling, waves of sunlight rippling across the floor through channel water, pale green-blue luminous sea light, tranquil hushed deep-sea atmosphere, empty scene with no people and no sea creatures, cinematic wide shot`
+
+> 变体来源：S01　改动：水帘洞的石窟改造成海底龙宫：石桥变珊瑚柱廊、石座变礁石宝台、飞瀑变海面上透下的粼粼波光，色调由石青转而幽绿海水蓝。
+
+### 出图提示词包
+
+**主视角 EN**
+
+```text
+empty underwater dragon palace, transformed from a stone cavern into a coral-and-shell colonnade, pearl-lit clam lanterns hanging from the ceiling, sunlight rippling across the floor through translucent sea water, pale turquoise submarine glow, an algae-draped coral platform for treasures, no people and no sea creatures anywhere, cinematic wide shot
+```
+
+**反向提示词**
+
+```text
+people, human figures, characters, characters, crowds, fish, sea creatures, any living creature, the dry dusty palette of the parent cavern, oversaturated colours, warped perspective, melted geometry, floating objects, text, watermark, signature
+```
+
+**设定图 EN**
+
+```text
+ONE 16:9 landscape environment reference sheet for a variant of S01, plain neutral background, thin hairline rules separating an L-shaped detail border. MAIN VIEW in the upper-left is the parent stone-cavern environment transformed into the underwater palace: the iron bridge becomes a coral colonnade, the rock throne becomes a coral treasure platform, the waterfall becomes rippling light from above; keep the structure, materials and wear identical to the reference image. RIGHT COLUMN and BOTTOM ROW are close-up detail crops of the same scene: a coral column with its pearl-tinged sheen, a pearl-lit clam lantern, algae draped over the coral platform, sun-lit ripples on the floor, a pink reef wall. Every detail panel is a magnified crop of the main view; nothing invented that is not present in the master view. THE SPACE MUST BE IDENTICAL ACROSS ALL PANELS. Absolutely no people and no sea creatures anywhere.
+```
+
+`environment sheet`, `weathered materials`, `cinematic`, `underwater palace`, `coral`, `shell`, `pearl light`, `turquoise water`
+
+---
+
+## S09 高老庄
+
+设计意图：从取经路村庄底景变体出来的庄院——被妖怪女婿搅得心神不宁的富庶农户。要的是一座院墙齐整却有些日子没打理的农庄：本是富足安乐的家，如今院门半掩、气氛透着点被折腾过的不安。
+
+### 一致性锚点
+
+1. **土夯院墙** — 一圈齐整的土夯院墙，墙头长着几丛野草
+2. **残贴神符** — 院门上贴满的褪色黄纸降妖符，层层叠叠、边角卷起
+3. **石臼水缸** — 院角一口青石水缸与一只石臼，缸沿泛着水渍青光
+4. **歪挂灯笼** — 门檐下两只褪成暗红的灯笼，一只微微歪斜
+
+### 光照与时段
+
+- **黄昏农院**：`empty farm courtyard at dusk, earthen walls, a gatepost plastered with faded yellow talisman papers, a bluestone cistern and stone mortar in the corner, a pair of faded red lanterns one hanging slightly askew under the eaves, warm low evening light, quiet uneasy homestead, empty scene with no people, cinematic wide shot`
+
+> 变体来源：S03　改动：取经路山野的道旁空地立起一座土夯农庄院墙，道路变院前土坪，杂树变院墙草头，色调由苍茫转向暖黄的农院黄昏。
+
+### 出图提示词包
+
+**主视角 EN**
+
+```text
+empty farm court farmyard now risen from the roadside wilderness, an earthen-walled homestead, faded yellow talisman papers thickly pasted on the gatepost, a bluestone cistern and stone mortar by the wall, two faded crimson lanterns one hanging askew under the eaves, warm dusk light, a quiet but uneasy well-to-do farm, no people anywhere, cinematic wide shot
+```
+
+**反向提示词**
+
+```text
+people, human figures, characters, crowds, silhouettes of people, any living creature, dense town buildings, the bare wilderness road dominating, oversaturated colours, warped perspective, melted geometry, floating objects, text, watermark, signature
+```
+
+**设定图 EN**
+
+```text
+ONE 16:9 landscape environment reference sheet for a variant of S03, plain neutral background, thin hairline rules separating an L-shaped detail border. MAIN VIEW in the upper-left is the parent wilderness environment with the farmstead risen at the roadside: the dirt track becomes the yard, the scree becomes the tamped yard, the gnarled tree becomes the gatepost; keep the structure, materials and wear identical to the reference image. RIGHT COLUMN and BOTTOM ROW are close-up detail crops of the same scene: the faded talisman papers on the gate, the bluish glazed cistern rim, the chipped stone mortar, the wisp of wild grass on the wall top, the askew lantern under the eave. Every detail panel is a magnified crop of the main view; nothing invented that is not present in the master view. THE SPACE MUST BE IDENTICAL ACROSS ALL PANELS. Absolutely no people anywhere.
+```
+
+`environment sheet`, `weathered materials`, `cinematic`, `farm court`, `earthen wall`, `talisman papers`, `stone cistern`, `dusk`
+
+---
+
+## S10 流沙河
+
+设计意图：从取经路水景变体出来的黑水滩头——沙僧被贬后的栖身之地。要一条水色发浑、黄沙漫堤的宽河，岸边黑土水滩光秃秃的，风一吹沙起。暗沉、荒凉，是把人吞进去的坏河。
+
+### 一致性锚点
+
+1. **浑黄河水** — 整条河的水色浑黄发暗，流得又急又混，看不见底
+2. **黑泥浅滩** — 河岸边一片裸露的黑泥水滩，脚印与爬痕凌乱
+3. **沉沙草杆** — 滩上散落被水泡黑、压进沙里的枯草杆与断枝
+4. **孤烟芦苇** — 对岸几丛稀黄的芦苇，不成片地立在满目沙色里
+
+### 光照与时段
+
+- **阴晦白昼**：`empty turbid dark-yellow wide river under a grey overcast sky, dark silt bank with scattered waterlogged grass stalks pressed into the sand, a few sparse yellow reeds across the water, flat dim light, desolate dangerous feel, empty scene with no people, cinematic wide shot`
+
+> 变体来源：S03　改动：取经路山野的土路改造成一条浑黄河边：道路变黑泥浅滩，石壁变缓坡沙岸，杂树变零落芦苇，色调由干燥土黄转为阴浑水色。
+
+### 出图提示词包
+
+**主视角 EN**
+
+```text
+empty turbid dark-yellow river lapping a bare black-silt bank, the riverside now risen from the wilderness, sparse waterlogged grass stalks pressed into wet sand, a few thin yellow reeds across the water, grey overcast light, desolate and forbidding, no people and no creatures anywhere, cinematic wide shot
+```
+
+**反向提示词**
+
+```text
+people, human figures, characters, crowds, silhouettes of people, fish, any living creature, the dry dirt road dominating, dense vegetation, oversaturated colours, warped perspective, melted geometry, floating objects, text, watermark, signature
+```
+
+**设定图 EN**
+
+```text
+ONE 16:9 landscape environment reference sheet for a variant of S03, plain neutral background, thin hairline rules separating an L-shaped detail border. MAIN VIEW in the upper-left is the parent wilderness environment turned into a river bank: the dirt road becomes the black silt bank, the rock wall becomes a sandy slope, the gnarled tree line becomes sparse reeds; keep the structure, materials and wear identical to the reference image. RIGHT COLUMN and BOTTOM ROW are close-up detail crops of the same scene: the rippling turbid water surface, the waterlogged grass stalk pressing into the sand, the tide line of silt, a lone yellow reed bent over the bank, the dark wet footprint-shaped depression in the mud. Every detail panel is a magnified crop of the main view; nothing invented that is not present in the master view. THE SPACE MUST BE IDENTICAL ACROSS ALL PANELS. Absolutely no people and no creatures anywhere.
+```
+
+`environment sheet`, `weathered materials`, `cinematic`, `river`, `silt bank`, `reed`, `mud`, `grey light`
+
+---
+
+## S11 通天河畔
+
+设计意图：从流沙河变体的晒经滩——取经收官前的最后一难。要一段开阔的河滩大石滩，滩上摊晒着被水泡湿的经卷，是落水后狼狈又带希望的收尾处。色比流沙河略亮，掺进一点劫后余生的光。
+
+### 一致性锚点
+
+1. **河滩石块** — 岸边一片起伏平缓的大石滩，适合摊晒，石面灰白
+2. **漾水石面** — 近水的几块大石被水打湿，石面闪光发亮
+3. **散置经包** — 石滩上散落着一摞摞用油布裹着的经卷包，有的摊开晒纸
+4. **浅浅滩水** — 滩边一层退去的浅浅河滩水，反着天的光
+
+### 光照与时段
+
+- **劫后清光**：`empty wide open pebbly riverbank drying beach after a flooding, flat pale grey stones laid out in a fan, patches of shallow receded river water catching the light, bundles of oilcloth-wrapped scripture rolls laid out to dry, clear soft light after rain, calm recovered mood, empty scene with no people, cinematic wide shot`
+
+> 变体来源：S10　改动：流沙河的黑泥浅滩加宽成一片平缓的大石滩，水色由浑黄转清浅退去的滩水，滩上多出晾晒的经卷包，天色由阴晦转雨后的清亮。
+
+### 出图提示词包
+
+**主视角 EN**
+
+```text
+empty wide pebbly riverbank drying beach, the parent dark river bank widened into flat grey stones laid out in a fan, shallow receded river water catching the light, oilcloth-wrapped scripture rolls laid out to dry on the stones, soft clear light after rain, a recovered calm mood, empty scene with no people, cinematic wide shot
+```
+
+**反向提示词**
+
+```text
+people, human figures, characters, crowds, silhouettes of people, any living creature, dense town, the heavy dark overcast of the parent river, oversaturated colours, warped perspective, melted geometry, floating objects, text, watermark, signature
+```
+
+**设定图 EN**
+
+```text
+ONE 16:9 landscape environment reference sheet for a variant of S10, plain neutral background, thin hairline rules separating an L-shaped detail border. MAIN VIEW in the upper-left is the parent river-bank environment widened into the drying beach: the dark silt bank becomes flat grey stones, the turbid channel becomes shallow clear backwater, the sparse reeds stay at the margins; keep the structure, materials and wear identical to the reference image. RIGHT COLUMN and BOTTOM ROW are close-up detail crops of the same scene: the fan of flat grey stones, an oilcloth scripture bundle laid out to dry, the shallow backwater catching light, a water-darkened stone near the waterline, a fold of drying paper clamped on a rock by a pebble. Every detail panel is a magnified crop of the main view; nothing invented that is not present in the master view. THE SPACE MUST BE IDENTICAL ACROSS ALL PANELS. Absolutely no people anywhere.
+```
+
+`environment sheet`, `weathered materials`, `cinematic`, `riverbank`, `stone beach`, `scripture rolls`, `clear light`, `after rain`
+
+---
+
+## S12 森罗宝殿
+
+设计意图：悟空被阴司索魂、怒闯森罗殿一笔勾销生死簿的领地。要一座幽暗森严、让人脊背发凉的幽冥之王庭——与天宫那座明亮金阙正好相反：殿越阴森，悟空「连生死簿都勾了」的胆气就越扎眼，为随后「与天齐名」的狂念铺势。
+
+### 一致性锚点
+
+1. **森罗宝座** — 殿最里头一座高踞的漆黑宝座，座面铺暗色毛皮，背板雕着狰狞兽首，是阴司主君端坐之处
+2. **幽焰长明灯** — 殿顶悬挂的青绿鬼火长明灯，火舌不发暖意，仅冷冷照出一方光亮
+3. **生死册架** — 殿侧一架挨一架的乌木格架，密密麻麻排满泛黄的名册簿子，一路堆到梁顶
+4. **铁索锁柱** — 殿两旁的黑铁锁链缠着殿柱，锈迹斑斑，链尾拖到地上
+
+### 光照与时段
+
+- **幽焰冷光**：`empty vast dark underworld judgment hall, cold blue-green ghost-fire lanterns hanging overhead casting faint spectral light, a high black throne at the far end, tiered dark wooden shelves dense with aged yellow scroll ledgers, black stone floor with thin creeping pale mist, heavy shadowed corners, oppressive chill doomful atmosphere, no people anywhere, cinematic wide shot`
+
+### 出图提示词包
+
+**主视角 EN**
+
+```text
+empty cavernous dark underworld judgment hall, a tall black throne raised on a dais at the far end, shadowed iron pillars bound with thick rusted chains on both sides, tiered dark wooden shelves packed with aged yellowed scroll ledgers reaching up the wall, hanging lanterns leaking cold blue-green ghost light, floor of black polished stone with thin pale mist coiling low, dim chill air heavy with dread, no people anywhere, cinematic wide shot
+```
+
+**反向提示词**
+
+```text
+people, human figures, characters, crowds, silhouettes of people, any living creature, bright warm sunlit palace, cheerful daylight interior, oversaturated colours, warped perspective, melted geometry, floating objects, text, watermark, signature
+```
+
+**设定图 EN**
+
+```text
+ONE 16:9 landscape environment reference sheet, plain neutral background, thin hairline rules separating an L-shaped detail border. MAIN VIEW in the upper-left, about 72% wide x 70% high: the standard establishing view of the dark underworld judgment hall from the iron-locked doorway toward the high black throne, with the first lighting state, the ghost-fire lanterns and the ledger shelves in frame. Weathered, lived-in materials: chipped lacquer, soot and grime on the stone and wood, patina on the iron chains, worn treads under the throne, dust hanging in the cold lamplight; nothing looks factory-new. Atmospheric depth with haze or volumetric light where the space allows. RIGHT COLUMN and BOTTOM ROW are all close-up detail crops of the same space: the grim beast-carved back of the black throne, the cold blue-green ghost-fire lamp, a shelf of aged yellow ledger scrolls, the rusted iron chain coiled around a pillar, the black polished stone floor with creeping mist. Every detail panel is a magnified crop of the main view; nothing invented that is not present in the master view. THE SPACE MUST BE IDENTICAL ACROSS ALL PANELS. Absolutely no people anywhere.
+```
+
+`environment sheet`, `weathered materials`, `cinematic`, `underworld court`, `black stone`, `iron chains`, `ghost fire`, `cold spectral light`
+
+---
+
+## 道具清单
+
+| ID | 道具 | 尺度 | 状态 | 关联场景 | 出现集 | 锚点 |
+| --- | --- | --- | --- | --- | --- | --- |
+| P01 | 金箍棒 | 手持级 | 常态持握 | S08、S02、S04 | 3、4、6、13、15、17、20、24 | 3 |
+| P02 | 紧箍咒 | 手持级 | 独立展示 | S02、S03 | 8、11、13、18 | 3 |
+| P03 | 芭蕉扇 | 手持级 | 合拢藏扇、展开显形 | S06、S04 | 19、20 | 3 |
+| P04 | 锦斓袈裟 | 桌面级 | 展开平铺 | S03 | 12 | 3 |
+| P05 | 无字经卷 | 桌面级 | 合卷整册、翻开空白 | S07 | 21、22、23 | 3 |
+
+---
+
+## P01 金箍棒
+
+戏剧功能：悟空战力与身份凭证，龙宫所得、可长可短的定海神针。它既是全剧第一件奇宝，也是悟空从「得宝」到「决战」一路的武力化身——伸张、显形、收场的实体。
+
+### 一致性锚点
+
+1. **双头金箍** — 棒身两端各套一圈鎏金的金箍，箍上刻细密云纹
+2. **乌铁棒身** — 棒身乌亮如墨的黑铁，光洁无锈、细看有锻打纹
+3. **如意伸缩** — 可随心意抽长缩短、可粗可细，粗时如柱、细时如针
+
+### 状态变体
+
+- **常态持握**：`a stout indeed black iron staff, two gilded rings at each end incised with fine cloud patterns, smooth dark lacquered iron shaft with forging marks, slight upward angle in three-quarter view, empty pure white studio background, handheld scale, no people, no hands`
+
+### 出图提示词包
+
+**主视角 EN**
+
+```text
+an elaborately forged black iron staff lying at a three-quarter angle, two gilded rings at the two ends carved with fine cloud patterns, smooth dark iron shaft revealing faint forging marks, even studio light, isolated on a pure white background, handheld scale, no people, no hands, no fingers
+```
+
+**反向提示词**
+
+```text
+people, human figures, hands, fingers, palm, clutter background, furniture oversize proportions, text, watermark, signature
+```
+
+**设定图 EN**
+
+```text
+ONE 16:9 landscape prop reference sheet, pure white background, thin hairline rules separating an L-shaped border. MAIN VIEW in the upper-left is the black iron staff in three-quarter view at the primary held state, handheld scale, clearly not enlarged to furniture size, isolated on pure white. RIGHT COLUMN close-ups: a gilded end ring with its cloud pattern, the forging marks on the shaft, the junction seam of the gilded ring and the iron. BOTTOM ROW states and side views: a straight orthogonal side view of the full staff, a scaled-down 'pin-thin' variant view, and a 'thick-as-a-column' variant view, all on pure white. Every panel pure white background, same angle consistency, nothing invented. Absolutely NO people, NO hands, NO fingers anywhere; the whole sheet appears ready for keying out.
+```
+
+---
+
+## P02 紧箍咒
+
+戏剧功能：套在悟空头上的金箍与约束他的咒文，忠诚与矛盾的双重来源。它把「自由」和「被管住」同时焊在一个人头上——念咒即痛，是师徒之间张力最具体的落点。
+
+### 一致性锚点
+
+1. **金丝环箍** — 一圈细如线的金色箍身，像一条金线细细环住
+2. **卷头印记** — 箍后脑处嵌着一枚小小的卷云状印记
+3. **细金环扣** — 箍身极细、几乎不透光的纯金质地，扣合处严丝合缝
+
+### 状态变体
+
+- **独立展示**：`a fine thread-thin golden circlet ring, a small curled-cloud mark at the back, seamless pure gold closure, shown alone in three-quarter view, empty pure white studio background, handheld scale, no people, no hands`
+
+### 出图提示词包
+
+**主视角 EN**
+
+```text
+a fine thread-thin pure gold circlet ring in three-quarter view, a small curled-cloud mark on the back band, seamless gold closure, even studio light, isolated on a pure white background, handheld scale, no people, no hands, no fingers
+```
+
+**反向提示词**
+
+```text
+people, human figures, hands, fingers, palm, cluttered background, oversized, text, watermark, signature
+```
+
+**设定图 EN**
+
+```text
+ONE 16:9 landscape prop reference sheet, pure white background, thin hairline rules separating an L-shaped border. MAIN VIEW in the upper-left is the gold circlet in three-quarter view, handheld scale, isolated on pure white. RIGHT COLUMN close-ups: the curled-cloud mark, the smooth inner face of the band, the seamless closure joint. BOTTOM ROW views: a straight frontal view, a top-down view, and a slight diagonal view, all on pure white. Every panel pure white background, identical ring gauge, nothing invented. Absolutely NO people, NO hands, NO fingers anywhere; the whole sheet appears ready for keying out.
+```
+
+---
+
+## P03 芭蕉扇
+
+戏剧功能：扑灭火焰山的关键法器，三调三次一场一场磨出品性。表面是普通芭蕉叶扇，实则能一扇起风、二扇落雨、三扇灭千里烈焰，是设在小物件上的一个大本事。
+
+### 一致性锚点
+
+1. **芭蕉叶形** — 一片舒展的半卷芭蕉叶轮廓的扇面，边缘微微卷起
+2. **筋脉纹路** — 扇面固有的宽大叶脉纹，叶脉之间是细密的叶络
+3. **棕木扇柄** — 扇柄是一截短棕木棍，柄根部缠着一圈褪色布条
+
+### 状态变体
+
+- **合拢藏扇**：`a long palm-sized banana-leaf leaf fan rolled into a tight split, dried palms furled, a short brown wooden handle wrapped with a faded cloth strip at the base, shown upright in three-quarter view, empty pure white studio background, handheld scale, no people, no hands`
+- **展开显形**：`a fully opened horizontal banana-leaf leaf fan, broad blade spread flat showing wide leaf veins and fine nervure, short brown handle at the base wrapped with a faded cloth strip, three-quarter view, empty pure white studio background, handheld scale, no people, no hands`
+
+### 出图提示词包
+
+**主视角 EN**
+
+```text
+a dried banana-leaf palm fan opened wide in three-quarter view, broad flat wide blade with pronounced leaf veins and fine nervure, a short brown wooden handle wrapped with a faded cloth strip at the base, even studio light, isolated on a pure white background, handheld scale, no people, no hands, no fingers
+```
+
+**反向提示词**
+
+```text
+people, human figures, hands, fingers, palm, cluttered background, furniture oversize, text, watermark, signature
+```
+
+**设定图 EN**
+
+```text
+ONE 16:9 landscape prop reference sheet, pure white background, thin hairline rules separating an L-shaped border. MAIN VIEW in the upper-left is the opened banana leaf fan in three-quarter view, handheld scale, isolated on pure white. RIGHT COLUMN close-ups: the leaf vein detail, the nervure between veins, the cloth-wrapped handle base. BOTTOM ROW states and views: a straight frontal view of the open fan, the rolled-up closed state, and a top-down view, all on pure white. Every panel pure white background, same leaf profile, nothing invented. Absolutely NO people, NO hands, NO fingers anywhere; the whole sheet appears ready for keying out.
+```
+
+---
+
+## P04 锦斓袈裟
+
+戏剧功能：唐僧的取经身份象征，一件异宝招妖来夺、引出一难。它越华美、越显眼，越像一个取经人身上不该带的累赘与危险——唐僧愿意为它布施，也因它被人盯上。
+
+### 一致性锚点
+
+1. **梭罗织金** — 袈裟主体素白的面料上织着暗金脉络，布料挺括
+2. **镶金描边** — 袈裟边缘一条细细的镶金描边，沿领沿摆走一圈
+3. **七宝袖扣** — 肩缝处缀着一排七颗小宝石做的扣，颜色错落
+
+### 状态变体
+
+- **展开平铺**：`a magnificent monk's kashaya robe laid out flat, plain white fabric woven with faint dark-gold latticework, a thin gold-embroidered border running along the collar and hem, a row of seven small gem buttons at the shoulder seam, shown from above on an empty pure white studio background, tabletop scale, no people, no hands`
+
+### 出图提示词包
+
+**主视角 EN**
+
+```text
+a magnificent monk's kashaya robe laid out flat from above, white fabric with faint dark-gold lattice weave, gold-embroidered border along collar and hem, seven small jewel buttons of varied colours along the shoulder seam, fabric slightly creased where it settles, even studio light, isolated on a pure white background, tabletop scale, no people, no hands, no fingers
+```
+
+**反向提示词**
+
+```text
+people, human figures, hands, fingers, palm, models, mannequin, cluttered background, worn torn cloth, text, watermark, signature
+```
+
+**设定图 EN**
+
+```text
+ONE 16:9 landscape prop reference sheet, pure white background, thin hairline rules separating an L-shaped border. MAIN VIEW in the upper-left is the kashaya robe laid flat from above at tabletop scale, isolated on pure white. RIGHT COLUMN close-ups: the dark-gold lattice weave, the gold-embroidered border, the row of seven gem buttons. BOTTOM ROW states: a folded-stack view, a hanging view, and an angled laid-flat view, all on pure white, folded and settled crease kept consistent. Every panel pure white background, same weave and buttons, nothing invented. Absolutely NO people, NO hands, NO fingers anywhere; the whole sheet appears ready for keying out.
+```
+
+---
+
+## P05 无字经卷
+
+戏剧功能：真假经的辨试，点破取经重在方寸道心而非经书本身。它是一卷翻开齐整、却白纸一张的经书，看着是宝、读来无字，专在「执念」上做文章——明明求的是经，到手却是一场空。
+
+### 一致性锚点
+
+1. **素白经页** — 翻开的经页通体素白，一个墨字也没有，纸面细滑
+2. **线装书脊** — 经卷用细线装订成的书脊，线脚整齐
+3. **木夹经板** — 摊开时压着经页上下两端的浅木夹板，木色素净
+
+### 状态变体
+
+- **合卷整册**：`a closed threaded sutra volume, sewn binding along the spine, plain light wood cover, tied shut, upright in three-quarter view, empty pure white studio background, tabletop scale, no people, no hands`
+- **翻开空白**：`an open threaded sutra volume with completely blank white pages, fine even paper, plain light wood press boards holding the top and bottom of the open pages, three-quarter view, empty pure white studio background, tabletop scale, no people, no hands`
+
+### 出图提示词包
+
+**主视角 EN**
+
+```text
+an open threaded sutra volume revealing completely blank white pages, fine smooth even paper with no ink marks at all, a plain light wood press board at top and bottom, sewn binding visible, three-quarter view, even studio light, isolated on a pure white background, tabletop scale, no people, no hands, no fingers
+```
+
+**反向提示词**
+
+```text
+people, human figures, hands, fingers, palm, printed text, calligraphy, ink marks, cluttered background, text, watermark, signature
+```
+
+**设定图 EN**
+
+```text
+ONE 16:9 landscape prop reference sheet, pure white background, thin hairline rules separating an L-shaped border. MAIN VIEW in the upper-left is the open blank sutra in three-quarter view at tabletop scale, isolated on pure white. RIGHT COLUMN close-ups: the fine blank paper texture, the sewn spine threads, the plain wood press board edge. BOTTOM ROW states: the closed volume view, a flat open-from-above view, and a slight diagonal open view, all on pure white, pages stay blank. Every panel pure white background, same binding and blank pages, nothing invented. Absolutely NO people, NO hands, NO fingers anywhere; the whole sheet appears ready for keying out.
+```
+

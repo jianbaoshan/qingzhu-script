@@ -1,0 +1,40 @@
+{
+  "name": "唐僧",
+  "aliases": ["三藏", "陈玄奘", "金蝉子转世", "玄奘法师"],
+  "importance": "protagonist",
+  "oneLiner": "东土大唐奉旨西天取经的御弟和尚，心地慈悲却耳软，肉眼凡胎看不出妖邪。",
+  "persona": {
+    "gender": "男",
+    "ageRange": "约三十出头（推断）",
+    "identity": "唐朝国都长安来的取经钦差和尚，俗家姓陈，法名玄奘，因通晓三藏被尊称唐僧/三藏",
+    "appearance": "相貌堂堂、眉清目秀、额阔顶平、两耳垂肩、手过膝，白净略偏胖的面皮，剃度光头。常穿绵布僧衣，正式时披锦襕袈裟、戴毗卢帽、手持九环锡杖，出行戴藤编斗笠，骑一匹白马。胎里素，不饮酒不吃荤。",
+    "personality": ["慈悲仁善", "胆小耳软", "虔诚坚定", "爱落泪念经"],
+    "temperament": "语调和缓恭谨、带着出家人的持重，遇险常低声念佛、垂泪，训诫弟子时和软却絮叨。",
+    "motivation": "一心求取真经、普度众生，坚信善念能行过十万八千里。",
+    "arc": "从一心向佛的肉体凡胎，历经磨难与徒弟冲突，最终坚定道心、取回真经",
+    "relationships": [{ "name": "孙悟空", "relation": "大徒弟，靠紧箍儿咒约束" }, { "name": "如来佛祖", "relation": "降旨开取经之行的佛祖" }, { "name": "观音菩萨", "relation": "点化护佑取经的菩萨" }],
+    "evidence": [
+      "見了三藏的面貌清奇",
+      "團頭大面，兩耳垂肩；嫩刮刮的一身肉，細嬌嬌的一張皮",
+      "三藏拄著九環錫杖，按按藤纏篾織斗篷",
+      "那師父面黃唇白，眼紅淚滴",
+      "相貌軒昂，丰姿英偉"
+    ]
+  },
+  "image": {
+    "prompt": "A dignified, gentle-faced young monk around thirty, with a shaved head, a broad smooth forehead, close-set elegant brows, and long earlobes that reach toward the shoulders. Soft fine skin, slightly plump fair features. He wears a plain pale cotton monk's robe; in formal state a deep-red monastic stole (jiasha) is draped over one shoulder, a high black folding abbot's hat (pi lu mao) on his head, and he carries a staff topped with nine metal rings. A wide-brimmed woven straw traveling hat often hangs at his back. Era: Tang-dynasty China, Buddhist pilgrim. Serene, devout, soft-natured, travel-worn but dignified.",
+    "promptLocal": "一位年约三十、相貌端方柔和的年轻僧人：光头，额头宽阔平滑，眉目清秀，耳垂修长及肩。皮肤细软、面庞白净略丰。穿素色棉布僧衣；正式场合肩披一领深红锦襕袈裟，头戴黑色高顶毗卢帽，手持九环锡杖，背后常挂一顶宽檐藤编斗笠。设定为唐代中国的行脚求经僧人，神色安详笃诚、软善而自持。",
+    "negativePrompt": "same generic face as another character, masculine rugged jaw, full beard, excess jewelry, theatrical makeup, perfectly symmetrical face, stiff mannequin pose, extra fingers, deformed limbs",
+    "tags": ["Tang dynasty China", "Chinese Buddhist pilgrim", "shaved head", "red jiasha stole", "pi lu mao hat", "nine-ring staff", "pale cotton robe", "serene palette"],
+    "sheet": "ONE 16:9 landscape canvas, plain white background with even margins, thin hairline rules separating three zones. ONE single character only. LEFT ZONE (about 34% of canvas width): a large front-facing head-and-shoulders bust as the facial design reference, shoulders complete, bottom edge cropped flat, the serene face and shaved head fully detailed, LIGHTING IN THE LEFT ZONE ONLY: soft directional key from upper left, natural falloff, ambient occlusion under brow and at collar-neck junction for volume. RIGHT-TOP ZONE: three FULL-BODY views side by side (front, side, back) sharing a single ground line, identical head-to-body proportion, showing the plain monk's robe, the sky-blue sleeveless stole and nine-ring staff, the woven straw hat, and boots. RIGHT-BOTTOM ZONE: four to five small isolated close-up studies aligned in one row (the nine-ring staff top, the red jiasha, the woven straw hat edge, a sutra case, the long earlobe profile), clearly smaller than the full-body figures. LIGHTING IN THE RIGHT ZONES: flat even orthographic lighting, no directional key, no shadow. PROPORTIONS ARE CRITICAL: keep the three full-body figures equal height with correct head-to-body ratio and limbs, feet on one ground line, headroom and footing clear; never stretch or squash the figure to fit. One face across all views; the bust is the baseline, right zones follow it. If the detail studies overflow the row, extend them as a column down the right edge—the detail studies give way, not the figures."
+  },
+  "voice": {
+    "timbre": "温和醇厚的男中音，圆润沉稳",
+    "pitch": "中",
+    "pace": "平缓从容，字字分明",
+    "accent": "字正腔圆的北方官话，吐字文雅",
+    "emotion": "慈悲、宽厚，常带关切与劝勉",
+    "prompt": "Early-thirties male, warm rounded baritone, mid-low pitch, relaxed chest resonance, moderate dynamic range. Slow measured pace, clear even articulation, gentle cadence. Standard Mandarin with an elegant refined register. Compassionate, devout, mildly anxious, always softly encouraging.",
+    "referenceHint": "语气安详文雅、不疾不徐，一副与人为善的出家师父"
+  }
+}

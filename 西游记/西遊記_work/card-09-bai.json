@@ -1,0 +1,40 @@
+{
+  "name": "白骨精",
+  "aliases": ["白骨夫人", "白虎岭女妖"],
+  "importance": "supporting",
+  "oneLiner": "白虎岭的僵尸女妖，能解尸遁形，三变人形挑拨师徒，被悟空三次看破打死。",
+  "persona": {
+    "gender": "女",
+    "ageRange": "无常（推断）",
+    "identity": "白虎岭的骷髅女妖，白骨夫人，惯用解尸法，为吃唐僧肉三番变幻戏弄师徒",
+    "appearance": "本相是一堆粉骷髅，脊梁上有一行字书「白骨夫人」。她能解尸遁形、千变万化：一变月貌花容的少女，眉清目秀齿白唇红，左手提青砂罐右手提绿瓷瓶，称送饭斋僧；二变年满八旬拄弯头竹杖哭啼的老妇；三变念经的老公公。身着丫鬟打扮的素衣或老妪村装，随变化改换。",
+    "personality": ["诡诈善变", "阴毒执着", "工于心计", "贪婪贪嘴"],
+    "temperament": "言语柔媚或是哭啼，句句往人心坎上递，专挑师父耳软信善、挑动师徒离心。",
+    "motivation": "挖空心思要吃唐僧肉、求长生，不惜三番变化挑拨离间。",
+    "arc": "三变人形挑拨师徒，被悟空三次看破打死，埋下逐徒又重逢的心性转折",
+    "relationships": [{ "name": "孙悟空", "relation": "三次看破并打死的对头" }, { "name": "唐僧", "relation": "企图骗吃的取经人" }],
+    "evidence": [
+      "變做個月貌花容的女兒，說不盡那眉清目秀，齒白唇紅",
+      "左手提著一個青砂罐兒，右手提著一個綠磁瓶兒",
+      "變作個老婦人，年滿八旬，手拄著一根彎頭竹杖",
+      "那脊梁上有一行字，叫做『白骨夫人』",
+      "卻是一堆粉骷髏"
+    ]
+  },
+  "image": {
+    "prompt": "An eerie ethereal female demon: a willowy figure with a delicate beautiful face at first glance — arched brows, coral-red lips, pale luminous skin — that hides a haggard, hollow quality beneath; long dark hair with a pale bone-white accent. She wears pale plain garments like a village maiden, one hand as if holding a small clay pot, another a green bottle; a faint skeletal chill lingers about her. Era: Tang-dynasty China, a skeletal mountain spirit. Beautiful, beguiling, subtly unnatural and corpse-pale.",
+    "promptLocal": "一位清丽却透着阴气的女性妖：乍看月貌花容、眉似远山、唇红齿白、肤色白得发亮，细看却藏着一股枯槁空洞之态；长发披垂，间以骨白的发饰。穿一身素净的村女衣裳，一手仿佛提着青砂罐、一手持绿瓷瓶，周身萦着一丝森森的白骨寒意。设定为唐代背景下一具成精的白骨山魈，貌美、魅惑而透着一股不自然的僵白。",
+    "negativePrompt": "same generic face as another character, warm rosy healthy complexion, motherly elderly look, excessive jewelry, fairy wings, perfectly symmetrical face, stiff mannequin pose, extra fingers, deformed limbs",
+    "tags": ["Tang dynasty China", "skeletal female spirit", "corpse-pale skin", "beautiful and hollow", "long dark hair", "pale village garments", "clay pot and green bottle", "cerie chill"],
+    "sheet": "ONE 16:9 landscape canvas, plain white background with even margins, thin hairline rules separating three zones. ONE single character only. LEFT ZONE (about 34% of canvas width): a large front-facing head-and-shoulders bust as the facial design reference, shoulders complete, bottom edge cropped flat, the pale beguiling face fully detailed, LIGHTING IN THE LEFT ZONE ONLY: soft directional key from upper left, natural falloff, ambient occlusion under cheekbones and at collar-neck junction for volume. RIGHT-TOP ZONE: three FULL-BODY views side by side (front, side, back) sharing a single ground line, identical head-to-body proportion, showing the slender build, pale garments, and the handled clay pot and green bottle. RIGHT-BOTTOM ZONE: four to five small isolated close-up studies aligned in one row (the deathly pale eye, the bone-white hairpin, the clay pot lid, the green bottle, the hem of the robe), clearly smaller than the full-body figures. LIGHTING IN THE RIGHT ZONES: flat even orthographic lighting, no directional key, no shadow. PROPORTIONS ARE CRITICAL: keep the three full-body figures equal height with correct head-to-body ratio and limbs, feet on one ground line, headroom and footing clear; never stretch or squash the figure to fit. One face across all views; the bust is the baseline, right zones follow it. If the detail studies overflow the row, extend them as a column down the right edge—the detail studies give way, not the figures."
+  },
+  "voice": {
+    "timbre": "轻柔而幽的女生，清甜里藏冷",
+    "pitch": "中偏高",
+    "pace": "柔缓婉转，带着撩人的勾魂劲儿",
+    "accent": "软糯的南方口音，尾音上挑",
+    "emotion": "娇媚、哀怜、包藏祸心的温软",
+    "prompt": "Young adult female voice, light sweet treble with a veiled cold core, mid-to-high pitch, thin ethereal resonance, narrow dynamic range. Soft slow sinuous pace, honeyed lilted articulation, coquettish rising inflections. Southern soft accent. Seductive, pitiful, deceptively tender.",
+    "referenceHint": "声音又软又甜却透着凉气，听着楚楚可怜其实在算计"
+  }
+}

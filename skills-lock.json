@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "skills": {
+    "byted-ark-seedance-skill": {
+      "source": "skills.volces.com",
+      "sourceUrl": "https://skills.volces.com/skills/volcengine/agentplan",
+      "sourceType": "well-known",
+      "computedHash": "2f1bd14bfd91224e101d9258f2ccc83097cf6f4aa04b562ddd081b7e9ae0d718",
+      "wellKnownDigest": "sha256:5b7c4981141b9dcb2bb0401fef3fe57a35402eb7d0d4693db94f70686ba4d4d1"
+    },
+    "find-skills": {
+      "source": "vercel-labs/skills",
+      "sourceType": "github",
+      "skillPath": "skills/find-skills/SKILL.md",
+      "computedHash": "913b9d37d0d54047dd65222bb8c67b2bf04e3cb87dcad1729068d7a8b2c8c396"
+    }
+  }
+}

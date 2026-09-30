@@ -1,0 +1,40 @@
+{
+  "name": "沙僧",
+  "aliases": ["沙悟净", "沙和尚", "卷帘大将"],
+  "importance": "supporting",
+  "oneLiner": "流沙河出身的卷帘大将转世，青脸獠牙、闷头挑担断后，最稳最靠得住的队友。",
+  "persona": {
+    "gender": "男",
+    "ageRange": "外观为青壮汉子（推断）",
+    "identity": "取经团三徒弟，原是天庭卷帘大将，因打碎宝盏被贬，法名沙悟净，人称沙僧",
+    "appearance": "身长丈二、臂阔三停的高大汉子，面如蓝靛、晦气色的脸上一双目光灼灼的眼睛，口似血盆、牙排钉齿，通身黑。穿黄锦直裰，项下曾挂九颗骷髅串珠（皈依后为念珠），手持降妖宝杖。沉默寡言，负责挑担断后、看守行李马匹。",
+    "personality": ["沉稳寡言", "忠厚重义", "老实本分", "善于调解"],
+    "temperament": "话少而稳，答话简短笃定，遇事不慌、劝和最多，声线低沉平实。",
+    "motivation": "守着师父和行李，一步不掉地走完取经路。",
+    "arc": "从流沙河吃人的卷帘大将，皈依后成为最稳的队友与调解者",
+    "relationships": [{ "name": "唐僧", "relation": "师父，最愿听他劝和" }, { "name": "孙悟空", "relation": "大师兄，常劝他与八戒别吵" }, { "name": "猪八戒", "relation": "二师兄，一起挑担路上拌嘴" }],
+    "evidence": [
+      "他生得身長丈二，臂闊三停，臉如藍靛，口似血盆，眼光閃灼，牙齒排釘",
+      "那怪物手執一根寶杖",
+      "一隻手執著降妖寶杖，一隻手牽著韁繩",
+      "像夜叉的，是我三徒沙悟淨",
+      "這黑長的是沙和尚"
+    ]
+  },
+  "image": {
+    "prompt": "A towering broad-shouldered male of a fearsome guardian: a long dark-blue slack face, deep-set glowing eyes, a wide fierce mouth set with jagged teeth, weathered dark skin, tall and stalwart. He wears a yellow brocade monk's robe (jin zhi dao) with a rope strung with beads at the neck, and carries a heavy demon-subduing staff. Era: Tang-dynasty China, a converted river monster serving as a Buddhist pilgrim's escort. Low-key, silent, stalwart and trustworthy rather than villainous.",
+    "promptLocal": "一位身形高壮、如护法罗汉般的男性：脸膛青蓝发暗，目光深炯，阔口中一排参差错牙，皮肤风霜黝黑，身姿高大敦实。穿一领黄色织锦直裰，项下挂一串绳串念珠，手拄一杆降妖宝杖。设定为唐代背景下皈依佛门、保师西行的流沙河怪转世，低调、沉稳、可靠而并不凶恶。",
+    "negativePrompt": "same generic face as another character, clean white teeth, smooth light skin, slim build, refined gentlemanly features, perfectly symmetrical face, stiff mannequin pose, extra fingers, deformed limbs",
+    "tags": ["Tang dynasty China", "blue-skinned guardian", "jagged teeth", "glowing eyes", "yellow brocade robe", "bead necklace", "demon-subduing staff", "stalwart silence"],
+    "sheet": "ONE 16:9 landscape canvas, plain white background with even margins, thin hairline rules separating three zones. ONE single character only. LEFT ZONE (about 34% of canvas width): a large front-facing head-and-shoulders bust as the facial design reference, shoulders complete, bottom edge cropped flat, the blue-faced fierce guardian face fully detailed, LIGHTING IN THE LEFT ZONE ONLY: soft directional key from upper left, natural falloff, ambient occlusion under brow and at collar-neck junction for volume. RIGHT-TOP ZONE: three FULL-BODY views side by side (front, side, back) sharing a single ground line, identical head-to-body proportion, showing the tall build, the yellow robe, the bead necklace, and the demon-subduing staff. RIGHT-BOTTOM ZONE: four to five small isolated close-up studies aligned in one row (the jagged teeth, the glowing eye, the bead rope, the staff head, the worn boot), clearly smaller than the full-body figures. LIGHTING IN THE RIGHT ZONES: flat even orthographic lighting, no directional key, no shadow. PROPORTIONS ARE CRITICAL: keep the three full-body figures equal height with correct head-to-body ratio and limbs, feet on one ground line, headroom and footing clear; never stretch or squash the figure to fit. One face across all views; the bust is the baseline, right zones follow it. If the detail studies overflow the row, extend them as a column down the right edge—the detail studies give way, not the figures."
+  },
+  "voice": {
+    "timbre": "低沉稳重的男中低音，气沉而平实",
+    "pitch": "低",
+    "pace": "沉稳中等，句句干脆",
+    "accent": "普通话，带一点北方的板正",
+    "emotion": "忠厚、镇定、笃定",
+    "prompt": "Middle-aged male voice, low steady bass-baritone, deep pitch, grounded chest resonance, moderate dynamic range. Even measured pace, short crisp sentences, no idle chatter. Standard Mandarin with a steady no-nonsense register. Loyal, composed, quietly reassuring.",
+    "referenceHint": "话少声音沉，稳稳当当不慌不忙，可靠的人"
+  }
+}

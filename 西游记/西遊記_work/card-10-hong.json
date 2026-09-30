@@ -1,0 +1,40 @@
+{
+  "name": "红孩儿",
+  "aliases": ["圣婴大王", "善财童子"],
+  "importance": "supporting",
+  "oneLiner": "牛魔王之子，在火焰山修成三昧真火的小大王，赤脚束锦绣战裙、使丈八火尖枪，被观音收为善财童子。",
+  "persona": {
+    "gender": "男",
+    "ageRange": "外貌如顽童（推断）",
+    "identity": "牛魔王之子、罗刹女所生，曾在火焰山修行三百年炼成三昧真火，号圣婴大王，后皈依观音为善财童子",
+    "appearance": "身量小巧、五官周正的少年童子，凶悍张狂。戏人时变作七岁赤身吊在树梢喊救人的顽童；现原身时不穿盔甲，只在腰间束一条锦绣战裙、赤脚，使一杆丈八长火尖枪，口喷三昧真火、鼻喷浓烟。被观音收服后剃度，留下三个顶搭、挽起三个窝角揪儿，双手因合掌受戒而遗留「观音扭」之姿。",
+    "personality": ["凶悍嚣狂", "骄横不服", "机灵狡黠", "少年意气"],
+    "temperament": "说话带着孩子气的骄横与狠辣，敢对观音提枪，嘴上也绝不让步，被降后倒是干脆。",
+    "motivation": "仗着三昧真火肆意逞凶，不肯屈从任何神佛。",
+    "arc": "三昧真火逞凶，被观音收为善财童子，串起火焰山伏线",
+    "relationships": [{ "name": "牛魔王", "relation": "父亲" }, { "name": "观音菩萨", "relation": "收服他、度作善财童子" }, { "name": "孙悟空", "relation": "斗法被降的对头" }],
+    "evidence": [
+      "搖身一變，變作七歲頑童，赤條條的身上無衣，將麻繩綑了手足，高吊在那松樹梢頭",
+      "也無甚麼盔甲，只是腰間束一條錦繡戰裙，赤著腳，走出門前",
+      "有那一夥管兵器的小妖，著兩個擡出一桿丈八長的火尖槍，遞與妖王",
+      "口裡噴出火來，鼻子裡濃煙迸出",
+      "把那怪分頂剃了幾刀，剃作一個太山壓頂，與他留下三個頂搭，挽起三個窩角揪兒"
+    ]
+  },
+  "image": {
+    "prompt": "A small fierce young boy-demon, child-like in size but unnaturally cocky: a clear-featured boy face, bright intense eyes, sharp and defiant. He wears no armor — a brocade battle skirt tied around his waist, barefoot, sometimes wisp of flame coiling from his mouth. In his tamed state his hair is shaved into three small tufts and his hands are pressed together palm-to-palm at his chest in an uneasily fixed prayer-mudra. Era: Tang-dynasty China, a fire-spirited demon prince. Precocious, rebellious, a little menace in boy's skin.",
+    "promptLocal": "一位身形小巧、凶悍张狂的男孩妖王：眉清目朗、目光灼灼逼人，神情骄横又带稚气。不披盔甲——腰间只束一条锦绣战裙，赤着双足，偶有火苗从口边迸出。被收服后的模样是头顶剃成三撮小发揪，双手在胸前合掌、摆出一副不太自在的合十之姿。设定为唐代背景下喷火的三昧真火小魔王，早慧、桀骜、一身孩子气却是个小煞星。",
+    "negativePrompt": "same generic face as another character, soft innocent dimpled child, warm gentle eyes, adult proportions, king's crown, fire that obscures the body, perfectly symmetrical face, stiff mannequin pose, extra fingers, deformed limbs",
+    "tags": ["Tang dynasty China", "boy demon prince", "inner fire spirit", "brocade battle skirt", "barefoot", "shaved tufts of hair", "praying hands", "fiery menace"],
+    "sheet": "ONE 16:9 landscape canvas, plain white background with even margins, thin hairline rules separating three zones. ONE single character only. LEFT ZONE (about 34% of canvas width): a large front-facing head-and-shoulders bust as the facial design reference, shoulders complete, bottom edge cropped flat, the fierce boy face fully detailed, LIGHTING IN THE LEFT ZONE ONLY: soft directional key from upper left, natural falloff, ambient occlusion under the brow and at collar-neck junction for volume. RIGHT-TOP ZONE: three FULL-BODY views side by side (front, side, back) sharing a single ground line, identical head-to-body proportion, showing the small stature, the brocade battle skirt, and the praying-hand pose. RIGHT-BOTTOM ZONE: four to five small isolated close-up studies aligned in one row (the defiant eye, the three hair tufts, the brocade sash, the fire-spitting mouth corner, the praying hands), clearly smaller than the full-body figures. LIGHTING IN THE RIGHT ZONES: flat even orthographic lighting, no directional key, no shadow. PROPORTIONS ARE CRITICAL: keep the three full-body figures equal height with correct head-to-body ratio and limbs, feet on one ground line, headroom and footing clear; never stretch or squash the figure to fit. One face across all views; the bust is the baseline, right zones follow it. If the detail studies overflow the row, extend them as a column down the right edge—the detail studies give way, not the figures."
+  },
+  "voice": {
+    "timbre": "清亮尖脆的童声，银铃般又带狠劲",
+    "pitch": "高",
+    "pace": "急促，语快话冲",
+    "accent": "普通话童音，咬字利落",
+    "emotion": "骄横、嚣狂、孩子气的狠",
+    "prompt": "Child-voiced male, bright piercing treble, high pitch, thin bright resonance, wide dynamic range. Quick impatient pace, sharp clipped articulation, staccato energy. Standard Mandarin with a precocious bite. Defiant, arrogant, a boy's temper in over-full measure.",
+    "referenceHint": "声音脆亮又快又冲，像刁钻的小霸王"
+  }
+}

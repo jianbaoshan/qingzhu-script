@@ -1,0 +1,40 @@
+{
+  "name": "观音菩萨",
+  "aliases": ["菩萨", "南海菩萨", "观世音", "善财夜游"],
+  "importance": "supporting",
+  "oneLiner": "南海落伽山的大慈大悲观世音，取经路的策划者与关键救场者，总在最难处伸手。",
+  "persona": {
+    "gender": "女",
+    "ageRange": "宝相庄严、无年岁（推断）",
+    "identity": "南海普陀落伽山观音菩萨，被佛派往东土寻取经人，一路点化收服悟空的紧箍儿与唐僧的取经使命皆源于她",
+    "appearance": "托净瓶、持杨柳枝的菩萨，乘祥云端坐莲花台，通身慈光，头上有祥云盖顶、左右香雾笼身。有时化作救人渡难的善财龙女鱼篮之像，也化作年高老母试探凡间。她收服过黑熊精与红孩儿（度作守山大神与善财童子），依样给悟空上了紧箍儿咒。",
+    "personality": ["大慈大悲", "威严正直", "慧眼如炬", "宽严并济"],
+    "temperament": "语调和煦而庄重，点破人心时从容中带着点醒，对顽劣的猴头既有慈悲也有一份不容置疑的威严。",
+    "motivation": "代佛选人、护佑取经，度一方妖魔归于正果。",
+    "arc": "点化天庭寻取经人，多次在悟空绝境时出手，始终是取经路的守护符",
+    "relationships": [{ "name": "孙悟空", "relation": "点化并约束的救命恩人" }, { "name": "唐僧", "relation": "赐紧箍儿咒护其取经" }, { "name": "如来佛祖", "relation": "授命寻取经人、赐箍儿的佛祖" }],
+    "evidence": [
+      "拔楊柳枝，蘸甘露，把手心裡寫一個「迷」字",
+      "將手中寶珠、淨瓶往海心裡撲的一摜",
+      "這寶貝原是我佛如來賜我往東土尋取經人的金、緊、禁三個箍兒",
+      "你這猴子，你不遵教令，不受正果",
+      "一個年高的老母，捧一件綿衣，綿衣上有一頂花帽"
+    ]
+  },
+  "image": {
+    "prompt": "A serene compassionate female Bodhisattva appearing as an ageless ethereal figure: a gentle oval face, half-lidded merciful eyes, a calm benevolent expression, wearing a flowing white-and-seafoam celestial robe with a softly draped white veil and a jewelled crown. She holds a porcelain vase (jing ping) in one palm and a willow twig in the other, seated on an open lotus blossom that drifts amid soft cloud. A soft halo and delicate refulgence around the head. Era: Tang-dynasty China Buddhist celestial realm. Radiant, merciful, serene, maternal in compassion yet august in gravity.",
+    "promptLocal": "一位雍容慈悲的女性法相，面容柔和的鹅蛋脸，双目半阖、含笑垂怜，披一袭白与海青色相间的流云天衣，覆软纱、戴宝冠。一手托白瓷净瓶，一手持杨柳枝，端坐于云间盛开的莲台之上，头顶柔光、周身瑞霭。设定为唐代中国佛国背景下的庄严法相，慈悲悯人、既平和又可亲。",
+    "negativePrompt": "same generic face as another character, hard masculine features, ornate crown of an empress, heavy makeup, cluttered jewelry, perfectly symmetrical face, stiff mannequin pose, extra fingers, deformed limbs",
+    "tags": ["Tang dynasty China", "female Bodhisattva", "white and seafoam robe", "jewelled crown", "porcelain vase", "willow twig", "lotus seat", "compassionate halo"],
+    "sheet": "ONE 16:9 landscape canvas, plain white background with even margins, thin hairline rules separating three zones. ONE single character only. LEFT ZONE (about 34% of canvas width): a large front-facing head-and-shoulders bust as the facial design reference, shoulders complete, bottom edge cropped flat, the serene female face and crown fully detailed, LIGHTING IN THE LEFT ZONE ONLY: soft directional key from upper left, natural falloff, ambient occlusion under the veil and at collar-neck junction for volume. RIGHT-TOP ZONE: three FULL-BODY views side by side (front, side, back) sharing a single ground line, identical head-to-body proportion, showing the flowing robe, draped veil, the porcedain vase and willow twig. RIGHT-BOTTOM ZONE: four to five small isolated close-up studies aligned in one row (the vase mouth, the willow leaves, the jewelled crown, the lotus petal, the hem of the veil), clearly smaller than the full-body figures. LIGHTING IN THE RIGHT ZONES: flat even orthographic lighting, no directional key, no shadow. PROPORTIONS ARE CRITICAL: keep the three full-body figures equal height with correct head-to-body ratio and limbs, feet on one ground line, headroom and footing clear; never stretch or squash the figure to fit. One face across all views; the bust is the baseline, right zones follow it. If the detail studies overflow the row, extend them as a column down the right edge—the detail studies give way, not the figures."
+  },
+  "voice": {
+    "timbre": "清润柔和的女性配音，空灵圆和",
+    "pitch": "中偏高",
+    "pace": "舒缓从容，余韵袅袅",
+    "accent": "字字清晰的国语，温软庄重",
+    "emotion": "慈悲、安然、点化的从容",
+    "prompt": "Ageless female voice, clear mellow treble-alto, mid-to-high pitch, airy luminous resonance, moderate dynamic range. Slow serene pace, smooth flowing articulation, lingering gentle cadence. Standard Mandarin with a soft hallowed warmth. Compassionate, unruffled, gently authoritative.",
+    "referenceHint": "声音柔净空灵、不紧不慢，带着让人安心的慈悲"
+  }
+}

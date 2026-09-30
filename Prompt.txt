@@ -1,0 +1,27 @@
+执行shuohao-skills完整短剧流水线，严格按顺序串行执行，禁止跳步骤，上一步成功并输出文件后才能进入下一步。
+技能清单：novel-outline → novel-characters → novel-art → novel-script → novel-storyboard
+
+【执行规则】
+1. 每一步必须调用对应skill，执行完成后运行该技能目录下的selftest.mjs做JSON格式与业务规则校验；
+2. 如果selftest校验报错，立刻停止流水线，输出详细错误清单，等待人工确认修复，**不自动继续往下跑**；
+3. 所有输出JSON文件保存到项目根目录：outline.json、characters.json、art.json、script.json、storyboard.json；
+4. 文件读取全部使用项目相对路径；
+5. 全部5个阶段执行完毕后，执行根目录scripts/report.mjs，生成整套短剧素材的HTML汇总报告；
+6. 每完成一个阶段，输出阶段小结，包含产出文件、校验结果、人工审核要点。
+
+【分步任务】
+Step1：使用 novel-outline 技能，读取 samples/渡口.txt，生成短剧大纲，输出 outline.json，执行selftest校验。
+Step2：使用 novel-characters 技能，读取 outline.json，生成角色人设包，输出 characters.json，执行selftest校验。
+Step3：使用 novel-art 技能，读取 outline.json，生成场景与道具美术设定，输出 art.json，执行selftest校验。
+Step4：使用 novel-script 技能，读取 outline.json、characters.json、art.json，生成投产短剧剧本，输出 script.json，执行selftest校验。
+Step5：使用 novel-storyboard 技能，读取 script.json，生成分镜投产包，输出 storyboard.json，执行selftest校验。
+
+全部步骤跑完后，执行 node scripts/report.mjs 生成HTML汇总报告，最后输出完整流水线总结，列出所有产出文件、质量校验情况、后续投产指引（绘图、TTS配音、视频生成）。
+
+
+
+
+1. 角色 / 场景图：ComfyUI（FLUX）
+2. 配音：CosyVoice / EmotiVoice，直接使用角色音色 prompt
+3. 图生视频：Wan2.2，用分镜首帧 + 提示词生成片段
+4. 剪辑、字幕、背景音乐合成成片

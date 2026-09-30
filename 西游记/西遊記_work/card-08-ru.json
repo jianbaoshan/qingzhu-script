@@ -1,0 +1,38 @@
+{
+  "name": "如来佛祖",
+  "aliases": ["如来", "释迦牟尼", "佛祖"],
+  "importance": "supporting",
+  "oneLiner": "西天极乐世界的世尊，翻掌之间以五行山压住闹天宫的悟空，又授命开取经之行、终局封授正果。",
+  "persona": {
+    "gender": "男",
+    "ageRange": "佛相圆融、无年岁（推断）",
+    "identity": "西方极乐世界释迦牟尼尊者，如来佛祖，腹有天地、以手掌赌赛压了悟空五百年，后又点化取经、论功封赏",
+    "appearance": "结跏趺坐于莲台、通身圆光的世尊，宝相庄严、螺发相合，身后有佛光莲影。他伸出右手似荷叶大小，让悟空一筋斗十万八千里也翻不出掌心；翻掌把猴王推出西天门外，五指化作金木水火土五座联山压住。后见悟空抚顶金箍自无，一一封授正果。",
+    "personality": ["大智圆融", "慈悲平等", "高深难测", "明察因果"],
+    "temperament": "语调和缓深远，带着晓谕天地因果的从容，半是慈悲半是游戏，谈笑间定了命运。",
+    "motivation": "开演大法、度一切有缘人，令取经有成、善恶各归其所。",
+    "arc": "以五行山压悟空，又授意取经渡难，最后一手封赏正果",
+    "relationships": [{ "name": "孙悟空", "relation": "压在五行山、又准其取经正果" }, { "name": "观音菩萨", "relation": "授命寻取经人、赐箍儿" }, { "name": "唐僧", "relation": "取经使命的开示者" }],
+    "evidence": [
+      "伸開右手，卻似個荷葉大小",
+      "我與你打個賭賽：你若有本事，一觔斗打出我這右手掌中，算你贏",
+      "把這猴王推出西天門外，將五指化作金、木、水、火、土五座聯山，喚名「五行山」，輕輕的把他壓住"
+    ]
+  },
+  "image": {
+    "prompt": "A transcendent Buddha seated in serene meditation: a round serene face with closed or half-lidded peaceful eyes, a high ushnisha crown and close-set spiral curls, prominent earlobes, a calm gently smiling mouth. He wears a loose flowing saffron-and-gold monastic robe with one shoulder draped, seated cross-legged on an open lotus blossom. A large luminous radiant halo behind the head and shoulders, soft light around the whole figure. Era: Tang-dynasty Chinese Buddhist Western Paradise. Supreme oceanic wisdom, immeasurable compassion, serene and unsearchably deep.",
+    "promptLocal": "一位结跏趺坐、禅定安详的世尊：面容圆和端严，双目微阖、含笑垂慈，头顶螺髪高髻，耳垂修长，口角含一丝浅笑。披一袭宽松的橙金相间、一肩斜披的僧衣，端坐于盛开的莲台之上。身后一轮大而明亮的光晕，周身柔光。设定为唐代中国西方极乐世界背景下的佛相，圆融广大的智慧、无量的慈悲，静深难测。",
+    "negativePrompt": "same generic face as another character, martial pose, imperial crown of an emperor, ornate jewelry, fierce angry expression, perfectly symmetrical face, stiff mannequin pose, extra fingers, deformed limbs",
+    "tags": ["Tang dynasty China", "Buddha", "spiral curls and ushnisha", "saffron-gold robe", "lotus seat", "luminous halo", "cross-legged meditation", "oceanic calm"],
+    "sheet": "ONE 16:9 landscape canvas, plain white background with even margins, thin hairline rules separating three zones. ONE single character only. LEFT ZONE (about 34% of canvas width): a large front-facing head-and-shoulders bust as the facial design reference, shoulders complete, bottom edge cropped flat, the serene Buddha face fully detailed, LIGHTING IN THE LEFT ZONE ONLY: soft directional key from upper left, natural falloff, ambient occlusion under the brows and at collar-neck junction for volume. RIGHT-TOP ZONE: three FULL-BODY views side by side (front, side, back) sharing a single ground line, identical head-to-body proportion, showing the cross-legged silhouette, the draped saffron robe, and the lotus seat. RIGHT-BOTTOM ZONE: four to five small isolated close-up studies aligned in one row (the spiral curls, the long earlobe, the ritual hand gesture, the robe drape, the lotus petal), clearly smaller than the full-body figures. LIGHTING IN THE RIGHT ZONES: flat even orthographic lighting, no directional key, no shadow. PROPORTIONS ARE CRITICAL: keep the three full-body figures equal height with correct head-to-body ratio and limbs, feet on one ground line, headroom and footing clear; never stretch or squash the figure to fit. One face across all views; the bust is the baseline, right zones follow it. If the detail studies overflow the row, extend them as a column down the right edge—the detail studies give way, not the figures."
+  },
+  "voice": {
+    "timbre": "浑厚圆融的男低音，通透沉远",
+    "pitch": "低沉悠长",
+    "pace": "极缓，一字一字带着余韵",
+    "accent": "字音圆润的国语，如诵如禅",
+    "emotion": "慈悲、通透、万象于胸的从容",
+    "prompt": "Ageless male voice, deep omniscient bass-baritone, very low resonant pitch, wide warm chest resonance, broad dynamic range. Extremely slow cadence, rounded measured articulation with lingering resonance. Standard Mandarin with a chiming, prayerful depth. Compassionate, lucid, magnanimous and imperturbable.",
+    "referenceHint": "声音又低又沉，一字一句都有回响，像佛殿里的钟"
+  }
+}

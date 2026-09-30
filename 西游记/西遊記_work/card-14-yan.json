@@ -1,0 +1,38 @@
+{
+  "name": "阎王",
+  "aliases": ["十代冥王", "阎罗王", "十殿阎君"],
+  "importance": "minor",
+  "oneLiner": "主宰幽冥地府的十代冥王，生死簿上勾尽猴属名目，被悟空搅得慌忙排班、径入地府勾销定数。",
+  "persona": {
+    "gender": "男",
+    "ageRange": "地府至尊，无年岁（推断）",
+    "identity": "阴间天子十代冥王（秦广、初江、宋帝、忤官、阎罗、平等、泰山、都市、卞城、转轮十王），执掌生死簿",
+    "appearance": "幽冥殿上端坐的十殿冥王，威严可怖的地府帝君，朝服冕旒、执笏掌印，通身阴寒的威仪。悟空入地府勾销生死簿，慌得十王急整衣相迎、躬身陪话，捧出生死簿任其把猴属的名目一概勾掉。具地府的赏善罚恶之权，却对这闹入幽冥的猴王徒唤奈何。",
+    "personality": ["威严端肃", "守规执定", "色厉内荏", "按簿行事"],
+    "temperament": "语带阴司的森严与官腔，遇到强手先慌后恭，一面摆皇帝的架子一面又不敢得罪人。",
+    "motivation": "严守幽冥纲常、照生死簿行使定数，谁也不能轻易动摇地府的章法。",
+    "arc": "被悟空大闹幽冥勾销生死簿，地府纲纪受扰、却拿这猴王无可奈何",
+    "relationships": [{ "name": "孙悟空", "relation": "被其勾销生死簿的闹事者" }],
+    "evidence": [
+      "我等是陰間天子十代冥王",
+      "我等是秦廣王、初江王、宋帝王、忤官王、閻羅王、平等王、泰山王、都市王、卞城王、轉輪王",
+      "慌得那十代冥王急整衣來看，見他相貌兇惡，即排下班次"
+    ]
+  },
+  "image": {
+    "prompt": "A grim majestic sovereign of the underworld: a stern long-faced male ruler with a full dark beard, heavy brow, and a level unblinking gaze, wearing the solemn black-and-deep-blue court dress of a judge-king with a flat ceremonial crown and dangling bead tassels, holding a tally or a registrar's brush in keeping a book of life and death. A chill of the netherworld hangs about him. Era: Tang-dynasty Chinese underworld. Grave, unyielding, exercising an absolute and terrible authority that dares not tremble even when it is overruled.",
+    "promptLocal": "一位威仪森严、执掌幽冥的君主：面容长方严峻、浓髯垂胸、重眉压目、目光凝定，着黑与深青相间的冥府朝服，头戴平天冠、垂珠缀饰，手中持笏或执一管判官笔，身前悬着一册生死簿。周身萦着地府的阴寒威严。设定为唐代中国幽冥地府背景下掌生死定数的十殿之王，端峻不移、命令森严而凛然不可犯。",
+    "negativePrompt": "same generic face as another character, cheerful expression, warm palace colors, monk's shaved head, misshapen demon horns, perfectly symmetrical face, stiff mannequin pose, extra fingers, deformed limbs",
+    "tags": ["Tang dynasty China", "underworld sovereign", "dark court robe", "flat crown with bead tassels", "full dark beard", "registrar's brush", "book of life and death", "grim gravity"],
+    "sheet": "ONE 16:9 landscape canvas, plain white background with even margins, thin hairline rules separating three zones. ONE single character only. LEFT ZONE (about 34% of canvas width): a large front-facing head-and-shoulders bust as the facial design reference, shoulders complete, bottom edge cropped flat, the grave judge-king face fully detailed, LIGHTING IN THE LEFT ZONE ONLY: soft directional key from upper left, natural falloff, ambient occlusion under the crown and at collar-neck junction for volume. RIGHT-TOP ZONE: three FULL-BODY views side by side (front, side, back) sharing a single ground line, identical head-to-body proportion, showing the dark judge's robe, flat crown, broad sash and the registrar's brush. RIGHT-BOTTOM ZONE: four to five small isolated close-up studies aligned in one row (the bead tassel, the registrar's brush, the tally, the jade belt plaque, the ominous hem sigil), clearly smaller than the full-body figures. LIGHTING IN THE RIGHT ZONES: flat even orthographic lighting, no directional key, no shadow. PROPORTIONS ARE CRITICAL: keep the three full-body figures equal height with correct head-to-body ratio and limbs, feet on one ground line, headroom and footing clear; never stretch or squash the figure to fit. One face across all views; the bust is the baseline, right zones follow it. If the detail studies overflow the row, extend them as a column down the right edge—the detail studies give way, not the figures."
+  },
+  "voice": {
+    "timbre": "浑厚低沉的男中音，森严带哀",
+    "pitch": "低平",
+    "pace": "缓慢郑重，官腔十足",
+    "accent": "字正腔圆的官音，端肃",
+    "emotion": "威严、阴森、色厉内荏",
+    "prompt": "Male voice of unshakable authority, deep dark baritone, low flat pitch, heavy stern resonance, moderate dynamic range. Slow weighty official pace, grave formal articulation, courtroom cadence. Standard Mandarin with an exacting grim register. Sovereign, solemn, slightly unnerved beneath the surface.",
+    "referenceHint": "声音又低又慢像宣判，带着阴司的冷与官威"
+  }
+}

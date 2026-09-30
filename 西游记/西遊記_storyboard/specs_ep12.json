@@ -1,0 +1,407 @@
+[
+  {
+    "id": "E12-01", "sceneIndex": 1,
+    "blocking": "黄昏官道边，唐僧骑马立于画面右侧，悟空在左已翻身下马；二人并望那座破庙。",
+    "soundscape": "黄昏官道的风声，唐僧勒马合掌的衣响，悟空推门的吱呀",
+    "music": "弦声带一丝萧索，借宿破庙的将歇",
+    "soundscapeEn": "The wind on the dusk road, the monk reining in and joining his palms, and the creak of the monk forcing the door.",
+    "musicEn": "Strings faintly desolate, a rest at a ruined shrine.",
+    "cuts": [
+      { "beats": [1, 1], "seconds": 3, "size": "wide", "camera": "Static Shot", "characters": ["C02"],
+        "frame": "全景：黄昏的官道边，唐僧见路旁一座破旧的古庙，勒住马朝庙方向合了合掌。",
+        "shot": "固定机位，黄昏官道边的僧人望见一座破旧古庙，勒住坐骑朝庙门合了合掌。",
+        "lens": "24mm 广角，深景深", "cameraPosition": "唐僧 + 平视侧面", "composition": "三分法", "eyeline": "望向庙门", "focus": "锁定合掌的僧人", "stability": "stable",
+        "body": "a static wide shot of the robed monk reining in on the dusk road and joining his palms toward a crumbling shrine" },
+      { "beats": [2, 2], "seconds": 3, "size": "medium", "camera": "Static Shot", "characters": ["C01"],
+        "frame": "中景：悟空翻身下马，上前一把推开那枯朽的庙门，门轴吱呀作响。",
+        "shot": "固定机位，猴军翻身下马上前一把推开枯朽的庙门，门轴吱呀作响。",
+        "lens": "50mm 标准，中浅景深", "cameraPosition": "孙悟空 + 平视正面", "composition": "中心构图", "eyeline": "望向庙内", "focus": "锁定推开庙门的手", "stability": "stable",
+        "body": "a static medium shot of the monkey dismounting and shoving open the rotting shrine gate, the hinges creaking" }
+    ]
+  },
+  {
+    "id": "E12-02", "sceneIndex": 1,
+    "blocking": "唐僧立于庙门右侧开口，悟空站在门内里侧应声；二人定下今夜投宿。",
+    "soundscape": "唐僧温声的吩咐，悟空的欢快应答，庙里簌簌的尘土味",
+    "music": "弦声和缓，夜宿破庙的安宁",
+    "soundscapeEn": "The monk's gentle word, the monkey's brisk reply, and the soft sift of dust in the shrine.",
+    "musicEn": "Strings calm, an easy night at the shrine.",
+    "cuts": [
+      { "beats": [3, 3], "seconds": 4, "size": "medium", "camera": "Static Shot", "characters": ["C02"],
+        "frame": "中景：唐僧颔首，说天色将晚，今夜便在此间投宿一晚。",
+        "shot": "固定机位，立在庙门侧的僧人颔首，说天色将晚，今夜就在此借宿一晚。",
+        "lens": "50mm 标准，中浅景深", "cameraPosition": "唐僧 + 平视正面", "composition": "三分法", "eyeline": "望向悟空", "focus": "锁定唐僧安顿的神色", "stability": "stable",
+        "body": "a static medium shot of the monk nodding, saying the day grows late and they will stay the night here" },
+      { "beats": [4, 4], "seconds": 5, "size": "close", "camera": "Static Shot", "characters": ["C01"],
+        "frame": "特写：悟空应声往庙里走，说先进去探探底，别藏着什么邪祟。",
+        "shot": "固定机位贴着他，进屋的猴军扬声应下，说要先进去探探底、防着有邪祟。",
+        "lens": "85mm 长焦，极浅景深", "cameraPosition": "孙悟空 + 平视正面", "composition": "中心构图", "eyeline": "望向庙内", "focus": "锁定悟空探路的警觉", "stability": "stable",
+        "body": "a static close-up on the monkey stepping in, offering to check the place for lurking evil" }
+    ]
+  },
+  {
+    "id": "E12-03", "sceneIndex": 1,
+    "blocking": "悟空在庙里兜了一圈后立在殿中央，唐僧立于殿门处；殿内空空无人。",
+    "soundscape": "悟空兜殿转圈的脚步，庙里空旷的静，唐僧进殿的脚步",
+    "music": "弦声略松，确认空庙清净",
+    "soundscapeEn": "The monkey's steps as he circles the hall, the emptiness of the shrine, and the monk's entering steps.",
+    "musicEn": "Strings easing, the shrine confirmed clean.",
+    "cuts": [
+      { "beats": [5, 5], "seconds": 3, "size": "wide", "camera": "Static Shot", "characters": ["C01"],
+        "frame": "全景：悟空在庙里里外外兜了一圈，见殿堂空空无人，回头朝唐僧摆了摆手。",
+        "shot": "固定机位，猴军在三堂里外兜了一圈，见殿内空空无人，回头朝僧人摆了摆手。",
+        "lens": "24mm 广角，深景深", "cameraPosition": "孙悟空 + 平视侧面", "composition": "中心构图", "eyeline": "回望唐僧", "focus": "锁定悟空摆手的信号", "stability": "stable",
+        "body": "a static wide shot of the monkey circling the empty hall and waving back to the monk to signal it is clear" },
+      { "beats": [6, 6], "seconds": 4.5, "size": "medium", "camera": "Static Shot", "characters": ["C01"],
+        "frame": "中景：悟空立在殿中扬声，说这是座空庙倒是清净，师父进来歇脚罢。",
+        "shot": "固定机位，立在殿中的猴军扬声，说这座空庙清净无扰，请师父进来歇脚。",
+        "lens": "50mm 标准，中浅景深", "cameraPosition": "孙悟空 + 平视正面", "composition": "三分法", "eyeline": "望向唐僧", "focus": "锁定悟空招呼的神色", "stability": "stable",
+        "body": "a static medium shot of the monkey calling from the hall that the empty shrine is quiet and bidding the master come rest" }
+    ]
+  },
+  {
+    "id": "E12-04", "sceneIndex": 1,
+    "blocking": "唐僧进殿解下背上袈裟搭在供桌上，悟空立于殿侧；供桌上的袈裟居于画面中央。",
+    "soundscape": "唐僧解袈裟的衣料响动，他搭衣上桌的轻响，殿外风声渐起",
+    "music": "弦声一提，点了这件宝物的名",
+    "soundscapeEn": "The rustle of the robe being undone, the soft lay of it on the altar, and the evening wind rising outside.",
+    "musicEn": "Strings lifting, this treasure singled out.",
+    "cuts": [
+      { "beats": [7, 7], "seconds": 3, "size": "medium", "camera": "Static Shot", "characters": ["C02"],
+        "frame": "中景：唐僧进得殿来，解下背上那件锦斒袈裟，搭在供桌上晾晾一路的汗湿。",
+        "shot": "固定机位，僧人进殿解下背上那件锦斒袈裟，搭在供桌上晾一晾一路的汗湿。",
+        "lens": "50mm 标准，中浅景深", "cameraPosition": "唐僧 + 平视侧面", "composition": "三分法", "eyeline": "望向供桌", "focus": "锁定搭衣的动作", "stability": "stable",
+        "body": "a static medium shot of the monk undoing his brocade robe and laying it over the altar to air the day's sweat" },
+      { "beats": [8, 8], "seconds": 6, "size": "close", "camera": "Static Shot", "characters": ["C02"],
+        "frame": "特写：唐僧郑重交代，说这件袈裟所值不菲是西行护身之物，让悟空好生看管。",
+        "shot": "固定机位贴着他，僧人郑重交代，说这件袈裟珍贵异常、是西行护身之物，嘱咐好生看管。",
+        "lens": "85mm 长焦，极浅景深", "cameraPosition": "唐僧 + 平视正面", "composition": "中心构图", "eyeline": "望向悟空", "focus": "锁定唐僧郑重的神色", "stability": "stable",
+        "body": "a static close-up on the monk speaking gravely, saying this robe is a priceless safeguard for the journey west and must be watched well" }
+    ]
+  },
+  {
+    "id": "E12-05", "sceneIndex": 1,
+    "blocking": "悟空立于殿侧不以为意，供桌上的袈裟居于画面右；门缝外一只眼窥视。",
+    "soundscape": "悟空不以为意的话音，供桌布料的窸窣，门缝外窥视的呼吸",
+    "music": "弦声压低，一道贪念的影子探进来",
+    "soundscapeEn": "The monkey's careless word, the rustle of the altar cloth, and a furtive breath behind the door.",
+    "musicEn": "Strings lowering, a shadow of greed slipping in.",
+    "cuts": [
+      { "beats": [9, 9], "seconds": 5, "size": "close", "camera": "Static Shot", "characters": ["C01"],
+        "frame": "特写：悟空摆手不以为意，说一件袍子罢了，自己哪能丢了它。",
+        "shot": "固定机位贴着他，殿侧的猴军摆手不以为意，说不过一件袍子，哪至于弄丢。",
+        "lens": "85mm 长焦，极浅景深", "cameraPosition": "孙悟空 + 平视正面", "composition": "中心构图", "eyeline": "望向供桌", "focus": "锁定悟空满不在乎的神情", "stability": "stable",
+        "body": "a static close-up on the monkey waving it off, sure he could never lose such a mere robe" },
+      { "beats": [10, 10], "seconds": 3, "size": "extreme-close", "camera": "Static Shot", "characters": ["C01"],
+        "frame": "大特写：门缝外探过一只眼来，一个火头老僧凑近，盯着那件金灿灿的袈裟眼珠转了转。",
+        "shot": "固定机位，门缝外一只眼睛凑近，一位火头老僧盯着供桌上金灿灿的袈裟，眼珠缓缓转了几转。",
+        "lens": "85mm 长焦，极浅景深", "cameraPosition": "空镜 + 平视正面", "composition": "中心构图", "eyeline": "紧盯金灿灿的袈裟", "focus": "锁定门缝外那只窥视的眼", "stability": "stable",
+        "body": "an extreme close-up on an eye peering through the door gap, a shrine cook gazing at the gold gleam of the robe, his eyes turning" }
+    ]
+  },
+  {
+    "id": "E12-06", "sceneIndex": 1,
+    "blocking": "门缝外那只眼居于画面右窥视，供桌上的袈裟居于中央；院外天色渐沉。",
+    "soundscape": "火头老僧压低的喃喃心声，庙里空寂，风拍窗纸",
+    "music": "弦声低回，念叨出贪念",
+    "soundscapeEn": "The cook's low inward mutter, the emptiness of the shrine, and the wind against the paper window.",
+    "musicEn": "Strings low and drawn out, greed muttered into the open.",
+    "cuts": [
+      { "beats": [11, 11], "seconds": 5, "size": "close", "camera": "Static Shot", "characters": ["C01"],
+        "frame": "特写：门缝外那老僧以画外音嘀咕，说这料子怕是值黄金万两都不止。",
+        "shot": "固定机位贴着他，门缝外的火头老僧以画外音低声嘀咕，说这般料子怕值万两黄金都不止。",
+        "lens": "85mm 长焦，极浅景深", "cameraPosition": "空镜 + 平视正面", "composition": "中心构图", "eyeline": "紧盯织物", "focus": "锁定供桌袈裟的织物纹理", "stability": "stable",
+        "body": "a static close-up on the robe's sheen as the cook mutters out of frame that such cloth must be worth its weight in gold" },
+      { "beats": [12, 12], "seconds": 6.5, "size": "close", "camera": "Static Shot", "characters": ["C02"],
+        "frame": "特写：那老僧以画外音续道，说自己烧火几十年穷怕了，得了这宝下半辈子有着落。",
+        "shot": "固定机位贴着他，殿侧以画外音传来老僧身影的念叨，说自己烧火半生穷怕了，得了这宝便有着落。",
+        "lens": "85mm 长焦，极浅景深", "cameraPosition": "唐僧 + 平视正面", "composition": "中心构图", "eyeline": "望向供桌", "focus": "锁定唐僧垂目的神情", "stability": "stable",
+        "body": "a static close-up as an off-screen voice mutters that a life of toil has left him poor, and this treasure would see him through" }
+    ]
+  },
+  {
+    "id": "E12-07", "sceneIndex": 1,
+    "blocking": "悟空站在殿中央耳尖微动，猛地回头；那火头老僧闪身缩进墙角的阴影里。",
+    "soundscape": "悟空猛然回头的衣响，老僧缩进阴影的窸窣，殿里骤起的警觉",
+    "music": "弦声骤然一紧，鬼影一闪",
+    "soundscapeEn": "The monkey's sudden turn, the cook slipping into the shadows, and a spike of alertness in the hall.",
+    "musicEn": "Strings snapping taut as a shadow darts.",
+    "cuts": [
+      { "beats": [13, 13], "seconds": 3, "size": "wide", "camera": "Static Shot", "characters": ["C01"],
+        "frame": "全景：悟空耳尖猛地回头，那火头老僧闪身缩进墙角的阴影里。",
+        "shot": "固定机位，猴军耳尖微动猛地回头，门边一个灰袍身影仓皇闪进墙角的阴影。",
+        "lens": "24mm 广角，深景深", "cameraPosition": "孙悟空 + 平视侧面", "composition": "对角线", "eyeline": "盯向墙角", "focus": "锁定闪进阴影的身影", "stability": "slight-shake",
+        "body": "a static wide shot of the monkey snapping his head round as a grey figure darts into the shadow of the corner" },
+      { "beats": [14, 14], "seconds": 3, "size": "close", "camera": "Static Shot", "characters": ["C01"],
+        "frame": "特写：悟空扬声喝问，说谁在那儿鬼鬼祟祟的。",
+        "shot": "固定机位贴着他，殿中的猴军扬声喝问，斥那鬼祟处是谁藏头露尾。",
+        "lens": "85mm 长焦，极浅景深", "cameraPosition": "孙悟空 + 平视正面", "composition": "中心构图", "eyeline": "紧盯墙角", "focus": "锁定悟空喝问的警惕", "stability": "stable",
+        "body": "a static close-up on the monkey barking out, demanding who skulks there in hiding" }
+    ]
+  },
+  {
+    "id": "E12-08", "sceneIndex": 1,
+    "blocking": "悟空追到墙角抬脚踹门，唐僧立于殿中劝止；墙角只余一角旧僧袍。",
+    "soundscape": "悟空追到墙角的脚步，他拾起旧僧袍的窸窣，唐僧在后的劝话",
+    "music": "弦声落回平缓，一场虚惊揭过",
+    "soundscapeEn": "The monkey's steps to the corner, the rustle as he picks up a scrap of robe, and the monk's soothing words behind.",
+    "musicEn": "Strings easing back, a scare that came to nothing.",
+    "cuts": [
+      { "beats": [15, 15], "seconds": 3, "size": "medium", "camera": "Static Shot", "characters": ["C01"],
+        "frame": "中景：悟空追到墙角，只拾起一角旧僧袍，那火头老僧早钻进柴房躲了。",
+        "shot": "固定机位，追到墙角的猴军只拾起一角旧僧袍，那灰袍身影早钻进柴房躲了。",
+        "lens": "50mm 标准，中浅景深", "cameraPosition": "孙悟空 + 平视侧面", "composition": "三分法", "eyeline": "望向柴房方向", "focus": "锁定拾起的旧僧袍", "stability": "stable",
+        "body": "a static medium shot of the monkey reaching the corner to find only the hem of an old robe, the figure already gone into the woodshed" },
+      { "beats": [16, 16], "seconds": 5, "size": "medium", "camera": "Static Shot", "characters": ["C02"],
+        "frame": "中景：唐僧在殿中轻描淡写地说，许是庙里烧火供饭的火工，且由他去吧不碍事。",
+        "shot": "固定机位，殿中的僧人轻声开口，说许是庙里烧火供饭的火工，且由他去罢、不碍事。",
+        "lens": "50mm 标准，中浅景深", "cameraPosition": "唐僧 + 平视正面", "composition": "三分法", "eyeline": "望向悟空", "focus": "锁定唐僧不以为意的神色", "stability": "stable",
+        "body": "a static medium shot of the monk speaking lightly, saying it is likely just the shrine cook and no cause for concern" }
+    ]
+  },
+  {
+    "id": "E12-09", "sceneIndex": 2,
+    "blocking": "夜半破庙中，烛火居于画面中央，窗纸被风撕开；悟空自草铺上一跃弹起，扬声怒喝那贼风。",
+    "soundscape": "烛火猝然一缩，窗纸被撕开的裂响，满室冷风灌入的呼啸，悟空弹起怒喝的喝声",
+    "music": "鼓点猛然一击，夜半惊变与怒喝连成一气",
+    "soundscapeEn": "The candle guttering, the crack of torn window paper, a gust of cold wind filling the room, and the monkey springing up with an angry cry.",
+    "musicEn": "A sudden drum hit, the upheaval and the shout joined.",
+    "cuts": [
+      { "beats": [1, 1], "seconds": 3, "size": "wide", "camera": "Static Shot", "characters": [],
+        "frame": "全景：夜半时分破庙里烛火猛地一缩，窗纸哗地被风撕开，满室冷风灌进。",
+        "shot": "固定机位，夜半破庙中烛火猝然缩短，窗纸被风哗地撕开，一股冷风灌满殿室。",
+        "lens": "24mm 广角，深景深", "cameraPosition": "空镜 + 平视正面", "composition": "中心构图", "eyeline": "望向烛火", "focus": "锁定骤缩的烛火与撕窗的风", "stability": "slight-shake",
+        "body": "a static wide shot of the midnight candle shriveling as the wind tears open the paper window and cold pours into the hall" },
+      { "beats": [2, 2], "seconds": 3, "size": "medium", "camera": "Static Shot", "characters": ["C01"],
+        "frame": "中景：悟空一下从草铺上弹起，只见供桌上那件袈裟被风卷起，正飘向窗外。",
+        "shot": "固定机位，猴军自草铺上一跃弹起，只见供桌上那件锦斒袈裟被风卷起，正飘飘摇摇地向窗外荡去。",
+        "lens": "50mm 标准，中浅景深", "cameraPosition": "孙悟空 + 平视侧面", "composition": "三分法", "eyeline": "紧盯飘空的袈裟", "focus": "锁定被风卷起的袈裟", "stability": "slight-shake",
+        "body": "a static medium shot of the monkey springing up to see the brocade robe caught by the wind, drifting toward the window" },
+      { "beats": [3, 3], "seconds": 4, "size": "close", "camera": "Static Shot", "characters": ["C01"],
+        "frame": "特写：悟空闻言炸毛，扬声怒喝，说好大胆的贼风，敢动师父的宝贝。",
+        "shot": "固定机位贴着他，草铺旁的猴军炸毛扬声怒喝，斥那胆大包天的贼风竟敢动师父的宝贝。",
+        "lens": "85mm 长焦，极浅景深", "cameraPosition": "孙悟空 + 平视正面", "composition": "中心构图", "eyeline": "紧盯窗外黑风", "focus": "锁定悟空震怒的神色", "stability": "slight-shake",
+        "body": "a static close-up on the furious monkey roaring that the audacious wind dares to touch his master's treasure" }
+    ]
+  },
+  {
+    "id": "E12-10", "sceneIndex": 2,
+    "blocking": "悟空纵身自窗追出，顺黑风一路赶到山崖下；洞口被幽幽冷火映得明灭。",
+    "soundscape": "悟空纵身追出的破风，他奔过旷野的脚步，山崖洞口冷火的噼啪",
+    "music": "鼓点加急，追着那道风",
+    "soundscapeEn": "The whoosh of the monkey giving chase, his run across the wilds, and the crackle of cold flame at the cave mouth.",
+    "musicEn": "Drums quickening, chasing the wind itself.",
+    "cuts": [
+      { "beats": [4, 4], "seconds": 3, "size": "wide", "camera": "Tracking Shot", "characters": ["C01"],
+        "frame": "全景：悟空追出庙门，顺着那团黑风一口气赶到山崖下，见那风直钻进崖边一个石洞里。",
+        "shot": "跟拍，猴军追出庙门顺那团黑风一气赶到山崖下，眼见那风直钻崖边一个石洞。",
+        "lens": "24mm 广角，深景深", "cameraPosition": "孙悟空 + 平视侧面", "composition": "对角线", "eyeline": "紧盯钻洞的黑风", "focus": "锁定钻入洞口的黑风", "stability": "slight-shake",
+        "body": "a tracking wide shot of the monkey following the black wind down to the cliff and watching it pour into a stone cave" },
+      { "beats": [5, 5], "seconds": 3, "size": "medium", "camera": "Static Shot", "characters": [],
+        "frame": "中景：洞口两侧燃着幽幽的冷火，把悟空拖长的影子照得一明一暗。",
+        "shot": "固定机位，洞口两侧燃着幽幽冷火，把走近的猴军拖长的影子映得一明一暗。",
+        "lens": "50mm 标准，中浅景深", "cameraPosition": "空镜 + 平视侧面", "composition": "对称", "eyeline": "望向洞口冷火", "focus": "锁定明灭的冷火", "stability": "stable",
+        "body": "a static medium shot of cold flame burning at either side of the cave mouth, flickering the monkey's long shadow" }
+    ]
+  },
+  {
+    "id": "E12-11", "sceneIndex": 2,
+    "blocking": "悟空立于洞口扬声，洞口两旁冷火幽幽；他话未落便欲闯进洞去。",
+    "soundscape": "悟空扬声的怒喝，洞口冷火的噼啪，山风的呜咽",
+    "music": "鼓点压住，闯洞前的叫阵",
+    "soundscapeEn": "The monkey's angry cry, the crackle of the cold flame, and the wail of the mountain wind.",
+    "musicEn": "Drums holding, a challenge before the cave.",
+    "cuts": [
+      { "beats": [6, 6], "seconds": 5, "size": "close", "camera": "Static Shot", "characters": ["C01"],
+        "frame": "特写：悟空立在洞口气冲，说到了家门口还不现形，自己今日就要掀了它的老巢。",
+        "shot": "固定机位贴着他，洞口立定的猴军怒气冲冲开口，说到了家门口还不现形，今天就掀了它的老巢。",
+        "lens": "85mm 长焦，极浅景深", "cameraPosition": "孙悟空 + 平视正面", "composition": "中心构图", "eyeline": "紧盯洞内", "focus": "锁定悟空抵洞的怒气", "stability": "stable",
+        "body": "a static close-up on the monkey at the cave mouth, furious that the tenant hides in its own lair, vowing to tear it apart today" },
+      { "beats": [7, 7], "seconds": 3, "size": "wide", "camera": "Static Shot", "characters": ["C01", "C13"],
+        "frame": "全景：悟空刚要进洞，一个佝偻的土地拄着拐颤巍巍从暗处迎上来拦住他。",
+        "shot": "固定机位，猴军正要钻洞，一个佝偻的拄拐老者颤巍巍自暗处迎上前来把他拦住。",
+        "lens": "24mm 广角，深景深", "cameraPosition": "双人 + 平视侧面", "composition": "三分法", "eyeline": "望向拦住他的老者", "focus": "锁定迎上来拦路的老者", "stability": "stable",
+        "body": "a static wide shot as the monkey makes to enter, a hunched old man on a cane trembling up from the dark to bar his way" }
+    ]
+  },
+  {
+    "id": "E12-12", "sceneIndex": 2,
+    "blocking": "佝偻土地拄拐挡在洞口居左，悟空立定居右；两人在冷火前相对。",
+    "soundscape": "土地颤声的报信，悟空不耐烦的追问，洞口冷火噼啪",
+    "music": "弦声压紧，情报与火气的拉锯",
+    "soundscapeEn": "The old man's trembling report, the monkey's impatient question, and the crackle of cold flame.",
+    "musicEn": "Strings held tight, intelligence against impatience.",
+    "cuts": [
+      { "beats": [8, 8], "seconds": 6.5, "size": "medium", "camera": "Static Shot", "characters": ["C13"],
+        "frame": "中景：土地拄拐颤声留步，说自己是此间土地，特意来给大圣报个信。",
+        "shot": "固定机位，拄拐的佝偻老者颤声高呼留步，自称是此间山神，特意来给那猴军报个信。",
+        "lens": "50mm 标准，中浅景深", "cameraPosition": "土地公 + 平视正面", "composition": "三分法", "eyeline": "望向悟空", "focus": "锁定老者颤声的急切", "stability": "stable",
+        "body": "a static medium shot of the hunched old man on his cane calling urgently for the monkey to wait, declaring himself the local guardian come to report" },
+      { "beats": [9, 9], "seconds": 6.5, "size": "close", "camera": "Static Shot", "characters": ["C01"],
+        "frame": "特写：悟空立定反问，说这土地拦自己做甚，那偷宝的贼就藏在洞里，自己自去取来。",
+        "shot": "固定机位贴着他，立定的猴军扬声反问，说那偷宝的贼就藏在洞中，何须这老者拦阻。",
+        "lens": "85mm 长焦，极浅景深", "cameraPosition": "孙悟空 + 平视正面", "composition": "中心构图", "eyeline": "紧盯洞口老者", "focus": "锁定悟空急躁的神色", "stability": "stable",
+        "body": "a static close-up on the monkey demanding why he is stopped, the thief is plainly in the cave and he will fetch it himself" }
+    ]
+  },
+  {
+    "id": "E12-13", "sceneIndex": 2,
+    "blocking": "土地拄拐立在洞口劝，悟空抱棒立在洞前听；冷火在两人身侧明灭。",
+    "soundscape": "土地沉声的告诫，悟空不甘的回话，洞口风火",
+    "music": "弦声拉出紧张，把妖风的凶险说透",
+    "soundscapeEn": "The old man's grave warning, the monkey's stubborn reply, and the wind of the flame at the cave.",
+    "musicEn": "Strings drawing taut, the danger of the wind-spirit told out.",
+    "cuts": [
+      { "beats": [10, 10], "seconds": 8, "size": "medium", "camera": "Static Shot", "characters": ["C13"],
+        "frame": "中景：土地沉声告诫，说这洞主是股妖风来去无踪，连自家小喽啰都喂了它，劝大圣从长计议。",
+        "shot": "固定机位，拄拐老者沉声告诫，说洞中是股来去无踪的妖风，连自家小喽啰都喂了它，劝那猴军从长计议。",
+        "lens": "50mm 标准，中浅景深", "cameraPosition": "土地公 + 平视正面", "composition": "三分法", "eyeline": "望向悟空", "focus": "锁定老者告诫的凝重", "stability": "stable",
+        "body": "a static medium shot of the old man warning gravely that the cave-lord is a wind that goes and comes unseen, even preying on its own, so the monkey must weigh the risk" },
+      { "beats": [11, 11], "seconds": 5, "size": "close", "camera": "Static Shot", "characters": ["C01"],
+        "frame": "特写：悟空抱棒扬声，说自己要看看它道行几许，让他闪开些莫挡道。",
+        "shot": "固定机位贴着他，抱棒的猴军扬声回应，说要亲眼掂掂那妖风的道行，让老者闪开莫挡道。",
+        "lens": "85mm 长焦，极浅景深", "cameraPosition": "孙悟空 + 平视正面", "composition": "中心构图", "eyeline": "紧盯洞内", "focus": "锁定悟空执意闯洞的神色", "stability": "stable",
+        "body": "a static close-up on the monkey gripping his staff, resolved to test the wind-spirit's measure himself and to let the old man step aside" }
+    ]
+  },
+  {
+    "id": "E12-14", "sceneIndex": 2,
+    "blocking": "悟空踏进洞中居于中央，幽蓝冷火在洞壁两侧明灭；一道黑影在火光里忽隐忽现，洞顶黑风以画外音起。",
+    "soundscape": "悟空进洞的脚步，幽蓝冷火的噼啪，黑影隐现的窸窣，洞顶黑风阴声的起音",
+    "music": "鼓点收成一缕，进洞遇妖的前奏再压低一线",
+    "soundscapeEn": "The monkey's steps into the cave, the crackle of blue flame, the rustle of a shadow gliding in the light, and the low voice of the wind above.",
+    "musicEn": "Drums thinning to a thread, the approach to the demon lowering another notch.",
+    "cuts": [
+      { "beats": [12, 12], "seconds": 3, "size": "wide", "camera": "Static Shot", "characters": ["C01"],
+        "frame": "全景：悟空踏进洞中，只见幽蓝冷火明明灭灭，一道黑影在火光里忽隐忽现。",
+        "shot": "固定机位，猴军踏进洞中，幽蓝冷火明明灭灭，一道黑影在光火间忽隐忽现。",
+        "lens": "24mm 广角，深景深", "cameraPosition": "孙悟空 + 平视侧面", "composition": "中心构图", "eyeline": "紧盯洞中黑影", "focus": "锁定火光中隐现的黑影", "stability": "slight-shake",
+        "body": "a static wide shot of the monkey stepping into the cave where blue flames gutter and a shadow flits in and out among them" },
+      { "beats": [13, 13], "seconds": 3, "size": "medium", "camera": "Static Shot", "characters": ["C01"],
+        "frame": "中景：那股黑风卷着袈裟在洞顶盘旋，一声怪笑在幽暗里荡开，阴恻恻的。",
+        "shot": "固定机位，一股黑风卷着那件袈裟在洞顶盘旋，一声阴恻恻的怪笑在幽暗中荡开。",
+        "lens": "50mm 标准，中浅景深", "cameraPosition": "孙悟空 + 仰视 20°", "composition": "三分法", "eyeline": "望向洞顶黑风", "focus": "锁定盘旋的黑风与袈裟", "stability": "slight-shake",
+        "body": "a static medium shot of the black wind wheeling high with the robe, a cold sound of laughter spreading through the dark" },
+      { "beats": [14, 14], "seconds": 7, "size": "medium", "camera": "Static Shot", "characters": ["C01"],
+        "frame": "中景：洞顶黑风以画外音肆言，说那火头贪宝早给自己通了信，那袈裟是收定了。",
+        "shot": "固定机位，洞顶的黑风以画外音阴声肆言，说自己早得了火头贪宝的消息，这件袈裟势在必得。",
+        "lens": "50mm 标准，中浅景深", "cameraPosition": "孙悟空 + 仰视 20°", "composition": "三分法", "eyeline": "仰望洞顶黑风", "focus": "锁定洞顶盘旋的黑风", "stability": "stable",
+        "body": "a static medium shot as the black wind taunts out of frame that the greedy cook tipped it off, and the robe is already as good as taken" }
+    ]
+  },
+  {
+    "id": "E12-15", "sceneIndex": 2,
+    "blocking": "洞顶黑风卷着袈裟盘旋，悟空立于洞中仰头怒斥；黑影在他周围时隐时现。",
+    "soundscape": "黑风盘旋的呼啸，那阴恻恻的怪笑，悟空仰头怒斥",
+    "music": "弦声压低盘桓，正邪对呛",
+    "soundscapeEn": "The wheeling hiss of the wind, the mirthless laugh, and the monkey's angry retort.",
+    "musicEn": "Strings low and eddying, the voices of the two clashing.",
+    "cuts": [
+      { "beats": [15, 15], "seconds": 6, "size": "close", "camera": "Static Shot", "characters": ["C01"],
+        "frame": "特写：悟空扬声回敬，说那火头贪跟自己勾结，自己回头看仔细了他再说，先取宝要紧。",
+        "shot": "固定机位贴着他，洞中的猴军扬声回敬，说那火头贪与自己勾结之事回头再算，眼下先夺宝要紧。",
+        "lens": "85mm 长焦，极浅景深", "cameraPosition": "孙悟空 + 平视正面", "composition": "中心构图", "eyeline": "仰望洞顶", "focus": "锁定悟空回怼的神色", "stability": "stable",
+        "body": "a static close-up on the monkey answering that the colluding cook can be dealt with later, the recovery of the treasure comes first" },
+      { "beats": [16, 16], "seconds": 4.5, "size": "close", "camera": "Static Shot", "characters": ["C01"],
+        "frame": "特写：悟空又扬声讥讽，说它缩头缩脑连面都不敢亮，也配同自己叫板。",
+        "shot": "固定机位贴着他，洞中的猴军扬声讥讽，说这藏头露尾的妖风连面都不敢现，也配与自己对垒。",
+        "lens": "85mm 长焦，极浅景深", "cameraPosition": "孙悟空 + 平视正面", "composition": "中心构图", "eyeline": "望向黑影", "focus": "锁定悟空讥讽的神色", "stability": "stable",
+        "body": "a static close-up on the monkey scoffing that a wind too craven to show itself has no call to defy him" }
+    ]
+  },
+  {
+    "id": "E12-16", "sceneIndex": 2,
+    "blocking": "悟空抡棒欲打，那黑影一扑就地卷风笼住墙角袈裟；悟空抢步抄入怀中。",
+    "soundscape": "悟空一棒落空的破风，黑影卷风的呼啸，他抄住袈裟的衣响",
+    "music": "鼓点两句连击，夺宝之争",
+    "soundscapeEn": "The stroke that cuts air, the wind snapping its coil, and the rustle as the monkey seizes the robe.",
+    "musicEn": "Two quick drum hits, the fight over the treasure.",
+    "cuts": [
+      { "beats": [17, 17], "seconds": 3, "size": "wide", "camera": "Static Shot", "characters": ["C01"],
+        "frame": "全景：悟空一棒落空，那黑影一扑就地卷起一股黑风，笼住墙角那卷袈裟。",
+        "shot": "固定机位，猴军一棒落空，那黑影一扑就地卷起一股黑风，笼住墙角那卷袈裟。",
+        "lens": "24mm 广角，深景深", "cameraPosition": "孙悟空 + 平视侧面", "composition": "对角线", "eyeline": "紧盯笼住袈裟的黑风", "focus": "锁定卷向袈裟的黑风", "stability": "slight-shake",
+        "body": "a static wide shot of the staff cutting the air as the shadow coils into a gust that wraps around the robe in the corner" },
+      { "beats": [18, 18], "seconds": 3, "size": "close", "camera": "Static Shot", "characters": ["C01"],
+        "frame": "特写：悟空眼疾手快一个箭步拦到袈裟前，反手一把抄住，塞进怀中。",
+        "shot": "固定机位贴着他，猴军眼疾手快一个箭步拦到袈裟前，反手一把抄住塞进怀中。",
+        "lens": "85mm 长焦，极浅景深", "cameraPosition": "孙悟空 + 平视正面", "composition": "中心构图", "eyeline": "紧盯手中的袈裟", "focus": "锁定抄袈裟入怀的手", "stability": "slight-shake",
+        "body": "a static close-up on the monkey darting forward with quick hands to snatch the robe and tuck it into his breast" }
+    ]
+  },
+  {
+    "id": "E12-17", "sceneIndex": 2,
+    "blocking": "悟空揣住怀中宝剑立于洞中，那黑风在洞壁尖啸一击后卷出洞外；洞口冷火一晃。",
+    "soundscape": "悟空扬声的宣告，黑风扑空后的尖啸，它卷出洞外的风声",
+    "music": "鼓点猛然一顿，夺宝胜利的收口",
+    "soundscapeEn": "The monkey's triumphant cry, the wind's shriek as it finds nothing, and the gust of its flight out of the cave.",
+    "musicEn": "A drum closes hard, the treasure won.",
+    "cuts": [
+      { "beats": [19, 19], "seconds": 4, "size": "close", "camera": "Static Shot", "characters": ["C01"],
+        "frame": "特写：悟空揣住袈裟扬声，说宝贝到手，你这妖风还有何本事。",
+        "shot": "固定机位贴着他，揣住袈裟的猴军扬声追问，说宝贝已经到手，你这妖风还有何本事。",
+        "lens": "85mm 长焦，极浅景深", "cameraPosition": "孙悟空 + 平视正面", "composition": "中心构图", "eyeline": "紧盯黑风", "focus": "锁定悟空得手的厉色", "stability": "stable",
+        "body": "a static close-up on the monkey holding the robe, demanding what the wind-spirit can do now that the prize is won" },
+      { "beats": [20, 20], "seconds": 3, "size": "wide", "camera": "Static Shot", "characters": ["C01"],
+        "frame": "全景：那黑风扑了个空，绕着洞壁尖啸一声卷出洞外，一晃便没了影。",
+        "shot": "固定机位，扑空的妖风绕着洞壁尖啸一声，卷出洞外一晃便没了影。",
+        "lens": "24mm 广角，深景深", "cameraPosition": "孙悟空 + 平视侧面", "composition": "中心构图", "eyeline": "望向卷出的黑风", "focus": "锁定逃出洞外的黑风", "stability": "slight-shake",
+        "body": "a static wide shot of the wind screeching round the walls in its miss, pouring out of the cave and vanishing in a blink" }
+    ]
+  },
+  {
+    "id": "E12-18", "sceneIndex": 2,
+    "blocking": "悟空立于洞中收棒，又朝幽洞深处望了一眼，随后抖净袈裟卷好退向洞口。",
+    "soundscape": "悟空收棒的轻响，他抖袈裟的窸窣，洞里余下的幽静",
+    "music": "弦声收束，一段妖风暂告一段落",
+    "soundscapeEn": "The staff returned, the shake and roll of the robe, and the quiet that settles in the cave.",
+    "musicEn": "Strings drawing in, this wind-spirit put aside for now.",
+    "cuts": [
+      { "beats": [21, 21], "seconds": 3, "size": "medium", "camera": "Static Shot", "characters": ["C01"],
+        "frame": "中景：悟空收了棒，又朝那幽洞深处望了一眼，这才抬脚退出洞口。",
+        "shot": "固定机位，猴军收了棒，又朝幽洞深处望了一眼，这才抬脚退出洞口。",
+        "lens": "50mm 标准，中浅景深", "cameraPosition": "孙悟空 + 平视侧面", "composition": "三分法", "eyeline": "望向洞深处", "focus": "锁定悟空回望幽洞", "stability": "stable",
+        "body": "a static medium shot of the monkey tucking away his staff, glancing once into the depths, then stepping back out of the mouth" },
+      { "beats": [22, 22], "seconds": 3, "size": "close", "camera": "Static Shot", "characters": ["C01"],
+        "frame": "特写：悟空抖了抖袈裟上沾的尘土，小心卷好，退出洞来站在洞口。",
+        "shot": "固定机位贴着他，猴军抖落袈裟上沾的尘土，小心卷好后退到洞口立定。",
+        "lens": "85mm 长焦，极浅景深", "cameraPosition": "孙悟空 + 平视正面", "composition": "中心构图", "eyeline": "望向卷好的袈裟", "focus": "锁定抖卷袈裟的动作", "stability": "stable",
+        "body": "a static close-up on the monkey shaking the dust from the robe, rolling it carefully, and taking his stand at the cave mouth" }
+    ]
+  },
+  {
+    "id": "E12-19", "sceneIndex": 2,
+    "blocking": "悟空揣袈裟立于洞口，佝偻土地拄拐立在洞侧赞他；两人在冷火前相对。",
+    "soundscape": "土地拄拐的赞语，悟空扬口的留伏笔，洞口冷火噼啪",
+    "music": "弦声一紧一松，把伏笔收进话里",
+    "soundscapeEn": "The old man's praise, the monkey's darkly worded vow, and the crackle of cold flame.",
+    "musicEn": "Strings tightening then releasing, a hook folded into the words.",
+    "cuts": [
+      { "beats": [23, 23], "seconds": 6.5, "size": "medium", "camera": "Static Shot", "characters": ["C13"],
+        "frame": "中景：土地拄拐由衷夸赞，说大圣好本事，那黑影来得快去得疾连形貌也没瞧清。",
+        "shot": "固定机位，拄拐老者拄着杖由衷夸赞，说那黑影去得快，连形貌都没能瞧清。",
+        "lens": "50mm 标准，中浅景深", "cameraPosition": "土地公 + 平视正面", "composition": "三分法", "eyeline": "望向悟空", "focus": "锁定老者夸赞的神色", "stability": "stable",
+        "body": "a static medium shot of the old man praising the monkey on his cane, noting the darkness came and went so fast its face was never seen" },
+      { "beats": [24, 24], "seconds": 7.5, "size": "close", "camera": "Static Shot", "characters": ["C01"],
+        "frame": "特写：悟空扬口，说它终究露了形迹，自己且记着这座洞，总有一日刨清它窝里藏的是谁。",
+        "shot": "固定机位贴着他，揣衣的猴军沉声扬口，说那妖风终露了形迹，他记下这座洞，来日定要刨清其中藏的究竟是谁。",
+        "lens": "85mm 长焦，极浅景深", "cameraPosition": "孙悟空 + 平视正面", "composition": "中心构图", "eyeline": "望向洞内", "focus": "锁定悟空记下这洞的神色", "stability": "stable",
+        "body": "a static close-up on the monkey vowing grimly that the wind showed its trail, and he will remember this cave until he learns what hides inside" }
+    ]
+  },
+  {
+    "id": "E12-20", "sceneIndex": 2,
+    "blocking": "悟空揣好袈裟转身下山崖居于画面左下行，身后洞口冷火在右侧闪了一闪又归幽暗。",
+    "soundscape": "悟空下山的脚步，身后洞口冷火一闪，风过崖壁的呜咽",
+    "music": "弦声远去收尾，留一点未了的余音",
+    "soundscapeEn": "The monkey's steps down the crag, a flicker of cold flame behind, and the wail of wind on the cliff face.",
+    "musicEn": "Strings receding, a last thread of the unfinished.",
+    "cuts": [
+      { "beats": [25, 25], "seconds": 4, "size": "wide", "camera": "Tracking Shot", "characters": ["C01"],
+        "frame": "全景：悟空揣好袈裟转身下山崖，身后那洞口的冷火闪了一闪，又重归幽暗。",
+        "shot": "跟拍，猴军揣好袈裟转身下山崖，身后洞口的冷火闪了一闪，又重归幽暗。",
+        "lens": "24mm 广角，深景深", "cameraPosition": "孙悟空 + 平视侧面", "composition": "对角线", "eyeline": "望向前路", "focus": "锁定下崖的背影与身后的冷火", "stability": "slight-shake",
+        "body": "a tracking wide shot of the monkey walking down the crag, robe tucked away, while behind him the cold flame of the cave mouth guttering once more into the dark" }
+    ]
+  }
+]

@@ -1,0 +1,38 @@
+{
+  "name": "土地公",
+  "aliases": ["山神土地", "土地"],
+  "importance": "minor",
+  "oneLiner": "沿途报信摘路的矮小神农，总被悟空念咒一拘就战战兢兢爬出来回话。",
+  "persona": {
+    "gender": "男",
+    "ageRange": "矮小的老翁（推断）",
+    "identity": "各地守护一方山野的土神，常被悟空的咒语拘出盘问妖怪来历",
+    "appearance": "矮小佝偻的老者，戴方巾、着土色短褐或毡衣，好一点的拄根龙头拐棒、顶暖帽、蹬油靴；穷的则披一片挂一片、衣不遮体。被悟空一念咒便战兢兢跪在路旁叩头，禀告山中有何妖精做祟、家住哪个洞府。",
+    "personality": ["胆小怕事", "老实怯懦", "有求必应", "消息灵通"],
+    "temperament": "颤巍巍的一道声气，见了大圣先叩头求饶，答话细声慢气、有问必答，全无神仙架子。",
+    "motivation": "守一方平安、让路过分的人少惹麻烦，最怕被大圣的棒子惦记。",
+    "arc": "受悟空的咒语拘唤而倍加小心，沿途捎报山情、应答妖怪行踪，是取经人的耳目",
+    "relationships": [{ "name": "孙悟空", "relation": "常被咒语拘来问话" }],
+    "evidence": [
+      "打出一夥窮神來，都披一片、掛一片，褌無襠、褲無口的跪在山前",
+      "沒奈何，只得走出去，戰兢兢的跪在路傍，叫道：「大聖，當境土地叩頭。」",
+      "氈衣蓋體，暖帽蒙頭，足下踏一雙半新半舊的油靴，手持著一根龍頭拐棒"
+    ]
+  },
+  "image": {
+    "prompt": "A tiny stooped elderly earth god, homely and humble: a short hunched old man with a round kindly face, a wispy grey beard, wearing a square cloth cap and a plain earth-brown short jacket and trousers, sometimes a felt cap and oiled boots, holding a short dragon-head walking staff. He carries the cowed, eager-to-please air of a village deity who knows every secret of the hills. Era: Tang-dynasty Chinese countryside folk religion. Lowly, timid, quietly indispensable.",
+    "promptLocal": "一位矮小佝偻、憨厚朴实的村社土神老翁：身量短小、肩背微驼，圆脸土色，一绺灰须，头戴方巾或暖帽，穿一袭土褐色的短衣，或蹬一双油靴，拄一根短龙头拐杖。一副见了大圣先叩头、有问必答的村社小神模样。设定为唐代中国乡村社稷信仰下的土神，卑小、怯懦、却又不可或缺。",
+    "negativePrompt": "same generic face as another character, tall imposing build, regal robe or crown, warrior stance, flamboyant color, perfectly symmetrical face, stiff mannequin pose, extra fingers, deformed limbs",
+    "tags": ["Tang dynasty China", "elderly earth god", "short hunched old man", "square cloth cap", "earth-brown jacket", "grey beard", "dragon-head staff", "humble village deity"],
+    "sheet": "ONE 16:9 landscape canvas, plain white background with even margins, thin hairline rules separating three zones. ONE single character only. LEFT ZONE (about 34% of canvas width): a large front-facing head-and-shoulders bust as the facial design reference, shoulders complete, bottom edge cropped flat, the kindly old face fully detailed, LIGHTING IN THE LEFT ZONE ONLY: soft directional key from upper left, natural falloff, ambient occlusion under the cap and at collar-neck junction for volume. RIGHT-TOP ZONE: three FULL-BODY views side by side (front, side, back) sharing a single ground line, identical head-to-body proportion, showing the short build, cloth cap, earth-brown jacket and the dragon-head staff. RIGHT-BOTTOM ZONE: four to five small isolated close-up studies aligned in one row (the grey beard, the cloth cap stripe, the staff dragon head, the stained sleeve, the old boot), clearly smaller than the full-body figures. LIGHTING IN THE RIGHT ZONES: flat even orthographic lighting, no directional key, no shadow. PROPORTIONS ARE CRITICAL: keep the three full-body figures equal height with correct head-to-body ratio and limbs, feet on one ground line, headroom and footing clear; never stretch or squash the figure to fit. One face across all views; the bust is the baseline, right zones follow it. If the detail studies overflow the row, extend them as a column down the right edge—the detail studies give way, not the figures."
+  },
+  "voice": {
+    "timbre": "细弱苍老的男声，带颤音",
+    "pitch": "偏高",
+    "pace": "慢而絮叨，怯生生",
+    "accent": "土气的乡音，谦卑恭顺",
+    "emotion": "胆小、恭顺、有问必答",
+    "prompt": "Elderly male voice, thin plaintive high-tenor, high pitch, small weak resonance, narrow dynamic range. Slow hesitant pace, trembling deferential articulation, meek cadence. Earthy countryside accent. Timid, servile, eager to oblige.",
+    "referenceHint": "声音细弱苍老、战战兢兢，像见着大官的小老头"
+  }
+}

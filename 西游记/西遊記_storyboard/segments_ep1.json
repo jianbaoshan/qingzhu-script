@@ -1,0 +1,238 @@
+[
+  {
+    "id": "E01-01",
+    "sceneIndex": 1,
+    "blocking": "水潭边群猴围成一圈，猴王在圈前最靠近飞瀑的位置，面朝水帘，群猴在他身后两步外驻足。",
+    "soundscape": "飞瀑轰轰直响，水声盖过杂音；群猴叽叽喳喳骚动，脚爪在石上划动的细碎声",
+    "music": "轻快的竹笛与弹拨小调，节奏偏快，透出一股跃跃欲试",
+    "cuts": [
+      { "beats": [1, 1], "seconds": 3, "size": "wide", "camera": "Static Shot", "characters": ["C01"], "frame": "全景：花果山水潭边，一群野猴在飞瀑前围成一圈，你推我搡，水汽透亮，正午阳光洒在水面。", "shot": "固定机位下，隔得近的野猴互相推搡，谁也不敢向那道白练似的飞瀑靠拢，只有水汽在阳光里浮荡。", "lens": "24mm 广角，深景深", "cameraPosition": "群猴 + 平视侧方", "composition": "三分法", "eyeline": "向飞瀑方向张望", "focus": "锁定群猴围成的圈", "stability": "stable" },
+      { "beats": [2, 2], "seconds": 3, "size": "close", "camera": "Push In", "characters": ["C01"], "frame": "特写：孙悟空从猴群后头挤到最前，叉着腰立在潭边，仰脸望着当空挂下的水帘，眼神发亮。", "shot": "镜头小幅缓推向掐腰的猴王面庞，他伸长脖子望那扇水帘，胸口微微起伏。", "lens": "50mm 标准，中浅景深", "cameraPosition": "孙悟空 + 平视正面", "composition": "中心构图", "eyeline": "望向飞瀑顶端", "focus": "锁定孙悟空面部", "stability": "stable" },
+      { "beats": [3, 3], "seconds": 4, "size": "wide", "camera": "Static Shot", "characters": ["C01"], "frame": "全景：孙悟空抄起一根树枝往地上一拄，深吸一口气，猛一蹬地，纵身朝水帘跃去，身影悬在半空。", "shot": "固定机位，猴王用树枝一拄借力蹬地而起，身子腾向那道水帘，群猴在身后齐齐仰头。", "lens": "35mm 广角，中景深", "cameraPosition": "孙悟空 + 平视侧面", "composition": "对角线", "eyeline": "锁定飞瀑水帘", "focus": "锁定腾空的孙悟空", "stability": "slight-shake" }
+    ],
+    "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 3.00-second mark of the target video; Picture 3 (from Shot 3) aligns with the 6.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] Following <Picture 1>, a static shot frames a circle of jostling monkeys by a pool before a straight white waterfall in bright noon light, none daring to approach the curtain of water.\n[Shot 2] At 00:03.000, the camera cuts to <Picture 2>: a slow push in toward the young monkey who elbows through the crowd to the poolside, plants his feet, squares up and stares up at the hanging waterfall with bright eyes.\n[Shot 3] At 00:06.000, the camera cuts to <Picture 3>: a fixed shot holds the young monkey bracing a branch against the ground, sucking in a breath, then kicking off the ground and leaping straight into the falling water before the watching monkeys.\n\noverall_soundscape: A roaring waterfall that swallows all other noise; the jittery chattering of monkeys and soft scraping of claws on wet stone.\n\nnon_diegetic_music: Lively bamboo-flute and plucked-string ditty, brisk tempo, a springing sense of eagerness."
+  },
+  {
+    "id": "E01-02",
+    "sceneIndex": 1,
+    "blocking": "镜头从岸边群猴一侧推向水帘，孙悟空半身探在水帘外隔水望岸；群猴在岸上隔着水雾围看。",
+    "soundscape": "他纵身没入时哗啦一声水响，水花溅起；随后水帘内闷闷的喊声与岸边群猴的骚动",
+    "music": "竹笛轻快继续，鼓点渐强，推着跃入的一下",
+    "cuts": [
+      { "beats": [4, 4], "seconds": 3, "size": "close", "camera": "Static Shot", "characters": ["C01"], "frame": "特写：白水哗地吞没孙悟空，水花溅起老高，岸边野猴齐刷刷吓退两步，水珠飞溅。", "shot": "固定机位，白水把他整个没进去，溅起的水花泼向镜头，岸上野猴一齐向后让了两步。", "lens": "50mm 标准，中浅景深", "cameraPosition": "孙悟空落水处 + 平视正面", "composition": "中心构图", "eyeline": "水花迎面", "focus": "锁定溅起的水花", "stability": "slight-shake" },
+      { "beats": [5, 5], "seconds": 3, "size": "medium", "camera": "Static Shot", "characters": ["C01"], "frame": "中景：孙悟空探出半张湿脸，隔水朝岸上使劲招手，水珠顺着毛脸往下淌。", "shot": "固定机位，湿漉漉的猴王从水帘里探出半张脸，隔着水朝岸上用力招手，一脸兴奋。", "lens": "35mm 广角，中景深", "cameraPosition": "孙悟空 + 平视正面", "composition": "三分法", "eyeline": "望向岸上群猴", "focus": "锁定孙悟空湿脸", "stability": "stable" },
+      { "beats": [6, 6], "seconds": 3, "size": "close", "camera": "Static Shot", "characters": ["C01"], "frame": "特写：孙悟空隔水扯着嗓子喊，水珠挂在腮边，神色又急又亮。", "shot": "固定机位紧贴他的脸，他扯着嗓子朝岸上喊，声音隔着水闷成一团，字却说得人人听清。", "lens": "85mm 长焦，极浅景深", "cameraPosition": "孙悟空 + 平视正面", "composition": "中心构图", "eyeline": "望向岸上", "focus": "锁定孙悟空张开的嘴", "stability": "stable" }
+    ],
+    "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 3.00-second mark of the target video; Picture 3 (from Shot 3) aligns with the 6.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] Following <Picture 1>, a static shot captures the white water swallowing the young monkey whole, spray bursting high as the monkeys on the bank all flinch back two steps.\n[Shot 2] At 00:03.000, the camera cuts to <Picture 2>: a fixed close-to-medium look at the young monkey who pokes out half a wet face from behind the water curtain and waves hard toward the bank, water dripping from his fur.\n[Shot 3] At 00:06.000, the camera cuts to <Picture 3>: a static close-up on the wet young monkey as he shouts across the water at the top of his lungs, `<d>[Chinese] 里面别有洞天，都进得来！</d>`\n\noverall_soundscape: A loud splash as he plunges in and spray bursts; a muffled shout from inside the waterfall and the excited stir of the monkeys on the bank.\n\nnon_diegetic_music: The light bamboo flute continues, drums building toward the single plunge."
+  },
+  {
+    "id": "E01-03",
+    "sceneIndex": 1,
+    "blocking": "水帘洞口为入口，孙悟空缩身钻回水帘；岸上群猴依次跳下，镜头随后跟到洞内石座。",
+    "soundscape": "水帘哗哗作响，野猴扑通扑通接连入水的闷响，洞内回旋的水声",
+    "music": "转入一种试探的拨弦，节奏放缓，等待众人入洞",
+    "cuts": [
+      { "beats": [7, 7], "seconds": 3, "size": "medium", "camera": "Static Shot", "characters": ["C01"], "frame": "中景：孙悟空喊完一缩身，钻回水帘后头，人影转瞬不见，水帘仍垂着。", "shot": "固定机位，猴王喊完就一缩身钻回水帘后头，水帘垂落如旧，人已不见踪影。", "lens": "35mm 广角，中景深", "cameraPosition": "孙悟空 + 平视正面", "composition": "对称", "eyeline": "钻入水帘", "focus": "锁定水帘洞口", "stability": "stable" },
+      { "beats": [8, 8], "seconds": 4, "size": "wide", "camera": "Static Shot", "characters": ["C01"], "frame": "全景：岸上带头的野猴壮着胆子扑通跳下，其余一个跟一个，接二连三往水帘里蹦。", "shot": "固定机位，带头的野猴先壮胆扑通跳进去，后面的一个跟一个，接二连三往水帘里蹦，溅起一连串水花。", "lens": "24mm 广角，深景深", "cameraPosition": "群猴 + 平视侧方", "composition": "对角线", "eyeline": "依次望向水帘", "focus": "锁定接连入水的群猴", "stability": "slight-shake" },
+      { "beats": [9, 9], "seconds": 3, "size": "wide", "camera": "Static Shot", "characters": ["C01"], "frame": "全景：孙悟空跨过铁板石桥，跳到洞中央一方天然大石座上，盘腿坐下，拄着膝四下打量。", "shot": "固定机位，猴王跨过铁板石桥，跃上洞中央的大石座盘腿坐下，拄着膝盖把偌大洞府打量了一遍。", "lens": "24mm 广角，深景深", "cameraPosition": "孙悟空 + 平视侧方", "composition": "中心构图", "eyeline": "四下张望洞府", "focus": "锁定石座上猴王", "stability": "stable" }
+    ],
+    "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 3.00-second mark of the target video; Picture 3 (from Shot 3) aligns with the 7.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] Following <Picture 1>, a fixed medium shot watches the young monkey duck back behind the hanging water curtain after his shout, the veil of water falling closed as he vanishes.\n[Shot 2] At 00:03.000, the camera cuts to <Picture 2>: a wide fixed shot in which the leading wild monkey first bravely jumps down with a splash and the rest follow one after another, leaping into the water curtain in a chain of spray.\n[Shot 3] At 00:07.000, the camera cuts to <Picture 3>: a wide static shot holds the young monkey crossing the iron-slab bridge, jumping onto the great natural stone seat at the center of the cave, sitting cross-legged and surveying the whole cavern.\n\noverall_soundscape: The waterfall hissing steadily and echoing inside the cave; monkeys splashing in one by one with soft thuds.\n\nnon_diegetic_music: Tentative plucked strings, pace slowing, a held breath as they enter the cave."
+  },
+  {
+    "id": "E01-04",
+    "sceneIndex": 1,
+    "blocking": "洞内石座居中，孙悟空端坐石座，群猴跪倒在石座两侧与前方仰脸望他，相距三四步。",
+    "soundscape": "洞内水声回响，群猴齐声呼喊，随后跪下时衣袍与爪划石的细响",
+    "music": "鼓点转庄重，铜铃轻敲一下，带出称王的仪式感",
+    "cuts": [
+      { "beats": [10, 10], "seconds": 3, "size": "wide", "camera": "Static Shot", "characters": ["C01"], "frame": "全景：后进的小猴一见石座上盘坐的孙悟空，齐刷刷跪倒一片，呼声洞府里回荡。", "shot": "固定机位，后进的小猴一见石座上盘坐的猴王，齐刷刷跪倒一片，口里齐声呼喊。", "lens": "24mm 广角，深景深", "cameraPosition": "群猴 + 平视正前方", "composition": "对称", "eyeline": "仰脸望向石座", "focus": "锁定跪倒一片的群猴", "stability": "stable" },
+      { "beats": [11, 11], "seconds": 3, "size": "medium", "camera": "Static Shot", "characters": ["C01"], "frame": "中景：群猴围在石座底下跪倒仰脸望他，石座上孙悟空拄膝坐正，目光温下来。", "shot": "固定机位，群猴围在石座底下仰着脸望他，猴王在座上缓缓点头，抬手虚扶。", "lens": "50mm 标准，中浅景深", "cameraPosition": "孙悟空 + 俯视正前方", "composition": "中心构图", "eyeline": "低头望向群猴", "focus": "锁定仰脸的群猴", "stability": "stable" },
+      { "beats": [12, 12], "seconds": 4, "size": "close", "camera": "Static Shot", "characters": ["C01"], "frame": "特写：孙悟空抬抬手，笑得眉眼舒展，开口说话，群猴仰脸听着。", "shot": "固定机位贴着脸，猴王抬抬手、眉眼舒展开来，招呼底下的猴群，声音不高却稳。", "lens": "85mm 长焦，极浅景深", "cameraPosition": "孙悟空 + 平视正面", "composition": "中心构图", "eyeline": "望向下方群猴", "focus": "锁定孙悟空面部", "stability": "stable" }
+    ],
+    "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 3.00-second mark of the target video; Picture 3 (from Shot 3) aligns with the 6.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] Following <Picture 1>, a wide static shot shows the monkeys who entered last dropping into a kneeling line around the base of the stone seat, their chorus ringing through the cavern.\n[Shot 2] At 00:03.000, the camera cuts to <Picture 2>: a medium fixed shot looks down at the kneeling monkeys who look up at the young monkey, who nods slowly and raises a hand in a gentle gesture.\n[Shot 3] At 00:06.000, the camera cuts to <Picture 3>: a static close-up on the young monkey who lifts his hand and smiles warmly while he speaks, `<d>[Chinese] 起来都起来，这洞往后就是咱们的家。</d>`\n\noverall_soundscape: Echoing water inside the grotto, the monkeys' joined shout, and the soft rustle as they kneel.\n\nnon_diegetic_music: A grave drumbeat and a single light bronze-bell chime, lending weight to the crowning moment."
+  },
+  {
+    "id": "E01-05",
+    "sceneIndex": 1,
+    "blocking": "孙悟空居石座，带头的野猴在座前仰脸起哄，其余群猴围在其后，面向石座。",
+    "soundscape": "群猴起哄的声音一浪高过一浪，随后欢呼杂沓，爪响飞溅",
+    "music": "鼓点加密，铜锣一响，转入热闹的庆贺调",
+    "cuts": [
+      { "beats": [13, 13], "seconds": 5, "size": "close", "camera": "Static Shot", "characters": ["C01"], "frame": "特写：带头的野猴仰着脸高声起哄，眉飞色舞，身后群猴吵成一片。", "shot": "固定机位对着带头野猴的脸，他仰脸高声起哄，身旁群猴跟着七嘴八舌吵成一片。", "lens": "85mm 长焦，极浅景深", "cameraPosition": "带头野猴 + 平视正面", "composition": "中心构图", "eyeline": "望向石座", "focus": "锁定带头野猴的面部", "stability": "stable" },
+      { "beats": [14, 14], "seconds": 3, "size": "close", "camera": "Static Shot", "characters": ["C01"], "frame": "特写：孙悟空一拍膝盖，索性认下这个王，眉眼一亮，笑里透着当家做主的得意。", "shot": "固定机位对着他，猴王一拍膝盖，索性认下王位，眉梢扬起，笑得坦荡。", "lens": "85mm 长焦，极浅景深", "cameraPosition": "孙悟空 + 平视正面", "composition": "中心构图", "eyeline": "望向面前群猴", "focus": "锁定孙悟空面部", "stability": "stable" },
+      { "beats": [15, 15], "seconds": 3, "size": "wide", "camera": "Static Shot", "characters": ["C01"], "frame": "全景：群猴轰然欢呼，围着石座又叫又蹦，水珠从头发上甩下来，满洞热闹。", "shot": "固定机位，群猴一听轰然欢呼，围着石座又叫又蹦，直蹦得水珠从头顶到处甩落。", "lens": "24mm 广角，深景深", "cameraPosition": "群猴 + 平视侧方", "composition": "三分法", "eyeline": "欢腾地望向石座", "focus": "锁定围座蹦跳的群猴", "stability": "slight-shake" }
+    ],
+    "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 5.00-second mark of the target video; Picture 3 (from Shot 3) aligns with the 8.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] Following <Picture 1>, a static close-up frames the leading wild monkey who lifts his face and jeers loudly and joyfully, the crowd behind him chattering into a din.\n[Shot 2] At 00:05.000, the camera cuts to <Picture 2>: a static close-up on the young monkey who slaps his knee and takes up the crown lightly, his brows lifting in open pride as he speaks, `<d>[Chinese] 好，那我猴王就应下这个王。</d>`\n[Shot 3] At 00:08.000, the camera cuts to <Picture 3>: a wide fixed shot in which the monkeys burst into celebration, jumping and shouting around the stone seat, water flicking off their heads in every direction.\n\noverall_soundscape: The jeering of the monkeys rising in waves, then a noisy, ragged cheer with the patter of scrambling claws.\n\nnon_diegetic_music: Drumbeat quickening with a bronze-gong hit, turning into a warm celebratory tune."
+  },
+  {
+    "id": "E01-06",
+    "sceneIndex": 1,
+    "blocking": "孙悟空坐石座居中，小猴在座前仰脸应声，群猴散布其后，面向石座。",
+    "soundscape": "群猴安分下来，小猴脆生生应话，洞内水声渐隐入背景",
+    "music": "热闹渐收，换成商量家事般的轻拨弦",
+    "cuts": [
+      { "beats": [16, 16], "seconds": 4, "size": "medium", "camera": "Static Shot", "characters": ["C01"], "frame": "中景：一只小猴笑呵呵仰脸开口，满眼佩服，声音脆亮。", "shot": "固定机位对着圈前的小猴，他笑呵呵地仰着脸，眼里满是佩服。", "lens": "50mm 标准，中浅景深", "cameraPosition": "小猴 + 平视正面", "composition": "三分法", "eyeline": "望向石座", "focus": "锁定小猴面部", "stability": "stable" },
+      { "beats": [17, 17], "seconds": 5, "size": "close", "camera": "Static Shot", "characters": ["C01"], "frame": "特写：孙悟空拍拍膝盖，同大家说定往后洞里的规矩，眉目认真。", "shot": "固定机位对着他，猴王拍拍膝盖，说得郑重，把规矩一条条定给洞里的大家。", "lens": "85mm 长焦，极浅景深", "cameraPosition": "孙悟空 + 平视正面", "composition": "中心构图", "eyeline": "环视圈前群猴", "focus": "锁定孙悟空面部", "stability": "stable" },
+      { "beats": [18, 18], "seconds": 3, "size": "medium", "camera": "Static Shot", "characters": ["C01"], "frame": "中景：群猴脆生生齐声应话，你一言我一语，都望向石座应和。", "shot": "固定机位，群猴脆生生地齐声应话，你一言我一语围着石座应和。", "lens": "50mm 标准，中浅景深", "cameraPosition": "群猴 + 平视正前方", "composition": "对称", "eyeline": "望向石座", "focus": "锁定应声的群猴", "stability": "stable" }
+    ],
+    "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 4.00-second mark of the target video; Picture 3 (from Shot 3) aligns with the 9.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] Following <Picture 1>, a medium static shot shows a small monkey before the seat beaming up at the young monkey, admiration plain on his face, `<d>[Chinese] 跟着大王，咱们再不愁没处安身了。</d>`\n[Shot 2] At 00:04.000, the camera cuts to <Picture 2>: a static close-up on the young monkey who pats his knee and speaks to the crowd with grave, settled tone, `<d>[Chinese] 既是这样，往后洞里的规矩，就按我说的办。</d>`\n[Shot 3] At 00:09.000, the camera cuts to <Picture 3>: a medium fixed shot in which the monkeys answer in crisp unison around the stone seat, `<d>[Chinese] 大王怎么说，我们就怎么听。</d>`\n\noverall_soundscape: The crowd settling into quiet, the crisp answers of the small monkeys, cave water fading into the background.\n\nnon_diegetic_music: A temperate plucked-string line as the bustle cools into domestic talk."
+  },
+  {
+    "id": "E01-07",
+    "sceneIndex": 1,
+    "blocking": "孙悟空坐石座，一只小猴端野果自座侧一步步走近，把果子捧到石座跟前；他伸手接过。",
+    "soundscape": "小猴小步走近的声响，野果递到跟前时轻微的衣料声，洞内水声低缓",
+    "music": "拨弦轻快，带着分果实的家常暖意",
+    "cuts": [
+      { "beats": [19, 19], "seconds": 3, "size": "close", "camera": "Static Shot", "characters": ["C01"], "frame": "特写：一只小猴端来一捧野果，恭恭敬敬献到石座跟前，果子在手里堆得冒尖。", "shot": "固定机位对着小猴的手，他端着一捧野果一步步走到石座前，恭敬地捧起来。", "lens": "50mm 标准，中浅景深", "cameraPosition": "小猴 + 俯视侧方", "composition": "三分法", "eyeline": "望向石座", "focus": "锁定冒尖的野果", "stability": "stable" },
+      { "beats": [20, 20], "seconds": 4, "size": "close", "camera": "Static Shot", "characters": ["C01"], "frame": "特写：孙悟空接过果子，转头朝四下招呼分给大家，眉目带笑。", "shot": "固定机位对着他，猴王接过果子，不忙着吃，先朝四下招呼分给大家。", "lens": "85mm 长焦，极浅景深", "cameraPosition": "孙悟空 + 平视正面", "composition": "中心构图", "eyeline": "望向身边群猴", "focus": "锁定孙悟空面部", "stability": "stable" },
+      { "beats": [21, 21], "seconds": 3, "size": "medium", "camera": "Static Shot", "characters": ["C01"], "frame": "中景：孙悟空顺手把果子掰开，先分给身边的老猴和小猴，自己才咬了一口。", "shot": "固定机位，猴王把果子掰开，先分给两边伸来的毛爪，最后才咬自己那一口。", "lens": "50mm 标准，中浅景深", "cameraPosition": "孙悟空 + 平视侧方", "composition": "三分法", "eyeline": "低头分果子", "focus": "锁定分果子的手", "stability": "stable" }
+    ],
+    "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 3.00-second mark of the target video; Picture 3 (from Shot 3) aligns with the 7.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] Following <Picture 1>, a static close shot frames a small monkey walking up to the stone seat carrying a heaping little pile of wild fruit and offering it up respectfully.\n[Shot 2] At 00:03.000, the camera cuts to <Picture 2>: a static close-up on the young monkey who takes the fruit and, instead of eating, first gestures out to everyone around him, `<d>[Chinese] 有吃的先分给大家，别光顾我一个人馋。</d>`\n[Shot 3] At 00:07.000, the camera cuts to <Picture 3>: a medium fixed shot in which the young monkey breaks the fruit apart, hands pieces to the old and young monkeys beside him, and only then takes his own bite.\n\noverall_soundscape: The small monkey's soft footfalls, the rustle of fruit being handed around, low cavern water.\n\nnon_diegetic_music: Light pluck strings with a warm, homely feel as the fruit is shared."
+  },
+  {
+    "id": "E01-08",
+    "sceneIndex": 1,
+    "blocking": "一只小猴牵着孙悟空走到洞角，指着一排石锅石灶给他看；他蹲下伸手摸灶沿，又抬头打量洞府。",
+    "soundscape": "小猴脚步与指点声，石锅石灶旁回响的水声与细微石子声",
+    "music": "拨弦平缓，添一丝从旁看家当的新鲜感",
+    "cuts": [
+      { "beats": [22, 22], "seconds": 3, "size": "medium", "camera": "Static Shot", "characters": ["C01"], "frame": "中景：一只小猴牵孙悟空到洞角，指着一排垒起的石锅石灶给他看。", "shot": "固定机位，一只小猴牵着猴王走到洞角，指着一排垒起的石锅石灶，示意他看。", "lens": "50mm 标准，中浅景深", "cameraPosition": "孙悟空与小猴 + 平视侧方", "composition": "三分法", "eyeline": "望向石锅石灶", "focus": "锁定小猴手指的方向", "stability": "stable" },
+      { "beats": [23, 23], "seconds": 4, "size": "medium", "camera": "Static Shot", "characters": ["C01"], "frame": "中景：小猴指着灶，又惊又喜地开口，猴王循着他指的方向看去。", "shot": "固定机位对着小猴，他指着灶又惊又喜地说，眼里放着光。", "lens": "50mm 标准，中浅景深", "cameraPosition": "小猴 + 平视正面", "composition": "三分法", "eyeline": "向猴王展示石灶", "focus": "锁定小猴面部", "stability": "stable" },
+      { "beats": [24, 24], "seconds": 3, "size": "close", "camera": "Static Shot", "characters": ["C01"], "frame": "特写：孙悟空蹲下来摸了摸熏黑的灶沿，又抬头把这洞府整个打量了一遍。", "shot": "固定机位，猴王蹲下，伸手摸了摸熏黑的灶沿，又缓缓抬头把整座洞府打量一圈。", "lens": "50mm 标准，中浅景深", "cameraPosition": "孙悟空 + 平视侧方", "composition": "中心构图", "eyeline": "从灶沿移向上方洞府", "focus": "锁定摸灶沿的手", "stability": "stable" }
+    ],
+    "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 3.00-second mark of the target video; Picture 3 (from Shot 3) aligns with the 7.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] Following <Picture 1>, a medium static shot shows a small monkey leading the young monkey to the corner of the cave and pointing at a row of stacked stone stoves and pans for him to see.\n[Shot 2] At 00:03.000, the camera cuts to <Picture 2>: a medium fixed shot on the small monkey, who points at the stove with delight and surprise, `<d>[Chinese] 大王你看，这里连锅灶都是现成的。</d>`\n[Shot 3] At 00:07.000, the camera cuts to <Picture 3>: a static close-up in which the young monkey crouches, runs a hand over the soot-blackened stove rim, then lifts his head and takes in the whole cavern.\n\noverall_soundscape: The small monkey's footsteps and pointing, water echoing by the kitchen stones, a faint grinding of grit underfoot.\n\nnon_diegetic_music: Subdued plucked strings, a fresh touch of discovery as the household goods are shown."
+  },
+  {
+    "id": "E01-09",
+    "sceneIndex": 1,
+    "blocking": "孙悟空坐石座正中，群猴在座前笑闹；他说到沉重处话音渐低，群猴闻言安静，洞角拄拐老猴摇头。",
+    "soundscape": "欢声笑语忽然收住，只剩水声与老猴一声长叹",
+    "music": "拨弦忽止，转入一段略带苍凉的慢板",
+    "cuts": [
+      { "beats": [25, 25], "seconds": 4, "size": "close", "camera": "Static Shot", "characters": ["C01"], "frame": "特写：孙悟空后半句低下去，像说给自己听，笑意一点点收了。", "shot": "固定机位对着他，猴王后半句忽然低沉下去，像说给自己听，笑也悄悄收了。", "lens": "85mm 长焦，极浅景深", "cameraPosition": "孙悟空 + 平视正面", "composition": "中心构图", "eyeline": "微微垂下视线", "focus": "锁定孙悟空面部", "stability": "stable" },
+      { "beats": [26, 26], "seconds": 3, "size": "wide", "camera": "Static Shot", "characters": ["C01"], "frame": "全景：他这句话落在热闹里，正笑着的群猴忽然都安静了一瞬，洞内一静。", "shot": "固定机位回望全场，他这一句砸进热闹里，正笑着的群猴忽然都静了一瞬。", "lens": "24mm 广角，深景深", "cameraPosition": "群猴 + 平视正前方", "composition": "对称", "eyeline": "四下相望", "focus": "锁定忽然安静的全场", "stability": "stable" },
+      { "beats": [27, 27], "seconds": 3, "size": "close", "camera": "Static Shot", "characters": ["C01"], "frame": "特写：洞角一只拄着拐的老猴慢慢摇头，长长叹了口气，皱纹里满是沧桑。", "shot": "固定机位对着洞角老猴，他拄着拐慢慢摇头，长长叹了口气，不是答话，只是叹气。", "lens": "85mm 长焦，极浅景深", "cameraPosition": "拄拐老猴 + 平视正面", "composition": "三分法", "eyeline": "望向石座方向", "focus": "锁定老猴的脸", "stability": "stable" }
+    ],
+    "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 4.00-second mark of the target video; Picture 3 (from Shot 3) aligns with the 7.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] Following <Picture 1>, a static close-up on the young monkey whose voice drops on the last phrase as if speaking to himself, a touch of a smile fading, `<d>[Chinese] 日子是齐了，有吃有住，就差个长久。</d>`\n[Shot 2] At 00:04.000, the camera cuts to <Picture 2>: a wide static shot sweeps the crowd as his words land in the celebration; the laughing monkeys all fall silent for a beat.\n[Shot 3] At 00:07.000, the camera cuts to <Picture 3>: a static close-up on an old monkey by the corner wall, leaning on a cane, who slowly shakes his head and lets out a long, worn-out sigh.\n\noverall_soundscape: Laughter halting into silence, only the water dripping, then one long worn-out sigh from the old monkey.\n\nnon_diegetic_music: The strings stop short, easing into a slow, faintly wistful adagio."
+  },
+  {
+    "id": "E01-10",
+    "sceneIndex": 1,
+    "blocking": "孙悟空与拄拐老猴隔座问答，老猴在洞角一侧，他坐石座正面，中间隔着三步。",
+    "soundscape": "水声低缓，老猴声音一个字一个字往下沉，猴王半晌不答",
+    "music": "慢板拉低，透出沉重的苍凉感",
+    "cuts": [
+      { "beats": [28, 28], "seconds": 4, "size": "close", "camera": "Static Shot", "characters": ["C01"], "frame": "特写：拄拐老猴咂着嘴，语带唏嘘地开口，皱纹层层叠起。", "shot": "固定机位对着老猴的脸，他咂着嘴、语带唏嘘地把话慢慢道出。", "lens": "85mm 长焦，极浅景深", "cameraPosition": "拄拐老猴 + 平视正面", "composition": "三分法", "eyeline": "望向石座方向", "focus": "锁定老猴张嘴说话", "stability": "stable" },
+      { "beats": [29, 29], "seconds": 3, "size": "close", "camera": "Static Shot", "characters": ["C01"], "frame": "特写：孙悟空眨了眨眼，还真没想过这问题，微微偏头。", "shot": "固定机位对着他，猴王眨了眨眼，仿佛真没想过这一层，头微微一偏。", "lens": "85mm 长焦，极浅景深", "cameraPosition": "孙悟空 + 平视正面", "composition": "中心构图", "eyeline": "望向洞角老猴", "focus": "锁定孙悟空面部", "stability": "stable" },
+      { "beats": [30, 30], "seconds": 5, "size": "close", "camera": "Static Shot", "characters": ["C01"], "frame": "特写：拄拐老猴说得慢，一个字一个字往下沉，把病与埋土说成平常事。", "shot": "固定机位对着老猴，他说得极慢，一个字一个字往下沉，讲的是人人躲不开的病与土。", "lens": "85mm 长焦，极浅景深", "cameraPosition": "拄拐老猴 + 平视正面", "composition": "三分法", "eyeline": "望着石座方向", "focus": "锁定老猴面部", "stability": "stable" },
+      { "beats": [31, 31], "seconds": 3, "size": "medium", "camera": "Static Shot", "characters": ["C01"], "frame": "中景：猴王一听，脸色就沉下来，梗着脖子没答话，眼神发直。", "shot": "固定机位，猴王一听脸就沉下来，梗着脖子没答话，只把眉头拧住。", "lens": "50mm 标准，中浅景深", "cameraPosition": "孙悟空 + 平视正面", "composition": "中心构图", "eyeline": "发直地望向前方", "focus": "锁定孙悟空的面部", "stability": "stable" }
+    ],
+    "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 4.00-second mark of the target video; Picture 3 (from Shot 3) aligns with the 7.00-second mark of the target video; Picture 4 (from Shot 4) aligns with the 12.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] Following <Picture 1>, a static close-up on the old monkey by the corner who smacks his lips ruefully and lets out the words slowly, `<d>[Chinese] 不然呢，谁不是一眨眼就老了。</d>`\n[Shot 2] At 00:04.000, the camera cuts to <Picture 2>: a static close-up on the young monkey who blinks as if he has truly never thought of this question, head tilting slightly, `<d>[Chinese] 老了会怎样？</d>`\n[Shot 3] At 00:07.000, the camera cuts to <Picture 3>: a static close-up on the old monkey who now speaks very slowly, dwelling word by word on the sickness and the buried earth that no one escapes, `<d>[Chinese] 老了会病，病重了就得埋进土里，谁也躲不过。</d>`\n[Shot 4] At 00:12.000, the camera cuts to <Picture 4>: a static medium shot in which the young monkey's face darkens at the words, his neck stiffening as he falls quiet, eyes going blank.\n\noverall_soundscape: Low water; the old monkey's voice sinking word by word; a stretch of heavy silence from the stone seat.\n\nnon_diegetic_music: The adagio sinks lower, heavy and desolate."
+  },
+  {
+    "id": "E01-11",
+    "sceneIndex": 1,
+    "blocking": "群猴围坐石座四周，孙悟空坐正面，老猴在洞角；问答时镜头在他与老猴之间来回。",
+    "soundscape": "水声低缓，猴王与老猴一问一答，语声一下比一下急",
+    "music": "鼓点渐起，暗流涌动，藏住一股不服输的劲",
+    "cuts": [
+      { "beats": [32, 32], "seconds": 4, "size": "close", "camera": "Static Shot", "characters": ["C01"], "frame": "特写：孙悟空声音一下哑了半截，梗着脖子问，眼神发急。", "shot": "固定机位对着他，猴王话到一半暗了下去，梗着脖子问出来。", "lens": "85mm 长焦，极浅景深", "cameraPosition": "孙悟空 + 平视正面", "composition": "中心构图", "eyeline": "望向老猴", "focus": "锁定孙悟空面部", "stability": "stable" },
+      { "beats": [33, 33], "seconds": 4, "size": "close", "camera": "Static Shot", "characters": ["C01"], "frame": "特写：拄拐老猴摇头，语气认真，把阎王爷点名说得分量十足。", "shot": "固定机位对着老猴，他摇摇头，语气却认真，一字一句不轻飘。", "lens": "85mm 长焦，极浅景深", "cameraPosition": "拄拐老猴 + 平视正面", "composition": "三分法", "eyeline": "望着石座方向", "focus": "锁定老猴面部", "stability": "stable" },
+      { "beats": [34, 34], "seconds": 3, "size": "close", "camera": "Static Shot", "characters": ["C01"], "frame": "特写：这话像一根针，刺得孙悟空一个激灵，半晌没吭声。", "shot": "固定机位对着他，那话像根针扎进耳朵，猴王一个激灵，半晌没吭声。", "lens": "85mm 长焦，极浅景深", "cameraPosition": "孙悟空 + 平视正面", "composition": "中心构图", "eyeline": "失神地望着前方", "focus": "锁定孙悟空面部", "stability": "stable" },
+      { "beats": [35, 35], "seconds": 4, "size": "close", "camera": "Static Shot", "characters": ["C01"], "frame": "特写：孙悟空攥着拳，带着赌气开口，要寻个长生不老的法子。", "shot": "固定机位对着他，猴王攥紧拳头，带着一股赌气把话吐出来。", "lens": "85mm 长焦，极浅景深", "cameraPosition": "孙悟空 + 平视正面", "composition": "中心构图", "eyeline": "目光灼灼望向前方", "focus": "锁定攥拳的手与脸", "stability": "stable" }
+    ],
+    "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 4.00-second mark of the target video; Picture 3 (from Shot 3) aligns with the 8.00-second mark of the target video; Picture 4 (from Shot 4) aligns with the 11.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] Following <Picture 1>, a static close-up on the young monkey whose voice turns hoarse as he asks, neck stiff, eyes urgent, `<d>[Chinese] 那我们称了王，也挡不住这一遭？</d>`\n[Shot 2] At 00:04.000, the camera cuts to <Picture 2>: a static close-up on the old monkey who shakes his head, speaking with grave weight, `<d>[Chinese] 大王本事再大，也躲不开阎王爷点名。</d>`\n[Shot 3] At 00:08.000, the camera cuts to <Picture 3>: a static close-up on the young monkey who flinches as if pricked by a needle, falling silent for a long moment.\n[Shot 4] At 00:11.000, the camera cuts to <Picture 4>: a static close-up on the young monkey who clenches his fist and speaks with a rebellious edge, eye burning, `<d>[Chinese] 我不甘心。我偏要寻个法子，长生不老。</d>`\n\noverall_soundscape: Low water; the question and answer flying faster between the two; a tension thrumming underneath.\n\nnon_diegetic_music: A drumbeat stirring, a suppressed current of defiance."
+  },
+  {
+    "id": "E01-12",
+    "sceneIndex": 1,
+    "blocking": "群猴围坐，一只小猴在座前怯怯接口，孙悟空居石座正面，问答落在座前。",
+    "soundscape": "小猴怯怯的接口声，猴王一步不让的回答，水声低回",
+    "music": "鼓点与人声交错，藏着一股较劲的寸劲",
+    "cuts": [
+      { "beats": [36, 36], "seconds": 3, "size": "medium", "camera": "Static Shot", "characters": ["C01"], "frame": "中景：一只小猴怯怯地接口发问，缩着脖子抬眼看他。", "shot": "固定机位对着座前的小猴，他怯怯地接口，缩着脖子抬眼望向石座。", "lens": "50mm 标准，中浅景深", "cameraPosition": "小猴 + 平视正面", "composition": "三分法", "eyeline": "抬眼望向石座", "focus": "锁定小猴面部", "stability": "stable" },
+      { "beats": [37, 37], "seconds": 4, "size": "close", "camera": "Static Shot", "characters": ["C01"], "frame": "特写：孙悟空梗着脖子，一步不让，声音越说越硬气。", "shot": "固定机位对着他，猴王梗着脖子一步不让，把话说得又硬又亮。", "lens": "85mm 长焦，极浅景深", "cameraPosition": "孙悟空 + 平视正面", "composition": "中心构图", "eyeline": "灼灼望着座前", "focus": "锁定孙悟空面部", "stability": "stable" },
+      { "beats": [38, 38], "seconds": 3, "size": "medium", "camera": "Static Shot", "characters": ["C01"], "frame": "中景：一只老猴叹一口气，在旁摇头接口，声音发沉。", "shot": "固定机位对着老猴，他叹一口气，摇头接口把这句疑问递回座前。", "lens": "50mm 标准，中浅景深", "cameraPosition": "老猴 + 平视正面", "composition": "三分法", "eyeline": "望向石座", "focus": "锁定老猴面部", "stability": "stable" }
+    ],
+    "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 3.00-second mark of the target video; Picture 3 (from Shot 3) aligns with the 7.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] Following <Picture 1>, a medium static shot on a small monkey by the seat who speaks up timidly, neck tucked, looking up at the young monkey, `<d>[Chinese] 长生？那天下真有人会么。</d>`\n[Shot 2] At 00:03.000, the camera cuts to <Picture 2>: a static close-up on the young monkey who stiffens his neck and gives no ground, his voice turning firmer, `<d>[Chinese] 有人会最好，没人会我就造一个出来。</d>`\n[Shot 3] At 00:07.000, the camera cuts to <Picture 3>: a medium fixed shot on an old monkey who sighs and shakes his head as he passes the doubt back, `<d>[Chinese] 可天下这么大，从哪儿找去。</d>`\n\noverall_soundscape: The timid reply of the small monkey, the unyielding answer of the young monkey, low circling water.\n\nnon_diegetic_music: Drum and voice interweaving, a hidden edge of grinding determination."
+  },
+  {
+    "id": "E01-13",
+    "sceneIndex": 1,
+    "blocking": "孙悟空坐石座居中，两眼发亮；群猴围着听他，他视线越过众人望向前路。",
+    "soundscape": "水声隐去，猴王的声音一次比一次亮，透着说不尽的热",
+    "music": "拨弦转亮，鼓点稳住，托起他逐字说下的决心",
+    "cuts": [
+      { "beats": [39, 39], "seconds": 4, "size": "close", "camera": "Static Shot", "characters": ["C01"], "frame": "特写：孙悟空眼神反倒更亮，说得笃定，认准了要漂洋过海去寻。", "shot": "固定机位对着他，猴王眼神反而亮起来，说得笃定，认准这一条路。", "lens": "85mm 长焦，极浅景深", "cameraPosition": "孙悟空 + 平视正面", "composition": "中心构图", "eyeline": "望向洞外方向", "focus": "锁定孙悟空面部", "stability": "stable" },
+      { "beats": [40, 40], "seconds": 4, "size": "close", "camera": "Static Shot", "characters": ["C01"], "frame": "特写：孙悟空越说越硬气，身子坐直，像下了大誓。", "shot": "固定机位对着他，猴王越说越硬气，坐直了身子，字字砸下来。", "lens": "85mm 长焦，极浅景深", "cameraPosition": "孙悟空 + 平视正面", "composition": "中心构图", "eyeline": "目光灼灼望向前方", "focus": "锁定孙悟空面部", "stability": "stable" },
+      { "beats": [41, 41], "seconds": 3, "size": "wide", "camera": "Static Shot", "characters": ["C01"], "frame": "全景：他说完腾地站起身，在洞里来回走了三圈，越走越快。", "shot": "固定机位，猴王说完腾地站起身，在洞里来回走了三圈，一步比一步快。", "lens": "24mm 广角，深景深", "cameraPosition": "孙悟空 + 平视侧方", "composition": "对角线", "eyeline": "来回扫过洞府", "focus": "锁定步态", "stability": "slight-shake" }
+    ],
+    "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 4.00-second mark of the target video; Picture 3 (from Shot 3) aligns with the 8.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] Following <Picture 1>, a static close-up on the young monkey whose eyes grow brighter as he speaks with certainty, resolved to cross the seas and climb the mountains, `<d>[Chinese] 漂洋过海，翻山越岭，总能撞上一个。</d>`\n[Shot 2] At 00:04.000, the camera cuts to <Picture 2>: a static close-up on the young monkey who grows firmer with every word, sitting up straight as if swearing a vow, `<d>[Chinese] 没人会，我就第一个去学，学到会为止。</d>`\n[Shot 3] At 00:08.000, the camera cuts to <Picture 3>: a wide fixed shot in which the young monkey springs to his feet and paces the cavern three times, faster with each lap.\n\noverall_soundscape: The water fading out, the young monkey's voice brightening, a restless energy in his stride.\n\nnon_diegetic_music: Strings turning brighter, drums steadying under the weight of his resolve."
+  },
+  {
+    "id": "E01-14",
+    "sceneIndex": 1,
+    "blocking": "孙悟空走到洞口停住，望着那扇水帘；群猴已在洞内石角睡下，他想心事。",
+    "soundscape": "水帘哗哗外间传来，洞内群猴睡鼾，夜风穿过洞口",
+    "music": "弦乐放轻，夜晚的空旷漫进洞里",
+    "cuts": [
+      { "beats": [42, 42], "seconds": 3, "size": "medium", "camera": "Static Shot", "characters": ["C01"], "frame": "中景：孙悟空走到洞口停住，望着那扇水帘，眉一点点拧了起来。", "shot": "固定机位，猴王走到洞口站住，望着那扇水帘，眉头一点点拢紧。", "lens": "50mm 标准，中浅景深", "cameraPosition": "孙悟空 + 平视背面", "composition": "三分法", "eyeline": "望向水帘", "focus": "锁定孙悟空背影", "stability": "stable" },
+      { "beats": [43, 43], "seconds": 4, "size": "wide", "camera": "Static Shot", "characters": ["C01"], "frame": "全景：入夜，群猴都蜷在石角睡熟了，只他一人还坐在洞口石沿上。", "shot": "固定机位拉出夜里的洞内，群猴蜷在石角睡熟，只他一人坐在洞口石沿边。", "lens": "24mm 广角，深景深", "cameraPosition": "洞内全貌 + 平视侧方", "composition": "对称", "eyeline": "望向夜色", "focus": "锁定独坐洞口的身影", "stability": "stable" },
+      { "beats": [44, 44], "seconds": 4, "size": "close", "camera": "Static Shot", "characters": ["C01"], "frame": "特写：他抬起头，望着满天星斗，眉头一点一点锁紧。", "shot": "固定机位，猴王抬起头望满天星斗，眉头一点一点锁得发紧。", "lens": "85mm 长焦，极浅景深", "cameraPosition": "孙悟空 + 仰视正面", "composition": "中心构图", "eyeline": "仰望星斗", "focus": "锁定孙悟空眉头", "stability": "stable" }
+    ],
+    "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 3.00-second mark of the target video; Picture 3 (from Shot 3) aligns with the 6.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] Following <Picture 1>, a static medium shot shows the young monkey stopping at the mouth of the cave, facing the hanging water curtain, his brow slowly knitting.\n[Shot 2] At 00:03.000, the camera cuts to <Picture 2>: a wide fixed shot pulls out as night falls; the monkeys are curled asleep by the stone corners, only he alone sits on the stone edge at the cave mouth.\n[Shot 3] At 00:06.000, the camera cuts to <Picture 3>: a static close-up on the young monkey as he lifts his head to the starry sky, his brow tightening little by little.\n\noverall_soundscape: The waterfall roaring beyond the cave mouth, the sleeping breath of the monkeys, night wind threading through the opening.\n\nnon_diegetic_music: Strings softening, the openness of night drifting into the cave."
+  },
+  {
+    "id": "E01-15",
+    "sceneIndex": 1,
+    "blocking": "孙悟空坐洞口石沿望天独语；群猴睡在身后洞内，他的手探向月光又垂。",
+    "soundscape": "夜风与远处水响，猴王两句话声音发沉，似起了誓",
+    "music": "弦乐转暗，一句比一句重，像压着誓言",
+    "cuts": [
+      { "beats": [45, 45], "seconds": 4, "size": "close", "camera": "Static Shot", "characters": ["C01"], "frame": "特写：孙悟空望着星，声音发沉，把明日的黄土说成铁一样的事。", "shot": "固定机位对着他，猴王望着星星低声说，声音沉得压人。", "lens": "85mm 长焦，极浅景深", "cameraPosition": "孙悟空 + 平视正面", "composition": "中心构图", "eyeline": "望向星空", "focus": "锁定孙悟空面部", "stability": "stable" },
+      { "beats": [46, 46], "seconds": 3, "size": "medium", "camera": "Static Shot", "characters": ["C01"], "frame": "中景：他伸手去接月光，手心一空，又慢慢垂下来。", "shot": "固定机位，猴王抬手去接月光，五指张开手心却空，缓缓垂下来。", "lens": "50mm 标准，中浅景深", "cameraPosition": "孙悟空 + 平视侧面", "composition": "三分法", "eyeline": "望向自己张开的手", "focus": "锁定空着的手掌", "stability": "stable" },
+      { "beats": [47, 47], "seconds": 5, "size": "close", "camera": "Static Shot", "characters": ["C01"], "frame": "特写：孙悟空一字一句，像起了誓，要把怕老的字从根上抹了去。", "shot": "固定机位贴着他的脸，猴王一字一句像在起誓，字念得重而慢。", "lens": "85mm 长焦，极浅景深", "cameraPosition": "孙悟空 + 平视正面", "composition": "中心构图", "eyeline": "灼灼望向夜空", "focus": "锁定孙悟空面部", "stability": "stable" }
+    ],
+    "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 4.00-second mark of the target video; Picture 3 (from Shot 3) aligns with the 7.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] Following <Picture 1>, a static close-up on the young monkey gazing at the stars, his voice turning low and heavy, `<d>[Chinese] 就算今日称了王，明日也是一捧黄土。</d>`\n[Shot 2] At 00:04.000, the camera cuts to <Picture 2>: a medium fixed shot in which he reaches up with one hand into the moonlight, the palm closing on nothing, then slowly lowering.\n[Shot 3] At 00:07.000, the camera cuts to <Picture 3>: a static close-up as the young monkey speaks word by word like a vow, heavy and slow, `<d>[Chinese] 我是王，就该把这个怕老的字，从根上抹了去。</d>`\n\noverall_soundscape: Night wind and distant water; the two heavy lines falling like a quiet oath.\n\nnon_diegetic_music: Strings turning darker, each phrase heavier, as if pressed under a vow."
+  },
+  {
+    "id": "E01-16",
+    "sceneIndex": 1,
+    "blocking": "猴王坐洞口，一醒来的小猴在洞内半起身劝他；他回应时望向夜色，头也不回。",
+    "soundscape": "小猴半醒着劝话，夜风断续，他的回答坚定",
+    "music": "弦乐转紧，夜里的决心一点点升上来",
+    "cuts": [
+      { "beats": [48, 48], "seconds": 3, "size": "medium", "camera": "Static Shot", "characters": ["C01"], "frame": "中景：他望着星辰，胸口一起一伏，像下定了什么大决心。", "shot": "固定机位，猴王望着星辰，胸口一起一伏，像什么都定下了。", "lens": "50mm 标准，中浅景深", "cameraPosition": "孙悟空 + 平视侧面", "composition": "三分法", "eyeline": "望向夜空", "focus": "锁定起伏的胸口", "stability": "stable" },
+      { "beats": [49, 49], "seconds": 4, "size": "medium", "camera": "Static Shot", "characters": ["C01"], "frame": "中景：一只小猴半醒着劝他，声音软而含糊。", "shot": "固定机位对着洞里半醒的小猴，他支起半个身子软声劝着洞口那边。", "lens": "50mm 标准，中浅景深", "cameraPosition": "小猴 + 平视正面", "composition": "三分法", "eyeline": "望向洞口猴王", "focus": "锁定小猴半醒的脸", "stability": "stable" },
+      { "beats": [50, 50], "seconds": 4, "size": "close", "camera": "Static Shot", "characters": ["C01"], "frame": "特写：孙悟空头也不回地说，话里透着不能等的心思。", "shot": "固定机位对着他，猴王头也不回地答，话里透着等不得的急。", "lens": "85mm 长焦，极浅景深", "cameraPosition": "孙悟空 + 平视正面", "composition": "中心构图", "eyeline": "望向夜色更深处", "focus": "锁定孙悟空面部", "stability": "stable" }
+    ],
+    "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 3.00-second mark of the target video; Picture 3 (from Shot 3) aligns with the 7.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] Following <Picture 1>, a static medium shot shows the young monkey gazing at the stars, chest rising and falling as if a great resolve has settled.\n[Shot 2] At 00:03.000, the camera cuts to <Picture 2>: a medium fixed shot on a small monkey half-awake in the cave, in a soft, drowsy voice he urges the one by the cave mouth, `<d>[Chinese] 大王，天不早了，明日再走罢。</d>`\n[Shot 3] At 00:07.000, the camera cuts to <Picture 3>: a static close-up on the young monkey who answers without turning his head, urgency plain in his voice, `<d>[Chinese] 等不了明日。夜里走，天不亮就能出山。</d>`\n\noverall_soundscape: The small monkey's sleep-muddled coaxing, night wind in fits, his answer steady and firm.\n\nnon_diegetic_music: Strings drawing tight, the nightly resolve climbing."
+  },
+  {
+    "id": "E01-17",
+    "sceneIndex": 1,
+    "blocking": "孙悟空自洞口石沿起身，回头扫一眼睡着的群猴，揣上野果转身奔出洞外，一路跑下山的岔路。",
+    "soundscape": "衣袂与脚步响起，风声渐大，奔行声一路远去的间歇",
+    "music": "弦乐收紧，一支奔跑的节奏，越推越急",
+    "cuts": [
+      { "beats": [51, 51], "seconds": 3, "size": "wide", "camera": "Static Shot", "characters": ["C01"], "frame": "全景：孙悟空猛地站起身，最后回头扫了一眼酣睡的山猴，像是同他们告别。", "shot": "固定机位，猴王猛地站起身，回头扫一眼酣睡的山猴，像在做无声的告别。", "lens": "24mm 广角，深景深", "cameraPosition": "孙悟空 + 平视背面", "composition": "三分法", "eyeline": "回头望向群猴", "focus": "锁定猴王背影", "stability": "stable" },
+      { "beats": [52, 52], "seconds": 3, "size": "close", "camera": "Static Shot", "characters": ["C01"], "frame": "特写：他折身摸起一块野果揣进怀里，权当明日路上的盘缠。", "shot": "固定机位对着他的手，猴王折身摸起一块野果，揣进怀里当路上的干粮。", "lens": "50mm 标准，中浅景深", "cameraPosition": "孙悟空 + 平视侧面", "composition": "中心构图", "eyeline": "望向怀里的野果", "focus": "锁定揣果的手", "stability": "stable" },
+      { "beats": [53, 53], "seconds": 4, "size": "wide", "camera": "Tracking Shot", "characters": ["C01"], "frame": "全景：他转过身，头也不回地往洞外奔去，消失在夜色里。", "shot": "镜头跟着他，猴王转身头也不回往洞外奔去，身影很快融入夜色。", "lens": "35mm 广角，中景深", "cameraPosition": "孙悟空 + 平视侧面", "composition": "对角线", "eyeline": "望向洞外", "focus": "锁定奔跑的身影", "stability": "handheld" },
+      { "beats": [54, 54], "seconds": 4, "size": "wide", "camera": "Static Shot", "characters": ["C01"], "frame": "全景：他一口气跑下山，到岔路口站定，喘匀了气，辨了辨方向。", "shot": "固定机位，猴王一口气跑下山，在岔路口站定，喘匀气，四下辨方向。", "lens": "24mm 广角，深景深", "cameraPosition": "孙悟空 + 平视侧方", "composition": "三分法", "eyeline": "四下张望山路", "focus": "锁定岔路口的身影", "stability": "stable" }
+    ],
+    "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 3.00-second mark of the target video; Picture 3 (from Shot 3) aligns with the 6.00-second mark of the target video; Picture 4 (from Shot 4) aligns with the 10.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] Following <Picture 1>, a wide static shot shows the young monkey springing up abruptly, sweeping a last look over the sleeping monkeys as if saying goodbye to them.\n[Shot 2] At 00:03.000, the camera cuts to <Picture 2>: a static close-up on his hand as he grabs a wild fruit and tucks it into his clothes as road rations for the coming days.\n[Shot 3] At 00:06.000, the camera cuts to <Picture 3>: a tracking shot follows the young monkey as he turns, runs out of the cave without looking back, and vanishes into the night.\n[Shot 4] At 00:10.000, the camera cuts to <Picture 4>: a wide fixed shot in which he reaches the foot of the hill at a run, stops at a fork in the road, catches his breath, and scans his bearings.\n\noverall_soundscape: Rustling robes and quick footsteps, wind growing, then the sound of his running falling away by fits.\n\nnon_diegetic_music: Strings drawing tight around a running pulse that presses faster and faster."
+  },
+  {
+    "id": "E01-18",
+    "sceneIndex": 1,
+    "blocking": "孙悟空立于夜间岔路口，说毕回头往更远的山路大步走；镜头随他远去，渐渐拉开。",
+    "soundscape": "夜里风声大，他意气地说完，脚步声一路往远山响去",
+    "music": "弦乐透亮，壮行一曲，推他走向远方",
+    "cuts": [
+      { "beats": [55, 55], "seconds": 6, "size": "close", "camera": "Static Shot", "characters": ["C01"], "frame": "特写：孙悟空眯着眼迎着夜风开口，话说得意气满满，眼里有光。", "shot": "固定机位对着他，猴王被夜风呲得眯起眼，话却说得意气满满。", "lens": "50mm 标准，中浅景深", "cameraPosition": "孙悟空 + 平视正面", "composition": "中心构图", "eyeline": "望向远山方向", "focus": "锁定孙悟空面部", "stability": "stable" },
+      { "beats": [56, 56], "seconds": 4, "size": "wide", "camera": "Pull Out", "characters": ["C01"], "frame": "全景：他说完一扭头，往更远的山路大步走去，身影一点点被夜色吞掉。", "shot": "镜头缓拉，猴王说完一扭头，往更远的山路大步走，身影渐渐被夜色吞没。", "lens": "35mm 广角，中景深", "cameraPosition": "孙悟空 + 平视背面", "composition": "中心构图", "eyeline": "望向远山路", "focus": "锁定远去的身影", "stability": "stable" }
+    ],
+    "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 6.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] Following <Picture 1>, a static close-up on the young monkey squinting against the night wind, saying the line with full spirit, eyes bright, `<d>[Chinese] 等我寻到长生的法子，就回来，威威风风做回大王。</d>`\n[Shot 2] At 00:06.000, the camera cuts to <Picture 2>: as the pull-out widens, the young monkey turns his head, strides off down the farther mountain road, his figure swallowed little by little into the night.\n\noverall_soundscape: Loud night wind, his spirited words, and footsteps sounding off toward the distant hills.\n\nnon_diegetic_music: Clear string notes, a tune of parting that bids him go."
+  }
+]

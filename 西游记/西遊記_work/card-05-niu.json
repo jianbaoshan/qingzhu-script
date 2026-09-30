@@ -1,0 +1,39 @@
+{
+  "name": "牛魔王",
+  "aliases": ["大力王", "平天大圣"],
+  "importance": "supporting",
+  "oneLiner": "火焰山之主、红孩儿之父，孙悟空五百年前结义的兄长，勇猛护家，与旧友反目。",
+  "persona": {
+    "gender": "男",
+    "ageRange": "外观为威猛壮年（推断）",
+    "identity": "火焰山一带的妖王，号平天大圣、亦称大力王，孙悟空五百年前七魔结义的兄长",
+    "appearance": "勇武壮硕的魔王，日常披重甲出征，赴宴时换一领鸦青剪绒袄子、跨一头辟水金睛兽，使一条混铁棍，也掣两把青锋剑。暴怒时会现出本相——一头大白牛，头如峻岭、眼若闪光、两角似铁塔，连头至尾千余丈。他多情护家，因悟空欲借芭蕉扇而与旧日结拜兄弟红脸打斗。",
+    "personality": ["重情护家", "刚烈暴怒", "勇健好斗", "记仇护短"],
+    "temperament": "说话带着山王的豪横与震怒，声如擂鼓，护妻子护妾室，对故人翻脸也毫不留情。",
+    "motivation": "守着自己的山、自己的家与妻小，不容任何人染指。",
+    "arc": "大闹天宫时与悟空结义的平天大圣，后据火焰山阻路，被悟空借三调芭蕉扇击败收服",
+    "relationships": [{ "name": "红孩儿", "relation": "儿子" }, { "name": "铁扇公主", "relation": "妻子" }, { "name": "孙悟空", "relation": "五百年前结义的兄弟，后反目" }],
+    "evidence": [
+      "拿了一條混鐵棍，出門高叫道",
+      "他才卸了盔甲，穿一領鴉青剪絨襖子，走出門，跨上辟水金睛獸",
+      "現出原身：一隻大白牛，頭如峻嶺，眼若閃光，兩隻角似兩座鐵塔，牙排利刃",
+      "他也有七十二變，武藝也與大聖一般，只是身子狼犺些"
+    ]
+  },
+  "image": {
+    "prompt": "A monumentally built ox-headed male demon king, towering and fierce: a massive bovine head with two huge curved horns, deep blazing eyes, strong features, a brawny bull-necked torso. He wears heavy dark plate armor in battle, or a slate-blue wadded velvet-front tunic (ya qing jian rong ao) when at ease, and carries a thick iron staff. A formidable horned war-horse beast sometimes at his side. Era: Tang-dynasty China, the demon lord of the Flaming Mountain. Proud, enraged, home-protecting, a bull-man of enormous stature.",
+    "promptLocal": "一位体型如山、牛头人身的男性妖大王：巨大的牛首，两支粗壮弯曲的犄角，双目深沉灼灼，面容刚猛，颈粗如牛、肩膀宽阔。战时披厚重的深色板甲，闲时穿一领鸦青色的绒毛短袄，手持一条粗铁棍。设定为唐代背景下火焰山一带威震一方的牛类妖王，趾高气昂、盛怒护家、身形庞大。",
+    "negativePrompt": "same generic face as another character, human nose, thin frame, colorful royal robes, crown of a human emperor, perfectly symmetrical face, stiff mannequin pose, extra fingers, deformed limbs and horns",
+    "tags": ["Tang dynasty China", "ox-headed demon king", "huge curved horns", "dark plate armor", "slate-blue velvet tunic", "iron staff", "flaming mountain", "imposing might"],
+    "sheet": "ONE 16:9 landscape canvas, plain white background with even margins, thin hairline rules separating three zones. ONE single character only. LEFT ZONE (about 34% of canvas width): a large front-facing head-and-shoulders bust as the facial design reference, shoulders complete, bottom edge cropped flat, the ox face and horns fully detailed, LIGHTING IN THE LEFT ZONE ONLY: soft directional key from upper left, natural falloff, ambient occlusion under brow and at collar-neck junction for volume. RIGHT-TOP ZONE: three FULL-BODY views side by side (front, side, back) sharing a single ground line, identical head-to-body proportion, showing the towering build, the armor or velvet tunic, and the iron staff. RIGHT-BOTTOM ZONE: four to five small isolated close-up studies aligned in one row (the curved horn, the blazing eye, the armor pauldron, the iron staff head, the tunic trim), clearly smaller than the full-body figures. LIGHTING IN THE RIGHT ZONES: flat even orthographic lighting, no directional key, no shadow. PROPORTIONS ARE CRITICAL: keep the three full-body figures equal height with correct head-to-body ratio and limbs, feet on one ground line, headroom and footing clear; never stretch or squash the figure to fit. One face across all views; the bust is the baseline, right zones follow it. If the detail studies overflow the row, extend them as a column down the right edge—the detail studies give way, not the figures."
+  },
+  "voice": {
+    "timbre": "雄浑洪亮的男低音，声如洪钟带怒",
+    "pitch": "低而壮",
+    "pace": "沉稳有力，一字一顿",
+    "accent": "粗犷的山野大嗓，略带混响",
+    "emotion": "威猛、震怒、护家护短的刚烈",
+    "prompt": "Vigorous middle-aged male voice, deep booming bass-baritone, very low pitch, powerful chest resonance, wide dynamic range. Slow heavy steadfast pace, resonant weighty articulation. A rough mountain-brood accent with a rolling timbre. Proud, enraged, fiercely protective and unyielding.",
+    "referenceHint": "声音低沉雄壮像打雷，一句是一句，气得很沉"
+  }
+}
