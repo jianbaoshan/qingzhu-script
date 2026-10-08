@@ -1,0 +1,849 @@
+{
+  "source": "三国演义",
+  "promptLang": "en",
+  "params": {
+    "maxSegmentSeconds": 15,
+    "minCutSeconds": 2,
+    "maxCutSeconds": 8,
+    "maxOnScreen": 3,
+    "tolerance": 0.15
+  },
+  "episodes": [
+    {
+      "ep": 45,
+      "segments": [
+        {
+          "id": "E45-01",
+          "sceneIndex": 1,
+          "cuts": [
+            {
+              "beats": [
+                1,
+                2
+              ],
+              "seconds": 5,
+              "size": "medium",
+              "camera": "Static Shot",
+              "characters": [
+                "C18",
+                "C12"
+              ],
+              "frame": "中景，冷开场：帐中灯烛摇曳，酒气混着江风扑进来，一名白面说客被人引着往帐里走，一步三看，只顾着理衣袖",
+              "shot": "固定镜头，帐中灯烛摇曳，一名白面说客被人领着走入帐内，边走边四处打量，一边整理衣袍",
+              "lens": "50mm 标准，中浅景深",
+              "cameraPosition": "帐口 + 平视",
+              "composition": "三分法",
+              "eyeline": "帐内深处",
+              "focus": "锁定随行理袖的来客",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                3,
+                3
+              ],
+              "seconds": 4,
+              "size": "close",
+              "camera": "Static Shot",
+              "characters": [
+                "C12"
+              ],
+              "frame": "特写，年轻将军迎到帐口，一把拉住来客手腕往回一攥，笑得眉梢都抬了起来，半真半假地先开口",
+              "shot": "固定镜头近切，一名年轻将军迎到帐口，拉住来客的手腕，眉梢带着笑意抢先开口",
+              "lens": "85mm 长焦，浅景深",
+              "cameraPosition": "年轻将军 + 平视正面",
+              "composition": "三分法",
+              "eyeline": "白面说客",
+              "focus": "锁定拉腕一笑的神采",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                4,
+                4
+              ],
+              "seconds": 4,
+              "size": "close",
+              "camera": "Static Shot",
+              "characters": [
+                "C18"
+              ],
+              "frame": "特写，来客脸上讪了一讪，忙摆手连声否认，只说念着旧情来看故人",
+              "shot": "固定镜头近切，来客被这一问问得尴尬，忙摆手连声否认，只说是来看故人",
+              "lens": "85mm 长焦，浅景深",
+              "cameraPosition": "白面说客 + 平视正面",
+              "composition": "三分法",
+              "eyeline": "举杯相迎的方向",
+              "focus": "锁定摆手否认的窘态",
+              "stability": "stable"
+            }
+          ],
+          "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 5.00-second mark of the target video; Picture 3 (from Shot 3) aligns with the 9.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] The cold open holds the camp of <Picture 1>: candles wavering on wine-tainted night air, a flustered envoy being led into the tent, glancing about as he smooths his sleeves; static shot.\n[Shot 2] At 00:05.000, A static shot close-up of <Picture 2>: the composed young general welcomes the guest, seizing his wrist with a bright grin, and with a teasing, half-playful voice asks: <d>[Chinese] 子翼远来，可是替曹贼当说客？</d>\n[Shot 3] At 00:09.000, A static shot close-up of <Picture 3>: caught short, the nervous envoy waves his hands in hasty denial, insisting he merely missed an old friend.\n\noverall_soundscape: A single bedchamber of the tent: candles wavering, the wine-scented night breeze, a visitor’s steps as he is led in, robes being straightened.\n\nnon_diegetic_music: Low strings over a held drone, slow, a veiled game beneath the wine.",
+          "blocking": "帐中灯烛摇曳，酒气混着江风；白面说客被人引着入帐，一步三看只顾理袖，年轻将军迎到帐口一把拉住手腕。",
+          "soundscape": "帐中灯烛摇曳，酒气混着江风，来客入帐时衣料的窸窣与脚步声",
+          "music": "低音弦乐压着一个未落的音，中慢速，暗藏机锋"
+        },
+        {
+          "id": "E45-02",
+          "sceneIndex": 1,
+          "cuts": [
+            {
+              "beats": [
+                5,
+                6
+              ],
+              "seconds": 6,
+              "size": "medium",
+              "camera": "Static Shot",
+              "characters": [
+                "C12"
+              ],
+              "frame": "中景，年轻将军亲自把来客按在案边坐下，亲手斟上满满一杯酒，话里话外都要把军务堵在半句之前",
+              "shot": "固定镜头中景，年轻将军亲自拉客在案边坐下，亲手斟满一杯，笑容里把话题圈在酒上",
+              "lens": "50mm 标准，中浅景深",
+              "cameraPosition": "年轻将军 + 平视侧面",
+              "composition": "三分法",
+              "eyeline": "案上酒杯",
+              "focus": "锁定斟酒与封锁话头的从容",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                7,
+                7
+              ],
+              "seconds": 3,
+              "size": "medium",
+              "camera": "Static Shot",
+              "characters": [
+                "C18"
+              ],
+              "frame": "中景，来客只好陪着饮，一杯接一杯，渐渐有了醉意",
+              "shot": "固定镜头中景，来客不好推拒只好一杯接一杯陪着饮，目光渐渐有些发飘",
+              "lens": "50mm 标准，中浅景深",
+              "cameraPosition": "白面说客 + 平视侧面",
+              "composition": "三分法",
+              "eyeline": "酒杯",
+              "focus": "锁定渐起醉意的神态",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                8,
+                8
+              ],
+              "seconds": 4,
+              "size": "wide",
+              "camera": "Static Shot",
+              "characters": [
+                "C12"
+              ],
+              "frame": "全景，趁来客低头的工夫，年轻将军朝帐侧一名兵丁使了个眼色，兵丁会意退了下去",
+              "shot": "固定镜头，趁来客低头之际，年轻将军向帐侧一名兵丁递了个眼色，兵丁会意退出帐去",
+              "lens": "35mm 广角，深景深",
+              "cameraPosition": "帐内全景 + 平视",
+              "composition": "中心构图",
+              "eyeline": "退下帐的兵丁",
+              "focus": "锁定递眼色的那一瞬",
+              "stability": "stable"
+            }
+          ],
+          "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 6.00-second mark of the target video; Picture 3 (from Shot 3) aligns with the 9.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] Holding <Picture 1>, the young general of the camp personally seats the guest by the low table and pours a brimming cup himself; static shot, and with a blocking, offhand voice he says: <d>[Chinese] 今夜只说旧谊，不谈军务。</d>\n[Shot 2] At 00:06.000, Holding <Picture 2> in medium, the flustered visitor drinks along cup after cup, his head beginning to swim; static shot.\n[Shot 3] At 00:09.000, The static shot pulls to a wide of <Picture 3>: as the visitor lowers his head, the young general flicks a glance at a guard by the tent side, who nods and withdraws.\n\noverall_soundscape: A clink of cups, a warm hand clasping a wrist, wine poured full to the brim.\n\nnon_diegetic_music: Strings lifting gently, an easy host in the tone.",
+          "blocking": "年轻将军不戳破，亲手拉客在案边坐下斟满一杯；来客一杯接一杯陪着饮，年轻将军借机朝帐侧兵丁使了个眼色。",
+          "soundscape": "杯盏轻碰，斟酒入盏的一声，来客低低的吞咽声，渐渐含混的话音",
+          "music": "弦乐轻提，宾主话里各藏一层"
+        },
+        {
+          "id": "E45-03",
+          "sceneIndex": 1,
+          "cuts": [
+            {
+              "beats": [
+                9,
+                10
+              ],
+              "seconds": 6,
+              "size": "medium",
+              "camera": "Static Shot",
+              "characters": [
+                "C12"
+              ],
+              "frame": "中景，年轻将军举杯与他轻轻一碰，一面把话头圈在酒上，不给他留半分探问的空当",
+              "shot": "固定镜头中景，年轻将军举杯与来客轻轻一碰，含笑把话头拦在军务之外",
+              "lens": "50mm 标准，中浅景深",
+              "cameraPosition": "年轻将军 + 平视侧面",
+              "composition": "三分法",
+              "eyeline": "杯中酒",
+              "focus": "锁定碰杯时封锁话头的笑",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                11,
+                12
+              ],
+              "seconds": 6,
+              "size": "close",
+              "camera": "Static Shot",
+              "characters": [
+                "C12"
+              ],
+              "frame": "特写，年轻将军不紧不慢又斟一杯，指尖在杯沿一圈圈转着，像是在忆旧，目光却未尽",
+              "shot": "固定镜头近切，年轻将军慢悠悠再斟一杯，指尖绕着杯沿转圈，目光幽深，像是在追忆去岁的旧谊",
+              "lens": "85mm 长焦，浅景深",
+              "cameraPosition": "年轻将军 + 平视正面",
+              "composition": "三分法",
+              "eyeline": "杯沿指尖",
+              "focus": "锁定忆旧却未尽的目光",
+              "stability": "stable"
+            }
+          ],
+          "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 6.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] Holding <Picture 1> in medium, the young general clinks his cup lightly against the guest’s, keeping all matters of war outside the talk; static shot, and with a gentle, measured voice he says: <d>[Chinese] 子翼，今夜你我，只把这杯酒喝尽便好。</d>\n[Shot 2] At 00:06.000, A static shot close-up of <Picture 2>: unhurriedly the young general pours again and circles a fingertip along the rim, eyes trailing into memory, and with an absent, knowing voice he says: <d>[Chinese] 我周瑜在江东这些年，谁递的酒都记得清。</d>\n\noverall_soundscape: Cups meeting in a toast, the gulp of wine, faint voices murmuring in the lamplight.\n\nnon_diegetic_music: Light middle-string phrases, unhurried, half-hidden meanings.",
+          "blocking": "年轻将军举杯与他轻轻一碰，又慢悠悠斟一杯，指尖在杯沿一圈圈转着，目光未尽。",
+          "soundscape": "两杯轻碰的一声，酒液入喉，指尖划过杯沿的细响",
+          "music": "弦乐一线清明，一句一句往外递"
+        },
+        {
+          "id": "E45-04",
+          "sceneIndex": 1,
+          "cuts": [
+            {
+              "beats": [
+                13,
+                14
+              ],
+              "seconds": 5,
+              "size": "medium",
+              "camera": "Static Shot",
+              "characters": [
+                "C18"
+              ],
+              "frame": "中景，来客眼皮发沉却还是强撑着，眼珠偷偷往那摞军报上瞟，目光已和醉意打架",
+              "shot": "固定镜头中景，来客眼皮发沉却强撑精神，眼珠时不时偷瞄案头那摞文书，眼底藏着谋算",
+              "lens": "50mm 标准，中浅景深",
+              "cameraPosition": "白面说客 + 平视侧面",
+              "composition": "三分法",
+              "eyeline": "案头那摞军报",
+              "focus": "锁定偷瞟军报的眼神",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                15,
+                16
+              ],
+              "seconds": 5,
+              "size": "wide",
+              "camera": "Static Shot",
+              "characters": [
+                "C12"
+              ],
+              "frame": "全景，帐外更声又响过一更，烛火被风吹得越发昏暗，年轻将军把那点目光尽收眼底，面上却装作酩酊靠向案上",
+              "shot": "固定镜头，帐外更鼓又过一更，烛火昏暗，年轻将军把来客那眼光尽收眼底，却装出酩酊的样子往案上一靠",
+              "lens": "35mm 广角，深景深",
+              "cameraPosition": "帐内全景 + 平视",
+              "composition": "三分法",
+              "eyeline": "靠向案上的年轻将军",
+              "focus": "锁定装作醉倒的从容",
+              "stability": "stable"
+            }
+          ],
+          "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 5.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] Holding <Picture 1> in medium, the visitor’s eyelids grow heavy yet he forces himself alert, eyes stealing toward the stack of dispatches on the desk; static shot.\n[Shot 2] At 00:05.000, The wide of <Picture 2> holds: a fresh watch-drum sounds beyond the tent, the candle bending in the wind, while the young general, having caught every glance, feigns drunkenness and leans closer over the desk; static shot.\n\noverall_soundscape: The watch drum sounding past another watch, the candle hissing as the wind stirs it.\n\nnon_diegetic_music: Strings deepening, a quiet ploy settling into the tent.",
+          "blocking": "来客眼皮发沉却强撑着，眼珠往案头那摞军报上瞟；帐外更声又过一更，烛火昏暗，年轻将军装作酩酊靠向案上。",
+          "soundscape": "帐外更鼓又响过一更，烛火被风拨得噼啪，衣料摩擦声",
+          "music": "弦乐转沉，布下一张网"
+        },
+        {
+          "id": "E45-05",
+          "sceneIndex": 1,
+          "cuts": [
+            {
+              "beats": [
+                17,
+                18
+              ],
+              "seconds": 5,
+              "size": "medium",
+              "camera": "Static Shot",
+              "characters": [
+                "C18"
+              ],
+              "frame": "中景，来客偷眼看了看醉倒的年轻将军，又看案头那摞军报，喉结动了动，蹑手蹑脚凑到案前",
+              "shot": "固定镜头中景，来客偷眼打量醉倒的年轻将军，又看向案头文书，喉结滚动，遂蹑手蹑脚凑近书案",
+              "lens": "50mm 标准，中浅景深",
+              "cameraPosition": "白面说客 + 平视侧面",
+              "composition": "三分法",
+              "eyeline": "案头军报",
+              "focus": "锁定凑近书案的试探",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                19,
+                20
+              ],
+              "seconds": 5,
+              "size": "close",
+              "camera": "Static Shot",
+              "characters": [
+                "C18"
+              ],
+              "frame": "特写，来客先抓起几份旧军报草草扫了几眼见无甚要紧又原样放回，指尖在一封没封口的信上顿住",
+              "shot": "固定镜头近切，来客先翻了几份旧文书，见无要紧又原样放回，指尖停在那一封没封口的信上",
+              "lens": "85mm 长焦，浅景深",
+              "cameraPosition": "白面说客 + 平视正面",
+              "composition": "三分法",
+              "eyeline": "那封没封口的信",
+              "focus": "锁定指尖顿住的那一瞬",
+              "stability": "stable"
+            }
+          ],
+          "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 5.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] Holding <Picture 1> in medium, the flustered envoy peeks at the slumbering figure, then at the dispatches, swallows, and creeps up to the table; static shot.\n[Shot 2] At 00:05.000, A static shot close-up of <Picture 2>: first he flips through a few stale dispatches, finding nothing, and sets them back exactly as they lay, fingers lingering on an unsealed letter.\n\noverall_soundscape: Cautious footsteps padding near the desk, the swish of papers turned, a held breath.\n\nnon_diegetic_music: Strings thinning to near silence, tension drawn tight.",
+          "blocking": "来客偷眼看看醉倒的年轻将军，又看案头军报，蹑手蹑脚凑到案前，指尖在纸间拨动，停在一封没封口的信上。",
+          "soundscape": "放轻的脚步声，纸张翻动的簌簌，屏住的呼吸",
+          "music": "弦乐收细，一根弦吊着"
+        },
+        {
+          "id": "E45-06",
+          "sceneIndex": 1,
+          "cuts": [
+            {
+              "beats": [
+                21,
+                22
+              ],
+              "seconds": 5,
+              "size": "close",
+              "camera": "Static Shot",
+              "characters": [
+                "C18"
+              ],
+              "frame": "特写，来客屏着呼吸，指尖绕着那封信转了两圈，再三确认没封口，才敢去碰",
+              "shot": "固定镜头近切，来客屏息绕着那封信转了两圈，确认没有封口，这才伸手去碰",
+              "lens": "85mm 长焦，浅景深",
+              "cameraPosition": "白面说客 + 平视正面",
+              "composition": "三分法",
+              "eyeline": "那封信",
+              "focus": "锁定确认后壮胆的一碰",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                23,
+                24
+              ],
+              "seconds": 5,
+              "size": "close",
+              "camera": "Static Shot",
+              "characters": [
+                "C18"
+              ],
+              "frame": "特写，来客把信往烛上凑近半寸借着亮光一字一字认，又偷眼回看，确认睡得沉才把信纸一寸寸抽出",
+              "shot": "固定镜头近切，来客把信凑近烛火半寸借着亮光逐字辨认，又回头看那醉倒的人，确认睡得沉才把纸一寸寸抽出",
+              "lens": "85mm 长焦，浅景深",
+              "cameraPosition": "白面说客 + 平视侧面",
+              "composition": "三分法",
+              "eyeline": "烛上的信纸",
+              "focus": "锁定逐字辨认的紧张",
+              "stability": "stable"
+            }
+          ],
+          "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 5.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] A static shot close-up of <Picture 1>: holding his breath, the nervous envoy circles the letter twice, confirming it is unsealed, before daring to touch it.\n[Shot 2] At 00:05.000, A static shot close-up of <Picture 2>: he raises the letter half an inch to the candle and reads it line by line, then glances back, finds the sleeper still deep, and draws the page free inch by inch.\n\noverall_soundscape: A fingertip circling around a folded paper, the faint rustle of the unsealed letter.\n\nnon_diegetic_music: A single low note holding, rising fear beating under it.",
+          "blocking": "来客屏着呼吸绕着那封没封口的信转了两圈，再三确证才敢去碰，把信往烛上凑近半寸借着亮光一字一字认。",
+          "soundscape": "烛火明灭的微响，纸张凑近火的沙沙，压抑的吐息",
+          "music": "一个低音稳住，恐惧压在心口"
+        },
+        {
+          "id": "E45-07",
+          "sceneIndex": 1,
+          "cuts": [
+            {
+              "beats": [
+                25,
+                26
+              ],
+              "seconds": 5,
+              "size": "close",
+              "camera": "Static Shot",
+              "characters": [
+                "C18"
+              ],
+              "frame": "特写，来客的手一顿，屏着气听了一阵，确认帐里只有鼾声，这才飞快将信纸卷紧塞进贴身袖里，又把案面抹得看不出动过的痕迹",
+              "shot": "固定镜头近切，来客手一顿，屏气听清帐里只有鼾声，飞快把信纸卷紧塞入贴身衣袖，又把案面抹平不留痕迹",
+              "lens": "85mm 长焦，浅景深",
+              "cameraPosition": "白面说客 + 平视正面",
+              "composition": "三分法",
+              "eyeline": "案面",
+              "focus": "锁定抹平痕迹的麻利",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                27,
+                28
+              ],
+              "seconds": 5,
+              "size": "medium",
+              "camera": "Static Shot",
+              "characters": [
+                "C18"
+              ],
+              "frame": "中景，来客慢慢直起身，袖里的信纸贴着胸口，借着烛光见信上写着两个人联手的字样，脸色蓦地变了",
+              "shot": "固定镜头中景，来客慢慢直起身，袖中信纸贴着胸口，烛光下瞥见信上写有两位将领联手的字样，脸色骤然一变",
+              "lens": "50mm 标准，中浅景深",
+              "cameraPosition": "白面说客 + 平视侧面",
+              "composition": "三分法",
+              "eyeline": "烛光里的信纸",
+              "focus": "锁定脸色突变的瞬间",
+              "stability": "stable"
+            }
+          ],
+          "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 5.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] A static shot close-up of <Picture 1>: his hand freezes, he listens for a long held moment, and hearing only snores, rolls the letter tight into his inner sleeve, smoothing the desk so no trace shows.\n[Shot 2] At 00:05.000, Holding <Picture 2> in medium, he slowly straightens, the letter warm against his chest, and by the candlelight catches sight of a line naming two naval officers in league, his face suddenly paling; static shot.\n\noverall_soundscape: The dry slide of paper being rolled and tucked into a sleeve, a smoothing of the desk, quick breaths.\n\nnon_diegetic_music: Strings pressing quietly, a stolen prize warming in the cloth.",
+          "blocking": "来客的手一顿屏着气听了半晌，确认帐里只有鼾声，才飞快把信纸卷紧塞进衣袖又把案面抹平，直起身见信上字样脸色蓦变。",
+          "soundscape": "纸卷摩擦衣袖的细响，抹过案面的轻响，一声压低的倒吸气",
+          "music": "弦乐抿紧，窃得之物贴着胸口发烫"
+        },
+        {
+          "id": "E45-08",
+          "sceneIndex": 1,
+          "cuts": [
+            {
+              "beats": [
+                29,
+                30
+              ],
+              "seconds": 5,
+              "size": "close",
+              "camera": "Static Shot",
+              "characters": [
+                "C18"
+              ],
+              "frame": "特写，来客飞快将信塞进袖中，又回头看鼾声未断的年轻将军，长长舒了一口气",
+              "shot": "固定镜头近切，来客将信重新塞入袖中，回看仍在安睡的年轻将军，长长舒出一口气",
+              "lens": "85mm 长焦，浅景深",
+              "cameraPosition": "白面说客 + 平视正面",
+              "composition": "三分法",
+              "eyeline": "安睡的方向",
+              "focus": "锁定得手后松的那口气",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                31,
+                32
+              ],
+              "seconds": 5,
+              "size": "medium",
+              "camera": "Static Shot",
+              "characters": [
+                "C18"
+              ],
+              "frame": "中景，来客把信贴身收好，又端起一盏冷酒抿了一口压住心头的乱跳，特意整了整衣襟，深怕那封信露出一角",
+              "shot": "固定镜头中景，来客将信贴身收好，抿一口残酒定神，又特意整了整衣襟，生怕露出信角惹人起疑",
+              "lens": "50mm 标准，中浅景深",
+              "cameraPosition": "白面说客 + 平视侧面",
+              "composition": "三分法",
+              "eyeline": "衣襟",
+              "focus": "锁定压惊理衣的谨慎",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                33,
+                33
+              ],
+              "seconds": 4,
+              "size": "close",
+              "camera": "Static Shot",
+              "characters": [
+                "C12"
+              ],
+              "frame": "特写，更鼓一响，来客借口值守披衣摸出帅帐；帐外江风一过，方才醉卧的年轻将军缓缓睁开眼，眼底一片清明",
+              "shot": "固定镜头近切，更鼓响过，来客借口值守披衣出了帐；江风一掀帐帘，方才醉卧的年轻将军缓缓睁眼，眸底清明无一丝醉意",
+              "lens": "85mm 长焦，浅景深",
+              "cameraPosition": "年轻将军 + 平视正面",
+              "composition": "三分法",
+              "eyeline": "掀动的帐帘",
+              "focus": "锁定睁眼时的一片清明",
+              "stability": "stable"
+            }
+          ],
+          "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 5.00-second mark of the target video; Picture 3 (from Shot 3) aligns with the 10.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] A static shot close-up of <Picture 1>: he thrusts the letter back into his sleeve, checks that the sleeper’s snore has not broken, and lets out a long relieved breath.\n[Shot 2] At 00:05.000, Holding <Picture 2> in medium, he tucks the letter away, sips a swallow of cold wine to steady himself, and adjusts his collar, fearful the letter’s edge might show; static shot.\n[Shot 3] At 00:10.000, A static shot close-up of <Picture 3>: as the night-drum sounds, the visitor slips out on duty as an excuse, and once the tent flap stirs in the river wind, the slumbering-looking young general opens his eyes, wide and clear.\n\noverall_soundscape: A stir of the night wind at the tent flap, then a breath of released tension as two eyes open.\n\nnon_diegetic_music: Strings releasing into a wry, knowing close.",
+          "blocking": "来客把信贴身收好，抿一口残酒压惊又整了整衣襟，借口值守披衣摸出帅帐；帐外江风一过，年轻将军缓缓睁眼眼底清明。",
+          "soundscape": "更鼓一声，起身披衣的窸窣，帐帘掀动的风声，随即一片清明",
+          "music": "弦乐缓缓松开，留下一个心知肚明的收尾"
+        },
+        {
+          "id": "E45-09",
+          "sceneIndex": 2,
+          "cuts": [
+            {
+              "beats": [
+                1,
+                2
+              ],
+              "seconds": 5,
+              "size": "medium",
+              "camera": "Static Shot",
+              "characters": [
+                "C18"
+              ],
+              "frame": "中景，来客连夜过江，摸着黑钻进帐中，把那封偷来的信双手奉到案前，压低声音一脸邀功",
+              "shot": "固定镜头中景，来客连夜赶回，摸黑钻进帐内，将那封窃来的信双手奉到案前，压低声音满脸邀功之色",
+              "lens": "50mm 标准，中浅景深",
+              "cameraPosition": "白面说客 + 平视侧面",
+              "composition": "三分法",
+              "eyeline": "案上那封信",
+              "focus": "锁定奉信时的一脸邀功",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                3,
+                4
+              ],
+              "seconds": 5,
+              "size": "close",
+              "camera": "Static Shot",
+              "characters": [
+                "C04"
+              ],
+              "frame": "特写，帐上霸主披着袍子在灯下展开信，才看几行眉头就拧了起来，反复看了三遍，指节捏得案角咯咯作响",
+              "shot": "固定镜头近切，一位披袍的北方雄主在灯下展开信，才看几行便拧起眉头，反复看罢三遍，指节捏得案角咯咯直响",
+              "lens": "85mm 长焦，浅景深",
+              "cameraPosition": "帐上霸主 + 平视正面",
+              "composition": "三分法",
+              "eyeline": "信纸",
+              "focus": "锁定越看越沉的脸色",
+              "stability": "stable"
+            }
+          ],
+          "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 5.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] Holding <Picture 1> in medium, the envoy crosses the river by night and slips into the tent, laying the stolen letter on the desk with both hands, and with an eager, low voice he reports: <d>[Chinese] 丞相，末将探得一件要紧的事。</d> The camera performs a static shot.\n[Shot 2] At 00:05.000, A static shot close-up of <Picture 2>: the mighty northern warlord, robe over his shoulders, unfolds the letter by lamplight and frowns within a few lines, rereading it three times as his knuckles whiten on the table edge.\n\noverall_soundscape: Night water against a crossing, boots crossing the camp, a letter laid on the table, a low eager voice.\n\nnon_diegetic_music: Low strings arriving, drawing the trap’s jaws shut.",
+          "blocking": "来客连夜过江摸进帐中，把偷来的信双手奉到案前；帐上霸主披着袍子在灯下展开信，才看几行眉头就拧起来。",
+          "soundscape": "过江的水声，靴子踏过营地，信件落在案上，一声压低的邀功禀报",
+          "music": "低音弦乐合拢，一网收口"
+        },
+        {
+          "id": "E45-10",
+          "sceneIndex": 2,
+          "cuts": [
+            {
+              "beats": [
+                5,
+                5
+              ],
+              "seconds": 5,
+              "size": "close",
+              "camera": "Static Shot",
+              "characters": [
+                "C04"
+              ],
+              "frame": "特写，帐上霸主读信时声音冷得像冰碴子，一字一字把信上那两个人的名目念出来",
+              "shot": "固定镜头近切，帐上霸主读信时声音冷得像冰碴子，一字一句念出信上的名字",
+              "lens": "85mm 长焦，浅景深",
+              "cameraPosition": "帐上霸主 + 平视正面",
+              "composition": "三分法",
+              "eyeline": "信纸",
+              "focus": "锁定冷到骨子里的神情",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                6,
+                7
+              ],
+              "seconds": 5,
+              "size": "medium",
+              "camera": "Static Shot",
+              "characters": [
+                "C18"
+              ],
+              "frame": "中景，来客在旁点头哈腰，又添油加醋说了几句对方如何待自己亲厚，见帐上霸主脸色不对，又赶紧补一句说那二位帐下颇多降卒可用",
+              "shot": "固定镜头中景，来客在旁点头哈腰，添油加醋地补话；见座上一人脸色越发不对，又赶紧补一句说那位将军帐下颇多可用之卒",
+              "lens": "50mm 标准，中浅景深",
+              "cameraPosition": "白面说客 + 平视侧面",
+              "composition": "三分法",
+              "eyeline": "帐上霸主",
+              "focus": "锁定看人眼色补话的机警",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                8,
+                8
+              ],
+              "seconds": 5,
+              "size": "close",
+              "camera": "Static Shot",
+              "characters": [
+                "C04"
+              ],
+              "frame": "特写，帐上霸主没接话，只把那封信往灯火上虚虚一晃，像是在掂它的真假",
+              "shot": "固定镜头近切，帐上霸主未置一词，只将那封信在灯火上虚虚一晃，似在掂量其真假",
+              "lens": "85mm 长焦，浅景深",
+              "cameraPosition": "帐上霸主 + 平视正面",
+              "composition": "三分法",
+              "eyeline": "灯火",
+              "focus": "锁定掂信时眯起的眼",
+              "stability": "stable"
+            }
+          ],
+          "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 5.00-second mark of the target video; Picture 3 (from Shot 3) aligns with the 10.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] A static shot close-up of <Picture 1>: colder by the line, the northern warlord reads the two signatures aloud, and with a voice cold as ice he says: <d>[Chinese] 蔡瑁、张允，他二人写给东吴的。</d>\n[Shot 2] At 00:05.000, Holding <Picture 2> in medium, the envoy nods and bows, pouring in extra details of his warm welcome, then, seeing the mood darken, hurries to add that much usable manpower sits under those two commanders; static shot.\n[Shot 3] At 00:10.000, A static shot close-up of <Picture 3>: the northern warlord answers nothing, only passing the letter over the lamp-flame as if weighing its truth.\n\noverall_soundscape: The creak of the seat as he leans over the lamp, paper unfolded, tense silence reading line by line.\n\nnon_diegetic_music: Strings pressing syllable by syllable, growing colder.",
+          "blocking": "帐上霸主反复看信面色越沉，来客点头哈腰添油加醋，见脸色不对又赶紧补一句；霸主没接话只把信往灯火上虚晃。",
+          "soundscape": "座椅承重的吱呀，展纸的声音，屏息读信的静，一句僵硬的应答",
+          "music": "弦乐一句一个重音，越读越冷"
+        },
+        {
+          "id": "E45-11",
+          "sceneIndex": 2,
+          "cuts": [
+            {
+              "beats": [
+                9,
+                10
+              ],
+              "seconds": 6,
+              "size": "close",
+              "camera": "Static Shot",
+              "characters": [
+                "C04"
+              ],
+              "frame": "特写，帐上霸主自言自语似的开口，眼底一线杀机若隐若现",
+              "shot": "固定镜头近切，帐上霸主宛如自言自语地低声开口，眼底一线杀意若隐若现",
+              "lens": "85mm 长焦，浅景深",
+              "cameraPosition": "帐上霸主 + 平视正面",
+              "composition": "三分法",
+              "eyeline": "案上信纸",
+              "focus": "锁定杀机浮现的眼神",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                11,
+                12
+              ],
+              "seconds": 7,
+              "size": "medium",
+              "camera": "Static Shot",
+              "characters": [
+                "C04"
+              ],
+              "frame": "中景，来客听他话里透出杀机心头暗喜面上却作惊惶；帐上霸主沉吟良久，终于把信往案上一搁，像是下定了决心",
+              "shot": "固定镜头中景，来客听出话里透出杀机，心头暗喜面上却一派惊惶；帐上霸主沉吟良久，终于把信搁下，像是拿定了主意",
+              "lens": "50mm 标准，中浅景深",
+              "cameraPosition": "帐上霸主 + 平视正面",
+              "composition": "三分法",
+              "eyeline": "案上信纸",
+              "focus": "锁定落定决心的刹那",
+              "stability": "stable"
+            }
+          ],
+          "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 6.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] A static shot close-up of <Picture 1>: almost to himself the northern warlord lets the words fall, and with a low, brooding voice he says: <d>[Chinese] 水军的命脉，偏偏捏在二人手里。</d>\n[Shot 2] At 00:06.000, Holding <Picture 2> in medium, at the murderous edge in his words the envoy’s heart leaps though his face shows alarm; the northern warlord deliberates long, then sets the letter down as if resolved; static shot, and with a settled voice he adds: <d>[Chinese] 他二人若真背我，水军便是我心腹之患。</d>\n\noverall_soundscape: A short intake of breath, words dropped low like falling ice, the scratch of a fingertip on the table edge.\n\nnon_diegetic_music: Strings contracting to near stillness, murder lurking under the surface.",
+          "blocking": "帐上霸主自言自语似的开口，眼底一线杀机；来客心头暗喜面上惊惶，霸主沉吟良久把信往案上一搁像是下定了决心。",
+          "soundscape": "一声压低的倒吸气，指节扣案沿的轻响，终于把信搁下的沉闷",
+          "music": "弦乐压到近无声，杀意潜伏在字缝里"
+        },
+        {
+          "id": "E45-12",
+          "sceneIndex": 2,
+          "cuts": [
+            {
+              "beats": [
+                13,
+                14
+              ],
+              "seconds": 6,
+              "size": "close",
+              "camera": "Static Shot",
+              "characters": [
+                "C04"
+              ],
+              "frame": "特写，帐上霸主不答，只把信往案上重重一拍，眼底杀意一闪，腾地站起",
+              "shot": "固定镜头近切，帐上霸主不答话，只把信往案上重重一拍，眼底杀意一闪，猛地站起",
+              "lens": "85mm 长焦，浅景深",
+              "cameraPosition": "帐上霸主 + 平视正面",
+              "composition": "三分法",
+              "eyeline": "帐口",
+              "focus": "锁定拍案而起的一瞬",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                15,
+                16
+              ],
+              "seconds": 5,
+              "size": "medium",
+              "camera": "Static Shot",
+              "characters": [
+                "C04"
+              ],
+              "frame": "中景，二位水军将领应召而来尚未站稳，帐上霸主劈头便问一句自相矛盾的问话，二人答得磕绊，反倒坐实了他的疑心",
+              "shot": "固定镜头中景，两位水军将领应召进帐还未站稳，帐上霸主劈头便抛出一道自相矛盾的问话，二人答得期期艾艾",
+              "lens": "50mm 标准，中浅景深",
+              "cameraPosition": "帐上霸主 + 平视侧面",
+              "composition": "三分法",
+              "eyeline": "应召而来的二将",
+              "focus": "锁定问话时逼人的气势",
+              "stability": "stable"
+            }
+          ],
+          "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 6.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] A static shot close-up of <Picture 1>: without answering, the northern warlord slams the letter back onto the desk, murder flaring in his eyes as he rises, and with a low, tight voice he orders: <d>[Chinese] 传水军二将前来问话！</d>\n[Shot 2] At 00:06.000, Holding <Picture 2> in medium, the two water-army commanders answer the summons, and before they are steady the northern warlord throws a self-contradicting question at them, their stammered answers only hardening his suspicion; static shot.\n\noverall_soundscape: A heavy slam of hand on the desk, a snarl rising, soldiers’ boots answering the order.\n\nnon_diegetic_music: A percussive strike, strings snapping into command.",
+          "blocking": "帐上霸主把信往案上重重一拍腾地站起，二位水军将领应召而来尚未站稳，被一句自相矛盾的问话问得磕绊。",
+          "soundscape": "一掌拍案的闷响，腾起的衣料声，兵靴应答的脚步声",
+          "music": "一声重击，弦线绷上令下"
+        },
+        {
+          "id": "E45-13",
+          "sceneIndex": 2,
+          "cuts": [
+            {
+              "beats": [
+                17,
+                18
+              ],
+              "seconds": 6,
+              "size": "close",
+              "camera": "Static Shot",
+              "characters": [
+                "C04"
+              ],
+              "frame": "特写，帐上霸主听罢猛地一拍桌案，一字一登，不留半分情面地喝令左右拿下",
+              "shot": "固定镜头近切，帐上霸主听罢猛地一拍桌案，一字一字落得斩钉截铁，喝令左右动手拿下",
+              "lens": "85mm 长焦，浅景深",
+              "cameraPosition": "帐上霸主 + 平视正面",
+              "composition": "三分法",
+              "eyeline": "帐外",
+              "focus": "锁定斩钉截铁的怒意",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                19,
+                19
+              ],
+              "seconds": 4,
+              "size": "wide",
+              "camera": "Static Shot",
+              "characters": [
+                "C04"
+              ],
+              "frame": "全景，二将喊冤，却被如狼似虎的兵卒架住，一路拖出帐去，帐外传来两声急促的喊冤，旋即被沉沉人声压了下去",
+              "shot": "固定镜头，二将喊冤却被如狼似虎的兵卒架住，一路拖出帐去；帐外传来两声急促的喊冤，旋即被沉沉的人声压没",
+              "lens": "35mm 广角，深景深",
+              "cameraPosition": "帐内全景 + 平视",
+              "composition": "三分法",
+              "eyeline": "被拖出去的方向",
+              "focus": "锁定二将被拖出的混乱",
+              "stability": "stable"
+            }
+          ],
+          "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 6.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] A static shot close-up of <Picture 1>: a final slap of the table, and the northern warlord, word by word with no mercy, declares: <d>[Chinese] 勾结东吴，背我反我，拖下去斩！</d>\n[Shot 2] At 00:06.000, The static shot widens to <Picture 2>: the two captains call out in innocence but are seized by fierce guards and dragged from the tent, two muffled cries cut short by the dark outside.\n\noverall_soundscape: A thunderous slap of the table, armor scraping as men are dragged out, muffled cries swallowed by the night.\n\nnon_diegetic_music: Drums striking short and hard, an execution drawing the air taut.",
+          "blocking": "帐上霸主听罢猛地一拍桌案，喝令把二人拿下拖出去斩；二将喊冤却被兵卒架住，一路拖出帐去。",
+          "soundscape": "桌案再拍的重响，甲胄拖地的刮擦，两声喊冤被沉沉人声压没",
+          "music": "短促的战鼓，刀已出鞘"
+        },
+        {
+          "id": "E45-14",
+          "sceneIndex": 2,
+          "cuts": [
+            {
+              "beats": [
+                20,
+                21
+              ],
+              "seconds": 5,
+              "size": "wide",
+              "camera": "Static Shot",
+              "characters": [
+                "C04"
+              ],
+              "frame": "全景，帐上霸主站起身走到帐口，望着被拖远的两道黑影久久没有转身；夜风掀起帐帘，露出一角青黑的旷野",
+              "shot": "固定镜头，帐上霸主走到帐口，望着被拖远的两道黑影久久不动；夜风掀起帐帘，露出帐外一角青黑的旷野",
+              "lens": "35mm 广角，深景深",
+              "cameraPosition": "帐口全景 + 平视",
+              "composition": "中心构图",
+              "eyeline": "被拖远的方向",
+              "focus": "锁定长久不动的背影",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                22,
+                23
+              ],
+              "seconds": 5,
+              "size": "medium",
+              "camera": "Static Shot",
+              "characters": [
+                "C04"
+              ],
+              "frame": "中景，来客刚想凑上来再说两句，却被帐上霸主一个眼神止住，只得讪讪收声；霸主重新落座，指尖点在案角，半晌没有开口",
+              "shot": "固定镜头中景，来客又想凑上来多言，却被帐上霸主一个眼神制止，只得讪讪收声；霸主重新落座，指尖轻点案角，良久不语",
+              "lens": "50mm 标准，中浅景深",
+              "cameraPosition": "帐上霸主 + 平视侧面",
+              "composition": "三分法",
+              "eyeline": "案角",
+              "focus": "锁定落座后长久的沉默",
+              "stability": "stable"
+            }
+          ],
+          "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 5.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] The wide of <Picture 1> holds: the northern warlord walks to the tent mouth and watches the two black shapes dragged far off, not turning for some moments, the night wind lifting the flap on a stretch of dark wilds; static shot.\n[Shot 2] At 00:05.000, Holding <Picture 2> in medium, the envoy edges forward for one more word but is stopped by a single glance, retreating sheepishly, while the northern warlord seats himself again, fingertip on the table corner, long silent; static shot.\n\noverall_soundscape: Steps to the tent mouth, canvas stirring in the night wind, the rustle of an uneasy guest pulling back.\n\nnon_diegetic_music: Low strings ebbing, a heavy stillness after the blow.",
+          "blocking": "霸主站起身走到帐口望着被拖远的两道黑影久久没转身；来客想凑上来再说两句却被一个眼神止住，只得讪讪收声。",
+          "soundscape": "走到帐口的风声，帐帘掀起，来客讪讪收声的静",
+          "music": "低音回落，一击过后的钝寂"
+        },
+        {
+          "id": "E45-15",
+          "sceneIndex": 2,
+          "cuts": [
+            {
+              "beats": [
+                24,
+                25
+              ],
+              "seconds": 5,
+              "size": "wide",
+              "camera": "Static Shot",
+              "characters": [
+                "C04"
+              ],
+              "frame": "全景，夜更深了帐中只剩灯花不时噼啪作响，帐帘一落，帐上霸主盯着方才被拖出去的方向，缓缓坐回案前",
+              "shot": "固定镜头，夜更深，帐中只剩灯花时而噼啪作响；帐帘落下，帐上霸主盯着方才人被拖走的方向，缓缓落回案前",
+              "lens": "35mm 广角，深景深",
+              "cameraPosition": "帐内全景 + 平视",
+              "composition": "中心构图",
+              "eyeline": "帐帘",
+              "focus": "锁定缓缓落座的身影",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                26,
+                26
+              ],
+              "seconds": 5,
+              "size": "close",
+              "camera": "Static Shot",
+              "characters": [
+                "C04"
+              ],
+              "frame": "特写，帐上霸主低头又看了一眼那封墨迹未干的信，眼底的杀意里，忽而闪过一丝说不清的犹疑",
+              "shot": "固定镜头近切，帐上霸主低头再看一眼那封墨迹未干的信，眼底的杀意里，忽而闪过一丝说不清的犹疑",
+              "lens": "85mm 长焦，浅景深",
+              "cameraPosition": "帐上霸主 + 平视正面",
+              "composition": "三分法",
+              "eyeline": "那封信",
+              "focus": "锁定杀意下的那一丝犹疑",
+              "stability": "stable"
+            }
+          ],
+          "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 5.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] The static shot wide of <Picture 1>: the night deepens and only the crackle of the lamp-wick remains; the flap falls, and the northern warlord, eyes on the spot just drained of its prisoners, slowly sits back at the desk.\n[Shot 2] At 00:05.000, A static shot close-up of <Picture 2>: he looks once more at the still-drying letter, and through the killing glare a thread of unnameable doubt flickers.\n\noverall_soundscape: The dying crackle of the lamp wick, the last rustle of a robe settling, a lone night wind.\n\nnon_diegetic_music: Strings fading to a single held note, doubt glinting beneath the triumph.",
+          "blocking": "夜更深了，帐中只剩灯花噼啪；帐帘一落，霸主缓缓坐回案前，低头又看那封信，眼底杀意里闪过一丝犹疑。",
+          "soundscape": "灯花噼啪，衣袍落座的声音，夜风绕帐",
+          "music": "弦乐收进一个长音，犹疑在杀意下翻了个水花"
+        }
+      ]
+    }
+  ]
+}

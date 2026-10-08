@@ -1,0 +1,230 @@
+[
+  {
+    "id": "C16",
+    "name": "华雄",
+    "importance": "minor",
+    "aliases": [],
+    "oneLiner": "汜水关守将，身长九尺的关西悍将，连斩俞涉、潘凤，却在关羽一杯温酒未冷时被斩下马。",
+    "persona": {
+      "gender": "男",
+      "ageRange": "约三十余岁（推断）",
+      "identity": "董卓部下的骁骑校尉、汜水关守将",
+      "appearance": "身长九尺，虎体狼腰、豹头猿臂，关西大汉的彪形身量；环眼浓眉，络腮短须又略带钩曲下垂的须梢，颧骨高耸，双臂粗长垂过膝。披旧铁札甲，肩头垫一张兽皮披肩，腰挎阔背大刀。",
+      "personality": ["剽悍", "凶蛮", "轻敌"],
+      "temperament": "声如闷雷，冲阵时大喝如炸，气焰压人；得胜后愈发目空一切，坐关时便露出轻慢。",
+      "motivation": "替董卓守住汜水关，斩尽关外诸侯，建头功以邀厚赏。",
+      "arc": "",
+      "relationships": [
+        { "name": "董卓", "relation": "主公" },
+        { "name": "关羽", "relation": "阵前交锋、被其斩杀" }
+      ],
+      "evidence": [
+        "其人身長九尺，虎體狼腰，豹頭猿臂：關西人也；姓華，名雄。",
+        "華雄引鐵騎五百，飛下關來，大喝：「賊將休走！」",
+        "俞涉與華雄戰不三合，被華雄斬了。",
+        "潘鳳又被華雄斬了。",
+        "雲長提華雄之頭，擲於地上，其酒當溫。"
+      ]
+    },
+    "image": {
+      "prompt": "Character portrait of a towering fierce East-Han-era warrior general from the late Han dynasty in northern China, in his early thirties, enormous shoulders over a lean wolf-like waist, long powerful simian arms reaching past the hips, high cheekbones, fierce ring-shaped eyes under thick dark brows, heavy mustache and full beard with a slight downward-hooking tip, weathered skin with a few old battle scars, wearing battered dark iron lamellar armor of the late Eastern Han frontier garrisons, a fur shoulder mantle, leather vambraces, a heavy long dao sabre resting across one shoulder; cold dim frontier light, three-quarter bust, plain neutral dark background, soft directional key light with cool rim fill, shallow depth of field, face sharpest.",
+      "promptLocal": "角色肖像：中国东汉末年北方中原的一名剽悍守关武将，约三十出头，虎体狼腰、双手过膝的魁梧身量，颧骨高耸，环眼浓眉，络腮短须、须梢微垂如钩，肤色粗糙带着旧伤疤，披旧铁札甲，肩垫兽皮披肩、束皮护腕，扛一柄阔背大刀；黯淡边关冷光，四分之三视角半身，中性深色背景，柔和主光配冷调补光，浅景深、面部最实。",
+      "negativePrompt": "all characters same face, youthful huge eyes, over-smooth skin, artificial face powder overlay, perfectly symmetric face, dead eyes without catchlights, helmet-like hair without stray strands, mannequin stiff pose, extra fingers, distorted limbs",
+      "tags": ["late Eastern Han", "northern China frontier", "iron lamellar armor", "war-scarred", "dark iron and bronze palette", "dim cold frontier light"],
+      "sheet": "ONE 16:9 landscape canvas, thin hairline rules dividing into three zones. LEFT ZONE about 34% of the canvas width: a head-and-shoulders front bust portrait of the late-Han warrior general, facing forward like an ID photo, shoulders fully visible, bottom edge cut straight, face fully and finely drawn with fierce ring-shaped eyes, thick dark brows, high cheekbones, full beard with hooked tip, separate stray hairs; LIGHTING IN THE LEFT ZONE ONLY with soft directional key from upper-left, natural falloff, ambient occlusion under brow ridge and jaw. RIGHT-TOP ZONE: three full-body views in a row (front, side, back) sharing one ground line, same face and hairstyle as the left bust, showing the hulking wolf-waisted build, iron lamellar armor, fur shoulder mantle, heavy dao sabre; LIGHTING IN THE RIGHT ZONES flat even orthographic with no directional light and no cast shadows. RIGHT-BOTTOM ZONE: four to five small isolated close-up studies in one evenly spaced row, clearly smaller than the figures (the detail studies give way, not the figures): saber blade nicks, leather vambrace strap, boot tread, the hooked beard tip, a scar line. PROPORTIONS ARE CRITICAL: three full bodies equal height, consistent head-to-body ratio, correct limb lengths, feet on the same ground line, headroom and footroom above and below, never stretch or flatten the figures to fit details. Pure white background, even margins everywhere.",
+      "sheetExplanation": "（设定图说明，不进提示词）"
+    },
+    "voice": {
+      "timbre": "粗厚沙哑的男低音，喉音重",
+      "pitch": "低",
+      "pace": "中偏快，冲杀时字字迸出",
+      "accent": "关西腔，发音硬直有力",
+      "emotion": "凶悍自恃，带轻佻",
+      "referenceHint": "像边关上扯着嗓子叫阵的一员猛将，气冲却不屑",
+      "prompt": "30-year-old male, rough gravelly low baritone, low-to-mid pitch range, broad chest support, wide dynamic range. Loud volume, brisk clashing pace, clipped emphatic consonants. Northwestern China frontier accent, hard flat delivery. Fierce, cocky and dismissive."
+    }
+  },
+  {
+    "id": "C17",
+    "name": "督邮",
+    "importance": "minor",
+    "aliases": [],
+    "oneLiner": "巡查安喜县的朝廷命官，端着官架子索贿逼害刘备，最后被张飞绑在县前马桩上一顿柳条鞭抽。",
+    "persona": {
+      "gender": "男",
+      "ageRange": "约四十岁上下（推断）",
+      "identity": "巡查郡县的督邮（朝廷派来的监察小吏，太守属官）",
+      "appearance": "蓄着一绺疏朗短须的白面官，面带横纹、眼角下垂，颧骨附近颧骨突起，一双细长斜眼看人时带着倨傲；常骑高马、手持马鞭，腰间佩一条绶带。出巡时戴平巾帻、穿皂色宽袖布袍，腰间掖着一卷庭参名帖。",
+      "personality": ["傲慢", "贪横", "假公济私"],
+      "temperament": "坐于马上只用鞭梢虚点回礼，南面高坐时端着腔调，喝斥起人来声色俱厉，被绑时又连声告饶。",
+      "motivation": "借朝廷沙汰冗官的诏令巡县，威逼县吏，催索贿赂，敲打刘备攒一笔外财。",
+      "arc": "",
+      "relationships": [
+        { "name": "张飞", "relation": "被其绑在马桩上鞭打" },
+        { "name": "刘备", "relation": "刁难索贿的对象" }
+      ],
+      "evidence": [
+        "適督郵行部至縣，玄德出墎迎接，見督郵施禮。督郵坐於馬上，惟微以鞭指回答。",
+        "督郵南面高坐，玄德侍立階下。",
+        "督郵入威，無非要賄賂耳。",
+        "早被張飛揪住頭髮，扯出館驛，直到縣前馬樁上縛住；扳下柳條，去督郵兩腿上著力鞭打，一連打折柳條十數枝。",
+        "玄德乃取印綬，掛於督郵之頸，責之曰：「據汝害民，本當殺卻；今姑饒汝命。吾繳還印綬，從此去矣！」"
+      ]
+    },
+    "image": {
+      "prompt": "Character portrait of an arrogant low-ranking Eastern Han inspection official from the late Han dynasty in the central plains of China, around forty, pallid face with thin horizontal creases and drooping eye corners, narrow slanting eyes that look down on others, a thin sparse mustache and short beard, prominent cheekbones, wearing a plain dark wide-sleeved inspection robe of the late Eastern Han, dark flat-top headcloth, a silk ribbon at the waist, a rolled register tucked at the belt; smug close-lipped expression, three-quarter bust, plain light-beige neutral background, soft directional key light with warm rim fill, shallow depth of field, face sharpest.",
+      "promptLocal": "角色肖像：中国东汉末年中原的一名傲慢巡查文官，约四十岁，面色苍白、脸颊有浅细横纹、眼角下垂，细长斜眼带着居高临下的神色，蓄一绺稀疏短须，颧骨明显，穿皂色宽袖巡查官袍，戴平巾帻，腰间束绶带、掖一卷名帖；皮笑肉不笑的表情，四分之三视角半身，中性米色背景，柔和主光配暖调补光，浅景深、面部最实。",
+      "negativePrompt": "all characters same face, youthful huge eyes, over-smooth skin, perfectly symmetric face, dead eyes without catchlights, helmet-like hair, mannequin stiff pose, extra fingers, distorted limbs, battle armor",
+      "tags": ["late Eastern Han", "central plains China", "inspection official", "velvet dark robes", "black-and-oxblood palette", "warm interior light"],
+      "sheet": "ONE 16:9 landscape canvas, thin hairline rules dividing into three zones. LEFT ZONE about 34% of the canvas width: a head-and-shoulders front bust portrait of the late-Han inspection official, facing forward like an ID photo, shoulders fully visible, bottom edge cut straight, face fully and finely drawn with narrow slanting smug eyes, thin sparse mustache and short beard, prominent cheekbones, thin horizontal forehead creases, separate stray hairs; LIGHTING IN THE LEFT ZONE ONLY with soft directional key from upper-left, natural falloff, ambient occlusion under brow ridge and jaw. RIGHT-TOP ZONE: three full-body views in a row (front, side, back) sharing one ground line, same face and hairstyle as the left bust, showing the wide-sleeved dark robe, flat-top headcloth, waist ribbon, rolled register at the belt, riding posture hinting at an official on circuit; LIGHTING IN THE RIGHT ZONES flat even orthographic with no directional light and no cast shadows. RIGHT-BOTTOM ZONE: four to five small isolated close-up studies in one evenly spaced row, clearly smaller than the figures (the detail studies give way, not the figures): the horsewhip grip, the ribbon knot, the folded register, the short beard, a palm-sized seal case at the waist. PROPORTIONS ARE CRITICAL: three full bodies equal height, consistent head-to-body ratio, correct limb lengths, feet on the same ground line, headroom and footroom above and below, never stretch or flatten the figures to fit details. Pure white background, even margins everywhere.",
+      "sheetExplanation": "（设定图说明，不进提示词）"
+    },
+    "voice": {
+      "timbre": "尖刻的中老年男声，鼻腔发闷",
+      "pitch": "中高",
+      "pace": "慢而拿腔，拖长官调",
+      "accent": "带官场腔的北方口音",
+      "emotion": "倨傲勒索，被绑时慌乱告饶",
+      "referenceHint": "像衙门里端着官架催钱的文吏，开口先哼一声",
+      "prompt": "42-year-old male, nasal reedy tenor, mid-to-high pitch range, thin chest support, narrow dynamic range. Moderate volume, deliberate slow drawl with held official-phrase endings. Northern official-bureaucrat accent with a nasal whine. Arrogant and predatory when pressing for bribes, panicky and pleading when caught."
+    }
+  },
+  {
+    "id": "C18",
+    "name": "蒋干",
+    "importance": "minor",
+    "aliases": ["子翼"],
+    "oneLiner": "曹操帐下自诩口才的说客，前往江东劝降周瑜，反被周瑜借膳用酒、诱他偷走「蔡瑁张允」的假信，中了反间计。",
+    "persona": {
+      "gender": "男",
+      "ageRange": "约三十岁左右（推断）",
+      "identity": "曹操帐下幕宾、说客，九江人，与周瑜同窗故交",
+      "appearance": "白面书生模样，眉目清秀却又透着几分轻浮自得；葛巾布袍，一袭素色麻袍洗得整洁，腰间束藤带。举止温雅，谈吐自负时微微抬下颌，眼神发亮。",
+      "personality": ["自负", "轻信", "急功"],
+      "temperament": "开口必请缨立功，把三寸不烂之舌挂在嘴边；入了周瑜的酒宴便急着探话，惊愕时面如土色、讷讷不敢多言，被耍时兀自不觉。",
+      "motivation": "凭一张利嘴说降周瑜、为曹操建头功，好摆脱前番空跑的惭愧，回报丞相。",
+      "arc": "",
+      "relationships": [
+        { "name": "周瑜", "relation": "同窗故交、说降的对象，反被其用反间计" },
+        { "name": "曹操", "relation": "主公、主公所遣的说客" }
+      ],
+      "evidence": [
+        "乃九江人，姓蔣，名幹，字子翼，見為帳下幕賓。",
+        "幹葛巾布袍，駕一隻小舟，逕到周瑜寨中，命傳報：「故人蔣幹相訪。」",
+        "太史慈應諾，按劍坐於席上。蔣幹驚愕，不敢多言。",
+        "內有一封，上寫「蔡瑁張允謹封」。幹大驚，暗讀之。",
+        "幹思曰：「原來蔡瑁、張允結連東吳！」遂將書暗藏於衣內。",
+        "蔣幹進曰：「某前日空往東吳，未得成功，深懷慚愧。今願捨身再往，務得實信，回報丞相。」"
+      ]
+    },
+    "image": {
+      "prompt": "Character portrait of a self-aggrandizing scholarly strategist-turned-mediator from the late Eastern Han dynasty in the central plains of China, around thirty, fair-skinned bookish face with refined brows, slightly upturned chin when he talks, a thin neat mustache, hair bound in a coarse cloth turban, wearing a clean plain off-white linen robe with a woven vine waistband, a small letter case tucked at the chest; overconfident gleam in the eyes, three-quarter bust, plain warm-grey neutral background, soft directional key light with warm rim fill, shallow depth of field, face sharpest.",
+      "promptLocal": "角色肖像：中国东汉末年中原的一名自视甚高的儒士说客，约三十岁，白净书生面孔、眉目清秀，说话时微微抬下颌，蓄细薄短须，束葛巾，穿整洁的素色麻布袍、腰束藤带，胸前掖一封信函；眼中有自负的光采，四分之三视角半身，中性暖灰背景，柔和主光配暖调补光，浅景深、面部最实。",
+      "negativePrompt": "all characters same face, youthful huge eyes, over-smooth skin, perfectly symmetric face, dead eyes without catchlights, helmet-like hair, mannequin stiff pose, extra fingers, distorted limbs, battle armor",
+      "tags": ["late Eastern Han", "central plains China", "scholar mediator", "off-white linen robe", "warm sand palette", "soft daylight"],
+      "sheet": "ONE 16:9 landscape canvas, thin hairline rules dividing into three zones. LEFT ZONE about 34% of the canvas width: a head-and-shoulders front bust portrait of the late-Han scholar mediator, facing forward like an ID photo, shoulders fully visible, bottom edge cut straight, face fully and finely drawn with refined brows, thin neat mustache, light proud upturn to the chin, self-assured eyes with bright catchlights, hair bound in a coarse turban, separate stray hairs; LIGHTING IN THE LEFT ZONE ONLY with soft directional key from upper-left, natural falloff, ambient occlusion under brow ridge and jaw. RIGHT-TOP ZONE: three full-body views in a row (front, side, back) sharing one ground line, same face and hairstyle as the left bust, showing the plain off-white linen robe, vine waistband, letter case tucked at the chest, upright scholarly posture; LIGHTING IN THE RIGHT ZONES flat even orthographic with no directional light and no cast shadows. RIGHT-BOTTOM ZONE: four to five small isolated close-up studies in one evenly spaced row, clearly smaller than the figures (the detail studies give way, not the figures): the letter case, the vine waistband knot, the coarse turban tie, the neat mustache, a plain straw-soled shoe. PROPORTIONS ARE CRITICAL: three full bodies equal height, consistent head-to-body ratio, correct limb lengths, feet on the same ground line, headroom and footroom above and below, never stretch or flatten the figures to fit details. Pure white background, even margins everywhere.",
+      "sheetExplanation": "（设定图说明，不进提示词）"
+    },
+    "voice": {
+      "timbre": "清亮偏柔的男中音，口齿利落",
+      "pitch": "中",
+      "pace": "中快，逞口才时字句流利",
+      "accent": "九江一带的南方口音",
+      "emotion": "自负热切，惊惶时发虚",
+      "referenceHint": "像一位读书人急着在上司面前逞能，说得又快又亮",
+      "prompt": "31-year-old male, clear light tenor, mid range, slim chest support, medium dynamic range. Moderate volume, quick fluent pace with smooth pivoting sentences. Southern Jiang-Jiu regional accent, nimble articulation. Confident and eager, turning hollow and unsettled when caught out."
+    }
+  },
+  {
+    "id": "C19",
+    "name": "黄盖",
+    "importance": "minor",
+    "aliases": ["公覆"],
+    "oneLiner": "随孙坚纵横东、已历三世的江东老将，自愿献苦肉计，当众挨了周瑜五十脊杖，诈降曹操以行火攻。",
+    "persona": {
+      "gender": "男",
+      "ageRange": "约五十余岁（推断）",
+      "identity": "零陵人，东吴三世老将、孙坚部下四将之一，惯使铁鞭",
+      "appearance": "身材魁梧的老将，须发花白、鬓角泛灰，眉骨高耸，目光沉稳而带倔强；常披一身旧铁甲，肩胛处甲叶因多年征战磨得发亮，腰后斜插一根铁鞭，掌心和虎口结着厚厚的茧。挨过杖后脊背只余薄甲贴肉。",
+      "personality": ["忠勇", "沉毅", "刚直"],
+      "temperament": "声如老钟，说话铿锵有力；见周瑜佯怒要斩时毫不退让、义正词严，甘受杖责而无怨悔。",
+      "motivation": "为报孙氏三世厚恩，宁皮肉受苦也愿行诈降计，助东吴以火攻破曹。",
+      "arc": "",
+      "relationships": [
+        { "name": "周瑜", "relation": "江东都督，与其合演苦肉计" },
+        { "name": "孙坚", "relation": "旧主，曾随其锦平东南" },
+        { "name": "曹操", "relation": "诈降的对象" }
+      ],
+      "evidence": [
+        "姓黃，名蓋，字公覆，零陵人也，使鐵鞭。",
+        "蓋曰：「某受孫氏厚恩，雖肝腦塗地，亦無怨悔。」",
+        "命左右拖翻，打一百脊杖，以正其罪。眾官又告免，瑜推翻案桌，叱退眾官，喝教行杖。將黃蓋剝了衣服，拖翻在地，打了五十脊杖。",
+        "黃蓋受責，令闞澤來納降。",
+        "操笑曰：「公覆來降，此天助我也！」"
+      ]
+    },
+    "image": {
+      "prompt": "Character portrait of a resolute elderly Jiang-Dong veteran general from the late Eastern Han dynasty in the riverlands south of the Yangtze, in his mid-fifties, stocky and powerful frame, grizzled greying hair and beard at the temples, high brow ridge, steady resolute eyes set in a stern weathered face, wearing aged but well-kept iron lamellar armor of the Eastern Han river navy, back greaves scuffed from years of service, an iron whip stuck slanting behind the waist, thick calloused palms; quiet unyielding bearing, three-quarter bust, plain damp-grey neutral background, soft directional key light with cool rim fill, shallow depth of field, face sharpest.",
+      "promptLocal": "角色肖像：中国东汉末年长江以南江东的一名刚毅老将，约五十五岁，体格敦实而魁梧，须发花白、鬓角泛灰，眉骨高耸，神色沉毅、目光坚定，穿保养良好却带着多年征战磨痕的旧铁札甲，肩胛甲叶磨得发亮，腰后斜插一根铁鞭，掌心虎口布满老茧；屹立沉稳之态，四分之三视角半身，中性湿冷灰背景，柔和主光配冷调补光，浅景深、面部最实。",
+      "negativePrompt": "all characters same face, youthful huge eyes, smooth poreless skin, perfectly symmetric face, dead eyes without catchlights, helmet-like hair, mannequin stiff pose, extra fingers, distorted limbs, banner text",
+      "tags": ["late Eastern Han", "Jiang-Dong riverlands", "veteran general", "aged iron lamellar armor", "peat grey and iron palette", "damp river light"],
+      "sheet": "ONE 16:9 landscape canvas, thin hairline rules dividing into three zones. LEFT ZONE about 34% of the canvas width: a head-and-shoulders front bust portrait of the late-Han Jiang-Dong veteran, facing forward like an ID photo, shoulders fully visible, bottom edge cut straight, face fully and finely drawn with high brow ridge, grizzled greying beard, stern weathered folds, resolute eyes with steady catchlights, separate stray grey hairs; LIGHTING IN THE LEFT ZONE ONLY with soft directional key from upper-left, natural falloff, ambient occlusion under brow ridge and jaw. RIGHT-TOP ZONE: three full-body views in a row (front, side, back) sharing one ground line, same face and hairstyle as the left bust, showing the stocky powerful build, aged iron lamellar armor, iron whip at the belt, firm planted stance; LIGHTING IN THE RIGHT ZONES flat even orthographic with no directional light and no cast shadows. RIGHT-BOTTOM ZONE: four to five small isolated close-up studies in one evenly spaced row, clearly smaller than the figures (the detail studies give way, not the figures): the iron whip head, the scuffed back greaves, a calloused palm, the coarse grey beard, an armor strap tie. PROPORTIONS ARE CRITICAL: three full bodies equal height, consistent head-to-body ratio, correct limb lengths, feet on the same ground line, headroom and footroom above and below, never stretch or flatten the figures to fit details. Pure white background, even margins everywhere.",
+      "sheetExplanation": "（设定图说明，不进提示词）"
+    },
+    "voice": {
+      "timbre": "低沉浑厚的老年男声，共鸣深",
+      "pitch": "低",
+      "pace": "沉稳偏慢，吐字厚重",
+      "accent": "荆州零陵一带的口音",
+      "emotion": "忠勇稳健，带着无悔的决然",
+      "referenceHint": "像一位临阵不动如山的老将军，越受折辱越沉稳",
+      "prompt": "55-year-old male, deep sonorous low baritone, low pitch range, strong chest resonance and good support, moderate dynamic range. Controlled moderate-low volume, steady unhurried pace with weighty full syllables. Lingling (central-south) regional accent. Staunch, dignified and resolute, unfazed under reprisal."
+    }
+  },
+  {
+    "id": "C20",
+    "name": "庞统",
+    "importance": "minor",
+    "aliases": ["士元", "庞士元", "凤雏先生"],
+    "oneLiner": "道号凤雏的襄阳谋士，向曹操献「连环计」锁住战船，又劝徐庶脱身，赤壁一把火后名动天下。",
+    "persona": {
+      "gender": "男",
+      "ageRange": "约三十多岁（推断）",
+      "identity": "襄阳谋士，道号凤雏先生，与卧龙齐名的隐逸智士",
+      "appearance": "浓眉掀鼻、黑面短髯、形容古怪的丑貌士人；眉骨高耸、鼻头上翻、面色黑沉，身形清瘦而带昂藏之气。惯穿一袭素色道袍，头戴竹冠，腰束青绦。谈兵论计时双眼灼灼，一改貌陋之相。",
+      "personality": ["足智", "自负", "淡泊"],
+      "temperament": "高谈雄辩、应答如流，论兵时气魄逼人；受轻慢时不肯低头，只微微一哂，把才学埋在心里。",
+      "motivation": "辅明主、展济世之才；献连环计助孙刘破曹，再投明主以安天下。",
+      "arc": "",
+      "relationships": [
+        { "name": "徐庶", "relation": "同道，借献计时劝其脱身曹营" },
+        { "name": "刘备", "relation": "日后投奔的主公（此处不计）" },
+        { "name": "曹操", "relation": "献连环计欺骗的对象" }
+      ],
+      "evidence": [
+        "此乃襄陽人，姓龐，名統，字士元，道號鳳雛先生。",
+        "權見其人濃眉掀鼻，黑面短髯，形容古怪，心中不喜。",
+        "黃蓋用苦肉計，闞澤下詐降書，你又來獻連環計，只恐燒不盡絕！",
+        "首尾用鐵環連鎖，上鋪闊板，休言人可渡，馬亦可走矣。",
+        "玄德見統貌陋，心中亦不悅"
+      ]
+    },
+    "image": {
+      "prompt": "Character portrait of a clever stumbling-ugly strategist from the late Eastern Han dynasty in the central plains of China, in his mid-thirties, thick bushy brows over a turned-up broad nose, dark swarthy complexion, sparse short beard, odd and memorable features with a gaunt yet dignified carriage, wearing a plain buff-coloured Taoist robe with a bamboo crown and a dark blue sash, sleeves folded over the chest as he lectures on strategy, piercing eager eyes that belie his homely face; three-quarter bust, plain pale-grey neutral background, soft directional key light with cool rim fill, shallow depth of field, face sharpest.",
+      "promptLocal": "角色肖像：中国东汉末年中原的一名其貌不扬的谋士，约三十五岁，浓眉掀鼻、鼻头上翻，面色黑沉，蓄稀疏短髯，五官古怪却自有一股昂藏气度，穿素色道袍、戴竹冠、束青绦，论兵时双手交袖胸前，双眼灼灼、狡黠而锐利；四分之三视角半身，中性浅灰背景，柔和主光配冷调补光，浅景深、面部最实。",
+      "negativePrompt": "all characters same face, attractive flawless face, handsome hero stereotype, over-smooth skin, perfectly symmetric features, dead eyes without catchlights, helmet-like hair, mannequin stiff pose, extra fingers, distorted limbs, battle armor",
+      "tags": ["late Eastern Han", "central plains China", "reclusive strategist", "buff linen robe", "bamboo crown", "dry autumn light"],
+      "sheet": "ONE 16:9 landscape canvas, thin hairline rules dividing into three zones. LEFT ZONE about 34% of the canvas width: a head-and-shoulders front bust portrait of the late-Han homely strategist, facing forward like an ID photo, shoulders fully visible, bottom edge cut straight, face fully and finely drawn with thick bushy brows over a turned-up broad nose, dark swarthy complexion, sparse short beard, odd gaunt features, sharp eager eyes with catchlights, separate stray hairs; LIGHTING IN THE LEFT ZONE ONLY with soft directional key from upper-left, natural falloff, ambient occlusion under brow ridge and jaw. RIGHT-TOP ZONE: three full-body views in a row (front, side, back) sharing one ground line, same face and hairstyle as the left bust, showing the plain buff Taoist robe, bamboo crown, dark blue sash, composed scholar's bearing; LIGHTING IN THE RIGHT ZONES flat even orthographic with no directional light and no cast shadows. RIGHT-BOTTOM ZONE: four to five small isolated close-up studies in one evenly spaced row, clearly smaller than the figures (the detail studies give way, not the figures): the upturned broad nose, the bamboo crown joint, the dark blue sash knot, a clasped-sleeve hand, the splayed straw shoe. PROPORTIONS ARE CRITICAL: three full bodies equal height, consistent head-to-body ratio, correct limb lengths, feet on the same ground line, headroom and footroom above and below, never stretch or flatten the figures to fit details. Pure white background, even margins everywhere.",
+      "sheetExplanation": "（设定图说明，不进提示词）"
+    },
+    "voice": {
+      "timbre": "清亮中带一点尖锐的男中音，口齿老练",
+      "pitch": "中高",
+      "pace": "中快，论兵时滔滔不绝",
+      "accent": "荆州襄阳一带的口音",
+      "emotion": "自负机敏，谈笑从容",
+      "referenceHint": "像一位胸有丘壑的谋士，貌虽不经谈锋却利",
+      "prompt": "36-year-old male, bright keen mid-tenor voice, mid-to-high pitch range, good resonance, medium-wide dynamic range. Moderate to brisk pace, eloquent flowing reasoning sentences. Xiangyang (central Hubei) regional accent, crisp and cutting articulation. Self-assured, shrewd and relaxed, never flustered."
+    }
+  }
+]

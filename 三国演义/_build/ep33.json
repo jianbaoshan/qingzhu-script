@@ -1,0 +1,986 @@
+[
+  {
+    "id": "E33-01",
+    "sceneIndex": 1,
+    "cuts": [
+      {
+        "beats": [
+          1,
+          2
+        ],
+        "seconds": 4,
+        "size": "wide",
+        "camera": "Static Shot",
+        "characters": [
+          "C01",
+          "C02",
+          "C03"
+        ],
+        "props": [
+          "P05",
+          "P06"
+        ],
+        "frame": "全景，襄阳城门前，刘备牵马而立与关张并肩，一名城门官递来一纸调令，狐疑地打量他们。",
+        "shot": "固定机位，为首的男人牵马立于城门前与两名将军并肩，一名城门官上前递来一纸文书并狐疑打量。",
+        "lens": "35mm 广角，中等景深",
+        "cameraPosition": "城门前 + 平视正面",
+        "composition": "对称",
+        "eyeline": "对城门官",
+        "focus": "锁定调令与他神情",
+        "stability": "stable"
+      },
+      {
+        "beats": [
+          3,
+          3
+        ],
+        "seconds": 5,
+        "size": "close",
+        "camera": "Push In",
+        "characters": [
+          "C02"
+        ],
+        "frame": "特写，关羽皱眉凑近问刘牧这是让咱们去新野替他挡北边的刀，长髯随低语轻动。",
+        "shot": "镜头缓推，长须武将微皱眉头，低声向兄长点破那纸调令的用意。",
+        "lens": "85mm 长焦，极浅景深",
+        "cameraPosition": "关羽 + 平视侧面",
+        "composition": "三分法",
+        "eyeline": "对刘备",
+        "focus": "锁定关羽眉眼",
+        "stability": "stable"
+      },
+      {
+        "beats": [
+          4,
+          4
+        ],
+        "seconds": 5,
+        "size": "close",
+        "camera": "Static Shot",
+        "characters": [
+          "C01"
+        ],
+        "frame": "特写，刘备神色平和道新野是荆州北面门户也能练兵休整不算坏事，目光从容。",
+        "shot": "固定特写，为首的男人神色平和，把那道调令往好处看，语气从容不见怨怼。",
+        "lens": "85mm 长焦，极浅景深",
+        "cameraPosition": "刘备 + 平视正面",
+        "composition": "中心构图",
+        "eyeline": "对关羽",
+        "focus": "锁定刘备眼神",
+        "stability": "stable"
+      }
+    ],
+    "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 4.00-second mark of the target video; Picture 3 (from Shot 3) aligns with the 9.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] A static shot anchored on <Picture 1>: at the Xiangyang city gate the leader stands holding his horse beside two generals while a gate official hands over an edict, eyeing them warily.\n[Shot 2] At 00:04.000, the camera cuts to <Picture 2> in a push in: the tall stately warrior frowns and leans in, the man designated (S1) says <d>[Chinese] 大哥，刘牧这是让咱们去新野，替他挡北边的刀？</d>\n[Shot 3] At 00:09.000, the camera cuts to <Picture 3> in a static shot: the serene-faced leader replies with composure, the man designated (S2) says <d>[Chinese] 新野是荆州北面门户，也能练兵休整，不算坏事。</d>\n\noverall_soundscape: town-gate bustle and distant carts, flags snapping, low exchange among the three.\n\nnon_diegetic_music: even winding strings, measured and resigned, with a hint of fresh resolve.",
+    "blocking": "刘备牵马居画中，关羽居画左、张飞居画右，城门官在画右前递令；三人与城门官对峙约一步。",
+    "soundscape": "城门车马动静、旌旗猎猎、三人低语。",
+    "music": "平稳而带转机的弦乐，克制中透着新的决意。"
+  },
+  {
+    "id": "E33-02",
+    "sceneIndex": 1,
+    "cuts": [
+      {
+        "beats": [
+          5,
+          5
+        ],
+        "seconds": 4,
+        "size": "close",
+        "camera": "Static Shot",
+        "characters": [
+          "C03"
+        ],
+        "frame": "特写，张飞不屑道那巴掌大的破城能守得住什么，粗眉一扬满脸看不上。",
+        "shot": "固定特写，粗豪汉子对那纸调令满是不屑，粗眉一扬，直愣愣地道出看不上。",
+        "lens": "85mm 长焦，极浅景深",
+        "cameraPosition": "张飞 + 平视正面",
+        "composition": "中心构图",
+        "eyeline": "对城方向",
+        "focus": "锁定张飞表情",
+        "stability": "stable"
+      },
+      {
+        "beats": [
+          6,
+          6
+        ],
+        "seconds": 3,
+        "size": "medium",
+        "camera": "Static Shot",
+        "characters": [
+          "C02",
+          "C03"
+        ],
+        "frame": "中景，关羽伸手按住张飞的肩，示意他把话咽回去，眼神沉静。",
+        "shot": "固定机位，长须武将伸手按住粗豪汉子的肩头，一个眼色让他把话咽回头。",
+        "lens": "50mm 标准，中浅景深",
+        "cameraPosition": "双人 + 平视侧面",
+        "composition": "对角线",
+        "eyeline": "示意对方",
+        "focus": "锁定按压的手",
+        "stability": "stable"
+      },
+      {
+        "beats": [
+          7,
+          7
+        ],
+        "seconds": 5,
+        "size": "close",
+        "camera": "Static Shot",
+        "characters": [
+          "C02"
+        ],
+        "frame": "特写，关羽沉声说北有曹操虎视眈眈这城不好守却也不得不守，神色凝重。",
+        "shot": "固定特写，长须武将沉声说出北边强敌压境，这城虽难守却不能弃的道理。",
+        "lens": "85mm 长焦，极浅景深",
+        "cameraPosition": "关羽 + 平视正面",
+        "composition": "三分法",
+        "eyeline": "望向北方",
+        "focus": "锁定关羽眉眼",
+        "stability": "stable"
+      }
+    ],
+    "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 4.00-second mark of the target video; Picture 3 (from Shot 3) aligns with the 7.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] A static shot anchored on <Picture 1>: the burly fierce warrior scoffs at the tiny town, the man designated (S1) spits <d>[Chinese] 那巴掌大的破城，能守得住什么！</d>\n[Shot 2] At 00:04.000, the camera cuts to <Picture 2> in a static shot: the tall stately warrior sets a hand on his shoulder, a silent look urging him to swallow the words.\n[Shot 3] At 00:07.000, the camera cuts to <Picture 3> in a static shot: the tall stately warrior speaks gravely, the man designated (S2) says <d>[Chinese] 北有曹操虎视眈眈，这城不好守，却也不得不守。</d>\n\noverall_soundscape: wind over the gate tower, an impatient horse snorting, low urgent talk.\n\nnon_diegetic_music: low somber strings, firm and unyielding, tilting northward.",
+    "blocking": "张飞居画左不屑，关羽居画右伸手按肩将其顿住，两人并肩面向城门，相距不到一步。",
+    "soundscape": "城头风声、马匹低嘶、两人拦下话头的低语。",
+    "music": "低沉坚毅的弦乐，果决持重，倾向北方。"
+  },
+  {
+    "id": "E33-03",
+    "sceneIndex": 1,
+    "cuts": [
+      {
+        "beats": [
+          8,
+          8
+        ],
+        "seconds": 4,
+        "size": "wide",
+        "camera": "Static Shot",
+        "characters": [
+          "C01"
+        ],
+        "frame": "全景，刘备收好调令翻身上马，回头最后望一眼襄阳城墙，城门在身后渐出帧。",
+        "shot": "固定机位，为首的男人收好文书翻身上马，回头最后一次望一眼这座城的高墙。",
+        "lens": "35mm 广角，中等景深",
+        "cameraPosition": "城门 + 平视侧面",
+        "composition": "三分法",
+        "eyeline": "回望城门",
+        "focus": "锁定刘备上马回望",
+        "stability": "stable"
+      },
+      {
+        "beats": [
+          9,
+          9
+        ],
+        "seconds": 5,
+        "size": "close",
+        "camera": "Push In",
+        "characters": [
+          "C01"
+        ],
+        "frame": "特写，刘备带一缕释然道去新野正可暂避曹军兵锋咱们也喘一口气，目光游向官道。",
+        "shot": "镜头缓推，为首的男人带一缕释然说出避锋休整的道理，目光已投向远处官道。",
+        "lens": "85mm 长焦，极浅景深",
+        "cameraPosition": "刘备 + 平视侧面",
+        "composition": "三分法",
+        "eyeline": "望向官道",
+        "focus": "锁定刘备面容",
+        "stability": "stable"
+      },
+      {
+        "beats": [
+          10,
+          10
+        ],
+        "seconds": 3,
+        "size": "wide",
+        "camera": "Tracking Shot",
+        "characters": [
+          "C01",
+          "C02",
+          "C03"
+        ],
+        "props": [
+          "P05",
+          "P06"
+        ],
+        "frame": "全景，三人拨转马头鱼贯出城，往北面官道驰去，尘土在蹄后扬起。",
+        "shot": "镜头跟随，三骑拨转马头鱼贯出城，朝北方官道驰去，蹄后尘土一路扬起。",
+        "lens": "35mm 广角，中等景深",
+        "cameraPosition": "三人 + 平视侧面跟拍",
+        "composition": "对角线",
+        "eyeline": "沿官道朝北",
+        "focus": "锁定三骑身形",
+        "stability": "slight-shake"
+      }
+    ],
+    "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 4.00-second mark of the target video; Picture 3 (from Shot 3) aligns with the 9.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] A static shot anchored on <Picture 1>: the leader tucks away the edict, mounts his horse, and casts one last look back at the walls of Xiangyang.\n[Shot 2] At 00:04.000, the camera cuts to <Picture 2> in a push in: easing, the serene-faced leader, the man designated (S1), says <d>[Chinese] 去新野，正可暂避曹军兵锋，咱们也喘一口气。</d>\n[Shot 3] At 00:09.000, the camera cuts to <Picture 3> in a tracking shot: the three wheel their horses and ride out one by one onto the northern highway, dust rising behind their hooves.\n\noverall_soundscape: horse hooves gaining rhythm, bridle leather creaking, dust and wind along the open road.\n\nnon_diegetic_music: confident riding strings, moderato and rising, carrying the troop north.",
+    "blocking": "城门居中，刘备居城门画右收令上马回望，随后三骑自画右拨转朝画左官道奔去，尘土横贯。",
+    "soundscape": "马蹄由缓转骤、缰辔皮具的咯吱、官道间尘土与风声。",
+    "music": "果决的行军弦乐，中速渐起，带众人北行。"
+  },
+  {
+    "id": "E33-04",
+    "sceneIndex": 1,
+    "cuts": [
+      {
+        "beats": [
+          11,
+          11
+        ],
+        "seconds": 3,
+        "size": "medium",
+        "camera": "Static Shot",
+        "characters": [
+          "C01"
+        ],
+        "frame": "中景，官道两旁几户流民挎着包袱从破屋里探出头来张望，里间几道瘦影。",
+        "shot": "固定机位，官道两旁几户流民挎着包袱自破屋里探出头张望，瘦影闪回门内。",
+        "lens": "50mm 标准，中浅景深",
+        "cameraPosition": "路旁 + 平视侧面",
+        "composition": "对角线",
+        "eyeline": "望向行经的骑者",
+        "focus": "锁定探头的流民",
+        "stability": "stable"
+      },
+      {
+        "beats": [
+          12,
+          12
+        ],
+        "seconds": 6,
+        "size": "close",
+        "camera": "Push In",
+        "characters": [
+          "C03"
+        ],
+        "frame": "特写，张飞在马背上疑惑问不是说赵云将军也在左右如今就在处边等你，东张西望。",
+        "shot": "镜头缓推，粗豪汉子在马上东张西望，向兄长提起那员有名的将军，语气带好奇。",
+        "lens": "85mm 长焦，极浅景深",
+        "cameraPosition": "张飞 + 平视侧面",
+        "composition": "三分法",
+        "eyeline": "扫向路侧",
+        "focus": "锁定张飞神情",
+        "stability": "slight-shake"
+      },
+      {
+        "beats": [
+          13,
+          13
+        ],
+        "seconds": 6,
+        "size": "close",
+        "camera": "Static Shot",
+        "characters": [
+          "C01"
+        ],
+        "frame": "特写，刘备策马答道子龙镇守别处待新野局面安定自会与咱们会合，神色安稳。",
+        "shot": "固定特写，为首的男人策马平稳相答，神色安稳，让对方不必多问。",
+        "lens": "85mm 长焦，极浅景深",
+        "cameraPosition": "刘备 + 平视正面",
+        "composition": "中心构图",
+        "eyeline": "向前路",
+        "focus": "锁定刘备面容",
+        "stability": "slight-shake"
+      }
+    ],
+    "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 3.00-second mark of the target video; Picture 3 (from Shot 3) aligns with the 9.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] A static shot anchored on <Picture 1>: refugees wrapped with bundles peer out from ramshackle huts along the road as the riders pass, thin figures darting back into the dark doorways.\n[Shot 2] At 00:03.000, the camera cuts to <Picture 2> in a push in: the burly fierce warrior peers about and, the man designated (S1), asks curiously <d>[Chinese] 哥哥，不是说赵云将军也在左右吗？如今就在处边等你？</d>\n[Shot 3] At 00:09.000, the camera cuts to <Picture 3> in a static shot: the serene-faced leader, the man designated (S2), answers steadily <d>[Chinese] 子龙现在镇守别处，待新野局面安定，自会与咱们会合。</d>\n\noverall_soundscape: a few refugees murmuring, horse hooves on packed earth, the thin chirp of insects disturbed from the roadside.\n\nnon_diegetic_music: open winding melody, moving and unhurried, hinting at a reunion to come.",
+    "blocking": "三骑居中北行，流民居路侧两畔探头；张飞居画右乘马发问，刘备居画中偏左相答。",
+    "soundscape": "道旁流民低低议论、马蹄踏在土路上的声势、路边受惊虫鸣。",
+    "music": "开阔悠缓的旋律，流动而不迫，暗含他日重逢之意。"
+  },
+  {
+    "id": "E33-05",
+    "sceneIndex": 1,
+    "cuts": [
+      {
+        "beats": [
+          14,
+          14
+        ],
+        "seconds": 6,
+        "size": "extreme-wide",
+        "camera": "Tracking Shot",
+        "characters": [
+          "C01",
+          "C02",
+          "C03"
+        ],
+        "props": [
+          "P05",
+          "P06"
+        ],
+        "frame": "大远景，三骑越行越远，直到新野的城影在晨光里浮出来，官道尽头城池渐明。",
+        "shot": "镜头跟随，三骑越走越远，前方新野的城墙轮廓在晨光里一点点浮出，官道尽头豁然亮开。",
+        "lens": "35mm 广角，深景深",
+        "cameraPosition": "三人 + 俯拍远景",
+        "composition": "三分法",
+        "eyeline": "沿官道望向前方城池",
+        "focus": "锁定渐近的城影",
+        "stability": "slight-shake"
+      }
+    ],
+    "h3Prompt": "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced.\n\nintegrated_multimodal_description:\n[Shot 1] A tracking shot anchored on <Picture 1>: \n\noverall_soundscape: steady hoofbeats fading far ahead, wind across the plain, the faint rustle of morning crops.\n\nnon_diegetic_music: broad, hopeful strings opening onto the town, leisurely and forward.",
+    "blocking": "单镜大远景：三骑居中沿官道北行，身影渐小，正前方新野城墙轮廓在晨光中浮现，居画面三分线左侧。",
+    "soundscape": "蹄声渐远、平原上的风声、晨间作物的轻响。",
+    "music": "开阔而带希望的弦乐，舒展迎向那座城。"
+  },
+  {
+    "id": "E33-06",
+    "sceneIndex": 2,
+    "cuts": [
+      {
+        "beats": [
+          1,
+          1
+        ],
+        "seconds": 4,
+        "size": "wide",
+        "camera": "Static Shot",
+        "characters": [
+          "C01"
+        ],
+        "frame": "全景，新野城头，刘备凭栏远眺，脚下是一片黄土官道，城下人影往来寥寥。",
+        "shot": "固定机位，一名男人凭栏立于城头，脚下黄土官道延伸到远处，城下人影稀落。",
+        "lens": "35mm 广角，中等景深",
+        "cameraPosition": "城头 + 俯视",
+        "composition": "三分法",
+        "eyeline": "沿官道远眺",
+        "focus": "锁定刘备凭栏身影",
+        "stability": "stable"
+      },
+      {
+        "beats": [
+          2,
+          2
+        ],
+        "seconds": 3,
+        "size": "close",
+        "camera": "Static Shot",
+        "characters": [
+          "C03"
+        ],
+        "props": [
+          "P06"
+        ],
+        "frame": "特写，张飞立在一处城垛旁握矛望着北方，眼里烧着火，矛头长刃在风里微斜。",
+        "shot": "固定特写，一名粗豪汉子立于城垛前紧握长矛望向北方，眼里像烧着一团火。",
+        "lens": "85mm 长焦，极浅景深",
+        "cameraPosition": "张飞 + 平视侧面",
+        "composition": "三分法",
+        "eyeline": "望向北方",
+        "focus": "锁定张飞眼神与矛头",
+        "stability": "stable"
+      },
+      {
+        "beats": [
+          3,
+          3
+        ],
+        "seconds": 5,
+        "size": "close",
+        "camera": "Push In",
+        "characters": [
+          "C03"
+        ],
+        "frame": "特写，张飞望着北方道就这兵这城真能挡得住曹操百万大军，语带焦灼。",
+        "shot": "镜头缓推，粗豪汉子望着北方，嗓子里压着焦灼，诘问这兵这城如何抵挡强敌。",
+        "lens": "85mm 长焦，极浅景深",
+        "cameraPosition": "张飞 + 平视正面",
+        "composition": "中心构图",
+        "eyeline": "对刘备",
+        "focus": "锁定张飞眉眼",
+        "stability": "stable"
+      }
+    ],
+    "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 4.00-second mark of the target video; Picture 3 (from Shot 3) aligns with the 7.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] A static shot anchored on <Picture 1>: on the rampart of Xinye the leader rests on the railing, looking far along the empty yellow road below.\n[Shot 2] At 00:04.000, the camera cuts to <Picture 2> in a static shot: a burly fierce warrior stands by a merlon, spear in hand, eyes fixed northward burning with fire.\n[Shot 3] At 00:07.000, the camera cuts to <Picture 3> in a push in: the burly fierce warrior, the man designated (S1), asks in fretful urgency <d>[Chinese] 哥哥，就这兵，这城，真能挡得住曹操百万大军？</d>\n\noverall_soundscape: wind across the empty rampart, a banner snapping, faint drill shouts from the parade ground below.\n\nnon_diegetic_music: lean tense strings, worried and rising, pressed against the threat from the north.",
+    "blocking": "刘备居城头左栏凭栏远眺，张飞在右城垛握矛北望，两人相距约三步；官道自城下向北延伸出帧。",
+    "soundscape": "城头风过、旌旗猎猎、校场隐约的操演喊声。",
+    "music": "纤细紧绷的弦乐，忧虑含压，冲着北方而来的威胁。"
+  },
+  {
+    "id": "E33-07",
+    "sceneIndex": 2,
+    "cuts": [
+      {
+        "beats": [
+          4,
+          4
+        ],
+        "seconds": 6,
+        "size": "close",
+        "camera": "Static Shot",
+        "characters": [
+          "C02"
+        ],
+        "frame": "特写，关羽沉声道挡不挡得住看咱们怎么用城不在大在得人心，神色笃定。",
+        "shot": "固定特写，长须武将沉声作答，道出城池的根本在于人心，语气笃定而沉。",
+        "lens": "85mm 长焦，极浅景深",
+        "cameraPosition": "关羽 + 平视正面",
+        "composition": "三分法",
+        "eyeline": "对张飞",
+        "focus": "锁定关羽眉眼",
+        "stability": "stable"
+      },
+      {
+        "beats": [
+          5,
+          5
+        ],
+        "seconds": 5,
+        "size": "close",
+        "camera": "Static Shot",
+        "characters": [
+          "C01"
+        ],
+        "frame": "特写，刘备点头道兵少就练城小就修把根基打实，眉目舒展而坚定。",
+        "shot": "固定特写，为首的男人应和一声，道出兵少练城小修的道理，神色舒展而坚定。",
+        "lens": "85mm 长焦，极浅景深",
+        "cameraPosition": "刘备 + 平视正面",
+        "composition": "中心构图",
+        "eyeline": "对兄弟二人",
+        "focus": "锁定刘备眼神",
+        "stability": "stable"
+      }
+    ],
+    "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 6.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] A static shot anchored on <Picture 1>: the tall stately warrior answers gravely, the man designated (S1) says <d>[Chinese] 挡不挡得住，看咱们怎么用。城不在大，在得人心。</d>\n[Shot 2] At 00:06.000, the camera cuts to <Picture 2> in a static shot: the serene-faced leader nods and, the man designated (S2), says firmly <d>[Chinese] 云长说得对。兵少就练，城小就修，把根基打实。</d>\n\noverall_soundscape: wind and banners high above, the low murmur settling among the brothers on the wall.\n\nnon_diegetic_music: steady building strings, firm and encouraging, warming to a shared purpose.",
+    "blocking": "关羽居画左作结，刘备居画右应和，张飞在背离一隅；三人并立城头，脚下黄土官道隐约。",
+    "soundscape": "高处风声与旗声、城头三人低语渐定、校场远处操演声。",
+    "music": "稳健渐进的弦乐，坚定而鼓舞，聚成一致的方向。"
+  },
+  {
+    "id": "E33-08",
+    "sceneIndex": 2,
+    "cuts": [
+      {
+        "beats": [
+          6,
+          7
+        ],
+        "seconds": 5,
+        "size": "wide",
+        "camera": "Static Shot",
+        "characters": [
+          "C01"
+        ],
+        "frame": "全景，刘备转身望向校场上新募的汉家子弟，关张跟在身后，校场尘土中兵卒来回操演喊声震天。",
+        "shot": "固定机位，为首的男人转向校场上新募的兵丁，身后两人跟随，尘土间旗帜与人影往来操演。",
+        "lens": "35mm 广角，中等景深",
+        "cameraPosition": "校场 + 平视",
+        "composition": "对称",
+        "eyeline": "望向校场兵卒",
+        "focus": "锁定刘备转身取势",
+        "stability": "stable"
+      },
+      {
+        "beats": [
+          8,
+          8
+        ],
+        "seconds": 5,
+        "size": "close",
+        "camera": "Static Shot",
+        "characters": [
+          "C02"
+        ],
+        "frame": "特写，关羽在旁道新募这几百人都是本地愿从军的青壮，言语带一丝欣慰。",
+        "shot": "固定特写，长须武将看着校场，语气里带一丝欣慰，道出这几百青壮入伍来历。",
+        "lens": "85mm 长焦，极浅景深",
+        "cameraPosition": "关羽 + 平视侧面",
+        "composition": "三分法",
+        "eyeline": "望向校场",
+        "focus": "锁定关羽神情",
+        "stability": "stable"
+      },
+      {
+        "beats": [
+          9,
+          9
+        ],
+        "seconds": 5,
+        "size": "close",
+        "camera": "Push In",
+        "characters": [
+          "C01"
+        ],
+        "frame": "特写，刘备望着渐聚的人头道只要有人相随这小城便有了守下去的底气，目光亮起。",
+        "shot": "镜头缓推，为首的男人望着眼前的人影，一字一句道出信心，眸子里亮起光。",
+        "lens": "85mm 长焦，极浅景深",
+        "cameraPosition": "刘备 + 平视正面",
+        "composition": "中心构图",
+        "eyeline": "望向校场众人",
+        "focus": "锁定刘备眼神",
+        "stability": "stable"
+      }
+    ],
+    "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 5.00-second mark of the target video; Picture 3 (from Shot 3) aligns with the 10.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] A static shot anchored on <Picture 1>: the leader turns toward the freshly recruited Han soldiers drilling on the parade ground, the two generals following close, dust rising amid cracking drill shouts.\n[Shot 2] At 00:05.000, the camera cuts to <Picture 2> in a static shot: the tall stately warrior notes, the man designated (S1) says with quiet pride <d>[Chinese] 大哥，新募这几百人，都是本地愿从军的青壮。</d>\n[Shot 3] At 00:10.000, the camera cuts to <Picture 3> in a push in: the serene-faced leader, the man designated (S2), replies with growing conviction <d>[Chinese] 好。只要有人相随，这小城便有了守下去的底气。</d>\n\noverall_soundscape: drill shouts and rhythmic feet on earth, banners and dust, the scrape of practice weapons.\n\nnon_diegetic_music: drum-like strings gathering strength, sturdy and confident over the drilling crowd.",
+    "blocking": "刘备居中望向校场，关张分列左右在其身后一步；校场兵卒列队操演居画面下方景深处。",
+    "soundscape": "校场操演喊声、整齐的步伐声、尘土与旗幡的翻卷。",
+    "music": "带鼓点般的弦乐渐聚，结实而有信心。"
+  },
+  {
+    "id": "E33-09",
+    "sceneIndex": 2,
+    "cuts": [
+      {
+        "beats": [
+          10,
+          10
+        ],
+        "seconds": 4,
+        "size": "medium",
+        "camera": "Static Shot",
+        "characters": [
+          "C01"
+        ],
+        "frame": "中景，刘备下城楼亲自沿街查看，路边百姓见了纷纷让路，街铺招幌在檐下晃。",
+        "shot": "固定机位，为首的男人下城沿街查看，道旁百姓纷纷让路，街檐下招幌轻晃。",
+        "lens": "50mm 标准，中浅景深",
+        "cameraPosition": "街市 + 平视侧面",
+        "composition": "对角线",
+        "eyeline": "沿街打量",
+        "focus": "锁定刘备身形",
+        "stability": "stable"
+      },
+      {
+        "beats": [
+          11,
+          11
+        ],
+        "seconds": 3,
+        "size": "close",
+        "camera": "Push In",
+        "characters": [
+          "C01"
+        ],
+        "frame": "特写，一位白发老翁捧着碗清水颤巍巍递到他面前，碗沿热气微动，手背满是纹路。",
+        "shot": "镜头缓推，一名白发老翁捧着一碗清水颤巍巍递向为首的男人，碗沿热气轻动，手背皱纹龟裂。",
+        "lens": "85mm 长焦，极浅景深",
+        "cameraPosition": "老翁与碗 + 平视",
+        "composition": "三分法",
+        "eyeline": "望向刘备",
+        "focus": "锁定老翁与那碗水",
+        "stability": "stable"
+      }
+    ],
+    "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 4.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] A static shot anchored on <Picture 1>: the leader comes down the rampart to inspect the streets, townsfolk parting respectfully as shop banners sway under the eaves.\n[Shot 2] At 00:04.000, the camera cuts to <Picture 2> in a push in: a white-haired elder raises a bowl of clear water to the leader with trembling hands, warmth faintly rising from the rim.\n\noverall_soundscape: soft stirring of townsfolk stepping aside, a bowl of water gently sloshing, light street ambience.\n\nnon_diegetic_music: gentle, tender solo notes fading in, warm and unguarded.",
+    "blocking": "刘备居街中前行，百姓自道旁两侧让开；老翁在画右前捧碗相迎，两人相距约半臂。",
+    "soundscape": "百姓让路时轻微的响动、一碗清水微微晃荡、街头的轻声嘈杂。",
+    "music": "柔缓温情的点状音符渐入，朴素而不设防。"
+  },
+  {
+    "id": "E33-10",
+    "sceneIndex": 2,
+    "cuts": [
+      {
+        "beats": [
+          12,
+          12
+        ],
+        "seconds": 2,
+        "size": "close",
+        "camera": "Static Shot",
+        "characters": [
+          "C01"
+        ],
+        "frame": "特写，刘备望着那碗水，语声一滞唤了声老人家，双手却已伸出。",
+        "shot": "固定特写，为首的男人望着那碗水，话语一哽，抬手唤了一声那老者，双手随之伸出。",
+        "lens": "85mm 长焦，极浅景深",
+        "cameraPosition": "刘备 + 平视正面",
+        "composition": "中心构图",
+        "eyeline": "对老翁与碗",
+        "focus": "锁定刘备神情与伸出的手",
+        "stability": "stable"
+      },
+      {
+        "beats": [
+          13,
+          13
+        ],
+        "seconds": 4,
+        "size": "close",
+        "camera": "Static Shot",
+        "characters": [
+          "C03"
+        ],
+        "frame": "特写，张飞在一旁插嘴道老头咱哥哥初来乍到你倒不怕生，粗嗓带着疑问。",
+        "shot": "固定特写，粗豪汉子凑近插话，粗嗓带着几分好奇，问那老者为何这般不怕生。",
+        "lens": "85mm 长焦，极浅景深",
+        "cameraPosition": "张飞 + 平视侧面",
+        "composition": "三分法",
+        "eyeline": "对老翁",
+        "focus": "锁定张飞神情",
+        "stability": "stable"
+      },
+      {
+        "beats": [
+          14,
+          14
+        ],
+        "seconds": 4,
+        "size": "close",
+        "camera": "Static Shot",
+        "characters": [
+          "C02"
+        ],
+        "frame": "特写，关羽温声道三弟百姓识得谁对他们是真心，目光落在那老翁身上。",
+        "shot": "固定特写，长须武将温声提醒，目光落向那老者，点到百姓最直白的识人处。",
+        "lens": "85mm 长焦，极浅景深",
+        "cameraPosition": "关羽 + 平视正面",
+        "composition": "中心构图",
+        "eyeline": "对老翁",
+        "focus": "锁定关羽眼神",
+        "stability": "stable"
+      }
+    ],
+    "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 2.00-second mark of the target video; Picture 3 (from Shot 3) aligns with the 6.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] A static shot anchored on <Picture 1>: the serene-faced leader falters at the bowl of water, the man designated (S1) says softly <d>[Chinese] 老人家，这水……</d>, hands already reaching out.\n[Shot 2] At 00:02.000, the camera cuts to <Picture 2> in a static shot: the burly fierce warrior pipes in, the man designated (S2) asks <d>[Chinese] 老头，咱哥哥初来乍到，你倒不怕生。</d>\n[Shot 3] At 00:06.000, the camera cuts to <Picture 3> in a static shot: the tall stately warrior says gently, the man designated (S3) replies <d>[Chinese] 三弟，百姓识得谁对他们是真心。</d>\n\noverall_soundscape: soft crowd murmur, the faint ripple of water, low voices drawing closer along the street.\n\nnon_diegetic_music: warm, spare strings, intimate and quietly moving.",
+    "blocking": "刘备居画中接过话头，张飞在画左插话，关羽在画右温声点破；老翁与碗居画右前，三兄弟与其相距约半臂。",
+    "soundscape": "街头低低的围拢声、碗中水波轻晃、几人凑近的低语。",
+    "music": "温厚而节制的弦乐，近景而动人。"
+  },
+  {
+    "id": "E33-11",
+    "sceneIndex": 2,
+    "cuts": [
+      {
+        "beats": [
+          15,
+          15
+        ],
+        "seconds": 4,
+        "size": "medium",
+        "camera": "Static Shot",
+        "characters": [
+          "C01"
+        ],
+        "frame": "中景，刘备小心把那碗水饮了又郑重道谢，百姓见状纷纷围拢，人群中有人红了眼眶。",
+        "shot": "固定机位，为首的男人小心地把那碗水饮下，又郑重道谢，周围百姓呼啦围拢上来。",
+        "lens": "50mm 标准，中浅景深",
+        "cameraPosition": "街中 + 平视",
+        "composition": "中心构图",
+        "eyeline": "望向老翁与众人",
+        "focus": "锁定刘备饮水的动作",
+        "stability": "stable"
+      },
+      {
+        "beats": [
+          16,
+          16
+        ],
+        "seconds": 6,
+        "size": "close",
+        "camera": "Push In",
+        "characters": [
+          "C01"
+        ],
+        "frame": "特写，刘备扬声承诺与百姓本为一体必不负众人，目光扫过一张张围拢的脸。",
+        "shot": "镜头缓推，为首的男人扬声承诺，声音温厚却掷地有声，目光一一扫过围拢的百姓。",
+        "lens": "85mm 长焦，极浅景深",
+        "cameraPosition": "刘备 + 平视正面",
+        "composition": "三分法",
+        "eyeline": "扫过众人",
+        "focus": "锁定刘备眼神",
+        "stability": "stable"
+      }
+    ],
+    "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 4.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] A static shot anchored on <Picture 1>: the leader drinks the bowl of water carefully and offers an earnest thanks, the onlookers crowding closer in response.\n[Shot 2] At 00:04.000, the camera cuts to <Picture 2> in a push in: the serene-faced leader, the man designated (S1), pledges with warmth <d>[Chinese] 吾与百姓，本为一体，众位肯随我，刘备必不负众人。</d>, his gaze moving over the gathered faces.\n\noverall_soundscape: a growing swell of voices, someone's quiet sob, shuffling feet crowding in on the street.\n\nnon_diegetic_music: rising, heartfelt strings, open and affirming over the gathering crowd.",
+    "blocking": "刘备居街中央饮水，老翁在画右，三兄弟环站，百姓自四面围拢成半圆，人人面向他。",
+    "soundscape": "人群逐渐围拢的脚步声、有人低声哽咽、几人的零散附和。",
+    "music": "渐起的暖弦，开阔而坚定，托住围拢的人群。"
+  },
+  {
+    "id": "E33-12",
+    "sceneIndex": 2,
+    "cuts": [
+      {
+        "beats": [
+          17,
+          17
+        ],
+        "seconds": 3,
+        "size": "medium",
+        "camera": "Static Shot",
+        "characters": [
+          "C01"
+        ],
+        "frame": "中景，围观的百姓闻言，有几人已悄然红了眼眶，拜了下去，尘土落上衣摆。",
+        "shot": "固定机位，围观的百姓中几个人已悄悄红了眼眶，颤巍巍地拜了下去，衣摆沾上尘土。",
+        "lens": "50mm 标准，中浅景深",
+        "cameraPosition": "人群 + 平视",
+        "composition": "三分法",
+        "eyeline": "望向刘备",
+        "focus": "锁定拜下的百姓",
+        "stability": "stable"
+      },
+      {
+        "beats": [
+          18,
+          18
+        ],
+        "seconds": 4,
+        "size": "medium",
+        "camera": "Tracking Shot",
+        "characters": [
+          "C01"
+        ],
+        "frame": "中景，刘备一一扶起，亲手将一名跛足老者搀到墙边歇脚，动作温厚。",
+        "shot": "镜头跟随，为首的男人上前一一扶起众人，又将一名跛足老者亲手搀到墙边安顿。",
+        "lens": "50mm 标准，中浅景深",
+        "cameraPosition": "刘备 + 平视侧面",
+        "composition": "对角线",
+        "eyeline": "望向身边老者",
+        "focus": "锁定搀扶的动作",
+        "stability": "stable"
+      }
+    ],
+    "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 3.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] A static shot anchored on <Picture 1>: among the watching crowd several quietly redden and kneel down, dust settling on their garments.\n[Shot 2] At 00:03.000, the camera cuts to <Picture 2> in a tracking shot: the leader moves to raise each of them up, personally helping a lame elder steady himself against the wall.\n\noverall_soundscape: soft weeping and murmur, loose garments scuffing the earth, footsteps as the leader moves among them.\n\nnon_diegetic_music: tender, flowing strings, warm and humane over the bowed crowd.",
+    "blocking": "百姓居画面三面半圆跪伏，刘备居中央一一扶起；跛足老者在画右被搀到墙边，人群让出一条缝。",
+    "soundscape": "低低的抽泣与私语、衣料擦过地面的声响、刘备穿行其间搀扶的脚步声。",
+    "music": "温润流动的弦乐，仁厚而触动人。"
+  },
+  {
+    "id": "E33-13",
+    "sceneIndex": 2,
+    "cuts": [
+      {
+        "beats": [
+          19,
+          19
+        ],
+        "seconds": 5,
+        "size": "close",
+        "camera": "Static Shot",
+        "characters": [
+          "C02"
+        ],
+        "frame": "特写，关羽在旁道民心已归咱们守这座城就有了根本，眉目舒展而郑重。",
+        "shot": "固定特写，长须武将看着眼前众生，语气郑重而舒展，道出民心已归这份根本。",
+        "lens": "85mm 长焦，极浅景深",
+        "cameraPosition": "关羽 + 平视侧面",
+        "composition": "三分法",
+        "eyeline": "望向刘备",
+        "focus": "锁定关羽眉眼",
+        "stability": "stable"
+      },
+      {
+        "beats": [
+          20,
+          20
+        ],
+        "seconds": 7,
+        "size": "close",
+        "camera": "Push In",
+        "characters": [
+          "C01"
+        ],
+        "frame": "特写，刘备语重心长道这只是第一步要让曹军不敢轻犯还得粮草工事都跟上，目光深远。",
+        "shot": "镜头缓推，为首的男人语重心长，说这只是开端，粮草工事还需一一跟上，目光放得很远。",
+        "lens": "85mm 长焦，极浅景深",
+        "cameraPosition": "刘备 + 平视正面",
+        "composition": "中心构图",
+        "eyeline": "望向远方",
+        "focus": "锁定刘备眼神",
+        "stability": "stable"
+      }
+    ],
+    "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 5.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] A static shot anchored on <Picture 1>: the tall stately warrior reflects, the man designated (S1) says with quiet gravity <d>[Chinese] 大哥，民心已归，咱们守这座城，就有了根本。</d>\n[Shot 2] At 00:05.000, the camera cuts to <Picture 2> in a push in: the serene-faced leader, the man designated (S2), speaks with far-reaching care <d>[Chinese] 云长，这只是第一步。要让曹军不敢轻犯，还得粮草、工事都跟上。</d>\n\noverall_soundscape: the crowd settling, a low hum of murmurs, wind over the town walls.\n\nnon_diegetic_music: grave yet hopeful strings, slow and forward-looking.",
+    "blocking": "关羽居画左先说，刘备居画右接话远眺；两人并肩立于人群边缘，相距约两步。",
+    "soundscape": "人群渐安的低语、城头穿过的风、偶有一两声余音。",
+    "music": "凝重而带希望的弦乐，缓慢而往前看。"
+  },
+  {
+    "id": "E33-14",
+    "sceneIndex": 2,
+    "cuts": [
+      {
+        "beats": [
+          21,
+          21
+        ],
+        "seconds": 6,
+        "size": "close",
+        "camera": "Push In",
+        "characters": [
+          "C03"
+        ],
+        "frame": "特写，张飞目光亮起问那些流民哥哥收不收城里缺人手缺劳力正好用上，凑近献策。",
+        "shot": "镜头缓推，粗豪汉子眼睛一亮凑近献策，问那些流民收不收，正可用上人手劳力。",
+        "lens": "85mm 长焦，极浅景深",
+        "cameraPosition": "张飞 + 平视侧面",
+        "composition": "三分法",
+        "eyeline": "对刘备",
+        "focus": "锁定张飞神情",
+        "stability": "stable"
+      },
+      {
+        "beats": [
+          22,
+          22
+        ],
+        "seconds": 5,
+        "size": "close",
+        "camera": "Static Shot",
+        "characters": [
+          "C01"
+        ],
+        "frame": "特写，刘备颔首道收凡愿随我军民者皆一体看待不分彼此，语气恳切。",
+        "shot": "固定特写，为首的男人颔首应下，语气恳切，说出对归附军民一视同仁的承诺。",
+        "lens": "85mm 长焦，极浅景深",
+        "cameraPosition": "刘备 + 平视正面",
+        "composition": "中心构图",
+        "eyeline": "对张飞",
+        "focus": "锁定刘备眼神",
+        "stability": "stable"
+      }
+    ],
+    "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 6.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] A push in anchored on <Picture 1>: the burly fierce warrior's eyes light up as he leans in to suggest, the man designated (S1) says <d>[Chinese] 那些流民，哥哥收不收？城里缺人手缺劳力，正好用上。</d>\n[Shot 2] At 00:06.000, the camera cuts to <Picture 2> in a static shot: the serene-faced leader, the man designated (S2), answers warmly and plainly <d>[Chinese] 收。凡愿随我军民者，皆一体看待，不分彼此。</d>\n\noverall_soundscape: murmur of the crowd around, low approving voices, an occasional gust of wind.\n\nnon_diegetic_music: warm, broad strings, generous and resolute.",
+    "blocking": "张飞凑近居画左献策，刘备居画右正色应允，两人隔约一步；百姓虚化于身后街面。",
+    "soundscape": "身周人群低语、偶有附和声、一阵穿街风起。",
+    "music": "温厚开阔的弦乐，慷慨而坚定。"
+  },
+  {
+    "id": "E33-15",
+    "sceneIndex": 2,
+    "cuts": [
+      {
+        "beats": [
+          23,
+          23
+        ],
+        "seconds": 3,
+        "size": "wide",
+        "camera": "Static Shot",
+        "characters": [
+          "C01"
+        ],
+        "frame": "全景，张飞应声去传令，刘备却仍立城头，目光扫过这方新土，城下人影渐散。",
+        "shot": "固定机位，一人应声去传令，为首的男人仍立在城头，目光缓缓扫过脚下这方新地。",
+        "lens": "35mm 广角，中等景深",
+        "cameraPosition": "城头 + 俯视",
+        "composition": "对称",
+        "eyeline": "扫视城下",
+        "focus": "锁定刘备凭栏身影",
+        "stability": "stable"
+      },
+      {
+        "beats": [
+          24,
+          24
+        ],
+        "seconds": 4,
+        "size": "close",
+        "camera": "Static Shot",
+        "characters": [
+          "C02"
+        ],
+        "frame": "特写，关羽在旁低声探问可是在忧新野久守难支，言语关切。",
+        "shot": "固定特写，长须武将低声探问，语带关切，问那眉头底下压着的忧虑。",
+        "lens": "85mm 长焦，极浅景深",
+        "cameraPosition": "关羽 + 平视侧面",
+        "composition": "三分法",
+        "eyeline": "对刘备",
+        "focus": "锁定关羽眉眼",
+        "stability": "stable"
+      },
+      {
+        "beats": [
+          25,
+          25
+        ],
+        "seconds": 7,
+        "size": "close",
+        "camera": "Push In",
+        "characters": [
+          "C01"
+        ],
+        "frame": "特写，刘备远望道新野只是落脚不是归宿可今日之城是明日争乱的基石，眸光深沉。",
+        "shot": "镜头缓推，为首的男人远望着城下，道出这座城市只是落脚而非归宿，眸光在暮色里很深。",
+        "lens": "85mm 长焦，极浅景深",
+        "cameraPosition": "刘备 + 平视正面",
+        "composition": "中心构图",
+        "eyeline": "望向极远处",
+        "focus": "锁定刘备眼神",
+        "stability": "stable"
+      }
+    ],
+    "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 3.00-second mark of the target video; Picture 3 (from Shot 3) aligns with the 7.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] A static shot anchored on <Picture 1>: one of the brothers leaves to relay the order, while the leader remains on the rampart, his gaze sweeping over the new land below.\n[Shot 2] At 00:03.000, the camera cuts to <Picture 2> in a static shot: the tall stately warrior asks in a low, caring voice, the man designated (S1) says <d>[Chinese] 大哥，可是在忧新野久守难支？</d>\n[Shot 3] At 00:07.000, the camera cuts to <Picture 3> in a push in: the serene-faced leader, the man designated (S2), answers with depth <d>[Chinese] 新野只是落脚，不是归宿。可今日之城，是明日争乱的基石。</d>\n\noverall_soundscape: the town settling into dusk, wind over the walls, faint voices receding below.\n\nnon_diegetic_music: reflective, somber strings, slow and long-reaching.",
+    "blocking": "刘备凭栏居中城头，关羽立画左相询，张飞离场取景深处；城下街屋人影渐暗，暮色压上。",
+    "soundscape": "城头风掠过垛口、城下街音渐稀、远处一两声关门合阖。",
+    "music": "沉思而带苍茫的弦乐，缓慢绵长。"
+  },
+  {
+    "id": "E33-16",
+    "sceneIndex": 2,
+    "cuts": [
+      {
+        "beats": [
+          26,
+          26
+        ],
+        "seconds": 4,
+        "size": "wide",
+        "camera": "Static Shot",
+        "characters": [
+          "C01"
+        ],
+        "frame": "全景，城北官道尽头一骑探马扬尘而来，马背上一面信旗翻卷，尘土在蹄后拖成一线。",
+        "shot": "固定机位，城北官道尽头一骑探马扬尘而来，马背上一面信旗翻卷，把众人的目光吸过去。",
+        "lens": "35mm 广角，中等景深",
+        "cameraPosition": "官道远方 + 平视",
+        "composition": "对角线",
+        "eyeline": "望向奔来的探马",
+        "focus": "锁定信旗与奔马",
+        "stability": "slight-shake"
+      },
+      {
+        "beats": [
+          27,
+          27
+        ],
+        "seconds": 5,
+        "size": "close",
+        "camera": "Push In",
+        "characters": [
+          "C01"
+        ],
+        "frame": "特写，刘备神色一紧道北边有信走回帐细看怕是曹操的动静，欲言又顿。",
+        "shot": "镜头缓推，为首的男人神色一紧，边开口边已转身，想先回帐细看那来报的动静。",
+        "lens": "85mm 长焦，极浅景深",
+        "cameraPosition": "刘备 + 平视正面",
+        "composition": "三分法",
+        "eyeline": "转向府衙方向",
+        "focus": "锁定刘备面色",
+        "stability": "stable"
+      },
+      {
+        "beats": [
+          28,
+          28
+        ],
+        "seconds": 4,
+        "size": "wide",
+        "camera": "Tracking Shot",
+        "characters": [
+          "C01",
+          "C02",
+          "C03"
+        ],
+        "frame": "全景，三兄弟急步下城朝府衙方向行去，身后百姓不舍相望，城楼梯影交叠。",
+        "shot": "镜头跟随，三兄弟急步下城朝府衙而去，身后百姓依依不舍地望着，城楼的影子交错压下。",
+        "lens": "35mm 广角，中等景深",
+        "cameraPosition": "城梯 + 平视侧面跟拍",
+        "composition": "对角线",
+        "eyeline": "沿梯下方向",
+        "focus": "锁定三人急行身形",
+        "stability": "slight-shake"
+      }
+    ],
+    "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 4.00-second mark of the target video; Picture 3 (from Shot 3) aligns with the 9.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] A static shot anchored on <Picture 1>: a scout horse raises dust along the north road, a signal banner whipping on its back, drawing every eye.\n[Shot 2] At 00:04.000, the camera cuts to <Picture 2> in a push in: the serene-faced leader tightens, the man designated (S1) says <d>[Chinese] 北边有信！走，回帐细看，怕是曹操的动静。</d>\n[Shot 3] At 00:09.000, the camera cuts to <Picture 3> in a tracking shot: the three brothers hurry down the stair toward the government house while the lingering townsfolk watch, the rampart shadows layering over them.\n\noverall_soundscape: hooves and jingling harness on the hard road, urgent boots on stone stairs, the hum of departing spectators.\n\nnon_diegetic_music: crisp urgent strings, quickening, a sudden tightening as the dispatch rides in.",
+    "blocking": "探马自城北官道画右远奔而来；刘备居城头画左欲离，关张随后；三兄弟沿城梯排成一线下行，百姓居梯下让望。",
+    "soundscape": "马蹄与辔铃急响、皮靴踏石阶的骤声、身后百姓的低语与不舍。",
+    "music": "利落急促的弦乐加速收紧，随信报而至骤然绷紧。"
+  }
+]

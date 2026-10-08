@@ -1,0 +1,1286 @@
+﻿<!doctype html>
+<html lang="zh"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>三国演义 · 短剧改编大纲</title>
+<style>
+:root{
+  --paper:#eceded; --panel:#f5f6f5; --side:#e4e6e3; --ink:#191d21; --ink-2:#5b636a; --ink-3:#8c9298;
+  --rule:#d2d5d0; --rule-2:#c2c6bf; --seal:#8a3324; --seal-2:#c56a4e; --seal-3:#e0a98c; --seal-soft:#8a332412; --ok:#3d6b4f;
+  --serif:"Songti SC","STSong","Source Han Serif SC","Noto Serif CJK SC",Georgia,serif;
+  --sans:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,-apple-system,sans-serif;
+  --mono:ui-monospace,"SF Mono",Menlo,Consolas,monospace;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:14px/1.7 var(--sans);-webkit-font-smoothing:antialiased}
+.page{max-width:1600px;margin:0 auto;padding:24px 32px 90px}
+h1,h2,h3{margin:0;font-weight:400}
+
+.hd{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;border-bottom:2px solid var(--ink);padding-bottom:12px}
+.hd h1{font:400 28px/1.1 var(--serif);letter-spacing:.06em}
+.hd .sub{font-size:13px;color:var(--ink-2)}
+.hd .right{margin-left:auto;display:flex;align-items:center;gap:10px}
+.gatepill{display:inline-flex;align-items:center;gap:6px;font:500 12px/1 var(--sans);border-radius:99px;padding:6px 12px}
+.gatepill.pass{color:var(--ok);border:1px solid var(--ok)}
+.gatepill.fail{color:var(--seal);border:1px solid var(--seal);background:var(--seal-soft)}
+.expo{font:500 11px/1 var(--sans);color:var(--ink-2);background:var(--panel);
+  border:1px solid var(--rule-2);border-radius:2px;padding:7px 11px;cursor:pointer;transition:.15s}
+.expo:hover{border-color:var(--seal);color:var(--seal)}
+.expo:focus-visible{outline:2px solid var(--seal);outline-offset:2px}
+
+.kpis{display:grid;grid-template-columns:repeat(6,1fr);gap:12px;margin:18px 0 6px}
+@media(max-width:980px){.kpis{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:560px){.kpis{grid-template-columns:repeat(2,1fr)}}
+.kpi{background:var(--panel);border:1px solid var(--rule);border-radius:2px;padding:11px 14px 9px}
+.kpi .l{font:500 10px/1 var(--sans);letter-spacing:.18em;color:var(--ink-3)}
+.kpi .v{font:400 28px/1.15 var(--serif);margin-top:5px}
+.kpi .v small{font:400 14px var(--serif);color:var(--ink-2)}
+.kpi .v.mode{font-size:21px;padding-top:5px}
+.kpi .d{font-size:11px;color:var(--ink-2);margin-top:1px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.kpi.accent{border-top:2px solid var(--seal)}
+
+.galert{margin:14px 0 0;border:1px solid var(--seal);background:var(--seal-soft);border-radius:2px;
+  padding:10px 14px;font-size:13px}
+.galert b{color:var(--seal)}
+.galert span{display:block;font-size:12px;color:var(--ink-2)}
+
+section{margin-top:34px}
+.sec-h{display:flex;align-items:baseline;gap:12px;border-bottom:1px solid var(--rule-2);padding-bottom:8px;margin-bottom:16px}
+.sec-h .no{font:500 12px/1 var(--mono);color:var(--seal)}
+.sec-h h2{font:400 20px/1.2 var(--serif);letter-spacing:.05em}
+.sec-h .note{margin-left:auto;font-size:12px;color:var(--ink-3)}
+
+/* beat-rhythm chart/table tabs */
+.tabs{display:flex;width:max-content;margin-bottom:12px;border:1px solid var(--rule-2);
+  border-radius:2px;overflow:hidden}
+.tab{font:500 12px/1 var(--sans);letter-spacing:.06em;padding:7px 16px;background:var(--panel);
+  border:0;cursor:pointer;color:var(--ink-2);transition:.15s}
+.tab + .tab{border-left:1px solid var(--rule-2)}
+.tab.on{background:var(--seal);color:#fff}
+.tab:focus-visible{outline:2px solid var(--seal);outline-offset:-2px}
+.tabpane{display:none}
+.tabpane.on{display:block}
+
+/* episode overview: first three cards, fade-out + expand */
+.epswrap{position:relative}
+.eps{position:relative}
+.epswrap.clip .eps .ep:nth-child(n+4){display:none}
+.epswrap.clip .eps::after{content:'';position:absolute;left:0;right:0;bottom:0;height:90px;
+  background:linear-gradient(180deg,transparent,var(--paper));pointer-events:none}
+.epsmore{display:block;margin:10px auto 0;font:500 12px/1 var(--sans);letter-spacing:.06em;
+  color:var(--ink-2);background:var(--panel);border:1px solid var(--rule-2);border-radius:2px;
+  padding:8px 18px;cursor:pointer;transition:.15s}
+.epsmore:hover{border-color:var(--seal);color:var(--seal)}
+.epsmore:focus-visible{outline:2px solid var(--seal);outline-offset:2px}
+
+/* key decisions: the three sign-off items */
+.dec3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:24px;align-items:start}
+@media(max-width:1080px){.dec3{grid-template-columns:1fr}}
+.dcol{background:var(--panel);border:1px solid var(--rule);border-radius:2px;padding:4px 18px 14px}
+.dhead{margin:8px 0 0;font-size:12.5px;color:var(--ink-2)}
+.dlist{list-style:none;margin:8px 0 0;padding:0}
+.dlist li{padding:7px 0;border-top:1px solid var(--rule)}
+.dlist li:first-child{border-top:0}
+.dlist b{display:block;font:400 13.5px/1.6 var(--serif)}
+.dlist small{display:block;font-size:11.5px;color:var(--ink-2);line-height:1.6}
+.dnote{margin:10px 0 0;font-size:12px;color:var(--ink-2);line-height:1.7}
+.dnote.seal{color:var(--seal);background:var(--seal-soft);padding:7px 10px;border-radius:2px}
+.dmaj{list-style:none;margin:8px 0 0;padding:0}
+.dmaj li{display:flex;gap:9px;align-items:baseline;padding:5.5px 0;border-top:1px solid var(--rule);font-size:12.5px}
+.dmaj li:first-child{border-top:0}
+.dmaj i{flex:none;font:500 11px/1 var(--mono);color:var(--seal);font-style:normal;min-width:38px}
+.dmaj b{font:400 12.5px var(--serif)}
+.dmaj span{min-width:0}
+.dmaj em{flex:none;margin-left:auto;font:500 10px/1 var(--sans);letter-spacing:.1em;font-style:normal;
+  color:var(--seal);border:1px solid var(--seal);border-radius:99px;padding:2px 7px}
+
+/* beat-rhythm timeline */
+.chart{background:var(--panel);border:1px solid var(--rule);border-radius:2px;padding:16px 20px 10px}
+.chart .legend{display:flex;gap:18px;font-size:12px;color:var(--ink-2);margin-bottom:2px}
+.chart .legend i{font-style:normal;display:inline-flex;align-items:center;gap:6px}
+.dotk{display:inline-block;width:9px;height:9px;border-radius:50%;background:var(--seal-2)}
+.dotk.major{width:12px;height:12px;background:var(--seal)}
+.rhythm svg{display:block;width:100%;height:auto}
+.rhythm .axis{stroke:var(--rule-2);stroke-width:1.5}
+.rhythm .tick{font:400 10.5px var(--mono);fill:var(--ink-3);paint-order:stroke;stroke:var(--panel);stroke-width:3px}
+.rhythm .stem{stroke:var(--seal-2);stroke-width:1.5}
+.rhythm .stem.major{stroke:var(--seal)}
+.rhythm .bdot{fill:var(--seal-2);stroke:var(--panel);stroke-width:2}
+.rhythm .bdot.major{fill:var(--seal)}
+.rhythm .blabel{font:500 12px var(--sans);fill:var(--ink)}
+.rhythm .bsub{font:400 10.5px var(--sans);fill:var(--ink-2)}
+.rhythm .gapnote{font:400 10.5px var(--sans);fill:var(--ink-3)}
+.rhythm .gapnote.bad{fill:var(--seal);font-weight:500}
+
+/* beat detail table + generic tables */
+table{width:100%;border-collapse:collapse;background:var(--panel);border:1px solid var(--rule);font-size:13px}
+th,td{padding:8px 12px;border-bottom:1px solid var(--rule);text-align:left;vertical-align:top}
+th{font:500 11px/1 var(--sans);letter-spacing:.1em;color:var(--ink-3);background:var(--side)}
+tr:last-child td{border-bottom:0}
+td:first-child{font-family:var(--mono);font-size:12px;color:var(--ink-2);white-space:nowrap}
+q{quotes:"「" "」";font-family:var(--serif);border-left:2px solid var(--seal);padding-left:8px;display:inline-block}
+
+/* episode cards */
+.eps{display:grid;grid-template-columns:repeat(auto-fill,minmax(430px,1fr));gap:13px}
+.ep{background:var(--panel);border:1px solid var(--rule);border-radius:2px;padding:14px 16px 12px;position:relative}
+.ep .num{position:absolute;top:10px;right:14px;font:400 30px/1 var(--serif);color:var(--rule-2)}
+.ep header{display:flex;align-items:center;gap:8px;margin-bottom:8px;padding-right:44px;flex-wrap:wrap}
+.ep header b{font:500 15px var(--serif);letter-spacing:.04em}
+.bt{font-style:normal;font-size:11px;padding:2px 8px;border:1px solid var(--seal);border-radius:99px;color:var(--seal)}
+.bt.major{background:var(--seal);color:#fff}
+.ep .syn{margin:0 0 8px;font-size:13px;line-height:1.75}
+.hk{display:grid;grid-template-columns:max-content minmax(0,1fr);gap:8px;font-size:12.5px;padding:6px 0;border-top:1px solid var(--rule)}
+.hk b{font:500 11px/1.8 var(--sans);letter-spacing:.14em;color:var(--seal);white-space:nowrap}
+:root[lang="en"] .hk b,html[lang="en"] .hk b{letter-spacing:.06em}
+.ep .meta{display:flex;flex-wrap:wrap;gap:4px;margin-top:8px}
+.ep .meta i{font-style:normal;font:400 10.5px/1.5 var(--mono);border:1px solid var(--rule-2);
+  border-radius:2px;padding:0 5px;background:var(--paper);color:var(--ink-2)}
+.ep .meta .warn{border-color:var(--seal);color:var(--seal);background:var(--seal-soft)}
+
+/* dispatch matrix */
+.matrix{background:var(--panel);border:1px solid var(--rule);border-radius:2px;padding:16px 18px;overflow-x:auto}
+.matrix table{border-collapse:separate;border-spacing:3px;font-size:12px;background:none;border:0;width:auto}
+.matrix th,.matrix td{border:0;padding:0}
+.matrix th{font:500 10px/1 var(--sans);letter-spacing:.1em;color:var(--ink-3);background:none;
+  text-align:left;padding:0 8px 5px 0;white-space:nowrap}
+.matrix th.ep-h{text-align:center;padding:0 0 5px;font-family:var(--mono)}
+.matrix td.name{padding-right:10px;white-space:nowrap;font-family:var(--serif);font-size:13px}
+.matrix td.tier{padding-right:10px;color:var(--ink-3);font-size:11px;white-space:nowrap}
+.matrix td.mc{width:var(--cw,26px);min-width:var(--cw,26px);height:22px;border-radius:2px;
+  background:var(--paper);border:1px solid var(--rule)}
+.matrix td.mc.on{background:var(--seal);border-color:var(--seal)}
+.matrix td.mc.on.sc{background:var(--seal-2);border-color:var(--seal-2)}
+.matrix td.mc.on.pp{background:var(--seal-3);border-color:var(--seal-3)}
+.matrix td.n{padding-left:10px;font-family:var(--mono);font-size:11px;color:var(--ink-2);white-space:nowrap}
+.matrix tr.div td{padding:8px 0 3px;font:500 10px/1 var(--sans);letter-spacing:.18em;color:var(--ink-3)}
+.matrix .mnote{font-size:11px;color:var(--ink-3);margin:10px 0 0}
+
+/* scene overview cards: full-width multi-column grid */
+.scenes{display:grid;grid-template-columns:repeat(auto-fill,minmax(380px,1fr));gap:13px;align-items:start}
+.scard{position:relative;background:var(--panel);border:1px solid var(--rule);border-radius:2px;padding:14px 16px}
+.snum{position:absolute;top:10px;right:16px;font:400 26px/1 var(--serif);color:var(--rule-2);letter-spacing:.04em}
+.scard h3{font:400 16px/1.3 var(--serif);letter-spacing:.03em;display:flex;align-items:center;gap:8px;
+  padding-right:90px;flex-wrap:wrap}
+.scard h3 .id{font:400 10.5px var(--mono);color:var(--ink-3)}
+.badge{font:500 10.5px/1 var(--sans);padding:2px 8px;border-radius:99px;border:1px solid var(--seal);color:var(--seal)}
+.badge.once{border-color:var(--seal-2);color:var(--seal-2)}
+.strip{display:flex;flex-wrap:wrap;gap:3px;margin:7px 0 6px}
+.strip i{width:16px;height:10px;border-radius:2px;background:var(--paper);border:1px solid var(--rule)}
+.strip i.on{background:var(--seal);border-color:var(--seal)}
+.strip i.on.lt{background:var(--seal-2);border-color:var(--seal-2)}
+.srow{font-size:11.5px;color:var(--ink-2);display:flex;gap:6px;flex-wrap:wrap;align-items:baseline;margin-top:3px}
+.srow b{font:500 10px/1.8 var(--sans);letter-spacing:.12em;color:var(--ink-3);flex:none}
+.srow i{font-style:normal;font:400 10.5px/1.5 var(--mono);border:1px solid var(--rule-2);
+  border-radius:2px;padding:0 5px;background:var(--paper)}
+.srow .reuse{color:var(--seal)}
+
+/* asset conversion */
+.plan{background:var(--panel);border:1px solid var(--rule);border-radius:2px;padding:16px 18px}
+.plan table{background:none;border:0}
+.plan th{background:none;padding-left:0}
+.plan td{padding-left:0;border-top:1px solid var(--rule);border-bottom:0}
+.plan tr:first-child td{border-top:0}
+.plan td:first-child{font-family:var(--serif);font-size:13px;color:var(--ink)}
+
+/* adaptation notes */
+.core{font:400 17px/1.9 var(--serif);margin:0 0 6px}
+h3.sub{font:500 12px/1 var(--sans);letter-spacing:.18em;color:var(--seal);margin:20px 0 8px}
+
+/* quality gates */
+.gate{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:2px 28px}
+@media(max-width:900px){.gate{grid-template-columns:1fr}}
+.gate li{display:flex;gap:8px;padding:5px 0;font-size:12.5px;line-height:1.55}
+.gate .m{flex:none;font-weight:700}
+.gate .ok .m,.gate li.ok .m{color:var(--ok)}
+.gate li.bad .m{color:var(--seal)}
+.gate li.bad{background:var(--seal-soft);border-radius:2px;padding-left:6px}
+.gate small{display:block;color:var(--ink-3)}
+.gsum{margin:10px 0 0;font-size:12px;color:var(--ink-2)}
+.gsum b{color:var(--seal)}
+
+.foot{margin-top:40px;font-size:11px;color:var(--ink-3);border-top:1px solid var(--rule);padding-top:14px}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+/* print: expand everything — both tab panes, all episode cards */
+@media print{
+  .expo,.tabs,.epsmore{display:none!important}
+  .tabpane{display:block!important;margin-bottom:14px}
+  .epswrap.clip .eps .ep{display:block!important}
+  .epswrap.clip .eps::after{display:none}
+  .page{max-width:none;padding:0}
+  section,.ep,.scard{page-break-inside:avoid}
+  body{background:#fff}
+}
+</style></head><body>
+<div class="page">
+
+<header class="hd">
+  <h1>三国演义</h1>
+  <span class="sub">短剧改编大纲 · 50 集 × 3 分钟 · 历史权谋·兄弟情义 · 抽核改编</span>
+  <span class="right">
+    <span class="gatepill pass">✓ 质量门 14 / 14</span>
+    <button class="expo" data-name="三国演义-outline.json">导出 JSON</button>
+  </span>
+</header>
+
+<div class="kpis">
+  <div class="kpi accent"><div class="l">总集数</div><div class="v">50 <small>× 3 分钟</small></div><div class="d">正片约 150 分钟</div></div>
+  <div class="kpi"><div class="l">爽点</div><div class="v">50</div><div class="d">14 大爆点 · 最大间隔 1 集</div></div>
+  <div class="kpi"><div class="l">角色</div><div class="v">25</div><div class="d">主角 5 · 配角 10 · 功能 10</div></div>
+  <div class="kpi"><div class="l">主场景</div><div class="v">9</div><div class="d">无一次性场景</div></div>
+  <div class="kpi"><div class="l">生成难点</div><div class="v">78</div><div class="d">人群 ×31（第 1、7、10、11、13、14…</div></div>
+  <div class="kpi"><div class="l">改编幅度</div><div class="v mode">抽核</div><div class="d">砍 5 线 · 合 2 组</div></div>
+</div>
+
+
+<section id="sec-rhythm">
+  <div class="sec-h"><span class="no">01</span><h2>爽点节奏</h2></div>
+  <div class="tabs" role="tablist">
+    <button class="tab on" data-pane="pane-timeline">时间轴</button>
+    <button class="tab" data-pane="pane-table">明细表</button>
+  </div>
+  <div class="tabpane on" id="pane-timeline"><div class="chart rhythm">
+  <div class="legend">
+    <i><span class="dotk major"></span>大爆点</i>
+    <i><span class="dotk"></span>常规爽点</i>
+  </div>
+  <svg viewBox="0 0 1520 528" role="img" aria-label="爽点节奏">
+    <line class="axis" x1="30" y1="92" x2="1490" y2="92"/>
+    <line class="axis" x1="66.5" y1="88" x2="66.5" y2="96"/>
+    <line class="axis" x1="139.5" y1="88" x2="139.5" y2="96"/>
+    <line class="axis" x1="212.5" y1="88" x2="212.5" y2="96"/>
+    <line class="axis" x1="285.5" y1="88" x2="285.5" y2="96"/>
+    <line class="axis" x1="358.5" y1="88" x2="358.5" y2="96"/>
+    <line class="axis" x1="431.5" y1="88" x2="431.5" y2="96"/>
+    <line class="axis" x1="504.5" y1="88" x2="504.5" y2="96"/>
+    <line class="axis" x1="577.5" y1="88" x2="577.5" y2="96"/>
+    <line class="axis" x1="650.5" y1="88" x2="650.5" y2="96"/>
+    <line class="axis" x1="723.5" y1="88" x2="723.5" y2="96"/>
+    <line class="axis" x1="796.5" y1="88" x2="796.5" y2="96"/>
+    <line class="axis" x1="869.5" y1="88" x2="869.5" y2="96"/>
+    <line class="axis" x1="942.5" y1="88" x2="942.5" y2="96"/>
+    <line class="axis" x1="1015.5" y1="88" x2="1015.5" y2="96"/>
+    <line class="axis" x1="1088.5" y1="88" x2="1088.5" y2="96"/>
+    <line class="axis" x1="1161.5" y1="88" x2="1161.5" y2="96"/>
+    <line class="axis" x1="1234.5" y1="88" x2="1234.5" y2="96"/>
+    <line class="axis" x1="1307.5" y1="88" x2="1307.5" y2="96"/>
+    <line class="axis" x1="1380.5" y1="88" x2="1380.5" y2="96"/>
+    <line class="axis" x1="1453.5" y1="88" x2="1453.5" y2="96"/>
+    <line class="axis" x1="30" y1="268" x2="1490" y2="268"/>
+    <line class="axis" x1="66.5" y1="264" x2="66.5" y2="272"/>
+    <line class="axis" x1="139.5" y1="264" x2="139.5" y2="272"/>
+    <line class="axis" x1="212.5" y1="264" x2="212.5" y2="272"/>
+    <line class="axis" x1="285.5" y1="264" x2="285.5" y2="272"/>
+    <line class="axis" x1="358.5" y1="264" x2="358.5" y2="272"/>
+    <line class="axis" x1="431.5" y1="264" x2="431.5" y2="272"/>
+    <line class="axis" x1="504.5" y1="264" x2="504.5" y2="272"/>
+    <line class="axis" x1="577.5" y1="264" x2="577.5" y2="272"/>
+    <line class="axis" x1="650.5" y1="264" x2="650.5" y2="272"/>
+    <line class="axis" x1="723.5" y1="264" x2="723.5" y2="272"/>
+    <line class="axis" x1="796.5" y1="264" x2="796.5" y2="272"/>
+    <line class="axis" x1="869.5" y1="264" x2="869.5" y2="272"/>
+    <line class="axis" x1="942.5" y1="264" x2="942.5" y2="272"/>
+    <line class="axis" x1="1015.5" y1="264" x2="1015.5" y2="272"/>
+    <line class="axis" x1="1088.5" y1="264" x2="1088.5" y2="272"/>
+    <line class="axis" x1="1161.5" y1="264" x2="1161.5" y2="272"/>
+    <line class="axis" x1="1234.5" y1="264" x2="1234.5" y2="272"/>
+    <line class="axis" x1="1307.5" y1="264" x2="1307.5" y2="272"/>
+    <line class="axis" x1="1380.5" y1="264" x2="1380.5" y2="272"/>
+    <line class="axis" x1="1453.5" y1="264" x2="1453.5" y2="272"/>
+    <line class="axis" x1="30" y1="444" x2="760" y2="444"/>
+    <line class="axis" x1="66.5" y1="440" x2="66.5" y2="448"/>
+    <line class="axis" x1="139.5" y1="440" x2="139.5" y2="448"/>
+    <line class="axis" x1="212.5" y1="440" x2="212.5" y2="448"/>
+    <line class="axis" x1="285.5" y1="440" x2="285.5" y2="448"/>
+    <line class="axis" x1="358.5" y1="440" x2="358.5" y2="448"/>
+    <line class="axis" x1="431.5" y1="440" x2="431.5" y2="448"/>
+    <line class="axis" x1="504.5" y1="440" x2="504.5" y2="448"/>
+    <line class="axis" x1="577.5" y1="440" x2="577.5" y2="448"/>
+    <line class="axis" x1="650.5" y1="440" x2="650.5" y2="448"/>
+    <line class="axis" x1="723.5" y1="440" x2="723.5" y2="448"/>
+    <line class="stem major" x1="66.5" y1="92" x2="66.5" y2="57"/>
+    <circle class="bdot major" cx="66.5" cy="48" r="9"><title>B01 结拜盟誓｜黄巾四起，刘备关羽张飞相识于涿郡 → 桃园之中焚香结义，誓同生死，结拜之情成立</title></circle>
+    <text class="blabel" x="66.5" y="26" text-anchor="middle">结拜盟誓</text>
+    <text class="bsub" x="66.5" y="12" text-anchor="middle">黄巾四起，刘备关羽张飞相识于…</text>
+    <line class="stem" x1="139.5" y1="92" x2="139.5" y2="122"/>
+    <circle class="bdot" cx="139.5" cy="128" r="6"><title>B02 正义曲｜督邮索贿欺压，张飞在旁怒火中烧 → 张飞将督邮绑于柳枝怒鞭，替兄出气，莽勇初显</title></circle>
+    <text class="blabel" x="139.5" y="150" text-anchor="middle">正义曲</text>
+    <text class="bsub" x="139.5" y="164" text-anchor="middle">督邮索贿欺压，张飞在旁怒火中…</text>
+    <line class="stem" x1="212.5" y1="92" x2="212.5" y2="62"/>
+    <circle class="bdot" cx="212.5" cy="56" r="6"><title>B03 惊险行刺｜董卓乱政，曹操借献刀之机入相府 → 曹操掏出七星宝刀刺董未遂，诈献刀而逃，壮士本色</title></circle>
+    <text class="blabel" x="212.5" y="34" text-anchor="middle">惊险行刺</text>
+    <text class="bsub" x="212.5" y="20" text-anchor="middle">董卓乱政，曹操借献刀之机入相…</text>
+    <line class="stem" x1="285.5" y1="92" x2="285.5" y2="122"/>
+    <circle class="bdot" cx="285.5" cy="128" r="6"><title>B04 伏笔夺玺｜诸侯联军入洛阳，孙坚清理宫殿 → 孙坚于井中得传国玉玺，袁绍索而不得，裂痕埋下</title></circle>
+    <text class="blabel" x="285.5" y="150" text-anchor="middle">伏笔夺玺</text>
+    <text class="bsub" x="285.5" y="164" text-anchor="middle">诸侯联军入洛阳，孙坚清理宫殿</text>
+    <line class="stem major" x1="358.5" y1="92" x2="358.5" y2="57"/>
+    <circle class="bdot major" cx="358.5" cy="48" r="9"><title>B05 温酒斩将｜华雄连斩联军数将，诸侯皆惧 → 关羽温酒之间斩华雄于帐前，一举成名</title></circle>
+    <text class="blabel" x="358.5" y="26" text-anchor="middle">温酒斩将</text>
+    <text class="bsub" x="358.5" y="12" text-anchor="middle">华雄连斩联军数将，诸侯皆惧</text>
+    <line class="stem major" x1="431.5" y1="92" x2="431.5" y2="127"/>
+    <circle class="bdot major" cx="431.5" cy="136" r="9"><title>B06 三英联手｜吕布于虎牢关前连败联军众将 → 刘关张三英围战吕布，退其锐气，三兄弟威名大振</title></circle>
+    <text class="blabel" x="431.5" y="158" text-anchor="middle">三英联手</text>
+    <text class="bsub" x="431.5" y="172" text-anchor="middle">吕布于虎牢关前连败联军众将</text>
+    <line class="stem" x1="504.5" y1="92" x2="504.5" y2="62"/>
+    <circle class="bdot" cx="504.5" cy="56" r="6"><title>B07 暴行警示｜董卓挟帝迁都长安 → 董卓纵火焚掠洛阳，暴行尽显，乱世更乱</title></circle>
+    <text class="blabel" x="504.5" y="34" text-anchor="middle">暴行警示</text>
+    <text class="bsub" x="504.5" y="20" text-anchor="middle">董卓挟帝迁都长安</text>
+    <line class="stem" x1="577.5" y1="92" x2="577.5" y2="122"/>
+    <circle class="bdot" cx="577.5" cy="128" r="6"><title>B08 离间计｜王允定连环计，献貂蝉于董卓又许吕布 → 貂蝉于凤仪亭离间董吕，父子反目之帐埋下</title></circle>
+    <text class="blabel" x="577.5" y="150" text-anchor="middle">离间计</text>
+    <text class="bsub" x="577.5" y="164" text-anchor="middle">王允定连环计，献貂蝉于董卓又…</text>
+    <line class="stem major" x1="650.5" y1="92" x2="650.5" y2="57"/>
+    <circle class="bdot major" cx="650.5" cy="48" r="9"><title>B09 锄奸高潮｜董卓独占貂蝉，与吕布决裂 → 吕布于殿前刺死董卓，锄奸功成，长安震动</title></circle>
+    <text class="blabel" x="650.5" y="26" text-anchor="middle">锄奸高潮</text>
+    <text class="bsub" x="650.5" y="12" text-anchor="middle">董卓独占貂蝉，与吕布决裂</text>
+    <line class="stem" x1="723.5" y1="92" x2="723.5" y2="122"/>
+    <circle class="bdot" cx="723.5" cy="128" r="6"><title>B10 群雄割据｜董卓既死，李傕郭汜反攻长安 → 王允身死，汉室播迁，天下彻底进入群雄逐鹿</title></circle>
+    <text class="blabel" x="723.5" y="150" text-anchor="middle">群雄割据</text>
+    <text class="bsub" x="723.5" y="164" text-anchor="middle">董卓既死，李傕郭汜反攻长安</text>
+    <line class="stem" x1="796.5" y1="92" x2="796.5" y2="62"/>
+    <circle class="bdot" cx="796.5" cy="56" r="6"><title>B11 挟天子｜曹操迎汉献帝至许都 → 曹操挟天子而令诸侯，权柄大张，宦官枭影成形</title></circle>
+    <text class="blabel" x="796.5" y="34" text-anchor="middle">挟天子</text>
+    <text class="bsub" x="796.5" y="20" text-anchor="middle">曹操迎汉献帝至许都</text>
+    <line class="stem" x1="869.5" y1="92" x2="869.5" y2="122"/>
+    <circle class="bdot" cx="869.5" cy="128" r="6"><title>B12 仁政让贤｜陶谦病重，欲让徐州于刘备 → 刘备三让而受徐州，仁德之名远播</title></circle>
+    <text class="blabel" x="869.5" y="150" text-anchor="middle">仁政让贤</text>
+    <text class="bsub" x="869.5" y="164" text-anchor="middle">陶谦病重，欲让徐州于刘备</text>
+    <line class="stem" x1="942.5" y1="92" x2="942.5" y2="62"/>
+    <circle class="bdot" cx="942.5" cy="56" r="6"><title>B13 背盟夺城｜吕布趁张飞酒醉夜袭徐州 → 吕布袭取徐州，刘备失城，兄弟再次流亡</title></circle>
+    <text class="blabel" x="942.5" y="34" text-anchor="middle">背盟夺城</text>
+    <text class="bsub" x="942.5" y="20" text-anchor="middle">吕布趁张飞酒醉夜袭徐州</text>
+    <line class="stem" x1="1015.5" y1="92" x2="1015.5" y2="122"/>
+    <circle class="bdot" cx="1015.5" cy="128" r="6"><title>B14 一箭射戟｜袁术遣将攻刘备，吕布居中调停 → 吕布辕门射戟竞夺胜负，一箭解两家兵争，勇武尽显</title></circle>
+    <text class="blabel" x="1015.5" y="150" text-anchor="middle">一箭射戟</text>
+    <text class="bsub" x="1015.5" y="164" text-anchor="middle">袁术遣将攻刘备，吕布居中调停</text>
+    <line class="stem" x1="1088.5" y1="92" x2="1088.5" y2="62"/>
+    <circle class="bdot" cx="1088.5" cy="56" r="6"><title>B15 刚烈独白｜曹营战事，夏侯惇中箭 → 夏侯惇拔矢啖睛，刚烈过人，曹军士气大振</title></circle>
+    <text class="blabel" x="1088.5" y="34" text-anchor="middle">刚烈独白</text>
+    <text class="bsub" x="1088.5" y="20" text-anchor="middle">曹营战事，夏侯惇中箭</text>
+    <line class="stem" x1="1161.5" y1="92" x2="1161.5" y2="122"/>
+    <circle class="bdot" cx="1161.5" cy="128" r="6"><title>B16 低谷投曹｜曹操攻徐州，刘备兵败 → 刘关张三兄弟失散，刘备只身投奔曹操，跌入低谷</title></circle>
+    <text class="blabel" x="1161.5" y="150" text-anchor="middle">低谷投曹</text>
+    <text class="bsub" x="1161.5" y="164" text-anchor="middle">曹操攻徐州，刘备兵败</text>
+    <line class="stem major" x1="1234.5" y1="92" x2="1234.5" y2="57"/>
+    <circle class="bdot major" cx="1234.5" cy="48" r="9"><title>B17 论英雄｜曹操与刘备青梅煮酒，酒酣论天下人物 → 曹赞『天下英雄惟使君与操耳』，刘备惊赭，羁绊与震慑并生</title></circle>
+    <text class="blabel" x="1234.5" y="26" text-anchor="middle">论英雄</text>
+    <text class="bsub" x="1234.5" y="12" text-anchor="middle">曹操与刘备青梅煮酒，酒酣论天…</text>
+    <line class="stem" x1="1307.5" y1="92" x2="1307.5" y2="122"/>
+    <circle class="bdot" cx="1307.5" cy="128" r="6"><title>B18 衣带诏｜汉献帝血诏，董承等人密谋反曹 → 衣带诏盟约成立，刘备亦预其间，反曹暗影笼罩许都</title></circle>
+    <text class="blabel" x="1307.5" y="150" text-anchor="middle">衣带诏</text>
+    <text class="bsub" x="1307.5" y="164" text-anchor="middle">汉献帝血诏，董承等人密谋反曹</text>
+    <line class="stem" x1="1380.5" y1="92" x2="1380.5" y2="62"/>
+    <circle class="bdot" cx="1380.5" cy="56" r="6"><title>B19 单刀赴会｜曹操拨兵，关羽随曹征讨袁术部 → 关羽于曹营奋勇杀敌，仍着汉衣冠，忠心不被富贵动</title></circle>
+    <text class="blabel" x="1380.5" y="34" text-anchor="middle">单刀赴会</text>
+    <text class="bsub" x="1380.5" y="20" text-anchor="middle">曹操拨兵，关羽随曹征讨袁术部</text>
+    <line class="stem" x1="1453.5" y1="92" x2="1453.5" y2="122"/>
+    <circle class="bdot" cx="1453.5" cy="128" r="6"><title>B20 斩颜良｜袁绍遣颜良攻白马，曹军暂挫 → 关羽于万军之中刺死颜良，解白马之围</title></circle>
+    <text class="blabel" x="1453.5" y="150" text-anchor="middle">斩颜良</text>
+    <text class="bsub" x="1453.5" y="164" text-anchor="middle">袁绍遣颜良攻白马，曹军暂挫</text>
+    <line class="stem" x1="66.5" y1="268" x2="66.5" y2="238"/>
+    <circle class="bdot" cx="66.5" cy="232" r="6"><title>B21 诛文丑｜袁绍遣文丑为孚，曹军诱敌 → 关羽于延津阵斩文丑，河北劲旅为之丧胆</title></circle>
+    <text class="blabel" x="66.5" y="210" text-anchor="middle">诛文丑</text>
+    <text class="bsub" x="66.5" y="196" text-anchor="middle">袁绍遣文丑为孚，曹军诱敌</text>
+    <line class="stem" x1="139.5" y1="268" x2="139.5" y2="298"/>
+    <circle class="bdot" cx="139.5" cy="304" r="6"><title>B22 灞桥挑袍｜关羽闻兄在河北，辞曹欲归 → 灞桥挑袍，千里寻兄，忠义之情无可羁缚</title></circle>
+    <text class="blabel" x="139.5" y="326" text-anchor="middle">灞桥挑袍</text>
+    <text class="bsub" x="139.5" y="340" text-anchor="middle">关羽闻兄在河北，辞曹欲归</text>
+    <line class="stem major" x1="212.5" y1="268" x2="212.5" y2="233"/>
+    <circle class="bdot major" cx="212.5" cy="224" r="9"><title>B23 过五关斩六将｜关羽护二嫂千里西行，连闯曹军要塞 → 过五关斩六将，面不改色，忠义之名天下皆闻</title></circle>
+    <text class="blabel" x="212.5" y="202" text-anchor="middle">过五关斩六将</text>
+    <text class="bsub" x="212.5" y="188" text-anchor="middle">关羽护二嫂千里西行，连闯曹军…</text>
+    <line class="stem major" x1="285.5" y1="268" x2="285.5" y2="303"/>
+    <circle class="bdot major" cx="285.5" cy="312" r="9"><title>B24 古城重逢｜关羽至古城，斩蔡阳以明心志 → 刘关张三兄弟古城重逢，义释前嫌，结拜之情团圆</title></circle>
+    <text class="blabel" x="285.5" y="334" text-anchor="middle">古城重逢</text>
+    <text class="bsub" x="285.5" y="348" text-anchor="middle">关羽至古城，斩蔡阳以明心志</text>
+    <line class="stem" x1="358.5" y1="268" x2="358.5" y2="238"/>
+    <circle class="bdot" cx="358.5" cy="232" r="6"><title>B25 再入乱局｜刘备离曹赴袁，袁曹对峙渐起 → 关羽回归后，刘备离曹，袁绍曹操兵锋相向</title></circle>
+    <text class="blabel" x="358.5" y="210" text-anchor="middle">再入乱局</text>
+    <text class="bsub" x="358.5" y="196" text-anchor="middle">刘备离曹赴袁，袁曹对峙渐起</text>
+    <line class="stem" x1="431.5" y1="268" x2="431.5" y2="298"/>
+    <circle class="bdot" cx="431.5" cy="304" r="6"><title>B26 官渡对峙｜袁绍举大军南下，曹操兵少应战 → 两军于官渡相持，粮秣战成胜负关键</title></circle>
+    <text class="blabel" x="431.5" y="326" text-anchor="middle">官渡对峙</text>
+    <text class="bsub" x="431.5" y="340" text-anchor="middle">袁绍举大军南下，曹操兵少应战</text>
+    <line class="stem" x1="504.5" y1="268" x2="504.5" y2="238"/>
+    <circle class="bdot" cx="504.5" cy="232" r="6"><title>B27 谋士离心｜许攸献计不被袁绍采纳，愤而背袁 → 许攸连夜投曹，献出袁营屯粮之地乌巢</title></circle>
+    <text class="blabel" x="504.5" y="210" text-anchor="middle">谋士离心</text>
+    <text class="bsub" x="504.5" y="196" text-anchor="middle">许攸献计不被袁绍采纳，愤而背…</text>
+    <line class="stem major" x1="577.5" y1="268" x2="577.5" y2="303"/>
+    <circle class="bdot major" cx="577.5" cy="312" r="9"><title>B28 乌巢烧粮｜曹操得许攸情报，决计奇袭乌巢 → 一夜大火烧尽袁绍粮秣，官渡大捷，北方随之一统</title></circle>
+    <text class="blabel" x="577.5" y="334" text-anchor="middle">乌巢烧粮</text>
+    <text class="bsub" x="577.5" y="348" text-anchor="middle">曹操得许攸情报，决计奇袭乌巢</text>
+    <line class="stem" x1="650.5" y1="268" x2="650.5" y2="238"/>
+    <circle class="bdot" cx="650.5" cy="232" r="6"><title>B29 江东余波｜孙坚之子孙策据江东，缺兵粮 → 孙策借玺质袁术而得兵，虽枭雄江东，仍映衬玉玺之诱</title></circle>
+    <text class="blabel" x="650.5" y="210" text-anchor="middle">江东余波</text>
+    <text class="bsub" x="650.5" y="196" text-anchor="middle">孙坚之子孙策据江东，缺兵粮</text>
+    <line class="stem" x1="723.5" y1="268" x2="723.5" y2="298"/>
+    <circle class="bdot" cx="723.5" cy="304" r="6"><title>B30 北定｜袁绍忧愤成疾，其子内争 → 袁绍败亡，曹操尽收河北，北方大体一统</title></circle>
+    <text class="blabel" x="723.5" y="326" text-anchor="middle">北定</text>
+    <text class="bsub" x="723.5" y="340" text-anchor="middle">袁绍忧愤成疾，其子内争</text>
+    <line class="stem" x1="796.5" y1="268" x2="796.5" y2="238"/>
+    <circle class="bdot" cx="796.5" cy="232" r="6"><title>B31 依荆｜刘备失荆州之附，投奔刘表 → 刘备依刘表于荆州，暂得喘息，然前景未卜</title></circle>
+    <text class="blabel" x="796.5" y="210" text-anchor="middle">依荆</text>
+    <text class="bsub" x="796.5" y="196" text-anchor="middle">刘备失荆州之附，投奔刘表</text>
+    <line class="stem" x1="869.5" y1="268" x2="869.5" y2="298"/>
+    <circle class="bdot" cx="869.5" cy="304" r="6"><title>B32 荆州暗流｜刘表病重，蔡氏与外戚擅权 → 荆州内部暗流涌动，刘备人心所向却无处安身</title></circle>
+    <text class="blabel" x="869.5" y="326" text-anchor="middle">荆州暗流</text>
+    <text class="bsub" x="869.5" y="340" text-anchor="middle">刘表病重，蔡氏与外戚擅权</text>
+    <line class="stem" x1="942.5" y1="268" x2="942.5" y2="238"/>
+    <circle class="bdot" cx="942.5" cy="232" r="6"><title>B33 迁新野｜曹操南征荆州在即，刘备转驻新野 → 刘备率军屯新野，立足豫南，暂避兵锋</title></circle>
+    <text class="blabel" x="942.5" y="210" text-anchor="middle">迁新野</text>
+    <text class="bsub" x="942.5" y="196" text-anchor="middle">曹操南征荆州在即，刘备转驻新…</text>
+    <line class="stem" x1="1015.5" y1="268" x2="1015.5" y2="298"/>
+    <circle class="bdot" cx="1015.5" cy="304" r="6"><title>B34 荐贤｜徐庶佐刘备于新野，被曹操用计赚走 → 徐庶走马荐诸葛，临别荐卧龙替己，刘备求贤心切</title></circle>
+    <text class="blabel" x="1015.5" y="326" text-anchor="middle">荐贤</text>
+    <text class="bsub" x="1015.5" y="340" text-anchor="middle">徐庶佐刘备于新野，被曹操用计…</text>
+    <line class="stem" x1="1088.5" y1="268" x2="1088.5" y2="238"/>
+    <circle class="bdot" cx="1088.5" cy="232" r="6"><title>B35 三顾茅庐｜刘备两次登门皆未遇诸葛亮 → 三顾之诚，初定卧龙，礼贤传为美谈</title></circle>
+    <text class="blabel" x="1088.5" y="210" text-anchor="middle">三顾茅庐</text>
+    <text class="bsub" x="1088.5" y="196" text-anchor="middle">刘备两次登门皆未遇诸葛亮</text>
+    <line class="stem" x1="1161.5" y1="268" x2="1161.5" y2="298"/>
+    <circle class="bdot" cx="1161.5" cy="304" r="6"><title>B36 隆中对策｜刘备第三次面见诸葛亮，问天下大计 → 隆中对画三分天下，卧龙出山之局初定</title></circle>
+    <text class="blabel" x="1161.5" y="326" text-anchor="middle">隆中对策</text>
+    <text class="bsub" x="1161.5" y="340" text-anchor="middle">刘备第三次面见诸葛亮，问天下…</text>
+    <line class="stem major" x1="1234.5" y1="268" x2="1234.5" y2="233"/>
+    <circle class="bdot major" cx="1234.5" cy="224" r="9"><title>B37 卧龙出山｜诸葛亮感刘备三顾之诚，允出山 → 孔明以军师之委出山，刘备集团自此有智无憾</title></circle>
+    <text class="blabel" x="1234.5" y="202" text-anchor="middle">卧龙出山</text>
+    <text class="bsub" x="1234.5" y="188" text-anchor="middle">诸葛亮感刘备三顾之诚，允出山</text>
+    <line class="stem major" x1="1307.5" y1="268" x2="1307.5" y2="303"/>
+    <circle class="bdot major" cx="1307.5" cy="312" r="9"><title>B38 两把火｜曹军犯新野，刘备问计于卫军 → 孔明初用兵，博望坡、新野两把火烧退曹军，军师立威</title></circle>
+    <text class="blabel" x="1307.5" y="334" text-anchor="middle">两把火</text>
+    <text class="bsub" x="1307.5" y="348" text-anchor="middle">曹军犯新野，刘备问计于卫军</text>
+    <line class="stem" x1="1380.5" y1="268" x2="1380.5" y2="238"/>
+    <circle class="bdot" cx="1380.5" cy="232" r="6"><title>B39 荆州易主｜刘表病逝，荆州归其子投降曹操 → 荆州拱手而降，刘备暂避江夏，形势急转</title></circle>
+    <text class="blabel" x="1380.5" y="210" text-anchor="middle">荆州易主</text>
+    <text class="bsub" x="1380.5" y="196" text-anchor="middle">刘表病逝，荆州归其子投降曹操</text>
+    <line class="stem" x1="1453.5" y1="268" x2="1453.5" y2="298"/>
+    <circle class="bdot" cx="1453.5" cy="304" r="6"><title>B40 携民渡江｜曹军南追，刘备欲弃民先行 → 刘备携十万百姓渡江，仁义尽显，被赞仁君</title></circle>
+    <text class="blabel" x="1453.5" y="326" text-anchor="middle">携民渡江</text>
+    <text class="bsub" x="1453.5" y="340" text-anchor="middle">曹军南追，刘备欲弃民先行</text>
+    <line class="stem major" x1="66.5" y1="444" x2="66.5" y2="409"/>
+    <circle class="bdot major" cx="66.5" cy="400" r="9"><title>B41 单骑救主｜曹军围困，甘夫人、阿斗失散 → 赵云单骑杀回乱军，枪挑曹营名将，救出阿斗</title></circle>
+    <text class="blabel" x="66.5" y="378" text-anchor="middle">单骑救主</text>
+    <text class="bsub" x="66.5" y="364" text-anchor="middle">曹军围困，甘夫人、阿斗失散</text>
+    <line class="stem major" x1="139.5" y1="444" x2="139.5" y2="479"/>
+    <circle class="bdot major" cx="139.5" cy="488" r="9"><title>B42 喝退千军｜曹军追至长坂桥，张飞断后 → 张飞横矛长坂桥一喝，曹军战栗而退，勇冠三军</title></circle>
+    <text class="blabel" x="139.5" y="510" text-anchor="middle">喝退千军</text>
+    <text class="bsub" x="139.5" y="524" text-anchor="middle">曹军追至长坂桥，张飞断后</text>
+    <line class="stem" x1="212.5" y1="444" x2="212.5" y2="414"/>
+    <circle class="bdot" cx="212.5" cy="408" r="6"><title>B43 联吴抗曹｜曹操南下欲灭孙刘，孔明请使东吴 → 诸葛亮渡江，鲁肃力主联刘，孙刘联盟初定</title></circle>
+    <text class="blabel" x="212.5" y="386" text-anchor="middle">联吴抗曹</text>
+    <text class="bsub" x="212.5" y="372" text-anchor="middle">曹操南下欲灭孙刘，孔明请使东…</text>
+    <line class="stem" x1="285.5" y1="444" x2="285.5" y2="474"/>
+    <circle class="bdot" cx="285.5" cy="480" r="6"><title>B44 舌战群儒｜东吴文臣主降，孔明单刀直入 → 诸葛亮舌战群儒，折服东吴主战派，智压满朝</title></circle>
+    <text class="blabel" x="285.5" y="502" text-anchor="middle">舌战群儒</text>
+    <text class="bsub" x="285.5" y="516" text-anchor="middle">东吴文臣主降，孔明单刀直入</text>
+    <line class="stem" x1="358.5" y1="444" x2="358.5" y2="414"/>
+    <circle class="bdot" cx="358.5" cy="408" r="6"><title>B45 反间计｜周瑜欲除蔡瑁张允，蒋干请试 → 蒋干盗书，曹操中反间诛蔡张，水军之头尽去</title></circle>
+    <text class="blabel" x="358.5" y="386" text-anchor="middle">反间计</text>
+    <text class="bsub" x="358.5" y="372" text-anchor="middle">周瑜欲除蔡瑁张允，蒋干请试</text>
+    <line class="stem major" x1="431.5" y1="444" x2="431.5" y2="479"/>
+    <circle class="bdot major" cx="431.5" cy="488" r="9"><title>B46 草船借箭｜周瑜限孔明十日造箭十万 → 孔明乘雾草船借箭，一夜得箭十万，神机妙算折服周瑜</title></circle>
+    <text class="blabel" x="431.5" y="510" text-anchor="middle">草船借箭</text>
+    <text class="bsub" x="431.5" y="524" text-anchor="middle">周瑜限孔明十日造箭十万</text>
+    <line class="stem" x1="504.5" y1="444" x2="504.5" y2="414"/>
+    <circle class="bdot" cx="504.5" cy="408" r="6"><title>B47 苦肉计｜曹操水军待变，周瑜欲用诈降 → 黄盖受脊杖受苦肉计，诈降曹操，为火攻埋线</title></circle>
+    <text class="blabel" x="504.5" y="386" text-anchor="middle">苦肉计</text>
+    <text class="bsub" x="504.5" y="372" text-anchor="middle">曹操水军待变，周瑜欲用诈降</text>
+    <line class="stem" x1="577.5" y1="444" x2="577.5" y2="474"/>
+    <circle class="bdot" cx="577.5" cy="480" r="6"><title>B48 祭风｜火攻需东南风，隆冬不刮 → 孔明七星坛祭借东南风，万事俱备只欠东风，天时到手</title></circle>
+    <text class="blabel" x="577.5" y="502" text-anchor="middle">祭风</text>
+    <text class="bsub" x="577.5" y="516" text-anchor="middle">火攻需东南风，隆冬不刮</text>
+    <line class="stem major" x1="650.5" y1="444" x2="650.5" y2="409"/>
+    <circle class="bdot major" cx="650.5" cy="400" r="9"><title>B49 火烧赤壁｜东南风起，黄盖火船近曹营 → 火烧赤壁，百万曹军灰飞烟灭，曹操仅以身免而走</title></circle>
+    <text class="blabel" x="650.5" y="378" text-anchor="middle">火烧赤壁</text>
+    <text class="bsub" x="650.5" y="364" text-anchor="middle">东南风起，黄盖火船近曹营</text>
+    <line class="stem" x1="723.5" y1="444" x2="723.5" y2="474"/>
+    <circle class="bdot" cx="723.5" cy="480" r="6"><title>B50 义释曹操｜曹操败走华容道，关羽领兵把守 → 关羽念旧恩义释曹操，结义之情高于阵营，全剧于情义中收束</title></circle>
+    <text class="blabel" x="723.5" y="502" text-anchor="middle">义释曹操</text>
+    <text class="bsub" x="723.5" y="516" text-anchor="middle">曹操败走华容道，关羽领兵把守</text>
+    <text class="tick" x="66.5" y="112" text-anchor="middle">1</text>
+    <text class="tick" x="139.5" y="112" text-anchor="middle">2</text>
+    <text class="tick" x="212.5" y="112" text-anchor="middle">3</text>
+    <text class="tick" x="285.5" y="112" text-anchor="middle">4</text>
+    <text class="tick" x="358.5" y="112" text-anchor="middle">5</text>
+    <text class="tick" x="431.5" y="112" text-anchor="middle">6</text>
+    <text class="tick" x="504.5" y="112" text-anchor="middle">7</text>
+    <text class="tick" x="577.5" y="112" text-anchor="middle">8</text>
+    <text class="tick" x="650.5" y="112" text-anchor="middle">9</text>
+    <text class="tick" x="723.5" y="112" text-anchor="middle">10</text>
+    <text class="tick" x="796.5" y="112" text-anchor="middle">11</text>
+    <text class="tick" x="869.5" y="112" text-anchor="middle">12</text>
+    <text class="tick" x="942.5" y="112" text-anchor="middle">13</text>
+    <text class="tick" x="1015.5" y="112" text-anchor="middle">14</text>
+    <text class="tick" x="1088.5" y="112" text-anchor="middle">15</text>
+    <text class="tick" x="1161.5" y="112" text-anchor="middle">16</text>
+    <text class="tick" x="1234.5" y="112" text-anchor="middle">17</text>
+    <text class="tick" x="1307.5" y="112" text-anchor="middle">18</text>
+    <text class="tick" x="1380.5" y="112" text-anchor="middle">19</text>
+    <text class="tick" x="1453.5" y="112" text-anchor="middle">20</text>
+    <text class="tick" x="66.5" y="288" text-anchor="middle">21</text>
+    <text class="tick" x="139.5" y="288" text-anchor="middle">22</text>
+    <text class="tick" x="212.5" y="288" text-anchor="middle">23</text>
+    <text class="tick" x="285.5" y="288" text-anchor="middle">24</text>
+    <text class="tick" x="358.5" y="288" text-anchor="middle">25</text>
+    <text class="tick" x="431.5" y="288" text-anchor="middle">26</text>
+    <text class="tick" x="504.5" y="288" text-anchor="middle">27</text>
+    <text class="tick" x="577.5" y="288" text-anchor="middle">28</text>
+    <text class="tick" x="650.5" y="288" text-anchor="middle">29</text>
+    <text class="tick" x="723.5" y="288" text-anchor="middle">30</text>
+    <text class="tick" x="796.5" y="288" text-anchor="middle">31</text>
+    <text class="tick" x="869.5" y="288" text-anchor="middle">32</text>
+    <text class="tick" x="942.5" y="288" text-anchor="middle">33</text>
+    <text class="tick" x="1015.5" y="288" text-anchor="middle">34</text>
+    <text class="tick" x="1088.5" y="288" text-anchor="middle">35</text>
+    <text class="tick" x="1161.5" y="288" text-anchor="middle">36</text>
+    <text class="tick" x="1234.5" y="288" text-anchor="middle">37</text>
+    <text class="tick" x="1307.5" y="288" text-anchor="middle">38</text>
+    <text class="tick" x="1380.5" y="288" text-anchor="middle">39</text>
+    <text class="tick" x="1453.5" y="288" text-anchor="middle">40</text>
+    <text class="tick" x="66.5" y="464" text-anchor="middle">41</text>
+    <text class="tick" x="139.5" y="464" text-anchor="middle">42</text>
+    <text class="tick" x="212.5" y="464" text-anchor="middle">43</text>
+    <text class="tick" x="285.5" y="464" text-anchor="middle">44</text>
+    <text class="tick" x="358.5" y="464" text-anchor="middle">45</text>
+    <text class="tick" x="431.5" y="464" text-anchor="middle">46</text>
+    <text class="tick" x="504.5" y="464" text-anchor="middle">47</text>
+    <text class="tick" x="577.5" y="464" text-anchor="middle">48</text>
+    <text class="tick" x="650.5" y="464" text-anchor="middle">49</text>
+    <text class="tick" x="723.5" y="464" text-anchor="middle">50</text>
+  </svg>
+</div></div>
+  <div class="tabpane" id="pane-table">
+  <table><thead><tr><th>ID</th><th>类型</th><th>量级</th><th>集</th><th>铺垫</th><th>兑现</th></tr></thead>
+<tbody><tr><td>B01</td><td>结拜盟誓</td><td>大爆点</td><td>1</td><td>黄巾四起，刘备关羽张飞相识于涿郡</td><td>桃园之中焚香结义，誓同生死，结拜之情成立</td></tr>
+<tr><td>B02</td><td>正义曲</td><td>常规</td><td>2</td><td>督邮索贿欺压，张飞在旁怒火中烧</td><td>张飞将督邮绑于柳枝怒鞭，替兄出气，莽勇初显</td></tr>
+<tr><td>B03</td><td>惊险行刺</td><td>常规</td><td>3</td><td>董卓乱政，曹操借献刀之机入相府</td><td>曹操掏出七星宝刀刺董未遂，诈献刀而逃，壮士本色</td></tr>
+<tr><td>B04</td><td>伏笔夺玺</td><td>常规</td><td>4</td><td>诸侯联军入洛阳，孙坚清理宫殿</td><td>孙坚于井中得传国玉玺，袁绍索而不得，裂痕埋下</td></tr>
+<tr><td>B05</td><td>温酒斩将</td><td>大爆点</td><td>5</td><td>华雄连斩联军数将，诸侯皆惧</td><td>关羽温酒之间斩华雄于帐前，一举成名</td></tr>
+<tr><td>B06</td><td>三英联手</td><td>大爆点</td><td>6</td><td>吕布于虎牢关前连败联军众将</td><td>刘关张三英围战吕布，退其锐气，三兄弟威名大振</td></tr>
+<tr><td>B07</td><td>暴行警示</td><td>常规</td><td>7</td><td>董卓挟帝迁都长安</td><td>董卓纵火焚掠洛阳，暴行尽显，乱世更乱</td></tr>
+<tr><td>B08</td><td>离间计</td><td>常规</td><td>8</td><td>王允定连环计，献貂蝉于董卓又许吕布</td><td>貂蝉于凤仪亭离间董吕，父子反目之帐埋下</td></tr>
+<tr><td>B09</td><td>锄奸高潮</td><td>大爆点</td><td>9</td><td>董卓独占貂蝉，与吕布决裂</td><td>吕布于殿前刺死董卓，锄奸功成，长安震动</td></tr>
+<tr><td>B10</td><td>群雄割据</td><td>常规</td><td>10</td><td>董卓既死，李傕郭汜反攻长安</td><td>王允身死，汉室播迁，天下彻底进入群雄逐鹿</td></tr>
+<tr><td>B11</td><td>挟天子</td><td>常规</td><td>11</td><td>曹操迎汉献帝至许都</td><td>曹操挟天子而令诸侯，权柄大张，宦官枭影成形</td></tr>
+<tr><td>B12</td><td>仁政让贤</td><td>常规</td><td>12</td><td>陶谦病重，欲让徐州于刘备</td><td>刘备三让而受徐州，仁德之名远播</td></tr>
+<tr><td>B13</td><td>背盟夺城</td><td>常规</td><td>13</td><td>吕布趁张飞酒醉夜袭徐州</td><td>吕布袭取徐州，刘备失城，兄弟再次流亡</td></tr>
+<tr><td>B14</td><td>一箭射戟</td><td>常规</td><td>14</td><td>袁术遣将攻刘备，吕布居中调停</td><td>吕布辕门射戟竞夺胜负，一箭解两家兵争，勇武尽显</td></tr>
+<tr><td>B15</td><td>刚烈独白</td><td>常规</td><td>15</td><td>曹营战事，夏侯惇中箭</td><td>夏侯惇拔矢啖睛，刚烈过人，曹军士气大振</td></tr>
+<tr><td>B16</td><td>低谷投曹</td><td>常规</td><td>16</td><td>曹操攻徐州，刘备兵败</td><td>刘关张三兄弟失散，刘备只身投奔曹操，跌入低谷</td></tr>
+<tr><td>B17</td><td>论英雄</td><td>大爆点</td><td>17</td><td>曹操与刘备青梅煮酒，酒酣论天下人物</td><td>曹赞『天下英雄惟使君与操耳』，刘备惊赭，羁绊与震慑并生</td></tr>
+<tr><td>B18</td><td>衣带诏</td><td>常规</td><td>18</td><td>汉献帝血诏，董承等人密谋反曹</td><td>衣带诏盟约成立，刘备亦预其间，反曹暗影笼罩许都</td></tr>
+<tr><td>B19</td><td>单刀赴会</td><td>常规</td><td>19</td><td>曹操拨兵，关羽随曹征讨袁术部</td><td>关羽于曹营奋勇杀敌，仍着汉衣冠，忠心不被富贵动</td></tr>
+<tr><td>B20</td><td>斩颜良</td><td>常规</td><td>20</td><td>袁绍遣颜良攻白马，曹军暂挫</td><td>关羽于万军之中刺死颜良，解白马之围</td></tr>
+<tr><td>B21</td><td>诛文丑</td><td>常规</td><td>21</td><td>袁绍遣文丑为孚，曹军诱敌</td><td>关羽于延津阵斩文丑，河北劲旅为之丧胆</td></tr>
+<tr><td>B22</td><td>灞桥挑袍</td><td>常规</td><td>22</td><td>关羽闻兄在河北，辞曹欲归</td><td>灞桥挑袍，千里寻兄，忠义之情无可羁缚</td></tr>
+<tr><td>B23</td><td>过五关斩六将</td><td>大爆点</td><td>23</td><td>关羽护二嫂千里西行，连闯曹军要塞</td><td>过五关斩六将，面不改色，忠义之名天下皆闻</td></tr>
+<tr><td>B24</td><td>古城重逢</td><td>大爆点</td><td>24</td><td>关羽至古城，斩蔡阳以明心志</td><td>刘关张三兄弟古城重逢，义释前嫌，结拜之情团圆</td></tr>
+<tr><td>B25</td><td>再入乱局</td><td>常规</td><td>25</td><td>刘备离曹赴袁，袁曹对峙渐起</td><td>关羽回归后，刘备离曹，袁绍曹操兵锋相向</td></tr>
+<tr><td>B26</td><td>官渡对峙</td><td>常规</td><td>26</td><td>袁绍举大军南下，曹操兵少应战</td><td>两军于官渡相持，粮秣战成胜负关键</td></tr>
+<tr><td>B27</td><td>谋士离心</td><td>常规</td><td>27</td><td>许攸献计不被袁绍采纳，愤而背袁</td><td>许攸连夜投曹，献出袁营屯粮之地乌巢</td></tr>
+<tr><td>B28</td><td>乌巢烧粮</td><td>大爆点</td><td>28</td><td>曹操得许攸情报，决计奇袭乌巢</td><td>一夜大火烧尽袁绍粮秣，官渡大捷，北方随之一统</td></tr>
+<tr><td>B29</td><td>江东余波</td><td>常规</td><td>29</td><td>孙坚之子孙策据江东，缺兵粮</td><td>孙策借玺质袁术而得兵，虽枭雄江东，仍映衬玉玺之诱</td></tr>
+<tr><td>B30</td><td>北定</td><td>常规</td><td>30</td><td>袁绍忧愤成疾，其子内争</td><td>袁绍败亡，曹操尽收河北，北方大体一统</td></tr>
+<tr><td>B31</td><td>依荆</td><td>常规</td><td>31</td><td>刘备失荆州之附，投奔刘表</td><td>刘备依刘表于荆州，暂得喘息，然前景未卜</td></tr>
+<tr><td>B32</td><td>荆州暗流</td><td>常规</td><td>32</td><td>刘表病重，蔡氏与外戚擅权</td><td>荆州内部暗流涌动，刘备人心所向却无处安身</td></tr>
+<tr><td>B33</td><td>迁新野</td><td>常规</td><td>33</td><td>曹操南征荆州在即，刘备转驻新野</td><td>刘备率军屯新野，立足豫南，暂避兵锋</td></tr>
+<tr><td>B34</td><td>荐贤</td><td>常规</td><td>34</td><td>徐庶佐刘备于新野，被曹操用计赚走</td><td>徐庶走马荐诸葛，临别荐卧龙替己，刘备求贤心切</td></tr>
+<tr><td>B35</td><td>三顾茅庐</td><td>常规</td><td>35</td><td>刘备两次登门皆未遇诸葛亮</td><td>三顾之诚，初定卧龙，礼贤传为美谈</td></tr>
+<tr><td>B36</td><td>隆中对策</td><td>常规</td><td>36</td><td>刘备第三次面见诸葛亮，问天下大计</td><td>隆中对画三分天下，卧龙出山之局初定</td></tr>
+<tr><td>B37</td><td>卧龙出山</td><td>大爆点</td><td>37</td><td>诸葛亮感刘备三顾之诚，允出山</td><td>孔明以军师之委出山，刘备集团自此有智无憾</td></tr>
+<tr><td>B38</td><td>两把火</td><td>大爆点</td><td>38</td><td>曹军犯新野，刘备问计于卫军</td><td>孔明初用兵，博望坡、新野两把火烧退曹军，军师立威</td></tr>
+<tr><td>B39</td><td>荆州易主</td><td>常规</td><td>39</td><td>刘表病逝，荆州归其子投降曹操</td><td>荆州拱手而降，刘备暂避江夏，形势急转</td></tr>
+<tr><td>B40</td><td>携民渡江</td><td>常规</td><td>40</td><td>曹军南追，刘备欲弃民先行</td><td>刘备携十万百姓渡江，仁义尽显，被赞仁君</td></tr>
+<tr><td>B41</td><td>单骑救主</td><td>大爆点</td><td>41</td><td>曹军围困，甘夫人、阿斗失散</td><td>赵云单骑杀回乱军，枪挑曹营名将，救出阿斗</td></tr>
+<tr><td>B42</td><td>喝退千军</td><td>大爆点</td><td>42</td><td>曹军追至长坂桥，张飞断后</td><td>张飞横矛长坂桥一喝，曹军战栗而退，勇冠三军</td></tr>
+<tr><td>B43</td><td>联吴抗曹</td><td>常规</td><td>43</td><td>曹操南下欲灭孙刘，孔明请使东吴</td><td>诸葛亮渡江，鲁肃力主联刘，孙刘联盟初定</td></tr>
+<tr><td>B44</td><td>舌战群儒</td><td>常规</td><td>44</td><td>东吴文臣主降，孔明单刀直入</td><td>诸葛亮舌战群儒，折服东吴主战派，智压满朝</td></tr>
+<tr><td>B45</td><td>反间计</td><td>常规</td><td>45</td><td>周瑜欲除蔡瑁张允，蒋干请试</td><td>蒋干盗书，曹操中反间诛蔡张，水军之头尽去</td></tr>
+<tr><td>B46</td><td>草船借箭</td><td>大爆点</td><td>46</td><td>周瑜限孔明十日造箭十万</td><td>孔明乘雾草船借箭，一夜得箭十万，神机妙算折服周瑜</td></tr>
+<tr><td>B47</td><td>苦肉计</td><td>常规</td><td>47</td><td>曹操水军待变，周瑜欲用诈降</td><td>黄盖受脊杖受苦肉计，诈降曹操，为火攻埋线</td></tr>
+<tr><td>B48</td><td>祭风</td><td>常规</td><td>48</td><td>火攻需东南风，隆冬不刮</td><td>孔明七星坛祭借东南风，万事俱备只欠东风，天时到手</td></tr>
+<tr><td>B49</td><td>火烧赤壁</td><td>大爆点</td><td>49</td><td>东南风起，黄盖火船近曹营</td><td>火烧赤壁，百万曹军灰飞烟灭，曹操仅以身免而走</td></tr>
+<tr><td>B50</td><td>义释曹操</td><td>常规</td><td>50</td><td>曹操败走华容道，关羽领兵把守</td><td>关羽念旧恩义释曹操，结义之情高于阵营，全剧于情义中收束</td></tr></tbody></table>
+  </div>
+</section>
+
+<section id="sec-episodes">
+  <div class="sec-h"><span class="no">02</span><h2>分集概览</h2><span class="note">核心交付 · 每集三栏齐全</span></div>
+  <div class="epswrap clip">
+    <div class="eps">
+<article class="ep" id="ep-1">
+  <span class="num">1</span>
+  <header><b>第 1 集</b><i class="bt major">结拜盟誓</i></header>
+  <p class="syn">黄巾起事，天下大乱。涿郡招兵榜前，刘备读榜长叹，身后张飞与同乡关羽先后上前搭话，三人相谈甚欢，遂移步桃园，焚香设盟，对天立誓结为异姓兄弟，不求同生但愿同死，关羽张飞共尊刘备为兄，自此桃园之义成立。</p>
+  <div class="hk"><b>钩子</b><span>三个萍水相逢的乱世汉子结拜之后，第一仗会如何打响？</span></div>
+  <div class="hk"><b>悬念</b><span>黄巾之势未平，刘关张三兄弟将如何在这乱世里挣出头。</span></div>
+  <div class="meta"><i>S01</i><i>C01</i><i>C02</i><i>C03</i><i class="warn">人群</i><i class="warn" title="三人结拜为同框重场戏，以三人对拜的中近景为主，穿插各自跪拜的特写，全程无第四人入镜。">同框拆解 ✓</i></div>
+</article>
+<article class="ep" id="ep-2">
+  <span class="num">2</span>
+  <header><b>第 2 集</b><i class="bt">正义曲</i></header>
+  <p class="syn">刘备因功升任安喜县尉，督邮索贿不得，反以冠冕堂皇之辞刁难刘关张。张飞在旁看得怒火中烧，趁夜将督邮缚于柳树之上狠狠鞭打，替兄出气，督邮告饶求命。刘备为保全张飞并全志气，弃官而去，三兄弟就此踏上漂泊之路。</p>
+  <div class="hk"><b>钩子</b><span>打了督邮、丢了官，刘关张接下来该往哪里去？</span></div>
+  <div class="hk"><b>悬念</b><span>这顿鞭子得罪了上司，日后会不会引来祸端。</span></div>
+  <div class="meta"><i>S01</i><i>C01</i><i>C03</i><i>C17</i><i class="warn">肢体冲突</i><i class="warn" title="鞭打督邮为张飞与督邮的双人冲突戏，刘备在旁观望作背景，三人在同一院落但分主次机位，无三刀同框对垒。">同框拆解 ✓</i></div>
+</article>
+<article class="ep" id="ep-3">
+  <span class="num">3</span>
+  <header><b>第 3 集</b><i class="bt">惊险行刺</i></header>
+  <p class="syn">董卓进京，废帝乱政，文武敢怒不敢言。曹操自告奋勇，身佩七星宝刀入相府求见董卓，乘其转背之际上前行刺，却被铜镜映出刀光惊觉。曹操急中生智，将宝刀顺势献上，谎称是献宝而来，旋即脱身上马逃出洛阳，远遁他乡。</p>
+  <div class="hk"><b>钩子</b><span>行刺失败的曹操，能躲过董卓的追捕吗？</span></div>
+  <div class="hk"><b>悬念</b><span>献刀骗局能否瞒过董卓，曹操此败之后又当如何自处。</span></div>
+  <div class="meta"><i>S03</i><i>C04</i><i>C09</i><i class="warn">肢体冲突</i><i class="warn">手部特写</i><i class="warn" title="双人戏，无三人同框。">同框拆解 ✓</i></div>
+</article>
+<article class="ep" id="ep-4">
+  <span class="num">4</span>
+  <header><b>第 4 集</b><i class="bt">伏笔夺玺</i></header>
+  <p class="syn">讨董联军入洛阳，董卓已挟帝西去，宫阙为墟。江东猛将孙坚率部清理残宫，忽于枯井中发现传国玉玺，以为天命所归，珍藏不宣。消息泄漏，盟主袁绍当面索要不得，唇枪舌剑，孙刘联军内部从此埋下裂痕，江东与河北势成水火。</p>
+  <div class="hk"><b>钩子</b><span>一方的传国玉玺，会让这所谓的讨贼联盟还撑得下去吗？</span></div>
+  <div class="hk"><b>悬念</b><span>孙坚私藏玉玺被袁绍记恨，江东猛虎种下的杀身之祸尚不自知。</span></div>
+  <div class="meta"><i>S03</i><i>C10</i><i>C24</i><i class="warn" title="玉玺发现场为孙坚单人与井的特写戏，索玺争执为孙坚袁绍双人对手戏，均无三人同框。">同框拆解 ✓</i></div>
+</article>
+<article class="ep" id="ep-5">
+  <span class="num">5</span>
+  <header><b>第 5 集</b><i class="bt major">温酒斩将</i></header>
+  <p class="syn">汜水关前，华雄连斩联军数员大将，诸侯皆惧。袁绍视麾下无人可敌，正在愁苦之际，关羽请令出阵。曹操温酒相送，关羽让其酒温而不饮，纵马提刀冲出，马到斩人，于温酒未凉之间将华雄首级提回帐前，满帐诸侯为之震动，关羽由此一战成名。</p>
+  <div class="hk"><b>钩子</b><span>一爷们儿提回来的华雄人头，会让谁坐不住？</span></div>
+  <div class="hk"><b>悬念</b><span>关羽斩华雄立下大功，袁绍却未必领情，联军内部的暗流正在滋长。</span></div>
+  <div class="meta"><i>S02</i><i>C01</i><i>C02</i><i>C03</i><i>C04</i><i>C10</i><i>C16</i><i class="warn">战斗人物</i><i class="warn">流血</i><i class="warn">手部特写</i><i class="warn" title="帐外单挑为关羽与华雄双人厮杀特写；帐内众诸侯听闻战报为群像场景，用过肩与背影带过，刘关张以中近景落位，高潮斩将不入同框。">同框拆解 ✓</i></div>
+</article>
+<article class="ep" id="ep-6">
+  <span class="num">6</span>
+  <header><b>第 6 集</b><i class="bt major">三英联手</i></header>
+  <p class="syn">虎牢关前，吕布纵赤兔马、持方天画戟，连败联军众将，无人敢撄其锋。张飞先出马直呼厮杀，关羽随后挥刀助阵，刘备也持双股剑加入，三兄弟围着吕布往来冲杀，吕布虽勇却被缠得脱身不得，终于虚晃一戟拨马退去。董卓军锐气尽折，刘关张之名传遍联军。</p>
+  <div class="hk"><b>钩子</b><span>把无敌的吕布逼退的三兄弟，还留在曹营这锅浑水里吗？</span></div>
+  <div class="hk"><b>悬念</b><span>吕布败退，背后是野心勃勃的董卓，虎狼之敌仍在虎视。</span></div>
+  <div class="meta"><i>S02</i><i>C01</i><i>C02</i><i>C03</i><i>C06</i><i class="warn">战斗人物</i><i class="warn">流血</i><i class="warn">肢体冲突</i><i class="warn" title="四将混战为高烈度战斗群像，主拍吕布与三兄弟的近身对打，刘备张飞以过肩和背影穿插，避免四者长久同框的穿帮，收尾以吕布脱战远走的长镜头带过。">同框拆解 ✓</i></div>
+</article>
+<article class="ep" id="ep-7">
+  <span class="num">7</span>
+  <header><b>第 7 集</b><i class="bt">暴行警示</i></header>
+  <p class="syn">虎牢关兵败后，董卓惧怕诸侯联军逼近洛阳，决意挟汉献帝西迁长安，行前纵兵焚掠洛阳，宫室民居尽付一炬，百姓被驱赶掳掠，哭声载道。洛阳繁华付之一炬，天下更加动荡，而董卓在长安愈发行暴，威凌朝堂。</p>
+  <div class="hk"><b>钩子</b><span>烧了洛阳的董卓，在长安还有谁能制得住他？</span></div>
+  <div class="hk"><b>悬念</b><span>董卓暴行尽露，朝中忠臣心里已各怀去处。</span></div>
+  <div class="meta"><i>S03</i><i>C06</i><i>C08</i><i>C09</i><i class="warn">人群</i><i class="warn">战斗人物</i><i class="warn">流血</i><i class="warn" title="焚掠洛阳为全景式的难民群像，用俯拍与远景带过；宫廷内仅董卓、吕布、王允三人的对峙为各自近景分切，无三人同框。">同框拆解 ✓</i></div>
+</article>
+<article class="ep" id="ep-8">
+  <span class="num">8</span>
+  <header><b>第 8 集</b><i class="bt">离间计</i></header>
+  <p class="syn">董卓专权，王允忧国之忧，设连环计，先允将义女貂蝉许配吕布，继而又把貂蝉献与董卓为妾。貂蝉周旋于父子之间，于凤仪亭与吕布私会，哭诉身不由己，又刻意教董卓撞见，吕布因此与董卓心生嫌隙，父子二人由盟变仇。</p>
+  <div class="hk"><b>钩子</b><span>这枚美人的棋子，能把如虎的董卓父子搅到反目吗？</span></div>
+  <div class="hk"><b>悬念</b><span>貂蝉游走刀尖之上，一旦露馅便万劫不复，而董吕失和之势已成。</span></div>
+  <div class="meta"><i>S03</i><i>C06</i><i>C07</i><i>C08</i><i>C09</i><i class="warn">肢体接触</i><i class="warn" title="凤仪亭私会为貂蝉与吕布双人戏，董卓撞见时以远处入画的背影与过肩呈现，保证各场次分机位拍摄、无三到四人同框。">同框拆解 ✓</i></div>
+</article>
+<article class="ep" id="ep-9">
+  <span class="num">9</span>
+  <header><b>第 9 集</b><i class="bt major">锄奸高潮</i></header>
+  <p class="syn">董卓独占貂蝉，视吕布露骨之意为不轨，父子彻底决裂。王允趁机游说吕布，晓以汉室大义，吕布顿生杀机。次日朝堂之上，李肃入宫诱董卓，董卓方登车，吕布突以画戟当殿刺死董卓，一朝权臣倒伏于阶前，长安军民人心大快。</p>
+  <div class="hk"><b>钩子</b><span>杀了董卓，可这长安的乱局真会就此平息吗？</span></div>
+  <div class="hk"><b>悬念</b><span>董卓虽死，其部曲旧将尚在，王允与吕布未必镇得住这烂摊子。</span></div>
+  <div class="meta"><i>S03</i><i>C06</i><i>C07</i><i>C08</i><i>C09</i><i class="warn">战斗人物</i><i class="warn">流血</i><i class="warn">肢体冲突</i><i class="warn" title="刺董为吕布与董卓的生死对决，王允在侧作背景观望以近景分切，貂蝉不在此场，全片避免四人同框的杂乱机位。">同框拆解 ✓</i></div>
+</article>
+<article class="ep" id="ep-10">
+  <span class="num">10</span>
+  <header><b>第 10 集</b><i class="bt">群雄割据</i></header>
+  <p class="syn">董卓既死，其部曲李傕、郭汜纠集西凉旧部反攻长安，王允不敌战死，汉献帝播迁逃难，天下自此彻底失去共主，各地诸侯各怀异志，起兵争地。袁绍据河北、曹操起兵陈留、孙氏据江东，群雄逐鹿，割据自雄，乱世愈演愈烈。</p>
+  <div class="hk"><b>钩子</b><span>没了老大，天下的枭雄们各自磨刀，这棋盘到底会先乱成什么样？</span></div>
+  <div class="hk"><b>悬念</b><span>董卓虽除而祸乱更烈，乱世里谁才是最后能成事的人，仍是未知之数。</span></div>
+  <div class="meta"><i>S03</i><i>S02</i><i>C04</i><i>C06</i><i>C08</i><i>C10</i><i>C24</i><i class="warn">人群</i><i class="warn">战斗人物</i><i class="warn">流血</i><i class="warn" title="西凉军反攻长安为大队人马混战的群像，用远景与大场面带过；诸侯各自称雄按阵营分组，分别落位各自执斧执戟的近景，不设多阵营同框。">同框拆解 ✓</i></div>
+</article>
+<article class="ep" id="ep-11">
+  <span class="num">11</span>
+  <header><b>第 11 集</b><i class="bt">挟天子</i></header>
+  <p class="syn">曹操亲迎汉献帝东幸许都，将朝廷威仪尽数把持于己手。他以天子之名颁诏四方、号令诸侯，昔日群雄仰仗的门第名分自此尽归一人调度。曹操挟天子以令诸侯，权柄大张，枭雄之影渐次成形。朝堂之上地位既明，座中的袁绍却冷眼相看，暗生忌惮，一场新的裂痕在诸侯间悄然埋下。</p>
+  <div class="hk"><b>钩子</b><span>天子落入曹操掌中，坐拥河北名门的袁绍，岂会坐视曹操借天子之名一步步坐大？</span></div>
+  <div class="hk"><b>悬念</b><span>曹操以天子纶旨号令天下，群雄割据的旧秩序开始动摇；而袁绍与曹操之间，那句未能出口的争锋已在酝酿。</span></div>
+  <div class="meta"><i>S04</i><i>C04</i><i>C10</i><i class="warn">人群</i><i class="warn" title="曹操迎驾与朝堂颁诏处，献帝及随驾臣僚为众：曹操近景立威，袁绍于班列一侧以过肩带出，群臣用背影与虚化群像带过，无三主要人物同框，分场拍。">同框拆解 ✓</i></div>
+</article>
+<article class="ep" id="ep-12">
+  <span class="num">12</span>
+  <header><b>第 12 集</b><i class="bt">仁政让贤</i></header>
+  <p class="syn">徐州刺史陶谦病入膏肓，临终欲将徐州相让刘备。刘备以仁德为本，以自己名微德薄再三辞让，不肯受此大位。关羽张飞在旁力劝，剖析时局，刘备方勉强受领徐州。就此坐拥一方，仁德之名播于中原，四方才智之士渐有归心。</p>
+  <div class="hk"><b>钩子</b><span>三让而得的徐州新鲜到手，刘备要凭哪份胆识，守住这块人人垂涎的膏腴之地？</span></div>
+  <div class="hk"><b>悬念</b><span>徐州北有吕布虎视在侧，东有袁术窥伺，刘备根基未稳，内忧外患一并压来。</span></div>
+  <div class="meta"><i>S05</i><i>C01</i><i>C02</i><i>C03</i><i class="warn" title="陶谦托付之际，刘关张三人同框：刘备居中落座正面受让，关羽张飞分立两侧一近景一过肩，陶谦与侍者以背影或侧面带过，三人分机位、分场交接，避免同框拥挤。">同框拆解 ✓</i></div>
+</article>
+<article class="ep" id="ep-13">
+  <span class="num">13</span>
+  <header><b>第 13 集</b><i class="bt">背盟夺城</i></header>
+  <p class="syn">张飞镇守徐州时纵酒，酒醉后督责士卒过甚，军中积怨。吕布窥得城防空虚，趁夜率军掩袭徐州，张飞醉中仓皇应战，城防土崩瓦解。刘备借宿小沛，闻讯急退，三兄弟再度流亡离散，失城之痛就此埋下。</p>
+  <div class="hk"><b>钩子</b><span>徐州得而复失，连营抛尽，刘备弟兄三人又将流离到何处栖身？</span></div>
+  <div class="hk"><b>悬念</b><span>吕布夺了徐州，却容刘备寄居小沛，两人互存戒心、貌合神离，这份表面的安宁随时可能翻作刀兵。</span></div>
+  <div class="meta"><i>S05</i><i>C03</i><i>C06</i><i>C01</i><i>C02</i><i class="warn">人群</i><i class="warn">肢体接触</i><i class="warn" title="夜袭破城一幕：吕布与袭军为进攻方近景突入，张飞酒酣仓皇于城头一侧被冲散，刘备关羽在小沛另一场以中景接应，双方不并置于同框，以夜攻城与退走两线剪辑带出。">同框拆解 ✓</i></div>
+</article>
+<article class="ep" id="ep-14">
+  <span class="num">14</span>
+  <header><b>第 14 集</b><i class="bt">一箭射戟</i></header>
+  <p class="syn">袁术遣纪灵引军进犯刘备，吕布为两家居中调停，立大戟于辕门，当众言明一箭射中戟枝便令两家罢兵。满场军阵屏息，吕布弯弓搭箭，一箭正中戟尖小枝，众军皆惊叹其神勇，两家兵争遂依约而解。</p>
+  <div class="hk"><b>钩子</b><span>辕门一箭解了眼前的兵祸，可吕布这一手射戟，究竟是在结好刘备，还是在威慑各方？</span></div>
+  <div class="hk"><b>悬念</b><span>纪灵退兵只是缓兵之局，袁术对徐州野心未死，刘备与吕布的牵制之势随时可能再起兵锋。</span></div>
+  <div class="meta"><i>S05</i><i>C06</i><i>C01</i><i>C03</i><i class="warn">人群</i><i class="warn" title="辕门校场军阵汇聚：吕布张弓近景定格射戟之手，刘备在旁以过肩带出，张飞居后背景，满场兵卒以群像虚化铺开，射戟与众人观感分镜切换，不三主齐框并列，靠机位分层带出氛围。">同框拆解 ✓</i></div>
+</article>
+<article class="ep" id="ep-15">
+  <span class="num">15</span>
+  <header><b>第 15 集</b><i class="bt">刚烈独白</i></header>
+  <p class="syn">曹营与吕布军鏖战正酣，夏侯惇阵前中箭，冷箭直贯其左眼。他厉吼一声，将箭猛地拔下，竟张口啖下眼球，视死如归，气势撼动三军。曹军见他如此刚烈，莫不振奋，士气为之大振，一时反压眼前之敌。</p>
+  <div class="hk"><b>钩子</b><span>夏侯惇一己之力提振了曹军的胆气，这场与吕布的拉锯战，能否就此见出分晓？</span></div>
+  <div class="hk"><b>悬念</b><span>吕布骁勇，曹营连日损耗，兖州这边久战不决，曹操的根基正被一点一点啃掉。</span></div>
+  <div class="meta"><i>S05</i><i>C23</i><i>C04</i><i class="warn">肢体接触</i><i class="warn">手部特写</i><i class="warn">人群</i><i class="warn">血</i><i class="warn" title="两军对阵：夏侯惇中箭拔矢为近景特写，曹操于后方坡上观战以中景带出，双方士卒以群像与背影分场铺陈，无三主要人物同框。">同框拆解 ✓</i></div>
+</article>
+<article class="ep" id="ep-16">
+  <span class="num">16</span>
+  <header><b>第 16 集</b><i class="bt">低谷投曹</i></header>
+  <p class="syn">曹操兵锋大举压向徐州，刘备兵微将寡，势不能支而兵败。乱军之中，刘关张三兄弟被冲散，关羽张飞各随乱军走失一方，刘备止剩一身，杀出重围。穷途末路之际，他强忍屈辱，只身投奔曹操，落入虎口以图日后。</p>
+  <div class="hk"><b>钩子</b><span>走投无路却偏栖身于最危险的枭雄帐下，刘备能否在曹操眼皮底下苟全性命？</span></div>
+  <div class="hk"><b>悬念</b><span>张飞关羽各落一方，生死未卜，兄弟一朝离散，重逢之期竟远不可及。</span></div>
+  <div class="meta"><i>S04</i><i>C01</i><i>C04</i><i>C02</i><i>C03</i><i class="warn">人群</i><i class="warn">肢体接触</i><i class="warn" title="溃退场面：刘备单车突围为中景，关羽张飞各在乱军一侧以背影闪过即失，曹操于许都府堂另一场接见，败军群像用虚化带过，三兄弟不并置同框，靠剪辑交代离散。">同框拆解 ✓</i></div>
+</article>
+<article class="ep" id="ep-17">
+  <span class="num">17</span>
+  <header><b>第 17 集</b><i class="bt major">论英雄</i></header>
+  <p class="syn">曹操邀刘备对坐青梅煮酒，纵论当世之英豪。曹操逐一品评袁绍、袁术、吕布等辈，皆称不足为惧，酒酣之际，忽然指刘备而言，谓当今天下英雄，唯使君与操耳。刘备闻言大惊失色，手中箸子不禁坠地，恰逢惊雷炸响，他借掩雷之态稳住神色。</p>
+  <div class="hk"><b>钩子</b><span>曹操一句英雄二字，把刘备的韬晦之心几乎逼出原形，刘备此身究竟何以为安？</span></div>
+  <div class="hk"><b>悬念</b><span>杯酒之间风声鹤唳，曹操的试探句句藏锋，而刘备的惊惧与隐忍，已在两人心里各自结下死结。</span></div>
+  <div class="meta"><i>S04</i><i>C01</i><i>C04</i><i class="warn">手部特写</i><i class="warn" title="煮酒二相对饮，刘曹二人分坐对谈，无第三主要人物同框，以火炉与酒盏近景交代氛围。">同框拆解 ✓</i></div>
+</article>
+<article class="ep" id="ep-18">
+  <span class="num">18</span>
+  <header><b>第 18 集</b><i class="bt">衣带诏</i></header>
+  <p class="syn">汉献帝受困许都，苦于大权旁落，密将血诏藏于衣带之中，暗结朝中大臣欲除曹操。衣带诏在许都权臣间悄然传递，反曹盟誓渐次结成，刘备亦被拖入局中，在盟约上押下自己的名字。杀机在辉赫的许都府邸之下无声蔓延。</p>
+  <div class="hk"><b>钩子</b><span>衣带诏上端正押着刘备的名字，这步反曹险棋一旦败露，刘备将置身何地？</span></div>
+  <div class="hk"><b>悬念</b><span>许都之中曹操眼线遍布，反曹密盟已有走漏之势，这纸诏书随时可能化作灭门之祸。</span></div>
+  <div class="meta"><i>S04</i><i>C01</i><i>C04</i><i class="warn">手部特写</i><i class="warn">肢体接触</i><i class="warn" title="血诏盟誓一场众臣分处两域：密盟诸臣于密室齐齐跪地立誓见血，用群体背影与侧面带过；曹操于堂上另一场毫无所觉，两线交错剪辑交代，不使反曹之众与曹操同框。">同框拆解 ✓</i></div>
+</article>
+<article class="ep" id="ep-19">
+  <span class="num">19</span>
+  <header><b>第 19 集</b><i class="bt">单刀赴会</i></header>
+  <p class="syn">曹操出兵征讨袁术旧部，关羽随军征进，于阵前奋威杀敌、屡建奇功。曹操眼热其才，设重金美女、许高官厚禄百般笼络，关羽皆不为所动，依旧身着汉家衣冠，一片忠心不因富贵而移其志。</p>
+  <div class="hk"><b>钩子</b><span>曹操的笼络层层加码，关羽这份铁石般的忠义，究竟能否熬过眼前的富贵考验？</span></div>
+  <div class="hk"><b>悬念</b><span>大哥刘备下落不明，关羽身在曹营心在汉，眼下的安稳不过是一场漫长抉择的前奏。</span></div>
+  <div class="meta"><i>S04</i><i>C02</i><i>C04</i><i class="warn">人群</i><i class="warn">肢体接触</i><i class="warn" title="关羽于阵前斩将为近景特写，曹操于帐中宴请为另一场中景，二人不并置同框，战阵与宴席分镜交接，突出关羽受封谢绝非受其恩的忠义分界。">同框拆解 ✓</i></div>
+</article>
+<article class="ep" id="ep-20">
+  <span class="num">20</span>
+  <header><b>第 20 集</b><i class="bt">斩颜良</i></header>
+  <p class="syn">袁绍遣名将颜良引军攻白马，曹军数将皆折于其手，白马岌岌可危。关羽请缨出战，策马直入敌阵，于万军之中手起刀落，一刀刺死颜良，解白马之围，威名自此震于河北，也震了整个天下。</p>
+  <div class="hk"><b>钩子</b><span>关羽阵前万军中一刀落了颜良，可袁绍的大军还重重压着白马，曹军这点家底当真守得住吗？</span></div>
+  <div class="hk"><b>悬念</b><span>颜良丧命之事很快传至袁绍耳中，而刘备恰在袁绍帐中，关羽手刃其爱将，这份兄弟情义将要经受最重的考验。</span></div>
+  <div class="meta"><i>S06</i><i>C02</i><i>C21</i><i>C04</i><i class="warn">人群</i><i class="warn">肢体接触</i><i class="warn">血</i><i class="warn" title="斩将一幕：关羽纵马直插为近景运动镜头，颜良于阵前被突袭以背身侧面中景，曹操于后阵观战以远景带出，漫山曹袁两军士卒以群像虚化铺陈，三主要人物分镜切接，靠万军群像铺氛围。">同框拆解 ✓</i></div>
+</article>
+<article class="ep" id="ep-21">
+  <span class="num">21</span>
+  <header><b>第 21 集</b><i class="bt">诛文丑</i></header>
+  <p class="syn">袁绍为报颜良之仇，遣文丑领河北劲旅再攻延津。曹操命军士弃辎重于道，佯装败退诱敌深入。文丑骄横，贪掠辎重自乱阵脚，正欲收兵之际，关羽舞青龙偃月刀乘赤兔马杀出，手起刀落，于万军之中将文丑斩于马下。河北连失颜良、文丑两员大将，军心为之大溃。曹操在阵后观望，既忌惮关羽之神勇，又愈发想将他收为己用，一场关于人才去留的盘算已在心中暗生。</p>
+  <div class="hk"><b>钩子</b><span>关羽连斩袁绍两员主将，功高震主——曹操是留他、忌他，还是放他？去留角力已到摊牌边缘。</span></div>
+  <div class="hk"><b>悬念</b><span>曹操以重金美色相笼，关羽却始终心系千里之外的兄长，许都门内外的忠义考验已暗暗布下。</span></div>
+  <div class="meta"><i>S06</i><i>S04</i><i>C02</i><i>C04</i><i>C22</i><i class="warn">人群</i><i class="warn">手部特写</i><i class="warn" title="阵战分三层：关羽与文丑的正面交手单对单近景，曹操居高观战，袁军群像以军阵背影和旗幡带过，三人分处三层不同机位，避免同框混战。">同框拆解 ✓</i></div>
+</article>
+<article class="ep" id="ep-22">
+  <span class="num">22</span>
+  <header><b>第 22 集</b><i class="bt">灞桥挑袍</i></header>
+  <p class="syn">关羽探得兄长刘备在河北，决意辞曹归兄。临行将曹操所赐金银、美女皆封存不动，留书而去。丞相府众将欲追截，曹操爱其忠义，止而不追，亲至灞桥为之饯行。关羽欲去，曹操借赠袍之机执意相送，关羽恐有埋伏，于马上用青龙偃月刀刀尖挑起所赠锦袍披于身，混在送别的军阵与仪仗之中扬尘离去。曹操目送他的背影，怅然叹其去志之坚。</p>
+  <div class="hk"><b>钩子</b><span>灞桥之上曹操与关羽四目相对——这一别，究竟是永诀，还是乱世再见？</span></div>
+  <div class="hk"><b>悬念</b><span>关羽护嫂西行千里寻主，前路处处是曹军关隘，身在曹营时埋下的情分与戒备，将如何在血路上清算。</span></div>
+  <div class="meta"><i>S06</i><i>S04</i><i>C02</i><i>C04</i><i class="warn">手部特写</i><i class="warn">人群</i><i class="warn" title="饯行以仪仗军阵作背景列队，曹操与关羽二人在阵前相对近景，军士以降旗和列队带过，无人加入二人同框的核心表演区。">同框拆解 ✓</i></div>
+</article>
+<article class="ep" id="ep-23">
+  <span class="num">23</span>
+  <header><b>第 23 集</b><i class="bt major">过五关斩六将</i></header>
+  <p class="syn">关羽护定二嫂，连闯曹军东岭关、洛阳、汜水、荥阳、黄河渡口五道关隘。沿途守将或梗令不从，或设埋伏堵截，关羽单刀匹马，遇关破关、逢将斩将，一连斩杀六员敌将，护得二位嫂嫂周全。血雨之中他面不改色，青龙偃月刀所指处无人能挡，行至黄河渡口，方才脱出曹军势力范围。一路斩将夺关，关羽之名随刀光传遍，忠义与神勇自此天下皆闻。</p>
+  <div class="hk"><b>钩子</b><span>五关已过，六将已斩，关羽终离曹境寻兄——可兄长刘备，此刻究竟身在何方？</span></div>
+  <div class="hk"><b>悬念</b><span>关羽千里寻兄的音讯尚未送到河北，而他斩曹将无数，与曹操之间的旧情已蒙上一层血影。</span></div>
+  <div class="meta"><i>S06</i><i>C02</i><i class="warn">人群</i><i class="warn">手部特写</i><i class="warn">雨戏</i><i class="warn" title="整个过五关以关羽单骑突进为核心，守关士兵以军阵人墙列于道中，全部用背影与侧面带过，关羽正面推进，始终不与任何群像同框正面纠缠。">同框拆解 ✓</i></div>
+</article>
+<article class="ep" id="ep-24">
+  <span class="num">24</span>
+  <header><b>第 24 集</b><i class="bt major">古城重逢</i></header>
+  <p class="syn">关羽护嫂行至古城，恰遇徐州失散后占城为王的张飞。张飞闻兄长流落曹营多年，疑关羽已叛盟，见面即以蛇矛相向。恰值曹将蔡阳领兵追来，关羽挥刀断后，一个照面将蔡阳斩落，以死战自证清白。张飞疑云顿消，兄弟释然相认。不久刘备闻讯赶来，三兄弟于古城城头重逢，历尽流离再续结义之情，抱头痛哭间感慨万千。</p>
+  <div class="hk"><b>钩子</b><span>关羽杀曹将来投，张飞初疑其背盟几乎拼命——这斩蔡阳的一刀，能否洗清关羽三载曹营之身？</span></div>
+  <div class="hk"><b>悬念</b><span>三兄弟重聚的喜悦之下，袁绍、曹操两雄已在北方剑拔弩张，团聚的兄弟又将被卷入新的乱局。</span></div>
+  <div class="meta"><i>S05</i><i>C01</i><i>C02</i><i>C03</i><i class="warn">肢体接触</i><i class="warn">人群</i><i class="warn" title="重逢主戏定格三人近景同框：张飞横矛质问在前，关羽与刘备先后入画，三人形成三角站位，四下随从以虚化背景带过，不插手三人同框核心。">同框拆解 ✓</i></div>
+</article>
+<article class="ep" id="ep-25">
+  <span class="num">25</span>
+  <header><b>第 25 集</b><i class="bt">再入乱局</i></header>
+  <p class="syn">三兄弟古城重聚后，因无处安身，刘备借口出击谬称图取袁绍，率部离开曹操。曹操闻刘备脱走，悔恨磨刀不早，斥责左右错失纵虎归山。刘备领关羽、张飞一路转徙，暂投河北袁绍帐下，虽得容身，终究寄人篱下，兄弟每每相对唏嘘。与此同时，袁绍与曹操因刘备去留与邺城旧怨积怨日深，两国磨刀霍霍，兵锋相向在即。</p>
+  <div class="hk"><b>钩子</b><span>刘备借机脱曹投袁，曹操闻报大怒——亲手放走的虎，转眼成了敌营的牙。他和袁绍的决战，还能拖多久？</span></div>
+  <div class="hk"><b>悬念</b><span>刘备身在袁营却心存二志，曹操对他既恨又惦记，乱世中兄弟三人的下一步落脚点仍悬而未决。</span></div>
+  <div class="meta"><i>S04</i><i>S06</i><i>C01</i><i>C02</i><i>C03</i><i>C04</i><i class="warn">人群</i><i class="warn" title="分两场拍：刘备离曹与曹操盛怒各居一场，不相为邻；兄弟三人同行以列队背影带过，单场仍以二人近景为核心，无三人以上正面同框。">同框拆解 ✓</i></div>
+</article>
+<article class="ep" id="ep-26">
+  <span class="num">26</span>
+  <header><b>第 26 集</b><i class="bt">官渡对峙</i></header>
+  <p class="syn">袁绍尽起河北大军，号称数十万，南下直逼曹操。曹操兵少粮缺，被迫退守官渡拒战。两军隔河对峙，袁绍依仗兵多粮广，步步紧逼；曹操则因粮秣不继，军心动摇，进退两难。官渡一役，胜负暂时不决，可明眼人都看出，谁先断了粮，谁就先输。曹操夜巡营垒，望着对岸袁营绵延的灯火与粮草辎重，忧色满面的同时，也在等一个可能改变战局的变数。</p>
+  <div class="hk"><b>钩子</b><span>袁绍兵多粮广，曹操兵寡粮乏——官渡这道天堑，眼看就要把曹操困死其中。</span></div>
+  <div class="hk"><b>悬念</b><span>曹操苦撑待变，袁绍帐下却并非铁板一块，谋士与帅心之间已现裂缝，胜负的天平正偷偷错位。</span></div>
+  <div class="meta"><i>S06</i><i>C04</i><i>C10</i><i class="warn">人群</i><i class="warn" title="两军隔河对峙，各以本方军阵群像列于画面前后景，曹操与袁绍分处两岸各自主帐前，近景只取单方主将，对方阵营以远景旗幡灯火带过。">同框拆解 ✓</i></div>
+</article>
+<article class="ep" id="ep-27">
+  <span class="num">27</span>
+  <header><b>第 27 集</b><i class="bt">谋士离心</i></header>
+  <p class="syn">官渡相持，袁绍帐下谋士许攸麾下兵士获粮路情报，本该献计袭取许都，却被袁绍以多疑之心呵斥，又受小人谗言所诬，连家眷亦受牵连下狱。许攸大失所望，思及旧日与曹操的交谊，趁夜弃袁投曹。曹操闻许攸来投，来不及穿鞋光脚出迎，长揖请罪。许攸遂托出袁营屯粮之地乌巢的秘密，为曹操指明一击必胜的命门。</p>
+  <div class="hk"><b>钩子</b><span>许攸深夜叛袁来投，曹操倒履相迎——他口中那个袁绍的致命破绽，究竟在哪里？</span></div>
+  <div class="hk"><b>悬念</b><span>许攸之计究竟是真心相投，还是袁绍放下的又一重饵，曹操将信将疑，一场赌上全军的抉择在前。</span></div>
+  <div class="meta"><i>S06</i><i>C04</i><i>C10</i><i>C25</i><i class="warn" title="分两场叙事：许攸在袁营帐前受辱、曹操军帐倒履相迎各成一景，三人同框处背帐接见以曹操、许攸二人近景为主，袁绍仅以怒火中烧的单独过场呈现，避免三人正面齐聚。">同框拆解 ✓</i></div>
+</article>
+<article class="ep" id="ep-28">
+  <span class="num">28</span>
+  <header><b>第 28 集</b><i class="bt major">乌巢烧粮</i></header>
+  <p class="syn">曹操决计采纳许攸之计，亲率精兵五千，扮作袁军，夜奔乌巢劫粮。守军毫无防备，曹操纵兵放火，乌巢一夜大火冲天，袁军屯积的粮草辎重尽付灰烬。粮草一失，袁绍大军军心大乱，前线精锐又中张郃高览反戈之变，袁军全线溃败。曹操趁势掩杀，官渡一战大破袁绍，袁绍仅带少数人马仓皇北逃。此一火，尽断袁绍之命，天下北方之势自此改观。</p>
+  <div class="hk"><b>钩子</b><span>乌巢一把大火烧尽袁绍全部粮草——失了根本的袁绍，还能撑住河北霸业吗？</span></div>
+  <div class="hk"><b>悬念</b><span>袁绍虽败退河北，曹操欲尽取北方，可袁氏根基未绝，中原烽烟不会就此止熄。</span></div>
+  <div class="meta"><i>S06</i><i>C04</i><i>C25</i><i class="warn">人群</i><i class="warn" title="夜袭乌巢以曹操率军推进为一线主视角，守军以睡梦中慌乱的军帐背影带过，许攸夜半献计与劫粮主戏分场拍，两人不参与同一支突袭群像的正面同框。">同框拆解 ✓</i></div>
+</article>
+<article class="ep" id="ep-29">
+  <span class="num">29</span>
+  <header><b>第 29 集</b><i class="bt">江东余波</i></header>
+  <p class="syn">官渡一役尘埃落定，北方的烽火暂歇，天下群雄各安其位，重新观望时局。刘备兄弟在动荡中辗转暂栖，曹操则整顿兵马、积蓄实力，两股力量都在为更远的图谋埋下伏笔。乱世表面上归于平静，实则暗流涌动，各方势力在休整与试探之间，静候下一个转折点的到来。</p>
+  <div class="hk"><b>钩子</b><span>官渡已定、北方渐平，可乱世从不给人歇马的太平——下一个卷入漩涡的，又会是谁？</span></div>
+  <div class="hk"><b>悬念</b><span>刘备兄弟仍在四处漂泊，曹操的目光正投向南方，一场更大的棋局已在暗中布局。</span></div>
+  <div class="meta"><i>S06</i><i>S07</i><i>C01</i><i>C02</i><i>C03</i><i class="warn" title="本集为过渡群像，刘备兄弟三人在行旅途中的营地或城垣集结，以三人背影与侧影缓行带过，配以平视远景，无正面多人同框交叠。">同框拆解 ✓</i></div>
+</article>
+<article class="ep" id="ep-30">
+  <span class="num">30</span>
+  <header><b>第 30 集</b><i class="bt">北定</i></header>
+  <p class="syn">官渡兵败之后，袁绍退回河北，忧愤交加，渐成重病。其膝下诸子各拥兵而内争，袁谭、袁尚兄弟阋墙，自相残杀，大好河北基业在骨肉相煎中分崩离析。曹操趁其内乱，逐一击破，尽收冀、青、幽、并四州之地。袁绍在忧病与败亡的打击下撒手人寰，袁氏一门自此荡尽。曹操坐拥河北，北方之地大体一统，其势力之盛已达顶峰，望向南方群雄，一统天下的野心正随之膨大。</p>
+  <div class="hk"><b>钩子</b><span>袁氏败亡、北方一统，曹操手中已握半壁天下——他的下一刀，会劈向哪里？</span></div>
+  <div class="hk"><b>悬念</b><span>北方既定，刘备兄弟与江东诸雄均感寒意临头，各自暗合，为东方对峙的结局蓄起新的变数。</span></div>
+  <div class="meta"><i>S06</i><i>S04</i><i>C04</i><i>C10</i><i class="warn">人群</i><i class="warn" title="袁绍病榻的末日之景与曹军收降河北的城垣场景分场拍，袁绍独处病榻近景，曹操率军入城以军阵群像推进为前景，双方不置于同一正面同框中。">同框拆解 ✓</i></div>
+</article>
+<article class="ep" id="ep-31">
+  <span class="num">31</span>
+  <header><b>第 31 集</b><i class="bt">依荆</i></header>
+  <p class="syn">刘备北投无路，携关羽张飞辗转依附刘表，被安置于荆州襄阳，暂得栖身地。刘表以宗亲之谊礼遇有加，三兄弟久经流离，兄弟情义愈深。然荆州士人各怀心思，刘备虽得刘表敬重，内里却处处受掣肘，寄人篱下的况味让三兄弟深知天下之大竟无安身立命之处，前景一片未卜。</p>
+  <div class="hk"><b>钩子</b><span>依附刘表的刘备，究竟能不能在荆州真正站稳脚跟？</span></div>
+  <div class="hk"><b>悬念</b><span>刘表待刘备虽厚，荆州内外却已有不怀好意之人盯上了这位来客。</span></div>
+  <div class="meta"><i>S08</i><i>C01</i><i>C02</i><i>C03</i><i class="warn" title="刘关张三兄弟在襄阳堂上同框议事，刘表与诸吏作背景群像；机位以三人近景轮换主位，用中景带过堂上群吏，过肩衔接三人对话，避免正面大场面齐铺。">同框拆解 ✓</i></div>
+</article>
+<article class="ep" id="ep-32">
+  <span class="num">32</span>
+  <header><b>第 32 集</b><i class="bt">荆州暗流</i></header>
+  <p class="syn">刘表病重，其妻蔡氏一族趁势把持荆州内外，权柄渐旁落。蔡氏忌惮刘备在荆收拢人心，暗中进谗，欲除之而后快。刘表卧床左右为难，既倚重刘备又防其坐大。刘备察觉荆州暗流涌动，处境愈发凶险，却因无处可去只能隐忍。刘关张深感居人檐下之危，夜谈之时不由为兄弟将来发愁。</p>
+  <div class="hk"><b>钩子</b><span>荆州暗流里，占尽天时的那一步棋，究竟由谁在暗中落子？</span></div>
+  <div class="hk"><b>悬念</b><span>蔡氏已生杀心，刘表却迟迟不肯明确表态，杀机正在酝酿。</span></div>
+  <div class="meta"><i>S08</i><i>C01</i><i>C02</i><i>C03</i><i class="warn" title="三兄弟与刘表、蔡氏等荆州众臣多员同堂，机位以刘关张三人近景为主，蔡氏一族作画面两端群像并对峙构图，过肩带过密语耳语者，突出压抑氛围而非平铺群阵。">同框拆解 ✓</i></div>
+</article>
+<article class="ep" id="ep-33">
+  <span class="num">33</span>
+  <header><b>第 33 集</b><i class="bt">迁新野</i></header>
+  <p class="syn">曹操平定北方，厉兵秣马意在南下，荆州首当其冲。刘表命刘备率本部进驻新野，作为荆州北面屏障。刘备奉令离襄阳，屯兵新野，整顿军纪、招揽流民，立足渐稳，暂避曹军兵锋。然新野城小军微，三兄弟深知此地终非久居之所，只是眼下再无更好的退路。</p>
+  <div class="hk"><b>钩子</b><span>新野小城又薄兵又弱，凭什么能挡得住曹操南下的百万雄兵？</span></div>
+  <div class="hk"><b>悬念</b><span>曹操兵锋正在逼近，刘备在新野的这点立足之地，又能撑到何时。</span></div>
+  <div class="meta"><i>S08</i><i>S07</i><i>C01</i><i>C02</i><i>C03</i><i class="warn" title="离襄阳的刘关张与屯新野后的刘关张，前后分处两场，无三方同框；襄阳辞行场用三人并立背影，新野校场场用三人近景轮换，画面干净不堆人。">同框拆解 ✓</i></div>
+</article>
+<article class="ep" id="ep-34">
+  <span class="num">34</span>
+  <header><b>第 34 集</b><i class="bt">荐贤</i></header>
+  <p class="syn">徐庶化名单福来投，佐刘备于新野，首战便破了来犯的曹军，智谋尽显。曹操闻徐庶之才，于是设计掳其母相逼，迫徐庶归曹。徐庶为全孝道含泪辞别刘备，临行走马荐诸葛亮，言卧龙不出天下难安，力劝刘备务请卧龙出山。刘备久闻卧龙之名，自此求贤之心炽盛，三顾之约就此埋下。</p>
+  <div class="hk"><b>钩子</b><span>徐庶临走丢下一句卧龙二字，这位卧龙究竟是何方人物？</span></div>
+  <div class="hk"><b>悬念</b><span>徐庶被掳母逼走，这份愧疚与荐贤之心，埋着日后他再回刘备身边的路。</span></div>
+  <div class="meta"><i>S07</i><i>S04</i><i>C01</i><i>C02</i><i>C03</i><i>C15</i><i>C04</i><i class="warn">肢体接触</i><i class="warn" title="徐庶与刘关张三兄弟在新野同框辞行，曹操居于许都另场，无同框，分场拍；新野辞行场以徐庶作过肩主导，三兄弟背影与近景轮换，一人核心其余衬托。">同框拆解 ✓</i></div>
+</article>
+<article class="ep" id="ep-35">
+  <span class="num">35</span>
+  <header><b>第 35 集</b><i class="bt">三顾茅庐</i></header>
+  <p class="syn">刘备辞别徐庶后携关羽张飞一顾茅庐，未遇诸葛亮，只见其弟诸葛均与卧龙草庐。数日后二顾，值隆冬大雪，关羽张飞劝谏天寒且回，刘备执意冒雪登山，仍不得见。两次扑空，刘关张不由对卧龙之名生出疑虑，然刘备求贤之心不悔，三兄弟虽偶有怨言，终因敬重兄长而随之再约。</p>
+  <div class="hk"><b>钩子</b><span>两顾茅庐皆扑空，这位卧龙究竟是徒有虚名，还是另有所求？</span></div>
+  <div class="hk"><b>悬念</b><span>孔明其实早已得知刘备来访却闭门不出，避世之下似藏着更深的心事。</span></div>
+  <div class="meta"><i>S08</i><i>S07</i><i>C01</i><i>C02</i><i>C03</i><i>C05</i><i class="warn">人群</i><i class="warn" title="刘备与关张三兄弟同往同框登门，孔明方始终未正面出现，两处人马无对手戏；柴扉前以三兄弟近景、背影与过肩交替，室内草堂另机位静物示意，控制群像密度三兄弟即可。">同框拆解 ✓</i></div>
+</article>
+<article class="ep" id="ep-36">
+  <span class="num">36</span>
+  <header><b>第 36 集</b><i class="bt">隆中对策</i></header>
+  <p class="syn">第三次造访，诸葛亮终于出面，于隆中草庐之中为刘备条陈天下大势：曹操挟天子拥北方之众不可与之争锋，孙权据江东可为援不可为敌图，唯有荆州益州可取，据两州险塞，西和诸戎南抚夷越，则可成鼎足三分之势。刘备如拨云雾而见青天，茅塞顿开，当即虚心求请。隆中对定，卧龙出山之局初成。</p>
+  <div class="hk"><b>钩子</b><span>卧龙一席隆中对当真能三分天下，替刘备重振汉室山河？</span></div>
+  <div class="hk"><b>悬念</b><span>出山只在一步之遥，孔明却迟迟未肯开口应下师兄的托付。</span></div>
+  <div class="meta"><i>S07</i><i>C01</i><i>C05</i><i>C02</i><i>C03</i><i class="warn" title="隆中对正面对手戏仅刘备孔明二人对谈，关羽张飞守候于柴扉之外另机位，过肩交代守候，三方不正面同框，避免破坏两人对峙谈策的焦点。">同框拆解 ✓</i></div>
+</article>
+<article class="ep" id="ep-37">
+  <span class="num">37</span>
+  <header><b>第 37 集</b><i class="bt major">卧龙出山</i></header>
+  <p class="syn">诸葛亮感刘备三顾之诚，又念天下生民倒悬，遂以军师之委出山相佐。刘备得卧龙如鱼得水，关羽张飞见兄长得此臂助也替其欢喜。曹操闻刘备竟得卧龙为军师，心下暗惊，刘表亦惴惴不安。卧龙出山，刘备集团自此有了定策之人，兄弟情义之外更添智谋核心，去留进退皆有人执棋。</p>
+  <div class="hk"><b>钩子</b><span>卧龙出山后的头一仗，会先让谁见识这位军师的手段？</span></div>
+  <div class="hk"><b>悬念</b><span>曹操既恨又惧，荆州刘表亦存忌惮，下一柄刀正缓缓指向新野。</span></div>
+  <div class="meta"><i>S07</i><i>C01</i><i>C05</i><i>C02</i><i>C03</i><i>C04</i><i class="warn" title="刘备与孔明同框交接军师之位为主景，关羽张飞作拥护群像近景；曹操在许都另场观讯，与新野无同框，分场拍，突出新野卧龙出山的主舞台。">同框拆解 ✓</i></div>
+</article>
+<article class="ep" id="ep-38">
+  <span class="num">38</span>
+  <header><b>第 38 集</b><i class="bt major">两把火</i></header>
+  <p class="syn">曹将夏侯惇提兵进犯新野，诸葛亮初掌兵权便调兵遣将，设伏博望坡，诱敌深入，一把大火烧得曹军大乱，夏侯惇仓皇败走。新野方面孔明知城小难守，遂诱敌入城关门放火，二把火接踵而起，曹军连吃两亏丧胆而退。军师首用兵，两把火立下威名，刘关张对孔明自此心悦诚服。</p>
+  <div class="hk"><b>钩子</b><span>两把火虽退了曹军，小小的新野终究不得不弃，刘备下一个栖身之地又在哪里？</span></div>
+  <div class="hk"><b>悬念</b><span>烧退夏侯惇只是序幕，曹操恼羞成怒，南下的数十万大军正在路上。</span></div>
+  <div class="meta"><i>S07</i><i>C01</i><i>C05</i><i>C02</i><i>C03</i><i>C23</i><i class="warn">人群</i><i class="warn">肢体接触</i><i class="warn" title="博望坡、新野两场人潮军阵宏大，以孔明登高指挥为视觉主点，刘关张分领兵马各据一片机位，夏侯惇败走用远景群体与近景独骑轮换，避免多人正面特写堆砌。">同框拆解 ✓</i></div>
+</article>
+<article class="ep" id="ep-39">
+  <span class="num">39</span>
+  <header><b>第 39 集</b><i class="bt">荆州易主</i></header>
+  <p class="syn">刘表病逝，荆州由其幼子刘琮继立，其母蔡氏一族趁机专权，慑于曹操兵威，竟举荆州全境投降曹操。刘备闻荆州易主，张飞怒而欲动，然势单力孤无可争锋，只得弃新野而走，暂避江夏。一夜之间荆州九郡尽归曹操，刘备再度流离失所，形势急转直下，兄弟又陷无立锥之地。</p>
+  <div class="hk"><b>钩子</b><span>荆州不战而降，孤军刘备前有曹操百万兵，后有降曹之叛，还能往哪里走？</span></div>
+  <div class="hk"><b>悬念</b><span>襄阳城门大开改旗易帜，手执兵锋的曹操，下一步正要把刀尖对准刘备。</span></div>
+  <div class="meta"><i>S08</i><i>C01</i><i>C02</i><i>C03</i><i>C05</i><i class="warn">人群</i><i class="warn" title="刘备与孔明、关羽张飞在府中对谈弃城之事，四人同框以孔明献策为焦点，关羽张飞分作两旁近景表意武将立场，画面控制在四人内，不铺城门群阵大场面。">同框拆解 ✓</i></div>
+</article>
+<article class="ep" id="ep-40">
+  <span class="num">40</span>
+  <header><b>第 40 集</b><i class="bt">携民渡江</i></header>
+  <p class="syn">曹操得荆州挥军急追，刘备领十余万百姓渡江撤退，江边泥泞，民众相扶相携，辎重难行，行军极其缓慢。诸将力劝刘备弃民先行，刘备断然不忍，言百姓一时相随，患难之中安可弃之，坚持与百姓同行。背后曹军铁骑步步逼近，刘备抱定与民共进退之心，当阳道上险象环生，危急关头已然迫在眉睫。</p>
+  <div class="hk"><b>钩子</b><span>十万百姓拖慢了行军的脚步，身后曹军铁骑却越来越近，这条载满人的路到底能不能走得出去？</span></div>
+  <div class="hk"><b>悬念</b><span>乱军之中孤儿寡母早已失散，阿斗尚在襁褓，一场失散的祸事正悄然逼近。</span></div>
+  <div class="meta"><i>S07</i><i>C01</i><i>C02</i><i>C03</i><i>C05</i><i>C11</i><i class="warn">雨戏</i><i class="warn">人群</i><i class="warn">肢体接触</i><i class="warn" title="携民渡江人群极为庞大，以刘备居中骑行为主视觉，百姓作分堆群像铺满远景，关羽张飞孔明赵云分领护卫各自成片机位，中近景只落刘备单人与百姓搀扶特写，避免全正面人群齐铺。">同框拆解 ✓</i></div>
+</article>
+<article class="ep" id="ep-41">
+  <span class="num">41</span>
+  <header><b>第 41 集</b><i class="bt major">单骑救主</i></header>
+  <p class="syn">曹军于长坂坡将刘备家小冲散，甘夫人与阿斗陷入乱军。赵云单枪匹马杀回，于万军之中左冲右突，枪挑曹营数将，护着阿斗且战且走，最终将幼主救出交还刘备，浑身是伤仍宁死不退。</p>
+  <div class="hk"><b>钩子</b><span>赵云孤身陷敌，救出的阿斗能否活着送出长坂坡？</span></div>
+  <div class="hk"><b>悬念</b><span>十万军民与刘氏家小仓皇渡江，关羽张飞两兄弟各自失散，究竟流落何方、何时才能聚拢？</span></div>
+  <div class="meta"><i>S07</i><i>C11</i><i>C01</i><i>C04</i><i class="warn">人群</i><i class="warn">战争</i><i class="warn" title="赵云救主三人同框改以分场拆解：阿斗与甘夫人失散、刘备坠马被救、赵云枪挑敌将分作三波，曹军以人海背影与过肩镜头一带而过，不与赵云正面共身。">同框拆解 ✓</i></div>
+</article>
+<article class="ep" id="ep-42">
+  <span class="num">42</span>
+  <header><b>第 42 集</b><i class="bt major">喝退千军</i></header>
+  <p class="syn">赵云突围归来，张飞立于长板桥横丈八蛇矛断后。曹军追至桥前，张飞圆睁环眼厉声一喝，声若巨雷，曹军将卒惊疑有伏而不敢近前，相率退去，刘备一军由此得保。</p>
+  <div class="hk"><b>钩子</b><span>一喝之间曹军丧胆，站在桥头厉声断后的这个人究竟是谁？</span></div>
+  <div class="hk"><b>悬念</b><span>张飞虽吓退追兵，曹操闻讯必复起大军，这次败走是否真能脱身？</span></div>
+  <div class="meta"><i>S07</i><i>C03</i><i>C04</i><i class="warn">人群</i><i class="warn">战争</i><i class="warn" title="张飞与曹军隔桥分站两端不同框拍：曹军整阵以背影与乌压压人海带过，张飞独立于桥头画面，两军对峙以分镜切替呈现。">同框拆解 ✓</i></div>
+</article>
+<article class="ep" id="ep-43">
+  <span class="num">43</span>
+  <header><b>第 43 集</b><i class="bt">联吴抗曹</i></header>
+  <p class="syn">曹操大军南下逼近，刘备暂避江夏，诸葛亮请命亲往东吴陈说利害。至江东，孔明与鲁肃相见，陈言曹操兵多难敌，唯孙刘两家携手方能自保，鲁肃力主联刘，亲引孔明去见孙权。</p>
+  <div class="hk"><b>钩子</b><span>孔明单舟渡江，东吴满朝尽主降，他凭什么说动孙权？</span></div>
+  <div class="hk"><b>悬念</b><span>孙权尚未松口，曹操的劝降书信已至，一主和一主战，东吴的去留悬在半空。</span></div>
+  <div class="meta"><i>S08</i><i>S09</i><i>C05</i><i>C13</i><i>C14</i><i class="warn">人群</i><i class="warn" title="孔明与鲁肃同行一场、鲁肃引见孙权相对一场分场拍，江东群臣背景以人群背影带过，三人未致同框即按分场处理。">同框拆解 ✓</i></div>
+</article>
+<article class="ep" id="ep-44">
+  <span class="num">44</span>
+  <header><b>第 44 集</b><i class="bt">舌战群儒</i></header>
+  <p class="syn">孙权升帐议事，东吴一班文臣力主归降。孔明立于堂上与群儒逐条辩难，引经据典驳得众人语塞，主降派面红耳赤无话可应。孙权听得动容，伐曹之心渐生，遂与孔明定下联合抗曹之计。</p>
+  <div class="hk"><b>钩子</b><span>满堂文臣被一人驳得哑口无言，孙权心里那杆秤会往哪边倒？</span></div>
+  <div class="hk"><b>悬念</b><span>孙权虽被打动，周瑜尚在柴桑未归，江东真正的兵权仍握在何人之手？</span></div>
+  <div class="meta"><i>S09</i><i>C05</i><i>C14</i><i>C13</i><i class="warn">人群</i><i class="warn" title="帐中群儒以正面群像与过肩镜头拍，孔明居中为话语焦点，孙权与鲁肃以反应镜头切替，群臣交头接耳作背景人群，分批机位避免同框拥挤。">同框拆解 ✓</i></div>
+</article>
+<article class="ep" id="ep-45">
+  <span class="num">45</span>
+  <header><b>第 45 集</b><i class="bt">反间计</i></header>
+  <p class="syn">周瑜设计，令蒋干以同窗之谊前来劝降。蒋干入营，见周瑜帐中一纸书信，正是蔡瑁张允暗通东吴的密信，遂窃书连夜渡江献与曹操。曹操览信大怒，立斩蔡瑁张允，水军都督之头落地，借刀诛将。</p>
+  <div class="hk"><b>钩子</b><span>蒋干偷走的那封信，曹操会杀谁？</span></div>
+  <div class="hk"><b>悬念</b><span>蔡瑁张允一死，曹营精于水战的将才尽去，这会给即将到来的大战埋下什么祸根？</span></div>
+  <div class="meta"><i>S09</i><i>C12</i><i>C18</i><i>C04</i><i class="warn">手部特写</i><i class="warn" title="蒋干盗书一段分场拍：周瑜与蒋干假醉对饮一场，蒋干灯下偷信一封，渡江献书曹操一场，各场互不重叠同框。">同框拆解 ✓</i></div>
+</article>
+<article class="ep" id="ep-46">
+  <span class="num">46</span>
+  <header><b>第 46 集</b><i class="bt major">草船借箭</i></header>
+  <p class="syn">周瑜限孔明十日造箭十万，孔明应下三日之期。趁大雾浓重，孔明尽调二十只草船逼近曹营水寨，擂鼓呐喊佯攻。曹营不敢出战，乱箭齐射草船，雾散收船时十万雕翎尽入囊中。周瑜验箭，自愧不如。</p>
+  <div class="hk"><b>钩子</b><span>三日之期已到，孔明真能凭空造出十万支箭？</span></div>
+  <div class="hk"><b>悬念</b><span>草船借箭虽成，周瑜对孔明的忌惮又深一层，这把妒火究竟会烧向谁？</span></div>
+  <div class="meta"><i>S09</i><i>C05</i><i>C12</i><i class="warn">人群</i><i class="warn">手部特写</i><i class="warn" title="草船与曹营水寨隔江分场：孔明船上以鼓声喊声与船影带过曹军，曹兵放箭以岸侧箭雨配合，两军不直接同框。">同框拆解 ✓</i></div>
+</article>
+<article class="ep" id="ep-47">
+  <span class="num">47</span>
+  <header><b>第 47 集</b><i class="bt">苦肉计</i></header>
+  <p class="syn">周瑜与黄盖定下苦肉计，当众欲斩黄盖，众臣力阻，改刑脊杖五十。黄盖被重责打得皮开肉绽，忍痛受刑。庞统则借蒋干引荐入曹营，进言说把战船首尾用铁索连环，曹操欣然采纳。当夜黄盖又密送降书至曹营，曹操半信半疑，部下亦生回测。</p>
+  <div class="hk"><b>钩子</b><span>挨了五十脊杖的老将，当真会叛主投曹吗？</span></div>
+  <div class="hk"><b>悬念</b><span>曹操收下降书却未全信，这封降书写的是真心还是圈套？</span></div>
+  <div class="meta"><i>S09</i><i>C12</i><i>C19</i><i>C20</i><i class="warn">肢体接触</i><i class="warn">受伤</i><i class="warn">人群</i><i class="warn" title="帐中诸将围观刑杖，以过肩与人群背影拍，周瑜与黄盖正面相对为主，旁人背景化不抢戏。">同框拆解 ✓</i></div>
+</article>
+<article class="ep" id="ep-48">
+  <span class="num">48</span>
+  <header><b>第 48 集</b><i class="bt">祭风</i></header>
+  <p class="syn">火攻需东南风定向，隆冬偏刮西北风。孔明筑七星坛祭风，披发仗剑登坛。半日过后，江面风向果然渐转，东南风起。万事俱备只欠东风，东风既来，火攻之局即将展开。</p>
+  <div class="hk"><b>钩子</b><span>隆冬的西北风，真能被孔明祭成东南风吗？</span></div>
+  <div class="hk"><b>悬念</b><span>东南风已起，可曹营铁索连船，这一把火到底要如何烧起来？</span></div>
+  <div class="meta"><i>S09</i><i>C05</i><i>C12</i><i class="warn">人群</i><i class="warn" title="孔明登坛与周瑜观坛分场拍，闲杂兵卒以背影与坛下人群带过，二人视角以分镜切替。">同框拆解 ✓</i></div>
+</article>
+<article class="ep" id="ep-49">
+  <span class="num">49</span>
+  <header><b>第 49 集</b><i class="bt major">火烧赤壁</i></header>
+  <p class="syn">东南风劲，黄盖率火船顺风直奔曹营水寨，纵火船冲入铁索连环的船阵，火借风势、风助火威，百万曹军瞬间葬身火海。曹操大营化为灰烬，曹军大溃。曹操率残部仓皇北走，仅以身免。</p>
+  <div class="hk"><b>钩子</b><span>赤壁一场大火，气吞万里的曹操满盘皆输，他能活着逃出去吗？</span></div>
+  <div class="hk"><b>悬念</b><span>曹军溃散，孔明已算定曹操必经华容道，那道挡路的到底是谁？</span></div>
+  <div class="meta"><i>S09</i><i>C04</i><i>C19</i><i>C12</i><i class="warn">火攻</i><i class="warn">大江</i><i class="warn">人群</i><i class="warn">战争</i><i class="warn" title="火船冲阵与曹营大乱以全景与群像分场，黄盖火船与曹操帅船不同框，曹军败逃以黑压压人海背影带出。">同框拆解 ✓</i></div>
+</article>
+<article class="ep" id="ep-50">
+  <span class="num">50</span>
+  <header><b>第 50 集</b><i class="bt">义释曹操</i></header>
+  <p class="syn">曹操败走华容道，残兵败将在泥泞山道中艰难前行。伏兵尽出，关羽横青龙偃月刀勒马拦住去路。曹操屈身转述昔日厚恩，关羽念及旧日待己之情，终令手下军士让马，放曹操一行而去。关公义重，违军令放走曹操。</p>
+  <div class="hk"><b>钩子</b><span>关公的长髯在风中扬起，刀已举起，这一刀到底落不落得下去？</span></div>
+  <div class="hk"><b>悬念</b><span>关羽私放曹操，军令如山，回头见了刘备与孔明，又该如何收场？</span></div>
+  <div class="meta"><i>S09</i><i>C02</i><i>C04</i><i class="warn">人群</i><i class="warn">战争</i><i class="warn" title="华容道狭路对峙，关羽与曹操正面对话一场，两军兵卒退居两侧以背影与过肩镜头带过，不抢二人正面对峙的戏。">同框拆解 ✓</i></div>
+</article>
+    </div>
+    <button class="epsmore">▾ 展开全部 50 集</button>
+  </div>
+</section>
+
+<section id="sec-scenes">
+  <div class="sec-h"><span class="no">03</span><h2>场景概览</h2><span class="note">右上 = 出现集</span></div>
+  <div class="scenes">
+<article class="scard">
+  <span class="snum">1–2</span>
+  <h3><span class="id">S01</span>涿郡·桃园（结义处）<span class="badge">主场景</span></h3>
+  <div class="strip"><i class="on"></i><i class="on"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i></div>
+  <div class="srow"><b>承载爽点</b><span>结拜盟誓 · 正义曲</span></div>
+  <div class="srow"><b>出场角色</b><i>C01</i><i>C02</i><i>C03</i><i>C17</i></div>
+</article>
+<article class="scard">
+  <span class="snum">5 · 6 · 10</span>
+  <h3><span class="id">S02</span>虎牢关—汜水关·诸侯联军前线<span class="badge">主场景</span></h3>
+  <div class="strip"><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class="on"></i><i class="on"></i><i class=""></i><i class=""></i><i class=""></i><i class="on"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i></div>
+  <div class="srow"><b>承载爽点</b><span>温酒斩将 · 三英联手 · 群雄割据</span></div>
+  <div class="srow"><b>出场角色</b><i>C01</i><i>C02</i><i>C03</i><i>C04</i><i>C10</i><i>C16</i><i>C06</i><i>C08</i><i>C24</i></div>
+</article>
+<article class="scard">
+  <span class="snum">6 集</span>
+  <h3><span class="id">S03</span>洛阳·长安·汉廷宫廷<span class="badge">主场景</span></h3>
+  <div class="strip"><i class=""></i><i class=""></i><i class="on"></i><i class="on"></i><i class=""></i><i class=""></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i></div>
+  <div class="srow"><b>承载爽点</b><span>惊险行刺 · 伏笔夺玺 · 暴行警示 · 离间计 · 锄奸高潮 · 群雄割据</span></div>
+  <div class="srow"><b>出场角色</b><i>C04</i><i>C09</i><i>C10</i><i>C24</i><i>C06</i><i>C08</i><i>C07</i></div>
+</article>
+<article class="scard">
+  <span class="snum">10 集</span>
+  <h3><span class="id">S04</span>许都·曹操府邸与汉廷<span class="badge">主场景</span></h3>
+  <div class="strip"><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class="on"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i><i class="on"></i><i class="on"></i><i class=""></i><i class=""></i><i class="on"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class="on"></i><i class=""></i><i class=""></i><i class=""></i><i class="on"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i></div>
+  <div class="srow"><b>承载爽点</b><span>挟天子 · 低谷投曹 · 论英雄 · 衣带诏 · 单刀赴会 · 诛文丑 · 灞桥挑袍 · 再入乱局 · 北定 · 荐贤</span></div>
+  <div class="srow"><b>出场角色</b><i>C04</i><i>C10</i><i>C01</i><i>C02</i><i>C03</i><i>C22</i><i>C15</i></div>
+</article>
+<article class="scard">
+  <span class="snum">5 集</span>
+  <h3><span class="id">S05</span>徐州·小沛·下邳<span class="badge">主场景</span></h3>
+  <div class="strip"><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class="on"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i></div>
+  <div class="srow"><b>承载爽点</b><span>仁政让贤 · 背盟夺城 · 一箭射戟 · 刚烈独白 · 古城重逢</span></div>
+  <div class="srow"><b>出场角色</b><i>C01</i><i>C02</i><i>C03</i><i>C06</i><i>C23</i><i>C04</i></div>
+</article>
+<article class="scard">
+  <span class="snum">10 集</span>
+  <h3><span class="id">S06</span>官渡前线（白马·延津·乌巢）<span class="badge">主场景</span></h3>
+  <div class="strip"><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i></div>
+  <div class="srow"><b>承载爽点</b><span>斩颜良 · 诛文丑 · 灞桥挑袍 · 过五关斩六将 · 再入乱局 · 官渡对峙 · 谋士离心 · 乌巢烧粮 · 江东余波 · 北定</span></div>
+  <div class="srow"><b>出场角色</b><i>C02</i><i>C21</i><i>C04</i><i>C22</i><i>C01</i><i>C03</i><i>C10</i><i>C25</i></div>
+</article>
+<article class="scard">
+  <span class="snum">10 集</span>
+  <h3><span class="id">S07</span>新野—卧龙岗—长坂坡·当阳道<span class="badge">主场景</span></h3>
+  <div class="strip"><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class="on"></i><i class=""></i><i class=""></i><i class=""></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i></div>
+  <div class="srow"><b>承载爽点</b><span>江东余波 · 迁新野 · 荐贤 · 三顾茅庐 · 隆中对策 · 卧龙出山 · 两把火 · 携民渡江 · 单骑救主 · 喝退千军</span></div>
+  <div class="srow"><b>出场角色</b><i>C01</i><i>C02</i><i>C03</i><i>C15</i><i>C04</i><i>C05</i><i>C23</i><i>C11</i></div>
+</article>
+<article class="scard">
+  <span class="snum">6 集</span>
+  <h3><span class="id">S08</span>荆州·襄阳城<span class="badge">主场景</span></h3>
+  <div class="strip"><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i><i class="on"></i><i class=""></i><i class=""></i><i class=""></i><i class="on"></i><i class=""></i><i class=""></i><i class=""></i><i class="on"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i></div>
+  <div class="srow"><b>承载爽点</b><span>依荆 · 荆州暗流 · 迁新野 · 三顾茅庐 · 荆州易主 · 联吴抗曹</span></div>
+  <div class="srow"><b>出场角色</b><i>C01</i><i>C02</i><i>C03</i><i>C05</i><i>C13</i><i>C14</i></div>
+</article>
+<article class="scard">
+  <span class="snum">43–50</span>
+  <h3><span class="id">S09</span>赤壁·江上船阵与华容道山道<span class="badge">主场景</span></h3>
+  <div class="strip"><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></div>
+  <div class="srow"><b>承载爽点</b><span>联吴抗曹 · 舌战群儒 · 反间计 · 草船借箭 · 苦肉计 · 祭风 · 火烧赤壁 · 义释曹操</span></div>
+  <div class="srow"><b>出场角色</b><i>C05</i><i>C13</i><i>C14</i><i>C12</i><i>C18</i><i>C04</i><i>C19</i><i>C20</i><i>C02</i></div>
+</article>
+  </div>
+</section>
+
+<section id="sec-decisions">
+  <div class="sec-h"><span class="no">04</span><h2>关键决策</h2><span class="note">拍板过的三件事，落进纸面</span></div>
+  <div class="dec3">
+  <div class="dcol">
+    <h3 class="sub">砍了哪条线</h3>
+    <ul class="dlist"><li><b>曹操统一北方后的后三国线（诸葛亮北伐、司马氏篡权等）</b><small>短剧止于华容道，后三国与刘关张主线分离</small></li><li><b>孙氏江东内部细线（孙策余部、孙权周瑜内部权争）</b><small>只保留赤壁抗曹必要部分，其余砍掉</small></li><li><b>神异修仙线（于吉、左慈等）</b><small>写实历史短剧，砍掉神术降谈</small></li><li><b>大批文臣党铺垫（只留王允、许攸等有戏的）</b><small>集中叙事，压缩人物</small></li><li><b>徐州前十八路诸侯中大量同名武将的单场戏</b><small>背景化处理，避免人物堆砌</small></li></ul>
+    <p class="dnote seal">这意味着：全剧止于第五十回华容道义释曹操。曹操后期统一北方、魏蜀吴三国鼎立正式成形、司马氏篡权等后三国线全部不用；孙氏江东内部、大批文臣党的细枝末节、神异修仙线（左慈于吉等）一律砍掉，只留撑起刘关张主线的骨架。</p>
+  </div>
+  <div class="dcol">
+    <h3 class="sub">合了哪些人</h3>
+    <p class="dhead">25 个角色位（主角组 5 · 重要配角 10 · 功能性 10）</p>
+    <p class="dhead">主角组：刘备、关羽、张飞、曹操、诸葛亮</p>
+    <ul class="dlist"><li><b>各营报信小卒合并为统一的『传令兵』功能性角色</b><small>多集传递军情之桥，合成一张脸</small></li><li><b>诸侯联军中的大批将领戏压缩为『联军军阵』群像</b><small>避免名将堆砌分散主线</small></li></ul>
+    <p class="dnote seal">主角组五人入选理由：刘备（仁德之主，从织席贩履到携民渡江有完整上升弧）、关羽（忠义的化身，斩华雄、过五关千里寻主、华容道义释，弧最完整）、张飞（莽勇而有情，鞭督邮到喝退千军）、曹操（乱世枭雄，从刺董壮士到挟天子令诸侯的反派弧）、诸葛亮（智谋核心，隆中对三分天下，赤壁决胜的临门一脚）。</p>
+  </div>
+  <div class="dcol">
+    <h3 class="sub">大爆点落在第几集</h3>
+    <ul class="dmaj"><li><i>ep1</i><span><b>结拜盟誓</b> 桃园之中焚香结义，誓同生死，结拜之情成立</span><em>首个</em></li><li><i>ep5</i><span><b>温酒斩将</b> 关羽温酒之间斩华雄于帐前，一举成名</span></li><li><i>ep6</i><span><b>三英联手</b> 刘关张三英围战吕布，退其锐气，三兄弟威名…</span></li><li><i>ep9</i><span><b>锄奸高潮</b> 吕布于殿前刺死董卓，锄奸功成，长安震动</span></li><li><i>ep17</i><span><b>论英雄</b> 曹赞『天下英雄惟使君与操耳』，刘备惊赭，…</span></li><li><i>ep23</i><span><b>过五关斩六将</b> 过五关斩六将，面不改色，忠义之名天下皆闻</span></li><li><i>ep24</i><span><b>古城重逢</b> 刘关张三兄弟古城重逢，义释前嫌，结拜之情…</span></li><li><i>ep28</i><span><b>乌巢烧粮</b> 一夜大火烧尽袁绍粮秣，官渡大捷，北方随之…</span></li><li><i>ep37</i><span><b>卧龙出山</b> 孔明以军师之委出山，刘备集团自此有智无憾</span></li><li><i>ep38</i><span><b>两把火</b> 孔明初用兵，博望坡、新野两把火烧退曹军，…</span></li><li><i>ep41</i><span><b>单骑救主</b> 赵云单骑杀回乱军，枪挑曹营名将，救出阿斗</span></li><li><i>ep42</i><span><b>喝退千军</b> 张飞横矛长坂桥一喝，曹军战栗而退，勇冠三…</span></li><li><i>ep46</i><span><b>草船借箭</b> 孔明乘雾草船借箭，一夜得箭十万，神机妙算…</span></li><li><i>ep49</i><span><b>火烧赤壁</b> 火烧赤壁，百万曹军灰飞烟灭，曹操仅以身免…</span><em>终局</em></li></ul>
+  </div>
+</div>
+</section>
+
+<section id="sec-matrix">
+  <div class="sec-h"><span class="no">05</span><h2>每集调度矩阵</h2><span class="note">一列 = 这一集要谁、在哪拍</span></div>
+  <div class="matrix" style="--cw:16px">
+  <table>
+    <tr><th>角色 / 场景 / 道具</th><th>层级</th><th class="ep-h">1</th><th class="ep-h">2</th><th class="ep-h">3</th><th class="ep-h">4</th><th class="ep-h">5</th><th class="ep-h">6</th><th class="ep-h">7</th><th class="ep-h">8</th><th class="ep-h">9</th><th class="ep-h">10</th><th class="ep-h">11</th><th class="ep-h">12</th><th class="ep-h">13</th><th class="ep-h">14</th><th class="ep-h">15</th><th class="ep-h">16</th><th class="ep-h">17</th><th class="ep-h">18</th><th class="ep-h">19</th><th class="ep-h">20</th><th class="ep-h">21</th><th class="ep-h">22</th><th class="ep-h">23</th><th class="ep-h">24</th><th class="ep-h">25</th><th class="ep-h">26</th><th class="ep-h">27</th><th class="ep-h">28</th><th class="ep-h">29</th><th class="ep-h">30</th><th class="ep-h">31</th><th class="ep-h">32</th><th class="ep-h">33</th><th class="ep-h">34</th><th class="ep-h">35</th><th class="ep-h">36</th><th class="ep-h">37</th><th class="ep-h">38</th><th class="ep-h">39</th><th class="ep-h">40</th><th class="ep-h">41</th><th class="ep-h">42</th><th class="ep-h">43</th><th class="ep-h">44</th><th class="ep-h">45</th><th class="ep-h">46</th><th class="ep-h">47</th><th class="ep-h">48</th><th class="ep-h">49</th><th class="ep-h">50</th><th>合计</th></tr>
+    <tr><td class="name">刘备</td><td class="tier">主角组</td><td class="mc on"></td><td class="mc on"></td><td class="mc"></td><td class="mc"></td><td class="mc on"></td><td class="mc on"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on"></td><td class="mc on"></td><td class="mc on"></td><td class="mc"></td><td class="mc on"></td><td class="mc on"></td><td class="mc on"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on"></td><td class="mc on"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on"></td><td class="mc"></td><td class="mc on"></td><td class="mc on"></td><td class="mc on"></td><td class="mc on"></td><td class="mc on"></td><td class="mc on"></td><td class="mc on"></td><td class="mc on"></td><td class="mc on"></td><td class="mc on"></td><td class="mc on"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="n">24</td></tr>
+<tr><td class="name">关羽</td><td class="tier">主角组</td><td class="mc on"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on"></td><td class="mc on"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on"></td><td class="mc on"></td><td class="mc"></td><td class="mc"></td><td class="mc on"></td><td class="mc"></td><td class="mc"></td><td class="mc on"></td><td class="mc on"></td><td class="mc on"></td><td class="mc on"></td><td class="mc on"></td><td class="mc on"></td><td class="mc on"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on"></td><td class="mc"></td><td class="mc on"></td><td class="mc on"></td><td class="mc on"></td><td class="mc on"></td><td class="mc on"></td><td class="mc on"></td><td class="mc on"></td><td class="mc on"></td><td class="mc on"></td><td class="mc on"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on"></td><td class="n">25</td></tr>
+<tr><td class="name">张飞</td><td class="tier">主角组</td><td class="mc on"></td><td class="mc on"></td><td class="mc"></td><td class="mc"></td><td class="mc on"></td><td class="mc on"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on"></td><td class="mc on"></td><td class="mc on"></td><td class="mc"></td><td class="mc on"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on"></td><td class="mc on"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on"></td><td class="mc"></td><td class="mc on"></td><td class="mc on"></td><td class="mc on"></td><td class="mc on"></td><td class="mc on"></td><td class="mc on"></td><td class="mc on"></td><td class="mc on"></td><td class="mc on"></td><td class="mc on"></td><td class="mc"></td><td class="mc on"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="n">22</td></tr>
+<tr><td class="name">曹操</td><td class="tier">主角组</td><td class="mc"></td><td class="mc"></td><td class="mc on"></td><td class="mc"></td><td class="mc on"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on"></td><td class="mc on"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on"></td><td class="mc on"></td><td class="mc on"></td><td class="mc on"></td><td class="mc on"></td><td class="mc on"></td><td class="mc on"></td><td class="mc on"></td><td class="mc"></td><td class="mc"></td><td class="mc on"></td><td class="mc on"></td><td class="mc on"></td><td class="mc on"></td><td class="mc"></td><td class="mc on"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on"></td><td class="mc"></td><td class="mc"></td><td class="mc on"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on"></td><td class="mc on"></td><td class="mc"></td><td class="mc"></td><td class="mc on"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on"></td><td class="mc on"></td><td class="n">24</td></tr>
+<tr><td class="name">诸葛亮</td><td class="tier">主角组</td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on"></td><td class="mc on"></td><td class="mc on"></td><td class="mc on"></td><td class="mc on"></td><td class="mc on"></td><td class="mc"></td><td class="mc"></td><td class="mc on"></td><td class="mc on"></td><td class="mc"></td><td class="mc on"></td><td class="mc"></td><td class="mc on"></td><td class="mc"></td><td class="mc"></td><td class="n">10</td></tr>
+<tr><td class="name">吕布</td><td class="tier">重要配角</td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on"></td><td class="mc on"></td><td class="mc on"></td><td class="mc on"></td><td class="mc on"></td><td class="mc"></td><td class="mc"></td><td class="mc on"></td><td class="mc on"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="n">7</td></tr>
+<tr><td class="name">貂蝉</td><td class="tier">重要配角</td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on"></td><td class="mc on"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="n">2</td></tr>
+<tr><td class="name">王允</td><td class="tier">重要配角</td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on"></td><td class="mc on"></td><td class="mc on"></td><td class="mc on"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="n">4</td></tr>
+<tr><td class="name">董卓</td><td class="tier">重要配角</td><td class="mc"></td><td class="mc"></td><td class="mc on"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on"></td><td class="mc on"></td><td class="mc on"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="n">4</td></tr>
+<tr><td class="name">袁绍</td><td class="tier">重要配角</td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on"></td><td class="mc on"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on"></td><td class="mc on"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on"></td><td class="mc on"></td><td class="mc"></td><td class="mc"></td><td class="mc on"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="n">7</td></tr>
+<tr><td class="name">赵云</td><td class="tier">重要配角</td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on"></td><td class="mc on"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="n">2</td></tr>
+<tr><td class="name">周瑜</td><td class="tier">重要配角</td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on"></td><td class="mc on"></td><td class="mc on"></td><td class="mc on"></td><td class="mc on"></td><td class="mc"></td><td class="n">5</td></tr>
+<tr><td class="name">鲁肃</td><td class="tier">重要配角</td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on"></td><td class="mc on"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="n">2</td></tr>
+<tr><td class="name">孙权</td><td class="tier">重要配角</td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on"></td><td class="mc on"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="n">2</td></tr>
+<tr><td class="name">徐庶</td><td class="tier">重要配角</td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="n">1</td></tr>
+<tr><td class="name">华雄</td><td class="tier">功能性角色</td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="n">1</td></tr>
+<tr><td class="name">督邮</td><td class="tier">功能性角色</td><td class="mc"></td><td class="mc on"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="n">1</td></tr>
+<tr><td class="name">蒋干</td><td class="tier">功能性角色</td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="n">1</td></tr>
+<tr><td class="name">黄盖</td><td class="tier">功能性角色</td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on"></td><td class="mc"></td><td class="mc on"></td><td class="mc"></td><td class="n">2</td></tr>
+<tr><td class="name">庞统</td><td class="tier">功能性角色</td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="n">1</td></tr>
+<tr><td class="name">颜良</td><td class="tier">功能性角色</td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="n">1</td></tr>
+<tr><td class="name">文丑</td><td class="tier">功能性角色</td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="n">1</td></tr>
+<tr><td class="name">夏侯惇</td><td class="tier">功能性角色</td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="n">2</td></tr>
+<tr><td class="name">孙坚</td><td class="tier">功能性角色</td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="n">2</td></tr>
+<tr><td class="name">许攸</td><td class="tier">功能性角色</td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on"></td><td class="mc on"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="n">2</td></tr>
+<tr class="div"><td colspan="53">场　景</td></tr>
+<tr><td class="name">涿郡·桃园（结义处）</td><td class="tier">主场景</td><td class="mc on sc"></td><td class="mc on sc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="n">2</td></tr>
+<tr><td class="name">虎牢关—汜水关·诸侯联军前线</td><td class="tier">主场景</td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on sc"></td><td class="mc on sc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on sc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="n">3</td></tr>
+<tr><td class="name">洛阳·长安·汉廷宫廷</td><td class="tier">主场景</td><td class="mc"></td><td class="mc"></td><td class="mc on sc"></td><td class="mc on sc"></td><td class="mc"></td><td class="mc"></td><td class="mc on sc"></td><td class="mc on sc"></td><td class="mc on sc"></td><td class="mc on sc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="n">6</td></tr>
+<tr><td class="name">许都·曹操府邸与汉廷</td><td class="tier">主场景</td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on sc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on sc"></td><td class="mc on sc"></td><td class="mc on sc"></td><td class="mc on sc"></td><td class="mc"></td><td class="mc on sc"></td><td class="mc on sc"></td><td class="mc"></td><td class="mc"></td><td class="mc on sc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on sc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on sc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="n">10</td></tr>
+<tr><td class="name">徐州·小沛·下邳</td><td class="tier">主场景</td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on sc"></td><td class="mc on sc"></td><td class="mc on sc"></td><td class="mc on sc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on sc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="n">5</td></tr>
+<tr><td class="name">官渡前线（白马·延津·乌巢）</td><td class="tier">主场景</td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on sc"></td><td class="mc on sc"></td><td class="mc on sc"></td><td class="mc on sc"></td><td class="mc"></td><td class="mc on sc"></td><td class="mc on sc"></td><td class="mc on sc"></td><td class="mc on sc"></td><td class="mc on sc"></td><td class="mc on sc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="n">10</td></tr>
+<tr><td class="name">新野—卧龙岗—长坂坡·当阳道</td><td class="tier">主场景</td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on sc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on sc"></td><td class="mc on sc"></td><td class="mc on sc"></td><td class="mc on sc"></td><td class="mc on sc"></td><td class="mc on sc"></td><td class="mc"></td><td class="mc on sc"></td><td class="mc on sc"></td><td class="mc on sc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="n">10</td></tr>
+<tr><td class="name">荆州·襄阳城</td><td class="tier">主场景</td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on sc"></td><td class="mc on sc"></td><td class="mc on sc"></td><td class="mc"></td><td class="mc on sc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on sc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on sc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="n">6</td></tr>
+<tr><td class="name">赤壁·江上船阵与华容道山道</td><td class="tier">主场景</td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on sc"></td><td class="mc on sc"></td><td class="mc on sc"></td><td class="mc on sc"></td><td class="mc on sc"></td><td class="mc on sc"></td><td class="mc on sc"></td><td class="mc on sc"></td><td class="n">8</td></tr>
+<tr class="div"><td colspan="53">道　具</td></tr>
+<tr><td class="name">传国玉玺</td><td class="tier">B04</td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on pp"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="n">1</td></tr>
+<tr><td class="name">七星宝刀</td><td class="tier">B03</td><td class="mc"></td><td class="mc"></td><td class="mc on pp"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="n">1</td></tr>
+<tr><td class="name">方天画戟</td><td class="tier">B14</td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on pp"></td><td class="mc"></td><td class="mc"></td><td class="mc on pp"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on pp"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="n">3</td></tr>
+<tr><td class="name">衣带诏</td><td class="tier">B18</td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on pp"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="n">1</td></tr>
+<tr><td class="name">青龙偃月刀</td><td class="tier">B05、B20、B23</td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on pp"></td><td class="mc on pp"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on pp"></td><td class="mc on pp"></td><td class="mc on pp"></td><td class="mc on pp"></td><td class="mc on pp"></td><td class="mc on pp"></td><td class="mc on pp"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on pp"></td><td class="n">10</td></tr>
+<tr><td class="name">丈八蛇矛</td><td class="tier">B42</td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on pp"></td><td class="mc on pp"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on pp"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="n">3</td></tr>
+<tr><td class="name">雕翎箭（草船所借之箭）</td><td class="tier">B46</td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on pp"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="n">1</td></tr>
+<tr><td class="name">曹营假降书</td><td class="tier">B45</td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc on pp"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="mc"></td><td class="n">1</td></tr>
+  </table>
+  
+</div>
+</section>
+
+<section id="sec-plan">
+  <div class="sec-h"><span class="no">06</span><h2>资产量折算</h2><span class="note">按档自动折算 · 不让模型写</span></div>
+  <div class="plan">
+  <table><thead><tr><th>层级</th><th>人数</th><th>角色</th><th>资产量</th></tr></thead>
+<tbody><tr><td>主角组</td><td>5</td><td>刘备、关羽、张飞、曹操、诸葛亮</td><td>全套角色设定图 + 逐镜一致性核对</td></tr>
+<tr><td>重要配角</td><td>10</td><td>吕布、貂蝉、王允、董卓、袁绍、赵云、周瑜、鲁肃、孙权、徐庶</td><td>半身参考图，关键戏核对</td></tr>
+<tr><td>功能性角色</td><td>10</td><td>华雄、督邮、蒋干、黄盖、庞统、颜良、文丑、夏侯惇、孙坚、许攸</td><td>提示词直出，松散一致即可</td></tr>
+<tr><td>场景环境</td><td>9</td><td>涿郡·桃园（结义处）、虎牢关—汜水关·诸侯联军前线、洛阳·长安·汉廷宫廷、许都·曹操府邸与汉廷、徐州·小沛·下邳、官渡前线（白马·延津·乌巢）、新野—卧龙岗—长坂坡·当阳道、荆州·襄阳城、赤壁·江上船阵与华容道山道</td><td>主场景各一套环境参考 + 光照基调</td></tr>
+<tr><td>叙事道具</td><td>8</td><td>传国玉玺、七星宝刀、方天画戟、衣带诏、青龙偃月刀、丈八蛇矛、雕翎箭（草船所借之箭）、曹营假降书</td><td>每件一套白底设定图 + 状态变体，跨集要长一样</td></tr>
+<tr><td>生成难点</td><td>78</td><td>人群 ×31（第 1、7、10、11、13、14、15、16、19、20、21、22、23、24、25、26、28、30、35、38、39、40、41、42、43、44、46、47、48、49、50 集） · 肢体冲突 ×4（第 2、3、6、9 集） · 手部特写 ×10（第 3、5、15、17、18、21、22、23、45、46 集） · 战斗人物 ×5（第 5、6、7、9、10 集） · 流血 ×5（第 5、6、7、9、10 集） · 肢体接触 ×12（第 8、13、15、16、18、19、20、24、34、38、40、47 集） · 血 ×2（第 15、20 集） · 雨戏 ×2（第 23、40 集） · 战争 ×4（第 41、42、49、50 集） · 受伤 ×1（第 47 集） · 火攻 ×1（第 49 集） · 大江 ×1（第 49 集）</td><td>拍摄前逐条过预警清单</td></tr></tbody></table>
+  </div>
+</section>
+
+<section id="sec-characters">
+  <div class="sec-h"><span class="no">07</span><h2>人物表</h2></div>
+  <table><thead><tr><th>ID</th><th>角色</th><th>层级</th><th>定位</th><th>人物弧</th><th>← 改动记录</th></tr></thead>
+<tbody><tr><td>C01</td><td>刘备</td><td>主角组</td><td>仁德之主·结义大哥</td><td>从织席贩履的汉室宗亲，经鞭督邮、三让徐州、携民渡江，到三顾请出诸葛亮，以『兄弟如手足』收拢人心，赤壁后仍秉结义之情</td><td>原著刘备</td></tr>
+<tr><td>C02</td><td>关羽</td><td>主角组</td><td>忠义武圣·结义二弟</td><td>温酒斩华雄初显，过五关千里寻主，败于北、义重于金，最终在华容道违军令义释曹操，忠义升华为全剧主题</td><td>原著关羽</td></tr>
+<tr><td>C03</td><td>张飞</td><td>主角组</td><td>猛将·结义三弟</td><td>从怒鞭督邮的莽夫，历徐州失守、古城重逢，到长坂桥横矛喝退曹军，于勇猛中见兄弟情深</td><td>原著张飞</td></tr>
+<tr><td>C04</td><td>曹操</td><td>主角组</td><td>乱世枭雄·主线反派</td><td>从刺董的壮士，经陈留起兵、迎献帝挟天子令诸侯，到青梅煮酒对刘备既招揽又忌惮，终赤壁大败、华容道被义释</td><td>原著曹操</td></tr>
+<tr><td>C05</td><td>诸葛亮</td><td>主角组</td><td>卧龙军师·智谋核心</td><td>隆中对定三分天下，出山后博望坡、新野两把火烧出军师威名，草船借箭、祭东风，为刘备集团注入智谋底气，赤壁决胜后正式接棒</td><td>原著诸葛亮</td></tr>
+<tr><td>C06</td><td>吕布</td><td>重要配角</td><td>反复无常的猛将</td><td>从刺董的义士蜕变为反覆小人，辕门射戟显其勇，终失徐州、败於曹操</td><td>原著吕布</td></tr>
+<tr><td>C07</td><td>貂蝉</td><td>重要配角</td><td>连环计美人·离间棋子</td><td>王允连环计的核心一环，于凤仪亭离间董卓吕布，锄奸功成后功成身隐</td><td>原著貂蝉</td></tr>
+<tr><td>C08</td><td>王允</td><td>重要配角</td><td>汉室忠臣·连环计主谋</td><td>以美人连环计诛董卓，忠于汉室，计成后身死</td><td>原著王允</td></tr>
+<tr><td>C09</td><td>董卓</td><td>重要配角</td><td>暴戾权臣·乱世祸首</td><td>把持朝政、焚掠洛阳，铺陈乱世底色，终被吕布诛杀</td><td>原著董卓</td></tr>
+<tr><td>C10</td><td>袁绍</td><td>重要配角</td><td>名门望族·曹操劲敌</td><td>坐拥河北名门之势却空负傲才，官渡乌巢之败后败亡，反衬曹操枭雄</td><td>原著袁绍</td></tr>
+<tr><td>C11</td><td>赵云</td><td>重要配角</td><td>常山子龙·忠义名将</td><td>袁绍败北后经公孙瓒投奔刘备，长坂坡单骑救阿斗立孤忠，成为刘备集团新生代武将</td><td>原著赵云</td></tr>
+<tr><td>C12</td><td>周瑜</td><td>重要配角</td><td>江东大都督·赤壁主将</td><td>赤壁之战的江东主将，与孔明亦敌亦僚，智取曹操却终映衬孔明智谋</td><td>原著周瑜</td></tr>
+<tr><td>C13</td><td>鲁肃</td><td>重要配角</td><td>联吴抗曹谋士</td><td>东吴坚定的联刘派，赤壁盟约的维系者，促成孙刘联盟</td><td>原著鲁肃</td></tr>
+<tr><td>C14</td><td>孙权</td><td>重要配角</td><td>江东少主·东吴之主</td><td>父兄基业上的江东之主，赤壁抉择中联刘抗曹，定鼎江东</td><td>原著孙权</td></tr>
+<tr><td>C15</td><td>徐庶</td><td>重要配角</td><td>荐贤谋士</td><td>先佐刘备于新野，走马荐诸葛亮后被迫归曹，诸葛亮出山的引路人</td><td>原著徐庶</td></tr>
+<tr><td>C16</td><td>华雄</td><td>功能性角色</td><td>汜水关守将</td><td>—</td><td>原著华雄</td></tr>
+<tr><td>C17</td><td>督邮</td><td>功能性角色</td><td>欺压刘备的官吏</td><td>—</td><td>原著督邮</td></tr>
+<tr><td>C18</td><td>蒋干</td><td>功能性角色</td><td>曹操说客·连环计枢纽</td><td>—</td><td>原著蒋干</td></tr>
+<tr><td>C19</td><td>黄盖</td><td>功能性角色</td><td>苦肉计诈降的江东老将</td><td>—</td><td>原著黄盖</td></tr>
+<tr><td>C20</td><td>庞统</td><td>功能性角色</td><td>连环计的献计者</td><td>—</td><td>原著庞统</td></tr>
+<tr><td>C21</td><td>颜良</td><td>功能性角色</td><td>河北名将</td><td>—</td><td>原著颜良</td></tr>
+<tr><td>C22</td><td>文丑</td><td>功能性角色</td><td>河北猛将</td><td>—</td><td>原著文丑</td></tr>
+<tr><td>C23</td><td>夏侯惇</td><td>功能性角色</td><td>曹操猛将</td><td>—</td><td>原著夏侯惇</td></tr>
+<tr><td>C24</td><td>孙坚</td><td>功能性角色</td><td>得传国玉玺的江东猛将</td><td>—</td><td>原著孙坚</td></tr>
+<tr><td>C25</td><td>许攸</td><td>功能性角色</td><td>官渡背主投曹的袁营谋士</td><td>—</td><td>原著许攸</td></tr></tbody></table>
+</section>
+
+<section id="sec-adaptation">
+  <div class="sec-h"><span class="no">08</span><h2>改编说明</h2><span class="note">为什么这么改 · 附原文依据</span></div>
+  <p class="core">从桃园结义到华容道，刘备、关羽、张飞以『结义』二字贯穿乱世五十年：讨董、辗转逐鹿、三顾请出诸葛亮，终在赤壁大败曹操后，华容道上关公违军令义释曹操——结义之情高过阵营之分，兄弟在乱世聚散离合的宿命即全剧之核。</p>
+  <h3 class="sub">保留</h3><table><thead><tr><th>内容</th><th>理由</th><th>原文依据</th></tr></thead>
+<tbody><tr><td>桃园三结义（刘备、关羽、张飞结拜盟誓）</td><td>全剧情感地基与主线引擎，兄弟情贯穿始终</td><td><q>『不求同年同月同日生，但愿同年同月同日死』</q></td></tr>
+<tr><td>温酒斩华雄、三英战吕布</td><td>刘关张三兄弟初显锋芒，讨董高潮</td><td><q>『云长策马刺华雄于帐前』</q></td></tr>
+<tr><td>曹操青梅煮酒论英雄</td><td>曹刘两人既招揽又忌惮的心理战，主线张力核心</td><td><q>『天下英雄，惟使君与操耳』</q></td></tr>
+<tr><td>关羽千里走单骑、过五关斩六将</td><td>忠义主题的顶点，玉可碎而不可改其白</td><td><q>『吾等誓同生死，岂可相背』</q></td></tr>
+<tr><td>官渡乌巢烧粮</td><td>袁绍败亡、曹操统一北方，为南下图荆州铺垫</td><td><q>『此一火，绝袁绍之命』</q></td></tr>
+<tr><td>三顾茅庐、隆中对、博望坡·新野两把火</td><td>诸葛亮出山，刘备集团获得智谋核心，主线起飞</td><td><q>『三分天下，可图中原』</q></td></tr>
+<tr><td>长坂坡赵子龙单骑救主、张飞喝退曹军</td><td>刘关张兄弟与赵云归附的悲壮高光</td><td><q>『我乃燕人张翼德也，谁敢与我决一死战』</q></td></tr>
+<tr><td>赤壁之战（草船借箭、借东风、火烧赤壁、华容道义释曹操）</td><td>全剧大决战与收束，孔明智谋、关公忠义双峰值</td><td><q>『火烧赤壁，百万曹军灰飞烟灭』</q></td></tr></tbody></table>
+  <h3 class="sub">砍掉</h3><table><thead><tr><th>内容</th><th>理由</th></tr></thead>
+<tbody><tr><td>曹操统一北方后的后三国线（诸葛亮北伐、司马氏篡权等）</td><td>短剧止于华容道，后三国与刘关张主线分离</td></tr>
+<tr><td>孙氏江东内部细线（孙策余部、孙权周瑜内部权争）</td><td>只保留赤壁抗曹必要部分，其余砍掉</td></tr>
+<tr><td>神异修仙线（于吉、左慈等）</td><td>写实历史短剧，砍掉神术降谈</td></tr>
+<tr><td>大批文臣党铺垫（只留王允、许攸等有戏的）</td><td>集中叙事，压缩人物</td></tr>
+<tr><td>徐州前十八路诸侯中大量同名武将的单场戏</td><td>背景化处理，避免人物堆砌</td></tr></tbody></table>
+  <h3 class="sub">合并</h3><table><thead><tr><th>内容</th><th>理由</th></tr></thead>
+<tbody><tr><td>各营报信小卒合并为统一的『传令兵』功能性角色</td><td>多集传递军情之桥，合成一张脸</td></tr>
+<tr><td>诸侯联军中的大批将领戏压缩为『联军军阵』群像</td><td>避免名将堆砌分散主线</td></tr></tbody></table>
+  <h3 class="sub">风险与对策</h3><table><thead><tr><th>内容</th><th>对策</th></tr></thead>
+<tbody><tr><td>50集压缩120回中前50回，人物众多易散</td><td>主角组5人定死，其余以功能性标签伺候，不追踪</td></tr>
+<tr><td>历史权谋文戏多、打斗密度低</td><td>爽点类型以『智谋碾压』『忠义抉择』为主，辅以关键单挑</td></tr>
+<tr><td>赤壁后兄弟散场（华容道义释）情感落点收束</td><td>用结义之情贯穿，最终落地情义而非战争</td></tr></tbody></table>
+</section>
+
+<section id="sec-gates">
+  <div class="sec-h"><span class="no">09</span><h2>质量门</h2></div>
+  <ul class="gate">
+  <li class="ok"><span class="m">✓</span><span>主角组 1–5 人</span></li>
+  <li class="ok"><span class="m">✓</span><span>重要配角 ≤ 10 人</span></li>
+  <li class="ok"><span class="m">✓</span><span>功能性角色 ≤ 10 人</span></li>
+  <li class="ok"><span class="m">✓</span><span>主场景 ≤ 9</span></li>
+  <li class="ok"><span class="m">✓</span><span>叙事道具 ≤ 8 件</span></li>
+  <li class="ok"><span class="m">✓</span><span>一次性场景已标注规避方案</span></li>
+  <li class="ok"><span class="m">✓</span><span>爽点间隔 ≤ 3 集，无真空区</span></li>
+  <li class="ok"><span class="m">✓</span><span>第 1 集有钩子</span></li>
+  <li class="ok"><span class="m">✓</span><span>大爆点不在最后一集才首次出现</span></li>
+  <li class="ok"><span class="m">✓</span><span>每集梗概三栏齐全（含【钩子】【悬念】）</span></li>
+  <li class="ok"><span class="m">✓</span><span>三人以上同框已标注拆解方案</span></li>
+  <li class="ok"><span class="m">✓</span><span>生成难点已进预警清单</span></li>
+  <li class="ok"><span class="m">✓</span><span>场景/角色/道具引用完整，无失业角色、无空转场景、无零集道具</span></li>
+  <li class="ok"><span class="m">✓</span><span>梗概是叙述体，无引号对白</span></li>
+</ul>
+  <p class="gsum">全部通过</p>
+</section>
+
+<p class="foot">大纲由模型依据原文生成，质量门由脚本确定性检查。</p>
+</div>
+
+<script type="application/json" id="outline-data">{"source":"三国演义","lang":"zh","params":{"episodes":50,"minutesPerEpisode":3,"genre":"历史权谋·兄弟情义","adaptMode":"抽核","preferences":["刘关张主线（桃园结义→赤壁·华容道）"]},"adaptation":{"core":"从桃园结义到华容道，刘备、关羽、张飞以『结义』二字贯穿乱世五十年：讨董、辗转逐鹿、三顾请出诸葛亮，终在赤壁大败曹操后，华容道上关公违军令义释曹操——结义之情高过阵营之分，兄弟在乱世聚散离合的宿命即全剧之核。","cutNote":"这意味着：全剧止于第五十回华容道义释曹操。曹操后期统一北方、魏蜀吴三国鼎立正式成形、司马氏篡权等后三国线全部不用；孙氏江东内部、大批文臣党的细枝末节、神异修仙线（左慈于吉等）一律砍掉，只留撑起刘关张主线的骨架。","mergeNote":"主角组五人入选理由：刘备（仁德之主，从织席贩履到携民渡江有完整上升弧）、关羽（忠义的化身，斩华雄、过五关千里寻主、华容道义释，弧最完整）、张飞（莽勇而有情，鞭督邮到喝退千军）、曹操（乱世枭雄，从刺董壮士到挟天子令诸侯的反派弧）、诸葛亮（智谋核心，隆中对三分天下，赤壁决胜的临门一脚）。","keep":[{"what":"桃园三结义（刘备、关羽、张飞结拜盟誓）","why":"全剧情感地基与主线引擎，兄弟情贯穿始终","evidence":"『不求同年同月同日生，但愿同年同月同日死』"},{"what":"温酒斩华雄、三英战吕布","why":"刘关张三兄弟初显锋芒，讨董高潮","evidence":"『云长策马刺华雄于帐前』"},{"what":"曹操青梅煮酒论英雄","why":"曹刘两人既招揽又忌惮的心理战，主线张力核心","evidence":"『天下英雄，惟使君与操耳』"},{"what":"关羽千里走单骑、过五关斩六将","why":"忠义主题的顶点，玉可碎而不可改其白","evidence":"『吾等誓同生死，岂可相背』"},{"what":"官渡乌巢烧粮","why":"袁绍败亡、曹操统一北方，为南下图荆州铺垫","evidence":"『此一火，绝袁绍之命』"},{"what":"三顾茅庐、隆中对、博望坡·新野两把火","why":"诸葛亮出山，刘备集团获得智谋核心，主线起飞","evidence":"『三分天下，可图中原』"},{"what":"长坂坡赵子龙单骑救主、张飞喝退曹军","why":"刘关张兄弟与赵云归附的悲壮高光","evidence":"『我乃燕人张翼德也，谁敢与我决一死战』"},{"what":"赤壁之战（草船借箭、借东风、火烧赤壁、华容道义释曹操）","why":"全剧大决战与收束，孔明智谋、关公忠义双峰值","evidence":"『火烧赤壁，百万曹军灰飞烟灭』"}],"cut":[{"what":"曹操统一北方后的后三国线（诸葛亮北伐、司马氏篡权等）","why":"短剧止于华容道，后三国与刘关张主线分离"},{"what":"孙氏江东内部细线（孙策余部、孙权周瑜内部权争）","why":"只保留赤壁抗曹必要部分，其余砍掉"},{"what":"神异修仙线（于吉、左慈等）","why":"写实历史短剧，砍掉神术降谈"},{"what":"大批文臣党铺垫（只留王允、许攸等有戏的）","why":"集中叙事，压缩人物"},{"what":"徐州前十八路诸侯中大量同名武将的单场戏","why":"背景化处理，避免人物堆砌"}],"merge":[{"what":"各营报信小卒合并为统一的『传令兵』功能性角色","why":"多集传递军情之桥，合成一张脸"},{"what":"诸侯联军中的大批将领戏压缩为『联军军阵』群像","why":"避免名将堆砌分散主线"}],"risks":[{"what":"50集压缩120回中前50回，人物众多易散","plan":"主角组5人定死，其余以功能性标签伺候，不追踪"},{"what":"历史权谋文戏多、打斗密度低","plan":"爽点类型以『智谋碾压』『忠义抉择』为主，辅以关键单挑"},{"what":"赤壁后兄弟散场（华容道义释）情感落点收束","plan":"用结义之情贯穿，最终落地情义而非战争"}]},"characters":[{"id":"C01","name":"刘备","role":"仁德之主·结义大哥","tier":"lead","arc":"从织席贩履的汉室宗亲，经鞭督邮、三让徐州、携民渡江，到三顾请出诸葛亮，以『兄弟如手足』收拢人心，赤壁后仍秉结义之情","from":["原著刘备"]},{"id":"C02","name":"关羽","role":"忠义武圣·结义二弟","tier":"lead","arc":"温酒斩华雄初显，过五关千里寻主，败于北、义重于金，最终在华容道违军令义释曹操，忠义升华为全剧主题","from":["原著关羽"]},{"id":"C03","name":"张飞","role":"猛将·结义三弟","tier":"lead","arc":"从怒鞭督邮的莽夫，历徐州失守、古城重逢，到长坂桥横矛喝退曹军，于勇猛中见兄弟情深","from":["原著张飞"]},{"id":"C04","name":"曹操","role":"乱世枭雄·主线反派","tier":"lead","arc":"从刺董的壮士，经陈留起兵、迎献帝挟天子令诸侯，到青梅煮酒对刘备既招揽又忌惮，终赤壁大败、华容道被义释","from":["原著曹操"]},{"id":"C05","name":"诸葛亮","role":"卧龙军师·智谋核心","tier":"lead","arc":"隆中对定三分天下，出山后博望坡、新野两把火烧出军师威名，草船借箭、祭东风，为刘备集团注入智谋底气，赤壁决胜后正式接棒","from":["原著诸葛亮"]},{"id":"C06","name":"吕布","role":"反复无常的猛将","tier":"support","arc":"从刺董的义士蜕变为反覆小人，辕门射戟显其勇，终失徐州、败於曹操","from":["原著吕布"]},{"id":"C07","name":"貂蝉","role":"连环计美人·离间棋子","tier":"support","arc":"王允连环计的核心一环，于凤仪亭离间董卓吕布，锄奸功成后功成身隐","from":["原著貂蝉"]},{"id":"C08","name":"王允","role":"汉室忠臣·连环计主谋","tier":"support","arc":"以美人连环计诛董卓，忠于汉室，计成后身死","from":["原著王允"]},{"id":"C09","name":"董卓","role":"暴戾权臣·乱世祸首","tier":"support","arc":"把持朝政、焚掠洛阳，铺陈乱世底色，终被吕布诛杀","from":["原著董卓"]},{"id":"C10","name":"袁绍","role":"名门望族·曹操劲敌","tier":"support","arc":"坐拥河北名门之势却空负傲才，官渡乌巢之败后败亡，反衬曹操枭雄","from":["原著袁绍"]},{"id":"C11","name":"赵云","role":"常山子龙·忠义名将","tier":"support","arc":"袁绍败北后经公孙瓒投奔刘备，长坂坡单骑救阿斗立孤忠，成为刘备集团新生代武将","from":["原著赵云"]},{"id":"C12","name":"周瑜","role":"江东大都督·赤壁主将","tier":"support","arc":"赤壁之战的江东主将，与孔明亦敌亦僚，智取曹操却终映衬孔明智谋","from":["原著周瑜"]},{"id":"C13","name":"鲁肃","role":"联吴抗曹谋士","tier":"support","arc":"东吴坚定的联刘派，赤壁盟约的维系者，促成孙刘联盟","from":["原著鲁肃"]},{"id":"C14","name":"孙权","role":"江东少主·东吴之主","tier":"support","arc":"父兄基业上的江东之主，赤壁抉择中联刘抗曹，定鼎江东","from":["原著孙权"]},{"id":"C15","name":"徐庶","role":"荐贤谋士","tier":"support","arc":"先佐刘备于新野，走马荐诸葛亮后被迫归曹，诸葛亮出山的引路人","from":["原著徐庶"]},{"id":"C16","name":"华雄","role":"汜水关守将","tier":"functional","from":["原著华雄"]},{"id":"C17","name":"督邮","role":"欺压刘备的官吏","tier":"functional","from":["原著督邮"]},{"id":"C18","name":"蒋干","role":"曹操说客·连环计枢纽","tier":"functional","from":["原著蒋干"]},{"id":"C19","name":"黄盖","role":"苦肉计诈降的江东老将","tier":"functional","from":["原著黄盖"]},{"id":"C20","name":"庞统","role":"连环计的献计者","tier":"functional","from":["原著庞统"]},{"id":"C21","name":"颜良","role":"河北名将","tier":"functional","from":["原著颜良"]},{"id":"C22","name":"文丑","role":"河北猛将","tier":"functional","from":["原著文丑"]},{"id":"C23","name":"夏侯惇","role":"曹操猛将","tier":"functional","from":["原著夏侯惇"]},{"id":"C24","name":"孙坚","role":"得传国玉玺的江东猛将","tier":"functional","from":["原著孙坚"]},{"id":"C25","name":"许攸","role":"官渡背主投曹的袁营谋士","tier":"functional","from":["原著许攸"]}],"scenes":[{"id":"S01","name":"涿郡·桃园（结义处）","primary":true,"reusePlan":""},{"id":"S02","name":"虎牢关—汜水关·诸侯联军前线","primary":true,"reusePlan":""},{"id":"S03","name":"洛阳·长安·汉廷宫廷","primary":true,"reusePlan":""},{"id":"S04","name":"许都·曹操府邸与汉廷","primary":true,"reusePlan":""},{"id":"S05","name":"徐州·小沛·下邳","primary":true,"reusePlan":""},{"id":"S06","name":"官渡前线（白马·延津·乌巢）","primary":true,"reusePlan":""},{"id":"S07","name":"新野—卧龙岗—长坂坡·当阳道","primary":true,"reusePlan":""},{"id":"S08","name":"荆州·襄阳城","primary":true,"reusePlan":""},{"id":"S09","name":"赤壁·江上船阵与华容道山道","primary":true,"reusePlan":""}],"props":[{"id":"P01","name":"传国玉玺","function":"承载皇权合法性的信物：孙坚于洛阳井中得之，袁绍索取，成为诸侯动武与阴谋的由头","beatIds":["B04"]},{"id":"P02","name":"七星宝刀","function":"曹操刺董之时所献之刀：从忠勇刺奸到挟天子令诸侯，见证曹操由壮士到枭雄的转变","beatIds":["B03"]},{"id":"P03","name":"方天画戟","function":"吕布的标志性兵器：辕门射戟调停之战，彰显其勇武却反复的身份","beatIds":["B14"]},{"id":"P04","name":"衣带诏","function":"汉献帝藏于衣带的血诏：反曹盟约的载体，触发许都宫斗悬念","beatIds":["B18"]},{"id":"P05","name":"青龙偃月刀","function":"关羽武圣标识：斩华雄、斩颜良、过五关斩六将的凭依，忠义的符号化","beatIds":["B05","B20","B23"]},{"id":"P06","name":"丈八蛇矛","function":"张飞猛将标识：长坂桥横矛喝退曹军的依托，勇武的符号化","beatIds":["B42"]},{"id":"P07","name":"雕翎箭（草船所借之箭）","function":"草船借箭所得十万雕翎：孔明神机妙算的铁证，孙刘联营物资之源","beatIds":["B46"]},{"id":"P08","name":"曹营假降书","function":"蒋干盗书、借刀诛蔡瑁张允的离间信：反间计成败的枢杓","beatIds":["B45"]}],"beats":[{"id":"B01","type":"结拜盟誓","weight":"major","episode":1,"setup":"黄巾四起，刘备关羽张飞相识于涿郡","payoff":"桃园之中焚香结义，誓同生死，结拜之情成立"},{"id":"B02","type":"正义曲","weight":"minor","episode":2,"setup":"督邮索贿欺压，张飞在旁怒火中烧","payoff":"张飞将督邮绑于柳枝怒鞭，替兄出气，莽勇初显"},{"id":"B03","type":"惊险行刺","weight":"minor","episode":3,"setup":"董卓乱政，曹操借献刀之机入相府","payoff":"曹操掏出七星宝刀刺董未遂，诈献刀而逃，壮士本色"},{"id":"B04","type":"伏笔夺玺","weight":"minor","episode":4,"setup":"诸侯联军入洛阳，孙坚清理宫殿","payoff":"孙坚于井中得传国玉玺，袁绍索而不得，裂痕埋下"},{"id":"B05","type":"温酒斩将","weight":"major","episode":5,"setup":"华雄连斩联军数将，诸侯皆惧","payoff":"关羽温酒之间斩华雄于帐前，一举成名"},{"id":"B06","type":"三英联手","weight":"major","episode":6,"setup":"吕布于虎牢关前连败联军众将","payoff":"刘关张三英围战吕布，退其锐气，三兄弟威名大振"},{"id":"B07","type":"暴行警示","weight":"minor","episode":7,"setup":"董卓挟帝迁都长安","payoff":"董卓纵火焚掠洛阳，暴行尽显，乱世更乱"},{"id":"B08","type":"离间计","weight":"minor","episode":8,"setup":"王允定连环计，献貂蝉于董卓又许吕布","payoff":"貂蝉于凤仪亭离间董吕，父子反目之帐埋下"},{"id":"B09","type":"锄奸高潮","weight":"major","episode":9,"setup":"董卓独占貂蝉，与吕布决裂","payoff":"吕布于殿前刺死董卓，锄奸功成，长安震动"},{"id":"B10","type":"群雄割据","weight":"minor","episode":10,"setup":"董卓既死，李傕郭汜反攻长安","payoff":"王允身死，汉室播迁，天下彻底进入群雄逐鹿"},{"id":"B11","type":"挟天子","weight":"minor","episode":11,"setup":"曹操迎汉献帝至许都","payoff":"曹操挟天子而令诸侯，权柄大张，宦官枭影成形"},{"id":"B12","type":"仁政让贤","weight":"minor","episode":12,"setup":"陶谦病重，欲让徐州于刘备","payoff":"刘备三让而受徐州，仁德之名远播"},{"id":"B13","type":"背盟夺城","weight":"minor","episode":13,"setup":"吕布趁张飞酒醉夜袭徐州","payoff":"吕布袭取徐州，刘备失城，兄弟再次流亡"},{"id":"B14","type":"一箭射戟","weight":"minor","episode":14,"setup":"袁术遣将攻刘备，吕布居中调停","payoff":"吕布辕门射戟竞夺胜负，一箭解两家兵争，勇武尽显"},{"id":"B15","type":"刚烈独白","weight":"minor","episode":15,"setup":"曹营战事，夏侯惇中箭","payoff":"夏侯惇拔矢啖睛，刚烈过人，曹军士气大振"},{"id":"B16","type":"低谷投曹","weight":"minor","episode":16,"setup":"曹操攻徐州，刘备兵败","payoff":"刘关张三兄弟失散，刘备只身投奔曹操，跌入低谷"},{"id":"B17","type":"论英雄","weight":"major","episode":17,"setup":"曹操与刘备青梅煮酒，酒酣论天下人物","payoff":"曹赞『天下英雄惟使君与操耳』，刘备惊赭，羁绊与震慑并生"},{"id":"B18","type":"衣带诏","weight":"minor","episode":18,"setup":"汉献帝血诏，董承等人密谋反曹","payoff":"衣带诏盟约成立，刘备亦预其间，反曹暗影笼罩许都"},{"id":"B19","type":"单刀赴会","weight":"minor","episode":19,"setup":"曹操拨兵，关羽随曹征讨袁术部","payoff":"关羽于曹营奋勇杀敌，仍着汉衣冠，忠心不被富贵动"},{"id":"B20","type":"斩颜良","weight":"minor","episode":20,"setup":"袁绍遣颜良攻白马，曹军暂挫","payoff":"关羽于万军之中刺死颜良，解白马之围"},{"id":"B21","type":"诛文丑","weight":"minor","episode":21,"setup":"袁绍遣文丑为孚，曹军诱敌","payoff":"关羽于延津阵斩文丑，河北劲旅为之丧胆"},{"id":"B22","type":"灞桥挑袍","weight":"minor","episode":22,"setup":"关羽闻兄在河北，辞曹欲归","payoff":"灞桥挑袍，千里寻兄，忠义之情无可羁缚"},{"id":"B23","type":"过五关斩六将","weight":"major","episode":23,"setup":"关羽护二嫂千里西行，连闯曹军要塞","payoff":"过五关斩六将，面不改色，忠义之名天下皆闻"},{"id":"B24","type":"古城重逢","weight":"major","episode":24,"setup":"关羽至古城，斩蔡阳以明心志","payoff":"刘关张三兄弟古城重逢，义释前嫌，结拜之情团圆"},{"id":"B25","type":"再入乱局","weight":"minor","episode":25,"setup":"刘备离曹赴袁，袁曹对峙渐起","payoff":"关羽回归后，刘备离曹，袁绍曹操兵锋相向"},{"id":"B26","type":"官渡对峙","weight":"minor","episode":26,"setup":"袁绍举大军南下，曹操兵少应战","payoff":"两军于官渡相持，粮秣战成胜负关键"},{"id":"B27","type":"谋士离心","weight":"minor","episode":27,"setup":"许攸献计不被袁绍采纳，愤而背袁","payoff":"许攸连夜投曹，献出袁营屯粮之地乌巢"},{"id":"B28","type":"乌巢烧粮","weight":"major","episode":28,"setup":"曹操得许攸情报，决计奇袭乌巢","payoff":"一夜大火烧尽袁绍粮秣，官渡大捷，北方随之一统"},{"id":"B29","type":"江东余波","weight":"minor","episode":29,"setup":"孙坚之子孙策据江东，缺兵粮","payoff":"孙策借玺质袁术而得兵，虽枭雄江东，仍映衬玉玺之诱"},{"id":"B30","type":"北定","weight":"minor","episode":30,"setup":"袁绍忧愤成疾，其子内争","payoff":"袁绍败亡，曹操尽收河北，北方大体一统"},{"id":"B31","type":"依荆","weight":"minor","episode":31,"setup":"刘备失荆州之附，投奔刘表","payoff":"刘备依刘表于荆州，暂得喘息，然前景未卜"},{"id":"B32","type":"荆州暗流","weight":"minor","episode":32,"setup":"刘表病重，蔡氏与外戚擅权","payoff":"荆州内部暗流涌动，刘备人心所向却无处安身"},{"id":"B33","type":"迁新野","weight":"minor","episode":33,"setup":"曹操南征荆州在即，刘备转驻新野","payoff":"刘备率军屯新野，立足豫南，暂避兵锋"},{"id":"B34","type":"荐贤","weight":"minor","episode":34,"setup":"徐庶佐刘备于新野，被曹操用计赚走","payoff":"徐庶走马荐诸葛，临别荐卧龙替己，刘备求贤心切"},{"id":"B35","type":"三顾茅庐","weight":"minor","episode":35,"setup":"刘备两次登门皆未遇诸葛亮","payoff":"三顾之诚，初定卧龙，礼贤传为美谈"},{"id":"B36","type":"隆中对策","weight":"minor","episode":36,"setup":"刘备第三次面见诸葛亮，问天下大计","payoff":"隆中对画三分天下，卧龙出山之局初定"},{"id":"B37","type":"卧龙出山","weight":"major","episode":37,"setup":"诸葛亮感刘备三顾之诚，允出山","payoff":"孔明以军师之委出山，刘备集团自此有智无憾"},{"id":"B38","type":"两把火","weight":"major","episode":38,"setup":"曹军犯新野，刘备问计于卫军","payoff":"孔明初用兵，博望坡、新野两把火烧退曹军，军师立威"},{"id":"B39","type":"荆州易主","weight":"minor","episode":39,"setup":"刘表病逝，荆州归其子投降曹操","payoff":"荆州拱手而降，刘备暂避江夏，形势急转"},{"id":"B40","type":"携民渡江","weight":"minor","episode":40,"setup":"曹军南追，刘备欲弃民先行","payoff":"刘备携十万百姓渡江，仁义尽显，被赞仁君"},{"id":"B41","type":"单骑救主","weight":"major","episode":41,"setup":"曹军围困，甘夫人、阿斗失散","payoff":"赵云单骑杀回乱军，枪挑曹营名将，救出阿斗"},{"id":"B42","type":"喝退千军","weight":"major","episode":42,"setup":"曹军追至长坂桥，张飞断后","payoff":"张飞横矛长坂桥一喝，曹军战栗而退，勇冠三军"},{"id":"B43","type":"联吴抗曹","weight":"minor","episode":43,"setup":"曹操南下欲灭孙刘，孔明请使东吴","payoff":"诸葛亮渡江，鲁肃力主联刘，孙刘联盟初定"},{"id":"B44","type":"舌战群儒","weight":"minor","episode":44,"setup":"东吴文臣主降，孔明单刀直入","payoff":"诸葛亮舌战群儒，折服东吴主战派，智压满朝"},{"id":"B45","type":"反间计","weight":"minor","episode":45,"setup":"周瑜欲除蔡瑁张允，蒋干请试","payoff":"蒋干盗书，曹操中反间诛蔡张，水军之头尽去"},{"id":"B46","type":"草船借箭","weight":"major","episode":46,"setup":"周瑜限孔明十日造箭十万","payoff":"孔明乘雾草船借箭，一夜得箭十万，神机妙算折服周瑜"},{"id":"B47","type":"苦肉计","weight":"minor","episode":47,"setup":"曹操水军待变，周瑜欲用诈降","payoff":"黄盖受脊杖受苦肉计，诈降曹操，为火攻埋线"},{"id":"B48","type":"祭风","weight":"minor","episode":48,"setup":"火攻需东南风，隆冬不刮","payoff":"孔明七星坛祭借东南风，万事俱备只欠东风，天时到手"},{"id":"B49","type":"火烧赤壁","weight":"major","episode":49,"setup":"东南风起，黄盖火船近曹营","payoff":"火烧赤壁，百万曹军灰飞烟灭，曹操仅以身免而走"},{"id":"B50","type":"义释曹操","weight":"minor","episode":50,"setup":"曹操败走华容道，关羽领兵把守","payoff":"关羽念旧恩义释曹操，结义之情高于阵营，全剧于情义中收束"}],"episodes":[{"ep":1,"synopsis":"黄巾起事，天下大乱。涿郡招兵榜前，刘备读榜长叹，身后张飞与同乡关羽先后上前搭话，三人相谈甚欢，遂移步桃园，焚香设盟，对天立誓结为异姓兄弟，不求同生但愿同死，关羽张飞共尊刘备为兄，自此桃园之义成立。","hook":"三个萍水相逢的乱世汉子结拜之后，第一仗会如何打响？","suspense":"黄巾之势未平，刘关张三兄弟将如何在这乱世里挣出头。","sceneIds":["S01"],"characterIds":["C01","C02","C03"],"propIds":[],"crowdPlan":"三人结拜为同框重场戏，以三人对拜的中近景为主，穿插各自跪拜的特写，全程无第四人入镜。","warnings":["人群"]},{"ep":2,"synopsis":"刘备因功升任安喜县尉，督邮索贿不得，反以冠冕堂皇之辞刁难刘关张。张飞在旁看得怒火中烧，趁夜将督邮缚于柳树之上狠狠鞭打，替兄出气，督邮告饶求命。刘备为保全张飞并全志气，弃官而去，三兄弟就此踏上漂泊之路。","hook":"打了督邮、丢了官，刘关张接下来该往哪里去？","suspense":"这顿鞭子得罪了上司，日后会不会引来祸端。","sceneIds":["S01"],"characterIds":["C01","C03","C17"],"propIds":[],"crowdPlan":"鞭打督邮为张飞与督邮的双人冲突戏，刘备在旁观望作背景，三人在同一院落但分主次机位，无三刀同框对垒。","warnings":["肢体冲突"]},{"ep":3,"synopsis":"董卓进京，废帝乱政，文武敢怒不敢言。曹操自告奋勇，身佩七星宝刀入相府求见董卓，乘其转背之际上前行刺，却被铜镜映出刀光惊觉。曹操急中生智，将宝刀顺势献上，谎称是献宝而来，旋即脱身上马逃出洛阳，远遁他乡。","hook":"行刺失败的曹操，能躲过董卓的追捕吗？","suspense":"献刀骗局能否瞒过董卓，曹操此败之后又当如何自处。","sceneIds":["S03"],"characterIds":["C04","C09"],"propIds":["P02"],"crowdPlan":"双人戏，无三人同框。","warnings":["肢体冲突","手部特写"]},{"ep":4,"synopsis":"讨董联军入洛阳，董卓已挟帝西去，宫阙为墟。江东猛将孙坚率部清理残宫，忽于枯井中发现传国玉玺，以为天命所归，珍藏不宣。消息泄漏，盟主袁绍当面索要不得，唇枪舌剑，孙刘联军内部从此埋下裂痕，江东与河北势成水火。","hook":"一方的传国玉玺，会让这所谓的讨贼联盟还撑得下去吗？","suspense":"孙坚私藏玉玺被袁绍记恨，江东猛虎种下的杀身之祸尚不自知。","sceneIds":["S03"],"characterIds":["C10","C24"],"propIds":["P01"],"crowdPlan":"玉玺发现场为孙坚单人与井的特写戏，索玺争执为孙坚袁绍双人对手戏，均无三人同框。","warnings":[]},{"ep":5,"synopsis":"汜水关前，华雄连斩联军数员大将，诸侯皆惧。袁绍视麾下无人可敌，正在愁苦之际，关羽请令出阵。曹操温酒相送，关羽让其酒温而不饮，纵马提刀冲出，马到斩人，于温酒未凉之间将华雄首级提回帐前，满帐诸侯为之震动，关羽由此一战成名。","hook":"一爷们儿提回来的华雄人头，会让谁坐不住？","suspense":"关羽斩华雄立下大功，袁绍却未必领情，联军内部的暗流正在滋长。","sceneIds":["S02"],"characterIds":["C01","C02","C03","C04","C10","C16"],"propIds":["P05"],"crowdPlan":"帐外单挑为关羽与华雄双人厮杀特写；帐内众诸侯听闻战报为群像场景，用过肩与背影带过，刘关张以中近景落位，高潮斩将不入同框。","warnings":["战斗人物","流血","手部特写"]},{"ep":6,"synopsis":"虎牢关前，吕布纵赤兔马、持方天画戟，连败联军众将，无人敢撄其锋。张飞先出马直呼厮杀，关羽随后挥刀助阵，刘备也持双股剑加入，三兄弟围着吕布往来冲杀，吕布虽勇却被缠得脱身不得，终于虚晃一戟拨马退去。董卓军锐气尽折，刘关张之名传遍联军。","hook":"把无敌的吕布逼退的三兄弟，还留在曹营这锅浑水里吗？","suspense":"吕布败退，背后是野心勃勃的董卓，虎狼之敌仍在虎视。","sceneIds":["S02"],"characterIds":["C01","C02","C03","C06"],"propIds":["P03","P05"],"crowdPlan":"四将混战为高烈度战斗群像，主拍吕布与三兄弟的近身对打，刘备张飞以过肩和背影穿插，避免四者长久同框的穿帮，收尾以吕布脱战远走的长镜头带过。","warnings":["战斗人物","流血","肢体冲突"]},{"ep":7,"synopsis":"虎牢关兵败后，董卓惧怕诸侯联军逼近洛阳，决意挟汉献帝西迁长安，行前纵兵焚掠洛阳，宫室民居尽付一炬，百姓被驱赶掳掠，哭声载道。洛阳繁华付之一炬，天下更加动荡，而董卓在长安愈发行暴，威凌朝堂。","hook":"烧了洛阳的董卓，在长安还有谁能制得住他？","suspense":"董卓暴行尽露，朝中忠臣心里已各怀去处。","sceneIds":["S03"],"characterIds":["C06","C08","C09"],"propIds":[],"crowdPlan":"焚掠洛阳为全景式的难民群像，用俯拍与远景带过；宫廷内仅董卓、吕布、王允三人的对峙为各自近景分切，无三人同框。","warnings":["人群","战斗人物","流血"]},{"ep":8,"synopsis":"董卓专权，王允忧国之忧，设连环计，先允将义女貂蝉许配吕布，继而又把貂蝉献与董卓为妾。貂蝉周旋于父子之间，于凤仪亭与吕布私会，哭诉身不由己，又刻意教董卓撞见，吕布因此与董卓心生嫌隙，父子二人由盟变仇。","hook":"这枚美人的棋子，能把如虎的董卓父子搅到反目吗？","suspense":"貂蝉游走刀尖之上，一旦露馅便万劫不复，而董吕失和之势已成。","sceneIds":["S03"],"characterIds":["C06","C07","C08","C09"],"propIds":[],"crowdPlan":"凤仪亭私会为貂蝉与吕布双人戏，董卓撞见时以远处入画的背影与过肩呈现，保证各场次分机位拍摄、无三到四人同框。","warnings":["肢体接触"]},{"ep":9,"synopsis":"董卓独占貂蝉，视吕布露骨之意为不轨，父子彻底决裂。王允趁机游说吕布，晓以汉室大义，吕布顿生杀机。次日朝堂之上，李肃入宫诱董卓，董卓方登车，吕布突以画戟当殿刺死董卓，一朝权臣倒伏于阶前，长安军民人心大快。","hook":"杀了董卓，可这长安的乱局真会就此平息吗？","suspense":"董卓虽死，其部曲旧将尚在，王允与吕布未必镇得住这烂摊子。","sceneIds":["S03"],"characterIds":["C06","C07","C08","C09"],"propIds":["P03"],"crowdPlan":"刺董为吕布与董卓的生死对决，王允在侧作背景观望以近景分切，貂蝉不在此场，全片避免四人同框的杂乱机位。","warnings":["战斗人物","流血","肢体冲突"]},{"ep":10,"synopsis":"董卓既死，其部曲李傕、郭汜纠集西凉旧部反攻长安，王允不敌战死，汉献帝播迁逃难，天下自此彻底失去共主，各地诸侯各怀异志，起兵争地。袁绍据河北、曹操起兵陈留、孙氏据江东，群雄逐鹿，割据自雄，乱世愈演愈烈。","hook":"没了老大，天下的枭雄们各自磨刀，这棋盘到底会先乱成什么样？","suspense":"董卓虽除而祸乱更烈，乱世里谁才是最后能成事的人，仍是未知之数。","sceneIds":["S03","S02"],"characterIds":["C04","C06","C08","C10","C24"],"propIds":[],"crowdPlan":"西凉军反攻长安为大队人马混战的群像，用远景与大场面带过；诸侯各自称雄按阵营分组，分别落位各自执斧执戟的近景，不设多阵营同框。","warnings":["人群","战斗人物","流血"]},{"ep":11,"synopsis":"曹操亲迎汉献帝东幸许都，将朝廷威仪尽数把持于己手。他以天子之名颁诏四方、号令诸侯，昔日群雄仰仗的门第名分自此尽归一人调度。曹操挟天子以令诸侯，权柄大张，枭雄之影渐次成形。朝堂之上地位既明，座中的袁绍却冷眼相看，暗生忌惮，一场新的裂痕在诸侯间悄然埋下。","hook":"天子落入曹操掌中，坐拥河北名门的袁绍，岂会坐视曹操借天子之名一步步坐大？","suspense":"曹操以天子纶旨号令天下，群雄割据的旧秩序开始动摇；而袁绍与曹操之间，那句未能出口的争锋已在酝酿。","sceneIds":["S04"],"characterIds":["C04","C10"],"propIds":[],"crowdPlan":"曹操迎驾与朝堂颁诏处，献帝及随驾臣僚为众：曹操近景立威，袁绍于班列一侧以过肩带出，群臣用背影与虚化群像带过，无三主要人物同框，分场拍。","warnings":["人群"]},{"ep":12,"synopsis":"徐州刺史陶谦病入膏肓，临终欲将徐州相让刘备。刘备以仁德为本，以自己名微德薄再三辞让，不肯受此大位。关羽张飞在旁力劝，剖析时局，刘备方勉强受领徐州。就此坐拥一方，仁德之名播于中原，四方才智之士渐有归心。","hook":"三让而得的徐州新鲜到手，刘备要凭哪份胆识，守住这块人人垂涎的膏腴之地？","suspense":"徐州北有吕布虎视在侧，东有袁术窥伺，刘备根基未稳，内忧外患一并压来。","sceneIds":["S05"],"characterIds":["C01","C02","C03"],"propIds":[],"crowdPlan":"陶谦托付之际，刘关张三人同框：刘备居中落座正面受让，关羽张飞分立两侧一近景一过肩，陶谦与侍者以背影或侧面带过，三人分机位、分场交接，避免同框拥挤。","warnings":[]},{"ep":13,"synopsis":"张飞镇守徐州时纵酒，酒醉后督责士卒过甚，军中积怨。吕布窥得城防空虚，趁夜率军掩袭徐州，张飞醉中仓皇应战，城防土崩瓦解。刘备借宿小沛，闻讯急退，三兄弟再度流亡离散，失城之痛就此埋下。","hook":"徐州得而复失，连营抛尽，刘备弟兄三人又将流离到何处栖身？","suspense":"吕布夺了徐州，却容刘备寄居小沛，两人互存戒心、貌合神离，这份表面的安宁随时可能翻作刀兵。","sceneIds":["S05"],"characterIds":["C03","C06","C01","C02"],"propIds":[],"crowdPlan":"夜袭破城一幕：吕布与袭军为进攻方近景突入，张飞酒酣仓皇于城头一侧被冲散，刘备关羽在小沛另一场以中景接应，双方不并置于同框，以夜攻城与退走两线剪辑带出。","warnings":["人群","肢体接触"]},{"ep":14,"synopsis":"袁术遣纪灵引军进犯刘备，吕布为两家居中调停，立大戟于辕门，当众言明一箭射中戟枝便令两家罢兵。满场军阵屏息，吕布弯弓搭箭，一箭正中戟尖小枝，众军皆惊叹其神勇，两家兵争遂依约而解。","hook":"辕门一箭解了眼前的兵祸，可吕布这一手射戟，究竟是在结好刘备，还是在威慑各方？","suspense":"纪灵退兵只是缓兵之局，袁术对徐州野心未死，刘备与吕布的牵制之势随时可能再起兵锋。","sceneIds":["S05"],"characterIds":["C06","C01","C03"],"propIds":["P03"],"crowdPlan":"辕门校场军阵汇聚：吕布张弓近景定格射戟之手，刘备在旁以过肩带出，张飞居后背景，满场兵卒以群像虚化铺开，射戟与众人观感分镜切换，不三主齐框并列，靠机位分层带出氛围。","warnings":["人群"]},{"ep":15,"synopsis":"曹营与吕布军鏖战正酣，夏侯惇阵前中箭，冷箭直贯其左眼。他厉吼一声，将箭猛地拔下，竟张口啖下眼球，视死如归，气势撼动三军。曹军见他如此刚烈，莫不振奋，士气为之大振，一时反压眼前之敌。","hook":"夏侯惇一己之力提振了曹军的胆气，这场与吕布的拉锯战，能否就此见出分晓？","suspense":"吕布骁勇，曹营连日损耗，兖州这边久战不决，曹操的根基正被一点一点啃掉。","sceneIds":["S05"],"characterIds":["C23","C04"],"propIds":[],"crowdPlan":"两军对阵：夏侯惇中箭拔矢为近景特写，曹操于后方坡上观战以中景带出，双方士卒以群像与背影分场铺陈，无三主要人物同框。","warnings":["肢体接触","手部特写","人群","血"]},{"ep":16,"synopsis":"曹操兵锋大举压向徐州，刘备兵微将寡，势不能支而兵败。乱军之中，刘关张三兄弟被冲散，关羽张飞各随乱军走失一方，刘备止剩一身，杀出重围。穷途末路之际，他强忍屈辱，只身投奔曹操，落入虎口以图日后。","hook":"走投无路却偏栖身于最危险的枭雄帐下，刘备能否在曹操眼皮底下苟全性命？","suspense":"张飞关羽各落一方，生死未卜，兄弟一朝离散，重逢之期竟远不可及。","sceneIds":["S04"],"characterIds":["C01","C04","C02","C03"],"propIds":[],"crowdPlan":"溃退场面：刘备单车突围为中景，关羽张飞各在乱军一侧以背影闪过即失，曹操于许都府堂另一场接见，败军群像用虚化带过，三兄弟不并置同框，靠剪辑交代离散。","warnings":["人群","肢体接触"]},{"ep":17,"synopsis":"曹操邀刘备对坐青梅煮酒，纵论当世之英豪。曹操逐一品评袁绍、袁术、吕布等辈，皆称不足为惧，酒酣之际，忽然指刘备而言，谓当今天下英雄，唯使君与操耳。刘备闻言大惊失色，手中箸子不禁坠地，恰逢惊雷炸响，他借掩雷之态稳住神色。","hook":"曹操一句英雄二字，把刘备的韬晦之心几乎逼出原形，刘备此身究竟何以为安？","suspense":"杯酒之间风声鹤唳，曹操的试探句句藏锋，而刘备的惊惧与隐忍，已在两人心里各自结下死结。","sceneIds":["S04"],"characterIds":["C01","C04"],"propIds":[],"crowdPlan":"煮酒二相对饮，刘曹二人分坐对谈，无第三主要人物同框，以火炉与酒盏近景交代氛围。","warnings":["手部特写"]},{"ep":18,"synopsis":"汉献帝受困许都，苦于大权旁落，密将血诏藏于衣带之中，暗结朝中大臣欲除曹操。衣带诏在许都权臣间悄然传递，反曹盟誓渐次结成，刘备亦被拖入局中，在盟约上押下自己的名字。杀机在辉赫的许都府邸之下无声蔓延。","hook":"衣带诏上端正押着刘备的名字，这步反曹险棋一旦败露，刘备将置身何地？","suspense":"许都之中曹操眼线遍布，反曹密盟已有走漏之势，这纸诏书随时可能化作灭门之祸。","sceneIds":["S04"],"characterIds":["C01","C04"],"propIds":["P04"],"crowdPlan":"血诏盟誓一场众臣分处两域：密盟诸臣于密室齐齐跪地立誓见血，用群体背影与侧面带过；曹操于堂上另一场毫无所觉，两线交错剪辑交代，不使反曹之众与曹操同框。","warnings":["手部特写","肢体接触"]},{"ep":19,"synopsis":"曹操出兵征讨袁术旧部，关羽随军征进，于阵前奋威杀敌、屡建奇功。曹操眼热其才，设重金美女、许高官厚禄百般笼络，关羽皆不为所动，依旧身着汉家衣冠，一片忠心不因富贵而移其志。","hook":"曹操的笼络层层加码，关羽这份铁石般的忠义，究竟能否熬过眼前的富贵考验？","suspense":"大哥刘备下落不明，关羽身在曹营心在汉，眼下的安稳不过是一场漫长抉择的前奏。","sceneIds":["S04"],"characterIds":["C02","C04"],"propIds":["P05"],"crowdPlan":"关羽于阵前斩将为近景特写，曹操于帐中宴请为另一场中景，二人不并置同框，战阵与宴席分镜交接，突出关羽受封谢绝非受其恩的忠义分界。","warnings":["人群","肢体接触"]},{"ep":20,"synopsis":"袁绍遣名将颜良引军攻白马，曹军数将皆折于其手，白马岌岌可危。关羽请缨出战，策马直入敌阵，于万军之中手起刀落，一刀刺死颜良，解白马之围，威名自此震于河北，也震了整个天下。","hook":"关羽阵前万军中一刀落了颜良，可袁绍的大军还重重压着白马，曹军这点家底当真守得住吗？","suspense":"颜良丧命之事很快传至袁绍耳中，而刘备恰在袁绍帐中，关羽手刃其爱将，这份兄弟情义将要经受最重的考验。","sceneIds":["S06"],"characterIds":["C02","C21","C04"],"propIds":["P05"],"crowdPlan":"斩将一幕：关羽纵马直插为近景运动镜头，颜良于阵前被突袭以背身侧面中景，曹操于后阵观战以远景带出，漫山曹袁两军士卒以群像虚化铺陈，三主要人物分镜切接，靠万军群像铺氛围。","warnings":["人群","肢体接触","血"]},{"ep":21,"synopsis":"袁绍为报颜良之仇，遣文丑领河北劲旅再攻延津。曹操命军士弃辎重于道，佯装败退诱敌深入。文丑骄横，贪掠辎重自乱阵脚，正欲收兵之际，关羽舞青龙偃月刀乘赤兔马杀出，手起刀落，于万军之中将文丑斩于马下。河北连失颜良、文丑两员大将，军心为之大溃。曹操在阵后观望，既忌惮关羽之神勇，又愈发想将他收为己用，一场关于人才去留的盘算已在心中暗生。","hook":"关羽连斩袁绍两员主将，功高震主——曹操是留他、忌他，还是放他？去留角力已到摊牌边缘。","suspense":"曹操以重金美色相笼，关羽却始终心系千里之外的兄长，许都门内外的忠义考验已暗暗布下。","sceneIds":["S06","S04"],"characterIds":["C02","C04","C22"],"propIds":["P05"],"crowdPlan":"阵战分三层：关羽与文丑的正面交手单对单近景，曹操居高观战，袁军群像以军阵背影和旗幡带过，三人分处三层不同机位，避免同框混战。","warnings":["人群","手部特写"]},{"ep":22,"synopsis":"关羽探得兄长刘备在河北，决意辞曹归兄。临行将曹操所赐金银、美女皆封存不动，留书而去。丞相府众将欲追截，曹操爱其忠义，止而不追，亲至灞桥为之饯行。关羽欲去，曹操借赠袍之机执意相送，关羽恐有埋伏，于马上用青龙偃月刀刀尖挑起所赠锦袍披于身，混在送别的军阵与仪仗之中扬尘离去。曹操目送他的背影，怅然叹其去志之坚。","hook":"灞桥之上曹操与关羽四目相对——这一别，究竟是永诀，还是乱世再见？","suspense":"关羽护嫂西行千里寻主，前路处处是曹军关隘，身在曹营时埋下的情分与戒备，将如何在血路上清算。","sceneIds":["S06","S04"],"characterIds":["C02","C04"],"propIds":["P05"],"crowdPlan":"饯行以仪仗军阵作背景列队，曹操与关羽二人在阵前相对近景，军士以降旗和列队带过，无人加入二人同框的核心表演区。","warnings":["手部特写","人群"]},{"ep":23,"synopsis":"关羽护定二嫂，连闯曹军东岭关、洛阳、汜水、荥阳、黄河渡口五道关隘。沿途守将或梗令不从，或设埋伏堵截，关羽单刀匹马，遇关破关、逢将斩将，一连斩杀六员敌将，护得二位嫂嫂周全。血雨之中他面不改色，青龙偃月刀所指处无人能挡，行至黄河渡口，方才脱出曹军势力范围。一路斩将夺关，关羽之名随刀光传遍，忠义与神勇自此天下皆闻。","hook":"五关已过，六将已斩，关羽终离曹境寻兄——可兄长刘备，此刻究竟身在何方？","suspense":"关羽千里寻兄的音讯尚未送到河北，而他斩曹将无数，与曹操之间的旧情已蒙上一层血影。","sceneIds":["S06"],"characterIds":["C02"],"propIds":["P05"],"crowdPlan":"整个过五关以关羽单骑突进为核心，守关士兵以军阵人墙列于道中，全部用背影与侧面带过，关羽正面推进，始终不与任何群像同框正面纠缠。","warnings":["人群","手部特写","雨戏"]},{"ep":24,"synopsis":"关羽护嫂行至古城，恰遇徐州失散后占城为王的张飞。张飞闻兄长流落曹营多年，疑关羽已叛盟，见面即以蛇矛相向。恰值曹将蔡阳领兵追来，关羽挥刀断后，一个照面将蔡阳斩落，以死战自证清白。张飞疑云顿消，兄弟释然相认。不久刘备闻讯赶来，三兄弟于古城城头重逢，历尽流离再续结义之情，抱头痛哭间感慨万千。","hook":"关羽杀曹将来投，张飞初疑其背盟几乎拼命——这斩蔡阳的一刀，能否洗清关羽三载曹营之身？","suspense":"三兄弟重聚的喜悦之下，袁绍、曹操两雄已在北方剑拔弩张，团聚的兄弟又将被卷入新的乱局。","sceneIds":["S05"],"characterIds":["C01","C02","C03"],"propIds":["P05","P06"],"crowdPlan":"重逢主戏定格三人近景同框：张飞横矛质问在前，关羽与刘备先后入画，三人形成三角站位，四下随从以虚化背景带过，不插手三人同框核心。","warnings":["肢体接触","人群"]},{"ep":25,"synopsis":"三兄弟古城重聚后，因无处安身，刘备借口出击谬称图取袁绍，率部离开曹操。曹操闻刘备脱走，悔恨磨刀不早，斥责左右错失纵虎归山。刘备领关羽、张飞一路转徙，暂投河北袁绍帐下，虽得容身，终究寄人篱下，兄弟每每相对唏嘘。与此同时，袁绍与曹操因刘备去留与邺城旧怨积怨日深，两国磨刀霍霍，兵锋相向在即。","hook":"刘备借机脱曹投袁，曹操闻报大怒——亲手放走的虎，转眼成了敌营的牙。他和袁绍的决战，还能拖多久？","suspense":"刘备身在袁营却心存二志，曹操对他既恨又惦记，乱世中兄弟三人的下一步落脚点仍悬而未决。","sceneIds":["S04","S06"],"characterIds":["C01","C02","C03","C04"],"propIds":["P05","P06"],"crowdPlan":"分两场拍：刘备离曹与曹操盛怒各居一场，不相为邻；兄弟三人同行以列队背影带过，单场仍以二人近景为核心，无三人以上正面同框。","warnings":["人群"]},{"ep":26,"synopsis":"袁绍尽起河北大军，号称数十万，南下直逼曹操。曹操兵少粮缺，被迫退守官渡拒战。两军隔河对峙，袁绍依仗兵多粮广，步步紧逼；曹操则因粮秣不继，军心动摇，进退两难。官渡一役，胜负暂时不决，可明眼人都看出，谁先断了粮，谁就先输。曹操夜巡营垒，望着对岸袁营绵延的灯火与粮草辎重，忧色满面的同时，也在等一个可能改变战局的变数。","hook":"袁绍兵多粮广，曹操兵寡粮乏——官渡这道天堑，眼看就要把曹操困死其中。","suspense":"曹操苦撑待变，袁绍帐下却并非铁板一块，谋士与帅心之间已现裂缝，胜负的天平正偷偷错位。","sceneIds":["S06"],"characterIds":["C04","C10"],"propIds":[],"crowdPlan":"两军隔河对峙，各以本方军阵群像列于画面前后景，曹操与袁绍分处两岸各自主帐前，近景只取单方主将，对方阵营以远景旗幡灯火带过。","warnings":["人群"]},{"ep":27,"synopsis":"官渡相持，袁绍帐下谋士许攸麾下兵士获粮路情报，本该献计袭取许都，却被袁绍以多疑之心呵斥，又受小人谗言所诬，连家眷亦受牵连下狱。许攸大失所望，思及旧日与曹操的交谊，趁夜弃袁投曹。曹操闻许攸来投，来不及穿鞋光脚出迎，长揖请罪。许攸遂托出袁营屯粮之地乌巢的秘密，为曹操指明一击必胜的命门。","hook":"许攸深夜叛袁来投，曹操倒履相迎——他口中那个袁绍的致命破绽，究竟在哪里？","suspense":"许攸之计究竟是真心相投，还是袁绍放下的又一重饵，曹操将信将疑，一场赌上全军的抉择在前。","sceneIds":["S06"],"characterIds":["C04","C10","C25"],"propIds":[],"crowdPlan":"分两场叙事：许攸在袁营帐前受辱、曹操军帐倒履相迎各成一景，三人同框处背帐接见以曹操、许攸二人近景为主，袁绍仅以怒火中烧的单独过场呈现，避免三人正面齐聚。","warnings":[]},{"ep":28,"synopsis":"曹操决计采纳许攸之计，亲率精兵五千，扮作袁军，夜奔乌巢劫粮。守军毫无防备，曹操纵兵放火，乌巢一夜大火冲天，袁军屯积的粮草辎重尽付灰烬。粮草一失，袁绍大军军心大乱，前线精锐又中张郃高览反戈之变，袁军全线溃败。曹操趁势掩杀，官渡一战大破袁绍，袁绍仅带少数人马仓皇北逃。此一火，尽断袁绍之命，天下北方之势自此改观。","hook":"乌巢一把大火烧尽袁绍全部粮草——失了根本的袁绍，还能撑住河北霸业吗？","suspense":"袁绍虽败退河北，曹操欲尽取北方，可袁氏根基未绝，中原烽烟不会就此止熄。","sceneIds":["S06"],"characterIds":["C04","C25"],"propIds":[],"crowdPlan":"夜袭乌巢以曹操率军推进为一线主视角，守军以睡梦中慌乱的军帐背影带过，许攸夜半献计与劫粮主戏分场拍，两人不参与同一支突袭群像的正面同框。","warnings":["人群"]},{"ep":29,"synopsis":"官渡一役尘埃落定，北方的烽火暂歇，天下群雄各安其位，重新观望时局。刘备兄弟在动荡中辗转暂栖，曹操则整顿兵马、积蓄实力，两股力量都在为更远的图谋埋下伏笔。乱世表面上归于平静，实则暗流涌动，各方势力在休整与试探之间，静候下一个转折点的到来。","hook":"官渡已定、北方渐平，可乱世从不给人歇马的太平——下一个卷入漩涡的，又会是谁？","suspense":"刘备兄弟仍在四处漂泊，曹操的目光正投向南方，一场更大的棋局已在暗中布局。","sceneIds":["S06","S07"],"characterIds":["C01","C02","C03"],"propIds":[],"crowdPlan":"本集为过渡群像，刘备兄弟三人在行旅途中的营地或城垣集结，以三人背影与侧影缓行带过，配以平视远景，无正面多人同框交叠。","warnings":[]},{"ep":30,"synopsis":"官渡兵败之后，袁绍退回河北，忧愤交加，渐成重病。其膝下诸子各拥兵而内争，袁谭、袁尚兄弟阋墙，自相残杀，大好河北基业在骨肉相煎中分崩离析。曹操趁其内乱，逐一击破，尽收冀、青、幽、并四州之地。袁绍在忧病与败亡的打击下撒手人寰，袁氏一门自此荡尽。曹操坐拥河北，北方之地大体一统，其势力之盛已达顶峰，望向南方群雄，一统天下的野心正随之膨大。","hook":"袁氏败亡、北方一统，曹操手中已握半壁天下——他的下一刀，会劈向哪里？","suspense":"北方既定，刘备兄弟与江东诸雄均感寒意临头，各自暗合，为东方对峙的结局蓄起新的变数。","sceneIds":["S06","S04"],"characterIds":["C04","C10"],"propIds":[],"crowdPlan":"袁绍病榻的末日之景与曹军收降河北的城垣场景分场拍，袁绍独处病榻近景，曹操率军入城以军阵群像推进为前景，双方不置于同一正面同框中。","warnings":["人群"]},{"ep":31,"synopsis":"刘备北投无路，携关羽张飞辗转依附刘表，被安置于荆州襄阳，暂得栖身地。刘表以宗亲之谊礼遇有加，三兄弟久经流离，兄弟情义愈深。然荆州士人各怀心思，刘备虽得刘表敬重，内里却处处受掣肘，寄人篱下的况味让三兄弟深知天下之大竟无安身立命之处，前景一片未卜。","hook":"依附刘表的刘备，究竟能不能在荆州真正站稳脚跟？","suspense":"刘表待刘备虽厚，荆州内外却已有不怀好意之人盯上了这位来客。","sceneIds":["S08"],"characterIds":["C01","C02","C03"],"propIds":[],"crowdPlan":"刘关张三兄弟在襄阳堂上同框议事，刘表与诸吏作背景群像；机位以三人近景轮换主位，用中景带过堂上群吏，过肩衔接三人对话，避免正面大场面齐铺。","warnings":[]},{"ep":32,"synopsis":"刘表病重，其妻蔡氏一族趁势把持荆州内外，权柄渐旁落。蔡氏忌惮刘备在荆收拢人心，暗中进谗，欲除之而后快。刘表卧床左右为难，既倚重刘备又防其坐大。刘备察觉荆州暗流涌动，处境愈发凶险，却因无处可去只能隐忍。刘关张深感居人檐下之危，夜谈之时不由为兄弟将来发愁。","hook":"荆州暗流里，占尽天时的那一步棋，究竟由谁在暗中落子？","suspense":"蔡氏已生杀心，刘表却迟迟不肯明确表态，杀机正在酝酿。","sceneIds":["S08"],"characterIds":["C01","C02","C03"],"propIds":[],"crowdPlan":"三兄弟与刘表、蔡氏等荆州众臣多员同堂，机位以刘关张三人近景为主，蔡氏一族作画面两端群像并对峙构图，过肩带过密语耳语者，突出压抑氛围而非平铺群阵。","warnings":[]},{"ep":33,"synopsis":"曹操平定北方，厉兵秣马意在南下，荆州首当其冲。刘表命刘备率本部进驻新野，作为荆州北面屏障。刘备奉令离襄阳，屯兵新野，整顿军纪、招揽流民，立足渐稳，暂避曹军兵锋。然新野城小军微，三兄弟深知此地终非久居之所，只是眼下再无更好的退路。","hook":"新野小城又薄兵又弱，凭什么能挡得住曹操南下的百万雄兵？","suspense":"曹操兵锋正在逼近，刘备在新野的这点立足之地，又能撑到何时。","sceneIds":["S08","S07"],"characterIds":["C01","C02","C03"],"propIds":[],"crowdPlan":"离襄阳的刘关张与屯新野后的刘关张，前后分处两场，无三方同框；襄阳辞行场用三人并立背影，新野校场场用三人近景轮换，画面干净不堆人。","warnings":[]},{"ep":34,"synopsis":"徐庶化名单福来投，佐刘备于新野，首战便破了来犯的曹军，智谋尽显。曹操闻徐庶之才，于是设计掳其母相逼，迫徐庶归曹。徐庶为全孝道含泪辞别刘备，临行走马荐诸葛亮，言卧龙不出天下难安，力劝刘备务请卧龙出山。刘备久闻卧龙之名，自此求贤之心炽盛，三顾之约就此埋下。","hook":"徐庶临走丢下一句卧龙二字，这位卧龙究竟是何方人物？","suspense":"徐庶被掳母逼走，这份愧疚与荐贤之心，埋着日后他再回刘备身边的路。","sceneIds":["S07","S04"],"characterIds":["C01","C02","C03","C15","C04"],"propIds":[],"crowdPlan":"徐庶与刘关张三兄弟在新野同框辞行，曹操居于许都另场，无同框，分场拍；新野辞行场以徐庶作过肩主导，三兄弟背影与近景轮换，一人核心其余衬托。","warnings":["肢体接触"]},{"ep":35,"synopsis":"刘备辞别徐庶后携关羽张飞一顾茅庐，未遇诸葛亮，只见其弟诸葛均与卧龙草庐。数日后二顾，值隆冬大雪，关羽张飞劝谏天寒且回，刘备执意冒雪登山，仍不得见。两次扑空，刘关张不由对卧龙之名生出疑虑，然刘备求贤之心不悔，三兄弟虽偶有怨言，终因敬重兄长而随之再约。","hook":"两顾茅庐皆扑空，这位卧龙究竟是徒有虚名，还是另有所求？","suspense":"孔明其实早已得知刘备来访却闭门不出，避世之下似藏着更深的心事。","sceneIds":["S08","S07"],"characterIds":["C01","C02","C03","C05"],"propIds":[],"crowdPlan":"刘备与关张三兄弟同往同框登门，孔明方始终未正面出现，两处人马无对手戏；柴扉前以三兄弟近景、背影与过肩交替，室内草堂另机位静物示意，控制群像密度三兄弟即可。","warnings":["人群"]},{"ep":36,"synopsis":"第三次造访，诸葛亮终于出面，于隆中草庐之中为刘备条陈天下大势：曹操挟天子拥北方之众不可与之争锋，孙权据江东可为援不可为敌图，唯有荆州益州可取，据两州险塞，西和诸戎南抚夷越，则可成鼎足三分之势。刘备如拨云雾而见青天，茅塞顿开，当即虚心求请。隆中对定，卧龙出山之局初成。","hook":"卧龙一席隆中对当真能三分天下，替刘备重振汉室山河？","suspense":"出山只在一步之遥，孔明却迟迟未肯开口应下师兄的托付。","sceneIds":["S07"],"characterIds":["C01","C05","C02","C03"],"propIds":[],"crowdPlan":"隆中对正面对手戏仅刘备孔明二人对谈，关羽张飞守候于柴扉之外另机位，过肩交代守候，三方不正面同框，避免破坏两人对峙谈策的焦点。","warnings":[]},{"ep":37,"synopsis":"诸葛亮感刘备三顾之诚，又念天下生民倒悬，遂以军师之委出山相佐。刘备得卧龙如鱼得水，关羽张飞见兄长得此臂助也替其欢喜。曹操闻刘备竟得卧龙为军师，心下暗惊，刘表亦惴惴不安。卧龙出山，刘备集团自此有了定策之人，兄弟情义之外更添智谋核心，去留进退皆有人执棋。","hook":"卧龙出山后的头一仗，会先让谁见识这位军师的手段？","suspense":"曹操既恨又惧，荆州刘表亦存忌惮，下一柄刀正缓缓指向新野。","sceneIds":["S07"],"characterIds":["C01","C05","C02","C03","C04"],"propIds":[],"crowdPlan":"刘备与孔明同框交接军师之位为主景，关羽张飞作拥护群像近景；曹操在许都另场观讯，与新野无同框，分场拍，突出新野卧龙出山的主舞台。","warnings":[]},{"ep":38,"synopsis":"曹将夏侯惇提兵进犯新野，诸葛亮初掌兵权便调兵遣将，设伏博望坡，诱敌深入，一把大火烧得曹军大乱，夏侯惇仓皇败走。新野方面孔明知城小难守，遂诱敌入城关门放火，二把火接踵而起，曹军连吃两亏丧胆而退。军师首用兵，两把火立下威名，刘关张对孔明自此心悦诚服。","hook":"两把火虽退了曹军，小小的新野终究不得不弃，刘备下一个栖身之地又在哪里？","suspense":"烧退夏侯惇只是序幕，曹操恼羞成怒，南下的数十万大军正在路上。","sceneIds":["S07"],"characterIds":["C01","C05","C02","C03","C23"],"propIds":[],"crowdPlan":"博望坡、新野两场人潮军阵宏大，以孔明登高指挥为视觉主点，刘关张分领兵马各据一片机位，夏侯惇败走用远景群体与近景独骑轮换，避免多人正面特写堆砌。","warnings":["人群","肢体接触"]},{"ep":39,"synopsis":"刘表病逝，荆州由其幼子刘琮继立，其母蔡氏一族趁机专权，慑于曹操兵威，竟举荆州全境投降曹操。刘备闻荆州易主，张飞怒而欲动，然势单力孤无可争锋，只得弃新野而走，暂避江夏。一夜之间荆州九郡尽归曹操，刘备再度流离失所，形势急转直下，兄弟又陷无立锥之地。","hook":"荆州不战而降，孤军刘备前有曹操百万兵，后有降曹之叛，还能往哪里走？","suspense":"襄阳城门大开改旗易帜，手执兵锋的曹操，下一步正要把刀尖对准刘备。","sceneIds":["S08"],"characterIds":["C01","C02","C03","C05"],"propIds":[],"crowdPlan":"刘备与孔明、关羽张飞在府中对谈弃城之事，四人同框以孔明献策为焦点，关羽张飞分作两旁近景表意武将立场，画面控制在四人内，不铺城门群阵大场面。","warnings":["人群"]},{"ep":40,"synopsis":"曹操得荆州挥军急追，刘备领十余万百姓渡江撤退，江边泥泞，民众相扶相携，辎重难行，行军极其缓慢。诸将力劝刘备弃民先行，刘备断然不忍，言百姓一时相随，患难之中安可弃之，坚持与百姓同行。背后曹军铁骑步步逼近，刘备抱定与民共进退之心，当阳道上险象环生，危急关头已然迫在眉睫。","hook":"十万百姓拖慢了行军的脚步，身后曹军铁骑却越来越近，这条载满人的路到底能不能走得出去？","suspense":"乱军之中孤儿寡母早已失散，阿斗尚在襁褓，一场失散的祸事正悄然逼近。","sceneIds":["S07"],"characterIds":["C01","C02","C03","C05","C11"],"propIds":[],"crowdPlan":"携民渡江人群极为庞大，以刘备居中骑行为主视觉，百姓作分堆群像铺满远景，关羽张飞孔明赵云分领护卫各自成片机位，中近景只落刘备单人与百姓搀扶特写，避免全正面人群齐铺。","warnings":["雨戏","人群","肢体接触"]},{"ep":41,"synopsis":"曹军于长坂坡将刘备家小冲散，甘夫人与阿斗陷入乱军。赵云单枪匹马杀回，于万军之中左冲右突，枪挑曹营数将，护着阿斗且战且走，最终将幼主救出交还刘备，浑身是伤仍宁死不退。","hook":"赵云孤身陷敌，救出的阿斗能否活着送出长坂坡？","suspense":"十万军民与刘氏家小仓皇渡江，关羽张飞两兄弟各自失散，究竟流落何方、何时才能聚拢？","sceneIds":["S07"],"characterIds":["C11","C01","C04"],"propIds":[],"crowdPlan":"赵云救主三人同框改以分场拆解：阿斗与甘夫人失散、刘备坠马被救、赵云枪挑敌将分作三波，曹军以人海背影与过肩镜头一带而过，不与赵云正面共身。","warnings":["人群","战争"]},{"ep":42,"synopsis":"赵云突围归来，张飞立于长板桥横丈八蛇矛断后。曹军追至桥前，张飞圆睁环眼厉声一喝，声若巨雷，曹军将卒惊疑有伏而不敢近前，相率退去，刘备一军由此得保。","hook":"一喝之间曹军丧胆，站在桥头厉声断后的这个人究竟是谁？","suspense":"张飞虽吓退追兵，曹操闻讯必复起大军，这次败走是否真能脱身？","sceneIds":["S07"],"characterIds":["C03","C04"],"propIds":["P06"],"crowdPlan":"张飞与曹军隔桥分站两端不同框拍：曹军整阵以背影与乌压压人海带过，张飞独立于桥头画面，两军对峙以分镜切替呈现。","warnings":["人群","战争"]},{"ep":43,"synopsis":"曹操大军南下逼近，刘备暂避江夏，诸葛亮请命亲往东吴陈说利害。至江东，孔明与鲁肃相见，陈言曹操兵多难敌，唯孙刘两家携手方能自保，鲁肃力主联刘，亲引孔明去见孙权。","hook":"孔明单舟渡江，东吴满朝尽主降，他凭什么说动孙权？","suspense":"孙权尚未松口，曹操的劝降书信已至，一主和一主战，东吴的去留悬在半空。","sceneIds":["S08","S09"],"characterIds":["C05","C13","C14"],"propIds":[],"crowdPlan":"孔明与鲁肃同行一场、鲁肃引见孙权相对一场分场拍，江东群臣背景以人群背影带过，三人未致同框即按分场处理。","warnings":["人群"]},{"ep":44,"synopsis":"孙权升帐议事，东吴一班文臣力主归降。孔明立于堂上与群儒逐条辩难，引经据典驳得众人语塞，主降派面红耳赤无话可应。孙权听得动容，伐曹之心渐生，遂与孔明定下联合抗曹之计。","hook":"满堂文臣被一人驳得哑口无言，孙权心里那杆秤会往哪边倒？","suspense":"孙权虽被打动，周瑜尚在柴桑未归，江东真正的兵权仍握在何人之手？","sceneIds":["S09"],"characterIds":["C05","C14","C13"],"propIds":[],"crowdPlan":"帐中群儒以正面群像与过肩镜头拍，孔明居中为话语焦点，孙权与鲁肃以反应镜头切替，群臣交头接耳作背景人群，分批机位避免同框拥挤。","warnings":["人群"]},{"ep":45,"synopsis":"周瑜设计，令蒋干以同窗之谊前来劝降。蒋干入营，见周瑜帐中一纸书信，正是蔡瑁张允暗通东吴的密信，遂窃书连夜渡江献与曹操。曹操览信大怒，立斩蔡瑁张允，水军都督之头落地，借刀诛将。","hook":"蒋干偷走的那封信，曹操会杀谁？","suspense":"蔡瑁张允一死，曹营精于水战的将才尽去，这会给即将到来的大战埋下什么祸根？","sceneIds":["S09"],"characterIds":["C12","C18","C04"],"propIds":["P08"],"crowdPlan":"蒋干盗书一段分场拍：周瑜与蒋干假醉对饮一场，蒋干灯下偷信一封，渡江献书曹操一场，各场互不重叠同框。","warnings":["手部特写"]},{"ep":46,"synopsis":"周瑜限孔明十日造箭十万，孔明应下三日之期。趁大雾浓重，孔明尽调二十只草船逼近曹营水寨，擂鼓呐喊佯攻。曹营不敢出战，乱箭齐射草船，雾散收船时十万雕翎尽入囊中。周瑜验箭，自愧不如。","hook":"三日之期已到，孔明真能凭空造出十万支箭？","suspense":"草船借箭虽成，周瑜对孔明的忌惮又深一层，这把妒火究竟会烧向谁？","sceneIds":["S09"],"characterIds":["C05","C12"],"propIds":["P07"],"crowdPlan":"草船与曹营水寨隔江分场：孔明船上以鼓声喊声与船影带过曹军，曹兵放箭以岸侧箭雨配合，两军不直接同框。","warnings":["人群","手部特写"]},{"ep":47,"synopsis":"周瑜与黄盖定下苦肉计，当众欲斩黄盖，众臣力阻，改刑脊杖五十。黄盖被重责打得皮开肉绽，忍痛受刑。庞统则借蒋干引荐入曹营，进言说把战船首尾用铁索连环，曹操欣然采纳。当夜黄盖又密送降书至曹营，曹操半信半疑，部下亦生回测。","hook":"挨了五十脊杖的老将，当真会叛主投曹吗？","suspense":"曹操收下降书却未全信，这封降书写的是真心还是圈套？","sceneIds":["S09"],"characterIds":["C12","C19","C20"],"propIds":[],"crowdPlan":"帐中诸将围观刑杖，以过肩与人群背影拍，周瑜与黄盖正面相对为主，旁人背景化不抢戏。","warnings":["肢体接触","受伤","人群"]},{"ep":48,"synopsis":"火攻需东南风定向，隆冬偏刮西北风。孔明筑七星坛祭风，披发仗剑登坛。半日过后，江面风向果然渐转，东南风起。万事俱备只欠东风，东风既来，火攻之局即将展开。","hook":"隆冬的西北风，真能被孔明祭成东南风吗？","suspense":"东南风已起，可曹营铁索连船，这一把火到底要如何烧起来？","sceneIds":["S09"],"characterIds":["C05","C12"],"propIds":[],"crowdPlan":"孔明登坛与周瑜观坛分场拍，闲杂兵卒以背影与坛下人群带过，二人视角以分镜切替。","warnings":["人群"]},{"ep":49,"synopsis":"东南风劲，黄盖率火船顺风直奔曹营水寨，纵火船冲入铁索连环的船阵，火借风势、风助火威，百万曹军瞬间葬身火海。曹操大营化为灰烬，曹军大溃。曹操率残部仓皇北走，仅以身免。","hook":"赤壁一场大火，气吞万里的曹操满盘皆输，他能活着逃出去吗？","suspense":"曹军溃散，孔明已算定曹操必经华容道，那道挡路的到底是谁？","sceneIds":["S09"],"characterIds":["C04","C19","C12"],"propIds":[],"crowdPlan":"火船冲阵与曹营大乱以全景与群像分场，黄盖火船与曹操帅船不同框，曹军败逃以黑压压人海背影带出。","warnings":["火攻","大江","人群","战争"]},{"ep":50,"synopsis":"曹操败走华容道，残兵败将在泥泞山道中艰难前行。伏兵尽出，关羽横青龙偃月刀勒马拦住去路。曹操屈身转述昔日厚恩，关羽念及旧日待己之情，终令手下军士让马，放曹操一行而去。关公义重，违军令放走曹操。","hook":"关公的长髯在风中扬起，刀已举起，这一刀到底落不落得下去？","suspense":"关羽私放曹操，军令如山，回头见了刘备与孔明，又该如何收场？","sceneIds":["S09"],"characterIds":["C02","C04"],"propIds":["P05"],"crowdPlan":"华容道狭路对峙，关羽与曹操正面对话一场，两军兵卒退居两侧以背影与过肩镜头带过，不抢二人正面对峙的戏。","warnings":["人群","战争"]}]}</script>
+<script>
+// beat rhythm: chart / table toggle
+document.querySelectorAll('.tab').forEach((btn) => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.tab').forEach((b) => b.classList.toggle('on', b === btn));
+    document.querySelectorAll('.tabpane').forEach((p) => p.classList.toggle('on', p.id === btn.dataset.pane));
+  });
+});
+
+// episode overview: first three by default, one click expands for good
+const epsMore = document.querySelector('.epsmore');
+if (epsMore) {
+  epsMore.addEventListener('click', () => {
+    document.querySelector('.epswrap').classList.remove('clip');
+    epsMore.remove();
+  });
+}
+
+// export: the report carries outline.json verbatim; the download is byte-identical
+document.querySelector('.expo').addEventListener('click', (e) => {
+  const btn = e.currentTarget;
+  const url = URL.createObjectURL(
+    new Blob([document.getElementById('outline-data').textContent], { type: 'application/json' }),
+  );
+  const a = Object.assign(document.createElement('a'), { href: url, download: btn.dataset.name });
+  a.click();
+  // don't revoke immediately — Safari may kill the blob before the download finishes reading
+  setTimeout(() => URL.revokeObjectURL(url), 10000);
+});
+</script>
+</body></html>

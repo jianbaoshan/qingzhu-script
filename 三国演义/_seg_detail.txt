@@ -1,0 +1,654 @@
+## E36-01 S1
+  cut1 beats=[1, 2] sec=4 size=wide cam=Static Shot chars=['C01', 'C05'] props=[]
+      comp=三分法 cpos=草庐柴扉 + 平视侧面 eye=双方对视 foc=锁定柴扉前的两人 stab=stable lens=35mm 广角，中景深
+      FRAME: 全景，晨雾笼罩的卧龙岗上，一身鹤氅的诸葛亮手执羽扇立在草庐柴扉前，刘备在竹篱外第三次登门，柴扉正自行敞开，青苔石阶与灰顶草庐
+      SHOT: 固定镜头，晨雾里草庐柴扉缓缓自行敞开，一名软袍贵族在竹篱外站定，庐内一名鹤氅青年起身相迎，两人隔着门槛相望
+  cut2 beats=[3, 3] sec=5 size=close cam=Static Shot chars=['C05'] props=[]
+      comp=中心构图 cpos=鹤氅青年 + 平视正面 eye=门外来客面部 foc=锁定鹤氅青年面部 stab=stable lens=85mm 长焦，浅景深
+      FRAME: 特写，晨光里诸葛亮面如冠玉，鹤氅衣领微动，羽扇轻握，语气诚恳，目光温润地望着门外的刘备，飘散的晨雾
+      SHOT: 固定镜头，鹤氅青年执扇而立，微微拱手，目光温润地望向门外，语气诚恳从容
+
+## E36-02 S1
+  cut1 beats=[4, 5] sec=5.5 size=medium cam=Static Shot chars=['C01', 'C05'] props=[]
+      comp=中心构图 cpos=双人 + 平视侧面 eye=对方面部 foc=锁定软袍贵族 stab=stable lens=50mm 标准，中浅景深
+      FRAME: 中景，草堂内刘备拱手谦让与孔明对坐于矮案两侧，门窗间透进晨光，茶香氤氲，刘备神色恳切
+      SHOT: 固定镜头，软袍贵族与鹤氅青年分坐矮案两侧，软袍贵族拱手欠身，语气恳切地剖白半生飘零
+  cut2 beats=[6, 6] sec=5 size=close cam=Static Shot chars=['C05'] props=[]
+      comp=三分法 cpos=鹤氅青年 + 平视正面 eye=对面之人面部 foc=锁定鹤氅青年面部 stab=stable lens=85mm 长焦，浅景深
+      FRAME: 特写，诸葛亮手执羽扇，目光沉静，启唇应答道愿为君剖陈天下大势，浅淡晨光落在眉目间
+      SHOT: 固定镜头，鹤氅青年执扇回应，目光沉静而下定决心，语气平和地许下剖陈天下之势
+
+## E36-03 S1
+  cut1 beats=[7, 8] sec=3 size=close cam=Static Shot chars=['C05', 'C01'] props=[]
+      comp=三分法 cpos=双人 + 平视侧面 eye=手中的茶盏 foc=锁定斟茶的手 stab=stable lens=50mm 标准，中浅景深
+      FRAME: 特写，诸葛亮为刘备斟一盏清茶，白瓷盏内热气轻袅，刘备诚恳地低声言谢，微倾上身相请
+      SHOT: 固定镜头，鹤氅青年提着壶为软袍贵族斟满一盏清茶，对方微倾上身诚恳地道谢相请
+  cut2 beats=[9, 9] sec=3 size=medium cam=Arc Shot chars=['C05'] props=[]
+      comp=引导线构图 cpos=鹤氅青年 + 平视侧面环绕 eye=远处山脊 foc=锁定鹤氅青年侧影与远山 stab=stable lens=35mm 广角，中景深
+      FRAME: 中景，诸葛亮轻摇羽扇，目光越过堂门望向远处起伏的江山，晨雾笼着连绵山脊，草庐梁柱暗影
+      SHOT: 镜头缓缓环绕，鹤氅青年执扇轻摇，目光越过堂门投向远处连绵的山脊，凝视片刻
+
+## E36-04 S1
+  cut1 beats=[10, 10] sec=5.5 size=close cam=Static Shot chars=['C05'] props=[]
+      comp=三分法 cpos=鹤氅青年 + 平视正面 eye=对面之人面部 foc=锁定鹤氅青年面部 stab=stable lens=85mm 长焦，浅景深
+      FRAME: 特写，诸葛亮执扇侃侃而谈，目光锐利，开口点出曹操挟天子令诸侯之势不可争锋，晨光照亮半边面容
+      SHOT: 固定镜头，鹤氅青年执扇而谈，目光渐渐锐利，语气笃定地断言曹操之势不可与之争
+  cut2 beats=[11, 11] sec=5.5 size=close cam=Static Shot chars=['C05'] props=[]
+      comp=三分法 cpos=鹤氅青年 + 平视正面 eye=对面之人面部 foc=锁定鹤氅青年面部 stab=stable lens=85mm 长焦，浅景深
+      FRAME: 特写，诸葛亮续言孙权据有江东国险民附，可为援而不可图，扇影在光线里轻晃，眉目沉静
+      SHOT: 固定镜头，鹤氅青年执扇续谈，眉目沉静，语气从容地分说江东可为援而不可图
+  cut3 beats=[12, 12] sec=3 size=close cam=Push In chars=['C05'] props=[]
+      comp=对角线构图 cpos=矮案 + 俯视 30° eye=案上的地势 foc=锁定描画地势的指尖 stab=stable lens=85mm 长焦，浅景深
+      FRAME: 特写，诸葛亮以扇指案，在矮案上缓缓画出荆益两州地势，指尖沿案面游走，纸面光影晃动
+      SHOT: 镜头小幅缓推，鹤氅青年以扇尖在案上缓缓描画地势，指尖沿案面游走，画面随之下压
+
+## E36-05 S1
+  cut1 beats=[13, 13] sec=5 size=close cam=Static Shot chars=['C05'] props=[]
+      comp=三分法 cpos=鹤氅青年 + 平视正面 eye=案上地势 foc=锁定鹤氅青年面部 stab=stable lens=85mm 长焦，浅景深
+      FRAME: 特写，诸葛亮收扇指案，言荆州北据汉沔利尽南海，益州险塞沃野千里，眉目笃定，晨光在案上斜照
+      SHOT: 固定镜头，鹤氅青年收扇指点案上地势，语气笃定地分说荆州益州之利
+  cut2 beats=[14, 14] sec=5.5 size=medium cam=Static Shot chars=['C05'] props=[]
+      comp=中心构图 cpos=鹤氅青年 + 平视正面 eye=对面之人面部 foc=锁定鹤氅青年上半身 stab=stable lens=50mm 标准，中浅景深
+      FRAME: 中景，诸葛亮执扇抬手比划，言将军若取荆益西和诸戎南抚夷越则霸业可图，衣袂随动作轻扬
+      SHOT: 固定镜头，鹤氅青年执扇抬手比划，吐字铿锵，神色间尽是雄心，语气愈发坚定
+  cut3 beats=[15, 15] sec=3 size=close cam=Static Shot chars=['C01'] props=[]
+      comp=中心构图 cpos=软袍贵族 + 平视正侧面 eye=对面之人面部 foc=锁定软袍贵族面部 stab=stable lens=85mm 长焦，浅景深
+      FRAME: 特写，刘备听得入神，身子不自觉前倾，双眼发亮，扶手被攥紧，案上茶光晃动
+      SHOT: 固定镜头，软袍贵族听得入神，上身不自觉前倾，双眼发亮，放在案上的手微微前探
+
+## E36-06 S1
+  cut1 beats=[16, 16] sec=4 size=close cam=Static Shot chars=['C01'] props=[]
+      comp=三分法 cpos=软袍贵族 + 平视正面 eye=对面之人面部 foc=锁定软袍贵族面部 stab=stable lens=85mm 长焦，浅景深
+      FRAME: 特写，刘备蹙眉追问如何守得住荆益两方，目光恳切，双眉间微蹙，案上茶露轻晃
+      SHOT: 固定镜头，软袍贵族微微蹙眉，目光恳切地追问守土之计，语气里带着求索之诚
+  cut2 beats=[17, 17] sec=6 size=close cam=Static Shot chars=['C05'] props=[]
+      comp=中心构图 cpos=鹤氅青年 + 平视正面 eye=对面之人面部 foc=锁定鹤氅青年面部 stab=stable lens=85mm 长焦，浅景深
+      FRAME: 特写，诸葛亮执扇应答两州相倚互为唇齿，东结孙权以当曹北固汉中以自守，神色从容笃定
+      SHOT: 固定镜头，鹤氅青年执扇从容应答，语气稳当，一字一句尽是筹谋
+
+## E36-07 S1
+  cut1 beats=[18, 18] sec=6 size=close cam=Static Shot chars=['C05'] props=[]
+      comp=三分法 cpos=鹤氅青年 + 平视正面 eye=案上地势 foc=锁定鹤氅青年面部 stab=stable lens=85mm 长焦，浅景深
+      FRAME: 特写，诸葛亮执扇言先荆州而后益州次第图之，基业渐固可待北出，目光落在案上地势，沉稳有力
+      SHOT: 固定镜头，鹤氅青年执扇续道筹划次第，目光落在案上地势，语气沉稳有力
+  cut2 beats=[19, 19] sec=3 size=medium cam=Static Shot chars=['C05'] props=[]
+      comp=引导线构图 cpos=鹤氅青年 + 平视侧面 eye=窗外远山 foc=锁定鹤氅青年侧影 stab=stable lens=50mm 标准，中浅景深
+      FRAME: 中景，诸葛亮仍轻摇羽扇，目光平静而深远，晨光映着鹤氅，整个人沉静如渊
+      SHOT: 固定镜头，鹤氅青年收话后仍是轻摇羽扇，目光平静而深远，静默片刻
+
+## E36-08 S1
+  cut1 beats=[20, 20] sec=6.5 size=close cam=Static Shot chars=['C05'] props=[]
+      comp=中心构图 cpos=鹤氅青年 + 平视正面 eye=对面之人面部 foc=锁定鹤氅青年目光 stab=stable lens=85mm 长焦，浅景深
+      FRAME: 特写，诸葛亮执扇正色续言据荆益而抚民心，西和诸戎以固其本，则可闰土进取，眸光坚定如星
+      SHOT: 固定镜头，鹤氅青年执扇正色续言，眸光坚定，语气里满是胸中丘壑
+  cut2 beats=[21, 21] sec=4.5 size=close cam=Static Shot chars=['C01'] props=[]
+      comp=三分法 cpos=软袍贵族 + 平视正面 eye=对面之人面部 foc=锁定软袍贵族面部 stab=stable lens=85mm 长焦，浅景深
+      FRAME: 特写，刘备闻言如拨云见日，双眼放光，神情豁然开朗，口中连称茅塞顿开，茶案旁晨光浮暖
+      SHOT: 固定镜头，软袍贵族闻言眼睛一亮，神色豁然开朗，语气里满是叹服与振奋
+
+## E36-09 S1
+  cut1 beats=[22, 22] sec=4 size=medium cam=Pan Right chars=['C03'] props=[]
+      comp=三分法 cpos=虬髯大汉 + 平视正面 eye=堂内之人 foc=锁定虬髯大汉面部 stab=stable lens=50mm 标准，中浅景深
+      FRAME: 中景，张飞侍立门外探头插嘴，粗声大气地说听着倒玄乎得很，虬髯宽脸，阳光斜落廊下
+      SHOT: 镜头缓缓平摇，门外一名虬髯大汉探身插话，粗声大气，语气里半是好奇半是信不过
+  cut2 beats=[23, 23] sec=4 size=medium cam=Static Shot chars=['C01'] props=[]
+      comp=中心构图 cpos=软袍贵族 + 平视正侧面 eye=门外之人 foc=锁定软袍贵族面部 stab=stable lens=50mm 标准，中浅景深
+      FRAME: 中景，刘备回头沉声喝止三弟住口，眉眼温和却带着不许置喙的庄重，堂内晨光朦胧
+      SHOT: 固定镜头，软袍贵族回身低斥，眉眼温和却透出不容置喙的庄重
+  cut3 beats=[24, 24] sec=3 size=wide cam=Static Shot chars=['C02', 'C03'] props=[]
+      comp=对称构图 cpos=廊下双人 + 平视侧面 eye=两人望向堂内 foc=锁定两人的动作 stab=stable lens=35mm 广角，中景深
+      FRAME: 全景，廊下关羽轻轻按住张飞，将他退到门后，草堂里只剩下一盏茶香，两人在门外静立
+      SHOT: 固定镜头，门外红脸长髯的武者按住身旁虬髯大汉的臂膀，轻轻将他带回门后，堂内复归安静
+
+## E36-10 S1
+  cut1 beats=[25, 25] sec=3 size=medium cam=Static Shot chars=['C05'] props=[]
+      comp=引导线构图 cpos=鹤氅青年 + 平视侧面 eye=窗外 foc=锁定鹤氅青年侧影 stab=stable lens=50mm 标准，中浅景深
+      FRAME: 中景，诸葛亮并未接话，只是望着窗外，缓缓摇着那把羽扇，神情沉静如常，晨光斜照
+      SHOT: 固定镜头，鹤氅青年不接话头，只在窗前缓缓摇扇，目光沉静地望向外间
+  cut2 beats=[26, 26] sec=4.5 size=close cam=Static Shot chars=['C01'] props=[]
+      comp=中心构图 cpos=软袍贵族 + 平视正面 eye=对面之人面部 foc=锁定软袍贵族面部 stab=stable lens=85mm 长焦，浅景深
+      FRAME: 特写，刘备正色追问汉室可兴究竟从何处着手，神色诚恳而郑重，眉宇间带着求索的光
+      SHOT: 固定镜头，软袍贵族正色追问，神色诚恳郑重，眉宇间满是求索
+  cut3 beats=[27, 27] sec=5 size=close cam=Static Shot chars=['C05'] props=[]
+      comp=中心构图 cpos=鹤氅青年 + 平视正面 eye=对面之人面部 foc=锁定鹤氅青年面部 stab=stable lens=85mm 长焦，浅景深
+      FRAME: 特写，诸葛亮正色答道民心所向即天意所在，得人心者方能得天下，目光沉着有力，晨光清朗
+      SHOT: 固定镜头，鹤氅青年正色应答，目光沉着有力，逐字道出人心即天意之理
+
+## E36-11 S1
+  cut1 beats=[28, 28] sec=5.5 size=medium cam=Static Shot chars=['C05'] props=[]
+      comp=三分法 cpos=鹤氅青年 + 平视正面 eye=对面之人面部 foc=锁定鹤氅青年上半身 stab=stable lens=50mm 标准，中浅景深
+      FRAME: 中景，诸葛亮执扇续言外结孙权内修政理，待天下有变可成鼎足之势，抬手比划间气势渐起
+      SHOT: 固定镜头，鹤氅青年执扇抬手，缓缓道出外结内修之策，再点出鼎足之局的图景
+  cut2 beats=[29, 29] sec=6 size=close cam=Push In chars=['C01'] props=[]
+      comp=中心构图 cpos=软袍贵族 + 平视正侧面 eye=对面之人面部 foc=锁定软袍贵族面部 stab=stable lens=85mm 长焦，浅景深
+      FRAME: 特写，刘备说到自幼孤苦全凭兄弟义士相助才活到今日，眼眶微热，神情动容，镜头缓推
+      SHOT: 镜头小幅缓推，软袍贵族自述孤苦身世，眼眶微热，神情动容，话里带着至诚
+
+## E36-12 S1
+  cut1 beats=[30, 30] sec=6 size=close cam=Static Shot chars=['C05'] props=[]
+      comp=中心构图 cpos=鹤氅青年 + 平视正面 eye=对面之人面部 foc=锁定鹤氅青年面部 stab=stable lens=85mm 长焦，浅景深
+      FRAME: 特写，诸葛亮执扇动容道正因皇叔能得人心亮才信四境之势可握你掌中，目光专注而郑重
+      SHOT: 固定镜头，鹤氅青年执扇动容，目光专注而郑重，语气里是对面前之人的认定
+  cut2 beats=[31, 31] sec=3 size=close cam=Arc Shot chars=['C01'] props=[]
+      comp=三分法 cpos=软袍贵族 + 平视正侧面 eye=案面 foc=锁定软袍贵族面部 stab=stable lens=85mm 长焦，浅景深
+      FRAME: 特写，刘备谦逊低声自谦何德何能，眉目低垂，晨光在侧脸勾出一线柔光
+      SHOT: 镜头缓缓轻移，软袍贵族谦逊低语，眉目低垂，略带愧色地自谦
+  cut3 beats=[32, 32] sec=3 size=close cam=Static Shot chars=['C05'] props=[]
+      comp=中心构图 cpos=茶盏 + 平视 eye=手中的茶盏 foc=锁定茶盏与抬起的眉眼 stab=stable lens=85mm 长焦，浅景深
+      FRAME: 特写，诸葛亮端起案上茶盏轻轻吹了吹押了一口又放下，气定神闲，白瓷盏热气轻袅
+      SHOT: 固定镜头，鹤氅青年端茶轻吹，押了一口又放下，气定神闲，动作从容不迫
+
+## E36-13 S1
+  cut1 beats=[33, 33] sec=5.5 size=close cam=Static Shot chars=['C05'] props=[]
+      comp=三分法 cpos=鹤氅青年 + 平视正面 eye=对面之人面部 foc=锁定鹤氅青年面部 stab=stable lens=85mm 长焦，浅景深
+      FRAME: 特写，诸葛亮言昔管仲乐毅亦不过待时而动，今遇皇叔此其时矣，执扇抬手，目光微亮
+      SHOT: 固定镜头，鹤氅青年执扇抬手，以古贤自况，语气笃定而微微动容
+  cut2 beats=[34, 34] sec=6.5 size=medium cam=Static Shot chars=['C05'] props=[]
+      comp=中心构图 cpos=鹤氅青年 + 平视正面 eye=对面之人面部 foc=锁定鹤氅青年上半身 stab=stable lens=50mm 标准，中浅景深
+      FRAME: 中景，诸葛亮正色明志皇叔既来三顾当知亮并非避世无求之辈，只待一可托之主，衣袂端正
+      SHOT: 固定镜头，鹤氅青年正色明志，身姿端正，语气里带着一片赤诚与决意
+
+## E36-14 S1
+  cut1 beats=[35, 35] sec=4 size=close cam=Static Shot chars=['C01'] props=[]
+      comp=中心构图 cpos=软袍贵族 + 平视正面 eye=对面之人面部 foc=锁定软袍贵族面部 stab=stable lens=85mm 长焦，浅景深
+      FRAME: 特写，刘备闻言动容道相见恨晚如鱼得水，神情激动而郑重，目光灼灼
+      SHOT: 固定镜头，软袍贵族闻言动容，神情激动而郑重，语带惊喜地道出相见恨晚
+  cut2 beats=[36, 36] sec=3 size=medium cam=Tracking Shot chars=['C01'] props=[]
+      comp=三分法 cpos=软袍贵族 + 侧面平视跟随 eye=地面 foc=锁定躬身下拜的软袍贵族 stab=stable lens=50mm 标准，中浅景深
+      FRAME: 中景，刘备离座整好衣冠，向着孔明深深一拜，袖袍垂落，姿态恭敬庄重，晨光落在衣冠上
+      SHOT: 镜头平稳跟随，软袍贵族离座整好衣冠，稳步上前，向鹤氅青年深拜而下，姿态恭敬
+  cut3 beats=[37, 37] sec=5 size=close cam=Static Shot chars=['C01'] props=[]
+      comp=中心构图 cpos=软袍贵族 + 平视正侧面 eye=对面之人面部 foc=锁定软袍贵族仰起的眉眼 stab=stable lens=85mm 长焦，浅景深
+      FRAME: 特写，刘备躬身恳请先生出山共济天下苍生扶汉室于将倾，眉眼诚恳，字字恳切
+      SHOT: 固定镜头，软袍贵族仍保持躬身，正色恳请，语气恳切庄重，一字一句皆是至诚
+
+## E36-15 S1
+  cut1 beats=[38, 38] sec=3 size=close cam=Push In chars=['C05'] props=[]
+      comp=中心构图 cpos=鹤氅青年 + 平视正面 eye=对面之人面部 foc=锁定鹤氅青年微动的双眼 stab=stable lens=85mm 长焦，浅景深
+      FRAME: 特写，诸葛亮目光微动，手中羽扇停在半空，望着刘备久不出声，烛光样的晨光在眼里浮沉
+      SHOT: 镜头小幅缓推，鹤氅青年目光微动，手中羽扇停在半空，望着面前之人久久不语
+  cut2 beats=[39, 39] sec=6 size=close cam=Arc Shot chars=['C05'] props=[]
+      comp=三分法 cpos=鹤氅青年 + 平视正侧面环绕 eye=对面之人面部 foc=锁定鹤氅青年面部 stab=stable lens=85mm 长焦，浅景深
+      FRAME: 特写，诸葛亮动容道皇叔所图是天下，亮所思虑是这天下苍生如何得安，目光深邃而仁慈
+      SHOT: 镜头缓缓环绕，鹤氅青年动容开口，目光深邃而仁慈，语气平缓却重若千钧
+  cut3 beats=[40, 40] sec=3 size=medium cam=Static Shot chars=['C02', 'C03'] props=[]
+      comp=对称构图 cpos=门外双人 + 平视正面 eye=堂内方向 foc=锁定两个屏息的身影 stab=stable lens=35mm 广角，中景深
+      FRAME: 中景，门外的关羽张飞屏息凝神，静候这位先生一句答话，神色恭敬，廊下晨光安静
+      SHOT: 固定镜头，门外一名红脸长髯武者和一名虬髯大汉皆屏息凝神，静立等候，不敢出声
+
+## E36-16 S1
+  cut1 beats=[41, 41] sec=7 size=medium cam=Static Shot chars=['C05', 'C01'] props=[]
+      comp=中心构图 cpos=双人 + 平视正面 eye=对方面部 foc=锁定鹤氅青年面部 stab=stable lens=50mm 标准，中浅景深
+      FRAME: 中景，诸葛亮正色相告天下大乱非有明主不可拯之，皇叔有此仁心亮当以诚相告，目光落向刘备，郑重而热切
+      SHOT: 固定镜头，鹤氅青年正色相告，目光热切地落向面前之人，郑重道出心中认定
+  cut2 beats=[42, 42] sec=3 size=close cam=Push In chars=['C05'] props=[]
+      comp=中心构图 cpos=鹤氅青年 + 平视正面 eye=对面之人面部 foc=锁定悬停的羽扇与垂下的目光 stab=stable lens=85mm 长焦，浅景深
+      FRAME: 特写，话到紧要处孔明忽然停住，手中羽扇悬在半空，沉沉望着刘备，余光在睫毛下暗涌
+      SHOT: 镜头小幅缓推，鹤氅青年话到紧要处忽然停住，羽扇悬在半空，沉沉望着对面之人，欲言又止
+
+## E37-01 S1
+  cut1 beats=[1, 2] sec=4.5 size=wide cam=Tracking Shot chars=['C05', 'C01'] props=[]
+      comp=三分法 cpos=草庐门前 + 平视侧面跟随 eye=双方相对 foc=锁定跨门而出的鹤氅青年 stab=slight-shake lens=35mm 广角，中景深
+      FRAME: 全景，卧龙岗草庐柴扉大开，诸葛亮卷一卷书册跨出门槛而立，刘备在门外整冠长揖相迎，晨雾飘散
+      SHOT: 镜头平稳跟随，鹤氅青年卷着一卷书册跨出门槛站定，门外软袍贵族整冠长揖相迎
+  cut2 beats=[3, 3] sec=5.5 size=close cam=Static Shot chars=['C05'] props=[]
+      comp=中心构图 cpos=鹤氅青年 + 平视正面 eye=门外来客面部 foc=锁定鹤氅青年面部 stab=stable lens=85mm 长焦，浅景深
+      FRAME: 特写，诸葛亮迈步出庐，语气恳切地表明得遇明主愿以平生所学倾囊相助，眉目清朗，晨光明亮
+      SHOT: 固定镜头，鹤氅青年一手持卷，神色恳切，字字郑重地表明以平生所学相许
+
+## E37-02 S1
+  cut1 beats=[4, 4] sec=5.5 size=close cam=Static Shot chars=['C01'] props=[]
+      comp=三分法 cpos=软袍贵族 + 平视正面 eye=对面之人面部 foc=锁定软袍贵族面部 stab=stable lens=85mm 长焦，浅景深
+      FRAME: 特写，刘备喜极而应得先生出山如久旱逢霖是备之幸更是汉室之幸，眉目舒展笑意满溢，晨光暖人
+      SHOT: 固定镜头，软袍贵族喜极而应，眉目舒展，语气里满是如获至宝的欣然
+  cut2 beats=[5, 5] sec=6 size=medium cam=Static Shot chars=['C05'] props=[]
+      comp=中心构图 cpos=鹤氅青年 + 平视侧面 eye=对面之人面部 foc=锁定鹤氅青年上半身 stab=stable lens=50mm 标准，中浅景深
+      FRAME: 中景，诸葛亮沉声道亮自束发受书所求者正是一番澄清宇内之业今得明主矣，持卷而立，目光坚定
+      SHOT: 固定镜头，鹤氅青年持卷而立，目光坚定，语气沉缓而郑重地道出平生所志
+
+## E37-03 S1
+  cut1 beats=[6, 7] sec=5 size=medium cam=Static Shot chars=['C05', 'C02'] props=[]
+      comp=三分法 cpos=双人 + 平视侧面 eye=鹤氅青年看草庐，红脸武者看鹤氅青年 foc=锁定鹤氅青年回望的背影 stab=stable lens=50mm 标准，中浅景深
+      FRAME: 中景，诸葛亮回身望一眼住了多年的草庐，目中有片刻留恋遂定了定神，门外红脸关羽抱拳说道军师既肯下山云长与三弟当以军师之命是从
+      SHOT: 固定镜头，鹤氅青年回望草庐，目中有片刻留恋，随即定了定神；门外一名红脸长髯武者抱拳相许
+  cut2 beats=[8, 8] sec=3 size=wide cam=Static Shot chars=['C02', 'C03', 'C05'] props=[]
+      comp=对称构图 cpos=草庐门前 + 平视正面 eye=彼此相对 foc=锁定三人作礼的身形 stab=stable lens=35mm 广角，中景深
+      FRAME: 全景，草庐门外关羽抱拳、张飞咧嘴，连同诸葛亮齐齐抱拳相拜，晨光铺满阶前，众人作礼
+      SHOT: 固定镜头，门外红脸武者抱拳、虬髯大汉咧嘴，鹤氅青年一并抱拳回礼，众人相互作礼
+
+## E37-04 S1
+  cut1 beats=[9, 10] sec=6.5 size=medium cam=Static Shot chars=['C03', 'C05'] props=[]
+      comp=三分法 cpos=双人 + 平视侧面 eye=彼此相对 foc=锁定虬髯大汉咧嘴的神情 stab=stable lens=50mm 标准，中浅景深
+      FRAME: 中景，张飞咧嘴兴奋道军师往后你说打谁我飞就冲谁，诸葛亮执扇从容答道三将军骁勇日后自有大用先回新野整顿军务
+      SHOT: 固定镜头，虬髯大汉咧嘴请战，语带憨直；鹤氅青年执扇从容应答，神色平和
+  cut2 beats=[11, 12] sec=6 size=wide cam=Tracking Shot chars=['C01', 'C05', 'C02', 'C03'] props=[]
+      comp=引导线构图 cpos=山道 + 平视侧面跟随 eye=下山方向 foc=锁定并肩而行的两人 stab=slight-shake lens=35mm 广角，中景深
+      FRAME: 全景，众人引马下山，卧龙岗晨雾在身后渐渐散开，山道转角刘备与孔明并肩而行说得兴起，众人身影渐远
+      SHOT: 多人 + 平视侧面跟随，一行人下马引路沿山道下行，晨雾在身后散开，两名为首者并肩而行谈兴正浓
+
+## E37-05 S1
+  cut1 beats=[13, 13] sec=6 size=close cam=Static Shot chars=['C05'] props=[]
+      comp=三分法 cpos=鹤氅青年 + 平视正侧面 eye=同行之人 foc=锁定鹤氅青年面部 stab=stable lens=85mm 长焦，浅景深
+      FRAME: 特写，诸葛亮与刘备并肩而行，执扇叮嘱日后续取荆益当以民心为先方能立稳根基，目光清亮
+      SHOT: 固定镜头，鹤氅青年边走边执扇叮嘱，目光清亮，语气恳切地交代以民心为先
+  cut2 beats=[14, 15] sec=6.5 size=wide cam=Static Shot chars=['C01', 'C02'] props=[]
+      comp=引导线构图 cpos=双骑 + 平视侧面 eye=彼此相视 foc=锁定并肩而行的两人 stab=stable lens=35mm 广角，中景深
+      FRAME: 全景，刘备与关羽策马并肩，关羽笑言将遇良才，刘备低声应道得此子房何愁父业不兴，枫影往后掠
+      SHOT: 固定镜头，软袍贵族与红脸武者策马并肩而行，二人相视而笑，低声交谈，意气相投
+
+## E37-06 S1
+  cut1 beats=[16, 16] sec=3 size=extreme-wide cam=Static Shot chars=['C05', 'C01'] props=[]
+      comp=对称构图 cpos=城楼 + 平视远眺 eye=进城方向 foc=锁定翻卷的旌旗与入城队列 stab=stable lens=24mm 广角，深景深
+      FRAME: 大远景，新野城头旌旗猎猎，军中闻卧龙出山士气为之一振，城楼与旗帜在晨光里翻卷，远处一行军马进城
+      SHOT: 固定镜头远望，新野城楼旌旗猎猎，队列沿官道入城，城上守军望向这一行人影
+
+## E37-07 S2
+  cut1 beats=[1, 2] sec=5.5 size=medium cam=Static Shot chars=['C01', 'C05'] props=['P05', 'P06']
+      comp=中心构图 cpos=双人 + 平视侧面 eye=对方面部 foc=锁定交接兵符的双手 stab=stable lens=50mm 标准，中浅景深
+      FRAME: 中景，新野大帐内刘备将兵符印绶郑重交到诸葛亮手中，郑重嘱托军国大计一应调度皆听军师安排，烛光暖黄
+      SHOT: 固定镜头，软袍贵族双手托出兵符印绶，郑重交到鹤氅青年手中，神色庄重地嘱托军国大计
+  cut2 beats=[3, 4] sec=6.5 size=close cam=Static Shot chars=['C05'] props=[]
+      comp=中心构图 cpos=鹤氅青年 + 平视正面 eye=帐内众人 foc=锁定鹤氅青年面部与手中的兵符 stab=stable lens=85mm 长焦，浅景深
+      FRAME: 特写，诸葛亮双手接过兵符羽扇微摇目光从容扫过众人，沉声应道承蒙信任当谨依嘱托替皇叔守好这一方基业
+      SHOT: 固定镜头，鹤氅青年双手接过兵符，羽扇微摇，目光从容扫过众人，郑重应下使命
+
+## E37-08 S2
+  cut1 beats=[5, 6] sec=5 size=medium cam=Static Shot chars=['C05', 'C03'] props=[]
+      comp=三分法 cpos=虬髯大汉 + 平视正面 eye=鹤氅青年方向 foc=锁定虬髯大汉面部 stab=stable lens=50mm 标准，中浅景深
+      FRAME: 中景，关羽张飞侧立两旁看着新军师各有敬服之色，张飞忽问曹操敢不敢来打新野，大帐里油灯微微摇曳
+      SHOT: 固定镜头，帐内一名虬髯大汉侧立打量新上任的军师，随即心直口快地发问
+  cut2 beats=[7, 8] sec=6.5 size=close cam=Push In chars=['C05'] props=[]
+      comp=中心构图 cpos=鹤氅青年 + 平视正面 eye=北方天际 foc=锁定鹤氅青年远望的目光 stab=stable lens=85mm 长焦，浅景深
+      FRAME: 特写，诸葛亮轻摇羽扇抬眼望向北方天际目光深远，沉声道曹操失徐庶之憾怕是已迁怒于新野这一仗躲不掉
+      SHOT: 镜头小幅缓推，鹤氅青年抬眼望向北方天际，目光深远，语气沉缓地道破隐忧
+
+## E37-09 S2
+  cut1 beats=[9, 10] sec=5 size=wide cam=Static Shot chars=['C02', 'C05', 'C01'] props=[]
+      comp=对称构图 cpos=大帐内 + 平视正面 eye=军师方向 foc=锁定握兵站立的众人 stab=stable lens=35mm 广角，中景深
+      FRAME: 全景，帐中众人闻言齐齐握紧手中兵刃神色凝重，关羽沉声应道既如此早做准备方能以逸待劳，油灯下铜色兵刃反光
+      SHOT: 固定镜头，帐内众人握紧兵刃神色凝重，一名红脸武者沉声应答，于灯下拱手
+  cut2 beats=[11, 12] sec=6.5 size=close cam=Static Shot chars=['C05', 'C01'] props=[]
+      comp=中心构图 cpos=双人 + 平视正面 eye=彼此相对 foc=锁定鹤氅青年动容的神情 stab=stable lens=85mm 长焦，浅景深
+      FRAME: 特写，刘备郑重道军师初掌兵权立威当在一战，云长自当听令，诸葛亮动容应道承蒙信我爱当以性命相许不负重托
+      SHOT: 固定镜头，软袍贵族郑重嘱托立威一战，鹤氅青年闻言动容，郑重应下以性命相许
+
+## E37-10 S2
+  cut1 beats=[13, 14] sec=6 size=close cam=Static Shot chars=['C05'] props=[]
+      comp=对角线构图 cpos=舆图上的指尖 + 俯视 30° eye=图上的博望 foc=锁定沿图移动的指尖 stab=stable lens=85mm 长焦，浅景深
+      FRAME: 特写，诸葛亮取出舆图缓缓展开，指尖沿新野划到博望，沉声道北面若有敌来袭必走博望此处正是火攻的绝地，烛火摇影
+      SHOT: 固定镜头，鹤氅青年取出舆图缓缓展开，指尖沿图渐移，目光落在博望一地，言语笃定
+  cut2 beats=[15, 16] sec=6.5 size=medium cam=Static Shot chars=['C02', 'C05'] props=['P05']
+      comp=三分法 cpos=双人 + 平视侧面 eye=彼此相对 foc=锁定红脸武者抱拳的神情 stab=stable lens=50mm 标准，中浅景深
+      FRAME: 中景，关羽抱拳赞道军师已谋定这般远难怪大哥把你倚作肱骨，诸葛亮执扇应道用兵之道贵在防患于未然云长且自去备砺精兵
+      SHOT: 固定镜头，红脸武者抱拳称许，鹤氅青年执扇从容应答并分派军务
+
+## E37-11 S2
+  cut1 beats=[17, 17] sec=3 size=wide cam=Static Shot chars=['C02', 'C03', 'C01'] props=['P05', 'P06']
+      comp=对称构图 cpos=帐内 + 平视正面 eye=红脸武者与虬髯大汉望出帐外 foc=锁定退帐的两人与灯下的两人 stab=stable lens=35mm 广角，中景深
+      FRAME: 全景，关羽抱拳应下与张飞一同出帐，留下刘备与孔明细谈军务，帐口掀开漏进一券天光，帐内两人对坐
+      SHOT: 固定镜头，红脸武将与虬髯大汉抱拳退出大帐，帐帘落下，软袍贵族与鹤氅青年留在灯下对坐细谈
+
+## E37-12 S3
+  cut1 beats=[1, 2] sec=4.5 size=medium cam=Static Shot chars=['C04'] props=[]
+      comp=中心构图 cpos=权臣 + 平视正面 eye=案上的探报 foc=锁定权臣面部 stab=stable lens=50mm 标准，中浅景深
+      FRAME: 中景，许都相府夜政，曹操坐于案后将前线探报掷在案上，正要发话，烛影在朱红柱上晃动
+      SHOT: 固定镜头，深色官袍的权臣坐于案后，抬手将探报掷在案上，眉头微锁，语带不悦
+  cut2 beats=[3, 3] sec=3 size=medium cam=Truck Left chars=['C04'] props=[]
+      comp=引导线构图 cpos=权臣 + 平视侧面 eye=地面的影子 foc=锁定踱步的权臣 stab=stable lens=50mm 标准，中浅景深
+      FRAME: 中景，曹操起身负手踱步，心头那股不安渐渐泛上来，烛光拉出修长黑影随行
+      SHOT: 镜头缓缓横移，权臣起身负手于堂中踱步，眉间凝起，心事渐重
+
+## E37-13 S3
+  cut1 beats=[4, 4] sec=5 size=close cam=Static Shot chars=['C04'] props=[]
+      comp=三分法 cpos=权臣 + 平视正面 eye=前方舆图 foc=锁定权臣冷厉的眼 stab=stable lens=85mm 长焦，浅景深
+      FRAME: 特写，曹操负手停步，冷声道刘表也不是个安分的主刘备一旦坐大荆州必危，烛火在瞳中一跳
+      SHOT: 固定镜头，权臣负手停步，眉目冷厉，一字一句道出对荆州的忌惮
+  cut2 beats=[5, 5] sec=6 size=medium cam=Push In chars=['C04'] props=[]
+      comp=中心构图 cpos=权臣 + 平视正面 eye=前方 foc=锁定权臣上半身 stab=stable lens=50mm 标准，中浅景深
+      FRAME: 中景，曹操沉声道卧龙一出必劝他先取荆州此棋既落看他敢不敢接，负手立于案前，气势渐沉
+      SHOT: 镜头小幅缓推，权臣负手立于案前，语气阴冷，缓缓道出对局之算
+
+## E37-14 S3
+  cut1 beats=[6, 7] sec=4.5 size=close cam=Push In chars=['C04'] props=[]
+      comp=中心构图 cpos=舆图上的指尖 + 俯视 30° eye=图上的新野 foc=锁定落在图上的指尖 stab=stable lens=85mm 长焦，浅景深
+      FRAME: 特写，烛影一摇，曹操立于舆图前目光一寸寸描过新野，指尖落在那位置上重重一点，指节白皙
+      SHOT: 镜头小幅缓推，权臣立于舆图前，目光缓缓描过新野一地，指尖落下重重一点
+  cut2 beats=[8, 8] sec=5 size=medium cam=Static Shot chars=['C04'] props=[]
+      comp=中心构图 cpos=权臣 + 平视正面 eye=前方舆图 foc=锁定权臣面部 stab=stable lens=50mm 标准，中浅景深
+      FRAME: 中景，曹操于舆图前站定，冷声道先取荆州卧龙出山我倒要看看他能高飞几许，烛光在他的面上一明一灭
+      SHOT: 固定镜头，权臣于舆图前站定，语带轻蔑，嘴角浮起一丝冷意
+
+## E37-15 S3
+  cut1 beats=[9, 9] sec=5.5 size=close cam=Static Shot chars=['C04'] props=[]
+      comp=三分法 cpos=权臣 + 平视正面 eye=前方 foc=锁定权臣冷厉的眼 stab=stable lens=85mm 长焦，浅景深
+      FRAME: 特写，曹操沉声传令道待荆州军务清楚即整师南向直捣新野，眸光转厉，烛影在脸上明灭
+      SHOT: 固定镜头，权臣沉声传令，眸光转厉，语气里是决意南下之威
+  cut2 beats=[10, 10] sec=5 size=medium cam=Static Shot chars=['C04'] props=[]
+      comp=引导线构图 cpos=权臣 + 平视正面 eye=前方 foc=锁定权臣上半身 stab=stable lens=50mm 标准，中浅景深
+      FRAME: 中景，曹操负手转身，冷声道卧龙虽才也架不住举国大势，刘备还差得远，烛火在他身后拖出高大黑影
+      SHOT: 固定镜头，权臣负手转身，语带轻蔑地断言大势不在卧龙，背影投下长长的黑影
+
+## E37-16 S3
+  cut1 beats=[11, 11] sec=3 size=close cam=Static Shot chars=['C04'] props=[]
+      comp=中心构图 cpos=案上纸笔 + 俯视 45° eye=纸上军令 foc=锁定落笔的笔锋与墨字 stab=stable lens=85mm 长焦，浅景深
+      FRAME: 特写，灯焰晃了晃，曹操转身落笔写下一道南下的军令，笔锋在宣纸上一顿一顿，墨迹晕开
+      SHOT: 固定镜头，权臣执笔在案上落写军令，笔锋一顿一顿，烛影随笔尖起伏
+
+## E38-01 S1
+  cut1 beats=[1, 2] sec=4.5 size=wide cam=Tracking Shot chars=['C05', 'C23'] props=[]
+      comp=引导线构图 cpos=战场 + 平视远眺 eye=来敌方向 foc=锁定高处的鹤氅青年与来势 stab=slight-shake lens=35mm 广角，中景深
+      FRAME: 全景，新野城北烟尘漫天，夏侯惇率军压来马蹄沉闷震地，诸葛亮立在高处羽扇轻指示意依计行事，两军对峙于黄土官道
+      SHOT: 镜头平稳跟随，城北黄土道上曹军铁骑压来尘土遮天，高地处一名鹤氅青年羽扇轻指，示意依计行事
+  cut2 beats=[3, 4] sec=6.5 size=close cam=Push In chars=['C05', 'C03'] props=[]
+      comp=中心构图 cpos=高处 + 平视侧面 eye=来敌方向 foc=锁定鹤氅青年与拨马的身影 stab=stable lens=85mm 长焦，浅景深
+      FRAME: 特写，诸葛亮立在高处断言夏侯惇骄兵必败中不中火计，张飞接令虚晃一矛拨马便往博望坡方向奔去，烟尘掠过镜头
+      SHOT: 镜头小幅缓推，鹤氅青年立于高处断言骄兵必败，一名虬髯大将得令虚晃一矛拨马往博望方向诱敌而去
+
+## E38-02 S1
+  cut1 beats=[5, 5] sec=4 size=medium cam=Static Shot chars=['C23'] props=[]
+      comp=中心构图 cpos=独眼将领 + 平视正面 eye=逃敌方向 foc=锁定独眼将领面部 stab=stable lens=50mm 标准，中浅景深
+      FRAME: 中景，夏侯惇独眼一瞪，扬声喝道区区小城也配拦我夏侯惇给我追，马鞭一甩，眼眸在尘土里森然发亮
+      SHOT: 固定镜头，独眼将领策马立定，扬声喝令追击，马鞭挥落，神情倨傲
+  cut2 beats=[6, 6] sec=3 size=wide cam=Truck Right chars=['C23'] props=[]
+      comp=引导线构图 cpos=谷道 + 平视侧面 eye=谷道深处 foc=锁定当先进谷的骑兵 stab=slight-shake lens=35mm 广角，深景深
+      FRAME: 全景，曹军被引入博望坡，路窄林深两侧满是枯草，马蹄下卷起黄尘，夏侯惇当先催马
+      SHOT: 镜头缓缓横移，曹军涌入路窄林深的博望坡，两侧枯草如墙，独眼将领当先催马深入
+
+## E38-03 S1
+  cut1 beats=[7, 7] sec=4.5 size=close cam=Static Shot chars=['C02'] props=[]
+      comp=三分法 cpos=红脸武者 + 平视正面 eye=下方谷口 foc=锁定红脸武者面部 stab=stable lens=85mm 长焦，浅景深
+      FRAME: 特写，关羽于坡上观阵抱拳急道军师他们进了谷口正是放火的好时候，长须在风里微扬，眼中跃着一线战意
+      SHOT: 固定镜头，红脸武者于坡上抱拳，望见敌众入谷，语气里带着请战的急切
+  cut2 beats=[8, 8] sec=5 size=close cam=Static Shot chars=['C05'] props=[]
+      comp=中心构图 cpos=鹤氅青年 + 平视正面 eye=下方谷中 foc=锁定鹤氅青年敦稳的眼 stab=stable lens=85mm 长焦，浅景深
+      FRAME: 特写，诸葛亮于坡上执扇沉声道云长且按兵不动待他深入三分再举火烧他，目光紧锁谷中敌军
+      SHOT: 固定镜头，鹤氅青年于坡上执扇沉声，目光紧锁下方谷中敌军，示意按兵以待
+
+## E38-04 S1
+  cut1 beats=[9, 9] sec=3 size=close cam=Static Shot chars=['C05'] props=[]
+      comp=三分法 cpos=令旗 + 平视侧面 eye=下方谷中 foc=锁定展旗的手与落下的火把 stab=stable lens=85mm 长焦，浅景深
+      FRAME: 特写，诸葛亮在上风处将旗一展，军中火把应声而落，旗面猎猎，火光霎时腾起
+      SHOT: 固定镜头，鹤氅青年于上风处将令旗一展，身后火把齐落，声色间尽是对时机的把握
+  cut2 beats=[10, 10] sec=3 size=extreme-wide cam=Static Shot chars=['C23'] props=[]
+      comp=对称构图 cpos=博望坡 + 平视远眺 eye=冲天的火光 foc=锁定腾空的烈焰 stab=stable lens=24mm 广角，深景深
+      FRAME: 大远景，风助火势，博望坡一时烈焰腾空，曹军人仰马翻，火光映红半边天，灰烟滚滚
+      SHOT: 固定镜头远望，风助火势烈焰腾空，谷中曹军人仰马翻，整片坡体被火光吞没
+  cut3 beats=[11, 11] sec=3 size=wide cam=Shake Slightly chars=['C23'] props=[]
+      comp=引导线构图 cpos=谷中 + 平视侧面 eye=逃散的士卒 foc=锁定独眼将领与崩溃的军阵 stab=slight-shake lens=35mm 广角，深景深
+      FRAME: 全景，谷中火起，士卒号哭奔逃，夏侯惇连挥令旗也压不住阵脚，火舌舔上旗面，人马影乱
+      SHOT: 镜头微晃，谷中火起，士卒号哭奔逃，独眼将领连挥令旗也压不住阵脚，火舌掠过旗面
+
+## E38-05 S1
+  cut1 beats=[12, 13] sec=4 size=close cam=Shake Slightly chars=['C23'] props=[]
+      comp=中心构图 cpos=独眼将领 + 平视正面 eye=前方火墙 foc=锁定独眼将领惊变的神情 stab=slight-shake lens=85mm 长焦，浅景深
+      FRAME: 特写，夏侯惇独眼圆睁惊觉火来得不对，连声喝道前面准有埋伏快退，中计了撤快撤，火光照亮惊骇的脸
+      SHOT: 镜头微晃，独眼将领于火中惊觉中计，独眼圆睁，连声喝令撤军，声音被烟火烧得发哑
+  cut2 beats=[14, 14] sec=3 size=wide cam=Tracking Shot chars=['C23'] props=[]
+      comp=引导线构图 cpos=独眼将领 + 背后平视跟随 eye=逃路方向 foc=锁定奔逃的独眼将领 stab=slight-shake lens=35mm 广角，深景深
+      FRAME: 全景，夏侯惇夺路而逃身后的征衣沾了火狼狈不堪地败走，夺路而下，火星沿着衣摆一路迸溅
+      SHOT: 镜头平稳跟随，独眼将领夺路而逃，身后征衣沾了火，狼狈不堪地沿坡冲下
+
+## E38-06 S1
+  cut1 beats=[15, 15] sec=4 size=medium cam=Static Shot chars=['C03'] props=[]
+      comp=三分法 cpos=虬髯大汉 + 平视正面 eye=下方火场 foc=锁定虬髯大汉大笑的神情 stab=stable lens=50mm 标准，中浅景深
+      FRAME: 中景，张飞于坡上望着火场，咧嘴大笑道烧得好烧得那群王八羔子屁滚尿流，虬髯随笑声抖动，火光映脸
+      SHOT: 固定镜头，虬髯大汉于坡上望着火场，咧嘴大笑，畅快之情溢于言表，火光映亮他的脸
+  cut2 beats=[16, 16] sec=4 size=close cam=Static Shot chars=['C02'] props=[]
+      comp=中心构图 cpos=红脸武者 + 平视正面 eye=下方火场 foc=锁定红脸武者敬服的神情 stab=stable lens=85mm 长焦，浅景深
+      FRAME: 特写，关羽抱拳于坡上赞道军师神算一把火便退了曹军前锋，火舌红光映在他红润的面庞上，眼中满是敬服
+      SHOT: 固定镜头，红脸武者抱拳称许，语气里是发自衷心的敬服，火光的暖红映在他的面上
+
+## E38-07 S1
+  cut1 beats=[17, 17] sec=3 size=close cam=Static Shot chars=['C01'] props=[]
+      comp=三分法 cpos=软袍贵族 + 平视正侧面 eye=身旁军师 foc=锁定软袍贵族微怔的目光 stab=stable lens=85mm 长焦，浅景深
+      FRAME: 特写，刘备在山上看到此幕，转头望向这位新军师，目光竟有些怔，眼底涌动着感慨与信服
+      SHOT: 固定镜头，软袍贵族立于坡上望见火起，转头看向身旁的新任军师，目光微怔，眼底翻涌着感慨
+  cut2 beats=[18, 18] sec=4.5 size=close cam=Push In chars=['C01'] props=[]
+      comp=中心构图 cpos=软袍贵族 + 平视正面 eye=身旁军师 foc=锁定软袍贵族面部 stab=stable lens=85mm 长焦，浅景深
+      FRAME: 特写，刘备回过神来沉声道军师料敌如神刘备自愧不如佩服之至，火光的暖色在他眼睫上一闪
+      SHOT: 镜头小幅缓推，软袍贵族回过神，郑重道出叹服，语气里满是心悦诚服
+
+## E38-08 S1
+  cut1 beats=[19, 19] sec=5.5 size=medium cam=Static Shot chars=['C05'] props=[]
+      comp=中心构图 cpos=鹤氅青年 + 平视正面 eye=逃远的烟尘 foc=锁定鹤氅青年沉静的面容 stab=stable lens=50mm 标准，中浅景深
+      FRAME: 中景，诸葛亮于坡上收扇执戈，神色从容道此不过小试锋芒夏侯部远未伤筋动骨尚须谨慎，火光的暖色爬上半边衣甲
+      SHOT: 固定镜头，鹤氅青年于坡上收扇，神色从容，语气清冷地道出胜而不骄的谨慎
+  cut2 beats=[20, 20] sec=3 size=wide cam=Static Shot chars=['C05', 'C01'] props=[]
+      comp=引导线构图 cpos=双人 + 平视侧面 eye=远处烟尘 foc=锁定坡上并肩的两人 stab=stable lens=35mm 广角，中景深
+      FRAME: 全景，孔明收扇立于坡上戎装之下，望着逃远的烟尘若有所思，刘备随他的目光一并望向远方
+      SHOT: 固定镜头，鹤氅青年收扇立于坡上戎装之下，目光追着逃远的烟尘，若有所思；软袍贵族在他身侧并肩远望
+
+## E38-09 S1
+  cut1 beats=[21, 21] sec=5 size=close cam=Static Shot chars=['C01'] props=[]
+      comp=三分法 cpos=软袍贵族 + 平视正面 eye=远处烟尘 foc=锁定软袍贵族含忧的目光 stab=stable lens=85mm 长焦，浅景深
+      FRAME: 特写，刘备望着退敌方向沉声道军师他是往新野方向退的怕是还要卷土重来，眉宇间带着一层后忧
+      SHOT: 固定镜头，软袍贵族望着退敌方向，眉头微锁，道破敌军必还卷土重来的隐忧
+  cut2 beats=[22, 22] sec=5.5 size=close cam=Static Shot chars=['C05'] props=[]
+      comp=中心构图 cpos=鹤氅青年 + 平视正面 eye=远处 foc=锁定鹤氅青年含笑的眼 stab=stable lens=85mm 长焦，浅景深
+      FRAME: 特写，诸葛亮执扇微微一笑，目光深远道正合心意退而不守寻常守而不备我反其道而行，火光照亮唇角
+      SHOT: 固定镜头，鹤氅青年执扇于坡上轻笑，目光深远，语气里透出早已料定的从容
+
+## E38-10 S2
+  cut1 beats=[1, 2] sec=4 size=wide cam=Tracking Shot chars=['C23', 'C05'] props=['P05', 'P06']
+      comp=引导线构图 cpos=战场 + 平视远眺 eye=城下来敌 foc=锁定城头的鹤氅青年 stab=slight-shake lens=35mm 广角，中景深
+      FRAME: 全景，夏侯惇残部卷土重来气势汹汹扑向新野城下，诸葛亮在城头看毕转身下达第二道命令，城楼烟尘与旗帜翻卷
+      SHOT: 镜头平稳跟随，新野城外独眼将领率残部重新扑来，城头一名鹤氅青年回身传令，神色笃定
+  cut2 beats=[3, 3] sec=5 size=close cam=Static Shot chars=['C05'] props=[]
+      comp=中心构图 cpos=鹤氅青年 + 平视正面 eye=城下 foc=锁定鹤氅青年沉静的眼 stab=stable lens=85mm 长焦，浅景深
+      FRAME: 特写，诸葛亮于城头执扇，沉声部署新野城小难守放他入城关门再放一把火，目光沉静而决断
+      SHOT: 固定镜头，鹤氅青年于城头执扇，目光沉静，语气平缓却透出已成竹在胸的决断
+
+## E38-11 S2
+  cut1 beats=[4, 4] sec=2.5 size=close cam=Static Shot chars=['C01'] props=[]
+      comp=中心构图 cpos=软袍贵族 + 平视正面 eye=对面之人面部 foc=锁定软袍贵族紧张的眉眼 stab=stable lens=85mm 长焦，浅景深
+      FRAME: 特写，刘备闻言脸色一凛，蹙眉追问城中百姓呢，烟火映在焦急的眉眼间
+      SHOT: 固定镜头，软袍贵族闻言神色一紧，蹙眉追问百姓去向，语气里带着牵挂
+  cut2 beats=[5, 5] sec=5.5 size=close cam=Static Shot chars=['C05'] props=[]
+      comp=三分法 cpos=鹤氅青年 + 平视正面 eye=对面之人面部 foc=锁定鹤氅青年面部 stab=stable lens=85mm 长焦，浅景深
+      FRAME: 特写，诸葛亮沉稳应道皇叔放心我已提早遣百姓出城避火留下一座空城，目光里带着安抚
+      SHOT: 固定镜头，鹤氅青年沉稳应答，语气笃定，目光里带着叫对方放宽心的安抚
+  cut3 beats=[6, 6] sec=3 size=wide cam=Static Shot chars=['C23'] props=[]
+      comp=对称构图 cpos=街市 + 平视远眺 eye=燃起的街市 foc=锁定闭阖的城门与火光 stab=stable lens=35mm 广角，深景深
+      FRAME: 全景，曹军一进城四门轰然闭阖，火油沿街泼洒火起全城，独眼将领在火光里纵马回头，烈焰映红整条街
+      SHOT: 固定镜头远望，曹军冲入城门四门随即闭阖，火油沿街泼下，全城映红一片
+
+## E38-12 S2
+  cut1 beats=[7, 7] sec=4 size=close cam=Shake Slightly chars=['C23'] props=[]
+      comp=中心构图 cpos=独眼将领 + 平视正面 eye=面前的火墙 foc=锁定独眼将领惊变的神情 stab=slight-shake lens=85mm 长焦，浅景深
+      FRAME: 特写，夏侯惇勒马惊喝不好城门关了火这里也有伏兵，独眼圆睁，火光在他脸上乱跳
+      SHOT: 镜头微晃，独眼将领勒马惊喝，独眼圆睁，火光映着他骤然惊变的脸
+  cut2 beats=[8, 9] sec=4 size=wide cam=Tracking Shot chars=['C23'] props=[]
+      comp=引导线构图 cpos=独眼将领 + 平视侧面跟随 eye=逃路方向 foc=锁定奔逃的独眼将领 stab=slight-shake lens=35mm 广角，深景深
+      FRAME: 全景，夏侯惇勒马回头想把后军撤出却被前后火墙死死堵住，夺路而逃踉跄败退头昏脑涨，火舌追着马蹄
+      SHOT: 镜头平稳跟随，独眼将领勒马回头欲撤后军，却被前后火墙堵死，随即夺路败逃，踉跄冲过火场
+
+## E38-13 S2
+  cut1 beats=[10, 10] sec=3.5 size=medium cam=Static Shot chars=['C23'] props=[]
+      comp=中心构图 cpos=独眼将领 + 平视正面 eye=面前的火海 foc=锁定独眼将领满是烟灰的脸 stab=stable lens=50mm 标准，中浅景深
+      FRAME: 中景，夏侯惇冲出火场狼狈勒马，独眼圆睁咬牙低喝又是火诸葛亮你好狠的手段，火光映着他满是烟灰的脸
+      SHOT: 固定镜头，独眼将领冲出火场狼狈勒马，独眼圆睁，咬牙低喝，神情又恨又惧
+  cut2 beats=[11, 11] sec=3 size=medium cam=Static Shot chars=['C05'] props=[]
+      comp=三分法 cpos=鹤氅青年 + 平视侧面 eye=下方火场 foc=锁定鹤氅青年平静的面容 stab=stable lens=50mm 标准，中浅景深
+      FRAME: 中景，火场不远处，诸葛亮羽扇一收神色平静如初，立于高处的暗影中，火光在他身后起伏
+      SHOT: 固定镜头，鹤氅青年于高处将羽扇一收，神色平静如初，凝望着下方渐熄的火场
+  cut3 beats=[12, 12] sec=4 size=medium cam=Static Shot chars=['C03'] props=[]
+      comp=三分法 cpos=虬髯大汉 + 平视正面 eye=下方火场 foc=锁定虬髯大汉大笑的神情 stab=stable lens=50mm 标准，中浅景深
+      FRAME: 中景，张飞于坡上咧嘴大笑，由衷赞道军师这两把火烧得我飞心服口服，虬髯随笑颤动，火光映红半张脸
+      SHOT: 固定镜头，虬髯大汉于坡上咧嘴大笑，语气里满是心悦诚服，火光在他脸上跳动
+
+## E38-14 S2
+  cut1 beats=[13, 13] sec=3 size=close cam=Static Shot chars=['C01'] props=[]
+      comp=三分法 cpos=软袍贵族 + 平视正侧面 eye=下方火光 foc=锁定软袍贵族凝重的眉眼 stab=stable lens=85mm 长焦，浅景深
+      FRAME: 特写，刘备站在高处望着渐熄的火光，眼中却浮起一丝忧色，火光明明灭灭映在他凝重的眉眼间
+      SHOT: 固定镜头，软袍贵族立于高处望着渐熄的火光，眼里的喜色退去，浮起一层忧色
+  cut2 beats=[14, 14] sec=5.5 size=close cam=Static Shot chars=['C01'] props=[]
+      comp=中心构图 cpos=软袍贵族 + 平视正面 eye=身旁之人 foc=锁定软袍贵族忧忡的眼 stab=stable lens=85mm 长焦，浅景深
+      FRAME: 特写，刘备低声忧道军师这一退曹军得知上当必更恨新野入骨，眉头深锁，目光沉落
+      SHOT: 固定镜头，软袍贵族低声陈说隐忧，眉头深锁，语带忧忡地看向身旁军师
+  cut3 beats=[15, 15] sec=6.5 size=close cam=Static Shot chars=['C05'] props=[]
+      comp=中心构图 cpos=鹤氅青年 + 平视正面 eye=对面之人面部 foc=锁定鹤氅青年凝练的神情 stab=stable lens=85mm 长焦，浅景深
+      FRAME: 特写，诸葛亮平和应道皇叔所虑极是两把火解围一时却招来曹操举国问罪之心，羽扇轻摇，神色凝练
+      SHOT: 固定镜头，鹤氅青年羽扇轻摇，神态凝练，语气平和地道出两把火换来的隐忧
+
+## E38-15 S2
+  cut1 beats=[16, 16] sec=2.5 size=medium cam=Static Shot chars=['C02'] props=[]
+      comp=三分法 cpos=红脸武者 + 平视正面 eye=兄长与军师之间 foc=锁定红脸武者沉凝的神情 stab=stable lens=50mm 标准，中浅景深
+      FRAME: 中景，关羽握刀沉声问道那咱们是守是退，长须垂落，目光落在兄长与军师之间
+      SHOT: 固定镜头，红脸武者握刀而立，沉声发问，目光在兄长与军师之间来回
+  cut2 beats=[17, 17] sec=3 size=close cam=Static Shot chars=['C05'] props=[]
+      comp=对角线构图 cpos=舆图上的指尖 + 俯视 30° eye=图上的新野 foc=锁定落在图上的指尖 stab=stable lens=85mm 长焦，浅景深
+      FRAME: 特写，诸葛亮以扇轻点舆图，指尖在新野城外反复盘旋终是一落，火光在卷面上游移
+      SHOT: 固定镜头，鹤氅青年以扇尖轻点舆图，指尖在新野城外盘旋一周后落下，神色沉吟
+  cut3 beats=[18, 18] sec=5 size=close cam=Static Shot chars=['C05'] props=[]
+      comp=中心构图 cpos=鹤氅青年 + 平视正面 eye=对面众人 foc=锁定鹤氅青年沉定的眼 stab=stable lens=85mm 长焦，浅景深
+      FRAME: 特写，诸葛亮抬起眼来，沉声道守一时已可久守难支当预作退避江夏的打算，目光沉定
+      SHOT: 固定镜头，鹤氅青年抬眼，神色沉定，语气平缓道出退避江夏之算
+
+## E38-16 S2
+  cut1 beats=[19, 19] sec=4.0 size=medium cam=Static Shot chars=['C03'] props=[]
+      comp=中心构图 cpos=虬髯大汉 + 平视正面 eye=下方城头 foc=锁定虬髯大汉不忿的神情 stab=stable lens=50mm 标准，中浅景深
+      FRAME: 中景，张飞在坡上瞪圆大眼，满是不平地嚷道才打胜仗就要撤这仗岂不是白赢了，一手提着长矛，一脸不服。
+      SHOT: 固定镜头，虬髯大汉立于坡上瞪圆眼睛，随手把长矛往地上一顿，满是不平，语调又急又冲。
+  cut2 beats=[20, 20] sec=5.0 size=medium cam=Static Shot chars=['C01'] props=[]
+      comp=三分法 cpos=刘备 + 平视正面 eye=对旁边之人 foc=锁定刘备按下的手 stab=stable lens=50mm 标准，中浅景深
+      FRAME: 中景，刘备按住张飞的臂膀，目光温和又清醒，平静道三弟胜了就给咱们挣了拔营的工夫已是赚的。
+      SHOT: 固定镜头，面容仁厚的男子按住身旁猛汉的臂膀，语气平稳地将对方的躁意按捺下来。
+  cut3 beats=[21, 21] sec=3.0 size=wide cam=Static Shot chars=['C01', 'C05'] props=[]
+      comp=对称 cpos=双人背影 + 平视侧面 eye=北方的天际 foc=锁定并肩站立的剪影 stab=stable lens=35mm 广角，中等景深
+      FRAME: 全景，残烧将熄的城头上，刘备与诸葛亮并肩而立，望着北方，两人脸上都凝着重量。
+      SHOT: 固定机位，两抹身影并肩立在半焦的城垛前，一同凝视寂静的北方，神色沉凝。
+
+## E38-17 S2
+  cut1 beats=[22, 22] sec=4.5 size=close cam=Push In chars=['C01'] props=[]
+      comp=三分法 cpos=刘备 + 平视正面 eye=北方天际 foc=锁定刘备微皱的眉 stab=slight-shake lens=85mm 长焦，浅景深
+      FRAME: 特写，刘备望着北方，眉宇不展，轻声道两把火虽解此围可曹操岂肯善罢甘休，火烬在瞳中一明一灭。
+      SHOT: 镜头轻推，面容仁厚的男子凝视北方天际，眉头微锁，语带一丝深远的忧虑。
+  cut2 beats=[23, 23] sec=6.0 size=close cam=Static Shot chars=['C05'] props=[]
+      comp=中心构图 cpos=诸葛亮 + 平视正面 eye=对旁边之人 foc=锁定鹤氅青年的眼 stab=stable lens=85mm 长焦，浅景深
+      FRAME: 特写，诸葛亮执扇于侧，神色端凝道故此当预作退计不可恋战皇叔收拾行装要紧，目光清亮见底。
+      SHOT: 固定特写，鹤氅青年执扇近前，语气笃定而不容拖延，目光清亮地望向身旁这位主公。
+  cut3 beats=[24, 24] sec=3.0 size=extreme-wide cam=Static Shot chars=[] props=[]
+      comp=三分法 cpos=天际全景 + 平视远眺 eye=残阳 foc=锁定血色残阳 stab=stable lens=24mm 广角，深景深
+      FRAME: 大远景，天际残阳如血，漫天霞光铺满将熄的战场，一只孤雁掠过昏黄的云边。
+      SHOT: 固定远镜，苍茫天际一丸残阳正在沉落，血色染红半边云天，显出一场更大风暴将至的前奏。
+
+## E39-01 S1
+  cut1 beats=[1, 1] sec=4 size=wide cam=Tracking Shot chars=['C11'] props=[]
+      comp=对角线构图 cpos=信使 + 侧面平视跟随 eye=远景 foc=锁定信使与怀中急信 stab=slight-shake lens=35mm 广角，中等景深
+      FRAME: 全景，雨夜府衙门口，一匹报马连滚带爬冲入，蹄下泥水四溅，来人立时翻身滚落鞍辔。
+      SHOT: 镜头跟随，一骑驿马踏着雨水泥泞冲进官署前庭，马背上的信使翻身滚下，抱着一封急信踉跄上前。
+  cut2 beats=[2, 2] sec=4 size=close cam=Push In chars=['C01'] props=[]
+      comp=中心构图 cpos=C01 + 平视正面 eye=对前方 foc=锁定刘备发白的指尖 stab=slight-shake lens=85mm 长焦，浅景深
+      FRAME: 特写，烛火映在刘备侧脸上，他展开信一字字看，指尖发白，身形一晃忙扶住案角。
+      SHOT: 镜头缓推，面容仁厚的男子就着烛光展开信纸，一字字读下去，指节泛白，身形一晃忙扶住案沿。
+
+## E39-02 S1
+  cut1 beats=[3, 3] sec=6 size=close cam=Static Shot chars=['C01'] props=[]
+      comp=中心构图 cpos=C01 + 平视正面 eye=对前方 foc=锁定面部 stab=stable lens=85mm 长焦，浅景深
+      FRAME: 特写，刘备声音发颤道刘表竟病故了蔡氏扶幼子刘琮竟举荆州降曹，眼里的光一寸寸暗下去。
+      SHOT: 固定特写，面容仁厚的男子低哑着声音念出这道凶信，神情由惊转沉，语尾几不可闻。
+  cut2 beats=[4, 4] sec=5 size=wide cam=Static Shot chars=['C03'] props=[]
+      comp=引导线构图 cpos=C03 + 平视远眺 eye=远景 foc=锁定主体 stab=stable lens=35mm 广角，中等景深
+      FRAME: 全景，张飞拍案而起，怒目圆睁道什么荆州九郡就这么白白送给曹操，身子前倾逼向前。
+      SHOT: 固定镜头，虬髯大汉猛地拍案站起，怒目圆睁，粗声将满腹火气一并吼了出来。
+
+## E39-03 S1
+  cut1 beats=[5, 5] sec=4 size=close cam=Static Shot chars=['C02'] props=[]
+      comp=中心构图 cpos=C02 + 平视正面 eye=对前方 foc=锁定面部 stab=stable lens=85mm 长焦，浅景深
+      FRAME: 特写，关羽蹙眉握住刀柄，目光沉凝地望向兄长，烛影在他眉心投下一道深纹。
+      SHOT: 固定特写，长髯武将眉心深锁，一手按上腰间兵刃，神色凝重地望向身旁的兄长。
+  cut2 beats=[6, 6] sec=5 size=close cam=Static Shot chars=['C02'] props=[]
+      comp=中心构图 cpos=C02 + 平视正面 eye=对前方 foc=锁定面部 stab=stable lens=85mm 长焦，浅景深
+      FRAME: 特写，关羽沉声道大哥刘琮一降曹新野便成了曹军踏足的跳板，声音压得极低却字字落地。
+      SHOT: 固定特写，长髯武将压低声音，一字字道出眼下的危局，语气沉凝如铁。
+
+## E39-04 S1
+  cut1 beats=[7, 7] sec=4 size=medium cam=Static Shot chars=['C05'] props=[]
+      comp=三分法 cpos=C05 + 平视正面 eye=对前方 foc=锁定主体 stab=stable lens=50mm 标准，中浅景深
+      FRAME: 中景，诸葛亮执扇立于案侧，神色严峻道刘琮不战而降荆州大势已去皇叔此地不可久留。
+      SHOT: 固定镜头，鹤氅青年执扇立于案边，神情严峻，将眼前利弊一语道破。
+  cut2 beats=[8, 8] sec=5 size=close cam=Static Shot chars=['C01'] props=[]
+      comp=中心构图 cpos=C01 + 平视正面 eye=对前方 foc=锁定面部 stab=stable lens=85mm 长焦，浅景深
+      FRAME: 特写，刘备沉声问道前有曹操百万兵后又无路可退我军该往何处安身，眉间尽是无措的焦灼。
+      SHOT: 固定特写，面容仁厚的男子眉头紧锁，语气里带着一份走投无路的沉痛。
+
+## E39-05 S1
+  cut1 beats=[9, 9] sec=6 size=close cam=Static Shot chars=['C05'] props=[]
+      comp=中心构图 cpos=C05 + 平视正面 eye=对前方 foc=锁定面部 stab=stable lens=85mm 长焦，浅景深
+      FRAME: 特写，诸葛亮接口道曹军虽众所恃不过数州之兵公得民心这才是退的本钱，目光笃定冷静。
+      SHOT: 固定特写，鹤氅青年从容接话，语气沉定，为众人厘清以退为进的道理。
+  cut2 beats=[10, 10] sec=6 size=close cam=Static Shot chars=['C05'] props=[]
+      comp=中心构图 cpos=C05 + 平视正面 eye=对前方 foc=锁定面部 stab=stable lens=85mm 长焦，浅景深
+      FRAME: 特写，诸葛亮以扇指向西南，道唯有一路暂避江夏投奔刘琦以图后力，语气由沉转笃。
+      SHOT: 固定特写，鹤氅青年执扇指向西南方向，语气转为笃定，为众人指明一条生路。
+
+## E39-06 S1
+  cut1 beats=[11, 11] sec=4 size=medium cam=Static Shot chars=['C03'] props=[]
+      comp=三分法 cpos=C03 + 平视正面 eye=对前方 foc=锁定主体 stab=stable lens=50mm 标准，中浅景深
+      FRAME: 中景，张飞一脸不甘地追问那新野就这么丢了，双手攥紧拳头垂在身侧。
+      SHOT: 固定镜头，虬髯大汉满脸不甘，攥紧双拳，硬着嗓门追问这一句。
+  cut2 beats=[12, 12] sec=5 size=medium cam=Static Shot chars=['C05'] props=[]
+      comp=三分法 cpos=C05 + 平视正面 eye=对前方 foc=锁定主体 stab=stable lens=50mm 标准，中浅景深
+      FRAME: 中景，诸葛亮转向张飞安抚道三将军新野是荆州一县失了还有江夏可从长计议，神色从容。
+      SHOT: 固定镜头，鹤氅青年转向猛汉温言安抚，语气平缓，把话头稳稳按下来。
+
+## E39-07 S1
+  cut1 beats=[13, 13] sec=5 size=medium cam=Static Shot chars=['C02'] props=[]
+      comp=三分法 cpos=C02 + 平视正面 eye=对前方 foc=锁定主体 stab=stable lens=50mm 标准，中浅景深
+      FRAME: 中景，关羽低声道军师说得是一时之失算不得败且看日后，神色沉稳地附和。
+      SHOT: 固定镜头，长髯武将低沉着应和，神色沉稳，为众人压住心头的浮气。
+  cut2 beats=[14, 14] sec=6 size=close cam=Push In chars=['C01'] props=[]
+      comp=中心构图 cpos=C01 + 平视正面 eye=对前方 foc=锁定面部 stab=stable lens=85mm 长焦，浅景深
+      FRAME: 特写，刘备强自镇定道势单力孤守一隅而殃千万民非我本意走，目光由沉痛转为决然。
+      SHOT: 镜头缓推，面容仁厚的男子按捺下心绪，一字一字说出决断，目光愈渐坚定。
+
+## E39-08 S1
+  cut1 beats=[15, 15] sec=4 size=medium cam=Static Shot chars=['C03', 'C02'] props=[]
+      comp=三分法 cpos=C03 + 平视正面 eye=对前方 foc=锁定主体 stab=stable lens=50mm 标准，中浅景深
+      FRAME: 中景，张飞还想再争，被关羽伸手按住臂膀，硬生生咽下满腹的话。
+      SHOT: 固定镜头，长髯武将抬手按住正欲开口的猛汉臂膀，两人之间的异议就此压住。
+  cut2 beats=[16, 16] sec=4 size=close cam=Static Shot chars=['C01'] props=[]
+      comp=中心构图 cpos=C01 + 平视正面 eye=对前方 foc=锁定面部 stab=stable lens=85mm 长焦，浅景深
+      FRAME: 特写，刘备缓缓闭目，复睁眼时目光已重新坚毅，烛火在瞳中一点亮起。
+      SHOT: 固定特写，面容仁厚的男子闭眼一瞬，再睁眼时眼底已经沉淀出决意与刚毅。
+
+## E39-09 S1
+  cut1 beats=[17, 17] sec=5 size=close cam=Static Shot chars=['C02'] props=[]
+      comp=中心构图 cpos=C02 + 平视正面 eye=对前方 foc=锁定面部 stab=stable lens=85mm 长焦，浅景深
+      FRAME: 特写，关羽掷地有声道大哥往哪去云长便跟到哪刀山火海也在所不惜，目光坚定无惧。
+      SHOT: 固定特写，长髯武将一字千钧，吐出的每句话都带着刀山火海也不改其志的坚定。
+  cut2 beats=[18, 18] sec=5 size=medium cam=Static Shot chars=['C05'] props=[]
+      comp=三分法 cpos=C05 + 平视正面 eye=对前方 foc=锁定主体 stab=stable lens=50mm 标准，中浅景深
+      FRAME: 中景，诸葛亮进言道皇叔荆州虽降民心未服曹操这正是咱们的后着，目光睿智远量。
+      SHOT: 固定镜头，鹤氅青年上前一步进言，点出这看似败局里藏着的后手。
+
+## E39-10 S1
+  cut1 beats=[19, 19] sec=4 size=close cam=Static Shot chars=['C01'] props=[]
+      comp=中心构图 cpos=C01 + 平视正面 eye=对前方 foc=锁定面部 stab=stable lens=85mm 长焦，浅景深
+      FRAME: 特写，刘备沉吟道军师是说剿仲弃地而民意仍可善加经营，眉头微动若有所思。
+      SHOT: 固定特写，面容仁厚的男子若有所思地接过话头，眉头微蹙，细细咀嚼着其中深意。
+  cut2 beats=[20, 20] sec=5 size=close cam=Static Shot chars=['C05'] props=[]
+      comp=中心构图 cpos=C05 + 平视正面 eye=对前方 foc=锁定面部 stab=stable lens=85mm 长焦，浅景深
+      FRAME: 特写，诸葛亮颔首道正是地可失而民不可弃得民者日后方有卷土重来之势，语气愈发笃定。
+      SHOT: 固定特写，鹤氅青年微微颔首，言语间尽显远略，语气愈见沉着。
+
+## E39-11 S1
+  cut1 beats=[21, 21] sec=4 size=medium cam=Static Shot chars=['C03'] props=[]
+      comp=三分法 cpos=C03 + 平视正面 eye=对前方 foc=锁定主体 stab=stable lens=50mm 标准，中浅景深
+      FRAME: 中景，张飞仍不服输地别过脸咕哝那咱这仗算是白白败了，满是不甘。
+      SHOT: 固定镜头，虬髯大汉赌气别过脸，硬着嗓子不肯认这一时的败。
+  cut2 beats=[22, 22] sec=5 size=close cam=Static Shot chars=['C02'] props=[]
+      comp=中心构图 cpos=C02 + 平视正面 eye=对前方 foc=锁定面部 stab=stable lens=85mm 长焦，浅景深
+      FRAME: 特写，关羽温声宽慰道三弟能全身而退保住这许多军民已是上上之策，目光温和。
+      SHOT: 固定特写，长髯武将温声宽慰，把对方心头的疙瘩一点点解开。
+
+## E39-12 S1
+  cut1 beats=[23, 23] sec=4 size=medium cam=Static Shot chars=['C01', 'C02', 'C03', 'C05'] props=[]
+      comp=三分法 cpos=C01 + 平视正面 eye=对前方 foc=锁定主体 stab=stable lens=50mm 标准，中浅景深
+      FRAME: 中景，刘备与诸葛亮相视一眼，又看向两位兄弟，四人目光一遇，已下了连夜撤出的决心。
+      SHOT: 固定镜头，四人于烛火下交递一个眼神，不必多言便有了共同的心志。
+  cut2 beats=[24, 24] sec=4 size=wide cam=Static Shot chars=[] props=[]
+      comp=引导线构图 cpos=城头全景 + 平视远眺 eye=远景 foc=锁定次第亮起的火把 stab=stable lens=35mm 广角，中等景深
+      FRAME: 全景，雨夜的新野城头，军士悄然开拔，一支支火把在雨幕里次第亮起，蜿蜒成行。
+      SHOT: 固定远镜，雨幕里的城头上火把渐次点燃，一行队伍悄然无声地开拔而出。
+

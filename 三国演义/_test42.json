@@ -1,0 +1,838 @@
+{
+  "source": "三国演义",
+  "promptLang": "en",
+  "params": {
+    "maxSegmentSeconds": 15,
+    "minCutSeconds": 2,
+    "maxCutSeconds": 8,
+    "maxOnScreen": 3,
+    "tolerance": 0.15
+  },
+  "episodes": [
+    {
+      "ep": 42,
+      "segments": [
+        {
+          "id": "E42-01",
+          "sceneIndex": 1,
+          "cuts": [
+            {
+              "beats": [
+                1,
+                1
+              ],
+              "seconds": 3,
+              "size": "wide",
+              "camera": "Tracking Shot",
+              "characters": [
+                "C03"
+              ],
+              "frame": "全景，长坂桥头一圈溃兵正夺路，张飞骤马抢上来一把横过丈八蛇矛挡在桥心，环眼圆睁，尘土扬在马后",
+              "shot": "镜头平稳跟随，一名黑甲黑袍的巨汉骤马抢上桥头，横过长矛挡在桥心，一瞪环眼把夺路的溃兵堵住",
+              "lens": "35mm 广角，中景深",
+              "cameraPosition": "黑甲巨汉 + 侧面平视跟随",
+              "composition": "中心构图",
+              "eyeline": "桥那头的溃兵",
+              "focus": "锁定横矛挡桥的身影",
+              "stability": "slight-shake"
+            },
+            {
+              "beats": [
+                2,
+                3
+              ],
+              "seconds": 5,
+              "size": "wide",
+              "camera": "Static Shot",
+              "characters": [
+                "C03"
+              ],
+              "frame": "全景，张飞回手倒拔桥头那株大树，连根带土横在桥面上封死来路，随即把蛇矛往地上一拄立于树后",
+              "shot": "固定镜头，黑甲巨汉回身一把倒拔起桥头的大树，连根带土横在桥面封住来路，再把长矛往地上一拄，立在树后",
+              "lens": "35mm 广角，中景深",
+              "cameraPosition": "黑甲巨汉 + 平视侧面",
+              "composition": "对角线构图",
+              "eyeline": "横上的断树再扫向桥那头",
+              "focus": "锁定倒拔大树的双手",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                4,
+                4
+              ],
+              "seconds": 3,
+              "size": "close",
+              "camera": "Static Shot",
+              "characters": [
+                "C03"
+              ],
+              "frame": "特写，张飞立于断树后环眼圆睁扫过败兵，声如炸雷地暴喝出那句，胡须在风里根根竖起",
+              "shot": "固定镜头近切，黑甲巨汉圆睁环眼扫过缩在一边的败兵，猛地一声炸雷般暴喝",
+              "lens": "85mm 长焦，极浅景深",
+              "cameraPosition": "黑甲巨汉 + 平视正面",
+              "composition": "三分法",
+              "eyeline": "桥头的败兵",
+              "focus": "锁定张开的虎口",
+              "stability": "stable"
+            }
+          ],
+          "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 3.00-second mark of the target video; Picture 3 (from Shot 3) aligns with the 8.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] The cold open follows <Picture 1>: a huge black-armored general rides up the bridgehead and swings his yard-long spear crosswise to hold the middle of the bridge, glaring at the routed men who scramble back; a tracking shot captures his advance.\n[Shot 2] At 00:03.000, Holding <Picture 2>, the general with one motion yanks up the roadside tree, roots and earth, and lays it across the bridge to block the way; static shot, then plants the spear into the ground and stands behind the fallen trunk.\n[Shot 3] At 00:08.000, The close-up of <Picture 3> holds on the giant glaring at the routed men; static shot, and the black-armored general with a thunderous, roaring voice (S1) bellows: <d>[Chinese] 有某家在此，谁敢撞桥！</d>\n\noverall_soundscape: Routed shouts and scrambling feet on the bridgehead, the whoosh of a spear swung crosswise, wind and bare earth underfoot.\n\nnon_diegetic_music: Low battle drums and a martial string figure, mid-slow and grounded.",
+          "blocking": "长坂桥头，一名黑甲黑袍巨汉横矛立于画面中央桥心，身后横倒一株断树；溃退的自家兵卒在画面两侧缩成一片。",
+          "soundscape": "桥头风声，人喊马嘶的溃退声由远及近，巨汉脚下沉重的脚步声踩实桥板",
+          "music": "低沉战鼓与弦乐随对峙顿住，速度收在中慢"
+        },
+        {
+          "id": "E42-02",
+          "sceneIndex": 1,
+          "cuts": [
+            {
+              "beats": [
+                5,
+                6
+              ],
+              "seconds": 5,
+              "size": "wide",
+              "camera": "Static Shot",
+              "characters": [
+                "C03"
+              ],
+              "frame": "全景，几名想逃的兵卒被这一声镇住直往村林缩，糜竺、赵云护送车驾从桥那边退来，张飞抬手让他们先行过桥",
+              "shot": "固定镜头，几名溃兵被一声震住往村林缩；桥那头一队护着车驾的兵卒退来，黑甲巨汉抬手放他们先行过桥",
+              "lens": "35mm 广角，中景深",
+              "cameraPosition": "桥头全景 + 平视",
+              "composition": "三分法",
+              "eyeline": "退来的车驾",
+              "focus": "锁定抬手放行的巨汉",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                7,
+                8
+              ],
+              "seconds": 5,
+              "size": "wide",
+              "camera": "Static Shot",
+              "characters": [
+                "C03"
+              ],
+              "frame": "全景，桥那头尘烟一滚，曹军旗幡猎猎潮水一般压到河边，张飞单人一马横矛立于桥头，身后桥面躺着断树",
+              "shot": "固定镜头，桥那头尘烟一滚，敌军的旗幡潮水般压到河边；黑甲巨汉单人匹马横矛守在桥头，身后是那道断树",
+              "lens": "35mm 广角，深景深",
+              "cameraPosition": "桥头全景 + 平视",
+              "composition": "三分法",
+              "eyeline": "潮水般压来的曹军",
+              "focus": "锁定一人一马守桥的剪影",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                9,
+                9
+              ],
+              "seconds": 3,
+              "size": "medium",
+              "camera": "Static Shot",
+              "characters": [
+                "C03"
+              ],
+              "frame": "中景，前头的曹军勒住马脚，不敢贸然踏上木板桥，你看我我看你互相张望，桥板吱吱作响",
+              "shot": "固定镜头，前头的敌骑勒住马脚停住，互相张望，谁也不敢贸然踩上那块木板桥",
+              "lens": "50mm 标准，中浅景深",
+              "cameraPosition": "前阵曹军 + 平视正面",
+              "composition": "三分法",
+              "eyeline": "桥头的巨汉",
+              "focus": "锁定犹豫不前的战马",
+              "stability": "stable"
+            }
+          ],
+          "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 5.00-second mark of the target video; Picture 3 (from Shot 3) aligns with the 10.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] Under <Picture 2> a few routed men shrink toward the grove; over a static shot a guarded carriage retreats across from the far end and the black-armored general lifts a hand to wave them on first.\n[Shot 2] At 00:05.000, The wide of <Picture 3>: dust rolls on the far bank as enemy banners surge like a tide to the river; static shot, the single black-armored figure holds the bridgehead with spear gripped, the felled tree lying behind.\n[Shot 3] At 00:10.000, Holding <Picture 4> on the front ranks, the enemy riders rein in and hesitate, none daring to step onto the plank bridge; static shot.\n\noverall_soundscape: Hoofbeats rolling up to the river, planks groaning under weight, banners snapping in the wind.\n\nnon_diegetic_music: Heavy bell-like drumbeats, one after another, pressing low.",
+          "blocking": "桥心是巨汉独立的身影，桥那头尘烟一滚压到河边，一队曹军骑将勒马在近景。",
+          "soundscape": "马蹄声由远及近压到河边，桥板被踩得吱呀，风卷旗角的猎猎声",
+          "music": "撞钟般的低音鼓点一下一下，速度压沉"
+        },
+        {
+          "id": "E42-03",
+          "sceneIndex": 1,
+          "cuts": [
+            {
+              "beats": [
+                10,
+                11
+              ],
+              "seconds": 4,
+              "size": "close",
+              "camera": "Static Shot",
+              "characters": [
+                "C03"
+              ],
+              "frame": "特写，张飞圆睁环眼直入中军处那杆牙旗，一声暴喝炸开，胡须戟张，声浪仿佛震得空气发晃",
+              "shot": "固定镜头近切，黑甲巨汉圆睁环眼，目光直贯中军那杆大旗，一声暴喝炸响在整片阵前",
+              "lens": "85mm 长焦，极浅景深",
+              "cameraPosition": "黑甲巨汉 + 平视正面",
+              "composition": "三分法",
+              "eyeline": "中军牙旗方向",
+              "focus": "锁定暴喝时张开的虎口",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                12,
+                13
+              ],
+              "seconds": 5,
+              "size": "medium",
+              "camera": "Static Shot",
+              "characters": [
+                "C03"
+              ],
+              "frame": "中景，满阵列兵闻声一凛，马匹惊得往后蹶，有曹兵想摸上来探路只走上两步又缩了回去",
+              "shot": "固定镜头，满阵兵卒被一声喝得发凛，马匹惊得往后退蹶；一名探路的敌兵走上两步，又被吓缩了回去",
+              "lens": "50mm 标准，中浅景深",
+              "cameraPosition": "阵前曹军 + 平视侧面",
+              "composition": "三分法",
+              "eyeline": "怯退的兵与马",
+              "focus": "锁定惊蹶的马匹",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                14,
+                15
+              ],
+              "seconds": 5,
+              "size": "close",
+              "camera": "Static Shot",
+              "characters": [
+                "C03"
+              ],
+              "frame": "特写，张飞把断树又往前挪了半尺，树根扎进桥板死死封住来路，随即沉声压阵说出那句",
+              "shot": "固定镜头，黑甲巨汉把断树往前挪了挪，树根扎进桥板，随即沉声压下一句威喝",
+              "lens": "85mm 长焦，极浅景深",
+              "cameraPosition": "黑甲巨汉 + 平视正面",
+              "composition": "三分法",
+              "eyeline": "桥那头的曹军",
+              "focus": "锁定顿矛的双手",
+              "stability": "stable"
+            }
+          ],
+          "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 4.00-second mark of the target video; Picture 3 (from Shot 3) aligns with the 9.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] A static shot close-up of <Picture 1>: the giant stares dead at the command banner and lets a shout explode across the field, and the black-armored general with a voice like a thunderclap roars: <d>[Chinese] 我乃燕人张翼德！</d>\n[Shot 2] At 00:04.000, Holding <Picture 2>, the ranks flinch and horses start backward at the shout; over a static shot a scout edges two steps forward then flinches back.\n[Shot 3] At 00:09.000, A static shot close-up of <Picture 3>: the giant shoves the fallen tree half a step forward, rooting it into the planks, and the black-armored general with a heavy, intimidating voice (S1) warns: <d>[Chinese] 我有铁矛在此，谁敢近前！</d>\n\noverall_soundscape: The ranks stirring and horses squealing back a step, wind pressing harder across the bridge.\n\nnon_diegetic_music: A thunderclap, then the drums drop into a low-string rumble.",
+          "blocking": "巨汉在桥心正面近景起手，两侧桥那头的曹军勒马远远观望。",
+          "soundscape": "满阵兵马被喝得一阵骚动，马匹打响鼻蹬蹄后退，风声更紧",
+          "music": "一声炸雷后鼓点骤歇，留一段低音弦的余震"
+        },
+        {
+          "id": "E42-04",
+          "sceneIndex": 1,
+          "cuts": [
+            {
+              "beats": [
+                16,
+                16
+              ],
+              "seconds": 3,
+              "size": "wide",
+              "camera": "Static Shot",
+              "characters": [
+                "C03"
+              ],
+              "frame": "全景，张飞身后几名自家兵卒壮着胆子直起腰，站到他背后排成一排，握紧手中长枪",
+              "shot": "固定镜头，黑甲巨汉身后几名自家兵卒壮着胆子直起腰，在他背后排成一排，攥紧手中长枪",
+              "lens": "35mm 广角，中景深",
+              "cameraPosition": "桥头侧景 + 平视",
+              "composition": "对称构图",
+              "eyeline": "前方桥那头",
+              "focus": "锁定排成一排的兵卒",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                17,
+                18
+              ],
+              "seconds": 5,
+              "size": "medium",
+              "camera": "Static Shot",
+              "characters": [
+                "C03"
+              ],
+              "frame": "中景，正对峙间桥那头尘头又起像有大队人马开拔，一名曹将策马出列远远拱手喊话问话",
+              "shot": "固定镜头，对峙中桥那头尘头又起，一骑敌将策马出列，远远拱了拱手，扬声道出一句问话",
+              "lens": "50mm 标准，中浅景深",
+              "cameraPosition": "敌将 + 平视正面",
+              "composition": "三分法",
+              "eyeline": "桥头的巨汉",
+              "focus": "锁定策马出列的敌将",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                19,
+                20
+              ],
+              "seconds": 5,
+              "size": "close",
+              "camera": "Static Shot",
+              "characters": [
+                "C03"
+              ],
+              "frame": "特写，张飞也不答话把蛇矛往地上一顿钉出半尺深，才冷冷开口报上名姓又问来者，气势压人",
+              "shot": "固定镜头近切，黑甲巨汉不答话，把长矛往地上一顿钉出半尺深，才冷冷开口，声音沉得像滚雷",
+              "lens": "85mm 长焦，极浅景深",
+              "cameraPosition": "黑甲巨汉 + 平视正面",
+              "composition": "三分法",
+              "eyeline": "桥那头敌将",
+              "focus": "锁定钉矛震起的一动",
+              "stability": "stable"
+            }
+          ],
+          "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 3.00-second mark of the target video; Picture 3 (from Shot 3) aligns with the 8.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] The wide of <Picture 1> holds: a few of the routed men straighten up and line up behind the giant, gripping their spears; static shot.\n[Shot 2] At 00:03.000, Holding <Picture 2>, a new dust column rises on the far bank as a force stirs; over a static shot one enemy rider spurs out, clasps his hands across the distance and calls a question.\n[Shot 3] At 00:08.000, A static shot close-up of <Picture 3>: instead of answering, the giant slams the spear into the ground half a foot deep, then speaks coldly, and the black-armored general with a low, rolling voice (S1) answers: <d>[Chinese] 正是！来者何人，报上名来。</d>\n\noverall_soundscape: Muffled straightened voices of the redoubled men behind the giant, a mass stirring on the far bank, dust and wind.\n\nnon_diegetic_music: Low strings lifting, adding a slow pull of tension.",
+          "blocking": "自家兵卒在桥心巨汉身后排成一列壮胆，桥那头尘头又起，一骑曹将远远策马出列。",
+          "soundscape": "自家兵卒压低的应和，桥那头大队人马开拔的动静，尘土与风声",
+          "music": "低音弦乐托起，添一分对峙的拉扯感"
+        },
+        {
+          "id": "E42-05",
+          "sceneIndex": 1,
+          "cuts": [
+            {
+              "beats": [
+                21,
+                22
+              ],
+              "seconds": 5,
+              "size": "medium",
+              "camera": "Static Shot",
+              "characters": [
+                "C03"
+              ],
+              "frame": "中景，那曹将闻声一凛勒马回阵竟不敢再近前一步，张飞见对方退回去，环眼一眯把矛一横稳稳立在桥心",
+              "shot": "固定镜头，那骑敌将闻声一凛，勒马缩回阵里不敢再近前；黑甲巨汉见对方退去，眯了眯环眼横矛稳稳立在桥心",
+              "lens": "50mm 标准，中浅景深",
+              "cameraPosition": "桥头侧景 + 平视",
+              "composition": "三分法",
+              "eyeline": "缩回的敌将",
+              "focus": "锁定横矛立桥的巨汉",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                23,
+                24
+              ],
+              "seconds": 5,
+              "size": "close",
+              "camera": "Static Shot",
+              "characters": [
+                "C03"
+              ],
+              "frame": "特写，桥那头曹军阵脚一阵松动有人悄悄拨马往后退，张飞沉声把话钉死在桥面，气势如山",
+              "shot": "固定镜头，桥那头敌阵一阵松动，有人悄悄拨马后退；近前，黑甲巨汉沉声把这话钉在桥面",
+              "lens": "85mm 长焦，极浅景深",
+              "cameraPosition": "黑甲巨汉 + 平视正面",
+              "composition": "三分法",
+              "eyeline": "后退的曹军",
+              "focus": "锁定沉声开口的巨汉",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                25,
+                25
+              ],
+              "seconds": 3,
+              "size": "wide",
+              "camera": "Static Shot",
+              "characters": [
+                "C03"
+              ],
+              "frame": "全景，张飞话落，一圈自家兵卒跟着发出一声应和，反把曹军惊得又退了两步，声浪在桥头回荡",
+              "shot": "固定镜头，巨汉话落，身后一圈兵卒跟着齐声应和，竟把桥那头的敌兵惊得又退了两步",
+              "lens": "35mm 广角，中景深",
+              "cameraPosition": "桥头全景 + 平视",
+              "composition": "三分法",
+              "eyeline": "惊退的曹军",
+              "focus": "锁定齐声道和的一片",
+              "stability": "stable"
+            }
+          ],
+          "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 5.00-second mark of the target video; Picture 3 (from Shot 3) aligns with the 10.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] Holding <Picture 1>, the enemy rider flinches and wheels back without coming near; over a static shot the black-armored general narrows his eyes and plants the spear firmly at mid-bridge.\n[Shot 2] At 00:05.000, A static shot close-up of <Picture 2>: behind the far bank the enemy line loosens and a few quietly turn back; the black-armored general, with a voice that pins the words to the bridge, says: <d>[Chinese] 今日桥在人在，桥断也得我来断！</d>\n[Shot 3] At 00:10.000, The wide of <Picture 3> holds as the men behind the giant roar in unison after his words, startling the enemy back two more steps; static shot.\n\noverall_soundscape: Horses backing step by step as the enemy line loosens, the wind filling the empty span.\n\nnon_diegetic_music: A tightened low-string accent, then easing back a notch.",
+          "blocking": "桥心巨汉正面占主导，桥那头那将勒马缩回阵里，自家兵卒在侧。",
+          "soundscape": "敌将回阵时马镫碰撞，桥那头一片低低的骚动，风声灌满桥间",
+          "music": "低音弦乐一个紧箍的重音，再松一扣"
+        },
+        {
+          "id": "E42-06",
+          "sceneIndex": 1,
+          "cuts": [
+            {
+              "beats": [
+                26,
+                27
+              ],
+              "seconds": 5,
+              "size": "medium",
+              "camera": "Static Shot",
+              "characters": [
+                "C03"
+              ],
+              "frame": "中景，张飞翻身下马把长矛往桥面一拄就势坐在树根上跷着腿等敌先动，这一坐反把桥那头的曹军看得更不敢向前挪动半步",
+              "shot": "固定镜头，黑甲巨汉翻身下马，把长矛往桥面一拄，就势坐在断树根上跷起腿，等桥那头的敌人先动",
+              "lens": "50mm 标准，中浅景深",
+              "cameraPosition": "黑甲巨汉 + 平视侧面",
+              "composition": "三分法",
+              "eyeline": "桥那头的曹军",
+              "focus": "锁定霸气坐姿的巨汉",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                28,
+                29
+              ],
+              "seconds": 5,
+              "size": "close",
+              "camera": "Static Shot",
+              "characters": [
+                "C03"
+              ],
+              "frame": "特写，等了半晌桥那头还是无人应声只听得风吹旗角，张飞向前倾身把那句喝出去，声音里全是笃定",
+              "shot": "固定镜头近切，半晌桥那头无人应声，黑甲巨汉向前欠了欠身，把这话不急不缓地喝出去",
+              "lens": "85mm 长焦，极浅景深",
+              "cameraPosition": "黑甲巨汉 + 平视正面",
+              "composition": "三分法",
+              "eyeline": "桥那头的空场",
+              "focus": "锁定开口的巨汉",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                30,
+                31
+              ],
+              "seconds": 5,
+              "size": "wide",
+              "camera": "Static Shot",
+              "characters": [
+                "C03"
+              ],
+              "frame": "全景，张飞这话一落桥头排头的几骑曹军竟真个悄悄往后退了退，一场对峙硬生生被他这一坐一喝消磨得没了声气",
+              "shot": "固定镜头，这话一落，桥头排头的几骑敌兵竟真的悄悄退了退；一场剑拔弩张的对峙，被他这一坐一喝消磨得没了声气",
+              "lens": "35mm 广角，深景深",
+              "cameraPosition": "桥头全景 + 平视",
+              "composition": "对角线构图",
+              "eyeline": "悄悄后退的骑兵",
+              "focus": "锁定消弭气焰的桥头对峙",
+              "stability": "stable"
+            }
+          ],
+          "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 5.00-second mark of the target video; Picture 3 (from Shot 3) aligns with the 10.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] Holding <Picture 1>, the giant dismounts, props his spear on the planks and sits back on the tree root with one leg crossed, waiting; static shot, and the more relaxed he looks the less the enemy dares move.\n[Shot 2] At 00:05.000, A static shot close-up of <Picture 2>: after a long silence only the flag wind answers, and the black-armored general leans forward and, with an unhurried, sure voice (S1), says: <d>[Chinese] 没人敢来，便都给我退下去！</d>\n[Shot 3] At 00:10.000, The wide of <Picture 3> closes the standoff: at his words the front riders really do edge back a little, and a tense confrontation is worn down to nothing by one man sitting and shouting; static shot.\n\noverall_soundscape: A dull thud as the spear plants on the planks, the creak of armor as he sits on the root, wind and stray stirrings from across the river.\n\nnon_diegetic_music: A roguish, strutting middle-string phrase, unhurried in pace.",
+          "blocking": "巨汉翻身坐回断树根上跷着腿等敌先动，桥那头整片曹军被压得不敢向前。",
+          "soundscape": "长矛拄桥的一声闷响，人坐下时甲叶轻响，风吹旗角与桥那头细碎的骚动",
+          "music": "一段颇有跋扈气味的中音弦乐，速度不紧不慢"
+        },
+        {
+          "id": "E42-07",
+          "sceneIndex": 1,
+          "cuts": [
+            {
+              "beats": [
+                32,
+                32
+              ],
+              "seconds": 3,
+              "size": "close",
+              "camera": "Static Shot",
+              "characters": [
+                "C03"
+              ],
+              "frame": "特写，张飞侧头听着桥那头越退越远的蹄声，嘴角终于勾出一点弧度，环眼里是压实阵脚的笃定",
+              "shot": "固定镜头近切，黑甲巨汉侧耳听着桥那头越退越远的蹄声，嘴角终于微微一勾",
+              "lens": "85mm 长焦，极浅景深",
+              "cameraPosition": "黑甲巨汉 + 平视正侧面",
+              "composition": "三分法",
+              "eyeline": "远去的蹄声方向",
+              "focus": "锁定勾起的嘴角",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                33,
+                34
+              ],
+              "seconds": 5,
+              "size": "medium",
+              "camera": "Static Shot",
+              "characters": [
+                "C03"
+              ],
+              "frame": "中景，张飞长矛往桥面一顿喝了那句，桥头当先几员曹将听罢你望我望我竟没有一个敢催马近前",
+              "shot": "固定镜头，黑甲巨汉把长矛往桥面一顿，扬声道出这句；桥头当先几员敌将你望我我望你，竟没有一人敢催马",
+              "lens": "50mm 标准，中浅景深",
+              "cameraPosition": "黑甲巨汉 + 平视正面",
+              "composition": "三分法",
+              "eyeline": "桥头的敌将们",
+              "focus": "锁定顿矛的一瞬",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                35,
+                36
+              ],
+              "seconds": 4,
+              "size": "wide",
+              "camera": "Static Shot",
+              "characters": [
+                "C03"
+              ],
+              "frame": "全景，张飞又是一声喝整条河桥都在声浪里微微发颤，前阵曹军隐隐骚动竟有往回缩的势头",
+              "shot": "固定镜头，巨汉又是一声喝，整座河桥都在声浪里颤了颤；前阵敌兵隐隐骚动，竟起了往回缩的势头",
+              "lens": "35mm 广角，深景深",
+              "cameraPosition": "桥头全景 + 平视",
+              "composition": "三分法",
+              "eyeline": "骚动向缩的敌阵",
+              "focus": "锁定震得发颤的桥面",
+              "stability": "stable"
+            }
+          ],
+          "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 3.00-second mark of the target video; Picture 3 (from Shot 3) aligns with the 8.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] A static shot close-up of <Picture 1>: listening to the retreating hoofbeats fade across the bridge, the black-armored general finally lets the corner of his mouth lift a degree.\n[Shot 2] At 00:03.000, Holding <Picture 2>, the general pounds the spear and raises his voice; static shot, and the black-armored general with a bold, demanding voice (S1) calls: <d>[Chinese] 哪个敢来，与我决一死战！</d>\n[Shot 3] At 00:08.000, The wide of <Picture 3> ends the scene: one more roar from the giant sets the whole bridge trembling in the sound wave, and the front enemy ranks begin to stir and shrink back; static shot.\n\noverall_soundscape: Hoofbeats fading away across the bridge, planks creaking, banners batting in the wind.\n\nnon_diegetic_music: A short relieved string slur, resolving into a wry calm.",
+          "blocking": "巨汉在桥心收势，侧耳听桥那头越退越远的蹄声，嘴角难得勾起来；前阵曹军隐隐骚动往回缩。",
+          "soundscape": "桥那头蹄声渐渐远去，桥板吱呀，风把旗角吹得扑扑响",
+          "music": "一声松了口气的短促弦乐滑音，收在快意里"
+        },
+        {
+          "id": "E42-08",
+          "sceneIndex": 2,
+          "cuts": [
+            {
+              "beats": [
+                1,
+                2
+              ],
+              "seconds": 5,
+              "size": "medium",
+              "camera": "Static Shot",
+              "characters": [
+                "C04"
+              ],
+              "frame": "中景，高坡上曹操列马远望桥头那道黑塔似的身影神色凝重，缓缓开口问身边左右此人是谁",
+              "shot": "固定镜头，统帅骑在坡上远望桥头那道黑塔似的身影，神色凝重，缓缓开口向左右发问",
+              "lens": "50mm 标准，中浅景深",
+              "cameraPosition": "统帅 + 平视正侧面",
+              "composition": "三分法",
+              "eyeline": "桥头的身影",
+              "focus": "锁定凝重的眉眼",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                3,
+                4
+              ],
+              "seconds": 5,
+              "size": "close",
+              "camera": "Static Shot",
+              "characters": [
+                "C04"
+              ],
+              "frame": "特写，左右报上桥头立的是张飞张翼德，曹操若有所思，又低声自问一句身后的虚实",
+              "shot": "固定镜头近切，左右报上桥头那人的名姓；统帅若有所思，低声把心里的顾虑说出来",
+              "lens": "85mm 长焦，极浅景深",
+              "cameraPosition": "统帅 + 平视正面",
+              "composition": "三分法",
+              "eyeline": "桥头那片村林",
+              "focus": "锁定统帅游移的眼神",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                5,
+                5
+              ],
+              "seconds": 5,
+              "size": "wide",
+              "camera": "Static Shot",
+              "characters": [
+                "C04"
+              ],
+              "frame": "全景，曹操抚须不语望着桥那头的村林，树影里似有旗角一闪而过，他眯了眯眼",
+              "shot": "固定镜头，统帅抚须不语，望着桥那头那片村林，树影里似有旗角一闪，他眯起眼又看了一遍",
+              "lens": "35mm 广角，深景深",
+              "cameraPosition": "统帅与坡景 + 平视",
+              "composition": "三分法",
+              "eyeline": "村林树影",
+              "focus": "锁定树影里那一闪的旗角",
+              "stability": "stable"
+            }
+          ],
+          "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 5.00-second mark of the target video; Picture 3 (from Shot 3) aligns with the 10.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] Holding <Picture 1> on the slope, the warlord sits his horse gazing at the dark tower of a figure at the bridgehead; static shot, and with a grave, curious voice (S1) he asks: <d>[Chinese] 此人是谁，竟这般勇猛？</d>\n[Shot 2] At 00:05.000, A static shot close-up of <Picture 2>: the attendants give the name of the man holding the bridge, and the warlord muses aloud, with a low, weighing voice (S1) wondering: <d>[Chinese] 不知他身后有没有伏兵。</d>\n[Shot 3] At 00:10.000, The wide of <Picture 3> holds as the warlord strokes his beard without a word, eyeing the grove beyond the bridge where a banner edge seems to flicker; static shot, he narrows his eyes.\n\noverall_soundscape: Wind and banners on the high slope, the distant roar from the bridgehead, the light clink of stirrups and armor.\n\nnon_diegetic_music: Low strings sinking then rising on a probing note, slow.",
+          "blocking": "后阵坡上，统帅骑在伞盖下居左远望桥头，几名亲将谋士在他身侧靠后；一骑敌将出列报话。",
+          "soundscape": "坡上风与旌旗声，桥头喊声远远传来，马镫与甲叶的轻响",
+          "music": "低音弦乐沉下又抬起的试探音，速度慢"
+        },
+        {
+          "id": "E42-09",
+          "sceneIndex": 2,
+          "cuts": [
+            {
+              "beats": [
+                6,
+                7
+              ],
+              "seconds": 5,
+              "size": "medium",
+              "camera": "Static Shot",
+              "characters": [
+                "C04"
+              ],
+              "frame": "中景，几名亲将上前请战，曹操抬手压住没让他们轻动，又眯眼看了半晌侧耳听桥那头林间静得没有一声鸟叫",
+              "shot": "固定镜头，几名亲将上前请战，统帅抬手压住不让他们轻动，又眯眼看了半晌，侧耳去听桥那头的动静",
+              "lens": "50mm 标准，中浅景深",
+              "cameraPosition": "统帅与亲将 + 平视侧面",
+              "composition": "三分法",
+              "eyeline": "桥头村林",
+              "focus": "锁定压住人的那只手",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                8,
+                9
+              ],
+              "seconds": 5,
+              "size": "medium",
+              "camera": "Static Shot",
+              "characters": [
+                "C04"
+              ],
+              "frame": "中景，曹操身后谋士也低声相劝，说桥头恐有伏兵不可轻进，曹操沉吟片刻才接上那句判定",
+              "shot": "固定镜头，身后谋士低声相劝，说桥头恐有伏兵冒进不得；统帅沉吟片刻，才接上这句判定",
+              "lens": "50mm 标准，中浅景深",
+              "cameraPosition": "统帅 + 平视正侧面",
+              "composition": "三分法",
+              "eyeline": "桥头的断树与林影",
+              "focus": "锁定沉吟的神色",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                10,
+                11
+              ],
+              "seconds": 5,
+              "size": "medium",
+              "camera": "Static Shot",
+              "characters": [
+                "C04"
+              ],
+              "frame": "中景，曹操来回踱了两步，目光在断树和林影间反复移掠迟迟拿不定主意，终于低声下令撤免得中伏",
+              "shot": "固定镜头，统帅来回踱了两步，目光在那株断树与村林间反复移掠，迟迟拿不定主意，才低声吐出那个字",
+              "lens": "50mm 标准，中浅景深",
+              "cameraPosition": "统帅 + 平视正侧面",
+              "composition": "三分法",
+              "eyeline": "断树与林影",
+              "focus": "锁定定下心来的眼神",
+              "stability": "stable"
+            }
+          ],
+          "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 5.00-second mark of the target video; Picture 3 (from Shot 3) aligns with the 10.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] Holding <Picture 1>, a few commanders offer to advance but the warlord raises a hand to hold them still, listening toward the silent grove; static shot.\n[Shot 2] At 00:05.000, A static shot holds <Picture 2>: an adviser behind cautions against rushing in and risking an ambush, and after a moment the warlord, with a weighing voice (S1), delivers his read: <d>[Chinese] 桥短树横，寻常人守不下来。</d>\n[Shot 3] At 00:10.000, Holding <Picture 3>, the warlord paces two steps, eyes moving between the felled tree and the grove and failing to settle, before he makes up his mind; static shot, and with a low, decided voice (S1) he orders: <d>[Chinese] 撤。免得中伏。</d>\n\noverall_soundscape: Low murmured counsel on the slope, banners snapping, the grove beyond the bridge deathly still.\n\nnon_diegetic_music: An unresolved low-string suspension, weighing whether to press forward.",
+          "blocking": "统帅居左，几名亲将与谋士在他身侧靠后轮番低声相劝，桥头那株断树与林影是反复打量之处。",
+          "soundscape": "坡上低低的议论声，旌旗猎猎，桥那头林间静得没有一声鸟叫",
+          "music": "低音弦乐一个未落的悬音，透着要不要冒进的权衡"
+        },
+        {
+          "id": "E42-10",
+          "sceneIndex": 2,
+          "cuts": [
+            {
+              "beats": [
+                12,
+                13
+              ],
+              "seconds": 5,
+              "size": "wide",
+              "camera": "Static Shot",
+              "characters": [
+                "C04"
+              ],
+              "frame": "全景，曹操一声令下曹军旗号一收大队人马如退潮一般一寸一寸往后撤，桥头的张飞见敌阵松动纵马又逼近两步",
+              "shot": "固定镜头，统帅令下，敌军的旗号一收，大队人马如退潮般一寸寸后撤；桥心的黑甲巨汉见阵势松动，纵马又逼近两步",
+              "lens": "35mm 广角，深景深",
+              "cameraPosition": "桥头全景 + 平视",
+              "composition": "三分法",
+              "eyeline": "退潮的后撤",
+              "focus": "锁定收旗与逼近的一人一马",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                14,
+                15
+              ],
+              "seconds": 5,
+              "size": "medium",
+              "camera": "Static Shot",
+              "characters": [
+                "C03"
+              ],
+              "frame": "中景，张飞纵马逼近又是一声暴喝，曹军兵卒掉头就跑，桥前转瞬让出一大片空场",
+              "shot": "固定镜头，黑甲巨汉纵马逼近一声暴喝，敌兵掉头就跑，桥前转眼让出一大片空地",
+              "lens": "50mm 标准，中浅景深",
+              "cameraPosition": "黑甲巨汉 + 平视正面",
+              "composition": "三分法",
+              "eyeline": "掉头跑的曹军",
+              "focus": "锁定逼向前的战马",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                16,
+                17
+              ],
+              "seconds": 5,
+              "size": "medium",
+              "camera": "Static Shot",
+              "characters": [
+                "C03"
+              ],
+              "frame": "中景，张飞并不追赶只把矛往地上一拄守住这半座独桥，一名溃兵跑得太急被断树绊了一跤挣扎爬起来又跑",
+              "shot": "固定镜头，黑甲巨汉并不追赶，只把长矛往地上一拄守住半座独桥；一名溃兵跑得急，被断树绊了一跤，又挣扎爬起再跑",
+              "lens": "50mm 标准，中浅景深",
+              "cameraPosition": "桥头侧景 + 平视",
+              "composition": "三分法",
+              "eyeline": "绊倒又爬起的溃兵",
+              "focus": "锁定拄矛守桥的身影",
+              "stability": "stable"
+            }
+          ],
+          "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 5.00-second mark of the target video; Picture 3 (from Shot 3) aligns with the 10.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] The wide of <Picture 1> held: at the order the banners fold and the mass recedes like a tide; over a static shot the black-armored giant sees the line loosen and spurs up another two strides.\n[Shot 2] At 00:05.000, Holding <Picture 2>, the giant spurs forward and roars again; static shot, and the black-armored general with a commanding voice (S2) shouts: <d>[Chinese] 张翼德在此，谁来送死！</d>\n[Shot 3] At 00:10.000, Under <Picture 3>, the giant does not pursue but plants the spear and guards the half bridge; over a static shot a fleeing soldier trips on the tree root and scrambles up to run on.\n\noverall_soundscape: The clamor of ebbing retreat and hooves, a shout exploding over the span, the soft thud of a soldier tripping on the tree root.\n\nnon_diegetic_music: Low strings broadening with the retreat, a fading echo left behind.",
+          "blocking": "桥那头的曹军一整片往后退潮，桥心巨汉纵马逼近喝声再起，溃兵挤过断树仓皇逃。",
+          "soundscape": "退潮的嘈杂与马蹄，一声暴喝炸开，断树绊倒奔跑溃兵的闷响",
+          "music": "低音弦乐随撤退收宽，留一段余响"
+        },
+        {
+          "id": "E42-11",
+          "sceneIndex": 2,
+          "cuts": [
+            {
+              "beats": [
+                18,
+                19
+              ],
+              "seconds": 6,
+              "size": "wide",
+              "camera": "Static Shot",
+              "characters": [
+                "C03"
+              ],
+              "frame": "全景，张飞望着那一片溃退的人影吐出一口浊气，绷紧的肩背这才松了半分，又望着黑压压溃下去的铁流慢慢吐出一口长气",
+              "shot": "固定镜头，黑甲巨汉望着那一片溃退的人影吐出一口浊气，绷紧的肩背松了半分，再望着铁流溃下去，慢慢吐出一口长气",
+              "lens": "35mm 广角，深景深",
+              "cameraPosition": "黑甲巨汉 + 平视侧面",
+              "composition": "三分法",
+              "eyeline": "溃退的铁流",
+              "focus": "锁定松下来的一线肩背",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                20,
+                20
+              ],
+              "seconds": 3,
+              "size": "extreme-close",
+              "camera": "Static Shot",
+              "characters": [
+                "C03"
+              ],
+              "frame": "大特写，张飞低头去看那株断树，树根上还带着新鲜的泥土，桥身在他独臂之下微微发晃",
+              "shot": "固定镜头插入特写，巨汉低头看着那株断树，树根带着新泥，桥板在力压之下微微发颤",
+              "lens": "100mm 微距，极浅景深",
+              "cameraPosition": "断树树根 + 平视",
+              "composition": "中心构图",
+              "eyeline": "带着新泥的树根",
+              "focus": "锁定树根与颤动的桥板",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                21,
+                22
+              ],
+              "seconds": 6,
+              "size": "medium",
+              "camera": "Tracking Shot",
+              "characters": [
+                "C03"
+              ],
+              "frame": "中景，张飞回头见自家车驾已隐入桥后村林，夹马腹拨马跃过断木，马过桥心忽然顿住侧耳去听那道空了桥面没有追兵响动",
+              "shot": "镜头小幅跟移，黑甲巨汉回头见自家车驾已隐入村林，夹紧马腹拨马跃过断木；到桥心忽又顿住，侧耳去听那道空掉的桥面",
+              "lens": "50mm 标准，中浅景深",
+              "cameraPosition": "黑甲巨汉 + 侧面平视跟随",
+              "composition": "三分法",
+              "eyeline": "空掉的桥面",
+              "focus": "锁定顿住侧耳的一瞬",
+              "stability": "stable"
+            }
+          ],
+          "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 6.00-second mark of the target video; Picture 3 (from Shot 3) aligns with the 9.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] Holding <Picture 1>, the giant watches the receding crowd and lets the stale tension out of his shoulders; static shot, then blows out a long breath as the iron column floods away.\n[Shot 2] At 00:06.000, An extreme-close insert of <Picture 2>: the giant looks down at the felled tree, fresh earth clinging to its roots; static shot, the bridge planks quivering slightly under the pressure. \n[Shot 3] At 00:09.000, A tracking shot follows <Picture 3>: seeing his own carts vanish into the grove, the giant spurs the horse over the fallen trunk, checks mid-bridge and cocks an ear at the suddenly empty bridge behind — no sound of pursuit.\n\noverall_soundscape: Voices of the rout receding far off, wind over the planks, the giant blowing out a long held breath, dirt slipping from the roots.\n\nnon_diegetic_music: Low strings relaxing, sending the scene toward a close.",
+          "blocking": "桥头剩巨汉一人拄矛独立，低头去看断树树根，又回望车驾隐入村林，独马做最后收势。",
+          "soundscape": "溃退远去的人声，风卷桥板，巨汉吐出一口长气的鼻息，树根被扯动时泥土簌簌",
+          "music": "低音弦乐松下来，送这一场收束散场"
+        },
+        {
+          "id": "E42-12",
+          "sceneIndex": 2,
+          "cuts": [
+            {
+              "beats": [
+                23,
+                24
+              ],
+              "seconds": 6,
+              "size": "wide",
+              "camera": "Static Shot",
+              "characters": [
+                "C03"
+              ],
+              "frame": "全景，张飞回望坡后那道迟迟未散的旗影，眉头不由得皱了一皱，压下心头那点不安扬鞭催马没入村林深处",
+              "shot": "固定镜头，黑甲巨汉回望坡后那道迟迟未散的旗影，眉头皱了一皱，压下心头那点不安，扬鞭催马钻进村林",
+              "lens": "35mm 广角，深景深",
+              "cameraPosition": "桥头村口 + 平视",
+              "composition": "三分法",
+              "eyeline": "坡后那道旗影",
+              "focus": "锁定回望皱眉的巨汉",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                25,
+                25
+              ],
+              "seconds": 5,
+              "size": "wide",
+              "camera": "Tracking Shot",
+              "characters": [
+                "C03"
+              ],
+              "frame": "全景，张飞催马扬鞭冲入村林，把那座空桥彻底抛在身后，树影把他一点一点吞没",
+              "shot": "镜头平稳跟随，黑甲巨汉催马扬鞭冲进村林，把那座空桥彻底甩在身后，树影一点一点将他吞没",
+              "lens": "35mm 广角，深景深",
+              "cameraPosition": "黑甲巨汉 + 背后平视跟随",
+              "composition": "中心构图",
+              "eyeline": "桥的反方向村林深处",
+              "focus": "锁定没入林影的骑影",
+              "stability": "stable"
+            }
+          ],
+          "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 6.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] Holding <Picture 1>, the giant glances back at the stubborn flag shadow on the slope and a line forms between his brows; static shot, he suppresses the unease and whips the horse into the grove.\n[Shot 2] At 00:06.000, A tracking shot follows <Picture 2> as the black-armored general spurs into the grove and leaves the empty bridge far behind, the tree shadows closing over him one layer at a time.\n\noverall_soundscape: Wind as he glances back at the stubborn flag, one sharp whip crack, the horse fading into the grove.\n\nnon_diegetic_music: Low strings receding in farewell, sinking into the dusk.",
+          "blocking": "巨汉回望坡后那道未散的旗影，压下不安扬鞭催马，最后没入村林深处，把空桥抛在身后。",
+          "soundscape": "回望时风声，扬鞭的一响，马匹没入村林的蹄声由近及远",
+          "music": "低音弦乐送别般渐低，收在暮色里"
+        }
+      ]
+    }
+  ]
+}

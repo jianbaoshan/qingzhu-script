@@ -1,0 +1,229 @@
+[
+  {
+    "id": "C06",
+    "name": "吕布",
+    "aliases": ["奉先", "飞将"],
+    "importance": "major",
+    "oneLiner": "方天画戟在手、赤兔马日行千里的天下第一猛将，然反复无常，有勇而无信，终因祸起萧墙而被曹操擒杀。",
+    "persona": {
+      "gender": "男",
+      "ageRange": "约三十岁上下（推断）",
+      "identity": "汉末猛将，先后为丁原、董卓义子，后自领一军称雄徐州",
+      "appearance": "生得器宇轩昂，威风凛凛。身量高大，肩背宽阔，立在阵前如一座铁塔。浓眉大眼，目光如电，颌下微髯，束紫金冠，冠上插两根雉尾，迎风颤动。抬手便是一杆方天画戟，跨下赤兔马，那马日行千里，飞走如风。",
+      "personality": ["骁勇无双", "反复无常", "刚愎自用", "好色多疑"],
+      "temperament": "开口底气十足、声若洪钟，傲气逼人，自恃武艺过人，谁都不放在眼里。被激时怒目而瞋，拔戟而起；一旦关乎自身性命与家眷，又优柔寡断，反复难决。",
+      "motivation": "靠一身天下无敌的武艺在乱世中自立，做个说一不二的霸主；偏偏眼里只认得生死与利害，从不讲信义二字。",
+      "arc": "从刺董的义士蜕变为反覆小人，辕门射戟显其勇，终失徐州、败於曹操",
+      "relationships": [
+        { "name": "董卓", "relation": "曾认作义父，后因貂蝉反颜，亲手将其诛杀" },
+        { "name": "貂蝉", "relation": "纳为妾，为其深陷连环计，与董卓反目" },
+        { "name": "曹操", "relation": "在下邳被其围困擒获，终被绞杀" },
+        { "name": "陈宫", "relation": "其谋士，曾屡献良策，吕布多不听" }
+      ],
+      "evidence": [
+        "布舉畫戟望瓚後心便刺",
+        "那馬日行千里，飛走如風",
+        "三姓家奴休走",
+        "布曰：「汝無憂慮。吾有畫戟、赤兔馬，誰敢近我？」"
+      ]
+    },
+    "image": {
+      "prompt": "A tall imposing warrior-general of the late Eastern Han dynasty in central China, broad shoulders, square-jawed face, thick brows and piercing fierce eyes, short beard, a two-feathered purple gold crown with an extending pheasant-plume crest, lacquered armour with crimson-trimmed robe over chainmail, holding a long halberd with a crescent blade, mounted posture exudes arrogance and brute force, three-quarter bust, soft direction key light with cool fill, neutral warm-grey background, shallow depth of field, facial details sharpest",
+      "promptLocal": "角色设定图：东汉末中原猛将，身量高大、肩宽背阔，国字脸浓眉大眼，目光如电，颌下微髯。头戴紫金束发冠，上插两根雉尾随风颤动。身披缀红边暗纹的漆甲，内衬轻袍，手持一杆月牙刃方天画戟。神情傲然，透着一身天下无敌的戾气。四分之三视角半身，柔和方向主光配冷调补光，中性背景，浅景深。",
+      "negativePrompt": "same face as other characters, youthful oversized eyes, over-smoothed skin, perfectly symmetrical face, dead eyes without catchlights, helmet hair with no stray strands, mannequin stiff pose, extra fingers, malformed limbs, shadow of forward armor blocking the face",
+      "tags": ["character sheet", "Eastern Han dynasty", "warrior-general", "crimson and gold", "lacquered metal", "dramatic portrait lighting"],
+      "sheet": "Single character model sheet on ONE 16:9 landscape canvas. LEFT ZONE (about 34% of the canvas width) ONE bust portrait, front-facing, centered like an ID photo, both shoulders fully visible, bottom edge cropped flat and even, face fully detailed — this is the facial design base. RIGHT-TOP ZONE: three FULL-BODY views (front / side / back) side by side sharing one ground line. RIGHT-BOTTOM ZONE: four to five small isolated close-up studies lined up in a row — the halberd crescent blade, the two-feathered crown, the beast-face shoulder pauldron, the mailed gauntlets, the scabbared sword hilt. LIGHTING IN THE LEFT ZONE ONLY: soft directional key light from upper left with natural falloff, ambient occlusion under jaw / eye sockets / neckline. LIGHTING IN THE RIGHT ZONES: flat even orthographic lighting, no directional shadow, for clean cutout. All zones separated by thin hairline rules, plain pure white background, even margins all around. PROPORTIONS ARE CRITICAL: the three full-body figures equal height, consistent head-to-body ratio, correct proportions, all feet on the same ground line, clear space above heads and below feet, no stretching, squashing or foreshortening; the detail studies give way, not the figures; if they do not fit the bottom row, extend them down the right edge as a vertical column. One single face across the whole sheet — every view must match the bust portrait exactly, same features, same hairstyle, same expression.",
+      "about": "late Eastern Han, central China"
+    },
+    "voice": {
+      "timbre": "浑厚低沉的男中音，底气十足",
+      "pitch": "低",
+      "pace": "偏慢，开口有威压，重音落得又沉又稳",
+      "accent": "北方口音，咬字硬朗",
+      "emotion": "傲气自负，说话带着不容置疑的霸道",
+      "referenceHint": "像一个自恃天下无敌、谁也不放在眼里的战将",
+      "prompt": "30-year-old male, deep resonant baritone with strong chest projection, low-mid pitch, solid breath support, wide dynamic range. Loud dominant volume, slow deliberate pace, heavy emphatic stresses on keywords. Northern accent, hard plosive articulation. Arrogant and intemperate."
+    }
+  },
+  {
+    "id": "C07",
+    "name": "貂蝉",
+    "aliases": [],
+    "importance": "supporting",
+    "oneLiner": "汉末绝色歌伎，舞能倾城、色能误国，是王允连环计里最锋利的一枚棋子，以身入局离间董卓吕布、锄奸功成。",
+    "persona": {
+      "gender": "女",
+      "ageRange": "年方二八，约十六岁",
+      "identity": "司徒王允府中歌伎，后为连环计美人",
+      "appearance": "年方二八，色伎俱佳。柳眉杏眼，顾盼生辉，一颦一笑都带着摄人的媚。云鬓高绾，插珠簪堕马髻，着一身艳妆霓裳，腰肢袅娜，舞动时裙裾翻飞如出尘的仙。董卓见之，只见颜色美丽。",
+      "personality": ["绝色聪慧", "深明大义", "隐忍沉着", "长于歌舞"],
+      "temperament": "说话轻言细语、婉转有致，音容都含着三分心事。平日在人前眼角眉梢尽是有情，背地里却心思极深，哭是真哭、笑也是真笑，喜怒真真假假，分不清哪一分是自保、哪一分是大义。",
+      "motivation": "报了王允的养育之恩，也救黎民于倒悬、除董卓这大恶。以女儿之身周旋于两个权臣之间，以身许国。",
+      "arc": "王允连环计的核心一环，于凤仪亭离间董卓吕布，锄奸功成后功成身隐",
+      "relationships": [
+        { "name": "王允", "relation": "自幼被其收养、教以歌舞，待如亲女；为主使连环计" },
+        { "name": "董卓", "relation": "被王允先献与董卓，以美色使之沉迷" },
+        { "name": "吕布", "relation": "先许嫁吕布，使其与董卓反颜相争" }
+      ],
+      "evidence": [
+        "其女自幼選入府中，教以歌舞，年方二八，色伎俱佳",
+        "先將汝許嫁呂布，後獻與董卓",
+        "妾若不報大義，死於萬刃之下",
+        "董卓見貂蟬顏色美麗"
+      ]
+    },
+    "image": {
+      "prompt": "A beautiful young singing-girl of the late Eastern Han dynasty in the imperial capital, around sixteen, almond eyes and slender brows, delicate oval face, a high coiled bun with a swaying hairpin and ornamental comb, elegant trailing silk robes in shimmering red and gold with wide sleeves, her silhouette graceful as a dancer, gentle composed expression with a hint of guile in the eyes, three-quarter bust, soft direction key light with cool fill, neutral pale background, shallow depth of field, facial details sharpest",
+      "promptLocal": "角色设定图：东汉末都城绝色歌伎，约十六岁。柳眉杏眼、瓜子脸，云鬓高绾簪珠钗步摇，发丝轻垂。身着流光溢彩的红金霓裳、宽袖飘逸，腰肢婀娜，娉娉婷婷似能旋舞。神情温婉平和，眼底却藏着一丝深不可测的心事与机心。四分之三视角半身，柔和方向主光配冷调补光，中性浅色背景，浅景深。",
+      "negativePrompt": "same face as other characters, plain unadorned costume, over-smoothed skin, perfectly symmetrical face, dead eyes without catchlights, helmet hair with no stray strands, mannequin stiff pose, extra fingers, malformed limbs, heavy wrinkles",
+      "tags": ["character sheet", "Eastern Han dynasty", "singing-girl", "red and gold silk", "flowing drapery", "gentle portrait lighting"],
+      "sheet": "Single character model sheet on ONE 16:9 landscape canvas. LEFT ZONE (about 34% of the canvas width) ONE bust portrait, front-facing, centered like an ID photo, both shoulders fully visible, bottom edge cropped flat and even, face fully detailed — this is the facial design base. RIGHT-TOP ZONE: three FULL-BODY views (front / side / back) side by side sharing one ground line. RIGHT-BOTTOM ZONE: four to five small isolated close-up studies lined up in a row — the swaying hairpin and comb, the coiled high bun, the wide trailing sleeve drapery, the waist sash and pendant, the embroidered shoe tips. LIGHTING IN THE LEFT ZONE ONLY: soft directional key light from upper left with natural falloff, ambient occlusion under jaw / eye sockets / neckline. LIGHTING IN THE RIGHT ZONES: flat even orthographic lighting, no directional shadow, for clean cutout. All zones separated by thin hairline rules, plain pure white background, even margins all around. PROPORTIONS ARE CRITICAL: the three full-body figures equal height, consistent head-to-body ratio, correct proportions, all feet on the same ground line, clear space above heads and below feet, no stretching, squashing or foreshortening; the detail studies give way, not the figures; if they do not fit the bottom row, extend them down the right edge as a vertical column. One single face across the whole sheet — every view must match the bust portrait exactly, same features, same hairstyle, same expression.",
+      "about": "late Eastern Han, imperial capital of China"
+    },
+    "voice": {
+      "timbre": "柔亮圆润的女中音，带一丝鼻音的甜",
+      "pitch": "中偏高",
+      "pace": "中速，尾音轻挑，字句间带韵律感如歌如诉",
+      "accent": "京洛一带口音，吐字婉转细腻",
+      "emotion": "温婉多情，眼底却藏着不易察觉的心事",
+      "referenceHint": "像一个自幼习歌舞、深谙人情世故的绝色歌伎",
+      "prompt": "16-year-old female, mellow velvety mezzo-soprano, mid-to-high pitch, light soprano with delicate chest resonance, moderate range. Moderate volume, even graceful pace, silk-like melodic inflections at phrase ends. Capital-accent, refined articulation. Warm yet inscrutably watchful."
+    }
+  },
+  {
+    "id": "C12",
+    "name": "周瑜",
+    "aliases": ["公瑾"],
+    "importance": "supporting",
+    "oneLiner": "姿质风流、仪容秀丽的江东大都督，赤壁之战的江东主将，善统水军，与孔明亦敌亦僚，却有瑜亮之叹。",
+    "persona": {
+      "gender": "男",
+      "ageRange": "约二十七八岁（推断）",
+      "identity": "江东水军统帅、赤壁之战主将，东吴大都督",
+      "appearance": "姿质风流，仪容秀丽。面如冠玉，眉眼清俊而有英气，身姿挺拔修长，着一身素雅战袍、外披轻甲，束发戴冠，儒将风度与沙场杀气兼具。临阵调兵动止有法，谈笑间自有一股压得住三军的气度。",
+      "personality": ["风流儒雅", "足智多谋", "气量偏狭", "自尊极强"],
+      "temperament": "谈吐雍容、进退有度，胸有丘壑却锋芒内敛。唯独在孔明面前处处在意、寸步不让，心里那口气郁结难平，越是较劲越是把自己耗得厉害。",
+      "motivation": "统率江东水军拒曹、保东吴基业，做一番名震天下的功业；可偏偏处处被孔明压着一头，越想争个高下，越是自己中了心魔。",
+      "arc": "赤壁之战的江东主将，与孔明亦敌亦僚，智取曹操却终映衬孔明智谋",
+      "relationships": [
+        { "name": "孙策", "relation": "少年结拜，情同手足，以兄事之" },
+        { "name": "诸葛亮", "relation": "联合作战又暗中较劲，处处忌其智，终有瑜亮之叹" },
+        { "name": "鲁肃", "relation": "东吴同僚，鲁肃为其联手刘备奔走说合" },
+        { "name": "孙权", "relation": "其所侍奉的江东之主" }
+      ],
+      "evidence": [
+        "姿質風流，儀容秀麗",
+        "策視其人，乃廬江舒城人：姓周，名瑜，字公瑾",
+        "瑜與孫策同年，交情甚密，因結為昆仲",
+        "普大驚曰：「吾素欺周郎懦弱，不足為將；今能如此，真將才也！」"
+      ]
+    },
+    "image": {
+      "prompt": "A handsome elegant young naval commander of the late Eastern Han-dynasty Yangtze river regions in Jiangdong, about late twenties, jade-pale refined oval face, clear handsome brows and bright intelligent eyes, tall slender upright bearing, bound hair under a scholar-official's cap, plain white scholar-tunic under light overlaid armour with a flowing crimson cape, a commander's bearing of one who commands a river fleet, three-quarter bust, soft direction key light with cool fill, neutral light-grey background, shallow depth of field, facial details sharpest",
+      "promptLocal": "角色设定图：东汉末江东水军统帅，约二十八岁。面如冠玉、眉眼清俊含英气，身姿挺拔而不失儒雅，束发戴冠。身着素雅白袍、外披轻甲，赤红披风随风，举袖谈笑便是一股统兵主帅的气度。四分之三视角半身，柔和方向主光配冷调补光，中性浅灰背景，浅景深。",
+      "negativePrompt": "same face as other characters, rugged bearded warrior look, over-smoothed skin, perfectly symmetrical face, dead eyes without catchlights, helmet hair with no stray strands, mannequin stiff pose, extra fingers, malformed limbs",
+      "tags": ["character sheet", "Eastern Han dynasty", "naval commander", "white and crimson", "silhouette cape", "scholarly portrait lighting"],
+      "sheet": "Single character model sheet on ONE 16:9 landscape canvas. LEFT ZONE (about 34% of the canvas width) ONE bust portrait, front-facing, centered like an ID photo, both shoulders fully visible, bottom edge cropped flat and even, face fully detailed — this is the facial design base. RIGHT-TOP ZONE: three FULL-BODY views (front / side / back) side by side sharing one ground line. RIGHT-BOTTOM ZONE: four to five small isolated close-up studies lined up in a row — the scholar cap, the flowing crimson cape, the overlaid armour plates, the jade belt and sword, the wide-sleeve tunic folds. LIGHTING IN THE LEFT ZONE ONLY: soft directional key light from upper left with natural falloff, ambient occlusion under jaw / eye sockets / neckline. LIGHTING IN THE RIGHT ZONES: flat even orthographic lighting, no directional shadow, for clean cutout. All zones separated by thin hairline rules, plain pure white background, even margins all around. PROPORTIONS ARE CRITICAL: the three full-body figures equal height, consistent head-to-body ratio, correct proportions, all feet on the same ground line, clear space above heads and below feet, no stretching, squashing or foreshortening; the detail studies give way, not the figures; if they do not fit the bottom row, extend them down the right edge as a vertical column. One single face across the whole sheet — every view must match the bust portrait exactly, same features, same hairstyle, same expression.",
+      "about": "late Eastern Han, Jiangdong / Yangtze river region"
+    },
+    "voice": {
+      "timbre": "清朗温润的男中音，儒雅而有磁性",
+      "pitch": "中",
+      "pace": "中速，从容不迫，抑扬有致",
+      "accent": "江东口音，咬字清晰又不失柔和",
+      "emotion": "自信沉稳，谈笑自若，内里藏着锋芒",
+      "referenceHint": "像一个风流儒雅、胸有丘壑的江东都督",
+      "prompt": "28-year-old male, clear mellow lyric-baritone, mid pitch, light warm support, refined resonance, moderate range. Moderate volume, calm unhurried pace, well-measured rising and falling cadence. Jiangdong-region accent, crisp yet soft articulation. Composed confident and proud."
+    }
+  },
+  {
+    "id": "C13",
+    "name": "鲁肃",
+    "aliases": ["子敬"],
+    "importance": "supporting",
+    "oneLiner": "东吴坚定的联刘派、赤壁盟约的维系者，朴厚却通机变，一手促成了孙刘联盟、共拒曹操。",
+    "persona": {
+      "gender": "男",
+      "ageRange": "约三十岁上下（推断）",
+      "identity": "东吴谋士，主张联刘抗曹的主要人物",
+      "appearance": "面貌朴厚端方，颔下蓄须，眉目宽和，一身文士袍服、束带，举止持重。看似木讷老实，眼里却透着盘算的机敏。说话慢条斯理，句句落在关节上，孙权叹他是天赐给自己的臂膀。",
+      "personality": ["忠厚老实", "深谋远虑", "能言善辩", "务实果决"],
+      "temperament": "语气平和、不疾不徐，惯于讲道理、说利害；关键时刻立场极硬，敢对主上、对孔明据理力争，一心要维系孙刘这条抗曹的线。",
+      "motivation": "保住东吴、促成孙刘联盟共拒曹操，在群雄并起的乱世里为东吴谋一条生路。",
+      "arc": "东吴坚定的联刘派，赤壁盟约的维系者，促成孙刘联盟",
+      "relationships": [
+        { "name": "孙权", "relation": "其所侍奉的江东之主，视之为天赐的谋士" },
+        { "name": "诸葛亮", "relation": "亲自过江引荐、力促联盟共拒曹操" },
+        { "name": "周瑜", "relation": "东吴同僚，为其战和决策奔走说合" }
+      ],
+      "evidence": [
+        "權歎曰：「諸人議論，大失孤望。子敬開說大計，正與吾見相同。此天以子敬賜我也！」",
+        "肅曰：「肅至江夏，引諸葛瑾之弟諸葛亮在此，主公可問之，便知虛實。」",
+        "肅曰：「果有良策，肅當請主公求教。」"
+      ]
+    },
+    "image": {
+      "prompt": "A plain honest long-term strategist-scholar of the late Eastern Han-dynasty Yanzi river regions in Jiangdong, about thirty, broad trustworthy face with a beard, wide gentle brows, calm shrewd eyes, scholar's robe in muted brown with a cloth belt, dignified upright carriage, one who brokers alliances through measured words, three-quarter bust, soft direction key light with cool fill, neutral light-grey background, shallow depth of field, facial details sharpest",
+      "promptLocal": "角色设定图：东汉末江东谋士，约三十岁。面庞朴厚端方、颔下蓄须，眉目宽和而眸光机敏，身着素褐色文士深衣、束布带，姿态持重。看似老实木讷，一开口却句句落在利害关节上。四分之三视角半身，柔和方向主光配冷调补光，中性浅灰背景，浅景深。",
+      "negativePrompt": "same face as other characters, youthful unlined look, rugged warrior armour, over-smoothed skin, perfectly symmetrical face, dead eyes without catchlights, helmet hair with no stray strands, mannequin stiff pose, extra fingers, malformed limbs",
+      "tags": ["character sheet", "Eastern Han dynasty", "strategist-scholar", "muted brown", "cloth robe", "plain portrait lighting"],
+      "sheet": "Single character model sheet on ONE 16:9 landscape canvas. LEFT ZONE (about 34% of the canvas width) ONE bust portrait, front-facing, centered like an ID photo, both shoulders fully visible, bottom edge cropped flat and even, face fully detailed — this is the facial design base. RIGHT-TOP ZONE: three FULL-BODY views (front / side / back) side by side sharing one ground line. RIGHT-BOTTOM ZONE: four to five small isolated close-up studies lined up in a row — the cloth headband and scholar cap, the trimmed beard, the cloth belt and hanging bag-purse, the wide-sleeve hem folds, the flat shoes. LIGHTING IN THE LEFT ZONE ONLY: soft directional key light from upper left with natural falloff, ambient occlusion under jaw / eye sockets / neckline. LIGHTING IN THE RIGHT ZONES: flat even orthographic lighting, no directional shadow, for clean cutout. All zones separated by thin hairline rules, plain pure white background, even margins all around. PROPORTIONS ARE CRITICAL: the three full-body figures equal height, consistent head-to-body ratio, correct proportions, all feet on the same ground line, clear space above heads and below feet, no stretching, squashing or foreshortening; the detail studies give way, not the figures; if they do not fit the bottom row, extend them down the right edge as a vertical column. One single face across the whole sheet — every view must match the bust portrait exactly, same features, same hairstyle, same expression.",
+      "about": "late Eastern Han, Jiangdong / Yangtze river region"
+    },
+    "voice": {
+      "timbre": "厚实有力的男中音，浑朴而可信",
+      "pitch": "中偏低",
+      "pace": "中速偏慢，字斟句酌，条理分明",
+      "accent": "江东口音，咬字朴实",
+      "emotion": "诚恳沉稳，讲道理时自带一股令人信服的踏实",
+      "referenceHint": "像一个忠厚老成、谋划早定于胸的老谋士",
+      "prompt": "30-year-old male, solid warm bass-baritone, mid-low pitch, sturdy chest support, forward resonant tone, moderate range. Moderate calm volume, slow measured deliberate pace, well-organized phrasing. Jiangdong-region accent, plain honest articulation. Sincere, steady and level-headed."
+    }
+  },
+  {
+    "id": "C14",
+    "name": "孙权",
+    "aliases": ["仲谋", "碧眼儿"],
+    "importance": "supporting",
+    "oneLiner": "碧眼紫髯、堂堂一表的江东少主，承父兄基业而起，赤壁抉择中力排众议联刘抗曹，定鼎江东。",
+    "persona": {
+      "gender": "男",
+      "ageRange": "约二十出头（推断）",
+      "identity": "江东之主，东吴少主，孙坚之子、孙策之弟",
+      "appearance": "碧眼紫髯，堂堂一表。碧色的眼睛与紫髯最是惹眼，眉骨分明、气度不凡，坐在堂上自有王者气象。平时一身锦袍玉带，束发戴冠，年轻而沉稳，喜怒不形于色，一怒则拂衣而起。",
+      "personality": ["青年英主", "沉稳果断", "能容人纳谏", "有王者气度"],
+      "temperament": "语态端雅、不怒自威，大事当前沉得住气，听得进劝也立得下决断。被孔明一言相激立时勃然变色、拂衣而起，可见其自尊自尊无比；一经说透又立时豁然，决断极快。",
+      "motivation": "守住父亲兄长挣下的江东基业，在乱世里与群雄周旋、称雄一方；赤壁关头力排众议联刘抗曹，一举定鼎。",
+      "arc": "父兄基业上的江东之主，赤壁抉择中联刘抗曹，定鼎江东",
+      "relationships": [
+        { "name": "孙坚", "relation": "其父，江东基业的开创者" },
+        { "name": "孙策", "relation": "其兄，江东基业的奠基者" },
+        { "name": "周瑜", "relation": "其倚重的大都督、水军统帅" },
+        { "name": "鲁肃", "relation": "其倚重的联刘主使谋士" },
+        { "name": "诸葛亮", "relation": "前来游说联刘抗曹的蜀汉军师" }
+      ],
+      "evidence": [
+        "偷眼看孫權：碧眼紫髯，堂堂一表",
+        "此人相貌非常，只可激，不可說",
+        "權大悅曰：「先生之言，頓開茅塞。吾意已決，更無他疑。即日商議起兵，共滅曹操。」"
+      ]
+    },
+    "image": {
+      "prompt": "A young sovereign ruler of the late Eastern Han-dynasty Yangtze river regions in Jiangdong, early twenties, striking green-blue eyes and a purple-tinged beard, strong browline, imposing bearing that fills a royal chamber, embroidered princely robe with a jade belt, bound hair under a coronet, youthful yet commanding and composed, three-quarter bust, soft direction key light with cool fill, neutral pale background, shallow depth of field, facial details sharpest",
+      "promptLocal": "角色设定图：东汉末江东少主，约二十出头。碧眼紫髯最是醒目，眉骨分明、气度轩昂，端坐时自有一股王者气象。身着织金锦袍、束玉带，束发戴冠，年轻而沉稳内敛，喜怒不形于色。四分之三视角半身，柔和方向主光配冷调补光，中性浅色背景，浅景深。",
+      "negativePrompt": "same face as other characters, ordinary brown eyes, beardless youthful hero trope, over-smoothed skin, perfectly symmetrical face, dead eyes without catchlights, helmet hair with no stray strands, mannequin stiff pose, extra fingers, malformed limbs",
+      "tags": ["character sheet", "Eastern Han dynasty", "young sovereign", "jade and gold", "royal embroidery", "imposing portrait lighting"],
+      "sheet": "Single character model sheet on ONE 16:9 landscape canvas. LEFT ZONE (about 34% of the canvas width) ONE bust portrait, front-facing, centered like an ID photo, both shoulders fully visible, bottom edge cropped flat and even, face fully detailed — this is the facial design base. RIGHT-TOP ZONE: three FULL-BODY views (front / side / back) side by side sharing one ground line. RIGHT-BOTTOM ZONE: four to five small isolated close-up studies lined up in a row — the purple-tinted beard, the green-blue eyes, the coronet and hair binding, the jade belt buckle, the embroidered robe patterns. LIGHTING IN THE LEFT ZONE ONLY: soft directional key light from upper left with natural falloff, ambient occlusion under jaw / eye sockets / neckline. LIGHTING IN THE RIGHT ZONES: flat even orthographic lighting, no directional shadow, for clean cutout. All zones separated by thin hairline rules, plain pure white background, even margins all around. PROPORTIONS ARE CRITICAL: the three full-body figures equal height, consistent head-to-body ratio, correct proportions, all feet on the same ground line, clear space above heads and below feet, no stretching, squashing or foreshortening; the detail studies give way, not the figures; if they do not fit the bottom row, extend them down the right edge as a vertical column. One single face across the whole sheet — every view must match the bust portrait exactly, same features, same hairstyle, same expression.",
+      "about": "late Eastern Han, Jiangdong / Yangtze river region"
+    },
+    "voice": {
+      "timbre": "年轻却沉稳的中男高音，清越而有威仪",
+      "pitch": "中",
+      "pace": "中速，稳而果决，断语时干脆利落",
+      "accent": "江东口音，端雅分明",
+      "emotion": "端重内敛，喜怒不形于色，临大决断时不动如山",
+      "referenceHint": "像一个二十出头却已能坐镇一方、一言定鼎的青年君王",
+      "prompt": "22-year-old male, clear youthful yet commanding tenor, mid pitch, steady chest support, resonant clear tone, moderate range. Moderate measured volume, steady decisive pace with crisp verdict phrasing. Jiangdong-region court accent, dignified articulation. Composed, resolute and regal."
+    }
+  }
+]

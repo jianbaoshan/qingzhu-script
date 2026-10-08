@@ -1,0 +1,100 @@
+[
+  {
+    "id": "S01",
+    "name": "涿郡·桃园（结义处）",
+    "primary": true,
+    "summary": "结义之地是郊野一片桃园：几株如盖的老桃树围出中央圆形空地，青石为地、一方无字碑为证，不远处几间草顶茅庐人家在望。这里要的是「皇天后土、披肝沥胆」的野性庄严——不是精致园林，而是生于尘土、有烟火气的结拜所在，天地即为盟堂，桃花落满盟誓的石板。",
+    "anchors": [
+      { "name": "合抱老桃树", "desc": "三五株树干粗可合抱的百年桃树围成圆形空地，春日繁花如盖。" },
+      { "name": "空白青石碑", "desc": "圆形空地正中的一方未刻字青石碑，是对天盟誓的所在。" },
+      { "name": "草顶茅庐", "desc": "空地边缘几间低矮草顶土墙茅庐，透着村居烟火气。" },
+      { "name": "落英青石地", "desc": "青石板与泥地上散落桃瓣的空地，半是踏面半是落花。" },
+      { "name": "透岭远山", "desc": "桃林远端低缓的土岭与麦田，收拢旷野视线。" }
+    ],
+    "lighting": [
+      {
+        "state": "盛春晴日",
+        "prompt": "Brilliant spring midday, a high clear sun, dazzling peach blossoms backlit against a deep-blue sky, dappled shadows of blossom-dense branches falling across the grey stone clearing, peach petals drifting slowly in warm light, a faint haze low over the far hills, the thatched cottage in soft daylight."
+      },
+      {
+        "state": "黄昏烟霞",
+        "prompt": "Late afternoon turning to dusk, low amber sunlight raking through the peach grove, long shadows stretching across the stone, petals catching orange backlight, a dim lantern glow seeping from the thatched cottage, smoky rose-gold sky over the clearing."
+      }
+    ],
+    "image": {
+      "prompt": "Empty scene wide shot of a late Eastern Han dynasty rural peach garden in the Central Plains region of ancient China: several giant old peach trees with thick trunks surrounding a circular open ground paved with grey stone slabs, an uninscribed grey stele standing at the centre as an oath spot, low thatched rammed-earth cottages at the clearing's edge, peach-blossom petals scattered over the stone, flat farmland and low hills beyond the grove, absolutely no people, completely empty scene.",
+      "negativePrompt": "people, human figures, characters, crowds, silhouettes of people, hands, clothing, oversaturated colours, sterile showroom cleanliness, warped perspective, melted geometry, floating objects, text, watermark, signature",
+      "sheet": "Environment concept sheet, 16:9 landscape, L-shaped detail border layout divided by thin lines. Master view in the upper left (about 72% width, 70% height) showing the canonical wide shot of the peach-grove oath clearing under brilliant spring midday light. The right column holds two vertical close-up detail cells, the bottom row holds three square detail cells; each cell is an enlarged crop of the same space shown in the master view — nothing invented that is not present in the master view. THE SPACE MUST BE IDENTICAL ACROSS ALL PANELS. Absolutely no people anywhere. Weathered, lived-in materials: chipped paint, water stains, patina on metal, worn wood grain, dust in corners and light shafts; fabric and paper props show creases and age; nothing looks factory-new. Atmospheric depth with haze or volumetric light where the space allows",
+      "tags": ["environment sheet", "peach grove", "weathered materials", "spring blossom", "stone clearing", "daylight", "cinematic"]
+    },
+    "usage": { "episodes": [1, 2], "beats": ["结拜盟誓", "正义曲"] }
+  },
+  {
+    "id": "S02",
+    "name": "虎牢关—汜水关·诸侯联军前线",
+    "primary": true,
+    "summary": "诸侯联军会盟的旷野前线：一道虎牢雄关横在天地之间堵住来势，关下车骑连营、皂纛肃立。这里要的是两军对垒的紧张与兵戈之气的压迫——雄关的厚重、连营的纵深、空旷战场的萧杀，联盟军在此对垒迎敌的沙场，狂风卷旗、尘土蔽日的威压感。",
+    "anchors": [
+      { "name": "虎牢雄关", "desc": "城墙厚重、连入山体的大城，三重关门洞，三层敌楼高耸关城。" },
+      { "name": "联军连营", "desc": "关前旷野上绵延的连营军帐，麻布帐与木栅围成一片营寨。" },
+      { "name": "中军高台", "desc": "联军营内一座木构点将高台，上置桌案，供誓师与对垒布置。" },
+      { "name": "旷野烽燧", "desc": "前线旷野间耸立的高挑烽火台，烟墩可传警讯。" },
+      { "name": "皂纛牙旗", "desc": "关前营头一面巨大的深色牙旗，是联军的军徽标识。" }
+    ],
+    "lighting": [
+      {
+        "state": "白日对垒",
+        "prompt": "Harsh midday sun over the open war plain, strong short shadows cast by the fortress walls and tents, glaring dry bare ground, cloth banners snapping loudly in the wind, a thin dust haze hanging along the horizon beyond the camp."
+      },
+      {
+        "state": "黄昏烽烟",
+        "prompt": "Dusk, low orange light behind the fortress, thin cookfire and campfire smoke columns rising across the confederate camp, long horizontal shadows sweeping over the empty battlefield, an ember-toned sky above the smoke-hazed plain."
+      }
+    ],
+    "image": {
+      "prompt": "Empty scene wide shot of the frontline campaign ground between the Tiger-Orifice and Si River passes during the late Eastern Han dynasty in the Central Plains region of ancient China: a massive thick-walled fortress city rising against the hills with a three-fold gate and a tall three-storey watchtower, a sprawling plain covered by canvas tents and wooden stockade camps of a coalition army, a high wooden command platform with a table in the middle of the camp, tall beacon towers scattered on the open battlefield, a huge dark war banner flying at the camp head, absolutely no people, completely empty scene.",
+      "negativePrompt": "people, human figures, characters, crowds, silhouettes of people, soldiers, armour, weapons, hands, oversaturated colours, sterile showroom cleanliness, warped perspective, melted geometry, floating objects, text, watermark, signature",
+      "sheet": "Environment concept sheet, 16:9 landscape, L-shaped detail border layout divided by thin lines. Master view in the upper left (about 72% width, 70% height) showing the canonical wide shot of the fortress and coalition camp under harsh midday war-plain light. The right column holds two vertical close-up detail cells, the bottom row holds three square detail cells; each cell is an enlarged crop of the same space shown in the master view — nothing invented that is not present in the master view. THE SPACE MUST BE IDENTICAL ACROSS ALL PANELS. Absolutely no people anywhere. Weathered, lived-in materials: chipped paint, water stains, patina on metal, worn wood grain, dust in corners and light shafts; fabric and canvas shows creases and age; nothing looks factory-new. Atmospheric depth with haze or volumetric light where the space allows",
+      "tags": ["environment sheet", "camp battlefield", "fortress", "weathered materials", "tent camp", "dust haze", "cinematic"]
+    },
+    "usage": { "episodes": [5, 6, 10], "beats": ["温酒斩将", "三英联手", "群雄割据"] }
+  },
+  {
+    "id": "S03",
+    "name": "洛阳·长安·汉廷宫廷",
+    "primary": true,
+    "summary": "汉廷中枢的帝王宫廷——同一座大朝金殿承载两副命运时辰：盛世里的长安宫廷（丹墀金光、高烛夜议、御园凤仪亭游幸）与被付之一炬的洛阳残宫（焦黑柱、余烬、烟气弥散）。设计要的是皇权重压下的肃穆与金殿的恢弘，让一处宫廷随剧情在这些状态间切换，一座宫、两种命运。",
+    "anchors": [
+      { "name": "蟠龙金柱", "desc": "殿内成排朱漆鎏金蟠龙大柱，撑起高阔的金殿空间。" },
+      { "name": "丹陛石阶", "desc": "殿前向上收窄的白石丹陛，正中凿一条雕龙御道。" },
+      { "name": "鎏金铜鹤", "desc": "御座前左右分立的两只鎏金铜鹤香炉，口吐袅袅香烟。" },
+      { "name": "高悬御匾", "desc": "正殿上方一方蓝地金字的御匾，是最硬的皇权符号。" },
+      { "name": "墨绘藻井", "desc": "殿顶层层斗拱托起的木制藻井，井心彩绘云龙纹。" }
+    ],
+    "lighting": [
+      {
+        "state": "盛朝晨光",
+        "prompt": "Morning, golden daylight flooding through the great open doors of the imperial hall, long shafts of light raking across burnished lacquered dragon pillars and polished stone steps, the throne on its high gilded dais catching a warm glow, faint dust drifting in the light beams, bronze crane incense burners trailing thin smoke."
+      },
+      {
+        "state": "高烛夜议",
+        "prompt": "Night council in the imperial hall, tall bronze candelabra and lanterns casting warm staggered pools of light, deep shadows gathering among the dragon columns, the golden throne dimly visible at the far end, smoke from the crane incense burners curling up through the lamplight."
+      },
+      {
+        "state": "凤仪亭暮色",
+        "prompt": "Dusk in the imperial garden, a four-cornered eaved waterside pavilion standing beside a lotus pond under draped willows, evening petals and gentle reeds, warm fading light washing over painted rafters, paper lanterns reflected in the dark water."
+      },
+      {
+        "state": "焚宫之夜（洛阳残宫）",
+        "prompt": "The looted and burned Luoyang palace at night, charred blackened columns still standing among collapsed roof beams, drifting smoke and drifting ash over scorched grey stone, faint embers smouldering in the wreckage, dim orange fire-glow pushing against the smoke-filled darkness."
+      }
+    ],
+    "image": {
+      "prompt": "Empty scene wide shot of the grand audience throne hall of the Han imperial court during the late Eastern Han dynasty in the Central Plains region of ancient China: rows of vermilion gilded dragon pillars supporting a high vaulted timber ceiling with a painted cloud-dragon caisson, a ceremonial white marble three-tier dais stairway rising before the hall with a carved dragon central ramp, a gilded throne on a high dais, gilded bronze crane incense burners on either side, a blue-and-gold emperor's plaque hanging high above, morning golden light streaming through the open doors, light shafts across polished stone, absolutely no people, completely empty scene.",
+      "negativePrompt": "people, human figures, characters, courtiers, emperor, crowds, silhouettes of people, hands, clothing, oversaturated colours, sterile showroom cleanliness, warped perspective, melted geometry, floating objects, text, watermark, signature",
+      "sheet": "Environment concept sheet, 16:9 landscape, L-shaped detail border layout divided by thin lines. Master view in the upper left (about 72% width, 70% height) showing the canonical wide shot of the imperial throne hall under bright morning golden light. The right column holds two vertical close-up detail cells, the bottom row holds three square detail cells; each cell is an enlarged crop of the same space shown in the master view — nothing invented that is not present in the master view. THE SPACE MUST BE IDENTICAL ACROSS ALL PANELS. Absolutely no people anywhere. Well-kept, actively maintained materials: sound lacquer with an even sheen, swept stone and timber, polished metal fittings, tight joinery, no peeling paint and no water staining; wear confined to the traffic a space like this really takes — thresholds, handrails, the stone directly inside a doorway. Atmospheric depth with haze or volumetric light where the space allows",
+      "tags": ["environment sheet", "imperial palace", "throne hall", "well-kept materials", "gilded lacquer", "ceremonial", "cinematic"]
+    },
+    "usage": { "episodes": [3, 4, 7, 8, 9, 10], "beats": ["惊险行刺", "伏笔夺玺", "暴行警示", "离间计", "锄奸高潮", "群雄割据"] }
+  }
+]

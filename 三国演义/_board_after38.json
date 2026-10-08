@@ -1,0 +1,2709 @@
+{
+ "source": "三国演义",
+ "promptLang": "en",
+ "params": {
+  "maxSegmentSeconds": 15,
+  "minCutSeconds": 2,
+  "maxCutSeconds": 8,
+  "maxOnScreen": 3,
+  "tolerance": 0.15
+ },
+ "episodes": [
+  {
+   "ep": 36,
+   "segments": [
+    {
+     "id": "E36-01",
+     "sceneIndex": 1,
+     "cuts": [
+      {
+       "beats": [
+        1,
+        2
+       ],
+       "seconds": 4,
+       "size": "wide",
+       "camera": "Static Shot",
+       "characters": [
+        "C01",
+        "C05"
+       ],
+       "props": [],
+       "frame": "全景，晨雾笼罩的卧龙岗上，一身鹤氅的诸葛亮手执羽扇立在草庐柴扉前，刘备在竹篱外第三次登门，柴扉正自行敞开，青苔石阶与灰顶草庐",
+       "shot": "固定镜头，晨雾里草庐柴扉缓缓自行敞开，一名软袍贵族在竹篱外站定，庐内一名鹤氅青年起身相迎，两人隔着门槛相望",
+       "lens": "35mm 广角，中景深",
+       "cameraPosition": "草庐柴扉 + 平视侧面",
+       "composition": "三分法",
+       "eyeline": "双方对视",
+       "focus": "锁定柴扉前的两人",
+       "stability": "stable"
+      },
+      {
+       "beats": [
+        3,
+        3
+       ],
+       "seconds": 5,
+       "size": "close",
+       "camera": "Static Shot",
+       "characters": [
+        "C05"
+       ],
+       "props": [],
+       "frame": "特写，晨光里诸葛亮面如冠玉，鹤氅衣领微动，羽扇轻握，语气诚恳，目光温润地望着门外的刘备，飘散的晨雾",
+       "shot": "固定镜头，鹤氅青年执扇而立，微微拱手，目光温润地望向门外，语气诚恳从容",
+       "lens": "85mm 长焦，浅景深",
+       "cameraPosition": "鹤氅青年 + 平视正面",
+       "composition": "中心构图",
+       "eyeline": "门外来客面部",
+       "focus": "锁定鹤氅青年面部",
+       "stability": "stable"
+      }
+     ],
+     "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 4.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] <Picture 1> anchors the wide misty morning at the cottage: the soft-spoken nobleman with long earlobes steps up to the bamboo wicket gate on the mossy stone steps, and the bamboo gate creaks open of its own accord as the young strategist in a white crane-feather cloak rises within the doorway, a feather fan in hand; a static shot holds the two figures facing each other across the threshold.\n[Shot 2] At 00:04.000, the camera cuts to <Picture 2>: a static shot frames the strategist from the front, and the young strategist with a calm, courteous voice (S1) says: <d>[Chinese] 皇叔三顾之恩，亮岂敢再退避不出。请进内一叙。</d>\n\noverall_soundscape: Dawn mist hangs silent over the low hills, the bamboo wicket gate creaks open, and soft footsteps cross the swept stone before the thatched cottage.\n\nnon_diegetic_music: Low warm strings at a slow tempo."
+    },
+    {
+     "id": "E36-02",
+     "sceneIndex": 1,
+     "cuts": [
+      {
+       "beats": [
+        4,
+        5
+       ],
+       "seconds": 5.5,
+       "size": "medium",
+       "camera": "Static Shot",
+       "characters": [
+        "C01",
+        "C05"
+       ],
+       "props": [],
+       "frame": "中景，草堂内刘备拱手谦让与孔明对坐于矮案两侧，门窗间透进晨光，茶香氤氲，刘备神色恳切",
+       "shot": "固定镜头，软袍贵族与鹤氅青年分坐矮案两侧，软袍贵族拱手欠身，语气恳切地剖白半生飘零",
+       "lens": "50mm 标准，中浅景深",
+       "cameraPosition": "双人 + 平视侧面",
+       "composition": "中心构图",
+       "eyeline": "对方面部",
+       "focus": "锁定软袍贵族",
+       "stability": "stable"
+      },
+      {
+       "beats": [
+        6,
+        6
+       ],
+       "seconds": 5,
+       "size": "close",
+       "camera": "Static Shot",
+       "characters": [
+        "C05"
+       ],
+       "props": [],
+       "frame": "特写，诸葛亮手执羽扇，目光沉静，启唇应答道愿为君剖陈天下大势，浅淡晨光落在眉目间",
+       "shot": "固定镜头，鹤氅青年执扇回应，目光沉静而下定决心，语气平和地许下剖陈天下之势",
+       "lens": "85mm 长焦，浅景深",
+       "cameraPosition": "鹤氅青年 + 平视正面",
+       "composition": "三分法",
+       "eyeline": "对面之人面部",
+       "focus": "锁定鹤氅青年面部",
+       "stability": "stable"
+      }
+     ],
+     "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 5.50-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] <Picture 1> anchors the two figures seated on either side of the low table in the cottage: the soft-spoken nobleman in a crimson court robe rests his long arms on the mat and bows slightly, and a static shot holds over a pleading, heavy-hearted tone; the soft-spoken nobleman with a low, troubled voice (S1) says: <d>[Chinese] 备自诩汉室宗亲，却颠沛半生，请教先生可有良策？</d>\n[Shot 2] At 00:05.500, the camera cuts to <Picture 2>: a static shot frames the strategist from the front, and the young strategist with a calm, resolute voice (S2) answers: <d>[Chinese] 皇叔少礼。既蒙三顾，亮当为君剖陈天下大势。</d>\n\noverall_soundscape: A bamboo mat rustles as the two men settle, tea vapor rises softly, and the quiet rustle of the feather fan joins the hush of the misty morning cottage.\n\nnon_diegetic_music: Slow low strings, a faint plucked note between phrases."
+    },
+    {
+     "id": "E36-03",
+     "sceneIndex": 1,
+     "cuts": [
+      {
+       "beats": [
+        7,
+        8
+       ],
+       "seconds": 3,
+       "size": "close",
+       "camera": "Static Shot",
+       "characters": [
+        "C05",
+        "C01"
+       ],
+       "props": [],
+       "frame": "特写，诸葛亮为刘备斟一盏清茶，白瓷盏内热气轻袅，刘备诚恳地低声言谢，微倾上身相请",
+       "shot": "固定镜头，鹤氅青年提着壶为软袍贵族斟满一盏清茶，对方微倾上身诚恳地道谢相请",
+       "lens": "50mm 标准，中浅景深",
+       "cameraPosition": "双人 + 平视侧面",
+       "composition": "三分法",
+       "eyeline": "手中的茶盏",
+       "focus": "锁定斟茶的手",
+       "stability": "stable"
+      },
+      {
+       "beats": [
+        9,
+        9
+       ],
+       "seconds": 3,
+       "size": "medium",
+       "camera": "Arc Shot",
+       "characters": [
+        "C05"
+       ],
+       "props": [],
+       "frame": "中景，诸葛亮轻摇羽扇，目光越过堂门望向远处起伏的江山，晨雾笼着连绵山脊，草庐梁柱暗影",
+       "shot": "镜头缓缓环绕，鹤氅青年执扇轻摇，目光越过堂门投向远处连绵的山脊，凝视片刻",
+       "lens": "35mm 广角，中景深",
+       "cameraPosition": "鹤氅青年 + 平视侧面环绕",
+       "composition": "引导线构图",
+       "eyeline": "远处山脊",
+       "focus": "锁定鹤氅青年侧影与远山",
+       "stability": "stable"
+      }
+     ],
+     "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 3.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] <Picture 1> anchors the two seated at the low table: the young strategist pours a cup of clear tea for the nobleman and sets the teapot down; a static shot holds as the soft-spoken nobleman leans in with a sincere, deferential voice (S1): <d>[Chinese] 先生，请赐教。</d>\n[Shot 2] At 00:03.000, the camera cuts to <Picture 2>: an arc shot slowly swings around the strategist as he lightly waves the feather fan, his gaze drifting past the open door to the distant rolling ridges in the morning haze.\n\noverall_soundscape: Tea sloshes softly into the porcelain cup, the bamboo mat creaks, and birdsong carries faintly through the drifting valley fog.\n\nnon_diegetic_music: Sparse warm strings, slightly rising, at a slow tempo."
+    },
+    {
+     "id": "E36-04",
+     "sceneIndex": 1,
+     "cuts": [
+      {
+       "beats": [
+        10,
+        10
+       ],
+       "seconds": 5.5,
+       "size": "close",
+       "camera": "Static Shot",
+       "characters": [
+        "C05"
+       ],
+       "props": [],
+       "frame": "特写，诸葛亮执扇侃侃而谈，目光锐利，开口点出曹操挟天子令诸侯之势不可争锋，晨光照亮半边面容",
+       "shot": "固定镜头，鹤氅青年执扇而谈，目光渐渐锐利，语气笃定地断言曹操之势不可与之争",
+       "lens": "85mm 长焦，浅景深",
+       "cameraPosition": "鹤氅青年 + 平视正面",
+       "composition": "三分法",
+       "eyeline": "对面之人面部",
+       "focus": "锁定鹤氅青年面部",
+       "stability": "stable"
+      },
+      {
+       "beats": [
+        11,
+        11
+       ],
+       "seconds": 5.5,
+       "size": "close",
+       "camera": "Static Shot",
+       "characters": [
+        "C05"
+       ],
+       "props": [],
+       "frame": "特写，诸葛亮续言孙权据有江东国险民附，可为援而不可图，扇影在光线里轻晃，眉目沉静",
+       "shot": "固定镜头，鹤氅青年执扇续谈，眉目沉静，语气从容地分说江东可为援而不可图",
+       "lens": "85mm 长焦，浅景深",
+       "cameraPosition": "鹤氅青年 + 平视正面",
+       "composition": "三分法",
+       "eyeline": "对面之人面部",
+       "focus": "锁定鹤氅青年面部",
+       "stability": "stable"
+      },
+      {
+       "beats": [
+        12,
+        12
+       ],
+       "seconds": 3,
+       "size": "close",
+       "camera": "Push In",
+       "characters": [
+        "C05"
+       ],
+       "props": [],
+       "frame": "特写，诸葛亮以扇指案，在矮案上缓缓画出荆益两州地势，指尖沿案面游走，纸面光影晃动",
+       "shot": "镜头小幅缓推，鹤氅青年以扇尖在案上缓缓描画地势，指尖沿案面游走，画面随之下压",
+       "lens": "85mm 长焦，浅景深",
+       "cameraPosition": "矮案 + 俯视 30°",
+       "composition": "对角线构图",
+       "eyeline": "案上的地势",
+       "focus": "锁定描画地势的指尖",
+       "stability": "stable"
+      }
+     ],
+     "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 5.50-second mark of the target video; Picture 3 (from Shot 3) aligns with the 11.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] The close framing of <Picture 1> holds on the strategist as he waves the feather fan, sharp-eyed; a static shot frames him from the front as the young strategist with a steady, confident voice (S1) says: <d>[Chinese] 曹操拥兵百万，挟天子令诸侯，此诚不可与之争锋。</d>\n[Shot 2] At 00:05.500, the camera cuts to <Picture 2>: the same close static shot continues, and (S1) goes on with a calm, measured voice: <d>[Chinese] 孙权据有江东，国险而民附，此可为援，不可图也。</d>\n[Shot 3] At 00:11.000, the shot cuts to <Picture 3>: a slow push in with small amplitude lowers the camera over the low table as the strategist traces the lie of Jing and Yi province with the tip of his fan, his fingertip wandering the tabletop.\n\noverall_soundscape: The feather fan swishes softly with each gesture, tea cools on the table, and the hush of the misty cottage carries the strategist's measured tone.\n\nnon_diegetic_music: Low strings at a deliberate slow tempo, a single bowed note holding beneath the speech."
+    },
+    {
+     "id": "E36-05",
+     "sceneIndex": 1,
+     "cuts": [
+      {
+       "beats": [
+        13,
+        13
+       ],
+       "seconds": 5,
+       "size": "close",
+       "camera": "Static Shot",
+       "characters": [
+        "C05"
+       ],
+       "props": [],
+       "frame": "特写，诸葛亮收扇指案，言荆州北据汉沔利尽南海，益州险塞沃野千里，眉目笃定，晨光在案上斜照",
+       "shot": "固定镜头，鹤氅青年收扇指点案上地势，语气笃定地分说荆州益州之利",
+       "lens": "85mm 长焦，浅景深",
+       "cameraPosition": "鹤氅青年 + 平视正面",
+       "composition": "三分法",
+       "eyeline": "案上地势",
+       "focus": "锁定鹤氅青年面部",
+       "stability": "stable"
+      },
+      {
+       "beats": [
+        14,
+        14
+       ],
+       "seconds": 5.5,
+       "size": "medium",
+       "camera": "Static Shot",
+       "characters": [
+        "C05"
+       ],
+       "props": [],
+       "frame": "中景，诸葛亮执扇抬手比划，言将军若取荆益西和诸戎南抚夷越则霸业可图，衣袂随动作轻扬",
+       "shot": "固定镜头，鹤氅青年执扇抬手比划，吐字铿锵，神色间尽是雄心，语气愈发坚定",
+       "lens": "50mm 标准，中浅景深",
+       "cameraPosition": "鹤氅青年 + 平视正面",
+       "composition": "中心构图",
+       "eyeline": "对面之人面部",
+       "focus": "锁定鹤氅青年上半身",
+       "stability": "stable"
+      },
+      {
+       "beats": [
+        15,
+        15
+       ],
+       "seconds": 3,
+       "size": "close",
+       "camera": "Static Shot",
+       "characters": [
+        "C01"
+       ],
+       "props": [],
+       "frame": "特写，刘备听得入神，身子不自觉前倾，双眼发亮，扶手被攥紧，案上茶光晃动",
+       "shot": "固定镜头，软袍贵族听得入神，上身不自觉前倾，双眼发亮，放在案上的手微微前探",
+       "lens": "85mm 长焦，浅景深",
+       "cameraPosition": "软袍贵族 + 平视正侧面",
+       "composition": "中心构图",
+       "eyeline": "对面之人面部",
+       "focus": "锁定软袍贵族面部",
+       "stability": "stable"
+      }
+     ],
+     "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 5.00-second mark of the target video; Picture 3 (from Shot 3) aligns with the 10.50-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] The close static framing of <Picture 1> follows the strategist as he takes up the fan and points to the traced terrain, the young strategist with a precise, assured voice (S1): <d>[Chinese] 荆州北据汉沔，利尽南海，益州险塞，沃野千里。</d>\n[Shot 2] At 00:05.000, the camera cuts to <Picture 2>: an upright static shot frames the strategist's full gesture as he waves the fan and continues with rising conviction (S1): <d>[Chinese] 将军若取荆益，西和诸戎，南抚夷越，则霸业可图。</d>\n[Shot 3] At 00:10.500, the shot cuts to <Picture 3>: a close static shot on the nobleman's face as he leans forward, eyes lighting up and his hand reaching across the table toward the traced map.\n\noverall_soundscape: The sleeve of the court robe brushes the mat as the nobleman leans in, the feather fan swishes, and the low hum of the misty cottage returns between phrases.\n\nnon_diegetic_music: Slow rising strings, growing slightly in warmth."
+    },
+    {
+     "id": "E36-06",
+     "sceneIndex": 1,
+     "cuts": [
+      {
+       "beats": [
+        16,
+        16
+       ],
+       "seconds": 4,
+       "size": "close",
+       "camera": "Static Shot",
+       "characters": [
+        "C01"
+       ],
+       "props": [],
+       "frame": "特写，刘备蹙眉追问如何守得住荆益两方，目光恳切，双眉间微蹙，案上茶露轻晃",
+       "shot": "固定镜头，软袍贵族微微蹙眉，目光恳切地追问守土之计，语气里带着求索之诚",
+       "lens": "85mm 长焦，浅景深",
+       "cameraPosition": "软袍贵族 + 平视正面",
+       "composition": "三分法",
+       "eyeline": "对面之人面部",
+       "focus": "锁定软袍贵族面部",
+       "stability": "stable"
+      },
+      {
+       "beats": [
+        17,
+        17
+       ],
+       "seconds": 6,
+       "size": "close",
+       "camera": "Static Shot",
+       "characters": [
+        "C05"
+       ],
+       "props": [],
+       "frame": "特写，诸葛亮执扇应答两州相倚互为唇齿，东结孙权以当曹北固汉中以自守，神色从容笃定",
+       "shot": "固定镜头，鹤氅青年执扇从容应答，语气稳当，一字一句尽是筹谋",
+       "lens": "85mm 长焦，浅景深",
+       "cameraPosition": "鹤氅青年 + 平视正面",
+       "composition": "中心构图",
+       "eyeline": "对面之人面部",
+       "focus": "锁定鹤氅青年面部",
+       "stability": "stable"
+      }
+     ],
+     "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 4.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] The close static framing of <Picture 1> is on the nobleman's face: brow knitting, earnest, pressing for the way to hold two provinces, the soft-spoken nobleman with a searching, sincere voice (S1): <d>[Chinese] 先生，若取荆益，如何守得住两方？</d>\n[Shot 2] At 00:04.000, the camera cuts to <Picture 2>: a close static shot on the strategist as he answers steadily with the fan in hand, the young strategist with a calm, assured voice (S2): <d>[Chinese] 两州相倚，互为唇齿。东结孙权以当曹，北固汉中以自守。</d>\n\noverall_soundscape: The mat shifts under the nobleman, the feather fan swishes gently, and the morning hush holds between the two voices.\n\nnon_diegetic_music: Low sustained strings at a slow tempo, faint and even throughout."
+    },
+    {
+     "id": "E36-07",
+     "sceneIndex": 1,
+     "cuts": [
+      {
+       "beats": [
+        18,
+        18
+       ],
+       "seconds": 6,
+       "size": "close",
+       "camera": "Static Shot",
+       "characters": [
+        "C05"
+       ],
+       "props": [],
+       "frame": "特写，诸葛亮执扇言先荆州而后益州次第图之，基业渐固可待北出，目光落在案上地势，沉稳有力",
+       "shot": "固定镜头，鹤氅青年执扇续道筹划次第，目光落在案上地势，语气沉稳有力",
+       "lens": "85mm 长焦，浅景深",
+       "cameraPosition": "鹤氅青年 + 平视正面",
+       "composition": "三分法",
+       "eyeline": "案上地势",
+       "focus": "锁定鹤氅青年面部",
+       "stability": "stable"
+      },
+      {
+       "beats": [
+        19,
+        19
+       ],
+       "seconds": 3,
+       "size": "medium",
+       "camera": "Static Shot",
+       "characters": [
+        "C05"
+       ],
+       "props": [],
+       "frame": "中景，诸葛亮仍轻摇羽扇，目光平静而深远，晨光映着鹤氅，整个人沉静如渊",
+       "shot": "固定镜头，鹤氅青年收话后仍是轻摇羽扇，目光平静而深远，静默片刻",
+       "lens": "50mm 标准，中浅景深",
+       "cameraPosition": "鹤氅青年 + 平视侧面",
+       "composition": "引导线构图",
+       "eyeline": "窗外远山",
+       "focus": "锁定鹤氅青年侧影",
+       "stability": "stable"
+      }
+     ],
+     "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 6.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] A close static shot holds on the strategist of <Picture 1>, gaze on the traced terrain, and the young strategist with a steady, considered voice (S1) lays out the order of action: <d>[Chinese] 先荆州而后益州，次第图之，则基业渐固，可待北出之时。</d>\n[Shot 2] At 00:06.000, the camera cuts to the side medium framing of <Picture 2>: the strategist falls quiet, still waving the feather fan, his gaze calm and far-reaching toward the window; the camera holds a static shot in the peaceful hush.\n\noverall_soundscape: The feather fan brushes the air, distant birdsong drifts through the open door, and the cottage returns to still silence.\n\nnon_diegetic_music: Sparse low strings, slowing toward a nearly still breath."
+    },
+    {
+     "id": "E36-08",
+     "sceneIndex": 1,
+     "cuts": [
+      {
+       "beats": [
+        20,
+        20
+       ],
+       "seconds": 6.5,
+       "size": "close",
+       "camera": "Static Shot",
+       "characters": [
+        "C05"
+       ],
+       "props": [],
+       "frame": "特写，诸葛亮执扇正色续言据荆益而抚民心，西和诸戎以固其本，则可闰土进取，眸光坚定如星",
+       "shot": "固定镜头，鹤氅青年执扇正色续言，眸光坚定，语气里满是胸中丘壑",
+       "lens": "85mm 长焦，浅景深",
+       "cameraPosition": "鹤氅青年 + 平视正面",
+       "composition": "中心构图",
+       "eyeline": "对面之人面部",
+       "focus": "锁定鹤氅青年目光",
+       "stability": "stable"
+      },
+      {
+       "beats": [
+        21,
+        21
+       ],
+       "seconds": 4.5,
+       "size": "close",
+       "camera": "Static Shot",
+       "characters": [
+        "C01"
+       ],
+       "props": [],
+       "frame": "特写，刘备闻言如拨云见日，双眼放光，神情豁然开朗，口中连称茅塞顿开，茶案旁晨光浮暖",
+       "shot": "固定镜头，软袍贵族闻言眼睛一亮，神色豁然开朗，语气里满是叹服与振奋",
+       "lens": "85mm 长焦，浅景深",
+       "cameraPosition": "软袍贵族 + 平视正面",
+       "composition": "三分法",
+       "eyeline": "对面之人面部",
+       "focus": "锁定软袍贵族面部",
+       "stability": "stable"
+      }
+     ],
+     "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 6.50-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] A close static shot frames the strategist of <Picture 1>, his gaze firm with the fan upright, and the young strategist with a decided, sweeping voice (S1) concludes: <d>[Chinese] 据荆益而抚民心，西和诸戎以固其本，则左攻右守，可图进取。</d>\n[Shot 2] At 00:06.500, the camera cuts to <Picture 2>: a close static shot on the nobleman as the fog lifts from his eyes, the soft-spoken nobleman with a warmed, elated voice (S1) proclaiming: <d>[Chinese] 先生此论，如拨云见日，教备茅塞顿开！</d>\n\noverall_soundscape: The nobleman's robe rustles as he straightens, the morning tea steams softly, and a faint wind stirs the bamboo outside.\n\nnon_diegetic_music: Warm low strings swelling gently, at a slow tempo."
+    },
+    {
+     "id": "E36-09",
+     "sceneIndex": 1,
+     "cuts": [
+      {
+       "beats": [
+        22,
+        22
+       ],
+       "seconds": 4,
+       "size": "medium",
+       "camera": "Pan Right",
+       "characters": [
+        "C03"
+       ],
+       "props": [],
+       "frame": "中景，张飞侍立门外探头插嘴，粗声大气地说听着倒玄乎得很，虬髯宽脸，阳光斜落廊下",
+       "shot": "镜头缓缓平摇，门外一名虬髯大汉探身插话，粗声大气，语气里半是好奇半是信不过",
+       "lens": "50mm 标准，中浅景深",
+       "cameraPosition": "虬髯大汉 + 平视正面",
+       "composition": "三分法",
+       "eyeline": "堂内之人",
+       "focus": "锁定虬髯大汉面部",
+       "stability": "stable"
+      },
+      {
+       "beats": [
+        23,
+        23
+       ],
+       "seconds": 4,
+       "size": "medium",
+       "camera": "Static Shot",
+       "characters": [
+        "C01"
+       ],
+       "props": [],
+       "frame": "中景，刘备回头沉声喝止三弟住口，眉眼温和却带着不许置喙的庄重，堂内晨光朦胧",
+       "shot": "固定镜头，软袍贵族回身低斥，眉眼温和却透出不容置喙的庄重",
+       "lens": "50mm 标准，中浅景深",
+       "cameraPosition": "软袍贵族 + 平视正侧面",
+       "composition": "中心构图",
+       "eyeline": "门外之人",
+       "focus": "锁定软袍贵族面部",
+       "stability": "stable"
+      },
+      {
+       "beats": [
+        24,
+        24
+       ],
+       "seconds": 3,
+       "size": "wide",
+       "camera": "Static Shot",
+       "characters": [
+        "C02",
+        "C03"
+       ],
+       "props": [],
+       "frame": "全景，廊下关羽轻轻按住张飞，将他退到门后，草堂里只剩下一盏茶香，两人在门外静立",
+       "shot": "固定镜头，门外红脸长髯的武者按住身旁虬髯大汉的臂膀，轻轻将他带回门后，堂内复归安静",
+       "lens": "35mm 广角，中景深",
+       "cameraPosition": "廊下双人 + 平视侧面",
+       "composition": "对称构图",
+       "eyeline": "两人望向堂内",
+       "focus": "锁定两人的动作",
+       "stability": "stable"
+      }
+     ],
+     "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 4.00-second mark of the target video; Picture 3 (from Shot 3) aligns with the 8.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] <Picture 1> anchors the stocky figure in the doorway: a pan right follows the bearded burly general leaning in and speaking up, the bearded general with a rough, skeptical voice (S1): <d>[Chinese] 大哥，这就成了？听着倒玄乎得很！</d>\n[Shot 2] At 00:04.000, the camera cuts to <Picture 2>: a static shot on the nobleman as he turns to check the outburst, the soft-spoken nobleman with a low, reproving voice (S2): <d>[Chinese] 三弟住口，先生言谈，岂容你胡噪。</d>\n[Shot 3] At 00:08.000, the shot cuts to <Picture 3>: a static wide two-shot on the veranda as the tall red-faced warrior gently guides the burly general back behind the door, the cottage settling back into its peaceful tea-scented quiet.\n\noverall_soundscape: A rough laugh from the doorway dies down, robes rustle as the two men shift back behind the door, and the cottage returns to silent stillness.\n\nnon_diegetic_music: Low strings hold, then thin out, at a slow tempo."
+    },
+    {
+     "id": "E36-10",
+     "sceneIndex": 1,
+     "cuts": [
+      {
+       "beats": [
+        25,
+        25
+       ],
+       "seconds": 3,
+       "size": "medium",
+       "camera": "Static Shot",
+       "characters": [
+        "C05"
+       ],
+       "props": [],
+       "frame": "中景，诸葛亮并未接话，只是望着窗外，缓缓摇着那把羽扇，神情沉静如常，晨光斜照",
+       "shot": "固定镜头，鹤氅青年不接话头，只在窗前缓缓摇扇，目光沉静地望向外间",
+       "lens": "50mm 标准，中浅景深",
+       "cameraPosition": "鹤氅青年 + 平视侧面",
+       "composition": "引导线构图",
+       "eyeline": "窗外",
+       "focus": "锁定鹤氅青年侧影",
+       "stability": "stable"
+      },
+      {
+       "beats": [
+        26,
+        26
+       ],
+       "seconds": 4.5,
+       "size": "close",
+       "camera": "Static Shot",
+       "characters": [
+        "C01"
+       ],
+       "props": [],
+       "frame": "特写，刘备正色追问汉室可兴究竟从何处着手，神色诚恳而郑重，眉宇间带着求索的光",
+       "shot": "固定镜头，软袍贵族正色追问，神色诚恳郑重，眉宇间满是求索",
+       "lens": "85mm 长焦，浅景深",
+       "cameraPosition": "软袍贵族 + 平视正面",
+       "composition": "中心构图",
+       "eyeline": "对面之人面部",
+       "focus": "锁定软袍贵族面部",
+       "stability": "stable"
+      },
+      {
+       "beats": [
+        27,
+        27
+       ],
+       "seconds": 5,
+       "size": "close",
+       "camera": "Static Shot",
+       "characters": [
+        "C05"
+       ],
+       "props": [],
+       "frame": "特写，诸葛亮正色答道民心所向即天意所在，得人心者方能得天下，目光沉着有力，晨光清朗",
+       "shot": "固定镜头，鹤氅青年正色应答，目光沉着有力，逐字道出人心即天意之理",
+       "lens": "85mm 长焦，浅景深",
+       "cameraPosition": "鹤氅青年 + 平视正面",
+       "composition": "中心构图",
+       "eyeline": "对面之人面部",
+       "focus": "锁定鹤氅青年面部",
+       "stability": "stable"
+      }
+     ],
+     "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 3.00-second mark of the target video; Picture 3 (from Shot 3) aligns with the 7.50-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] <Picture 1> anchors the strategist turned toward the window: he does not answer at once, still slowly waving the fan over a static shot, calm and unhurried.\n[Shot 2] At 00:03.000, the camera cuts to <Picture 2>: a close static shot on the nobleman asking with earnest gravity, the soft-spoken nobleman with a sincere, questing voice (S1): <d>[Chinese] 先生既说汉室可兴，不知究竟从何处着手？</d>\n[Shot 3] At 00:07.500, the shot cuts to <Picture 3>: a close static shot on the strategist who turns back and answers with steady conviction, the young strategist with a grave, assured voice (S2): <d>[Chinese] 民心所向，即天意所在。得人心者，方能得天下。</d>\n\noverall_soundscape: The feather fan keeps its soft rhythm, the nobleman's robe rustles as he leans in, and the morning quiet holds between the words.\n\nnon_diegetic_music: Slow low strings, even and unhurried."
+    },
+    {
+     "id": "E36-11",
+     "sceneIndex": 1,
+     "cuts": [
+      {
+       "beats": [
+        28,
+        28
+       ],
+       "seconds": 5.5,
+       "size": "medium",
+       "camera": "Static Shot",
+       "characters": [
+        "C05"
+       ],
+       "props": [],
+       "frame": "中景，诸葛亮执扇续言外结孙权内修政理，待天下有变可成鼎足之势，抬手比划间气势渐起",
+       "shot": "固定镜头，鹤氅青年执扇抬手，缓缓道出外结内修之策，再点出鼎足之局的图景",
+       "lens": "50mm 标准，中浅景深",
+       "cameraPosition": "鹤氅青年 + 平视正面",
+       "composition": "三分法",
+       "eyeline": "对面之人面部",
+       "focus": "锁定鹤氅青年上半身",
+       "stability": "stable"
+      },
+      {
+       "beats": [
+        29,
+        29
+       ],
+       "seconds": 6,
+       "size": "close",
+       "camera": "Push In",
+       "characters": [
+        "C01"
+       ],
+       "props": [],
+       "frame": "特写，刘备说到自幼孤苦全凭兄弟义士相助才活到今日，眼眶微热，神情动容，镜头缓推",
+       "shot": "镜头小幅缓推，软袍贵族自述孤苦身世，眼眶微热，神情动容，话里带着至诚",
+       "lens": "85mm 长焦，浅景深",
+       "cameraPosition": "软袍贵族 + 平视正侧面",
+       "composition": "中心构图",
+       "eyeline": "对面之人面部",
+       "focus": "锁定软袍贵族面部",
+       "stability": "stable"
+      }
+     ],
+     "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 5.50-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] <Picture 1> anchors the strategist gesturing with the fan over an upright static shot as the young strategist with a far-seeing voice (S1) lays out the plan: <d>[Chinese] 外结孙权，内修政理，待天下有变，可成鼎足之势。</d>\n[Shot 2] At 00:05.500, the camera cuts to <Picture 2> as a slow push in with small amplitude closes on the nobleman: the soft-spoken nobleman with a moving, sincere voice (S1) speaks of his orphaned youth: <d>[Chinese] 备自幼孤苦，全凭二位兄弟与四方义士相助，才活到今日。</d>\n\noverall_soundscape: The nobleman's voice catches briefly, the mat creaks under a shift, and the quiet of the cottage settles around them.\n\nnon_diegetic_music: Warm low strings swelling gently, at a slow tempo."
+    },
+    {
+     "id": "E36-12",
+     "sceneIndex": 1,
+     "cuts": [
+      {
+       "beats": [
+        30,
+        30
+       ],
+       "seconds": 6,
+       "size": "close",
+       "camera": "Static Shot",
+       "characters": [
+        "C05"
+       ],
+       "props": [],
+       "frame": "特写，诸葛亮执扇动容道正因皇叔能得人心亮才信四境之势可握你掌中，目光专注而郑重",
+       "shot": "固定镜头，鹤氅青年执扇动容，目光专注而郑重，语气里是对面前之人的认定",
+       "lens": "85mm 长焦，浅景深",
+       "cameraPosition": "鹤氅青年 + 平视正面",
+       "composition": "中心构图",
+       "eyeline": "对面之人面部",
+       "focus": "锁定鹤氅青年面部",
+       "stability": "stable"
+      },
+      {
+       "beats": [
+        31,
+        31
+       ],
+       "seconds": 3,
+       "size": "close",
+       "camera": "Arc Shot",
+       "characters": [
+        "C01"
+       ],
+       "props": [],
+       "frame": "特写，刘备谦逊低声自谦何德何能，眉目低垂，晨光在侧脸勾出一线柔光",
+       "shot": "镜头缓缓轻移，软袍贵族谦逊低语，眉目低垂，略带愧色地自谦",
+       "lens": "85mm 长焦，浅景深",
+       "cameraPosition": "软袍贵族 + 平视正侧面",
+       "composition": "三分法",
+       "eyeline": "案面",
+       "focus": "锁定软袍贵族面部",
+       "stability": "stable"
+      },
+      {
+       "beats": [
+        32,
+        32
+       ],
+       "seconds": 3,
+       "size": "close",
+       "camera": "Static Shot",
+       "characters": [
+        "C05"
+       ],
+       "props": [],
+       "frame": "特写，诸葛亮端起案上茶盏轻轻吹了吹押了一口又放下，气定神闲，白瓷盏热气轻袅",
+       "shot": "固定镜头，鹤氅青年端茶轻吹，押了一口又放下，气定神闲，动作从容不迫",
+       "lens": "85mm 长焦，浅景深",
+       "cameraPosition": "茶盏 + 平视",
+       "composition": "中心构图",
+       "eyeline": "手中的茶盏",
+       "focus": "锁定茶盏与抬起的眉眼",
+       "stability": "stable"
+      }
+     ],
+     "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 6.00-second mark of the target video; Picture 3 (from Shot 3) aligns with the 9.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] A close static shot holds on the strategist of <Picture 1> whose gaze turns earnest, the young strategist with a heartfelt, decisive voice (S1): <d>[Chinese] 正因皇叔能得人心，亮才信这四境之势，可握在你的掌中。</d>\n[Shot 2] At 00:06.000, the camera cuts to <Picture 2>: an arc shot shifts around the nobleman as he lowers his gaze and humbly demurs, the soft-spoken nobleman with a modest, self-effacing voice (S1): <d>[Chinese] 先生谬赞了，备何德何能。</d>\n[Shot 3] At 00:09.000, the shot cuts to <Picture 3>: a close static shot on the strategist calmly raising the teacup, blowing across it, taking a sip and setting it down, poised and unhurried.\n\noverall_soundscape: A sip and a soft clink as the cup returns to the table, the feather fan stalls briefly, and the cottage breathes in quiet.\n\nnon_diegetic_music: Low strings interleaved with a single plucked note, slow tempo."
+    },
+    {
+     "id": "E36-13",
+     "sceneIndex": 1,
+     "cuts": [
+      {
+       "beats": [
+        33,
+        33
+       ],
+       "seconds": 5.5,
+       "size": "close",
+       "camera": "Static Shot",
+       "characters": [
+        "C05"
+       ],
+       "props": [],
+       "frame": "特写，诸葛亮言昔管仲乐毅亦不过待时而动，今遇皇叔此其时矣，执扇抬手，目光微亮",
+       "shot": "固定镜头，鹤氅青年执扇抬手，以古贤自况，语气笃定而微微动容",
+       "lens": "85mm 长焦，浅景深",
+       "cameraPosition": "鹤氅青年 + 平视正面",
+       "composition": "三分法",
+       "eyeline": "对面之人面部",
+       "focus": "锁定鹤氅青年面部",
+       "stability": "stable"
+      },
+      {
+       "beats": [
+        34,
+        34
+       ],
+       "seconds": 6.5,
+       "size": "medium",
+       "camera": "Static Shot",
+       "characters": [
+        "C05"
+       ],
+       "props": [],
+       "frame": "中景，诸葛亮正色明志皇叔既来三顾当知亮并非避世无求之辈，只待一可托之主，衣袂端正",
+       "shot": "固定镜头，鹤氅青年正色明志，身姿端正，语气里带着一片赤诚与决意",
+       "lens": "50mm 标准，中浅景深",
+       "cameraPosition": "鹤氅青年 + 平视正面",
+       "composition": "中心构图",
+       "eyeline": "对面之人面部",
+       "focus": "锁定鹤氅青年上半身",
+       "stability": "stable"
+      }
+     ],
+     "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 5.50-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] A close static shot holds on the strategist of <Picture 1>, the fan raised, as the young strategist with a wry, rekindled voice (S1) says: <d>[Chinese] 昔管仲乐毅，亦不过待时而动。今遇皇叔，此其时矣。</d>\n[Shot 2] At 00:05.500, the camera cuts to <Picture 2>: an upright static shot frames the strategist in full, and the young strategist with a sincere, committed voice (S1) declares: <d>[Chinese] 皇叔既来三顾，当知亮并非避世无求之辈，只待一可托之主。</d>\n\noverall_soundscape: Robes settle as the strategist straightens, the fan quiets mid-air, and the afternoon light slants still across the cottage.\n\nnon_diegetic_music: Low strings swelling with quiet resolve, slow tempo."
+    },
+    {
+     "id": "E36-14",
+     "sceneIndex": 1,
+     "cuts": [
+      {
+       "beats": [
+        35,
+        35
+       ],
+       "seconds": 4,
+       "size": "close",
+       "camera": "Static Shot",
+       "characters": [
+        "C01"
+       ],
+       "props": [],
+       "frame": "特写，刘备闻言动容道相见恨晚如鱼得水，神情激动而郑重，目光灼灼",
+       "shot": "固定镜头，软袍贵族闻言动容，神情激动而郑重，语带惊喜地道出相见恨晚",
+       "lens": "85mm 长焦，浅景深",
+       "cameraPosition": "软袍贵族 + 平视正面",
+       "composition": "中心构图",
+       "eyeline": "对面之人面部",
+       "focus": "锁定软袍贵族面部",
+       "stability": "stable"
+      },
+      {
+       "beats": [
+        36,
+        36
+       ],
+       "seconds": 3,
+       "size": "medium",
+       "camera": "Tracking Shot",
+       "characters": [
+        "C01"
+       ],
+       "props": [],
+       "frame": "中景，刘备离座整好衣冠，向着孔明深深一拜，袖袍垂落，姿态恭敬庄重，晨光落在衣冠上",
+       "shot": "镜头平稳跟随，软袍贵族离座整好衣冠，稳步上前，向鹤氅青年深拜而下，姿态恭敬",
+       "lens": "50mm 标准，中浅景深",
+       "cameraPosition": "软袍贵族 + 侧面平视跟随",
+       "composition": "三分法",
+       "eyeline": "地面",
+       "focus": "锁定躬身下拜的软袍贵族",
+       "stability": "stable"
+      },
+      {
+       "beats": [
+        37,
+        37
+       ],
+       "seconds": 5,
+       "size": "close",
+       "camera": "Static Shot",
+       "characters": [
+        "C01"
+       ],
+       "props": [],
+       "frame": "特写，刘备躬身恳请先生出山共济天下苍生扶汉室于将倾，眉眼诚恳，字字恳切",
+       "shot": "固定镜头，软袍贵族仍保持躬身，正色恳请，语气恳切庄重，一字一句皆是至诚",
+       "lens": "85mm 长焦，浅景深",
+       "cameraPosition": "软袍贵族 + 平视正侧面",
+       "composition": "中心构图",
+       "eyeline": "对面之人面部",
+       "focus": "锁定软袍贵族仰起的眉眼",
+       "stability": "stable"
+      }
+     ],
+     "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 4.00-second mark of the target video; Picture 3 (from Shot 3) aligns with the 7.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] A close static shot on the nobleman of <Picture 1> as his face brightens with feeling, the soft-spoken nobleman with a warm, elated voice (S1): <d>[Chinese] 备与先生相见恨晚，真乃如鱼得水！</d>\n[Shot 2] At 00:04.000, the camera cuts to <Picture 2>: a tracking shot follows the nobleman as he rises, smooths his collar and robe, steps forward, and bows deeply to the strategist.\n[Shot 3] At 00:07.000, the shot cuts to <Picture 3>: a close static shot on the bowed nobleman raising his eyes as he asks with earnest gravity: <d>[Chinese] 敢请先生出山，共济天下苍生，扶汉室于将倾。</d>\n\noverall_soundscape: Robe fabric settles as the nobleman rises and bows low, his voice earnest, and the cottage holds its reverent hush.\n\nnon_diegetic_music: Slow warm strings, a firm note as the bow falls."
+    },
+    {
+     "id": "E36-15",
+     "sceneIndex": 1,
+     "cuts": [
+      {
+       "beats": [
+        38,
+        38
+       ],
+       "seconds": 3,
+       "size": "close",
+       "camera": "Push In",
+       "characters": [
+        "C05"
+       ],
+       "props": [],
+       "frame": "特写，诸葛亮目光微动，手中羽扇停在半空，望着刘备久不出声，烛光样的晨光在眼里浮沉",
+       "shot": "镜头小幅缓推，鹤氅青年目光微动，手中羽扇停在半空，望着面前之人久久不语",
+       "lens": "85mm 长焦，浅景深",
+       "cameraPosition": "鹤氅青年 + 平视正面",
+       "composition": "中心构图",
+       "eyeline": "对面之人面部",
+       "focus": "锁定鹤氅青年微动的双眼",
+       "stability": "stable"
+      },
+      {
+       "beats": [
+        39,
+        39
+       ],
+       "seconds": 6,
+       "size": "close",
+       "camera": "Arc Shot",
+       "characters": [
+        "C05"
+       ],
+       "props": [],
+       "frame": "特写，诸葛亮动容道皇叔所图是天下，亮所思虑是这天下苍生如何得安，目光深邃而仁慈",
+       "shot": "镜头缓缓环绕，鹤氅青年动容开口，目光深邃而仁慈，语气平缓却重若千钧",
+       "lens": "85mm 长焦，浅景深",
+       "cameraPosition": "鹤氅青年 + 平视正侧面环绕",
+       "composition": "三分法",
+       "eyeline": "对面之人面部",
+       "focus": "锁定鹤氅青年面部",
+       "stability": "stable"
+      },
+      {
+       "beats": [
+        40,
+        40
+       ],
+       "seconds": 3,
+       "size": "medium",
+       "camera": "Static Shot",
+       "characters": [
+        "C02",
+        "C03"
+       ],
+       "props": [],
+       "frame": "中景，门外的关羽张飞屏息凝神，静候这位先生一句答话，神色恭敬，廊下晨光安静",
+       "shot": "固定镜头，门外一名红脸长髯武者和一名虬髯大汉皆屏息凝神，静立等候，不敢出声",
+       "lens": "35mm 广角，中景深",
+       "cameraPosition": "门外双人 + 平视正面",
+       "composition": "对称构图",
+       "eyeline": "堂内方向",
+       "focus": "锁定两个屏息的身影",
+       "stability": "stable"
+      }
+     ],
+     "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 3.00-second mark of the target video; Picture 3 (from Shot 3) aligns with the 9.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] The close framing of <Picture 1> holds on the strategist as a slow push in with small amplitude tightens on his eyes, the feather fan frozen mid-air, silent for a beat.\n[Shot 2] At 00:03.000, the camera cuts to <Picture 2>: an arc shot swings around the strategist as he speaks with feeling, the young strategist with a deep, benevolent voice (S1): <d>[Chinese] 皇叔所图，是天下；亮所思虑，是这天下苍生如何得安。</d>\n[Shot 3] At 00:09.000, the shot cuts to <Picture 3>: a static wide two-shot on the veranda where the red-faced warrior and the burly general stand silent and intent, both holding their breath toward the cottage.\n\noverall_soundscape: The feather fan stalls in the air, the two robed figures beyond the door hold still, and the cottage waits in near-silence.\n\nnon_diegetic_music: Low, measured strings, swelling once and easing, at a slow tempo."
+    },
+    {
+     "id": "E36-16",
+     "sceneIndex": 1,
+     "cuts": [
+      {
+       "beats": [
+        41,
+        41
+       ],
+       "seconds": 7,
+       "size": "medium",
+       "camera": "Static Shot",
+       "characters": [
+        "C05",
+        "C01"
+       ],
+       "props": [],
+       "frame": "中景，诸葛亮正色相告天下大乱非有明主不可拯之，皇叔有此仁心亮当以诚相告，目光落向刘备，郑重而热切",
+       "shot": "固定镜头，鹤氅青年正色相告，目光热切地落向面前之人，郑重道出心中认定",
+       "lens": "50mm 标准，中浅景深",
+       "cameraPosition": "双人 + 平视正面",
+       "composition": "中心构图",
+       "eyeline": "对方面部",
+       "focus": "锁定鹤氅青年面部",
+       "stability": "stable"
+      },
+      {
+       "beats": [
+        42,
+        42
+       ],
+       "seconds": 3,
+       "size": "close",
+       "camera": "Push In",
+       "characters": [
+        "C05"
+       ],
+       "props": [],
+       "frame": "特写，话到紧要处孔明忽然停住，手中羽扇悬在半空，沉沉望着刘备，余光在睫毛下暗涌",
+       "shot": "镜头小幅缓推，鹤氅青年话到紧要处忽然停住，羽扇悬在半空，沉沉望着对面之人，欲言又止",
+       "lens": "85mm 长焦，浅景深",
+       "cameraPosition": "鹤氅青年 + 平视正面",
+       "composition": "中心构图",
+       "eyeline": "对面之人面部",
+       "focus": "锁定悬停的羽扇与垂下的目光",
+       "stability": "stable"
+      }
+     ],
+     "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 7.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] <Picture 1> anchors the two figures facing each other as the strategist speaks with growing gravity over a static shot, the young strategist with a solemn, committed voice (S1): <d>[Chinese] 天下大乱，非有明主不可拯之。皇叔有此仁心，亮当以诚相告……</d>\n[Shot 2] At 00:07.000, the camera cuts to <Picture 2> as a slow push in with small amplitude closes on the strategist: he lets the sentence trail off, the fan suspended mid-air, his gaze heavy on the man before him as if about to speak.\n\noverall_soundscape: The sentence hangs unfinished in the quiet, the feather fan wavering just above the air, and the cottage holds its breath.\n\nnon_diegetic_music: Low strings cut to a near-silence, one held note hanging, slow and expectant."
+    }
+   ]
+  },
+  {
+   "ep": 37,
+   "segments": [
+    {
+     "id": "E37-01",
+     "sceneIndex": 1,
+     "cuts": [
+      {
+       "beats": [
+        1,
+        2
+       ],
+       "seconds": 4.5,
+       "size": "wide",
+       "camera": "Tracking Shot",
+       "characters": [
+        "C05",
+        "C01"
+       ],
+       "props": [],
+       "frame": "全景，卧龙岗草庐柴扉大开，诸葛亮卷一卷书册跨出门槛而立，刘备在门外整冠长揖相迎，晨雾飘散",
+       "shot": "镜头平稳跟随，鹤氅青年卷着一卷书册跨出门槛站定，门外软袍贵族整冠长揖相迎",
+       "lens": "35mm 广角，中景深",
+       "cameraPosition": "草庐门前 + 平视侧面跟随",
+       "composition": "三分法",
+       "eyeline": "双方相对",
+       "focus": "锁定跨门而出的鹤氅青年",
+       "stability": "slight-shake"
+      },
+      {
+       "beats": [
+        3,
+        3
+       ],
+       "seconds": 5.5,
+       "size": "close",
+       "camera": "Static Shot",
+       "characters": [
+        "C05"
+       ],
+       "props": [],
+       "frame": "特写，诸葛亮迈步出庐，语气恳切地表明得遇明主愿以平生所学倾囊相助，眉目清朗，晨光明亮",
+       "shot": "固定镜头，鹤氅青年一手持卷，神色恳切，字字郑重地表明以平生所学相许",
+       "lens": "85mm 长焦，浅景深",
+       "cameraPosition": "鹤氅青年 + 平视正面",
+       "composition": "中心构图",
+       "eyeline": "门外来客面部",
+       "focus": "锁定鹤氅青年面部",
+       "stability": "stable"
+      }
+     ],
+     "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 4.50-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] <Picture 1> anchors the wide parting at the cottage: the bamboo gate stands fully open, the young strategist in a white crane-feather cloak steps over the threshold holding a rolled scroll as the soft-spoken nobleman in a crimson robe greets him with a long, low bow in the thinning dawn mist; a tracking shot follows their greeting.\n[Shot 2] At 00:04.500, the camera cuts to <Picture 2>: a close static shot on the strategist as he speaks with gratitude and resolve, the young strategist with a sincere, devoted voice (S1): <d>[Chinese] 得遇明主，亮愿以平生所学，倾囊相助，共图大业。</d>\n\noverall_soundscape: The wicket gate swings fully open with a creak, robes rustle in the morning mist, and the quiet hillside stirs with faint birdsong.\n\nnon_diegetic_music: Warm low strings rising gently, at a slow tempo."
+    },
+    {
+     "id": "E37-02",
+     "sceneIndex": 1,
+     "cuts": [
+      {
+       "beats": [
+        4,
+        4
+       ],
+       "seconds": 5.5,
+       "size": "close",
+       "camera": "Static Shot",
+       "characters": [
+        "C01"
+       ],
+       "props": [],
+       "frame": "特写，刘备喜极而应得先生出山如久旱逢霖是备之幸更是汉室之幸，眉目舒展笑意满溢，晨光暖人",
+       "shot": "固定镜头，软袍贵族喜极而应，眉目舒展，语气里满是如获至宝的欣然",
+       "lens": "85mm 长焦，浅景深",
+       "cameraPosition": "软袍贵族 + 平视正面",
+       "composition": "三分法",
+       "eyeline": "对面之人面部",
+       "focus": "锁定软袍贵族面部",
+       "stability": "stable"
+      },
+      {
+       "beats": [
+        5,
+        5
+       ],
+       "seconds": 6,
+       "size": "medium",
+       "camera": "Static Shot",
+       "characters": [
+        "C05"
+       ],
+       "props": [],
+       "frame": "中景，诸葛亮沉声道亮自束发受书所求者正是一番澄清宇内之业今得明主矣，持卷而立，目光坚定",
+       "shot": "固定镜头，鹤氅青年持卷而立，目光坚定，语气沉缓而郑重地道出平生所志",
+       "lens": "50mm 标准，中浅景深",
+       "cameraPosition": "鹤氅青年 + 平视侧面",
+       "composition": "中心构图",
+       "eyeline": "对面之人面部",
+       "focus": "锁定鹤氅青年上半身",
+       "stability": "stable"
+      }
+     ],
+     "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 5.50-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] A close static shot frames the nobleman of <Picture 1>, his face bright with joy, and the soft-spoken nobleman with a warm, thankful voice (S1) says: <d>[Chinese] 得先生出山，如久旱逢霖，是备之幸，更是汉室之幸。</d>\n[Shot 2] At 00:05.500, the camera cuts to <Picture 2>: an upright static shot on the strategist with the scroll in hand, the young strategist with a solemn, resolved voice (S2): <d>[Chinese] 亮自束发受书，所求者正是一番澄清宇内之业，今得明主矣。</d>\n\noverall_soundscape: Morning mist shifts around the cottage, the rolled scroll rustles in the strategist's hand, and the hillside quiet settles round them.\n\nnon_diegetic_music: Low strings with a warm resolve, slow tempo."
+    },
+    {
+     "id": "E37-03",
+     "sceneIndex": 1,
+     "cuts": [
+      {
+       "beats": [
+        6,
+        7
+       ],
+       "seconds": 5,
+       "size": "medium",
+       "camera": "Static Shot",
+       "characters": [
+        "C05",
+        "C02"
+       ],
+       "props": [],
+       "frame": "中景，诸葛亮回身望一眼住了多年的草庐，目中有片刻留恋遂定了定神，门外红脸关羽抱拳说道军师既肯下山云长与三弟当以军师之命是从",
+       "shot": "固定镜头，鹤氅青年回望草庐，目中有片刻留恋，随即定了定神；门外一名红脸长髯武者抱拳相许",
+       "lens": "50mm 标准，中浅景深",
+       "cameraPosition": "双人 + 平视侧面",
+       "composition": "三分法",
+       "eyeline": "鹤氅青年看草庐，红脸武者看鹤氅青年",
+       "focus": "锁定鹤氅青年回望的背影",
+       "stability": "stable"
+      },
+      {
+       "beats": [
+        8,
+        8
+       ],
+       "seconds": 3,
+       "size": "wide",
+       "camera": "Static Shot",
+       "characters": [
+        "C02",
+        "C03",
+        "C05"
+       ],
+       "props": [],
+       "frame": "全景，草庐门外关羽抱拳、张飞咧嘴，连同诸葛亮齐齐抱拳相拜，晨光铺满阶前，众人作礼",
+       "shot": "固定镜头，门外红脸武者抱拳、虬髯大汉咧嘴，鹤氅青年一并抱拳回礼，众人相互作礼",
+       "lens": "35mm 广角，中景深",
+       "cameraPosition": "草庐门前 + 平视正面",
+       "composition": "对称构图",
+       "eyeline": "彼此相对",
+       "focus": "锁定三人作礼的身形",
+       "stability": "stable"
+      }
+     ],
+     "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 5.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] <Picture 1> anchors the moment of parting: the strategist turns to look back once at the cottage he has lived in so long, a flicker of fondness passing before he steadies himself; a static shot holds as the red-faced warrior in the doorway cups his fist in salute, the red-faced warrior with a firm voice (S1): <d>[Chinese] 军师既肯下山，云长与三弟当以军师之命是从。</d>\n[Shot 2] At 00:05.000, the camera cuts to <Picture 2>: a wide static shot on the misty courtyard where the red-faced warrior, the burly general and the strategist all cup their fists and bow to one another, morning light washing over the stone steps.\n\noverall_soundscape: Fawn of cloth as sleeves raise in salute, a creak of the bamboo gate, and the low misty hum of the hillside around them.\n\nnon_diegetic_music: Sparse warm strings at a slow tempo, a swelling note as the salute falls."
+    },
+    {
+     "id": "E37-04",
+     "sceneIndex": 1,
+     "cuts": [
+      {
+       "beats": [
+        9,
+        10
+       ],
+       "seconds": 6.5,
+       "size": "medium",
+       "camera": "Static Shot",
+       "characters": [
+        "C03",
+        "C05"
+       ],
+       "props": [],
+       "frame": "中景，张飞咧嘴兴奋道军师往后你说打谁我飞就冲谁，诸葛亮执扇从容答道三将军骁勇日后自有大用先回新野整顿军务",
+       "shot": "固定镜头，虬髯大汉咧嘴请战，语带憨直；鹤氅青年执扇从容应答，神色平和",
+       "lens": "50mm 标准，中浅景深",
+       "cameraPosition": "双人 + 平视侧面",
+       "composition": "三分法",
+       "eyeline": "彼此相对",
+       "focus": "锁定虬髯大汉咧嘴的神情",
+       "stability": "stable"
+      },
+      {
+       "beats": [
+        11,
+        12
+       ],
+       "seconds": 6,
+       "size": "wide",
+       "camera": "Tracking Shot",
+       "characters": [
+        "C01",
+        "C05",
+        "C02",
+        "C03"
+       ],
+       "props": [],
+       "frame": "全景，众人引马下山，卧龙岗晨雾在身后渐渐散开，山道转角刘备与孔明并肩而行说得兴起，众人身影渐远",
+       "shot": "多人 + 平视侧面跟随，一行人下马引路沿山道下行，晨雾在身后散开，两名为首者并肩而行谈兴正浓",
+       "lens": "35mm 广角，中景深",
+       "cameraPosition": "山道 + 平视侧面跟随",
+       "composition": "引导线构图",
+       "eyeline": "下山方向",
+       "focus": "锁定并肩而行的两人",
+       "stability": "slight-shake",
+       "note": "四人同行，画面以软袍贵族与鹤氅青年领前为主，红脸武将与虬髯大汉随后护行"
+      }
+     ],
+     "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 6.50-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] <Picture 1> anchors the two men facing each other in front of the cottage: the burly general grins and taps his chest, and a static shot holds as he speaks with bluff, eager vigor; then the strategist answers before the same shot, the bearded burly general with a hearty, zealous voice (S1): <d>[Chinese] 军师！往后你说打谁，我飞就冲谁！</d> — and the young strategist with a calm, even voice (S2): <d>[Chinese] 三将军骁勇，日后自有大用。先回新野，整顿军务。</d>\n[Shot 2] At 00:06.500, the camera cuts to <Picture 2>: a tracking shot follows the party down the mountain path as the dawn mist opens behind them; in the lead the nobleman and the strategist walk shoulder to shoulder, talking with growing animation, the two warriors following behind.\n\noverall_soundscape: Hooves and footsteps pick their way down the stony hill path, mist rustles through the pines, and low voices carry in the open air.\n\nnon_diegetic_music: Light rising strings at a slow-medium tempo, hopeful and brisk."
+    },
+    {
+     "id": "E37-05",
+     "sceneIndex": 1,
+     "cuts": [
+      {
+       "beats": [
+        13,
+        13
+       ],
+       "seconds": 6,
+       "size": "close",
+       "camera": "Static Shot",
+       "characters": [
+        "C05"
+       ],
+       "props": [],
+       "frame": "特写，诸葛亮与刘备并肩而行，执扇叮嘱日后续取荆益当以民心为先方能立稳根基，目光清亮",
+       "shot": "固定镜头，鹤氅青年边走边执扇叮嘱，目光清亮，语气恳切地交代以民心为先",
+       "lens": "85mm 长焦，浅景深",
+       "cameraPosition": "鹤氅青年 + 平视正侧面",
+       "composition": "三分法",
+       "eyeline": "同行之人",
+       "focus": "锁定鹤氅青年面部",
+       "stability": "stable"
+      },
+      {
+       "beats": [
+        14,
+        15
+       ],
+       "seconds": 6.5,
+       "size": "wide",
+       "camera": "Static Shot",
+       "characters": [
+        "C01",
+        "C02"
+       ],
+       "props": [],
+       "frame": "全景，刘备与关羽策马并肩，关羽笑言将遇良才，刘备低声应道得此子房何愁父业不兴，枫影往后掠",
+       "shot": "固定镜头，软袍贵族与红脸武者策马并肩而行，二人相视而笑，低声交谈，意气相投",
+       "lens": "35mm 广角，中景深",
+       "cameraPosition": "双骑 + 平视侧面",
+       "composition": "引导线构图",
+       "eyeline": "彼此相视",
+       "focus": "锁定并肩而行的两人",
+       "stability": "stable"
+      }
+     ],
+     "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 6.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] A close static shot frames the strategist of <Picture 1> as he walks on, fan in hand, turning now and then to the man beside him; the young strategist with a warm, advising voice (S1): <d>[Chinese] 皇叔且记，日后续取荆益，当以民心为先，方能立稳根基。</d>\n[Shot 2] At 00:06.000, the camera cuts to <Picture 2>: a wide static shot on the two riders trotting side by side, the red-faced warrior speaking with quiet admiration and the nobleman replying low; the red-faced warrior with a pleased voice (S1): <d>[Chinese] 大哥，能与先生畅谈竟日，看来是将遇良才了。</d> — and the soft-spoken nobleman with a steady voice (S2): <d>[Chinese] 云长，得此子房，何愁父业不兴。</d>\n\noverall_soundscape: Hooves measure out a steady rhythm, saddle leather creaks, and low voices mingle with the rustle of passing oaks.\n\nnon_diegetic_music: Warm strings at a calm slow tempo, light and steady."
+    },
+    {
+     "id": "E37-06",
+     "sceneIndex": 1,
+     "cuts": [
+      {
+       "beats": [
+        16,
+        16
+       ],
+       "seconds": 3,
+       "size": "extreme-wide",
+       "camera": "Static Shot",
+       "characters": [
+        "C05",
+        "C01"
+       ],
+       "props": [],
+       "frame": "大远景，新野城头旌旗猎猎，军中闻卧龙出山士气为之一振，城楼与旗帜在晨光里翻卷，远处一行军马进城",
+       "shot": "固定镜头远望，新野城楼旌旗猎猎，队列沿官道入城，城上守军望向这一行人影",
+       "lens": "24mm 广角，深景深",
+       "cameraPosition": "城楼 + 平视远眺",
+       "composition": "对称构图",
+       "eyeline": "进城方向",
+       "focus": "锁定翻卷的旌旗与入城队列",
+       "stability": "stable"
+      }
+     ],
+     "h3Prompt": "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced.\n\nintegrated_multimodal_description:\n[Shot 1] A static extreme wide of the city wall: banners snap and ripple over the grey brick gate tower, the newly returned procession files in along the road while guards on the wall raise their heads toward it, and the whole scene reads as a garrison stirred to fresh spirit.\n\noverall_soundscape: Flags snap in the wind over the city wall, hooves and wheels roll in over the stone road, and a low murmur of soldiers carries from the ramparts.\n\nnon_diegetic_music: Bright rising strings at a moderate tempo, opening and lifting."
+    },
+    {
+     "id": "E37-07",
+     "sceneIndex": 2,
+     "cuts": [
+      {
+       "beats": [
+        1,
+        2
+       ],
+       "seconds": 5.5,
+       "size": "medium",
+       "camera": "Static Shot",
+       "characters": [
+        "C01",
+        "C05"
+       ],
+       "props": [
+        "P05",
+        "P06"
+       ],
+       "frame": "中景，新野大帐内刘备将兵符印绶郑重交到诸葛亮手中，郑重嘱托军国大计一应调度皆听军师安排，烛光暖黄",
+       "shot": "固定镜头，软袍贵族双手托出兵符印绶，郑重交到鹤氅青年手中，神色庄重地嘱托军国大计",
+       "lens": "50mm 标准，中浅景深",
+       "cameraPosition": "双人 + 平视侧面",
+       "composition": "中心构图",
+       "eyeline": "对方面部",
+       "focus": "锁定交接兵符的双手",
+       "stability": "stable"
+      },
+      {
+       "beats": [
+        3,
+        4
+       ],
+       "seconds": 6.5,
+       "size": "close",
+       "camera": "Static Shot",
+       "characters": [
+        "C05"
+       ],
+       "props": [],
+       "frame": "特写，诸葛亮双手接过兵符羽扇微摇目光从容扫过众人，沉声应道承蒙信任当谨依嘱托替皇叔守好这一方基业",
+       "shot": "固定镜头，鹤氅青年双手接过兵符，羽扇微摇，目光从容扫过众人，郑重应下使命",
+       "lens": "85mm 长焦，浅景深",
+       "cameraPosition": "鹤氅青年 + 平视正面",
+       "composition": "中心构图",
+       "eyeline": "帐内众人",
+       "focus": "锁定鹤氅青年面部与手中的兵符",
+       "stability": "stable"
+      }
+     ],
+     "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 5.50-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] <Picture 1> anchors the war tent: the soft-spoken nobleman in a crimson robe holds out a sealed tally and seal of command with both hands, and a static shot holds as he hands them solemnly to the strategist, the soft-spoken nobleman with a grave, entrusting voice (S1): <d>[Chinese] 自今日起，军国大计，一应调度，皆听军师安排。</d>\n[Shot 2] At 00:05.500, the camera cuts to <Picture 2>: a close static shot on the strategist receiving the tally with both hands, the fan ajar, the young strategist with a steady, devoted voice (S2): <d>[Chinese] 承蒙信任，亮当谨依嘱托，替皇叔守好这一方基业。</d>\n\noverall_soundscape: The wooden tally and seal clink softly as they pass hands, robes rustle, and a low babble of tent-life settles at the edges.\n\nnon_diegetic_music: Low measured strings at a slow tempo, grave and steady."
+    },
+    {
+     "id": "E37-08",
+     "sceneIndex": 2,
+     "cuts": [
+      {
+       "beats": [
+        5,
+        6
+       ],
+       "seconds": 5,
+       "size": "medium",
+       "camera": "Static Shot",
+       "characters": [
+        "C05",
+        "C03"
+       ],
+       "props": [],
+       "frame": "中景，关羽张飞侧立两旁看着新军师各有敬服之色，张飞忽问曹操敢不敢来打新野，大帐里油灯微微摇曳",
+       "shot": "固定镜头，帐内一名虬髯大汉侧立打量新上任的军师，随即心直口快地发问",
+       "lens": "50mm 标准，中浅景深",
+       "cameraPosition": "虬髯大汉 + 平视正面",
+       "composition": "三分法",
+       "eyeline": "鹤氅青年方向",
+       "focus": "锁定虬髯大汉面部",
+       "stability": "stable"
+      },
+      {
+       "beats": [
+        7,
+        8
+       ],
+       "seconds": 6.5,
+       "size": "close",
+       "camera": "Push In",
+       "characters": [
+        "C05"
+       ],
+       "props": [],
+       "frame": "特写，诸葛亮轻摇羽扇抬眼望向北方天际目光深远，沉声道曹操失徐庶之憾怕是已迁怒于新野这一仗躲不掉",
+       "shot": "镜头小幅缓推，鹤氅青年抬眼望向北方天际，目光深远，语气沉缓地道破隐忧",
+       "lens": "85mm 长焦，浅景深",
+       "cameraPosition": "鹤氅青年 + 平视正面",
+       "composition": "中心构图",
+       "eyeline": "北方天际",
+       "focus": "锁定鹤氅青年远望的目光",
+       "stability": "stable"
+      }
+     ],
+     "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 5.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] <Picture 1> anchors the tent interior where the two warriors stand at the sides with quiet respect; the burly general glances at the new strategist then blurts a plain question over a static shot, the bearded burly general with a direct, open voice (S1): <d>[Chinese] 军师，你说曹操，他敢不敢来打咱新野？</d>\n[Shot 2] At 00:05.000, the camera cuts to <Picture 2> as a slow push in with small amplitude closes on the strategist who turns his gaze north through an opening of the tent, the young strategist with a low, grave voice (S2): <d>[Chinese] 曹操失徐庶之憾，怕是已迁怒于新野。这一仗躲不掉。</d>\n\noverall_soundscape: The feather fan swishes, tent cloth stirs in a draft, and a low murmur settles in the tense quiet of the tent.\n\nnon_diegetic_music: Low strings drawing out, slightly tense, at a slow tempo."
+    },
+    {
+     "id": "E37-09",
+     "sceneIndex": 2,
+     "cuts": [
+      {
+       "beats": [
+        9,
+        10
+       ],
+       "seconds": 5,
+       "size": "wide",
+       "camera": "Static Shot",
+       "characters": [
+        "C02",
+        "C05",
+        "C01"
+       ],
+       "props": [],
+       "frame": "全景，帐中众人闻言齐齐握紧手中兵刃神色凝重，关羽沉声应道既如此早做准备方能以逸待劳，油灯下铜色兵刃反光",
+       "shot": "固定镜头，帐内众人握紧兵刃神色凝重，一名红脸武者沉声应答，于灯下拱手",
+       "lens": "35mm 广角，中景深",
+       "cameraPosition": "大帐内 + 平视正面",
+       "composition": "对称构图",
+       "eyeline": "军师方向",
+       "focus": "锁定握兵站立的众人",
+       "stability": "stable",
+       "note": "三人以上，画面以红脸武者应答为主，软袍贵族与鹤氅青年在侧"
+      },
+      {
+       "beats": [
+        11,
+        12
+       ],
+       "seconds": 6.5,
+       "size": "close",
+       "camera": "Static Shot",
+       "characters": [
+        "C05",
+        "C01"
+       ],
+       "props": [],
+       "frame": "特写，刘备郑重道军师初掌兵权立威当在一战，云长自当听令，诸葛亮动容应道承蒙信我爱当以性命相许不负重托",
+       "shot": "固定镜头，软袍贵族郑重嘱托立威一战，鹤氅青年闻言动容，郑重应下以性命相许",
+       "lens": "85mm 长焦，浅景深",
+       "cameraPosition": "双人 + 平视正面",
+       "composition": "中心构图",
+       "eyeline": "彼此相对",
+       "focus": "锁定鹤氅青年动容的神情",
+       "stability": "stable"
+      }
+     ],
+     "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 5.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] <Picture 1> anchors the tent at attention: the assembled men all close their hands on their weapons at the weight of the words, and the red-faced warrior answers firmly over a static shot, the red-faced warrior with a steady voice (S1): <d>[Chinese] 既如此，早做准备，方能以逸待劳。</d>\n[Shot 2] At 00:05.000, the camera cuts to <Picture 2>: a close static two-shot on the nobleman and the strategist facing each other, the soft-spoken nobleman with a grave, trusting voice (S1): <d>[Chinese] 军师初掌兵权，立威当在一战，云长自当听令。</d> — and the young strategist with a moved, loyal voice (S2): <d>[Chinese] 皇叔信我如斯，亮自当以性命相许，不负重托。</d>\n\noverall_soundscape: Weapon hilts knock softly as fists close around them, tent cloth stirs, and a low heavy silence holds under the flickering lamplight.\n\nnon_diegetic_music: Low, grave strings at a slow tempo, growing in resolve."
+    },
+    {
+     "id": "E37-10",
+     "sceneIndex": 2,
+     "cuts": [
+      {
+       "beats": [
+        13,
+        14
+       ],
+       "seconds": 6,
+       "size": "close",
+       "camera": "Static Shot",
+       "characters": [
+        "C05"
+       ],
+       "props": [],
+       "frame": "特写，诸葛亮取出舆图缓缓展开，指尖沿新野划到博望，沉声道北面若有敌来袭必走博望此处正是火攻的绝地，烛火摇影",
+       "shot": "固定镜头，鹤氅青年取出舆图缓缓展开，指尖沿图渐移，目光落在博望一地，言语笃定",
+       "lens": "85mm 长焦，浅景深",
+       "cameraPosition": "舆图上的指尖 + 俯视 30°",
+       "composition": "对角线构图",
+       "eyeline": "图上的博望",
+       "focus": "锁定沿图移动的指尖",
+       "stability": "stable"
+      },
+      {
+       "beats": [
+        15,
+        16
+       ],
+       "seconds": 6.5,
+       "size": "medium",
+       "camera": "Static Shot",
+       "characters": [
+        "C02",
+        "C05"
+       ],
+       "props": [
+        "P05"
+       ],
+       "frame": "中景，关羽抱拳赞道军师已谋定这般远难怪大哥把你倚作肱骨，诸葛亮执扇应道用兵之道贵在防患于未然云长且自去备砺精兵",
+       "shot": "固定镜头，红脸武者抱拳称许，鹤氅青年执扇从容应答并分派军务",
+       "lens": "50mm 标准，中浅景深",
+       "cameraPosition": "双人 + 平视侧面",
+       "composition": "三分法",
+       "eyeline": "彼此相对",
+       "focus": "锁定红脸武者抱拳的神情",
+       "stability": "stable"
+      }
+     ],
+     "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 6.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] <Picture 1> anchors the close view over the map: the strategist spreads the map and runs a fingertip from Xinye toward Bowang, the young strategist with a precise, plotting voice (S1): <d>[Chinese] 北面若有敌来袭，必走博望，此处正是火攻的绝地。</d>\n[Shot 2] At 00:06.000, the camera cuts to <Picture 2>: an upright static shot on the red-faced warrior cupping his fist in admiration and the strategist answering as he guides, the red-faced warrior with a warm, approving voice (S1): <d>[Chinese] 军师已谋定这般远，难怪大哥把你倚作肱骨。</d> — and the young strategist with an even, directing voice (S2): <d>[Chinese] 用兵之道，贵在防患于未然。云长且自去备砺精兵。</d>\n\noverall_soundscape: Map paper rustles as it is smoothed out, the fan swishes, and the lamplight pools over the tent in low flicker.\n\nnon_diegetic_music: Low strings, steady and plotting, at a moderate-slow tempo."
+    },
+    {
+     "id": "E37-11",
+     "sceneIndex": 2,
+     "cuts": [
+      {
+       "beats": [
+        17,
+        17
+       ],
+       "seconds": 3,
+       "size": "wide",
+       "camera": "Static Shot",
+       "characters": [
+        "C02",
+        "C03",
+        "C01"
+       ],
+       "props": [
+        "P05",
+        "P06"
+       ],
+       "frame": "全景，关羽抱拳应下与张飞一同出帐，留下刘备与孔明细谈军务，帐口掀开漏进一券天光，帐内两人对坐",
+       "shot": "固定镜头，红脸武将与虬髯大汉抱拳退出大帐，帐帘落下，软袍贵族与鹤氅青年留在灯下对坐细谈",
+       "lens": "35mm 广角，中景深",
+       "cameraPosition": "帐内 + 平视正面",
+       "composition": "对称构图",
+       "eyeline": "红脸武者与虬髯大汉望出帐外",
+       "focus": "锁定退帐的两人与灯下的两人",
+       "stability": "stable",
+       "note": "四人，画面以两人退帐、两人留谈构成前后层次"
+      }
+     ],
+     "h3Prompt": "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced.\n\nintegrated_multimodal_description:\n[Shot 1] A static wide holds the tent mouth: the red-faced warrior and the burly general cup their fists and step out together, the tent cloth falling back behind them, while the nobleman and the strategist remain seated by the lamp, settling into close counsel over the map.\n\noverall_soundscape: Swords rattle once as the two men rise, tent cloth swishes back into place, and the low murmur of counsel resumes beneath the lamp.\n\nnon_diegetic_music: Low strings returning to a contemplative slow tempo."
+    },
+    {
+     "id": "E37-12",
+     "sceneIndex": 3,
+     "cuts": [
+      {
+       "beats": [
+        1,
+        2
+       ],
+       "seconds": 4.5,
+       "size": "medium",
+       "camera": "Static Shot",
+       "characters": [
+        "C04"
+       ],
+       "props": [],
+       "frame": "中景，许都相府夜政，曹操坐于案后将前线探报掷在案上，正要发话，烛影在朱红柱上晃动",
+       "shot": "固定镜头，深色官袍的权臣坐于案后，抬手将探报掷在案上，眉头微锁，语带不悦",
+       "lens": "50mm 标准，中浅景深",
+       "cameraPosition": "权臣 + 平视正面",
+       "composition": "中心构图",
+       "eyeline": "案上的探报",
+       "focus": "锁定权臣面部",
+       "stability": "stable"
+      },
+      {
+       "beats": [
+        3,
+        3
+       ],
+       "seconds": 3,
+       "size": "medium",
+       "camera": "Truck Left",
+       "characters": [
+        "C04"
+       ],
+       "props": [],
+       "frame": "中景，曹操起身负手踱步，心头那股不安渐渐泛上来，烛光拉出修长黑影随行",
+       "shot": "镜头缓缓横移，权臣起身负手于堂中踱步，眉间凝起，心事渐重",
+       "lens": "50mm 标准，中浅景深",
+       "cameraPosition": "权臣 + 平视侧面",
+       "composition": "引导线构图",
+       "eyeline": "地面的影子",
+       "focus": "锁定踱步的权臣",
+       "stability": "stable"
+      }
+     ],
+     "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 4.50-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] <Picture 1> anchors the candlelit hall of the warlord's mansion: the dark-robed warlord tosses a dispatch onto the black lacquer table, and a static shot holds as he mutters his disbelief, the imposing warlord with a cold, mocking voice (S1): <d>[Chinese] 刘备请了个卧龙出山，还拜作军师？</d>\n[Shot 2] At 00:04.500, the camera cuts to <Picture 2>: a slow truck shot slides with the warlord as he rises and paces with clasped hands, the candle-cast shadow lengthening behind him, his brow darkening with unease.\n\noverall_soundscape: The dispatch slaps down on the table, footsteps echo on the swept stone floor, and bronze lamp flames flutter low in the draft.\n\nnon_diegetic_music: Low strings, brooding and cold, at a slow tempo."
+    },
+    {
+     "id": "E37-13",
+     "sceneIndex": 3,
+     "cuts": [
+      {
+       "beats": [
+        4,
+        4
+       ],
+       "seconds": 5,
+       "size": "close",
+       "camera": "Static Shot",
+       "characters": [
+        "C04"
+       ],
+       "props": [],
+       "frame": "特写，曹操负手停步，冷声道刘表也不是个安分的主刘备一旦坐大荆州必危，烛火在瞳中一跳",
+       "shot": "固定镜头，权臣负手停步，眉目冷厉，一字一句道出对荆州的忌惮",
+       "lens": "85mm 长焦，浅景深",
+       "cameraPosition": "权臣 + 平视正面",
+       "composition": "三分法",
+       "eyeline": "前方舆图",
+       "focus": "锁定权臣冷厉的眼",
+       "stability": "stable"
+      },
+      {
+       "beats": [
+        5,
+        5
+       ],
+       "seconds": 6,
+       "size": "medium",
+       "camera": "Push In",
+       "characters": [
+        "C04"
+       ],
+       "props": [],
+       "frame": "中景，曹操沉声道卧龙一出必劝他先取荆州此棋既落看他敢不敢接，负手立于案前，气势渐沉",
+       "shot": "镜头小幅缓推，权臣负手立于案前，语气阴冷，缓缓道出对局之算",
+       "lens": "50mm 标准，中浅景深",
+       "cameraPosition": "权臣 + 平视正面",
+       "composition": "中心构图",
+       "eyeline": "前方",
+       "focus": "锁定权臣上半身",
+       "stability": "stable"
+      }
+     ],
+     "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 5.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] A close static shot frames the warlord of <Picture 1> as he halts mid-step, the imposing warlord with a cold, calculating voice (S1): <d>[Chinese] 刘表也不是个安分的主，刘备一旦坐大，荆州必危。</d>\n[Shot 2] At 00:05.000, the camera cuts to <Picture 2> as a slow push in with small amplitude closes on the warlord standing before the map table, the imposing warlord with a low, scheming voice (S1): <d>[Chinese] 卧龙一出，必劝他先取荆州。此棋既落，看他敢不敢接。</d>\n\noverall_soundscape: Footsteps stop, the robe settles around him as he stills, and bronze flame sputters low in the draft over the hall.\n\nnon_diegetic_music: Low cold strings, sinewy and slow."
+    },
+    {
+     "id": "E37-14",
+     "sceneIndex": 3,
+     "cuts": [
+      {
+       "beats": [
+        6,
+        7
+       ],
+       "seconds": 4.5,
+       "size": "close",
+       "camera": "Push In",
+       "characters": [
+        "C04"
+       ],
+       "props": [],
+       "frame": "特写，烛影一摇，曹操立于舆图前目光一寸寸描过新野，指尖落在那位置上重重一点，指节白皙",
+       "shot": "镜头小幅缓推，权臣立于舆图前，目光缓缓描过新野一地，指尖落下重重一点",
+       "lens": "85mm 长焦，浅景深",
+       "cameraPosition": "舆图上的指尖 + 俯视 30°",
+       "composition": "中心构图",
+       "eyeline": "图上的新野",
+       "focus": "锁定落在图上的指尖",
+       "stability": "stable"
+      },
+      {
+       "beats": [
+        8,
+        8
+       ],
+       "seconds": 5,
+       "size": "medium",
+       "camera": "Static Shot",
+       "characters": [
+        "C04"
+       ],
+       "props": [],
+       "frame": "中景，曹操于舆图前站定，冷声道先取荆州卧龙出山我倒要看看他能高飞几许，烛光在他的面上一明一灭",
+       "shot": "固定镜头，权臣于舆图前站定，语带轻蔑，嘴角浮起一丝冷意",
+       "lens": "50mm 标准，中浅景深",
+       "cameraPosition": "权臣 + 平视正面",
+       "composition": "中心构图",
+       "eyeline": "前方舆图",
+       "focus": "锁定权臣面部",
+       "stability": "stable"
+      }
+     ],
+     "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 4.50-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] A close push in with small amplitude follows the warlord of <Picture 1> as his gaze sweeps the map inch by inch and his fingertip presses down hard on the town of Xinye.\n[Shot 2] At 00:04.500, the camera cuts to <Picture 2>: a medium static shot on the warlord standing before the map, and the imposing warlord with a cold, biting voice (S1) scoffs: <d>[Chinese] 先取荆州。卧龙出山，我倒要看看他能高飞几许。</d>\n\noverall_soundscape: A fingertip taps the map once, sharply, candle flame gutters, and the hall holds a cool, watchful quiet.\n\nnon_diegetic_music: Low strings with a sharp cold edge, slow tempo."
+    },
+    {
+     "id": "E37-15",
+     "sceneIndex": 3,
+     "cuts": [
+      {
+       "beats": [
+        9,
+        9
+       ],
+       "seconds": 5.5,
+       "size": "close",
+       "camera": "Static Shot",
+       "characters": [
+        "C04"
+       ],
+       "props": [],
+       "frame": "特写，曹操沉声传令道待荆州军务清楚即整师南向直捣新野，眸光转厉，烛影在脸上明灭",
+       "shot": "固定镜头，权臣沉声传令，眸光转厉，语气里是决意南下之威",
+       "lens": "85mm 长焦，浅景深",
+       "cameraPosition": "权臣 + 平视正面",
+       "composition": "三分法",
+       "eyeline": "前方",
+       "focus": "锁定权臣冷厉的眼",
+       "stability": "stable"
+      },
+      {
+       "beats": [
+        10,
+        10
+       ],
+       "seconds": 5,
+       "size": "medium",
+       "camera": "Static Shot",
+       "characters": [
+        "C04"
+       ],
+       "props": [],
+       "frame": "中景，曹操负手转身，冷声道卧龙虽才也架不住举国大势，刘备还差得远，烛火在他身后拖出高大黑影",
+       "shot": "固定镜头，权臣负手转身，语带轻蔑地断言大势不在卧龙，背影投下长长的黑影",
+       "lens": "50mm 标准，中浅景深",
+       "cameraPosition": "权臣 + 平视正面",
+       "composition": "引导线构图",
+       "eyeline": "前方",
+       "focus": "锁定权臣上半身",
+       "stability": "stable"
+      }
+     ],
+     "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 5.50-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] A close static shot on the warlord of <Picture 1> as he issues the order, the imposing warlord with a cold, commanding voice (S1): <d>[Chinese] 传令下去，待荆州军务清楚，即整师南下，直捣新野。</d>\n[Shot 2] At 00:05.500, the camera cuts to <Picture 2>: a medium static shot of him turning away with clasped hands, a long shadow cast behind him, the imposing warlord with an ice-cold dismissive voice (S1): <d>[Chinese] 卧龙虽才，也架不住举国大势。刘备，还差得远。</d>\n\noverall_soundscape: Robes rustle as he turns, footsteps cross the stone in the candlelit hall, and the lamps gutter low.\n\nnon_diegetic_music: Low cold strings, slow and menacing."
+    },
+    {
+     "id": "E37-16",
+     "sceneIndex": 3,
+     "cuts": [
+      {
+       "beats": [
+        11,
+        11
+       ],
+       "seconds": 3,
+       "size": "close",
+       "camera": "Static Shot",
+       "characters": [
+        "C04"
+       ],
+       "props": [],
+       "frame": "特写，灯焰晃了晃，曹操转身落笔写下一道南下的军令，笔锋在宣纸上一顿一顿，墨迹晕开",
+       "shot": "固定镜头，权臣执笔在案上落写军令，笔锋一顿一顿，烛影随笔尖起伏",
+       "lens": "85mm 长焦，浅景深",
+       "cameraPosition": "案上纸笔 + 俯视 45°",
+       "composition": "中心构图",
+       "eyeline": "纸上军令",
+       "focus": "锁定落笔的笔锋与墨字",
+       "stability": "stable"
+      }
+     ],
+     "h3Prompt": "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced.\n\nintegrated_multimodal_description:\n[Shot 1] A close static shot holds over the lacquer table as the warlord sets his brush to the paper and writes out an order to march south, the brush strokes landing one by one as the lamp flame sways and the ink spreads on the leaf.\n\noverall_soundscape: Brush sandals drag on paper with each stroke, tamped ink clinks in the tray, and the flame of the bronze lamp sputters in the still hall.\n\nnon_diegetic_music: A single low held string tone, slow and fateful."
+    }
+   ]
+  },
+  {
+   "ep": 38,
+   "segments": [
+    {
+     "id": "E38-01",
+     "sceneIndex": 1,
+     "cuts": [
+      {
+       "beats": [
+        1,
+        2
+       ],
+       "seconds": 4.5,
+       "size": "wide",
+       "camera": "Tracking Shot",
+       "characters": [
+        "C05",
+        "C23"
+       ],
+       "props": [],
+       "frame": "全景，新野城北烟尘漫天，夏侯惇率军压来马蹄沉闷震地，诸葛亮立在高处羽扇轻指示意依计行事，两军对峙于黄土官道",
+       "shot": "镜头平稳跟随，城北黄土道上曹军铁骑压来尘土遮天，高地处一名鹤氅青年羽扇轻指，示意依计行事",
+       "lens": "35mm 广角，中景深",
+       "cameraPosition": "战场 + 平视远眺",
+       "composition": "引导线构图",
+       "eyeline": "来敌方向",
+       "focus": "锁定高处的鹤氅青年与来势",
+       "stability": "slight-shake"
+      },
+      {
+       "beats": [
+        3,
+        4
+       ],
+       "seconds": 6.5,
+       "size": "close",
+       "camera": "Push In",
+       "characters": [
+        "C05",
+        "C03"
+       ],
+       "props": [],
+       "frame": "特写，诸葛亮立在高处断言夏侯惇骄兵必败中不中火计，张飞接令虚晃一矛拨马便往博望坡方向奔去，烟尘掠过镜头",
+       "shot": "镜头小幅缓推，鹤氅青年立于高处断言骄兵必败，一名虬髯大将得令虚晃一矛拨马往博望方向诱敌而去",
+       "lens": "85mm 长焦，浅景深",
+       "cameraPosition": "高处 + 平视侧面",
+       "composition": "中心构图",
+       "eyeline": "来敌方向",
+       "focus": "锁定鹤氅青年与拨马的身影",
+       "stability": "stable"
+      }
+     ],
+     "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 4.50-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] <Picture 1> anchors the wide battlefield north of the town: the one-eyed besieging general's cavalry presses in through a haze of raised dust, hooves dull and thundering, while on the high ground the young strategist in a crane-feather cloak lifts his fan to signal the plan into motion; a tracking shot holds the movements.\n[Shot 2] At 00:04.500, the camera cuts to <Picture 2> as a slow push in with small amplitude closes on the strategist speaking with assurance, then the burly general wheels his spear and spurs off toward the Bowang slope to draw the enemy; the young strategist with a calm, confident voice (S1): <d>[Chinese] 夏侯惇骄兵必败，看他中不中我这火计。</d>\n\noverall_soundscape: Hooves thunder over the dry road, wind whistles past as a horseman wheels away, and dust grits through the air.\n\nnon_diegetic_music: Low urgent strings, building at a moderate tempo."
+    },
+    {
+     "id": "E38-02",
+     "sceneIndex": 1,
+     "cuts": [
+      {
+       "beats": [
+        5,
+        5
+       ],
+       "seconds": 4,
+       "size": "medium",
+       "camera": "Static Shot",
+       "characters": [
+        "C23"
+       ],
+       "props": [],
+       "frame": "中景，夏侯惇独眼一瞪，扬声喝道区区小城也配拦我夏侯惇给我追，马鞭一甩，眼眸在尘土里森然发亮",
+       "shot": "固定镜头，独眼将领策马立定，扬声喝令追击，马鞭挥落，神情倨傲",
+       "lens": "50mm 标准，中浅景深",
+       "cameraPosition": "独眼将领 + 平视正面",
+       "composition": "中心构图",
+       "eyeline": "逃敌方向",
+       "focus": "锁定独眼将领面部",
+       "stability": "stable"
+      },
+      {
+       "beats": [
+        6,
+        6
+       ],
+       "seconds": 3,
+       "size": "wide",
+       "camera": "Truck Right",
+       "characters": [
+        "C23"
+       ],
+       "props": [],
+       "frame": "全景，曹军被引入博望坡，路窄林深两侧满是枯草，马蹄下卷起黄尘，夏侯惇当先催马",
+       "shot": "镜头缓缓横移，曹军涌入路窄林深的博望坡，两侧枯草如墙，独眼将领当先催马深入",
+       "lens": "35mm 广角，深景深",
+       "cameraPosition": "谷道 + 平视侧面",
+       "composition": "引导线构图",
+       "eyeline": "谷道深处",
+       "focus": "锁定当先进谷的骑兵",
+       "stability": "slight-shake"
+      }
+     ],
+     "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 4.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] <Picture 1> anchors the one-eyed general reining in, contemptuous: a static shot and the one-eyed besieging general with a mocking, imperious voice (S1) snaps: <d>[Chinese] 区区小城也配拦我夏侯惇？给我追！</d>\n[Shot 2] At 00:04.000, the camera cuts to <Picture 2>: a truck shot slides alongside the column as it funnels into the deep, narrow Bowang slope, dead grass crowding both flanks, the one-eyed general still spurring onward at the head.\n\noverall_soundscape: Hooves crowd together in the narrow pass, dry grass rustles on both sides, and war-trumpets bray thin over the dust.\n\nnon_diegetic_music: Low tense strings at a moderate tempo, tightening as the column enters."
+    },
+    {
+     "id": "E38-03",
+     "sceneIndex": 1,
+     "cuts": [
+      {
+       "beats": [
+        7,
+        7
+       ],
+       "seconds": 4.5,
+       "size": "close",
+       "camera": "Static Shot",
+       "characters": [
+        "C02"
+       ],
+       "props": [],
+       "frame": "特写，关羽于坡上观阵抱拳急道军师他们进了谷口正是放火的好时候，长须在风里微扬，眼中跃着一线战意",
+       "shot": "固定镜头，红脸武者于坡上抱拳，望见敌众入谷，语气里带着请战的急切",
+       "lens": "85mm 长焦，浅景深",
+       "cameraPosition": "红脸武者 + 平视正面",
+       "composition": "三分法",
+       "eyeline": "下方谷口",
+       "focus": "锁定红脸武者面部",
+       "stability": "stable"
+      },
+      {
+       "beats": [
+        8,
+        8
+       ],
+       "seconds": 5,
+       "size": "close",
+       "camera": "Static Shot",
+       "characters": [
+        "C05"
+       ],
+       "props": [],
+       "frame": "特写，诸葛亮于坡上执扇沉声道云长且按兵不动待他深入三分再举火烧他，目光紧锁谷中敌军",
+       "shot": "固定镜头，鹤氅青年于坡上执扇沉声，目光紧锁下方谷中敌军，示意按兵以待",
+       "lens": "85mm 长焦，浅景深",
+       "cameraPosition": "鹤氅青年 + 平视正面",
+       "composition": "中心构图",
+       "eyeline": "下方谷中",
+       "focus": "锁定鹤氅青年敦稳的眼",
+       "stability": "stable"
+      }
+     ],
+     "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 4.50-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] A close static shot frames the red-faced warrior of <Picture 1> on the slope, fist clenched, the red-faced warrior with a quick, eager voice (S1): <d>[Chinese] 军师，他们进了谷口，正是放火的好时候。</d>\n[Shot 2] At 00:04.500, the camera cuts to <Picture 2>: a close static shot on the strategist whose gaze stays fixed down the slope, the young strategist with a calm, decisive voice (S2): <d>[Chinese] 云长且按兵不动，待他深入三分，再举火烧他。</d>\n\noverall_soundscape: Wind carries the rumble of distant hooves up the slope, banners snap overhead, and archers shift quietly in the grass-line.\n\nnon_diegetic_music: Low held strings, coiled and patient, at a moderate-slow tempo."
+    },
+    {
+     "id": "E38-04",
+     "sceneIndex": 1,
+     "cuts": [
+      {
+       "beats": [
+        9,
+        9
+       ],
+       "seconds": 3,
+       "size": "close",
+       "camera": "Static Shot",
+       "characters": [
+        "C05"
+       ],
+       "props": [],
+       "frame": "特写，诸葛亮在上风处将旗一展，军中火把应声而落，旗面猎猎，火光霎时腾起",
+       "shot": "固定镜头，鹤氅青年于上风处将令旗一展，身后火把齐落，声色间尽是对时机的把握",
+       "lens": "85mm 长焦，浅景深",
+       "cameraPosition": "令旗 + 平视侧面",
+       "composition": "三分法",
+       "eyeline": "下方谷中",
+       "focus": "锁定展旗的手与落下的火把",
+       "stability": "stable"
+      },
+      {
+       "beats": [
+        10,
+        10
+       ],
+       "seconds": 3,
+       "size": "extreme-wide",
+       "camera": "Static Shot",
+       "characters": [
+        "C23"
+       ],
+       "props": [],
+       "frame": "大远景，风助火势，博望坡一时烈焰腾空，曹军人仰马翻，火光映红半边天，灰烟滚滚",
+       "shot": "固定镜头远望，风助火势烈焰腾空，谷中曹军人仰马翻，整片坡体被火光吞没",
+       "lens": "24mm 广角，深景深",
+       "cameraPosition": "博望坡 + 平视远眺",
+       "composition": "对称构图",
+       "eyeline": "冲天的火光",
+       "focus": "锁定腾空的烈焰",
+       "stability": "stable"
+      },
+      {
+       "beats": [
+        11,
+        11
+       ],
+       "seconds": 3,
+       "size": "wide",
+       "camera": "Shake Slightly",
+       "characters": [
+        "C23"
+       ],
+       "props": [],
+       "frame": "全景，谷中火起，士卒号哭奔逃，夏侯惇连挥令旗也压不住阵脚，火舌舔上旗面，人马影乱",
+       "shot": "镜头微晃，谷中火起，士卒号哭奔逃，独眼将领连挥令旗也压不住阵脚，火舌掠过旗面",
+       "lens": "35mm 广角，深景深",
+       "cameraPosition": "谷中 + 平视侧面",
+       "composition": "引导线构图",
+       "eyeline": "逃散的士卒",
+       "focus": "锁定独眼将领与崩溃的军阵",
+       "stability": "slight-shake"
+      }
+     ],
+     "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 3.00-second mark of the target video; Picture 3 (from Shot 3) aligns with the 6.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] <Picture 1> anchors the strategist on the windward height: he unfurls the order banner and the torches drop in unison below; a static shot holds the single moment of command.\n[Shot 2] At 00:03.000, the camera cuts to the extreme wide of <Picture 2>: wind feeds the flames and the whole Bowang slope roars alight, war-horses and men staggering and tumbling in the blaze; a static shot holds the conflagration.\n[Shot 3] At 00:06.000, the shot cuts to <Picture 3>: a slightly shaking camera among the burning pass as troops wail and scatter, the one-eyed general waving the banner pointlessly as fire licks the flag-face.\n\noverall_soundscape: A whoosh as the fire takes the grass, crackling timber and screaming horses, hooves and men thundering in chaos through the smoke.\n\nnon_diegetic_music: Percussive drums and low brass at a driving tempo, harsh and relentless."
+    },
+    {
+     "id": "E38-05",
+     "sceneIndex": 1,
+     "cuts": [
+      {
+       "beats": [
+        12,
+        13
+       ],
+       "seconds": 4,
+       "size": "close",
+       "camera": "Shake Slightly",
+       "characters": [
+        "C23"
+       ],
+       "props": [],
+       "frame": "特写，夏侯惇独眼圆睁惊觉火来得不对，连声喝道前面准有埋伏快退，中计了撤快撤，火光照亮惊骇的脸",
+       "shot": "镜头微晃，独眼将领于火中惊觉中计，独眼圆睁，连声喝令撤军，声音被烟火烧得发哑",
+       "lens": "85mm 长焦，浅景深",
+       "cameraPosition": "独眼将领 + 平视正面",
+       "composition": "中心构图",
+       "eyeline": "前方火墙",
+       "focus": "锁定独眼将领惊变的神情",
+       "stability": "slight-shake"
+      },
+      {
+       "beats": [
+        14,
+        14
+       ],
+       "seconds": 3,
+       "size": "wide",
+       "camera": "Tracking Shot",
+       "characters": [
+        "C23"
+       ],
+       "props": [],
+       "frame": "全景，夏侯惇夺路而逃身后的征衣沾了火狼狈不堪地败走，夺路而下，火星沿着衣摆一路迸溅",
+       "shot": "镜头平稳跟随，独眼将领夺路而逃，身后征衣沾了火，狼狈不堪地沿坡冲下",
+       "lens": "35mm 广角，深景深",
+       "cameraPosition": "独眼将领 + 背后平视跟随",
+       "composition": "引导线构图",
+       "eyeline": "逃路方向",
+       "focus": "锁定奔逃的独眼将领",
+       "stability": "slight-shake"
+      }
+     ],
+     "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 4.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] A slightly shaking close shot holds on the one-eyed general of <Picture 1> as alarm seizes his face, the one-eyed besieging general with a hoarse, panicking voice (S1): <d>[Chinese] 这火来得不对！前面准有埋伏，快退！</d> — then, snapping: <d>[Chinese] 中计了！撤！快撤！</d>\n[Shot 2] At 00:04.000, the camera cuts to <Picture 2>: a tracking shot follows the one-eyed general fleeing down the slope, his scorched campaign coat trailing sparks behind him, broken and driven.\n\noverall_soundscape: Fire roars at his back, hooves skid and scatter on the burning slope, and his scorched cloth hisses as sparks fall away.\n\nnon_diegetic_music: Low brass and drums, fast and chaotic, fading as the flight continues."
+    },
+    {
+     "id": "E38-06",
+     "sceneIndex": 1,
+     "cuts": [
+      {
+       "beats": [
+        15,
+        15
+       ],
+       "seconds": 4,
+       "size": "medium",
+       "camera": "Static Shot",
+       "characters": [
+        "C03"
+       ],
+       "props": [],
+       "frame": "中景，张飞于坡上望着火场，咧嘴大笑道烧得好烧得那群王八羔子屁滚尿流，虬髯随笑声抖动，火光映脸",
+       "shot": "固定镜头，虬髯大汉于坡上望着火场，咧嘴大笑，畅快之情溢于言表，火光映亮他的脸",
+       "lens": "50mm 标准，中浅景深",
+       "cameraPosition": "虬髯大汉 + 平视正面",
+       "composition": "三分法",
+       "eyeline": "下方火场",
+       "focus": "锁定虬髯大汉大笑的神情",
+       "stability": "stable"
+      },
+      {
+       "beats": [
+        16,
+        16
+       ],
+       "seconds": 4,
+       "size": "close",
+       "camera": "Static Shot",
+       "characters": [
+        "C02"
+       ],
+       "props": [],
+       "frame": "特写，关羽抱拳于坡上赞道军师神算一把火便退了曹军前锋，火舌红光映在他红润的面庞上，眼中满是敬服",
+       "shot": "固定镜头，红脸武者抱拳称许，语气里是发自衷心的敬服，火光的暖红映在他的面上",
+       "lens": "85mm 长焦，浅景深",
+       "cameraPosition": "红脸武者 + 平视正面",
+       "composition": "中心构图",
+       "eyeline": "下方火场",
+       "focus": "锁定红脸武者敬服的神情",
+       "stability": "stable"
+      }
+     ],
+     "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 4.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] <Picture 1> anchors the burly general on the slope, roaring with delight at the burning valley below, the bearded burly general with a booming, gleeful voice (S1): <d>[Chinese] 烧得好！烧得那群王八羔子屁滚尿流！</d>\n[Shot 2] At 00:04.000, the camera cuts to <Picture 2>: a close static shot on the red-faced warrior cupping his fist as he praises the stratagem, the red-faced warrior with an admiring, genuine voice (S1): <d>[Chinese] 军师神算，一把火便退了曹军前锋！</d>\n\noverall_soundscape: Fire crackles and roars in the valley below, wind lifts the banners, and the two voices carry over the slope's warm drone.\n\nnon_diegetic_music: Bright low strings and brass, at a moderate tempo, victorious."
+    },
+    {
+     "id": "E38-07",
+     "sceneIndex": 1,
+     "cuts": [
+      {
+       "beats": [
+        17,
+        17
+       ],
+       "seconds": 3,
+       "size": "close",
+       "camera": "Static Shot",
+       "characters": [
+        "C01"
+       ],
+       "props": [],
+       "frame": "特写，刘备在山上看到此幕，转头望向这位新军师，目光竟有些怔，眼底涌动着感慨与信服",
+       "shot": "固定镜头，软袍贵族立于坡上望见火起，转头看向身旁的新任军师，目光微怔，眼底翻涌着感慨",
+       "lens": "85mm 长焦，浅景深",
+       "cameraPosition": "软袍贵族 + 平视正侧面",
+       "composition": "三分法",
+       "eyeline": "身旁军师",
+       "focus": "锁定软袍贵族微怔的目光",
+       "stability": "stable"
+      },
+      {
+       "beats": [
+        18,
+        18
+       ],
+       "seconds": 4.5,
+       "size": "close",
+       "camera": "Push In",
+       "characters": [
+        "C01"
+       ],
+       "props": [],
+       "frame": "特写，刘备回过神来沉声道军师料敌如神刘备自愧不如佩服之至，火光的暖色在他眼睫上一闪",
+       "shot": "镜头小幅缓推，软袍贵族回过神，郑重道出叹服，语气里满是心悦诚服",
+       "lens": "85mm 长焦，浅景深",
+       "cameraPosition": "软袍贵族 + 平视正面",
+       "composition": "中心构图",
+       "eyeline": "身旁军师",
+       "focus": "锁定软袍贵族面部",
+       "stability": "stable"
+      }
+     ],
+     "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 3.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] A close static shot frames the nobleman of <Picture 1> on the slope as he watches the fire, then turns to look at the new strategist beside him, a mixture of awe and gratitude passing over his face.\n[Shot 2] At 00:03.000, the camera cuts to <Picture 2> as a slow push in with small amplitude closes on the nobleman as he speaks, the soft-spoken nobleman with a sincere, humbled voice (S1): <d>[Chinese] 军师料敌如神，刘备自愧不如，佩服之至。</d>\n\noverall_soundscape: Wind and fire crackle from the valley, the nobleman's robe shifts as he turns, and the slope holds a moment of quiet marvel.\n\nnon_diegetic_music: Low warm strings, at a slow swelling tempo."
+    },
+    {
+     "id": "E38-08",
+     "sceneIndex": 1,
+     "cuts": [
+      {
+       "beats": [
+        19,
+        19
+       ],
+       "seconds": 5.5,
+       "size": "medium",
+       "camera": "Static Shot",
+       "characters": [
+        "C05"
+       ],
+       "props": [],
+       "frame": "中景，诸葛亮于坡上收扇执戈，神色从容道此不过小试锋芒夏侯部远未伤筋动骨尚须谨慎，火光的暖色爬上半边衣甲",
+       "shot": "固定镜头，鹤氅青年于坡上收扇，神色从容，语气清冷地道出胜而不骄的谨慎",
+       "lens": "50mm 标准，中浅景深",
+       "cameraPosition": "鹤氅青年 + 平视正面",
+       "composition": "中心构图",
+       "eyeline": "逃远的烟尘",
+       "focus": "锁定鹤氅青年沉静的面容",
+       "stability": "stable"
+      },
+      {
+       "beats": [
+        20,
+        20
+       ],
+       "seconds": 3,
+       "size": "wide",
+       "camera": "Static Shot",
+       "characters": [
+        "C05",
+        "C01"
+       ],
+       "props": [],
+       "frame": "全景，孔明收扇立于坡上戎装之下，望着逃远的烟尘若有所思，刘备随他的目光一并望向远方",
+       "shot": "固定镜头，鹤氅青年收扇立于坡上戎装之下，目光追着逃远的烟尘，若有所思；软袍贵族在他身侧并肩远望",
+       "lens": "35mm 广角，中景深",
+       "cameraPosition": "双人 + 平视侧面",
+       "composition": "引导线构图",
+       "eyeline": "远处烟尘",
+       "focus": "锁定坡上并肩的两人",
+       "stability": "stable"
+      }
+     ],
+     "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 5.50-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] A medium static shot frames the strategist of <Picture 1> on the slope, fan folded, the young strategist with a cool, cautious voice (S1): <d>[Chinese] 此不过小试锋芒，夏侯部远未伤筋动骨，尚须谨慎。</d>\n[Shot 2] At 00:05.500, the camera cuts to <Picture 2>: a wide static shot of the strategist in campaign garb standing on the slope, eyes following the retreating dust, the nobleman stepping to his side and looking out with him.\n\noverall_soundscape: Wind lifts the banners, distant hooves fade into the smoke, and the slope settles into a watchful quiet.\n\nnon_diegetic_music: Low strings, measured and watchful, at a slow tempo."
+    },
+    {
+     "id": "E38-09",
+     "sceneIndex": 1,
+     "cuts": [
+      {
+       "beats": [
+        21,
+        21
+       ],
+       "seconds": 5,
+       "size": "close",
+       "camera": "Static Shot",
+       "characters": [
+        "C01"
+       ],
+       "props": [],
+       "frame": "特写，刘备望着退敌方向沉声道军师他是往新野方向退的怕是还要卷土重来，眉宇间带着一层后忧",
+       "shot": "固定镜头，软袍贵族望着退敌方向，眉头微锁，道破敌军必还卷土重来的隐忧",
+       "lens": "85mm 长焦，浅景深",
+       "cameraPosition": "软袍贵族 + 平视正面",
+       "composition": "三分法",
+       "eyeline": "远处烟尘",
+       "focus": "锁定软袍贵族含忧的目光",
+       "stability": "stable"
+      },
+      {
+       "beats": [
+        22,
+        22
+       ],
+       "seconds": 5.5,
+       "size": "close",
+       "camera": "Static Shot",
+       "characters": [
+        "C05"
+       ],
+       "props": [],
+       "frame": "特写，诸葛亮执扇微微一笑，目光深远道正合心意退而不守寻常守而不备我反其道而行，火光照亮唇角",
+       "shot": "固定镜头，鹤氅青年执扇于坡上轻笑，目光深远，语气里透出早已料定的从容",
+       "lens": "85mm 长焦，浅景深",
+       "cameraPosition": "鹤氅青年 + 平视正面",
+       "composition": "中心构图",
+       "eyeline": "远处",
+       "focus": "锁定鹤氅青年含笑的眼",
+       "stability": "stable"
+      }
+     ],
+     "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 5.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] A close static shot frames the nobleman of <Picture 1>, gaze on the retreating direction, the soft-spoken nobleman with a concerned, discerning voice (S1): <d>[Chinese] 军师，他是往新野方向退的，怕是还要卷土重来。</d>\n[Shot 2] At 00:05.000, the camera cuts to <Picture 2>: a close static shot on the strategist whose faint smile and far-seeing eyes answer him, the young strategist with a measured, certain voice (S2): <d>[Chinese] 正合心意。退而不守寻常，守而不备我反其道而行。</d>\n\noverall_soundscape: The fire crackles low in the valley, wind tugs at the robe edges, and a quiet confidence hangs between the two figures.\n\nnon_diegetic_music: Low strings with a faint shift toward stillness, slow tempo."
+    },
+    {
+     "id": "E38-10",
+     "sceneIndex": 2,
+     "cuts": [
+      {
+       "beats": [
+        1,
+        2
+       ],
+       "seconds": 4,
+       "size": "wide",
+       "camera": "Tracking Shot",
+       "characters": [
+        "C23",
+        "C05"
+       ],
+       "props": [
+        "P05",
+        "P06"
+       ],
+       "frame": "全景，夏侯惇残部卷土重来气势汹汹扑向新野城下，诸葛亮在城头看毕转身下达第二道命令，城楼烟尘与旗帜翻卷",
+       "shot": "镜头平稳跟随，新野城外独眼将领率残部重新扑来，城头一名鹤氅青年回身传令，神色笃定",
+       "lens": "35mm 广角，中景深",
+       "cameraPosition": "战场 + 平视远眺",
+       "composition": "引导线构图",
+       "eyeline": "城下来敌",
+       "focus": "锁定城头的鹤氅青年",
+       "stability": "slight-shake"
+      },
+      {
+       "beats": [
+        3,
+        3
+       ],
+       "seconds": 5,
+       "size": "close",
+       "camera": "Static Shot",
+       "characters": [
+        "C05"
+       ],
+       "props": [],
+       "frame": "特写，诸葛亮于城头执扇，沉声部署新野城小难守放他入城关门再放一把火，目光沉静而决断",
+       "shot": "固定镜头，鹤氅青年于城头执扇，目光沉静，语气平缓却透出已成竹在胸的决断",
+       "lens": "85mm 长焦，浅景深",
+       "cameraPosition": "鹤氅青年 + 平视正面",
+       "composition": "中心构图",
+       "eyeline": "城下",
+       "focus": "锁定鹤氅青年沉静的眼",
+       "stability": "stable"
+      }
+     ],
+     "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 4.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] <Picture 1> anchors the wide return to the city: the one-eyed general's battered column throws itself once more against Xinye, and on the rampart the young strategist in a crane-feather cloak turns and issues a new order; a tracking shot holds the approach.\n[Shot 2] At 00:04.000, the camera cuts to <Picture 2>: a close static shot on the strategist on the city wall, the young strategist with a cool, decisive voice (S1): <d>[Chinese] 新野城小难守。放他入城，关门，再放一把火。</d>\n\noverall_soundscape: War-horns bray low over the returning column, hooves and loose metal clatter under the wall, and the wind pulls at the banners.\n\nnon_diegetic_music: Low strings, coiled and cold, at a moderate-slow tempo."
+    },
+    {
+     "id": "E38-11",
+     "sceneIndex": 2,
+     "cuts": [
+      {
+       "beats": [
+        4,
+        4
+       ],
+       "seconds": 2.5,
+       "size": "close",
+       "camera": "Static Shot",
+       "characters": [
+        "C01"
+       ],
+       "props": [],
+       "frame": "特写，刘备闻言脸色一凛，蹙眉追问城中百姓呢，烟火映在焦急的眉眼间",
+       "shot": "固定镜头，软袍贵族闻言神色一紧，蹙眉追问百姓去向，语气里带着牵挂",
+       "lens": "85mm 长焦，浅景深",
+       "cameraPosition": "软袍贵族 + 平视正面",
+       "composition": "中心构图",
+       "eyeline": "对面之人面部",
+       "focus": "锁定软袍贵族紧张的眉眼",
+       "stability": "stable"
+      },
+      {
+       "beats": [
+        5,
+        5
+       ],
+       "seconds": 5.5,
+       "size": "close",
+       "camera": "Static Shot",
+       "characters": [
+        "C05"
+       ],
+       "props": [],
+       "frame": "特写，诸葛亮沉稳应道皇叔放心我已提早遣百姓出城避火留下一座空城，目光里带着安抚",
+       "shot": "固定镜头，鹤氅青年沉稳应答，语气笃定，目光里带着叫对方放宽心的安抚",
+       "lens": "85mm 长焦，浅景深",
+       "cameraPosition": "鹤氅青年 + 平视正面",
+       "composition": "三分法",
+       "eyeline": "对面之人面部",
+       "focus": "锁定鹤氅青年面部",
+       "stability": "stable"
+      },
+      {
+       "beats": [
+        6,
+        6
+       ],
+       "seconds": 3,
+       "size": "wide",
+       "camera": "Static Shot",
+       "characters": [
+        "C23"
+       ],
+       "props": [],
+       "frame": "全景，曹军一进城四门轰然闭阖，火油沿街泼洒火起全城，独眼将领在火光里纵马回头，烈焰映红整条街",
+       "shot": "固定镜头远望，曹军冲入城门四门随即闭阖，火油沿街泼下，全城映红一片",
+       "lens": "35mm 广角，深景深",
+       "cameraPosition": "街市 + 平视远眺",
+       "composition": "对称构图",
+       "eyeline": "燃起的街市",
+       "focus": "锁定闭阖的城门与火光",
+       "stability": "stable"
+      }
+     ],
+     "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 2.50-second mark of the target video; Picture 3 (from Shot 3) aligns with the 8.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] A close static shot frames the nobleman of <Picture 1>, face tightening, the soft-spoken nobleman with an anxious, concerned voice (S1): <d>[Chinese] 军师，城中百姓呢？</d>\n[Shot 2] At 00:02.500, the camera cuts to <Picture 2>: a close static shot on the strategist, the young strategist with a steady, reassuring voice (S2): <d>[Chinese] 皇叔放心，我已提早遣百姓出城避火，留下一座空城。</d>\n[Shot 3] At 00:08.000, the shot cuts to <Picture 3>: a wide static shot of the column pouring into the city as the gates slam shut and fire-oil is flung down the streets, the whole town blazing up around them.\n\noverall_soundscape: Gates slam and bolt shut, oil splashes on stone, then a great whoosh as the streets catch and crackle into fire.\n\nnon_diegetic_music: Drums and low brass rising, harsh and swift, then climbing heat."
+    },
+    {
+     "id": "E38-12",
+     "sceneIndex": 2,
+     "cuts": [
+      {
+       "beats": [
+        7,
+        7
+       ],
+       "seconds": 4,
+       "size": "close",
+       "camera": "Shake Slightly",
+       "characters": [
+        "C23"
+       ],
+       "props": [],
+       "frame": "特写，夏侯惇勒马惊喝不好城门关了火这里也有伏兵，独眼圆睁，火光在他脸上乱跳",
+       "shot": "镜头微晃，独眼将领勒马惊喝，独眼圆睁，火光映着他骤然惊变的脸",
+       "lens": "85mm 长焦，浅景深",
+       "cameraPosition": "独眼将领 + 平视正面",
+       "composition": "中心构图",
+       "eyeline": "面前的火墙",
+       "focus": "锁定独眼将领惊变的神情",
+       "stability": "slight-shake"
+      },
+      {
+       "beats": [
+        8,
+        9
+       ],
+       "seconds": 4,
+       "size": "wide",
+       "camera": "Tracking Shot",
+       "characters": [
+        "C23"
+       ],
+       "props": [],
+       "frame": "全景，夏侯惇勒马回头想把后军撤出却被前后火墙死死堵住，夺路而逃踉跄败退头昏脑涨，火舌追着马蹄",
+       "shot": "镜头平稳跟随，独眼将领勒马回头欲撤后军，却被前后火墙堵死，随即夺路败逃，踉跄冲过火场",
+       "lens": "35mm 广角，深景深",
+       "cameraPosition": "独眼将领 + 平视侧面跟随",
+       "composition": "引导线构图",
+       "eyeline": "逃路方向",
+       "focus": "锁定奔逃的独眼将领",
+       "stability": "slight-shake"
+      }
+     ],
+     "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 4.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] A shaking close shot frames the one-eyed general of <Picture 1> reining in hard, the one-eyed besieging general with a hoarse, alarmed voice (S1): <d>[Chinese] 不好！城门关了！火！这里也有伏兵！</d>\n[Shot 2] At 00:04.000, the camera cuts to <Picture 2>: a tracking shot follows him as he wheels back, finds both roads sealed by fire, and flees in a stumbling rout through the burn, dazed and driven.\n\noverall_soundscape: Flame walls roar on both flanks, hooves crackle through burning debris, and the general's voice is swallowed by the blaze.\n\nnon_diegetic_music: Low brass and drums, churning and chaotic, at a fast tempo."
+    },
+    {
+     "id": "E38-13",
+     "sceneIndex": 2,
+     "cuts": [
+      {
+       "beats": [
+        10,
+        10
+       ],
+       "seconds": 3.5,
+       "size": "medium",
+       "camera": "Static Shot",
+       "characters": [
+        "C23"
+       ],
+       "props": [],
+       "frame": "中景，夏侯惇冲出火场狼狈勒马，独眼圆睁咬牙低喝又是火诸葛亮你好狠的手段，火光映着他满是烟灰的脸",
+       "shot": "固定镜头，独眼将领冲出火场狼狈勒马，独眼圆睁，咬牙低喝，神情又恨又惧",
+       "lens": "50mm 标准，中浅景深",
+       "cameraPosition": "独眼将领 + 平视正面",
+       "composition": "中心构图",
+       "eyeline": "面前的火海",
+       "focus": "锁定独眼将领满是烟灰的脸",
+       "stability": "stable"
+      },
+      {
+       "beats": [
+        11,
+        11
+       ],
+       "seconds": 3,
+       "size": "medium",
+       "camera": "Static Shot",
+       "characters": [
+        "C05"
+       ],
+       "props": [],
+       "frame": "中景，火场不远处，诸葛亮羽扇一收神色平静如初，立于高处的暗影中，火光在他身后起伏",
+       "shot": "固定镜头，鹤氅青年于高处将羽扇一收，神色平静如初，凝望着下方渐熄的火场",
+       "lens": "50mm 标准，中浅景深",
+       "cameraPosition": "鹤氅青年 + 平视侧面",
+       "composition": "三分法",
+       "eyeline": "下方火场",
+       "focus": "锁定鹤氅青年平静的面容",
+       "stability": "stable"
+      },
+      {
+       "beats": [
+        12,
+        12
+       ],
+       "seconds": 4,
+       "size": "medium",
+       "camera": "Static Shot",
+       "characters": [
+        "C03"
+       ],
+       "props": [],
+       "frame": "中景，张飞于坡上咧嘴大笑，由衷赞道军师这两把火烧得我飞心服口服，虬髯随笑颤动，火光映红半张脸",
+       "shot": "固定镜头，虬髯大汉于坡上咧嘴大笑，语气里满是心悦诚服，火光在他脸上跳动",
+       "lens": "50mm 标准，中浅景深",
+       "cameraPosition": "虬髯大汉 + 平视正面",
+       "composition": "三分法",
+       "eyeline": "下方火场",
+       "focus": "锁定虬髯大汉大笑的神情",
+       "stability": "stable"
+      }
+     ],
+     "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 3.50-second mark of the target video; Picture 3 (from Shot 3) aligns with the 6.50-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] In a static shot, <Picture 1> anchors the one-eyed general reining in clear of the fire, his sole eye wide with hatred and dread, and with a rough, spiteful voice (S1) he spits: <d>[Chinese] 又是火！诸葛亮，你好狠的手段！</d>\n[Shot 2] At 00:03.500, the camera cuts in a static shot to <Picture 2>: the young strategist folds his feather fan, his expression utterly calm, watching the dying blaze below.\n[Shot 3] At 00:06.500, the shot cuts in a static shot to <Picture 3>: on the slope the burly general grins and crows with wholehearted admiration, the bearded burly general with a booming hearty voice (S2): <d>[Chinese] 军师，这两把火烧得我飞心服口服！</d>\n\noverall_soundscape: The fire crackles low and sinks, wind stirs the smoke, and the general's hoarse curse lingers in the cooling air.\n\nnon_diegetic_music: Low drums easing to a steadier pulse, at a moderate tempo."
+    },
+    {
+     "id": "E38-14",
+     "sceneIndex": 2,
+     "cuts": [
+      {
+       "beats": [
+        13,
+        13
+       ],
+       "seconds": 3,
+       "size": "close",
+       "camera": "Static Shot",
+       "characters": [
+        "C01"
+       ],
+       "props": [],
+       "frame": "特写，刘备站在高处望着渐熄的火光，眼中却浮起一丝忧色，火光明明灭灭映在他凝重的眉眼间",
+       "shot": "固定镜头，软袍贵族立于高处望着渐熄的火光，眼里的喜色退去，浮起一层忧色",
+       "lens": "85mm 长焦，浅景深",
+       "cameraPosition": "软袍贵族 + 平视正侧面",
+       "composition": "三分法",
+       "eyeline": "下方火光",
+       "focus": "锁定软袍贵族凝重的眉眼",
+       "stability": "stable"
+      },
+      {
+       "beats": [
+        14,
+        14
+       ],
+       "seconds": 5.5,
+       "size": "close",
+       "camera": "Static Shot",
+       "characters": [
+        "C01"
+       ],
+       "props": [],
+       "frame": "特写，刘备低声忧道军师这一退曹军得知上当必更恨新野入骨，眉头深锁，目光沉落",
+       "shot": "固定镜头，软袍贵族低声陈说隐忧，眉头深锁，语带忧忡地看向身旁军师",
+       "lens": "85mm 长焦，浅景深",
+       "cameraPosition": "软袍贵族 + 平视正面",
+       "composition": "中心构图",
+       "eyeline": "身旁之人",
+       "focus": "锁定软袍贵族忧忡的眼",
+       "stability": "stable"
+      },
+      {
+       "beats": [
+        15,
+        15
+       ],
+       "seconds": 6.5,
+       "size": "close",
+       "camera": "Static Shot",
+       "characters": [
+        "C05"
+       ],
+       "props": [],
+       "frame": "特写，诸葛亮平和应道皇叔所虑极是两把火解围一时却招来曹操举国问罪之心，羽扇轻摇，神色凝练",
+       "shot": "固定镜头，鹤氅青年羽扇轻摇，神态凝练，语气平和地道出两把火换来的隐忧",
+       "lens": "85mm 长焦，浅景深",
+       "cameraPosition": "鹤氅青年 + 平视正面",
+       "composition": "中心构图",
+       "eyeline": "对面之人面部",
+       "focus": "锁定鹤氅青年凝练的神情",
+       "stability": "stable"
+      }
+     ],
+     "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 3.00-second mark of the target video; Picture 3 (from Shot 3) aligns with the 8.50-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] In a static shot, <Picture 1> anchors the nobleman on the height, watching the fading glow with apprehension creeping into his brow.\n[Shot 2] At 00:03.000, the camera cuts in a static shot to <Picture 2>: the soft-spoken nobleman with a low, worried voice (S1) says: <d>[Chinese] 军师，这一退，曹军得知上当，必更恨新野而入骨。</d>\n[Shot 3] At 00:08.500, the shot cuts in a static shot to <Picture 3>: the young strategist with a calm, frank voice (S2) answers, slowly waving the fan: <d>[Chinese] 皇叔所虑极是。两把火解围一时，却招来曹操举国问罪之心。</d>\n\noverall_soundscape: Embers crackle softly below, wind rustles the robe hem, and the two low voices weigh the cost of the victory.\n\nnon_diegetic_music: Low strings, watchful and turning inward, at a slow tempo."
+    },
+    {
+     "id": "E38-15",
+     "sceneIndex": 2,
+     "cuts": [
+      {
+       "beats": [
+        16,
+        16
+       ],
+       "seconds": 2.5,
+       "size": "medium",
+       "camera": "Static Shot",
+       "characters": [
+        "C02"
+       ],
+       "props": [],
+       "frame": "中景，关羽握刀沉声问道那咱们是守是退，长须垂落，目光落在兄长与军师之间",
+       "shot": "固定镜头，红脸武者握刀而立，沉声发问，目光在兄长与军师之间来回",
+       "lens": "50mm 标准，中浅景深",
+       "cameraPosition": "红脸武者 + 平视正面",
+       "composition": "三分法",
+       "eyeline": "兄长与军师之间",
+       "focus": "锁定红脸武者沉凝的神情",
+       "stability": "stable"
+      },
+      {
+       "beats": [
+        17,
+        17
+       ],
+       "seconds": 3,
+       "size": "close",
+       "camera": "Static Shot",
+       "characters": [
+        "C05"
+       ],
+       "props": [],
+       "frame": "特写，诸葛亮以扇轻点舆图，指尖在新野城外反复盘旋终是一落，火光在卷面上游移",
+       "shot": "固定镜头，鹤氅青年以扇尖轻点舆图，指尖在新野城外盘旋一周后落下，神色沉吟",
+       "lens": "85mm 长焦，浅景深",
+       "cameraPosition": "舆图上的指尖 + 俯视 30°",
+       "composition": "对角线构图",
+       "eyeline": "图上的新野",
+       "focus": "锁定落在图上的指尖",
+       "stability": "stable"
+      },
+      {
+       "beats": [
+        18,
+        18
+       ],
+       "seconds": 5,
+       "size": "close",
+       "camera": "Static Shot",
+       "characters": [
+        "C05"
+       ],
+       "props": [],
+       "frame": "特写，诸葛亮抬起眼来，沉声道守一时已可久守难支当预作退避江夏的打算，目光沉定",
+       "shot": "固定镜头，鹤氅青年抬眼，神色沉定，语气平缓道出退避江夏之算",
+       "lens": "85mm 长焦，浅景深",
+       "cameraPosition": "鹤氅青年 + 平视正面",
+       "composition": "中心构图",
+       "eyeline": "对面众人",
+       "focus": "锁定鹤氅青年沉定的眼",
+       "stability": "stable"
+      }
+     ],
+     "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 2.50-second mark of the target video; Picture 3 (from Shot 3) aligns with the 5.50-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] In a static shot, <Picture 1> anchors the red-faced warrior gripping his blade, the red-faced warrior with a level, questioning voice (S1): <d>[Chinese] 那咱们是守，是退？</d>\n[Shot 2] At 00:02.500, the camera cuts in a static shot to <Picture 2>: the young strategist taps the tip of the fan on the rolled map, fingertip circling once outside the town before coming down.\n[Shot 3] At 00:05.500, the shot cuts in a static shot to <Picture 3>: the young strategist with a steady, decisive voice (S2) says: <d>[Chinese] 守一时已可，久守难支，当预作退避江夏的打算。</d>\n\noverall_soundscape: A sword shifts in its grip, map paper crinkles under the fan tip, and the low murmur of the besieged town settles around them.\n\nnon_diegetic_music: Low strings, deliberate and planning, at a slow tempo."
+    },
+    {
+     "id": "E38-16",
+     "sceneIndex": 2,
+     "cuts": [
+      {
+       "beats": [
+        19,
+        19
+       ],
+       "seconds": 4.0,
+       "size": "medium",
+       "camera": "Static Shot",
+       "characters": [
+        "C03"
+       ],
+       "props": [],
+       "frame": "中景，张飞在坡上瞪圆大眼，满是不平地嚷道才打胜仗就要撤这仗岂不是白赢了，一手提着长矛，一脸不服。",
+       "shot": "固定镜头，虬髯大汉立于坡上瞪圆眼睛，随手把长矛往地上一顿，满是不平，语调又急又冲。",
+       "lens": "50mm 标准，中浅景深",
+       "cameraPosition": "虬髯大汉 + 平视正面",
+       "composition": "中心构图",
+       "eyeline": "下方城头",
+       "focus": "锁定虬髯大汉不忿的神情",
+       "stability": "stable"
+      },
+      {
+       "beats": [
+        20,
+        20
+       ],
+       "seconds": 5.0,
+       "size": "medium",
+       "camera": "Static Shot",
+       "characters": [
+        "C01"
+       ],
+       "props": [],
+       "frame": "中景，刘备按住张飞的臂膀，目光温和又清醒，平静道三弟胜了就给咱们挣了拔营的工夫已是赚的。",
+       "shot": "固定镜头，面容仁厚的男子按住身旁猛汉的臂膀，语气平稳地将对方的躁意按捺下来。",
+       "lens": "50mm 标准，中浅景深",
+       "cameraPosition": "刘备 + 平视正面",
+       "composition": "三分法",
+       "eyeline": "对旁边之人",
+       "focus": "锁定刘备按下的手",
+       "stability": "stable"
+      },
+      {
+       "beats": [
+        21,
+        21
+       ],
+       "seconds": 3.0,
+       "size": "wide",
+       "camera": "Static Shot",
+       "characters": [
+        "C01",
+        "C05"
+       ],
+       "props": [],
+       "frame": "全景，残烧将熄的城头上，刘备与诸葛亮并肩而立，望着北方，两人脸上都凝着重量。",
+       "shot": "固定机位，两抹身影并肩立在半焦的城垛前，一同凝视寂静的北方，神色沉凝。",
+       "lens": "35mm 广角，中等景深",
+       "cameraPosition": "双人背影 + 平视侧面",
+       "composition": "对称",
+       "eyeline": "北方的天际",
+       "focus": "锁定并肩站立的剪影",
+       "stability": "stable"
+      }
+     ],
+     "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 4.00-second mark of the target video; Picture 3 (from Shot 3) aligns with the 9.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] a burly bearded general on the slope stamps his long spear on the ground, eyes wide and indignant, and with an impatient, heated voice (S1) he bursts out  <d>[Chinese] 才打胜仗就要撤，这仗岂不是白赢了！</d>\n[Shot 2] At 00:04.000, a serene-faced man lays a steady hand on the burly one's arm, his tone calm and leveling, and with a measured voice (S1) he reasons  <d>[Chinese] 三弟，胜了就给咱们挣了拔营的工夫，已是赚的。</d>\n[Shot 3] At 00:09.000, a wide view of the two men standing shoulder to shoulder on the scorched parapet, both gazing north in shared solemn silence\n\noverall_soundscape: The scattered flames hiss and die out on the charred town wall, wind carries the faint smell of smoke, and the clamour of the routed army fades into the distance.\n\nnon_diegetic_music: Low strings with a sombre, deliberate pulse, at a slow tempo, steadied and resolute."
+    },
+    {
+     "id": "E38-17",
+     "sceneIndex": 2,
+     "cuts": [
+      {
+       "beats": [
+        22,
+        22
+       ],
+       "seconds": 4.5,
+       "size": "close",
+       "camera": "Push In",
+       "characters": [
+        "C01"
+       ],
+       "props": [],
+       "frame": "特写，刘备望着北方，眉宇不展，轻声道两把火虽解此围可曹操岂肯善罢甘休，火烬在瞳中一明一灭。",
+       "shot": "镜头轻推，面容仁厚的男子凝视北方天际，眉头微锁，语带一丝深远的忧虑。",
+       "lens": "85mm 长焦，浅景深",
+       "cameraPosition": "刘备 + 平视正面",
+       "composition": "三分法",
+       "eyeline": "北方天际",
+       "focus": "锁定刘备微皱的眉",
+       "stability": "slight-shake"
+      },
+      {
+       "beats": [
+        23,
+        23
+       ],
+       "seconds": 6.0,
+       "size": "close",
+       "camera": "Static Shot",
+       "characters": [
+        "C05"
+       ],
+       "props": [],
+       "frame": "特写，诸葛亮执扇于侧，神色端凝道故此当预作退计不可恋战皇叔收拾行装要紧，目光清亮见底。",
+       "shot": "固定特写，鹤氅青年执扇近前，语气笃定而不容拖延，目光清亮地望向身旁这位主公。",
+       "lens": "85mm 长焦，浅景深",
+       "cameraPosition": "诸葛亮 + 平视正面",
+       "composition": "中心构图",
+       "eyeline": "对旁边之人",
+       "focus": "锁定鹤氅青年的眼",
+       "stability": "stable"
+      },
+      {
+       "beats": [
+        24,
+        24
+       ],
+       "seconds": 3.0,
+       "size": "extreme-wide",
+       "camera": "Static Shot",
+       "characters": [],
+       "props": [],
+       "frame": "大远景，天际残阳如血，漫天霞光铺满将熄的战场，一只孤雁掠过昏黄的云边。",
+       "shot": "固定远镜，苍茫天际一丸残阳正在沉落，血色染红半边云天，显出一场更大风暴将至的前奏。",
+       "lens": "24mm 广角，深景深",
+       "cameraPosition": "天际全景 + 平视远眺",
+       "composition": "三分法",
+       "eyeline": "残阳",
+       "focus": "锁定血色残阳",
+       "stability": "stable"
+      }
+     ],
+     "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 4.50-second mark of the target video; Picture 3 (from Shot 3) aligns with the 10.50-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] a slow push-in frames the serene-faced man staring at the northern horizon, brows knit, and with a low, uneasy voice (S1) he confides  <d>[Chinese] 两把火虽解此围，可曹操岂肯善罢甘休。</d>\n[Shot 2] At 00:04.500, a close static shot on the young strategist folding his fan, his tone firm and decisive, and with a clear, resolute voice (S1) he urges  <d>[Chinese] 故此当预作退计，不可恋战。皇叔，收拾行装要紧。</d>\n[Shot 3] At 00:10.500, an extreme wide static shot: a blood-red setting sun stains the fading battlefield, a lone wild goose gliding across the amber clouds\n\noverall_soundscape: The scattered flames hiss and die out on the charred town wall, wind carries the faint smell of smoke, and the clamour of the routed army fades into the distance.\n\nnon_diegetic_music: Low strings with a sombre, deliberate pulse, at a slow tempo, steadied and resolute."
+    }
+   ]
+  },
+  {
+   "ep": 39,
+   "segments": []
+  },
+  {
+   "ep": 40,
+   "segments": []
+  }
+ ]
+}

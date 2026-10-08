@@ -1,0 +1,131 @@
+[
+  {
+    "id": "P01",
+    "name": "传国玉玺",
+    "scale": "手持级",
+    "summary": "承载皇权合法性的信物：孙坚于洛阳井中得之，袁绍索取，成为诸侯动武与阴谋的由头",
+    "anchors": [
+      { "name": "缺角金补", "desc": "玉印一角旧磕损，以黄金补镶，是全场辨识度最高的记号" },
+      { "name": "交螭龙钮", "desc": "白玉雕成的交螭龙钮盘踞印顶，螭身细部可见细小绺纹" },
+      { "name": "「受命于天」篆文", "desc": "印底阳刻『受命于天，既寿永昌』八字，笔意递宕的鸟虫篆，沟槽里沉着朱红" },
+      { "name": "朱砂残红", "desc": "印缘沿刻痕缝残留暗红朱砂印泥，是反复盖印的旧痕" },
+      { "name": "玉身斜沁", "desc": "青白玉身斜贯一道天然沁裂，灰褐纹顺着石理走" }
+    ],
+    "states": [
+      {
+        "state": "合匣",
+        "prompt": "A late Eastern Han imperial jade seal resting inside its opened rosewood seal-box lined with crimson silk, approximate handheld size, the coiled-dragon knop up, the gold-mended broken corner facing the camera, the box lid folded open beside it, warm studio light on a pure white background, no hands, no people."
+      },
+      {
+        "state": "盖印",
+        "prompt": "A late Eastern Han imperial jade seal stamped down into a flat pad of vermilion cinnabar seal-paste on a pure white background, approximate handheld size, the square base face pressed flat so the carved seal-script characters push up the red paste, the coiled-dragon knop above, crimson silk tassel trailing, no hands, no people."
+      }
+    ],
+    "relatedScenes": ["S03"],
+    "carriedBy": ["孙坚（得自洛阳宫中井），后遭袁绍索取，辗转诸侯之手"],
+    "image": {
+      "prompt": "A single late Eastern Han imperial jade seal, approximate handheld size, exactly one prop on a pure white background, three-quarter three-dimensional view. Greenish-white mottled ice-jade square base carved as a coiled dragon knop with faint fine cracks in the carving; one corner of the base chipped and mended with a small neat gold patch; the lower face engraved with raised seal-script characters in an archaic bird-and-worm style; a deep crimson silk tassel tied through the knop; dried vermilion cinnabar residue sitting in the deep script grooves. Warm directional studio lighting, product-photography clarity, cleanly cuttable against the pure white ground. No hands, no fingers, no people, no figures.",
+      "negativePrompt": "hands, fingers, palm, wrist, people, human figures, characters, watermarks, warped perspective, melted geometry, floating objects, oversaturated colours, sterile crack-free plastic jade",
+      "sheet": "ONE square 1:1 canvas for a single prop model sheet, every panel on a pure white background, divided by thin hairline rules. Subject: a late Eastern Han imperial jade seal, approximate handheld size, greenish-white ice jade, carved as a coiled dragon knop with one gold-mended broken corner and crimson silk tassel. MAIN ZONE, upper-left about 62% of the canvas: the seal in its master state (three-quarter view standing on its own, script face angled toward the camera), warm directional studio light, product-photography clarity, this is the only canonical look. RIGHT column and BOTTOM row: isolated close-up panels of the gold-repaired corner, the coiled dragon knop, the raised seal-script base, and a flat two-dimensional side elevation of the seal in clean orthographic view; the bottom row also carries the two variant states as separate small panels (seal resting in the opened crimson-lined rosewood seal-box; seal base pressed into vermilion cinnabar paste). No invented detail absent from the master view. Absolutely no people, no hands, no fingers anywhere; no character names. THE PROP MUST BE IDENTICAL ACROSS ALL PANELS. Well-kept, actively maintained materials: sound lacquer with an even sheen on the box, polished jade with a soft permanent luster, tight joinery, no peeling and no staining; wear confined to the traffic a treasure like this really takes — the gold-mended corner and the residual vermilion lodged in the script grooves. Atmospheric depth from the warm studio light where allowed.",
+      "tags": ["late Eastern Han", "imperial jade seal", "greenish-white Heshi jade", "coiled dragon knop", "gold repair", "vermilion cinnabar", "crimson silk tassel", "seal script", "product photography", "handheld size"]
+    },
+    "usage": { "episodes": [4], "beats": ["伏笔夺玺"] }
+  },
+  {
+    "id": "P02",
+    "name": "七星宝刀",
+    "scale": "手持级",
+    "summary": "曹操刺董之时所献之刀：从忠勇刺奸到挟天子令诸侯，见证曹操由壮士到枭雄的转变",
+    "anchors": [
+      { "name": "七星点", "desc": "刀身近脊处嵌入七颗错落的圆铜星点，是七星刀得名处" },
+      { "name": "鎏金吞口", "desc": "刀格（吞口）鎏金，雕兽面龙纹，口衔刀身，金层有磨脱露铜的痕迹" },
+      { "name": "黑漆刀鞘", "desc": "黑漆鞘身中段一道旧划痕，漆皮起细裂纹" },
+      { "name": "紫绦缠柄", "desc": "木柄缠深紫绦线，靠格处缠得紧、线头露白" },
+      { "name": "刃缘新亮", "desc": "刃口一线极薄，脊上开一道血槽，刃缘有磨砺后的新亮反光" }
+    ],
+    "states": [
+      {
+        "state": "入鞘",
+        "prompt": "A late Eastern Han ceremonial double-edged straight sword in its black-lacquered scabbard, approximate handheld size, resting on a pure white background, three-quarter view, the brass dragon-engraved guard at the mouth, black lacquer scabbard with a single old scuff mid-length, no hands, no people."
+      },
+      {
+        "state": "出鞘",
+        "prompt": "A late Eastern Han ceremonial straight sword drawn fully from its black-lacquered scabbard, approximate handheld size, laid diagonally on a pure white background, seven round copper stars set along the blade back, one bright new polished cutting edge, thin blood groove down the spine, black lacquer scabbard beside it, no hands, no people."
+      }
+    ],
+    "relatedScenes": ["S03"],
+    "carriedBy": ["曹操（刺董时所执，后持以号令诸侯）"],
+    "image": {
+      "prompt": "A single late Eastern Han straight double-edged sword, approximate handheld size, exactly one prop on a pure white background, diagonal three-quarter view. Black-lacquered scabbard with a mid-length old scuff and fine crackle in the lacquer; at the mouth a brass guard gilded with a dragon mask whose gilding is worn to bare copper at the edges; dark-purple silk cord wrapped around the wooden grip. On the visible blade, seven round brass star dots set in a staggered row beside the spine and a thin fullering groove along the ridge. Warm directional studio lighting, product-photography clarity, cleanly cuttable against the pure white ground. No hands, no fingers, no people, no figures.",
+      "negativePrompt": "hands, fingers, palm, wrist, people, human figures, characters, text, watermarks, warped perspective, melted geometry, floating objects, oversaturated colours",
+      "sheet": "ONE square 1:1 canvas for a single prop model sheet, every panel on a pure white background, divided by thin hairline rules. Subject: a late Eastern Han straight double-edged sword with seven brass stars, approximate handheld size, black-lacquered scabbard and gilt dragon-mask guard. MAIN ZONE, upper-left about 62% of the canvas: the sword in its master state (drawn from the scabbard, laid diagonally three-quarter view), warm directional studio light, product-photography clarity, this is the only canonical look. RIGHT column and BOTTOM row: isolated close-up panels of the seven brass star dots, the worn gilt dragon-mask guard, the black-lacquered scabbard scuff, and a flat two-dimensional side elevation of the full blade in clean orthographic view; the bottom row also carries the two variant states as separate small panels (sword sheathed in its black-lacquered scabbard; sword drawn out full length). No invented detail absent from the master view. Absolutely no people, no hands, no fingers anywhere; no character names. THE PROP MUST BE IDENTICAL ACROSS ALL PANELS. Well-kept, actively maintained materials: sound lacquer with an even sheen on the scabbard, polished metal fittings, tight wrapping on the grip, no peeling paint and no staining; wear confined to the traffic a weapon like this really takes — the worn gilding on the guard, the single scuff on the scabbard, and the freshly polished bright cutting edge. Atmospheric depth from the warm studio light where allowed.",
+      "tags": ["late Eastern Han", "straight double-edged sword", "seven brass stars", "black lacquer scabbard", "gilt dragon-mask guard", "purple cord grip", "weapon prop", "product photography", "handheld size"]
+    },
+    "usage": { "episodes": [3], "beats": ["惊险行刺"] }
+  },
+  {
+    "id": "P03",
+    "name": "方天画戟",
+    "scale": "家具级",
+    "summary": "吕布的标志性兵器：辕门射戟调停之战，彰显其勇武却反复的身份",
+    "anchors": [
+      { "name": "双耳月牙镰", "desc": "戟首两侧对称的月牙小枝，刃口向两侧张开，是全戟辨识度最高的形体" },
+      { "name": "戟刃脊线", "desc": "中央戟刃起一道高脊，刃缘磨得更薄、泛白亮" },
+      { "name": "彩缨垂绥", "desc": "戟首近格处系一束深红彩缨，缨穗长短不齐、沾尘" },
+      { "name": "铁梨杆身", "desc": "长杆木质坚硬，杆面被手掌摩挲得发亮发滑，梢头与近格处裹铁箍" },
+      { "name": "杆身旧痕", "desc": "杆身一道浅旧劈裂与数道刀痕，是阵上磕碰留下的" }
+    ],
+    "states": [
+      {
+        "state": "立地",
+        "prompt": "A full-length Eastern Han halberd-ji of huge size, furniture scale, standing upright planted butt-down on a pure white background, the twin crescent side-blades and central spike at the head, crimson tassel below the head, tall wooden shaft with an iron ferrule at the butt, full undivided view of the entire weapon, no hands, no people."
+      },
+      {
+        "state": "横持",
+        "prompt": "A full-length Eastern Han halberd-ji of huge size, furniture scale, laid horizontally across a pure white background, the head with twin crescent side-blades and central spike at the left end, crimson tassel, very long iron-bound wooden shaft, entire weapon fills the frame end to end, no hands, no people."
+      }
+    ],
+    "relatedScenes": ["S02", "S05"],
+    "carriedBy": ["吕布（辕门射戟调停时可一士之力压众）"],
+    "image": {
+      "prompt": "A single full-length Eastern Han halberd-ji of huge size, furniture size, exactly one prop on a pure white background, laid horizontally so the entire weapon spans the frame. Forged iron head with a tall central spike and twin symmetric crescent-shaped side-blades opening outward on both sides; the head set on a long straight polished wooden shaft with iron ferrules near the head and at the butt; a clump of deep-crimson silk tassel hanging just below the head, its strands uneven and dusty; the shaft show a shallow old split and a few long blade cuts from battle. Warm directional studio lighting, product-photography clarity, cleanly cuttable against the pure white ground. No hands, no fingers, no people, no figures.",
+      "negativePrompt": "hands, fingers, palm, wrist, people, human figures, characters, text, watermarks, warped perspective, melted geometry, floating objects, oversaturated colours",
+      "sheet": "ONE 16:9 landscape canvas for a single prop model sheet, every panel on a pure white background, divided by thin hairline rules. Subject: a late Eastern Han halberd-ji of huge size, furniture scale, iron crescent-bladed head with crimson tassel on a long iron-bound wooden shaft. MAIN ZONE, upper-left about 62% of the canvas: the weapon in its master state (standing planted upright, full undivided view of the whole shaft and head), warm directional studio light, product-photography clarity, this is the only canonical look; keep the whole length inside the panel with clearance at top and bottom, no cropping of the head or butt. RIGHT column and BOTTOM row: isolated close-up panels of the twin crescent side-blades and central spike, the crimson tassel, the old split and blade cuts on the shaft, the iron ferrule at the butt, and a flat side elevation of the full head in clean orthographic view; the bottom row also carries the two variant states as separate small panels (planted upright; drawn out lying low in a horizontal thrust). No invented detail absent from the master view. Absolutely no people, no hands, no fingers anywhere; no character names. THE PROP MUST BE IDENTICAL ACROSS ALL PANELS. Weathered, lived-in materials: worn wood grain on the polished shaft where the palm has gripped it for years, patina and nicks on the iron blade, dust and fray at the crimson tassel, fabric shows age and creases of the cord wraps; nothing looks factory-new. Atmospheric depth with faint haze where the layout allows.",
+      "tags": ["late Eastern Han", "halberd-ji", "twin crescent side-blades", "central spike", "crimson tassel", "iron-bound wooden shaft", "worn battle weapon", "product photography", "furniture size"]
+    },
+    "usage": { "episodes": [6, 9, 14], "beats": ["一箭射戟"] }
+  },
+  {
+    "id": "P04",
+    "name": "衣带诏",
+    "scale": "桌面级",
+    "summary": "汉献帝藏于衣带的血诏：反曹盟约的载体，触发许都宫斗悬念",
+    "anchors": [
+      { "name": "血书字迹", "desc": "素绢上以暗红血书就的讨贼字迹，笔势仓促，墨血洇渗" },
+      { "name": "泛黄绢帛", "desc": "细密绢帛整体泛黄，边缘发脆、有细密虫蛀小孔" },
+      { "name": "御玺朱文", "desc": "诏尾钤一方朱红汉室御玺印，印色暗沉发旧" },
+      { "name": "两端玉轴", "desc": "卷轴上下两端是素面白绢包木轴，包布边磨得起毛" },
+      { "name": "红线系带", "desc": "卷外缠一道暗红丝绦系带，结打得松、可随时拆开" }
+    ],
+    "states": [
+      {
+        "state": "卷束",
+        "prompt": "An old yellowed Eastern Han silk scroll, tabletop size, tightly rolled up and bound with a loose dark-crimson silk cord, laid on a pure white background, three-quarter view, faint stains on the rolled silk edge, no hands, no people."
+      },
+      {
+        "state": "展开",
+        "prompt": "An old yellowed Eastern Han silk scroll, tabletop size, fully unrolled flat on a pure white background, dark blood-written characters spreading over the pale silk, a faded vermilion imperial seal mark at the tail, mesh rot holes along the frayed edges, seen from directly above, no hands, no people."
+      }
+    ],
+    "relatedScenes": ["S04"],
+    "carriedBy": ["汉献帝（缝藏于衣带，密授反曹盟约）"],
+    "image": {
+      "prompt": "A single old Eastern Han imperial edict on silk, tabletop size, exactly one prop on a pure white background, shallow three-quarter view as it lies on the plane. Pale yellowing fine-weave silk, partially unrolled so the dark blood-written characters are legible in a hasty running hand; near the tail a faded vermilion imperial seal mark; the unrolled edge shows threadbare fraying and a few fine rot holes; a dark-crimson silk cord lies beside it, loosely coiled, ready to retie. Warm directional studio lighting, product-photography clarity, cleanly cuttable against the pure white ground. No hands, no fingers, no people, no figures.",
+      "negativePrompt": "hands, fingers, palm, wrist, people, human figures, characters, watermarks, warped perspective, melted geometry, floating objects, oversaturated colours"
+      ,
+      "sheet": "ONE square 1:1 canvas for a single prop model sheet, every panel on a pure white background, divided by thin hairline rules. Subject: a late Eastern Han imperial silk edict, tabletop size, yellowed silk with dark blood-written script and a faded vermilion imperial seal mark. MAIN ZONE, upper-left about 62% of the canvas: the silk in its master state (partially unrolled, shallow three-quarter top-down view so the blood script reads), warm directional studio light, product-photography clarity, this is the only canonical look. RIGHT column and BOTTOM row: isolated close-up panels of the dark blood-written characters, the faded vermilion imperial seal mark, the threadbare worn silk edge with rot holes, the loose dark-crimson cord, and a flat orthographic plan of the unrolled rectangle; the bottom row also carries the two variant states as separate small panels (tightly rolled and bound with the cord; fully unrolled flat seen from directly above). No invented detail absent from the master view. Absolutely no people, no hands, no fingers anywhere; no character names. THE PROP MUST BE IDENTICAL ACROSS ALL PANELS. Weathered, lived-in materials: yellowed and aged silk with creases from being folded and hidden inside a garment, threadbare frayed edges with fine rot holes, faded ink and mottled blood, an old dulled vermilion seal; nothing looks factory-new. Atmospheric depth with fine dust-mote haze where the layout allows.",
+      "tags": ["late Eastern Han", "imperial silk edict", "yellowed silk", "blood-written script", "vermilion imperial seal", "hidden garment note", "aged textile", "product photography", "tabletop size"]
+    },
+    "usage": { "episodes": [18], "beats": ["衣带诏"] }
+  }
+]

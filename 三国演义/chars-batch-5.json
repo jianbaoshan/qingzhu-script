@@ -1,0 +1,323 @@
+[
+  {
+    "id": "C21",
+    "name": "颜良",
+    "aliases": [],
+    "importance": "minor",
+    "oneLiner": "袁绍麾下河北第一上将，白马坡前连斩宋宪、魏续，最终在麾盖之下被关公一刀刺于马下。",
+    "persona": {
+      "gender": "男",
+      "ageRange": "约四十岁（推断）",
+      "identity": "袁绍部上将·河北名将",
+      "appearance": "弓马娴熟、身形剽悍的河北猛将，主营前横刀立马，披绣袍金甲，威风凛凛。原文未明写其出身与容貌，仅借曹操言其军阵「旗旛鲜明，槍刀森布，嚴整有威」，并点其「銹袍金甲，持刀立马」于麾盖之下（推断脸型方正威严、眉浓目深）。",
+      "personality": [
+        "骁勇",
+        "孤傲",
+        "性狭"
+      ],
+      "temperament": "话不多但杀心重，出战时甚少答话，手起刀落之间自带一股悍将的煞气，受不得冒犯与轻慢。",
+      "motivation": "为袁绍打头阵、争锋旗斩将，在人前立下不二的威风。",
+      "arc": "",
+      "relationships": [
+        {
+          "name": "袁绍",
+          "relation": "其主公，遣他作先锋进攻白马"
+        },
+        {
+          "name": "关羽",
+          "relation": "白马坡将其刺于马下的敌将"
+        },
+        {
+          "name": "文丑",
+          "relation": "如兄弟般同袍的河北名将"
+        }
+      ],
+      "evidence": [
+        "紹遣大將顏良作先鋒，進攻白馬。",
+        "顏良性狹，雖驍勇，不可獨任。",
+        "麾蓋之下，銹袍金甲，持刀立马者，乃顏良也。",
+        "被雲長手起一刀，刺於馬下。"
+      ]
+    },
+    "image": {
+      "prompt": "Three-quarter bust of a fierce Hebei general from the late Eastern Han dynasty in the Central Plains of China during the Three Kingdoms period, broad square face with thick brows, cold imperious eyes, short coarse beard, muscular thick shoulders. He wears a gorgeous embroidered crimson robe beneath polished golden lamellar armor, with layered tasseled shoulder guards, and grips the shaft of a heavy bladed saber laid across his horse's neck. Soft directional key light from upper left with cool fill, shallow depth of field, neutral background, face sharpest. Slightly asymmetric brow line, faint battle-worn creases following the jaw muscles.",
+      "promptLocal": "汉末三国时期河北名将的四分之三视角半身像，方阔脸膛、浓眉、目光冷傲，短须粗硬，肩背宽厚。身披华美绣花绛袍、外罩锃亮黄金鳞甲，肩甲缀缨，一手横握搁在鞍上的沉重大刀。柔和主光自左上前方来，冷调补光，浅景深，中性背景，面部最实。眉线略不对称，下颌随表情肌分布着浅淡的战痕纹路。",
+      "negativePrompt": "all characters with identical faces, youthful oversized eyes, over-smoothed skin, perfectly symmetrical face, dead eyes without catchlights, helmet hair without stray strands, stiff mannequin pose, extra fingers, distorted limbs",
+      "tags": [
+        "three kingdoms",
+        "late eastern han",
+        "crimson and gold",
+        "metal and silk",
+        "dramatic key light"
+      ],
+      "sheet": "ONE 16:9 landscape canvas, pure white background, thin hairline rules dividing three zones. LEFT ZONE about 34% of the canvas width: a head-and-shoulders bust portrait, frontal, centered, both shoulders fully visible, bottom edge flat-cut, face fully rendered as the facial design reference. LIGHTING IN THE LEFT ZONE ONLY: soft directional key light from upper left with natural falloff, ambient occlusion under the jaw, eye sockets and collar, giving the face volume. RIGHT-TOP ZONE: three full-body views of the same Hebei general, front/side/back aligned on one shared ground line, identical height and head-to-body proportion, feet on the same line with headroom above and below; embroidered crimson robe, golden lamellar armor and the long saber consistent with the bust. LIGHTING IN THE RIGHT ZONES: flat even orthographic lighting, no directional light, no cast shadows. RIGHT-BOTTOM ZONE: four or five evenly spaced small isolated close-up studies running in a row along the right edge—golden shoulder-guard tassels, the saber's carved hilt, layered armo plate, thick-browed stern expression, the coarse beard. PROPORTIONS ARE CRITICAL: do not stretch or squash any figure; if the detail studies do not fit, the detail studies give way, not the figures. ONLY ONE consistent face across both columns; late Eastern Han, Central Plains, China."
+    },
+    "voice": {
+      "timbre": "洪亮浑厚的男中音，威压十足",
+      "pitch": "中偏高",
+      "pace": "沉稳有力，阵前扬声时尾音拖长",
+      "accent": "河北（冀州）口音，尾音铿锵",
+      "emotion": "骄悍自负",
+      "prompt": "40-year-old male, powerful resounding baritone, mid-to-high range, strong chest support with deep projection, wide dynamic range. Loud commanding volume, deliberate steady pace, clipped forceful phrase endings. Hebei regional accent of northern China, heavy and assertive. Proud and fiercely self-assured.",
+      "referenceHint": "像一个连斩两将、睥睨天下豪杰的河北上将"
+    }
+  },
+  {
+    "id": "C22",
+    "name": "文丑",
+    "aliases": [],
+    "importance": "minor",
+    "oneLiner": "面如獬豸的河北猛将，为颜良雪恨渡河，延津之战被关公从脑后一刀斩于马下。",
+    "persona": {
+      "gender": "男",
+      "ageRange": "约三十八岁（推断）",
+      "identity": "袁绍部将领·河北名将",
+      "appearance": "身长八尺、面如獬豸的河北猛将，形容生得凶悍方正；善使铁枪，临阵能拈弓搭箭。原文明言「身長八尺，面如獬豸」，为兄报仇时那股义愤之气溢于行止（推断体格魁梧、眉目狰狞刚猛）。",
+      "personality": [
+        "骁勇",
+        "重义",
+        "性燥"
+      ],
+      "temperament": "性急言直，为义愤所驱时不管不顾，抢先渡河、抢掠敌粮，一股莽撞杀性。",
+      "motivation": "替如兄弟的颜良雪恨，驱兵追杀曹军。",
+      "arc": "",
+      "relationships": [
+        {
+          "name": "颜良",
+          "relation": "与其如兄弟的河北名将，为其报仇而战"
+        },
+        {
+          "name": "关羽",
+          "relation": "延津将其斩于马下的敌将"
+        },
+        {
+          "name": "袁绍",
+          "relation": "其主公"
+        }
+      ],
+      "evidence": [
+        "身長八尺，面如獬豸，乃河北名將文醜也。",
+        "顏良與我如兄弟，今被曹賊所殺，我安得不雪其恨？",
+        "文醜為河北名將",
+        "關公馬快，趕上文醜，腦後一刀，將文醜斬下馬來。"
+      ]
+    },
+    "image": {
+      "prompt": "Three-quarter bust of a fierce Hebei warrior-general from the late Eastern Han dynasty in the Central Plains of China during the Three Kingdoms period, tall and broad with a grim, beast-like square face—jutting jaw, heavy brow ridge, deep-set angry eyes, thick beard and sideburns. He wears polished dark iron lamellar armor over a crimson tunic, with fur-trimmed pauldrons and a shoulder-cape, and carries a long iron spear angled over his shoulder. Warm directional key light from upper left with cool rim fill, shallow depth of field, neutral background, face sharpest. Slightly uneven brow line, deep scowl lines furrowed along the brow.",
+      "promptLocal": "汉末三国时期河北猛将的四分之三视角半身像，身形高大魁伟，面如獬豸、形容凶悍，下颌方正、眉骨粗重、眼睛深邃含怒，须髯浓密。身披锃亮玄铁鳞甲，内衬绛红战袍，肩甲缀皮毛，斜扛一杆长铁枪。暖调柔和主光自左上前方来，冷调轮廓补光，浅景深，中性背景，面部最实。眉线略不均，眉头深锁出粗重的皱纹。",
+      "negativePrompt": "all characters with identical faces, youthful oversized eyes, over-smoothed skin, perfectly symmetrical face, dead eyes without catchlights, helmet hair without stray strands, stiff mannequin pose, extra fingers, distorted limbs",
+      "tags": [
+        "three kingdoms",
+        "late eastern han",
+        "dark iron and crimson",
+        "metal and leather",
+        "dramatic key light"
+      ],
+      "sheet": "ONE 16:9 landscape canvas, pure white background, thin hairline rules dividing three zones. LEFT ZONE about 34% of the canvas width: a head-and-shoulders bust portrait, frontal, centered, both shoulders fully visible, bottom edge flat-cut, face fully rendered as the facial design reference. LIGHTING IN THE LEFT ZONE ONLY: soft directional key light from upper left with natural falloff, ambient occlusion under the jaw, eye sockets and collar, giving the face volume. RIGHT-TOP ZONE: three full-body views of the same Hebei warrior, front/side/back aligned on one shared ground line, identical height and head-to-body proportion, feet on the same line with headroom above and below; dark iron lamellar armor, crimson tunic, fur pauldrons and the iron spear consistent with the bust. LIGHTING IN THE RIGHT ZONES: flat even orthographic lighting, no directional light, no cast shadows. RIGHT-BOTTOM ZONE: four or five evenly spaced small isolated close-up studies running in a row along the right edge—the iron spearhead, fur pauldron, layered iron plate, the grim beast-like jaw and heavy brows, the vine-thick beard. PROPORTIONS ARE CRITICAL: do not stretch or squash any figure; if the detail studies do not fit, the detail studies give way, not the figures. ONLY ONE consistent face across both columns; late Eastern Han, Central Plains, China."
+    },
+    "voice": {
+      "timbre": "粗粝厚重的男中低音，带煞气",
+      "pitch": "低",
+      "pace": "快而急促，含怒时气冲",
+      "accent": "河北口音，粗野生硬",
+      "emotion": "悲愤急切",
+      "prompt": "38-year-old male, coarse gravelly baritone, low range, thick chest support, moderate dynamic range. Loud volume, fast urgent pace, breathy bursts when roused. Hebei northern China accent, rough and blunt. Angry and grief-driven urgency.",
+      "referenceHint": "像一个抢先渡河、为兄弟雪恨的愤懑猛将"
+    }
+  },
+  {
+    "id": "C23",
+    "name": "夏侯惇",
+    "aliases": [
+      "元让"
+    ],
+    "importance": "minor",
+    "oneLiner": "曹操宗族出身的独眼猛将，左眼中箭后拔箭啖睛仍挺枪刺死敌将，常为曹操先锋。",
+    "persona": {
+      "gender": "男",
+      "ageRange": "约四十二岁（推断）",
+      "identity": "曹操部大将·宗族将领",
+      "appearance": "作战凶悍的曹军大将，最为醒目之处在于左目已盲——阵上被曹性一箭射中左目，他亲手拔箭连眼珠拔出，口称「父精母血，不可棄也」纳入口中，从此以一目视事；常为曹操先锋、守隘闯阵。原文明言其啖睛之事（推断以独眼、眼窝疤或遮眼贯带为固定识别，体态雄健、战袍披甲）。",
+      "personality": [
+        "勇烈",
+        "刚直",
+        "尽忠于操"
+      ],
+      "temperament": "性刚愎、不认输，屡败愈战，陈兵列阵时彪悍磊落，对曹操一片赤心，论战常直言敢当。",
+      "motivation": "为曹操冲锋陷阵、拔营守隘，以命效忠。",
+      "arc": "",
+      "relationships": [
+        {
+          "name": "曹操",
+          "relation": "其主公，常为其先锋、守隘"
+        },
+        {
+          "name": "夏侯渊",
+          "relation": "其弟，战败时救其而走"
+        },
+        {
+          "name": "曹性",
+          "relation": "射伤其左目、后被其枪刺面门而死的敌将"
+        }
+      ],
+      "evidence": [
+        "正中夏侯惇左目，惇大叫一聲，急用手拔箭，不想連眼珠拔出，乃大呼曰：「父精母血，不可棄也！」遂納於口內啖之，仍復挺槍縱馬，直取曹性。",
+        "夏侯惇既殺曹性",
+        "夏侯惇引軍來救援，截住呂布大戰。"
+      ]
+    },
+    "image": {
+      "prompt": "Three-quarter bust of a battle-hardened general under the northern warlord from the late Eastern Han dynasty in the Central Plains of China during the Three Kingdoms period, rugged weathered face, one eye covered by a dark leather eye-patch with a thin scar crossing that brow, the remaining eye stern and fierce, short stubbly beard. He wears heavy dark iron lamellar armor over a black tunic with a high collar, layered shoulder plates and a worn red cape, and carries a long jian spear. Cool directional key light from upper left with warm rim fill, shallow depth of field, neutral background, face sharpest. Slightly uneven brow line, the scarred brow drawn hard in a battle grimace.",
+      "promptLocal": "汉末三国时期曹营大将的四分之三视角半身像，面容刚毅沧桑，一只眼蒙着深色皮质眼罩，同侧眉上横着一道浅疤，仅存的一目威严凌厉，蓄短髭。身披厚重玄铁鳞甲，内衬黑底高领战袍，肩覆层叠肩甲，披一件磨损的赤红斗篷，斜持一杆长枪。冷调柔和主光自左上前方来，暖调轮廓补光，浅景深，中性背景，面部最实。眉线略不均，带疤那侧眉紧蹙出狠戾的褶皱。",
+      "negativePrompt": "all characters with identical faces, youthful oversized eyes, over-smoothed skin, perfectly symmetrical face, dead eyes without catchlights, helmet hair without stray strands, stiff mannequin pose, extra fingers, distorted limbs",
+      "tags": [
+        "three kingdoms",
+        "late eastern han",
+        "dark iron and black",
+        "metal and leather",
+        "cool key light"
+      ],
+      "sheet": "ONE 16:9 landscape canvas, pure white background, thin hairline rules dividing three zones. LEFT ZONE about 34% of the canvas width: a head-and-shoulders bust portrait, frontal, centered, both shoulders fully visible, bottom edge flat-cut, face fully rendered as the facial design reference. LIGHTING IN THE LEFT ZONE ONLY: soft directional key light from upper left with natural falloff, ambient occlusion under the jaw, eye sockets and collar, giving the face volume. RIGHT-TOP ZONE: three full-body views of the same one-eyed stubborn general, front/side/back aligned on one shared ground line, identical height and head-to-body proportion, feet on the same line with headroom above and below; dark iron lamellar armor, black tunic, the red cape and long spear consistent with the bust, and the eye-patch on the same left eye. LIGHTING IN THE RIGHT ZONES: flat even orthographic lighting, no directional light, no cast shadows. RIGHT-BOTTOM ZONE: four or five evenly spaced small isolated close-up studies running in a row along the right edge—the leather eye-patch and scarred brow, the layered shoulder plate, the armored girth, the sharp spearhead, the stubbly beard. PROPORTIONS ARE CRITICAL: do not stretch or squash any figure; if the detail studies do not fit, the detail studies give way, not the figures. ONLY ONE consistent face across both columns; late Eastern Han, Central Plains, China."
+    },
+    "voice": {
+      "timbre": "沉猛沙哑的男中音，受过伤后的粗砺",
+      "pitch": "中低",
+      "pace": "刚硬，字句斩钉截铁",
+      "accent": "沛国（中原/谯郡一带）口音",
+      "emotion": "勇毅刚烈",
+      "prompt": "42-year-old male, gritty weighty baritone, mid-low range, solid chest support, broad dynamic range. Firm commanding volume, sharp decisive pace with hard consonant stops. Central Plains (Henan) regional accent of China. Brave and resolute.",
+      "referenceHint": "像一个啖睛仍战、为曹操先行拔营的刚烈大将"
+    }
+  },
+  {
+    "id": "C24",
+    "name": "孙坚",
+    "aliases": [
+      "文台"
+    ],
+    "importance": "minor",
+    "oneLiner": "广额阔面、虎体熊腰的江东猛将，讨董之役率先入洛阳，私匿并得到传国玉玺，藏玺而去自此与袁绍、刘表结怨。",
+    "persona": {
+      "gender": "男",
+      "ageRange": "约四十五岁（推断）",
+      "identity": "江东猛将·吴郡富春太守（诸侯）",
+      "appearance": "广额阔面、虎体熊腰的江东雄武之人，吴郡富春人氏，孙武子之后；讨董时披烂银铠、裹赤幘、横古锭刀、骑花鬃马，骄悍敢当。原文明言「廣額闊面，虎體熊腰」及「孫堅披爛銀鎧，裏赤幘，橫古錠刀，騎花鬃馬」（推断体格魁伟、眉目英朗霸气）。",
+      "personality": [
+        "骁勇",
+        "英豪",
+        "有野心"
+      ],
+      "temperament": "说话行事霸气果决，两军阵前扬声叫骂，得玺之后存了「登九五之分」的非分之想，藏宝心事深沉却难掩刚硬锋芒。",
+      "motivation": "以武力扬名立万，暗中图谋更大的基业。",
+      "arc": "",
+      "relationships": [
+        {
+          "name": "袁绍",
+          "relation": "讨董同僚，因匿传国玉玺反目"
+        },
+        {
+          "name": "刘表",
+          "relation": "受袁绍书令截玺而归，自此结怨"
+        },
+        {
+          "name": "程普",
+          "relation": "其部将，为他辨识传国玉玺"
+        }
+      ],
+      "evidence": [
+        "廣額闊面，虎體熊腰；吳郡富春人也",
+        "孫堅披爛銀鎧，裏赤幘，橫古錠刀，騎花鬃馬",
+        "堅得璽，乃問程普。普曰：「此傳國璽也。」",
+        "吾若果得此寶，私自藏匿，異日不得善終，死於刀箭之下！"
+      ]
+    },
+    "image": {
+      "prompt": "Three-quarter bust of a heroic Jiangdong general from the late Eastern Han dynasty in the lower Yangtze region of China during the Three Kingdoms period, broad brow and wide face with a tiger-like powerful build, sharp brow, bright assertive eyes, short trimmed beard. He wears bright silver lamellar armor over a crimson tunic, with a bold red head-wrap (style of a frontier governor) and leather wrist-guards, one hand resting on the hilt of a long curved saber. Warm directional key light from upper left with cool rim fill, shallow depth of field, neutral background, face sharpest. Slightly uneven brow line, proud creases beside the proud mouth.",
+      "promptLocal": "汉末三国时期江东猛将的四分之三视角半身像，广额阔面、虎体熊腰，眉锋锐利，目光英武有神，蓄短须。身披锃亮银鳞甲，内衬绛红战袍，额上裹一方鲜红头巾（如一方郡守的武冠巾帻），腕束皮护，一手按在长柄古锭弯刀的刀柄上。暖调柔和主光自左上前方来，冷调轮廓补光，浅景深，中性背景，面部最实。眉线略不均，嘴侧因自负浮着两道傲然的纹路。",
+      "negativePrompt": "all characters with identical faces, youthful oversized eyes, over-smoothed skin, perfectly symmetrical face, dead eyes without catchlights, helmet hair without stray strands, stiff mannequin pose, extra fingers, distorted limbs",
+      "tags": [
+        "three kingdoms",
+        "late eastern han",
+        "silver and crimson",
+        "metal and silk",
+        "warm key light"
+      ],
+      "sheet": "ONE 16:9 landscape canvas, pure white background, thin hairline rules dividing three zones. LEFT ZONE about 34% of the canvas width: a head-and-shoulders bust portrait, frontal, centered, both shoulders fully visible, bottom edge flat-cut, face fully rendered as the facial design reference. LIGHTING IN THE LEFT ZONE ONLY: soft directional key light from upper left with natural falloff, ambient occlusion under the jaw, eye sockets and collar, giving the face volume. RIGHT-TOP ZONE: three full-body views of the same Jiangdong hero, front/side/back aligned on one shared ground line, identical height and head-to-body proportion, feet on the same line with headroom above and below; silver lamellar armor, crimson tunic, red head-wrap and the long curved saber consistent with the bust. LIGHTING IN THE RIGHT ZONES: flat even orthographic lighting, no directional light, no cast shadows. RIGHT-BOTTOM ZONE: four or five evenly spaced small isolated close-up studies running in a row along the right edge—the red head-wrap knot, the saber's carved hilt, the silver plate edge, the broad-browed heroic face, the trimmed beard. PROPORTIONS ARE CRITICAL: do not stretch or squash any figure; if the detail studies do not fit, the detail studies give way, not the figures. ONLY ONE consistent face across both columns; late Eastern Han, lower Yangtze, China."
+    },
+    "voice": {
+      "timbre": "清亮浑厚的男中音，底气足",
+      "pitch": "中",
+      "pace": "从容而有分量，两军阵前扬声叫骂",
+      "accent": "吴郡（江东）口音",
+      "emotion": "豪迈自负",
+      "prompt": "45-year-old male, bright yet weighty baritone, mid range, strong chest projection, wide dynamic range. Bold loud volume, measured assertive pace. Jiangdong (lower Yangtze) accent of eastern China. Heroic and self-assured.",
+      "referenceHint": "像一个率先入洛阳、横刀指关而骂的江东雄豪"
+    }
+  },
+  {
+    "id": "C25",
+    "name": "许攸",
+    "aliases": [
+      "子远"
+    ],
+    "importance": "minor",
+    "oneLiner": "原为袁绍谋士，官渡时背袁投曹献乌巢烧粮之策，破冀州后又献决漳河之谋，最终因恃功招摇被许褚所杀。",
+    "persona": {
+      "gender": "男",
+      "ageRange": "约五十岁（推断）",
+      "identity": "谋士·原袁绍谋臣，后投曹操",
+      "appearance": "身量清癯的文士模样，饱读韬略、谈吐机敏而自负的老谋臣。原文未明写其容貌，仅以「許攸貪而不智」「忠言逆耳，豎子不足與謀」等处透出其恃才、口利的脾性（推断蓄山羊须、眼神精明带讥诮，着士人宽袍）。",
+      "personality": [
+        "贪而自恃",
+        "机敏善谋",
+        "张扬口利"
+      ],
+      "temperament": "自负才学、口舌锋利，得势之后更趾高气扬，失意时又怨愤难平，性情直露、藏不住锋芒。",
+      "motivation": "施展胸中谋略，谋个能让自己扬眉吐气、被人看重的用武之地。",
+      "arc": "",
+      "relationships": [
+        {
+          "name": "袁绍",
+          "relation": "旧主，因其子侄被收下狱、谏言被斥而背弃"
+        },
+        {
+          "name": "曹操",
+          "relation": "旧交、新主，为其献乌巢烧粮与决漳河之策"
+        },
+        {
+          "name": "许褚",
+          "relation": "与其争吵、拔剑斩其的曹营大将"
+        }
+      ],
+      "evidence": [
+        "許攸貪而不智",
+        "忠言逆耳，豎子不足與謀！吾子姪已遭審配之害，吾何顏復見冀州之人乎！",
+        "許攸逕投。",
+        "許攸獻計曰：「何不決漳河之水以渰之？」",
+        "褚大怒，拔劍殺攸"
+      ]
+    },
+    "image": {
+      "prompt": "Three-quarter bust of a shrewd strategist-scholar from the late Eastern Han dynasty in the Central Plains of China during the Three Kingdoms period, a lean elderly man around fifty, narrow sharp eyes glinting with knowing cunning, a thin graying goatee and long thin side-whiskers, high forehead with vertical furrow lines. He wears a scholar's grey-patterned silk robe with a high collar and generous sleeves over a dark inner garment, a faint twist of proud smile at the corner of his mouth, one hand half-raised as if gesturing to make a point. Cool directional key light from upper left with warm rim fill, shallow depth of field, neutral background, face sharpest. Slightly uneven brow line, delicate crow's-feet and a thin sardonic line by the mouth.",
+      "promptLocal": "汉末三国时期中原谋士的四分之三视角半身像，清癯年约五十，狭长双目精光闪动透着精明与狡黠，蓄一缕花白山羊须与细长髯角，额际高阔、竖着几道细纹。身披灰纹暗花的宽袖士人丝袍、交领内衬深色中衣，嘴角噙着一丝傲然的笑意，一手微微抬举似正侃侃而谈。冷调柔和主光自左上前方来，暖调轮廓补光，浅景深，中性背景，面部最实。眉线略不均，眼角有细鱼尾纹，嘴侧勾着一条刻薄的纹路。",
+      "negativePrompt": "all characters with identical faces, youthful oversized eyes, over-smoothed skin, perfectly symmetrical face, dead eyes without catchlights, helmet hair without stray strands, stiff mannequin pose, extra fingers, distorted limbs, armor, sword",
+      "tags": [
+        "three kingdoms",
+        "late eastern han",
+        "grey and dark",
+        "silk",
+        "cool key light"
+      ],
+      "sheet": "ONE 16:9 landscape canvas, pure white background, thin hairline rules dividing three zones. LEFT ZONE about 34% of the canvas width: a head-and-shoulders bust portrait, frontal, centered, both shoulders fully visible, bottom edge flat-cut, face fully rendered as the facial design reference. LIGHTING IN THE LEFT ZONE ONLY: soft directional key light from upper left with natural falloff, ambient occlusion under the jaw, eye sockets and collar, giving the face volume. RIGHT-TOP ZONE: three full-body views of the same strategist-scholar, front/side/back aligned on one shared ground line, identical height and head-to-body proportion, feet on the same line with headroom above and below; the grey-patterned silk robe, high collar and wide sleeves consistent with the bust. LIGHTING IN THE RIGHT ZONES: flat even orthographic lighting, no directional light, no cast shadows. RIGHT-BOTTOM ZONE: four or five evenly spaced small isolated close-up studies running in a row along the right edge—the thinnned goatee, the furrowed high forehead, the silk robe's woven border, the shrewd narrow eye close-up, the gesturing hand. PROPORTIONS ARE CRITICAL: do not stretch or squash any figure; if the detail studies do not fit, the detail studies give way, not the figures. ONLY ONE consistent face across both columns; late Eastern Han, Central Plains, China."
+    },
+    "voice": {
+      "timbre": "清亮偏尖的文士嗓音，透着机敏与自负",
+      "pitch": "中偏高",
+      "pace": "快而利落，语带讥诮",
+      "accent": "汝南（中原）口音",
+      "emotion": "得意轻慢",
+      "prompt": "50-year-old male, clear sharp tenor-leaning voice, mid-high range, light chest support, fairly narrow dynamic range. Quick confident volume, fast slick pace with sardonic timing. Runan (central China) accent. Arrogant and gloating.",
+      "referenceHint": "像一个纵马以鞭指城门、喊曹操「阿瞒」的恃功老谋士"
+    }
+  }
+]

@@ -1,0 +1,215 @@
+{
+  "source": "三国演义",
+  "lang": "zh",
+  "summary": "汉末黄巾起，刘关张桃园结义共举大义，从此仁主刘备身边聚拢了这道义与武。美髯长须的关羽温酒斩华雄、千里寻主，豹头环眼的张飞怒鞭督邮、长坂桥吼退曹军；武有常山赵子龙长坂坡单骑救主，智有卧龙诸葛亮隆中定策、羽扇纶巾定下三分，更有徐庶中途荐才、走马指路把人引向孔明。兄弟之义与知遇之恩，在这乱世里互相成全。",
+  "characters": [
+    {
+      "id": "C02",
+      "name": "关羽",
+      "aliases": ["云长", "美髯公", "关公"],
+      "importance": "protagonist",
+      "oneLiner": "丹凤眼卧蚕眉、长髯二尺的义烈武圣，忠义二字重过天下。",
+      "persona": {
+        "gender": "男",
+        "ageRange": "约四十岁上下（推断）",
+        "identity": "刘备结义二弟，汉末名将，善用青龙偃月刀",
+        "appearance": "身长九尺，面如重枣，唇若涂脂，丹凤眼目光凛凛，卧蚕眉斜挑入鬓，一把美髯垂至胸前二尺（推断）。常年着一身绿锦战袍、内衬锁甲，跨马时以绛巾缠发，气度威而不怒、不怒自威，是全剧最令人敬畏又最重情义的那一张脸。",
+        "personality": ["忠义", "重诺", "骄傲", "刚正", "果断"],
+        "temperament": "开口低沉稳重，声如洪钟，字字落地有声；敬兄长如奉君，对敌却一诺必践、言出刀随，极少废话。",
+        "motivation": "追随玄德，义气为重；凡所许之诺，刀山火海也要周全。",
+        "arc": "温酒斩华雄初显威名，过五关、斩六将千里寻主，虽有败走却始终义重于金；终在华容道违军令义释曹操，把忠义两个字升华为全剧的主题。",
+        "relationships": [
+          { "name": "刘备", "relation": "桃园结义兄长，毕生追随之主" },
+          { "name": "张飞", "relation": "桃园结义三弟，手足情深" },
+          { "name": "曹操", "relation": "厚待过他的枭雄，华容道上义放之人" }
+        ],
+        "evidence": [
+          "身長九尺，髯長二尺；面如重棗，唇如塗脂；丹鳳眼，臥蠶眉：相貌堂堂，威風凜凜。",
+          "剔起臥蠶眉，睜開丹鳳眼"
+        ]
+      },
+      "image": {
+        "prompt": "Character portrait of a towering, commanding Eastern Han dynasty Chinese general of late 3rd-century Central Plains China. Close-cropped imposing square face, deep crimson-red complexion (the color of a ripe date), long narrow phoenix eyes with sharp fierce gaze, thick slanted brows shaped like reclining silkworms, and a magnificent black silk beard two feet long falling from cheek to chest — the single unmistakable anchor of his identity. He wears a dark green silk campaign robe over riveted lamellar armor, a broad iron belt, an embroidered red headcloth, and holds a long-handled guandao glaive with a green blade resting at his side. Three-quarter view bust, plain neutral background, soft directional key light with cool fill, shallow depth of field, face sharpest.",
+        "promptLocal": "角色画像：汉末中原一位高大威严的中国武将。方正脸膛，面色如熟透的红枣，一双狭长的丹凤眼目光如刀，斜挑的卧蚕眉压着眼，一把二尺长的乌黑长髯垂落胸前——这是最认得出他的那一处。身着深绿锦缎战袍、内衬铆钉鱼鳞甲，腰束宽铁带，头上系一方红锦，身侧拄着一柄青刃长柄偃月刀。四分之三视角半身，纯中性背景，柔和方向主光配冷调补光，面部最实。",
+        "negativePrompt": "multiple faces, featureless beardless young face, oversized childish eyes, over-polished smooth skin, perfectly symmetrical face, dead eyes without catchlights, helmet-like hair with no stray strands, stiff mannequin pose, extra fingers, distorted limbs",
+        "tags": ["character portrait", "late Eastern Han dynasty", "Chinese general", "green and vermilion palette", "silk and lamellar armor", "soft studio lighting"],
+        "sheet": "ONE 16:9 landscape character model sheet on plain pure white background, divided by thin hairline rules into three zones. Subject: a tall imposing Eastern Han dynasty Chinese general of late 3rd-century Central Plains China — deep crimson-red face, long narrow phoenix eyes, thick three-quarter-length black silk beard, dark green silk campaign robe over riveted lamellar armor, broad iron belt, embroidered red headcloth, long-handled guandao glaive. LEFT ZONE (about 34% of canvas width): one bust portrait, head and shoulders, centered like an ID photo, front view, shoulders fully visible with clear empty space on both sides and a flat straight-cut bottom edge; render the face fully and finely as the facial baseline. RIGHT-TOP ZONE: three full-body views (front, side, back) side by side sharing one ground line, same figure, same outfit, same features as the bust. RIGHT-BOTTOM ZONE: a row of four to five small isolated close-up detail studies — the long silk beard, the slanted brows, the guandao blade head, the armor rivets, the iron belt buckle. LIGHTING IN THE LEFT ZONE ONLY: soft directional key light from upper left with natural falloff, ambient occlusion along the jawline, eye sockets and collar; LIGHTING IN THE RIGHT ZONES: flat even orthographic lighting, no directional light, no shadows, for clean silhouettes and accurate proportions. PROPORTIONS ARE CRITICAL: all three full-body figures equal height, consistent head-to-body ratio, arms and legs correctly proportioned, feet aligned on the same ground line, headroom and footroom kept; no stretching, squashing or foreshortening; the detail studies give way, not the figures. The three-quarter face must match the bust portrait exactly — same features, same hairstyle, same expression."
+      },
+      "voice": {
+        "timbre": "声如洪钟，浑厚饱满的中低音，胸腔共鸣沉重",
+        "pitch": "中低",
+        "pace": "沉稳平缓，字字千钧，不疾不徐",
+        "accent": "纯正官话，带着沙场磨出的铿锵与利落",
+        "emotion": "威严而从容",
+        "referenceHint": "像军营中发号施令的名将，不怒自威，卸下威严时又重情重义",
+        "prompt": "Forty-year-old male, deep sonorous bass-baritone, low-mid pitch register, heavy chest resonance, wide dynamic range. Confident steady volume, measured deliberate pace, firm declarative cadence. Standard classical Mandarin, no regional accent. Dignified calm and authoritative."
+      }
+    },
+    {
+      "id": "C03",
+      "name": "张飞",
+      "aliases": ["翼德", "燕人"],
+      "importance": "protagonist",
+      "oneLiner": "豹头环眼、声若巨雷的结义三弟，莽撞里全是赤诚的火。",
+      "persona": {
+        "gender": "男",
+        "ageRange": "约三十岁上下（推断）",
+        "identity": "刘备结义三弟，猛将，善使丈八点钢矛",
+        "appearance": "身长八尺，豹头环眼，燕颔虎须，胡须如钢针般根根竖起，声若巨雷、势如奔马。铜铃般的大眼一瞪自有威煞，常穿一身玄黑铁甲、内衬粗布战袍，跨马提丈八蛇矛，是阵前吼一声能让对面马队生生顿住的猛汉。",
+        "personality": ["勇猛", "直率", "暴躁", "重情", "嫉恶如仇"],
+        "temperament": "嗓门大、脾气急，喜怒都写在脸上；对兄长与主公掏心掏肺，对欺压百姓的恶吏则抡起鞭子就打，是个藏不住半点心思的赤诚莽将。",
+        "motivation": "跟两位兄长共举大义，凡伤他兄弟、欺他百姓者，都要在他矛下讨个说法。",
+        "arc": "从怒鞭督邮的莽夫，历徐州失守、古城重逢，到长坂桥横矛喝退曹军——一路在勇猛里见兄弟情深，也一步步从草莽诸将长成威震天下的大将。",
+        "relationships": [
+          { "name": "刘备", "relation": "桃园结义大哥，敬之如父兄" },
+          { "name": "关羽", "relation": "桃园结义二哥，手足相依" },
+          { "name": "吕布", "relation": "阵前交锋过的猛将，恨其反复" }
+        ],
+        "evidence": [
+          "身長八尺，豹頭環眼，燕頷虎鬚，聲若巨雷，勢如奔馬。"
+        ]
+      },
+      "image": {
+        "prompt": "Character portrait of a fierce broad-shouldered Eastern Han dynasty Chinese warrior-officer of late 3rd-century Central Plains China. Round fierce face with wide glaring round eyes, short stubble beard bristling stiff as iron needles over a powerful jaw, brows gathered in a scowl, broad cheeks — a thunderous look that could startle a horse. He wears a black iron lamellar armor over a plain coarse dark tunic, a riveted gorget, and carries a long spear with a leaf-shaped steel blade in one hand. Three-quarter view bust, plain neutral background, soft directional key light with cool fill, shallow depth of field, face sharpest.",
+        "promptLocal": "角色画像：汉末中原一位满脸杀气的魁梧中国武将。豹头环眼、燕颔虎须，短须根根如钢针竖在宽悍的下巴上，粗眉堆成怒结，是那种一声就能镇住全场的猛汉。身披玄黑铆钉鱼鳞甲，内穿粗布短袍，项系护颈，单手拄着一杆叶形钢铁长矛。四分之三视角半身，纯中性背景，柔和方向主光配冷调补光，面部最实。",
+        "negativePrompt": "multiple faces, gentle soft features, delicate young face, oversized childish eyes, over-polished smooth skin, perfectly symmetrical face, dead eyes without catchlights, helmet-like hair with no stray strands, stiff mannequin pose, extra fingers, distorted limbs",
+        "tags": ["character portrait", "late Eastern Han dynasty", "Chinese warrior", "black and steel palette", "iron lamellar armor", "harsh dramatic lighting"],
+        "sheet": "ONE 16:9 landscape character model sheet on plain pure white background, divided by thin hairline rules into three zones. Subject: a fierce broad-shouldered Eastern Han dynasty Chinese warrior-officer of late 3rd-century Central Plains China — wide glaring round eyes, stiff bristling short beard, fierce scowling brows, black iron lamellar armor with riveted gorget over a plain coarse dark tunic, long leaf-bladed spear in hand. LEFT ZONE (about 34% of canvas width): one bust portrait, head and shoulders, centered like an ID photo, front view, shoulders fully visible with clear empty space on both sides and a flat straight-cut bottom edge; render the face fully and finely as the facial baseline. RIGHT-TOP ZONE: three full-body views (front, side, back) side by side sharing one ground line, same figure, same outfit, same features as the bust. RIGHT-BOTTOM ZONE: a row of four to five small isolated close-up detail studies — the bristling beard, the wide glare, the leaf-blade spearhead, the armor rivets, the gorget strap. LIGHTING IN THE LEFT ZONE ONLY: soft directional key light from upper left with natural falloff, ambient occlusion along the jawline, eye sockets and collar; LIGHTING IN THE RIGHT ZONES: flat even orthographic lighting, no directional light, no shadows, for clean silhouettes and accurate proportions. PROPORTIONS ARE CRITICAL: all three full-body figures equal height, consistent head-to-body ratio, arms and legs correctly proportioned, feet aligned on the same ground line, headroom and footroom kept; no stretching, squashing or foreshortening; the detail studies give way, not the figures. The three-quarter face must match the bust portrait exactly — same features, same hairstyle, same expression."
+      },
+      "voice": {
+        "timbre": "粗犷沙哑，中气十足，声若巨雷，带铁锈般的糙感",
+        "pitch": "中",
+        "pace": "急而有力，短促干脆，每句都带着爆发力",
+        "accent": "河北北方乡音，质朴直率，卷舌重",
+        "emotion": "爽直火爆，喜怒都摆在明面",
+        "referenceHint": "像吼一声能震得整座军营回响的莽将，气壮而心热",
+        "prompt": "Thirty-year-old male, rough thunderous tenor with a raspy edge, mid pitch register, powerful pectoral support, wide dynamic range with explosive peaks. Loud bold volume, quick forceful pace, abrupt sharp phrasing. Northern Hebei regional accent, earthy and blunt. Fiery blustering and boisterous."
+      }
+    },
+    {
+      "id": "C11",
+      "name": "赵云",
+      "aliases": ["子龙", "常山赵子龙"],
+      "importance": "supporting",
+      "oneLiner": "白袍银枪的常山赵子龙，单骑救主，一枪一马皆是胆魄。",
+      "persona": {
+        "gender": "男",
+        "ageRange": "约三十岁上下（推断）",
+        "identity": "刘备麾下名将，长于枪法",
+        "appearance": "身姿挺拔俊朗，面如冠玉，眼若朗星，眉目清正而英气逼人。常年一袭白袍银铠、常跨白马、提亮银长枪（推断配色），是阵前一眼望见的白光，清朗沉稳中自有一股不可犯的凛然。",
+        "personality": ["忠勇", "沉稳", "果断", "正直", "冷静"],
+        "temperament": "话不多，句句掷地有声；临阵从不慌乱，越是危急越是冷静，银枪所指处不拖泥带水。",
+        "motivation": "尽忠于刘备，护主救孤，一庄一诺都敢以命相搏。",
+        "arc": "袁绍败北后经公孙瓒投奔刘备，长坂坡单骑闯百万军中救出阿斗，一战立下孤忠之名，成为刘备集团新生代的擎天之将。",
+        "relationships": [
+          { "name": "刘备", "relation": "毕生尽忠之主" },
+          { "name": "诸葛亮", "relation": "军中一同进退的军师，多次受命接应" },
+          { "name": "公孙瓒", "relation": "早年投奔的旧主（推断）" }
+        ],
+        "evidence": [
+          "吾乃常山趙子龍也！",
+          "真虎將也！吾當生致之。"
+        ]
+      },
+      "image": {
+        "prompt": "Character portrait of a handsome, upright Eastern Han dynasty Chinese cavalry officer of late 3rd-century Central Plains China. Bright jade-white oval face, clear sparkling eyes like stars, neat brows, clean-cut youthful nobility — slender yet sharply alert. He wears a white silk robe under polished bright-silver scale armor, a white cloak, and holds a long straight spear with a slim glittering silver blade upright beside his shoulder. Three-quarter view bust, plain neutral background, soft directional key light with cool fill, shallow depth of field, face sharpest.",
+        "promptLocal": "角色画像：汉末中原一位英俊清正的中国骑将。面如冠玉，眼若朗星，眉目清秀而气度凛然，少年贵族般的干净透着警惕。内穿白袍、外罩锃亮的银鳞甲，披白色斗篷，肩侧竖着一杆细长银亮的直枪。四分之三视角半身，纯中性背景，柔和方向主光配冷调补光，面部最实。",
+        "negativePrompt": "multiple faces, unkempt scruffy look, aged weathered face, oversized childish eyes, over-polished smooth skin, perfectly symmetrical face, dead eyes without catchlights, helmet-like hair with no stray strands, stiff mannequin pose, extra fingers, distorted limbs",
+        "tags": ["character portrait", "late Eastern Han dynasty", "Chinese cavalry officer", "white and silver palette", "silk and scale armor", "clean studio lighting"],
+        "sheet": "ONE 16:9 landscape character model sheet on plain pure white background, divided by thin hairline rules into three zones. Subject: a handsome upright Eastern Han dynasty Chinese cavalry officer of late 3rd-century Central Plains China — bright jade-white face, clear star-bright eyes, neat brows, white silk robe under polished bright-silver scale armor, white cloak, long straight silver-bladed spear. LEFT ZONE (about 34% of canvas width): one bust portrait, head and shoulders, centered like an ID photo, front view, shoulders fully visible with clear empty space on both sides and a flat straight-cut bottom edge; render the face fully and finely as the facial baseline. RIGHT-TOP ZONE: three full-body views (front, side, back) side by side sharing one ground line, same figure, same outfit, same features as the bust. RIGHT-BOTTOM ZONE: a row of four to five small isolated close-up detail studies — the bright star-like eyes, the white cloak clasp, the silver spear blade, the scale armor weave, the leather belt. LIGHTING IN THE LEFT ZONE ONLY: soft directional key light from upper left with natural falloff, ambient occlusion along the jawline, eye sockets and collar; LIGHTING IN THE RIGHT ZONES: flat even orthographic lighting, no directional light, no shadows, for clean silhouettes and accurate proportions. PROPORTIONS ARE CRITICAL: all three full-body figures equal height, consistent head-to-body ratio, arms and legs correctly proportioned, feet aligned on the same ground line, headroom and footroom kept; no stretching, squashing or foreshortening; the detail studies give way, not the figures. The three-quarter face must match the bust portrait exactly — same features, same hairstyle, same expression."
+      },
+      "voice": {
+        "timbre": "清朗明亮，英气挺拔，气息干净利落",
+        "pitch": "中",
+        "pace": "稳而有锋，干脆不拖沓",
+        "accent": "常山河北一带北方口音，清正分明",
+        "emotion": "沉稳坚毅，不急不躁",
+        "referenceHint": "像白袍银枪立在阵前的年轻名将，沉静而凛然",
+        "prompt": "Early-thirties male, clear bright tenor, mid pitch register, lean balanced breath support, moderate dynamic range. Steady firm volume, crisp decisive pace, clean even cadence. Northern Hebei (Changshan) regional accent, distinct and tidy. Calm resolute and composed."
+      }
+    },
+    {
+      "id": "C05",
+      "name": "诸葛亮",
+      "aliases": ["孔明", "卧龙"],
+      "importance": "protagonist",
+      "oneLiner": "羽扇纶巾、面如冠玉的卧龙先生，一扇在手，三分为定。",
+      "persona": {
+        "gender": "男",
+        "ageRange": "约三十岁上下（推断）",
+        "identity": "刘备的军师，隐居南阳隆中的智者，号卧龙",
+        "appearance": "身长八尺，面如冠玉，眉目清朗温润，气度飘飘然有神仙之概（推断）。头戴纶巾、身披鹤氅，手持羽扇半步不离，谈笑间已然定下天下三分——是乱世里少见的不沾烟火的读书人气度。",
+        "personality": ["睿智", "从容", "周密", "沉稳", "谦和"],
+        "temperament": "语速平缓，含笑而谈，成竹在胸；从不疾言厉色，却字字都落在要害上，万事都在他那把羽扇的轻摇之间。",
+        "motivation": "感刘备三顾知遇之恩，辅佐明主安定天下，生平所学尽付于此。",
+        "arc": "隆中定三分天下之高论，出山后博望坡、新野两把火烧出军师威名，草船借箭、祭借东风，为刘备集团注入智谋底气，赤壁决胜后正式成为刘备的核心智囊。",
+        "relationships": [
+          { "name": "刘备", "relation": "三顾茅庐请他出山的知遇之主" },
+          { "name": "徐庶", "relation": "临别荐他的引路人" },
+          { "name": "周瑜", "relation": "赤壁联手却又暗中斗智的江东都督" }
+        ],
+        "evidence": [
+          "身長八尺，面如冠玉，頭戴綸巾，身披鶴氅，飄飄然有神仙之概。"
+        ]
+      },
+      "image": {
+        "prompt": "Character portrait of a serene, sagely Eastern Han dynasty Chinese scholar-strategist of late 3rd-century Central Plains China. Face as pure as polished jade, clear gentle brows, calm luminous eyes, a composed reclusive-intellectual air that seems untouched by the mortal dust of war. He wears a black silk scholar headwrap with trailing ribbons, a loose crane-feather white padded robe, and holds a white feather fan close to his chest. Three-quarter view bust, plain neutral background, soft directional key light with cool fill, shallow depth of field, face sharpest.",
+        "promptLocal": "角色画像：汉末中原一位沉着睿智的中国文士谋士。面如冠玉，眉目清朗温润，眼神沉静，身上有一种彷佛不沾乱世烟火的高士气度。头裹黑色儒巾、飘带垂肩，身披白色鹤氅，手执一把白羽扇护在胸前。四分之三视角半身，纯中性背景，柔和方向主光配冷调补光，面部最实。",
+        "negativePrompt": "multiple faces, bearded grim warrior, stern military scowl, oversized childish eyes, over-polished smooth skin, perfectly symmetrical face, dead eyes without catchlights, helmet-like hair with no stray strands, stiff mannequin pose, extra fingers, distorted limbs",
+        "tags": ["character portrait", "late Eastern Han dynasty", "Chinese scholar-strategist", "white and black palette", "silk headwrap and robe", "soft airy lighting"],
+        "sheet": "ONE 16:9 landscape character model sheet on plain pure white background, divided by thin hairline rules into three zones. Subject: a serene sagely Eastern Han dynasty Chinese scholar-strategist of late 3rd-century Central Plains China — jade-pure face, clear gentle brows, calm luminous eyes, black silk headwrap with trailing ribbons, loose crane-feather white padded robe, white feather fan held at chest. LEFT ZONE (about 34% of canvas width): one bust portrait, head and shoulders, centered like an ID photo, front view, shoulders fully visible with clear empty space on both sides and a flat straight-cut bottom edge; render the face fully and finely as the facial baseline. RIGHT-TOP ZONE: three full-body views (front, side, back) side by side sharing one ground line, same figure, same outfit, same features as the bust. RIGHT-BOTTOM ZONE: a row of four to five small isolated close-up detail studies — the feather fan, the flowing headwrap ribbons, the crane-feather collar, the drape of the robe, the plain sash. LIGHTING IN THE LEFT ZONE ONLY: soft directional key light from upper left with natural falloff, ambient occlusion along the jawline, eye sockets and collar; LIGHTING IN THE RIGHT ZONES: flat even orthographic lighting, no directional light, no shadows, for clean silhouettes and accurate proportions. PROPORTIONS ARE CRITICAL: all three full-body figures equal height, consistent head-to-body ratio, arms and legs correctly proportioned, feet aligned on the same ground line, headroom and footroom kept; no stretching, squashing or foreshortening; the detail studies give way, not the figures. The three-quarter face must match the bust portrait exactly — same features, same hairstyle, same expression."
+      },
+      "voice": {
+        "timbre": "清雅温润，儒者的匀净气息，柔和而有分量",
+        "pitch": "中",
+        "pace": "从容缓慢，谈笑间步步为营",
+        "accent": "带南阳荆州一带的温和南音，渐归官话",
+        "emotion": "温和智定，成竹在胸",
+        "referenceHint": "像羽扇轻摇、万事尽握在手的儒生军师，含笑而语",
+        "prompt": "Late-thirties male, clear mellow baritone, mid pitch register, smooth steady breath support, moderate dynamic range. Even measured volume, slow deliberate unhurried pace, smooth flowing cadence. Nanyang southern regional accent softened toward standard Mandarin. Warm serene and sagely assured."
+      }
+    },
+    {
+      "id": "C15",
+      "name": "徐庶",
+      "aliases": ["元直"],
+      "importance": "supporting",
+      "oneLiner": "走马荐诸葛的寒士谋士，身在曹营心在汉的引路人。",
+      "persona": {
+        "gender": "男",
+        "ageRange": "约三十岁上下（推断）",
+        "identity": "先佐刘备于新野的谋士，后被迫归曹操",
+        "appearance": "书生模样，眉目清朗而面带风霜，一副寒士装束（推断）：头戴儒巾、身穿青布直裰，干净利落却略显奔波之疲。谈吐间既见士子的文气，又透出早年逃难流落江湖的磨砺。",
+        "personality": ["忠义", "重情", "谦逊", "睿智", "忧急"],
+        "temperament": "语速中快、思虑常在，时而热情恳切，时而又因老母在堂而流露出藏不住的忧色沉郁。",
+        "motivation": "事君以忠，又念老母之安危；两难之际，宁守其节、不肯为曹操设一谋。",
+        "arc": "先佐刘备于新野，曹操赚其老母、逼他归曹；临别走马荐诸葛亮，成为卧龙出山的引路人——身在曹营却终身不肯为曹操设一谋。",
+        "relationships": [
+          { "name": "刘备", "relation": "交厚知遇的旧主挚友" },
+          { "name": "诸葛亮", "relation": "临别走马举荐的卧龙先生" },
+          { "name": "曹操", "relation": "母亲被诓身在其营、心却不从的主公" }
+        ],
+        "evidence": [
+          "某幼逃難，流落江湖，偶至新野，遂與玄德交厚。",
+          "此人不可屈致，使君可親往求之。若得此人，無異周得呂望、漢得張良也。"
+        ]
+      },
+      "image": {
+        "prompt": "Character portrait of a scholarly Eastern Han dynasty Chinese strategist of late 3rd-century Central Plains China, a modest wintry scholar. Clear bright eyes, fine clean brows, dignified bookish features lightly marked by years on the road. He wears a plain indigo-blue cloth scholar headwrap, a simple faded blue-grey straight hemmed robe, with a clean but travel-worn air. Three-quarter view bust, plain neutral background, soft directional key light with cool fill, shallow depth of field, face sharpest.",
+        "promptLocal": "角色画像：汉末中原一位三十岁上下的中国文士谋士，寒士装束。眉目清朗端正，目光明澈，带着几分奔走风尘的憔悴却不失书卷气。头裹靛蓝布儒巾，身穿一件洗旧的青灰直裰，干净却略显赶路多年的疲态。四分之三视角半身，纯中性背景，柔和方向主光配冷调补光，面部最实。",
+        "negativePrompt": "multiple faces, flamboyant warrior, aggressive military bearing, oversized childish eyes, over-polished smooth skin, perfectly symmetrical face, dead eyes without catchlights, helmet-like hair with no stray strands, stiff mannequin pose, extra fingers, distorted limbs",
+        "tags": ["character portrait", "late Eastern Han dynasty", "Chinese strategist scholar", "indigo and grey palette", "plain cloth robe", "subdued natural lighting"],
+        "sheet": "ONE 16:9 landscape character model sheet on plain pure white background, divided by thin hairline rules into three zones. Subject: a scholarly modest Eastern Han dynasty Chinese strategist of late 3rd-century Central Plains China — clear bright eyes, fine clean brows, dignified bookish features, indigo-blue cloth scholar headwrap, simple faded blue-grey straight hemmed robe. LEFT ZONE (about 34% of canvas width): one bust portrait, head and shoulders, centered like an ID photo, front view, shoulders fully visible with clear empty space on both sides and a flat straight-cut bottom edge; render the face fully and finely as the facial baseline. RIGHT-TOP ZONE: three full-body views (front, side, back) side by side sharing one ground line, same figure, same outfit, same features as the bust. RIGHT-BOTTOM ZONE: a row of four to five small isolated close-up detail studies — the scholar headwrap knot, the clean brows, the robe sleeve cuff, the simple cloth sash, the worn hems. LIGHTING IN THE LEFT ZONE ONLY: soft directional key light from upper left with natural falloff, ambient occlusion along the jawline, eye sockets and collar; LIGHTING IN THE RIGHT ZONES: flat even orthographic lighting, no directional light, no shadows, for clean silhouettes and accurate proportions. PROPORTIONS ARE CRITICAL: all three full-body figures equal height, consistent head-to-body ratio, arms and legs correctly proportioned, feet aligned on the same ground line, headroom and footroom kept; no stretching, squashing or foreshortening; the detail studies give way, not the figures. The three-quarter face must match the bust portrait exactly — same features, same hairstyle, same expression."
+      },
+      "voice": {
+        "timbre": "清亮而带文气，青年书生的嗓子，略有一丝沙涩",
+        "pitch": "中",
+        "pace": "中速偏快，思虑多、语速随情绪起伏",
+        "accent": "中原颍川一带北方口音，士子谈吐",
+        "emotion": "热忱恳切，偶露忧急",
+        "referenceHint": "像通晓兵法的寒士谋士，守着礼义，说急处时语气带着真切",
+        "prompt": "Early-thirties male, clear articulate tenor with a slight raspy edge, mid pitch register, light chest support, moderate dynamic range. Normal volume with eager quickening, brisk pace that hastens at urgent points, educated refined cadence. Central Plains (Yingchuan) regional accent, literate and honed. Earnest sincere and quietly anxious."
+      }
+    }
+  ]
+}

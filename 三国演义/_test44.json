@@ -1,0 +1,958 @@
+{
+  "source": "三国演义",
+  "promptLang": "en",
+  "params": {
+    "maxSegmentSeconds": 15,
+    "minCutSeconds": 2,
+    "maxCutSeconds": 8,
+    "maxOnScreen": 3,
+    "tolerance": 0.15
+  },
+  "episodes": [
+    {
+      "ep": 44,
+      "segments": [
+        {
+          "id": "E44-01",
+          "sceneIndex": 1,
+          "cuts": [
+            {
+              "beats": [
+                1,
+                2
+              ],
+              "seconds": 5,
+              "size": "wide",
+              "camera": "Static Shot",
+              "characters": [
+                "C05"
+              ],
+              "frame": "全景，冷开场：堂上众儒坐成两排稀稀落落有人交头接耳，孔明立在孙权和群臣之间衣袍一拂不卑不亢，一名文臣抢先摆袖出声",
+              "shot": "固定镜头，宽阔厅堂里两排文士低议纷纷，一名白袍谋士立于堂中不卑不亢，一侧有位文臣抢先摆袖开口",
+              "lens": "35mm 广角，深景深",
+              "cameraPosition": "堂景全景 + 平视略仰",
+              "composition": "对称构图",
+              "eyeline": "抢先出声的文臣",
+              "focus": "锁定白袍谋士立于堂中之姿",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                3,
+                4
+              ],
+              "seconds": 6,
+              "size": "close",
+              "camera": "Static Shot",
+              "characters": [
+                "C05"
+              ],
+              "frame": "特写，孔明转头看向那位出声的文臣，两手负在身后，缓缓开口，一句点中要害",
+              "shot": "固定镜头近切，白袍谋士转头看向那人，双手负在身后，不紧不慢开口，一句便点中要害",
+              "lens": "85mm 长焦，浅景深",
+              "cameraPosition": "白袍谋士 + 平视正面",
+              "composition": "三分法",
+              "eyeline": "那位出声的文臣",
+              "focus": "锁定开口时的从容",
+              "stability": "stable"
+            }
+          ],
+          "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 5.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] The cold open holds the hall of <Picture 1>: assembled officials murmur in two rows while the white-robed sagely strategist stands between the young prince and his ministers, robes flicked, neither humble nor overbearing; static shot.\n[Shot 2] At 00:05.000, A static shot close-up of <Picture 2>: the sagely strategist turns to the speaking official, hands folded behind his back, and with a slow, unshakeable voice (S1) replies: <d>[Chinese] 劝降者，是替曹贼数兵，还是替江东数后路？</d>\n\noverall_soundscape: Low murmur rolling through the hall, the rustle of robes, one voice striking out and the chamber going quiet.\n\nnon_diegetic_music: Low strings holding an unsettled note, middle-slow tempo, a sharpened edge underneath.",
+          "blocking": "堂上众儒分坐两排，交头接耳；一名傲气文官率先出声，白袍谋士立在堂中不疾不徐。",
+          "soundscape": "堂上此起彼伏的低议声，衣料摩擦，一人抢先开口时满堂微静",
+          "music": "低音弦乐压着一个未落的音，中慢速，暗藏机锋"
+        },
+        {
+          "id": "E44-02",
+          "sceneIndex": 1,
+          "cuts": [
+            {
+              "beats": [
+                5,
+                5
+              ],
+              "seconds": 3,
+              "size": "wide",
+              "camera": "Static Shot",
+              "characters": [
+                "C05"
+              ],
+              "frame": "全景，那文臣一噎，张了张嘴没能接上话，满堂目光落到他身上又移开",
+              "shot": "固定镜头，那名文臣被一句话噎住，张了张嘴没能接上，众目睽睽下尴尬立住",
+              "lens": "35mm 广角，深景深",
+              "cameraPosition": "堂景 + 平视",
+              "composition": "三分法",
+              "eyeline": "哑然的文臣",
+              "focus": "锁定被噎住的尴尬",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                6,
+                7
+              ],
+              "seconds": 5,
+              "size": "medium",
+              "camera": "Static Shot",
+              "characters": [
+                "C05"
+              ],
+              "frame": "中景，又一人自中席起身拱手，问刘皇叔兵微将寡怎么敢跟曹操硬碰，孔明听得完抬手指引答得极稳",
+              "shot": "固定镜头中景，又一名文官起身拱手发问；白袍谋士听完，抬手指引，回答得极稳",
+              "lens": "50mm 标准，中浅景深",
+              "cameraPosition": "白袍谋士 + 平视侧面",
+              "composition": "三分法",
+              "eyeline": "起身发问的文官",
+              "focus": "锁定稳答的神态",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                8,
+                8
+              ],
+              "seconds": 5,
+              "size": "close",
+              "camera": "Static Shot",
+              "characters": [
+                "C05"
+              ],
+              "frame": "特写，孔明一字结一句，把兵贵精而不贵多讲得干脆利落",
+              "shot": "固定镜头近切，白袍谋士一字一句，把兵贵精不贵多的道理讲得干脆",
+              "lens": "85mm 长焦，浅景深",
+              "cameraPosition": "白袍谋士 + 平视正面",
+              "composition": "三分法",
+              "eyeline": "安坐上方的主公",
+              "focus": "锁定点题的干脆",
+              "stability": "stable"
+            }
+          ],
+          "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 3.00-second mark of the target video; Picture 3 (from Shot 3) aligns with the 8.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] The wide of <Picture 1> holds as that official chokes on a reply, mouth open, silenced before the whole court; static shot.\n[Shot 2] At 00:03.000, Holding <Picture 2>, another official rises from mid-hall to question the guest about a thin, ill-armed force daring to clash with a mighty army; static shot, the sagely strategist listens and gestures in reply, unfaltering.\n[Shot 3] At 00:08.000, A static shot close-up of <Picture 3>: sharp and clean, the sagely strategist cuts in, and with a crisp, decisive voice (S2) says: <d>[Chinese] 兵贵精不贵多，谋贵决不贵怯。</d>\n\noverall_soundscape: A few low acknowledgements, cloth and a cough, a short stunned silence as one is caught short.\n\nnon_diegetic_music: Strings contracting and releasing, the pace running a touch fast.",
+          "blocking": "那文臣被噎住，又一名文官起身相问；白袍谋士抬手作答，堂下有零落附和。",
+          "soundscape": "几处低应，衣料与咳嗽声，一人被堵住时短暂的哑场",
+          "music": "弦乐一收一放，节奏偏快"
+        },
+        {
+          "id": "E44-03",
+          "sceneIndex": 1,
+          "cuts": [
+            {
+              "beats": [
+                9,
+                10
+              ],
+              "seconds": 5,
+              "size": "wide",
+              "camera": "Static Shot",
+              "characters": [
+                "C05"
+              ],
+              "frame": "全景，堂下响起几声附和，几个年轻文官抬了抬眼皮，为首的文官却不轻信，冷笑一声又抛出一句刁难话",
+              "shot": "固定镜头，堂下几声附和与几个年轻文官抬了抬眼皮；为首的文官冷笑着又抛出一句刁难",
+              "lens": "35mm 广角，深景深",
+              "cameraPosition": "堂景 + 平视",
+              "composition": "三分法",
+              "eyeline": "冷笑的文官",
+              "focus": "锁定笑里藏锋的目光",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                11,
+                11
+              ],
+              "seconds": 5,
+              "size": "close",
+              "camera": "Static Shot",
+              "characters": [
+                "C05"
+              ],
+              "frame": "特写，孔明不避锋芒，点破那方凭仗其实在人心",
+              "shot": "固定镜头近切，白袍谋士不避锋芒，缓缓点出真正的凭仗在人而不在城",
+              "lens": "85mm 长焦，浅景深",
+              "cameraPosition": "白袍谋士 + 平视正面",
+              "composition": "三分法",
+              "eyeline": "冷笑的文官",
+              "focus": "锁定落话的沉静",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                12,
+                12
+              ],
+              "seconds": 3,
+              "size": "wide",
+              "camera": "Static Shot",
+              "characters": [
+                "C05"
+              ],
+              "frame": "全景，那文官被他一句话堵住，脸色变了变，却寻不出破绽",
+              "shot": "固定镜头，那文官被一句话堵住，脸色变了变，却怎么也寻不出破绽",
+              "lens": "35mm 广角，深景深",
+              "cameraPosition": "堂景 + 平视",
+              "composition": "三分法",
+              "eyeline": "脸色发僵的文官",
+              "focus": "锁定无话可驳的窘态",
+              "stability": "stable"
+            }
+          ],
+          "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 5.00-second mark of the target video; Picture 3 (from Shot 3) aligns with the 10.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] The wide of <Picture 1> holds as a few murmurs of support pass and the leading official sneers, lobbing another barbed question; static shot.\n[Shot 2] At 00:05.000, A static shot close-up of <Picture 2>: meeting the sneer head-on, the sagely strategist points out that the true reliance lies not in walls, and with a calm, certain voice (S2) says: <d>[Chinese] 皇叔所凭，不在城池，在人心未散。</d>\n[Shot 3] At 00:10.000, The wide of <Picture 3> holds as that official is caught short, his face turning, unable to find a crack in the argument; static shot.\n\noverall_soundscape: Scattered echoes of support, one cold sneer, then a brief hush.\n\nnon_diegetic_music: Strings turning heavy, pressing sentence by sentence.",
+          "blocking": "堂下几声附和，为首文官却冷笑抛来刁难；白袍谋士以一句人心收住全堂。",
+          "soundscape": "几声零落附和，冷笑一声，随后短暂的静",
+          "music": "弦乐转沉，一句一句压下来"
+        },
+        {
+          "id": "E44-04",
+          "sceneIndex": 1,
+          "cuts": [
+            {
+              "beats": [
+                13,
+                14
+              ],
+              "seconds": 5,
+              "size": "medium",
+              "camera": "Static Shot",
+              "characters": [
+                "C05"
+              ],
+              "frame": "中景，老儒撅着胡子冷笑，说江东子弟自保尚难谈何与刘备联手，孔明眉毛一挑不恼反笑回过身来",
+              "shot": "固定镜头中景，一名老儒撅着胡子冷笑发难；白袍谋士眉毛一挑，不恼反笑，回过身来",
+              "lens": "50mm 标准，中浅景深",
+              "cameraPosition": "白袍谋士 + 平视侧面",
+              "composition": "三分法",
+              "eyeline": "撅须冷笑的老儒",
+              "focus": "锁定不恼反笑的神色",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                15,
+                15
+              ],
+              "seconds": 5,
+              "size": "close",
+              "camera": "Static Shot",
+              "characters": [
+                "C05"
+              ],
+              "frame": "特写，孔明一句反诘落地，把敢不敢举刀、能不能自保摆在桌面上",
+              "shot": "固定镜头近切，白袍谋士一句反诘稳稳落地，把话锋逼到对方桌前",
+              "lens": "85mm 长焦，浅景深",
+              "cameraPosition": "白袍谋士 + 平视正面",
+              "composition": "三分法",
+              "eyeline": "老儒",
+              "focus": "锁定反诘时的锋锐",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                16,
+                16
+              ],
+              "seconds": 3,
+              "size": "wide",
+              "camera": "Static Shot",
+              "characters": [
+                "C05"
+              ],
+              "frame": "全景，那老儒被噎得老脸一红，闷头坐了回去",
+              "shot": "固定镜头，老儒被噎得老脸一红，闷了闷头坐回座中",
+              "lens": "35mm 广角，深景深",
+              "cameraPosition": "堂景 + 平视",
+              "composition": "三分法",
+              "eyeline": "坐回的老儒",
+              "focus": "锁定老脸发红的窘态",
+              "stability": "stable"
+            }
+          ],
+          "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 5.00-second mark of the target video; Picture 3 (from Shot 3) aligns with the 10.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] Holding <Picture 1>, an elder scholar sneers through his beard that the folk of the east can barely defend themselves; static shot, the sagely strategist raises a brow, smiling rather than vexed, and turns to face him.\n[Shot 2] At 00:05.000, A static shot close-up of <Picture 2>: the sagely strategist lands his rebuttal squarely on the table, and with a pointed voice (S2) asks: <d>[Chinese] 若连自家的刀都不敢举，谈何自保。</d>\n[Shot 3] At 00:10.000, The wide of <Picture 3> holds as the elder scholar, red in the face, sinks back into his seat; static shot.\n\noverall_soundscape: An elder’s sneering breath, then a thud as he is silenced.\n\nnon_diegetic_music: A rising turn in the strings, then settling on a full stop.",
+          "blocking": "一名老儒撅着胡子冷笑，白袍谋士不恼反笑回身，一句反诘把老儒噎回座中。",
+          "soundscape": "老儒冷笑的鼻音，随即被一句话堵住的闷响",
+          "music": "弦乐一个上扬的转音，随即落定"
+        },
+        {
+          "id": "E44-05",
+          "sceneIndex": 1,
+          "cuts": [
+            {
+              "beats": [
+                17,
+                18
+              ],
+              "seconds": 5,
+              "size": "medium",
+              "camera": "Static Shot",
+              "characters": [
+                "C05"
+              ],
+              "frame": "中景，座中又有一人起身拱手发难，说孔明徒逞口舌无益江东存亡，孔明转看向那人，不慌不忙抬了抬手先不接话",
+              "shot": "固定镜头中景，又一名文官起身拱手，指白袍谋士徒逞口舌；白袍谋士转头看向他，抬手一拦，先不接话",
+              "lens": "50mm 标准，中浅景深",
+              "cameraPosition": "白袍谋士 + 平视侧面",
+              "composition": "三分法",
+              "eyeline": "起身发难的文官",
+              "focus": "锁定抬手的从容",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                19,
+                19
+              ],
+              "seconds": 5,
+              "size": "close",
+              "camera": "Static Shot",
+              "characters": [
+                "C05"
+              ],
+              "frame": "特写，孔明顺着那句反驳轻轻一转，反问一句便把人将住",
+              "shot": "固定镜头近切，白袍谋士顺着话锋轻轻一转，一句反问轻轻落定",
+              "lens": "85mm 长焦，浅景深",
+              "cameraPosition": "白袍谋士 + 平视正面",
+              "composition": "三分法",
+              "eyeline": "发难的文官",
+              "focus": "锁定轻轻一转的巧",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                20,
+                20
+              ],
+              "seconds": 4,
+              "size": "wide",
+              "camera": "Static Shot",
+              "characters": [
+                "C05"
+              ],
+              "frame": "全景，那人一时语塞，张着嘴半晌没能合上",
+              "shot": "固定镜头，那人一时语塞，张着嘴半晌没能合上",
+              "lens": "35mm 广角，深景深",
+              "cameraPosition": "堂景 + 平视",
+              "composition": "三分法",
+              "eyeline": "语塞的文官",
+              "focus": "锁定僵在当场的神情",
+              "stability": "stable"
+            }
+          ],
+          "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 5.00-second mark of the target video; Picture 3 (from Shot 3) aligns with the 10.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] Holding <Picture 1>, another rises to accuse the guest of mere talk that serves nothing; static shot, the sagely strategist turns to him and raises a hand, declining to rise to the bait at once.\n[Shot 2] At 00:05.000, A static shot close-up of <Picture 2>: turning the point on its head, the sagely strategist parries lightly, and with a wry voice (S2) asks: <d>[Chinese] 口舌若真无用，诸位今日又何必这般相争。</d>\n[Shot 3] At 00:10.000, The wide of <Picture 3> holds as that man is left speechless, mouth hanging open for a long moment; static shot.\n\noverall_soundscape: Another scrape of one rising to his feet, a phrase of contention, then the quiet of a caught tongue.\n\nnon_diegetic_music: A light quick string line, matching the fencing tongues.",
+          "blocking": "座中又有人起身发难，白袍谋士不先接话，以一句反问把那人堵住。",
+          "soundscape": "再一声起立的窸窣，一句争辩，随即语塞的安静",
+          "music": "弦乐轻快一线，配着口中的机锋"
+        },
+        {
+          "id": "E44-06",
+          "sceneIndex": 1,
+          "cuts": [
+            {
+              "beats": [
+                21,
+                22
+              ],
+              "seconds": 5,
+              "size": "medium",
+              "camera": "Static Shot",
+              "characters": [
+                "C05"
+              ],
+              "frame": "中景，另一派的老臣也挺身而出搬出江东祖业，只说求自保、不与外人共谋，孔明敛了笑意把话锋轻轻一折",
+              "shot": "固定镜头中景，一名老臣挺身上前搬出祖业，只求自保不与其谋；白袍谋士敛起笑意，把话锋轻轻一折",
+              "lens": "50mm 标准，中浅景深",
+              "cameraPosition": "白袍谋士 + 平视侧面",
+              "composition": "三分法",
+              "eyeline": "搬出祖业的老臣",
+              "focus": "锁定敛笑折转的神情",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                23,
+                23
+              ],
+              "seconds": 5,
+              "size": "close",
+              "camera": "Static Shot",
+              "characters": [
+                "C05"
+              ],
+              "frame": "特写，孔明一句把内外之分拆开，郑重落在全江东上",
+              "shot": "固定镜头近切，白袍谋士一句拆开内外之分，把分量落在整个江东之上",
+              "lens": "85mm 长焦，浅景深",
+              "cameraPosition": "白袍谋士 + 平视正面",
+              "composition": "三分法",
+              "eyeline": "老臣",
+              "focus": "锁定郑重的分量",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                24,
+                24
+              ],
+              "seconds": 4,
+              "size": "wide",
+              "camera": "Static Shot",
+              "characters": [
+                "C05"
+              ],
+              "frame": "全景，这话一出堂上又是一片寂静，几个文臣低头交头接耳",
+              "shot": "固定镜头，这话一出堂上又是一片安静，几名文臣低头交头接耳",
+              "lens": "35mm 广角，深景深",
+              "cameraPosition": "堂景 + 平视",
+              "composition": "三分法",
+              "eyeline": "低头私语的一群",
+              "focus": "锁定满堂骤静的刹那",
+              "stability": "stable"
+            }
+          ],
+          "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 5.00-second mark of the target video; Picture 3 (from Shot 3) aligns with the 10.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] Holding <Picture 1>, an elder statesman steps forward invoking their ancestral land and asking only for self-preservation; static shot, the sagely strategist reels the point back gently.\n[Shot 2] At 00:05.000, A static shot close-up of <Picture 2>: drawing aside the line between self and other, the sagely strategist lays the weight upon the whole east, and with a grave, steady voice (S2) explains: <d>[Chinese] 曹兵压境，是全江东的事，何来内外之分。</d>\n[Shot 3] At 00:10.000, The wide of <Picture 3> holds as the chamber falls silent at the words, a few officials bending to whisper; static shot.\n\noverall_soundscape: An elder’s low pronouncement, the hall going still after, only the sound of cloth.\n\nnon_diegetic_music: Strings sinking, then pressing into near-stillness.",
+          "blocking": "一名老臣挺身搬出祖业求自保，白袍谋士敛了笑意把话锋轻轻一折，全堂随之寂静。",
+          "soundscape": "老臣低沉的一句话，堂上随即静下来，只有衣料声",
+          "music": "弦乐一沉，随即压到极静"
+        },
+        {
+          "id": "E44-07",
+          "sceneIndex": 1,
+          "cuts": [
+            {
+              "beats": [
+                25,
+                26
+              ],
+              "seconds": 5,
+              "size": "wide",
+              "camera": "Static Shot",
+              "characters": [
+                "C05"
+              ],
+              "frame": "全景，孔明点到即止不再追逼，缓步踱回庭中站定，一名武将模样的年轻官员忍不住击节替孔明叫了一声好",
+              "shot": "固定镜头，白袍谋士点到即止，缓步踱回庭中站定；一名年轻武官忍不住击节，替他说了声好",
+              "lens": "35mm 广角，深景深",
+              "cameraPosition": "堂景 + 平视",
+              "composition": "三分法",
+              "eyeline": "击节叫好的武官",
+              "focus": "锁定堂中踱回的身影",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                27,
+                27
+              ],
+              "seconds": 4,
+              "size": "medium",
+              "camera": "Static Shot",
+              "characters": [
+                "C05"
+              ],
+              "frame": "中景，堂上静了片刻，几个主降的文臣又换着法子围上来",
+              "shot": "固定镜头中景，堂上静了片刻，几名主张归降的文臣又各自换着说辞围拢过来",
+              "lens": "50mm 标准，中浅景深",
+              "cameraPosition": "白袍谋士 + 平视正面",
+              "composition": "三分法",
+              "eyeline": "围拢上来的文臣",
+              "focus": "锁定被围而气定神闲",
+              "stability": "stable"
+            }
+          ],
+          "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 5.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] The wide of <Picture 1> holds as the sagely strategist pulls back no further, pacing to the middle of the hall to stand; a young military officer claps once in salute; static shot.\n[Shot 2] At 00:05.000, Holding <Picture 2>, after a quiet beat the ministers who favor surrender close in again with fresh angles; static shot, the sagely strategist stands unruffled.\n\noverall_soundscape: A single sharp clap, a call of approval, then the low murmur of officials drawing near.\n\nnon_diegetic_music: Strings turning clear for a beat, shifting into a fresh tangle.",
+          "blocking": "白袍谋士点到即止踱回庭中，一名武将击节叫好，几名主降文臣又围拢上来。",
+          "soundscape": "击节的一声脆响，叫好声起，随后文臣围拢的低议",
+          "music": "弦乐一线清明，转折到新一轮纠缠"
+        },
+        {
+          "id": "E44-08",
+          "sceneIndex": 1,
+          "cuts": [
+            {
+              "beats": [
+                28,
+                29
+              ],
+              "seconds": 5,
+              "size": "medium",
+              "camera": "Static Shot",
+              "characters": [
+                "C05"
+              ],
+              "frame": "中景，孔明一一接下不疾不徐逐条驳了回去，说到紧要处伸手在那案沿轻轻一点，为首的降派仍不甘心又抬出旧例",
+              "shot": "固定镜头中景，白袍谋士一一接下逐条驳回，说到紧要处伸手在案沿一点；为首的降派不甘心，又抬出旧日战例",
+              "lens": "50mm 标准，中浅景深",
+              "cameraPosition": "白袍谋士 + 平视正面",
+              "composition": "三分法",
+              "eyeline": "为首的降派",
+              "focus": "锁定点案沿的从容",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                30,
+                31
+              ],
+              "seconds": 6,
+              "size": "close",
+              "camera": "Static Shot",
+              "characters": [
+                "C05"
+              ],
+              "frame": "特写，孔明待他说完轻轻一摆手不紧不慢接过话头，一句昔年成败未必今日定局把话钉住",
+              "shot": "固定镜头近切，白袍谋士等他说完，轻轻一摆手接过话头，一句把昔年与今日分开",
+              "lens": "85mm 长焦，浅景深",
+              "cameraPosition": "白袍谋士 + 平视正面",
+              "composition": "三分法",
+              "eyeline": "抬旧例的降派",
+              "focus": "锁定摆手接话的稳",
+              "stability": "stable"
+            }
+          ],
+          "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 5.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] Holding <Picture 1>, the sagely strategist field each attack and refutes them one by one, tapping a fingertip off the table edge at the crux; static shot, the leading defeatist still refuses to yield and reaches for old precedent.\n[Shot 2] At 00:05.000, A static shot close-up of <Picture 2>: let him finish, the sagely strategist raises a hand and takes the turn, and with a low, settled voice (S2) closes it: <d>[Chinese] 昔年成败，未必就是今日定局。</d>\n\noverall_soundscape: A run of exchanged arguments, a caught tongue or two, the rustle of cloth and wood.\n\nnon_diegetic_music: Strings with a heavy accent on each line, sharpening as the rebuttals land.",
+          "blocking": "白袍谋士被诸儒诘问围攻，一一接下逐条驳回；降派抬旧例，他以一句成败未知收住。",
+          "soundscape": "一句接一句的争辩，被反驳时的一两声语塞，衣料与木案轻响",
+          "music": "弦乐一句一个重音，越驳越利"
+        },
+        {
+          "id": "E44-09",
+          "sceneIndex": 1,
+          "cuts": [
+            {
+              "beats": [
+                32,
+                33
+              ],
+              "seconds": 5,
+              "size": "medium",
+              "camera": "Static Shot",
+              "characters": [
+                "C05"
+              ],
+              "frame": "中景，那人张了张嘴驳不出来只得怏怏退了回去，又有文臣绕弯发问绕着法子试探孔明对降曹的真正看法",
+              "shot": "固定镜头中景，那人驳不出来怏怏退回；又一名文臣绕弯试探，绕着法子想去掂量白袍谋士的真实态度",
+              "lens": "50mm 标准，中浅景深",
+              "cameraPosition": "白袍谋士 + 平视侧面",
+              "composition": "三分法",
+              "eyeline": "绕弯试探的文臣",
+              "focus": "锁定沉稳立定的身姿",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                34,
+                34
+              ],
+              "seconds": 5,
+              "size": "close",
+              "camera": "Static Shot",
+              "characters": [
+                "C05"
+              ],
+              "frame": "特写，孔明一句胆气反问落定，把话头轻轻抛回满堂",
+              "shot": "固定镜头近切，白袍谋士一句反问落定，把话头轻轻抛回满堂诸君",
+              "lens": "85mm 长焦，浅景深",
+              "cameraPosition": "白袍谋士 + 平视正面",
+              "composition": "三分法",
+              "eyeline": "绕弯的文臣",
+              "focus": "锁定反问时的安然",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                35,
+                35
+              ],
+              "seconds": 4,
+              "size": "wide",
+              "camera": "Static Shot",
+              "characters": [
+                "C05"
+              ],
+              "frame": "全景，满堂一时只剩衣料摩擦之声，再无人敢贸然接话",
+              "shot": "固定镜头，满堂一时只剩衣料摩擦之声，再无人敢贸然接话",
+              "lens": "35mm 广角，深景深",
+              "cameraPosition": "堂景 + 平视",
+              "composition": "三分法",
+              "eyeline": "垂首沉默的一众",
+              "focus": "锁定满堂冰一般的静",
+              "stability": "stable"
+            }
+          ],
+          "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 5.00-second mark of the target video; Picture 3 (from Shot 3) aligns with the 10.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] Holding <Picture 1>, that man withdraws without a retort and another circles in to probe the visitor’s true mind on surrender; static shot, the sagely strategist stands steady.\n[Shot 2] At 00:05.000, A static shot close-up of <Picture 2>: casting the question back upon them all, the sagely strategist speaks, and with an easy, quiet voice (S2) says: <d>[Chinese] 降或不降，问诸君自己的胆气便知。</d>\n[Shot 3] At 00:10.000, The wide of <Picture 3> holds as only the rustle of robes remains and no one dares to speak; static shot.\n\noverall_soundscape: A scrape of reluctant retreat, one circling question, then the silence of robes having no reply.\n\nnon_diegetic_music: Strings settling, holding the residue of a final thrust.",
+          "blocking": "那人怏怏退回，又有文臣绕弯试探；白袍谋士一句胆气反问，满堂再无人接话。",
+          "soundscape": "退步的窸窣，一句绕弯的问，随即满堂衣料摩擦的静",
+          "music": "弦乐落定，蓄着最后一击的余威"
+        },
+        {
+          "id": "E44-10",
+          "sceneIndex": 1,
+          "cuts": [
+            {
+              "beats": [
+                36,
+                37
+              ],
+              "seconds": 6,
+              "size": "medium",
+              "camera": "Static Shot",
+              "characters": [
+                "C05"
+              ],
+              "frame": "中景，孔明负手立在堂中静静等那一片沉默过去，也不急着催促，最后才补上那句收束",
+              "shot": "固定镜头中景，白袍谋士负手立于堂中，静静等沉默流过去，不催不逼，末了才补上收束一句",
+              "lens": "50mm 标准，中浅景深",
+              "cameraPosition": "白袍谋士 + 平视正面",
+              "composition": "三分法",
+              "eyeline": "满堂沉默的诸儒",
+              "focus": "锁定静立等言的神色",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                38,
+                38
+              ],
+              "seconds": 4,
+              "size": "wide",
+              "camera": "Static Shot",
+              "characters": [
+                "C05"
+              ],
+              "frame": "全景，底下诸儒欲辩无言，一个个面皮涨红，再没人敢轻易开口",
+              "shot": "固定镜头，满堂文臣欲辩无言，一个个面皮涨红，再没人敢轻易开口",
+              "lens": "35mm 广角，深景深",
+              "cameraPosition": "堂景 + 平视",
+              "composition": "三分法",
+              "eyeline": "涨红脸的一众",
+              "focus": "锁定全堂哑然的收束",
+              "stability": "stable"
+            }
+          ],
+          "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 6.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] Holding <Picture 1>, the sagely strategist stands still in the middle of the hall letting the silence wash past, unhurried, before adding the closing line; static shot, and with a low, final voice (S2) he says: <d>[Chinese] 降是一时安，坐等曹贼分而食之。</d>\n[Shot 2] At 00:06.000, The wide of <Picture 2> closes the debate: the assembled officials argue with nothing to say, faces flushed, none daring to speak again; static shot.\n\noverall_soundscape: The chamber near empty of sound, withheld breaths, the fading ring of a closing line.\n\nnon_diegetic_music: Strings drawn into one long note, sealing the contest.",
+          "blocking": "白袍谋士负手立堂中静静等沉默过去，最后一句收束，诸儒欲辩无言。",
+          "soundscape": "堂上空极，静的呼吸声，一句话落定的余音",
+          "music": "弦乐收进一个长音，替这场较量落定"
+        },
+        {
+          "id": "E44-11",
+          "sceneIndex": 2,
+          "cuts": [
+            {
+              "beats": [
+                1,
+                2
+              ],
+              "seconds": 5,
+              "size": "medium",
+              "camera": "Static Shot",
+              "characters": [
+                "C14"
+              ],
+              "frame": "中景，孙权旁听至今缓缓直起身子，眼底压着的火气浮上来一线，把案头的降书随手往旁一推，迎着满堂的目光站起",
+              "shot": "固定镜头中景，一名年轻主公从旁听中缓缓直起身子，眼底浮起一线的火气，随手把降书往旁一推，迎着满堂目光站起",
+              "lens": "50mm 标准，中浅景深",
+              "cameraPosition": "主公 + 平视正面",
+              "composition": "中心构图",
+              "eyeline": "满堂的诸臣",
+              "focus": "锁定立起身来的主公",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                3,
+                3
+              ],
+              "seconds": 5,
+              "size": "close",
+              "camera": "Static Shot",
+              "characters": [
+                "C14"
+              ],
+              "frame": "特写，孙权一字一句落下那句，语气沉而坚定",
+              "shot": "固定镜头近切，年轻主公一字一句落下，语气沉而坚定，压得满堂不敢出声",
+              "lens": "85mm 长焦，浅景深",
+              "cameraPosition": "主公 + 平视正面",
+              "composition": "三分法",
+              "eyeline": "满堂低下去的头",
+              "focus": "锁定沉定的眼神",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                4,
+                4
+              ],
+              "seconds": 3,
+              "size": "wide",
+              "camera": "Static Shot",
+              "characters": [
+                "C14"
+              ],
+              "frame": "全景，堂上众儒齐齐噤声，再不敢接话",
+              "shot": "固定镜头，满堂文臣齐齐噤声，再不敢接话",
+              "lens": "35mm 广角，深景深",
+              "cameraPosition": "堂景 + 平视",
+              "composition": "三分法",
+              "eyeline": "低头的诸臣",
+              "focus": "锁定满堂骤然屏息",
+              "stability": "stable"
+            }
+          ],
+          "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 5.00-second mark of the target video; Picture 3 (from Shot 3) aligns with the 10.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] The cold open of scene two holds the hall of <Picture 1>: the young prince, who has sat listening, slowly straightens with a first flicker of ire rising in his eyes, pushes the surrender petition aside and stands to meet the court; static shot.\n[Shot 2] At 00:05.000, A static shot close-up of <Picture 2>: word by word the young prince lets fall the line, and with a deep, unyielding voice (S1) declares: <d>[Chinese] 江东六郡，岂能拱手让人。</d>\n[Shot 3] At 00:10.000, The wide of <Picture 3> holds as the assembled officials fall silent together, daring not to speak; static shot.\n\noverall_soundscape: The lord rising, cloth and pushed paper, the hall holding its breath as he speaks.\n\nnon_diegetic_music: Strings lifting from low, one line overriding the whole court.",
+          "blocking": "主公从旁听中缓缓站起，把降书一推，迎着满堂目光开口；众儒齐齐噤声。",
+          "soundscape": "主公起身时衣料与推纸的响，他开口时满堂屏息",
+          "music": "弦乐从低处抬升，一句压过满堂"
+        },
+        {
+          "id": "E44-12",
+          "sceneIndex": 2,
+          "cuts": [
+            {
+              "beats": [
+                5,
+                6
+              ],
+              "seconds": 7,
+              "size": "medium",
+              "camera": "Static Shot",
+              "characters": [
+                "C14"
+              ],
+              "frame": "中景，孙权踱到阶前扫过满堂低下去的头，声音沉却带着分量，一句句落下来",
+              "shot": "固定镜头中景，年轻主公踱到阶前，扫过满堂低下去的头，声音沉而带分量，一字一句往外压",
+              "lens": "50mm 标准，中浅景深",
+              "cameraPosition": "主公 + 平视正面",
+              "composition": "三分法",
+              "eyeline": "满堂低下去的头",
+              "focus": "锁定压下来的沉声",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                7,
+                7
+              ],
+              "seconds": 4,
+              "size": "wide",
+              "camera": "Static Shot",
+              "characters": [
+                "C14"
+              ],
+              "frame": "全景，堂上再无一人敢应声，连呼吸都放轻了三分",
+              "shot": "固定镜头，堂上再无一人敢应声，连呼吸都放轻了三分",
+              "lens": "35mm 广角，深景深",
+              "cameraPosition": "堂景 + 平视",
+              "composition": "三分法",
+              "eyeline": "屏息的诸臣",
+              "focus": "锁定满堂死一般的静",
+              "stability": "stable"
+            }
+          ],
+          "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 7.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] Holding <Picture 1>, the young prince walks to the head of the steps, sweeping the lowered heads before him, voice heavy with weight, and with a slow, weighted voice (S2) he says: <d>[Chinese] 六郡将士，哪一个不是父老所养，岂能送与外人糟践。</d> The camera performs a static shot.\n[Shot 2] At 00:07.000, The wide of <Picture 2> holds as no one in the hall dares answer, even breathing held lighter; static shot.\n\noverall_soundscape: The lord’s steps on the dais, the rustle of clothes, the held breath of the hall.\n\nnon_diegetic_music: Strings deepening, pressing outward word by word.",
+          "blocking": "主公踱到阶前扫过满堂低下去的头，一句句压下来，堂上更无人应声。",
+          "soundscape": "主公踱步的脚步声，衣料轻响，满堂屏住的呼吸",
+          "music": "弦乐沉下，一字一字往外压"
+        },
+        {
+          "id": "E44-13",
+          "sceneIndex": 2,
+          "cuts": [
+            {
+              "beats": [
+                8,
+                9
+              ],
+              "seconds": 5,
+              "size": "medium",
+              "camera": "Static Shot",
+              "characters": [
+                "C14"
+              ],
+              "frame": "中景，孙权这才略略收了怒意转身回到案后坐下，他朝孔明看过来，眼底的火气退去大半添了几分郑重",
+              "shot": "固定镜头中景，年轻主公略收怒意转身回到案后，朝白袍谋士看过来，眼底的火气退去大半，换成郑重",
+              "lens": "50mm 标准，中浅景深",
+              "cameraPosition": "主公 + 平视正面",
+              "composition": "三分法",
+              "eyeline": "堂中的白袍谋士",
+              "focus": "锁定转成郑重的眼神",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                10,
+                10
+              ],
+              "seconds": 6,
+              "size": "close",
+              "camera": "Static Shot",
+              "characters": [
+                "C14"
+              ],
+              "frame": "特写，孙权郑重地许下那层意思，与武臣再议联刘",
+              "shot": "固定镜头近切，年轻主公郑重开口，许下联刘之事再与武臣详议",
+              "lens": "85mm 长焦，浅景深",
+              "cameraPosition": "主公 + 平视正面",
+              "composition": "三分法",
+              "eyeline": "白袍谋士",
+              "focus": "锁定郑重的一诺",
+              "stability": "stable"
+            }
+          ],
+          "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 5.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] Holding <Picture 1>, the young prince curbs his anger, turns back behind the desk, and looks to the sagely strategist, most of the fire gone from his eyes, replaced by solemnity; static shot.\n[Shot 2] At 00:05.000, A static shot close-up of <Picture 2>: with due gravity the young prince gives his word, and with a formal, sincere voice (S3) promises: <d>[Chinese] 先生既有为江东的诚意，联刘之事，容我与武臣再议。</d>\n\noverall_soundscape: The scrape of the lord settling back, a solemn word following.\n\nnon_diegetic_music: Strings easing transparent and bright, a crack of daylight in the decision.",
+          "blocking": "主公收怒回到案后，朝白袍谋士看过来，眼底火气退去换成郑重，一句允诺落下。",
+          "soundscape": "主公落座衣料的一声，随后的郑重开口",
+          "music": "弦乐转缓透亮，一线决定的光"
+        },
+        {
+          "id": "E44-14",
+          "sceneIndex": 2,
+          "cuts": [
+            {
+              "beats": [
+                11,
+                12
+              ],
+              "seconds": 5,
+              "size": "medium",
+              "camera": "Static Shot",
+              "characters": [
+                "C05"
+              ],
+              "frame": "中景，孔明长揖到底心知火候已到不再多言，直起身，目光在那封半掩的降书上停了一瞬又收了回来",
+              "shot": "固定镜头中景，白袍谋士长揖到底，心知火候到家便不再多言，直起身时目光落在那封半掩的降书上停了一瞬",
+              "lens": "50mm 标准，中浅景深",
+              "cameraPosition": "白袍谋士 + 平视侧面",
+              "composition": "三分法",
+              "eyeline": "案上那封降书",
+              "focus": "锁定掠过降书的目光",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                13,
+                13
+              ],
+              "seconds": 4,
+              "size": "close",
+              "camera": "Static Shot",
+              "characters": [
+                "C05"
+              ],
+              "frame": "特写，孔明不多说，只朝孙权又微微一揖，这才跟着侍卫往后退步",
+              "shot": "固定镜头近切，白袍谋士别无他言，只朝年轻主公又微微一揖，便随侍卫向后退步",
+              "lens": "85mm 长焦，浅景深",
+              "cameraPosition": "白袍谋士 + 平视正面",
+              "composition": "三分法",
+              "eyeline": "主公安坐的方向",
+              "focus": "锁定退步前的一揖",
+              "stability": "stable"
+            }
+          ],
+          "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 5.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] Holding <Picture 1>, the sagely strategist bows full and low, knowing the moment won, and as he straightens his gaze lingers a breath on the half-hidden surrender petition before slipping away; static shot.\n[Shot 2] At 00:05.000, A static shot close-up of <Picture 2>: adding nothing, the sagely strategist makes one more bow toward the young prince and steps back with the attendants.\n\noverall_soundscape: The silk of a full low bow, breaths in the hall warming a little.\n\nnon_diegetic_music: Strings low and unhurried, a thread of meaning left unresolved.",
+          "blocking": "白袍谋士长揖到底，直起身时目光在那封半掩的降书上停了一瞬，又收了回来。",
+          "soundscape": "长揖起的衣料声，堂上微微回暖的呼吸声",
+          "music": "弦乐低缓，蓄着一线未尽的深意"
+        },
+        {
+          "id": "E44-15",
+          "sceneIndex": 2,
+          "cuts": [
+            {
+              "beats": [
+                14,
+                15
+              ],
+              "seconds": 5,
+              "size": "medium",
+              "camera": "Static Shot",
+              "characters": [
+                "C14"
+              ],
+              "frame": "中景，正在他要退出堂去，廊下一名侍卫快步进来凑到孙权耳畔低语了一句，孙权神色微变，眼底却掠过一丝亮色，冲孔明抬了抬手",
+              "shot": "固定镜头中景，正要退出时一名侍卫快步进堂凑到年轻主公耳畔低语；主公神色微变，眼底却掠过一丝亮色，向白袍谋士抬了抬手",
+              "lens": "50mm 标准，中浅景深",
+              "cameraPosition": "主公与侍卫 + 平视侧面",
+              "composition": "三分法",
+              "eyeline": "进来耳语的侍卫",
+              "focus": "锁定眼底亮起的那一瞬",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                16,
+                16
+              ],
+              "seconds": 5,
+              "size": "close",
+              "camera": "Static Shot",
+              "characters": [
+                "C14"
+              ],
+              "frame": "特写，孙权语气一提，请孔明先去后堂饮茶相候",
+              "shot": "固定镜头近切，年轻主公语气一提，请白袍谋士先去后堂饮茶等候",
+              "lens": "85mm 长焦，浅景深",
+              "cameraPosition": "主公 + 平视正面",
+              "composition": "三分法",
+              "eyeline": "白袍谋士",
+              "focus": "锁定神色转松的眉眼",
+              "stability": "stable"
+            }
+          ],
+          "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 5.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] Holding <Picture 1>, just as he is about to leave a guard hastens in to murmur at the young prince’s ear; his expression flickers but a light stirs in his eyes as he beckons the strategist; static shot.\n[Shot 2] At 00:05.000, A static shot close-up of <Picture 2>: lifting his tone, the young prince invites the visitor to wait in the rear hall, and with a brighter, welcoming voice (S2) says: <d>[Chinese] 先生先去后堂饮茶，公瑾即刻便到。</d>\n\noverall_soundscape: A guard’s hastening steps, one low whisper, the lord’s tone lifting a notch.\n\nnon_diegetic_music: Strings lifting lightly, a glint of a turnabout in the second half.",
+          "blocking": "侍卫快步进来耳语，主公神色微变却眼底一亮，抬手请客去后堂。",
+          "soundscape": "侍卫疾步进来的声响，低语一声，主公说话时语调略抬",
+          "music": "弦乐轻轻一扬，一点转机露头"
+        },
+        {
+          "id": "E44-16",
+          "sceneIndex": 2,
+          "cuts": [
+            {
+              "beats": [
+                17,
+                17
+              ],
+              "seconds": 5,
+              "size": "medium",
+              "camera": "Static Shot",
+              "characters": [
+                "C05"
+              ],
+              "frame": "中景，孔明脚步微顿回身望了一眼，嘴角缓缓勾起一点弧度",
+              "shot": "固定镜头，白袍谋士脚下一顿回身望了一眼，嘴角缓缓勾起一点弧度",
+              "lens": "50mm 标准，中浅景深",
+              "cameraPosition": "白袍谋士 + 平视侧面",
+              "composition": "三分法",
+              "eyeline": "回望的方向",
+              "focus": "锁定勾起的一点弧度",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                18,
+                18
+              ],
+              "seconds": 5,
+              "size": "wide",
+              "camera": "Static Shot",
+              "characters": [
+                "C05"
+              ],
+              "frame": "全景，孔明迈步随人转进后堂，堂上层层珠帘落下，遮住了那道渐次明暗的身影",
+              "shot": "固定镜头，白袍谋士迈步随人转入后堂，层层珠帘次第落下，遮住那道渐次明暗的身影",
+              "lens": "35mm 广角，深景深",
+              "cameraPosition": "堂景 + 平视",
+              "composition": "中心构图",
+              "eyeline": "转进后堂的方向",
+              "focus": "锁定隔帘落下的一瞬",
+              "stability": "stable"
+            }
+          ],
+          "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 5.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] Holding <Picture 1>, the sagely strategist pauses mid-step, glances back once and the corner of his mouth lifts in a faint arc; static shot.\n[Shot 2] At 00:05.000, The wide of <Picture 2> closes the episode: the sagely strategist steps with his guide into the rear hall as layer upon layer of bead curtain falls, veiling the fading figure; static shot.\n\noverall_soundscape: The turn of a robe, footsteps fading, layer after layer of bead curtain ringing down.\n\nnon_diegetic_music: Strings drawing to a slow close, leaving a thread of anticipation.",
+          "blocking": "白袍谋士脚步微顿回身望了一眼，嘴角勾起一点弧度，随人转进后堂；珠帘落下遮住身影。",
+          "soundscape": "转身的衣料声，脚步渐远，层层珠帘轻响落下",
+          "music": "弦乐缓缓收尾，留下一线悬念的光"
+        }
+      ]
+    }
+  ]
+}

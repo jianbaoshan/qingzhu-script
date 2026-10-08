@@ -1,0 +1,113 @@
+[
+  {
+    "id": "S04",
+    "name": "许都·曹操府邸与汉廷",
+    "primary": true,
+    "summary": "一座以宫室尺度改建的权臣府邸兼奉迎天子后的朝堂。设计意图分两股力拧在一个建筑语汇里：庭院那棵青梅树与檐下漆案是『青梅煮酒论英雄』私宴的坐席，温软克制的午后光托出两人对坐时的机锋；同一院落的正厅垫起高台御座、架起连枝铜灯，就变成『挟天子以令诸侯』的争议朝堂——白日议事堂皇，夜政烛影阴沉。这座府邸让观众在同一组柱列斗拱之间反复游走于『君臣之礼』与『枭雄私宅』两种身份，衣带诏的密谋与朝会的高座因此共用一个空间，权力藏在礼制表面下。",
+    "anchors": [
+      { "name": "青梅虬树", "desc": "庭院檐下一棵苍虬青梅树，入夏挂青果，树下置竹席里的小案，果子翠绿、枝叶遮阴" },
+      { "name": "玄色漆案", "desc": "正厅前的黑漆低案，案沿朱绘云纹，四角包铜，上承青铜酒壶与双耳小杯" },
+      { "name": "朱红柱列", "desc": "朝堂成排的朱红木柱，柱下设简单斗拱，柱身漆面匀整、光可鉴人" },
+      { "name": "高台御座", "desc": "正厅深处一座低矮高台御座，上覆绛色坐帐，阶沿磨亮，象征沦于臣下的汉室坐具" },
+      { "name": "铜连枝灯", "desc": "殿前阶沿的多枝青铜灯，灯盏托起烛火，烛影可穿枝洒在柱面上" }
+    ],
+    "lighting": [
+      {
+        "state": "夏午·青梅",
+        "prompt": "Empty scene, no people. Summer midday in a Late Eastern Han statesman's mansion courtyard on the central China plain: warm high sunlight dappling through a leafy plum tree over a small thatched pavilion; a low black lacquer table holds a bronze wine jar and two small cups on a bamboo mat; long soft column shadows fall across swept stone, mild heat-haze above the courtyard. Well-kept, actively maintained materials: sound lacquer with an even sheen, swept stone and timber, polished metal fittings, tight joinery, no peeling paint and no water staining; wear confined to the traffic a space like this really takes — thresholds, handrails, the stone directly inside a doorway. Atmospheric depth with haze or volumetric light where the space allows."
+      },
+      {
+        "state": "烛影·夜政",
+        "prompt": "Empty scene, no people. Deep night in a Late Eastern Han statesman's hall on the central China plain: only bronze multi-branch lamps lit, their candlelight glinting off the vermilion columns and the high throne dais half wrapped in dark shadow; the black lacquer table catches warm pools of light; the fascia and lattice windows fall into blue-black gloom. Well-kept, actively maintained materials: sound lacquer with an even sheen, swept stone and timber, polished metal fittings, tight joinery, no peeling paint and no water staining; wear confined to the traffic a space like this really takes — thresholds, handrails, the stone directly inside a doorway. Atmospheric depth with haze or volumetric light where the space allows."
+      },
+      {
+        "state": "朝会·白日",
+        "prompt": "Empty scene, no people. Morning audience in a Late Eastern Han court hall on the central China plain: cool bright light shafting through straight lattice windows, dust motes drifting in the beams over the swept stone floor; the empty raised throne dais and its vermilion defeatied columns dominate the center; stately, hushed, undisturbed. Well-kept, actively maintained materials: sound lacquer with an even sheen, swept stone and timber, polished metal fittings, tight joinery, no peeling paint and no water staining; wear confined to the traffic a space like this really takes — thresholds, handrails, the stone directly inside a doorway. Atmospheric depth with haze or volumetric light where the space allows."
+      }
+    ],
+    "image": {
+      "prompt": "Empty scene, no people. Late Eastern Han statesman's mansion courtyard hall on the central China plain. Front view of a deep eaved hall of raised-beam timber framing under a terracotta hip-roof; a row of vermilion eave columns with simple bracket-arms; straight lattice windows set into rammed-earth-and-timber walls casting soft daylight shafts; in the courtyard a weather-rough plum tree bears green fruit over a small thatched pavilion-bench; a black lacquer low table carved with vermilion cloud motifs sits before the hall; a polished bronze multi-branch lamp stands on the stone threshold; a raised throne dais with a crimson curtain sits at the far end of the hall. Well-kept, actively maintained materials: sound lacquer with an even sheen, swept stone and timber, polished metal fittings, tight joinery, no peeling paint and no water staining; wear confined to the traffic a space like this really takes — thresholds, handrails, the stone directly inside a doorway. Atmospheric depth with haze or volumetric light where the space allows. 16:9 composition.",
+      "negativePrompt": "people, human figures, characters, crowds, silhouettes of people, oversaturated colours, sterile showroom cleanliness, warped perspective, melted geometry, floating objects, text, watermark, signature",
+      "sheet": "Environment sheet, 16:9 wide layout, single space, absolutely no people anywhere. Main panel (top-left, about 72% width x 70% height): standard master view of the Late Eastern Han statesman's mansion courtyard hall under the summer-midday first lighting state — eave columns, plum tree, black lacquer table, throne dais, bronze lamps. Right column (2 detail cells) and bottom row (3 detail cells) are extreme close-up crops taken from this exact master view only: the bracket-arms and column base, the lattice window detail, the bronze multi-branch lamp, the lacquer table's vermilion cloud edge, the throne-dais crimson curtain edge. THE SPACE MUST BE IDENTICAL ACROSS ALL PANELS; nothing invented that is not present in the master view. Well-kept, actively maintained materials: sound lacquer with an even sheen, swept stone and timber, polished metal fittings, tight joinery, no peeling paint and no water staining; wear confined to the traffic a space like this really takes — thresholds, handrails, the stone directly inside a doorway. Atmospheric depth with haze or volumetric light where the space allows.",
+      "tags": ["environment sheet", "well-maintained materials", "east han architecture", "vermilion and black palette", "courtyard", "cinematic", "16:9"]
+    },
+    "usage": {
+      "episodes": [11, 16, 17, 18, 19, 21, 22, 25, 30, 34],
+      "beats": ["挟天子", "低谷投曹", "论英雄", "衣带诏", "单刀赴会", "诛文丑", "灞桥挑袍", "再入乱局", "北定", "荐贤"]
+    }
+  },
+  {
+    "id": "S05",
+    "name": "徐州·小沛·下邳",
+    "primary": true,
+    "summary": "一座归属几度易主的州城与它烽烟里的门庭。设计意图落在『抢与换』上：正面夯土城楼与包铜府门是『谁占了徐州』的争夺舞台，门斗石阶被来来回回的兵士踏得发亮；校场那两根吊着旗的辕门木柱，是呼延貌美的武力调停与恩义清算的血腥正轴——一箭射戟就吊在这里；偏远的古城吊着夜灯，是兄弟久别重逢跨过旧门槛的地方。同一个州城语汇同时装下争城、调停与重逢，让每一次易主都踩在观众已经认得的门槛和城楼下。",
+    "anchors": [
+      { "name": "夯土城楼", "desc": "州城正面双层单檐城楼，灰瓦、夯土包砖墙，城楼檐角悬一方郡县小旗" },
+      { "name": "包铜门钉", "desc": "城门双扇厚木门钉满泛绿铜门钉，居中安大铜铺首，门板日晒雨渍" },
+      { "name": "石阙孤门", "desc": "城门前一座孤立的石阙门柱，阙身风化起皮，顶部残损" },
+      { "name": "朱漆府门", "desc": "州府正门朱漆门板，漆面斑驳，门前石阶中央踏面磨得发亮" },
+      { "name": "辕门吊旗", "desc": "校场两根并列木柱，横梁缚一杆垂地的吊旗，柱下立木质戟架" }
+    ],
+    "lighting": [
+      {
+        "state": "烈日校场",
+        "prompt": "Empty scene, no people. Harsh high noon on a Late Eastern Han prefecture practice ground on the central China plain: empty walled parade ground, all shadows short and black, heat-haze rising off packed earth; the two banner-columns of the stockade gate rise from the dirt, the hanging flag hanging limp in still scorching air; the double-leaf town gate studded with bronze bosses stands open in the glare. Weathered, lived-in materials: chipped paint, water stains, patina on metal, worn wood grain, dust in corners and light shafts; fabric and paper props show creases and age; nothing looks factory-new. Atmospheric depth with haze or volumetric light where the space allows."
+      },
+      {
+        "state": "城下晨光",
+        "prompt": "Empty scene, no people. Pale dawn at a Late Eastern Han walled prefecture town on the central China plain: low sun raking across the rammed-earth gate tower and the stone que pylons, long blue shadows across the dirt road, thin ground mist over the fields outside the walls; the studded timber gate ajar. Weathered, lived-in materials: chipped paint, water stains, patina on metal, worn wood grain, dust in corners and light shafts; fabric and paper props show creases and age; nothing looks factory-new. Atmospheric depth with haze or volumetric light where the space allows."
+      },
+      {
+        "state": "夜凉古城",
+        "prompt": "Empty scene, no people. Cool clear night in a remote Late Eastern Han walled town on the central China plain: moonlight silvering the crenellated rammed-earth walls and the lone stone que pylons; a few oil lamps and torch flames casting orange pools on the dark street stones; empty thresholds and shuttered lattice windows; no people anywhere. Weathered, lived-in materials: chipped paint, water stains, patina on metal, worn wood grain, dust in corners and light shafts; fabric and paper props show creases and age; nothing looks factory-new. Atmospheric depth with haze or volumetric light where the space allows."
+      }
+    ],
+    "image": {
+      "prompt": "Empty scene, no people. Late Eastern Han prefecture seat walled town on the central China plain. Front view of the town's rammed-earth-and-brick gate tower with a double-eaved hip roof and a fluttering county banner; the double-leaf timber gate studded with green-tinged bronze bosses stands ajar; a lone weathered stone que gateway pillar beside it; beyond the gate a glimpse of the prefect's residence with vermilion pillars and straight lattice windows; a hard-packed dirt road with deep cart ruts leads to the threshold, a few thatched dwellings huddled against the wall; the two banner-columns of a drill ground stockade stand to one side. Weathered, lived-in materials: chipped paint, water stains, patina on metal, worn wood grain, dust in corners and light shafts; fabric and paper props show creases and age; nothing looks factory-new. Atmospheric depth with haze or volumetric light where the space allows. 16:9 composition.",
+      "negativePrompt": "people, human figures, characters, crowds, silhouettes of people, oversaturated colours, sterile showroom cleanliness, warped perspective, melted geometry, floating objects, text, watermark, signature",
+      "sheet": "Environment sheet, 16:9 wide layout, single space, absolutely no people anywhere. Main panel (top-left, about 72% width x 70% height): standard master view of the Late Eastern Han prefecture gate tower and prefect's residence under the daytime first lighting state — studded town gate, ramrod stone que, banner poles. Right column (2 detail cells) and bottom row (3 detail cells) are extreme close-up crops taken from this exact master view only: the bronze door bosses and split pins, the weathered stone que cap, the banner-pole crossbeam and dyeing flag edge, the blackened gate threshold, the vermilion pillar base. THE SPACE MUST BE IDENTICAL ACROSS ALL PANELS; nothing invented that is not present in the master view. Weathered, lived-in materials: chipped paint, water stains, patina on metal, worn wood grain, dust in corners and light shafts; fabric and paper props show creases and age; nothing looks factory-new. Atmospheric depth with haze or volumetric light where the space allows.",
+      "tags": ["environment sheet", "weathered materials", "east han architecture", "earthen and timber fortifications", "walled town", "cinematic", "16:9"]
+    },
+    "usage": {
+      "episodes": [12, 13, 14, 15, 24],
+      "beats": ["仁政让贤", "背盟夺城", "一箭射戟", "刚烈独白", "古城重逢"]
+    }
+  },
+  {
+    "id": "S06",
+    "name": "官渡前线（白马·延津·乌巢）",
+    "primary": true,
+    "summary": "一条对峙在黄河岸边的旷野战线。设计意图分三块铺：白马、延津的旷野战场是两军隔着平川对垒的开阔地，削尖木栅与望楼把阵线钉进裸露的平原，冷尘低烟压着草滩；营寨是行军食宿的临建巢穴，木栅、旗柱、泥泞车辙堆出长途攻伐的疲惫；乌巢粮屯是整条战线的命门——成排露天粮囤与干草垛在深夜被点着时，就是全集爽心的乌巢烧粮：黑夜坍陷成一片跃动的橙红，火星与灰烬升腾，粮囤的影倒在河沼水面上。这处前线对应了从僵持、夜袭到击破的完整战争弧。",
+    "anchors": [
+      { "name": "削尖木栅", "desc": "营垒一排排竖立削尖的纵列木栅，木缝间漏出天光，顶部钉有尖桩" },
+      { "name": "铁牙帅旗", "desc": "旷野高立柱上一面铁牙饰边大帅旗，旗角被风撕出破口，旗面蒙尘" },
+      { "name": "木质望楼", "desc": "四柱高架的货运木瞭望楼，顶有哨台，脚下堆拒马" },
+      { "name": "露天粮囤", "desc": "乌巢粮屯成排的茅顶粮囤与干草垛，囤身草编席面，堆积如山" },
+      { "name": "河沼泥滩", "desc": "营垒外的河沼泥滩，浮草、深车辙与马蹄印，泛着水光" }
+    ],
+    "lighting": [
+      {
+        "state": "白昼对峙",
+        "prompt": "Empty scene, no people. Harsh white daylight over a Late Eastern Han war front on the central China plain: a wide open trampled battlefield of dry grassland and marshy river flats between the arsenals of two armies; a cribbed wooden stockade wall of sharpened vertical logs with a guard post at the gate; a tall banner-pole flying a tattered iron-edged commander banner; a timber watchtower overlooking the field; scattered earthen breastworks and cold dust haze lying low across the plain. Weathered, lived-in materials: chipped paint, water stains, patina on metal, worn wood grain, dust in corners and light shafts; fabric and paper props show creases and age; nothing looks factory-new. Atmospheric depth with haze or volumetric light where the space allows."
+      },
+      {
+        "state": "大雾迟明",
+        "prompt": "Empty scene, no people. Dense grey fog at daybreak over a Late Eastern Han war front on the central China plain: the sharpened log stockade and the watchtower rise as half-seen masses from the mist; the banner hanging motionless in damp still air; the marsh river flat swallowed in white, the gate gap a dark opening; faint cold light from behind the fog. Weathered, lived-in materials: chipped paint, water stains, patina on metal, worn wood grain, dust in corners and light shafts; fabric and paper props show creases and age; nothing looks factory-new. Atmospheric depth with haze or volumetric light where the space allows."
+      },
+      {
+        "state": "乌巢夜火",
+        "prompt": "Empty scene, no people. Deep night over a Late Eastern Han grain depot on the central China plain: the thatched grain pits and tall dry haystacks of the storehouse are fully aflame, tall orange and red flames leaping between the thatched roofs, thick columns of black smoke rising against a dark starless sky, sparks and glowing embers drifting upward; the burning piles are reflected in the black marsh water in the foreground; the log stockade burns along one edge. Weathered, lived-in materials: chipped paint, water stains, patina on metal, worn wood grain, dust in corners and light shafts; fabric and paper props show creases and age; nothing looks factory-new. Atmospheric depth with haze or volumetric light where the space allows."
+      }
+    ],
+    "image": {
+      "prompt": "Empty scene, no people. Late Eastern Han war front on the central China plain during the Guandu campaign. Wide open battlefield of trampled dry grassland and marshy river flats; a cribbed wooden stockade camp wall of sharpened vertical logs with a guard post at the gate; a tall banner-pole flying a tattered iron-edged heavy military banner; a timber watchtower overlooking the field; scattered earthen breastworks and cold dust haze low over the plain; here and there a thatched grain pit and dry haystack. Weathered, lived-in materials: chipped paint, water stains, patina on metal, worn wood grain, dust in corners and light shafts; fabric and paper props show creases and age; nothing looks factory-new. Atmospheric depth with haze or volumetric light where the space allows. 16:9 composition.",
+      "negativePrompt": "people, human figures, characters, crowds, silhouettes of people, oversaturated colours, sterile showroom cleanliness, warped perspective, melted geometry, floating objects, text, watermark, signature",
+      "sheet": "Environment sheet, 16:9 wide layout, single space, absolutely no people anywhere. Main panel (top-left, about 72% width x 70% height): standard master view of the Late Eastern Han war-front battlefield and stockade under the daytime first lighting state — sharpened log wall, banner pole, watchtower, marsh flats. Right column (2 detail cells) and bottom row (3 detail cells) are extreme close-up crops taken from this exact master view only: the pointed log ends and their cross-ties, the tattered iron-edged banner corner, the watchtower platform and bracing, the earthen breastwork, the thatched grain-pit and hay load. THE SPACE MUST BE IDENTICAL ACROSS ALL PANELS; nothing invented that is not present in the master view. Weathered, lived-in materials: chipped paint, water stains, patina on metal, worn wood grain, dust in corners and light shafts; fabric and paper props show creases and age; nothing looks factory-new. Atmospheric depth with haze or volumetric light where the space allows.",
+      "tags": ["environment sheet", "weathered materials", "east han architecture", "wooden field fortifications", "battlefield", "burning depot", "cinematic", "16:9"]
+    },
+    "usage": {
+      "episodes": [20, 21, 22, 23, 25, 26, 27, 28, 29, 30],
+      "beats": ["斩颜良", "诛文丑", "灞桥挑袍", "过五关斩六将", "再入乱局", "官渡对峙", "谋士离心", "乌巢烧粮", "江东余波", "北定"]
+    }
+  }
+]

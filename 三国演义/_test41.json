@@ -1,0 +1,976 @@
+{
+  "source": "三国演义",
+  "promptLang": "en",
+  "params": {
+    "maxSegmentSeconds": 15,
+    "minCutSeconds": 2,
+    "maxCutSeconds": 8,
+    "maxOnScreen": 3,
+    "tolerance": 0.15
+  },
+  "episodes": [
+    {
+      "ep": 41,
+      "segments": [
+        {
+          "id": "E41-01",
+          "sceneIndex": 1,
+          "cuts": [
+            {
+              "beats": [
+                1,
+                1
+              ],
+              "seconds": 3,
+              "size": "medium",
+              "camera": "Tracking Shot",
+              "characters": [
+                "C11"
+              ],
+              "frame": "中景，长坂坡当阳道尘土弥漫，赵云白袍银甲单骑逆着溃退的乱军往里冲，手中长枪倒拖在地，马鬃扫开一杆挡路的长矛，昏黄的烟尘光",
+              "shot": "镜头从侧后方平稳跟拍，一名白袍小将策马逆着人潮冲进阵中，单手倒拖着长枪，枪尾擦地划过尘土，马鬃拂开逼近的长矛，动作利落不停",
+              "lens": "35mm 广角，中景深",
+              "cameraPosition": "白袍小将 + 侧后方平视跟随",
+              "composition": "中心构图",
+              "eyeline": "阵心方向",
+              "focus": "锁定白袍小将与长枪",
+              "stability": "slight-shake"
+            },
+            {
+              "beats": [
+                2,
+                3
+              ],
+              "seconds": 5,
+              "size": "medium",
+              "camera": "Static Shot",
+              "characters": [
+                "C11"
+              ],
+              "frame": "中景，当阳道上一名曹军骑将横刀勒马拦在赵云马前，赵云伏身躲过刀锋，反手一枪点中对方肩甲，把人掀下马背，尘土四溅",
+              "shot": "固定镜头，一名敌方骑将横刀迎面冲来，白袍小将借着两马错镫的惯性伏身一让，反手一枪戳中对方肩甲，将人掀落马下",
+              "lens": "50mm 标准，中浅景深",
+              "cameraPosition": "双骑 + 平视侧面",
+              "composition": "三分法",
+              "eyeline": "敌将肩甲",
+              "focus": "锁定枪尖点中肩甲的一瞬",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                4,
+                4
+              ],
+              "seconds": 4,
+              "size": "wide",
+              "camera": "Static Shot",
+              "characters": [
+                "C11"
+              ],
+              "frame": "全景，当阳道上赵云不停蹄地趟过被弃的辎重车和倒地的旗杆，一路往阵心杀去，远处尘烟弥漫",
+              "shot": "固定镜头，白袍小将催马趟过横七竖八的辎重与旗杆，头也不回地朝阵心杀去，马蹄踢起一路尘土",
+              "lens": "35mm 广角，中景深",
+              "cameraPosition": "战场远景 + 平视侧面",
+              "composition": "对角线构图",
+              "eyeline": "阵心方向",
+              "focus": "锁定白袍小将骑影",
+              "stability": "stable"
+            }
+          ],
+          "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 3.00-second mark of the target video; Picture 3 (from Shot 3) aligns with the 8.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] The cold open follows <Picture 1>: a white-robed young cavalry general charges against the tide of a rout across a dusty battlefield, his long spear trailing low along the ground behind the horse; a tracking shot follows him from behind and slightly to the side, the horse-tongue flicking past a raised pike as he pushes deeper into the chaos.\n[Shot 2] At 00:03.000, Holding <Picture 2> in the two-horse clash, a charging enemy rider raises a blade; over a static shot the white-robed general leans low to dodge the edge as the horses pass, then strikes back with his spear point caught on the rider shoulder and knocks the man off the saddle.\n[Shot 3] At 00:08.000, The wide view of <Picture 3> holds as the white-robed general spurs the horse through abandoned carts and fallen banners, trampling over the debris toward the heart of the formation; static shot, hooves kicking up a long plume of dust.\n\noverall_soundscape: Chaotic shouts and hoofbeats of a rout, wind whipping grit across the road, the ring and clash of iron dulled by the dust.\n\nnon_diegetic_music: Low urgent drums and strings at a brisk middle tempo, pressing under the chaos.",
+          "blocking": "开场当阳道上一片溃乱：白袍将军单骑逆着人潮冲入画面中偏右，面朝阵心，身后遍地辎重旗杆；第一镜只有他一人。",
+          "soundscape": "战场上嘈杂的人声与马蹄声，风卷起沙尘，时有金铁相击声，低沉而密集",
+          "music": "低沉急促的战鼓与弦乐，中速偏快，压在溃退的嘈杂之下"
+        },
+        {
+          "id": "E41-02",
+          "sceneIndex": 1,
+          "cuts": [
+            {
+              "beats": [
+                5,
+                6
+              ],
+              "seconds": 5,
+              "size": "wide",
+              "camera": "Tracking Shot",
+              "characters": [
+                "C11"
+              ],
+              "frame": "全景，乱兵中一名妇人抱着襁褓被冲倒在地，赵云纵马抢到跟前探下身子，一把捞起妇人和襁褓稳稳搁上马背",
+              "shot": "镜头平稳跟随，一名抱着襁褓的妇人被冲得踉跄跌坐，白袍将军策马赶上俯身，一只手臂猛地捞住妇人与婴儿稳稳横放上马",
+              "lens": "35mm 广角，中景深",
+              "cameraPosition": "白袍将军 + 侧面平视跟随",
+              "composition": "中心构图",
+              "eyeline": "地上的妇人与襁褓",
+              "focus": "锁定捞起母子的一瞬",
+              "stability": "slight-shake"
+            },
+            {
+              "beats": [
+                7,
+                7
+              ],
+              "seconds": 3,
+              "size": "close",
+              "camera": "Static Shot",
+              "characters": [
+                "C11"
+              ],
+              "frame": "特写，赵云在马背上俯身朝妇人大声叮嘱，眼神急切真挚，白袍在风里翻卷，身后溃兵往来",
+              "shot": "固定镜头近切，白袍小将侧过头，声音急切而有力，叮嘱马背上的妇人把怀里的孩子抱紧",
+              "lens": "85mm 长焦，浅景深",
+              "cameraPosition": "白袍小将 + 平视正面",
+              "composition": "三分法",
+              "eyeline": "马背上的妇人",
+              "focus": "锁定白袍小将面部",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                8,
+                9
+              ],
+              "seconds": 5,
+              "size": "medium",
+              "camera": "Static Shot",
+              "characters": [
+                "C11"
+              ],
+              "frame": "中景，搜索的曹军从两翼合拢过来刀枪齐举，赵云夹紧马腹枪出如龙，挑开两柄长刀，踏着败草夺路而走",
+              "shot": "固定镜头，两翼敌军举刀合拢，白袍小将夹紧马腹一抢挑开两柄长刀，趁着破口踏着败草冲出去夺路而走",
+              "lens": "50mm 标准，中浅景深",
+              "cameraPosition": "白袍小将 + 平视侧面",
+              "composition": "三分法",
+              "eyeline": "两翼合拢的敌兵",
+              "focus": "锁定挑开双刀的风/枪影",
+              "stability": "stable"
+            }
+          ],
+          "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 5.00-second mark of the target video; Picture 3 (from Shot 3) aligns with the 8.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] A tracking shot sweeps with <Picture 2> as the rescued mother with a baby in arms is jostled down amid the mob; the white-robed general reaches the spot, leans from the saddle and scoops the woman and the swaddled infant onto the horse in one steady movement.\n[Shot 2] At 00:05.000, The close framing of <Picture 3> holds on the young general leaning toward the woman on horseback; static shot, and the white-robed general with a tense, urgent voice (S1) presses on: <d>[Chinese] 抱紧孩子，千万别撒手。</d>\n[Shot 3] At 00:08.000, Under <Picture 4>, enemy soldiers close in from both flanks raising their arms; over a static shot the white-robed general kicks the horse and sweeps his spear, knocking aside two blades and surging through the gap across the trampled grass and away.\n\noverall_soundscape: A muffled commotion of shouldered bodies and raised voices, one short frightened cry swallowed by hoofbeats, then the ring of blades.\n\nnon_diegetic_music: A driven low percussion and string line pressing at a fast tempo.",
+          "blocking": "画面以张开的战场为底：白袍将军居右，拥着妇人的乱兵挤在正中，妇人抱着襁褓在左侧被人潮冲翻。",
+          "soundscape": "推向高处的人声与推搡声，妇人一声短促的惊呼被急促马蹄掩过，随后金铁交鸣",
+          "music": "急促鼓点的一条低音线快节奏压场，随冲突起伏"
+        },
+        {
+          "id": "E41-03",
+          "sceneIndex": 1,
+          "cuts": [
+            {
+              "beats": [
+                10,
+                10
+              ],
+              "seconds": 3,
+              "size": "wide",
+              "camera": "Static Shot",
+              "characters": [
+                "C04"
+              ],
+              "frame": "全景，高坡上一名曹军统帅在伞盖下列马远望，捋须不动声色，背后旌旗猎猎，远处是乱阵战场",
+              "shot": "固定镜头远景，一名披重甲的统帅骑在马上立在伞盖下远眺战场，手捋胡须不开口，旌旗在他头顶翻卷",
+              "lens": "35mm 广角，中景深",
+              "cameraPosition": "统帅 + 平视仰角度",
+              "composition": "对角线构图",
+              "eyeline": "远处的战场",
+              "focus": "锁定伞盖下统帅侧影",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                11,
+                11
+              ],
+              "seconds": 3,
+              "size": "close",
+              "camera": "Push In",
+              "characters": [
+                "C04"
+              ],
+              "frame": "特写，曹操眯眼望着乱阵里那道越战越勇的白影，若有所思地缓缓开口，眉眼间有审视与惜才",
+              "shot": "镜头小幅缓推，统帅眯着眼望向战场里那道不停冲杀的白影，缓缓开口，语气里有难掩的叹惜",
+              "lens": "85mm 长焦，极浅景深",
+              "cameraPosition": "统帅 + 平视正面",
+              "composition": "三分法",
+              "eyeline": "战场里的白影",
+              "focus": "锁定统帅眉眼",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                12,
+                13
+              ],
+              "seconds": 5,
+              "size": "close",
+              "camera": "Static Shot",
+              "characters": [
+                "C04"
+              ],
+              "frame": "特写，曹操身边偏将已张弓搭箭，曹操抬手按住他的腕子，语气笃定地说完下半句，眼底是活擒的算计",
+              "shot": "固定镜头，身侧一名将领已张弓要放箭，统帅抬手按住对方腕子，语气笃定地改主意，目光仍盯在战场那点白影上",
+              "lens": "85mm 长焦，极浅景深",
+              "cameraPosition": "统帅与偏将 + 平视正侧面",
+              "composition": "三分法",
+              "eyeline": "按住腕子的手，再移向战场",
+              "focus": "锁定按住腕子的手",
+              "stability": "stable"
+            }
+          ],
+          "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 3.00-second mark of the target video; Picture 3 (from Shot 3) aligns with the 6.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] <Picture 1> frames the high slope: a heavy-robed warlord sits on horseback under a canopy gazing down at the distant melee; static shot, fondling his beard without a word while a banner stirs overhead.\n[Shot 2] At 00:03.000, A slow push in with small amplitude closes on <Picture 2>: the warlord narrows his eyes at the white flash still fighting in the field, and with a measured, grudging voice (S2) murmurs: <d>[Chinese] 这等好身手，偏跟了刘备。</d>\n[Shot 3] At 00:06.000, Keeper of <Picture 3>: a nearby officer raises a bow to shoot, but the warlord lifts a hand to press down on his wrist; over a static shot the warlord with a cool, decisive voice (S2) decides: <d>[Chinese] 生擒活虎，强过杀只死虎。</d>\n\noverall_soundscape: Distant battle cries and horses from across the field, wind over the canopy, banners snapping, while the space around the warlord stays near-silent.\n\nnon_diegetic_music: Low strings holding beneath at a slow tempo, allowing a pause for judgment.",
+          "blocking": "高坡上，曹操居画面左侧骑于伞盖下远眺战场，右侧远处是乱阵里的白袍小将；偏将立曹操身侧稍后。",
+          "soundscape": "战场远处的人喊马嘶与风声，曹操面前一片相对安静，只有旌旗猎猎",
+          "music": "低沉弦乐托底，速度偏慢，透出一丝审视的余地"
+        },
+        {
+          "id": "E41-04",
+          "sceneIndex": 1,
+          "cuts": [
+            {
+              "beats": [
+                14,
+                14
+              ],
+              "seconds": 2,
+              "size": "extreme-close",
+              "camera": "Static Shot",
+              "characters": [
+                "C11"
+              ],
+              "frame": "大特写，赵云身前的襁褓松脱了半截，他回首探臂回护，堪堪把襁褓扶稳，指节扣进包布",
+              "shot": "固定镜头插入特写，马背上的襁褓滑松了半截，白袍将军回头探臂，稳稳把襁褓扶回原位",
+              "lens": "100mm 微距，极浅景深",
+              "cameraPosition": "襁褓 + 平视",
+              "composition": "中心构图",
+              "eyeline": "回护襁褓的手",
+              "focus": "锁定扣住包布的指节",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                15,
+                16
+              ],
+              "seconds": 5,
+              "size": "wide",
+              "camera": "Static Shot",
+              "characters": [
+                "C11"
+              ],
+              "frame": "全景，坡下曹军一队接一队涌上来，赵云护着马背上的母子且战且走，白袍渐渐被血染透，一名偏将趁侧里偷袭他又回马架住",
+              "shot": "固定镜头，敌军一队接一队涌上，白袍将军护着马背上的母子边战边走，血渐渐洇上白袍；一名偏将侧里偷袭，他回马一枪架住并把长刀荡开",
+              "lens": "35mm 广角，中景深",
+              "cameraPosition": "战场全景 + 平视",
+              "composition": "对角线构图",
+              "eyeline": "涌上来的敌阵",
+              "focus": "锁定白袍将军苦战的身影",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                17,
+                18
+              ],
+              "seconds": 5,
+              "size": "medium",
+              "camera": "Static Shot",
+              "characters": [
+                "C11"
+              ],
+              "frame": "中景，马背上妇人被颠得抱不稳，赵云探出空出的那只手腕稳托住她臂弯，同时侧目紧盯又从两翼包抄上来的曹军",
+              "shot": "固定镜头中景，马上的妇人被颠得身形摇晃，白袍将军探出空手稳稳托住她臂弯，眼睛却仍盯着两翼包抄上来的敌军",
+              "lens": "50mm 标准，中浅景深",
+              "cameraPosition": "白袍将军与妇人 + 平视侧面",
+              "composition": "三分法",
+              "eyeline": "先看妇人再看两翼敌兵",
+              "focus": "锁定托住臂弯的手",
+              "stability": "stable"
+            }
+          ],
+          "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 2.00-second mark of the target video; Picture 3 (from Shot 3) aligns with the 7.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] The extreme-close insert of <Picture 1> lands: the swaddled bundle slips half open on the horse, and the white-robed general reaches back with one arm, static shot, steadying it with fingers hooked into the cloth.\n[Shot 2] At 00:02.000, The wide framing of <Picture 2> holds as enemy ranks flood up in waves; static shot, the white-robed general shields the mother and child on horseback while fighting and retreating, blood spotting his white robe, and when a rider strikes from the side he wheels and locks the spear against the blade, flinging it aside.\n[Shot 3] At 00:07.000, <Picture 3> holds mid-frame: rocked in the saddle, the woman sways and the white-robed general reaches out his free hand to steady her arm; over a static shot, his eyes stay fixed on the enemy closing from both sides.\n\noverall_soundscape: Continuous hoofbeats, wind rolling over the field, distant clatter of arms and shouting, the steady stilled breath of the woman bracing herself.\n\nnon_diegetic_music: Tight low drums and strings flowing evenly, forward pressure.",
+          "blocking": "中近景围绕白袍将军：他在画面中央马上，襁褓搭在身前马背上，妇人与他一前一后；两侧远处是合拢的敌兵。",
+          "soundscape": "马蹄声不断，风声卷过，远处兵刃叮当与喊杀，偶有妇人稳定的呼吸声",
+          "music": "节奏紧促的低音鼓与弦乐平滑推进"
+        },
+        {
+          "id": "E41-05",
+          "sceneIndex": 1,
+          "cuts": [
+            {
+              "beats": [
+                19,
+                19
+              ],
+              "seconds": 4,
+              "size": "close",
+              "camera": "Static Shot",
+              "characters": [
+                "C11"
+              ],
+              "frame": "特写，赵云边战边朝马背上的妇人沉声交代，眼神坚毅，血点溅在脸颊，热气在烟尘里蒸腾",
+              "shot": "固定镜头近切，白袍小将边战边侧头，声音沉而稳，向马背上的妇人下着一句重诺",
+              "lens": "85mm 长焦，极浅景深",
+              "cameraPosition": "白袍小将 + 平视正面",
+              "composition": "三分法",
+              "eyeline": "马背上的妇人",
+              "focus": "锁定白袍小将眼神",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                20,
+                20
+              ],
+              "seconds": 3,
+              "size": "close",
+              "camera": "Static Shot",
+              "characters": [
+                "C04"
+              ],
+              "frame": "特写，高坡上曹操望着乱阵里那道越战越勇的白影，眼底浮起一丝难掩的赞许，微微眯眼",
+              "shot": "固定镜头近切，统帅望着乱阵里越战越勇的白影，眼底滑过一丝藏不住的赞许，没有喝彩也没有动作",
+              "lens": "85mm 长焦，极浅景深",
+              "cameraPosition": "统帅 + 平视正面",
+              "composition": "三分法",
+              "eyeline": "阵中白影",
+              "focus": "锁定统帅眼底",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                21,
+                21
+              ],
+              "seconds": 3,
+              "size": "close",
+              "camera": "Push In",
+              "characters": [
+                "C04"
+              ],
+              "frame": "特写，曹操低低叹道那句夸赞，眉头微动，语气里听得出真正的可惜，伞影投在半张脸上",
+              "shot": "镜头小幅缓推，统帅半张脸落在伞影里，低声自语般叹出一句，眉眼间是真的惋惜",
+              "lens": "85mm 长焦，极浅景深",
+              "cameraPosition": "统帅 + 平视正面",
+              "composition": "三分法",
+              "eyeline": "阵中白影",
+              "focus": "锁定统帅眉目",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                22,
+                23
+              ],
+              "seconds": 5,
+              "size": "wide",
+              "camera": "Static Shot",
+              "characters": [
+                "C11"
+              ],
+              "frame": "全景，赵云硬冲开一道口子，前头又有伏兵举旗拦住，马鬃上滴着血，他俯身扫起地上一杆断枪扬手掷出，把拦路的旗手放翻",
+              "shot": "固定镜头，白袍将军硬冲开一道口子，前头伏兵举旗拦住，他俯身捞起地上一杆断枪扬手掷出，正中旗手将其放翻",
+              "lens": "35mm 广角，中景深",
+              "cameraPosition": "战场 + 平视侧面",
+              "composition": "对角线构图",
+              "eyeline": "拦路的伏兵旗手",
+              "focus": "锁定掷出的断枪",
+              "stability": "stable"
+            }
+          ],
+          "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 4.00-second mark of the target video; Picture 3 (from Shot 3) aligns with the 7.00-second mark of the target video; Picture 4 (from Shot 4) aligns with the 10.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] The close-up of <Picture 4> holds on the young general mid-battle; static shot, and the white-robed general with a low, firm voice (S1) promises: <d>[Chinese] 抱牢这孩子，天塌不塌，都有我。</d>\n[Shot 2] At 00:04.000, A static shot close-up of <Picture 5>: watching the white figure fight harder through the chaos, the warlord lets a flash of unconcealed approval rise in his eyes and gives no order.\n[Shot 3] At 00:07.000, A slow push in with small amplitude on <Picture 6>: half his face in the canopy shadow, the warlord sighs out the line to himself, and with a low, sincerely reluctant voice (S2) says: <d>[Chinese] 这般忠勇，偏偏跟了刘备。</d>\n[Shot 4] At 00:10.000, Holding the wide of <Picture 7>, the white-robed general forces open a gap but a flag-carrier blocks ahead; static shot, blood dripping from the horse-tongue, he scoops a broken pike off the ground and hurls it, knocking the standard-bearer down.\n\noverall_soundscape: Rising wind, drumming hooves, the hush of cloth around the swaddled child, shouting thinning in the distance.\n\nnon_diegetic_music: A low string line rising and easing with the mood, middle tempo, easing as a gap opens.",
+          "blocking": "反复在战场白袍将军与大坡伞盖下统帅之间切换：白袍在右中景，统帅居左近景，两者隔着千里战场呼应。",
+          "soundscape": "骤起的风声，马蹄声，妇人抱住襁褓的闷声，远处喊杀渐稀",
+          "music": "一段低音弦乐随情绪起伏，中速，转散开的口子时略收"
+        },
+        {
+          "id": "E41-06",
+          "sceneIndex": 1,
+          "cuts": [
+            {
+              "beats": [
+                24,
+                25
+              ],
+              "seconds": 5,
+              "size": "wide",
+              "camera": "Tracking Shot",
+              "characters": [
+                "C11"
+              ],
+              "frame": "全景，曹军人墙裂开一隙，赵云从那道缝里一蹿而过直插村林，身后追兵不歇，他头也不回把马催得更急，蹄下尘土高高扬起",
+              "shot": "镜头平稳跟随，敌军阵墙裂开一道缝，白袍将军策马从那道缝里一冲而过直插村林，身后追兵不停，他头也不回只管催马，蹄下尘土高扬",
+              "lens": "35mm 广角，中景深",
+              "cameraPosition": "白袍将军 + 侧面平视跟随",
+              "composition": "中心构图",
+              "eyeline": "村林方向",
+              "focus": "锁定奔马与扬起尘土",
+              "stability": "slight-shake"
+            },
+            {
+              "beats": [
+                26,
+                26
+              ],
+              "seconds": 3,
+              "size": "medium",
+              "camera": "Static Shot",
+              "characters": [
+                "C11"
+              ],
+              "frame": "中景，赵云单手拢住襁褓，把枪横在身前，又一次荡开扑上来的乱兵，落叶被马蹄惊起",
+              "shot": "固定镜头中景，白袍将军单手拢住襁褓，把长枪横在身前，随手一挥荡开扑上来的乱兵",
+              "lens": "50mm 标准，中浅景深",
+              "cameraPosition": "白袍将军 + 平视侧面",
+              "composition": "三分法",
+              "eyeline": "扑上来的乱兵",
+              "focus": "锁定横枪荡敌的轨迹",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                27,
+                27
+              ],
+              "seconds": 3,
+              "size": "close",
+              "camera": "Static Shot",
+              "characters": [
+                "C11"
+              ],
+              "frame": "特写，马背上妇人勉力回头望一眼来路，又低头紧紧搂住怀里的襁褓，长长舒了口气，眉眼疲惫",
+              "shot": "固定镜头近切，马背上的妇人艰难回头看了一眼来路，又低头把襁褓搂得更紧，长长吐出一口气",
+              "lens": "85mm 长焦，极浅景深",
+              "cameraPosition": "妇人 + 平视正面",
+              "composition": "中心构图",
+              "eyeline": "怀中的襁褓",
+              "focus": "锁定妇人眉眼",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                28,
+                29
+              ],
+              "seconds": 4,
+              "size": "medium",
+              "camera": "Static Shot",
+              "characters": [
+                "C11"
+              ],
+              "frame": "中景，赵云怒吼一句挡路者让开，随即一杆短枪扎过他肋下，血顺着甲缝淌下，他咬紧牙关没吭声仍冲杀",
+              "shot": "固定镜头中景，白袍将军怒喝让挡路者让开，一杆短枪却扎进他肋下，血顺着甲缝往下淌，他咬着牙关一声不吭仍往前冲",
+              "lens": "50mm 标准，中浅景深",
+              "cameraPosition": "白袍将军 + 平视正面",
+              "composition": "三分法",
+              "eyeline": "挡路的敌兵",
+              "focus": "锁定肋下流血仍不退的侧颈",
+              "stability": "stable"
+            }
+          ],
+          "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 5.00-second mark of the target video; Picture 3 (from Shot 3) aligns with the 8.00-second mark of the target video; Picture 4 (from Shot 4) aligns with the 11.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] A tracking shot follows <Picture 2> across: the enemy wall splits open and the white-robed general spurts through the gap straight into the trees, pursuers unrelenting behind; he never looks back, kicking the horse faster with dust flying high from its hooves.\n[Shot 2] At 00:05.000, <Picture 3> holds mid-frame: with one hand clasping the bundle and the spear held crosswise, static shot, the white-robed general sweeps the shaft and knocks away a soldier lunging in.\n[Shot 3] At 00:08.000, A static shot close-up of <Picture 4>: the woman on horseback glances back once at the road behind, then bows and clutches the swaddled child tighter, letting out a long held breath.\n[Shot 4] At 00:11.000, Holding <Picture 5> mid-frame, the white-robed general roars at those blocking his path; static shot — a short spear grazes under his ribs and blood runs down the armor seam, but he clenches his jaw and keeps charging without a sound: with a fierce voice (S1) he shouts: <d>[Chinese] 挡我路的，都让开！</d>\n\noverall_soundscape: Hoofbeats tight as rain, wind rising faster, pursuers shouting at a held distance, one thin infant cry through the cloth.\n\nnon_diegetic_music: A fast-tempo low-string line driving forward, tension drawn toward its peak.",
+          "blocking": "白袍将军居中正面策马，身后追兵成一线压低视角；妇人缩在他身后马背上，村林的绿影在画面深处。",
+          "soundscape": "马蹄紧凑如雨点，风声愈急，追兵的喊杀保持一段距离，襁褓里偶有一声微弱啼哭",
+          "music": "快节奏低音弦乐一路推进，张力拉满快到顶点"
+        },
+        {
+          "id": "E41-07",
+          "sceneIndex": 1,
+          "cuts": [
+            {
+              "beats": [
+                30,
+                30
+              ],
+              "seconds": 3,
+              "size": "wide",
+              "camera": "Static Shot",
+              "characters": [
+                "C11"
+              ],
+              "frame": "全景，赵云兜转马头，赶在合围合拢前一隙，硬生生从人缝里撕开一条路，马蹄将尘土卷成一片",
+              "shot": "固定镜头，白袍将军猛地兜转马头，趁四面合围尚未锤拢的那道窄缝，硬生生从人缝里撕出一条去路",
+              "lens": "35mm 广角，中景深",
+              "cameraPosition": "战场全景 + 平视",
+              "composition": "对角线构图",
+              "eyeline": "合围前的窄缝",
+              "focus": "锁定撕开去路的骑影",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                31,
+                31
+              ],
+              "seconds": 3,
+              "size": "close",
+              "camera": "Static Shot",
+              "characters": [
+                "C04"
+              ],
+              "frame": "特写，身后曹操望着那道越去越远的背影久久没有移开目光，伞影里神情复杂，欲言又止",
+              "shot": "固定镜头近切，统帅望着那道越去越远的背影，久久没有移开目光，半张脸隐在伞影里欲言又止",
+              "lens": "85mm 长焦，极浅景深",
+              "cameraPosition": "统帅 + 平视正面",
+              "composition": "三分法",
+              "eyeline": "那道远去背影的方向",
+              "focus": "锁定统帅眼神",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                32,
+                32
+              ],
+              "seconds": 4,
+              "size": "extreme-wide",
+              "camera": "Static Shot",
+              "characters": [
+                "C11"
+              ],
+              "frame": "大远景，赵云催马跃上土坎勒住嚼环四下一望，暮色烟尘里怀里的襁褓忽然传出嘤嘤啼声，他低头护住襁褓",
+              "shot": "固定镜头远景，白袍将军催马跃上土坎勒住马环四下一望，马背上的襁褓忽然传来嘤嘤啼声，他低头伸手护住那团布包",
+              "lens": "35mm 广角，中景深",
+              "cameraPosition": "土坎远景 + 平视略仰",
+              "composition": "三分法",
+              "eyeline": "襁褓再望向四野",
+              "focus": "锁定护住襁褓的手",
+              "stability": "stable"
+            }
+          ],
+          "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 3.00-second mark of the target video; Picture 3 (from Shot 3) aligns with the 6.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] The wide of <Picture 1> holds as the white-robed general reins the horse hard around and, before the ring can close, wrenches sideways and tears a path through the press; static shot, dust swept into a sheet by the hooves.\n[Shot 2] At 00:03.000, A static shot close-up of <Picture 2>: watching the fading figure grow small, the warlord holds his gaze on it for a long moment, one side of his face in the canopy shadow, as though about to speak and stopping.\n[Shot 3] At 00:06.000, The extreme wide of <Picture 3> closes the scene: the white-robed general spurs up a dirt rise and checks the horse, scanning the smoke-veiled plain, when a thin wail rises from the bundle; static shot, he bows his head and shields the cloth with his hand.\n\noverall_soundscape: Pursuit fading behind, hooves slowing, wind over open fields, one clear infant cry through the swaddling.\n\nnon_diegetic_music: Low strings largely recede, a thread of tension left, softening as the cry resolves.",
+          "blocking": "白袍将军在画面中央向土坎奔去，身后坡上是伞盖下统帅的远景剪影，一条尘线横贯画面。",
+          "soundscape": "追兵声在远处渐渐拉远，马蹄放缓，风声田野，襁褓里传来一声清亮的啼哭",
+          "music": "低音弦乐撤走大部，只留一缕张力，随啼哭声收尾"
+        },
+        {
+          "id": "E41-08",
+          "sceneIndex": 2,
+          "cuts": [
+            {
+              "beats": [
+                1,
+                1
+              ],
+              "seconds": 3,
+              "size": "wide",
+              "camera": "Static Shot",
+              "characters": [
+                "C01"
+              ],
+              "frame": "全景，林边一株枯树下刘备并马立着，远远望见血淋淋的赵云驰近，眼眶陡然发热，身后是隐入林的车驾",
+              "shot": "固定镜头，一名布袍主公并马立在枯树下，远远望见一身血迹的将军驰近，眼眶一下发红，喉头动了动",
+              "lens": "35mm 广角，中景深",
+              "cameraPosition": "主公 + 平视侧面",
+              "composition": "三分法",
+              "eyeline": "来路方向",
+              "focus": "锁定主公泛红的眼眶",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                2,
+                3
+              ],
+              "seconds": 5,
+              "size": "medium",
+              "camera": "Static Shot",
+              "characters": [
+                "C01",
+                "C11"
+              ],
+              "frame": "中景，赵云滚鞍下马踉跄一步单膝跪地，把襁褓举到刘备面前，刘备下马趋前接住，两人相距一步",
+              "shot": "固定镜头中景，白袍将军滚鞍下马踉跄一步单膝跪地，把襁褓高高举到主公面前；主公下马迎上一步，伸手去接",
+              "lens": "50mm 标准，中浅景深",
+              "cameraPosition": "双人 + 平视侧面",
+              "composition": "三分法",
+              "eyeline": "主公先看襁褓再看将军",
+              "focus": "锁定交接襁褓的双手",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                4,
+                4
+              ],
+              "seconds": 4,
+              "size": "close",
+              "camera": "Static Shot",
+              "characters": [
+                "C01",
+                "C11"
+              ],
+              "frame": "特写，刘备捧过襁褓见婴儿睡得正香，悬着的心才放下，眼里的泪光被压回，指腹摩过襁褓布料",
+              "shot": "固定镜头近切，主公捧过襁褓，见里头婴儿睡得安稳，一颗提着的心才落下，眉眼松开，指腹轻轻摩过包布的边",
+              "lens": "85mm 长焦，极浅景深",
+              "cameraPosition": "主公 + 平视正面",
+              "composition": "中心构图",
+              "eyeline": "怀中的襁褓",
+              "focus": "锁定襁褓与主公眉眼",
+              "stability": "stable"
+            }
+          ],
+          "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 3.00-second mark of the target video; Picture 3 (from Shot 3) aligns with the 8.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] <Picture 1> frames the clearing: a lord in plain robes sits on horseback under a bare tree and, seeing the blood-soaked rider drawing near, his eyes suddenly glisten; static shot.\n[Shot 2] At 00:03.000, Holding <Picture 2> of the two men, the white-robed general slips from the saddle, stumbles and drops to one knee, lifting the bundled child toward the lord; over a static shot the lord dismounts and steps forward to receive it, and the general with a winded, loyal voice (S1) reports: <d>[Chinese] 幼主在此，末将护主来迟。</d>\n[Shot 3] At 00:08.000, A static shot close-up of <Picture 3>: holding the bundle, the lord sees the infant asleep and the tension drains from his face, thumb brushing the cloth edge, relieved.\n\noverall_soundscape: Hoofbeats approaching then stopping, wind and birds startled from the grove, the rustle of cloth as the lord dismounts.\n\nnon_diegetic_music: Soft low strings at a moderate-slow tempo, a hint of warmth after the ordeal.",
+          "blocking": "林边一株枯树下，主公居左持缰立马，右侧来路上一身血的白袍将军正驰近；两人之间隔着七八步。",
+          "soundscape": "马蹄渐近又停，风声与村林鸟儿被惊起，主公布袍窸窣下马",
+          "music": "缓下来的低音弦乐，中慢速，透出劫后的一点暖"
+        },
+        {
+          "id": "E41-09",
+          "sceneIndex": 2,
+          "cuts": [
+            {
+              "beats": [
+                5,
+                5
+              ],
+              "seconds": 4,
+              "size": "close",
+              "camera": "Push In",
+              "characters": [
+                "C01"
+              ],
+              "frame": "特写，刘备看着赵云一身是血，声音发哽地说，眼眶又红，眉间是说不出的心疼与自责",
+              "shot": "镜头小幅缓推，主公看着将军一身血衣，声音发哽地开口，喉咙里压着心疼，眼眶又红了一层",
+              "lens": "85mm 长焦，极浅景深",
+              "cameraPosition": "主公 + 平视正面",
+              "composition": "三分法",
+              "eyeline": "将军身上的血",
+              "focus": "锁定主公泛红的眉眼",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                6,
+                6
+              ],
+              "seconds": 3,
+              "size": "close",
+              "camera": "Static Shot",
+              "characters": [
+                "C11"
+              ],
+              "frame": "特写，赵云张了张嘴没有答话，只伸手替刘备把襁褓上渗出的血珠轻轻抹去，神情疲惫而坦荡",
+              "shot": "固定镜头近切，白袍将军张了张嘴没答话，只抬手替主公把襁褓上渗出的血珠轻轻抹掉",
+              "lens": "85mm 长焦，极浅景深",
+              "cameraPosition": "白袍将军 + 平视正面",
+              "composition": "三分法",
+              "eyeline": "襁褓上的血珠",
+              "focus": "锁定拭血的手指",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                7,
+                8
+              ],
+              "seconds": 5,
+              "size": "medium",
+              "camera": "Static Shot",
+              "characters": [
+                "C01",
+                "C11"
+              ],
+              "frame": "中景，刘备垂眼看着他肋下还在渗血的伤口，眼圈又热，声音低哑地问那一句，赵云拄枪稳住发软的双腿",
+              "shot": "固定镜头中景，主公垂眼盯着将军肋下那道还在渗血的伤口，眼圈又是一热，低哑地追问；将军拄着长枪稳住打颤的腿",
+              "lens": "50mm 标准，中浅景深",
+              "cameraPosition": "双人 + 平视侧面",
+              "composition": "三分法",
+              "eyeline": "伤口再抬向对方",
+              "focus": "锁定肋下伤口",
+              "stability": "stable"
+            }
+          ],
+          "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 4.00-second mark of the target video; Picture 3 (from Shot 3) aligns with the 7.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] A slow push in with small amplitude closes on <Picture 2>: the lord looks over the young man drenched in blood, voice catching, and with a choked, tender voice (S2) says: <d>[Chinese] 子龙，你这一身血，为的是我儿子。</d>\n[Shot 2] At 00:04.000, A static shot close-up of <Picture 3>: the young general opens his mouth and says nothing, only reaches out to wipe a stray drop of blood from the cloth with a finger, weary and unguarded.\n[Shot 3] At 00:07.000, Holding <Picture 4> of both men, the lord looks down at the wound still seeping under the young man’s ribs and his eyes redden again; over a static shot, with a husky voice (S2) he asks: <d>[Chinese] 你这一身伤，闯了多少道关。</d>\n\noverall_soundscape: Breeze through the grove, the rub of silk cloth, a stray drip of blood, the two men breathing.\n\nnon_diegetic_music: Slow flowing low strings, somber and warm.",
+          "blocking": "二人面对面拉着距离：主公居左自持，白袍将军居右柱枪立着；换气的近景在两脸之间来回切。",
+          "soundscape": "林间风声、怀抱薄绢的窸窣，血珠滴落的轻响，彼此的呼吸声",
+          "music": "低音弦乐慢速流转，情绪沉郁而温暖"
+        },
+        {
+          "id": "E41-10",
+          "sceneIndex": 2,
+          "cuts": [
+            {
+              "beats": [
+                9,
+                10
+              ],
+              "seconds": 5,
+              "size": "medium",
+              "camera": "Static Shot",
+              "characters": [
+                "C11"
+              ],
+              "frame": "中景，赵云扯了扯嘴角把长枪往地上一拄稳住发软的双腿，喘匀一口气才答，语气里是守成的一线坚持",
+              "shot": "固定镜头中景，白袍将军扯了扯嘴角，把长枪往地上一拄稳了身子，喘匀一口气，才慢慢答上一句",
+              "lens": "50mm 标准，中浅景深",
+              "cameraPosition": "白袍将军 + 平视正面",
+              "composition": "三分法",
+              "eyeline": "主公的面容",
+              "focus": "锁定将军憋着的那口气",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                11,
+                11
+              ],
+              "seconds": 3,
+              "size": "close",
+              "camera": "Static Shot",
+              "characters": [
+                "C01"
+              ],
+              "frame": "特写，刘备替他把额上的血汗一抹，随即抬眼望向天边压过来的尘头，神色又冷了下来",
+              "shot": "固定镜头近切，主公抬手替将军抹掉额上的血汗，随即抬眼望向外头压过来的尘头，神色一下收紧",
+              "lens": "85mm 长焦，极浅景深",
+              "cameraPosition": "主公 + 平视正面",
+              "composition": "三分法",
+              "eyeline": "天边的尘头",
+              "focus": "锁定主公转冷的眼神",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                12,
+                12
+              ],
+              "seconds": 5,
+              "size": "medium",
+              "camera": "Static Shot",
+              "characters": [
+                "C01"
+              ],
+              "frame": "中景，刘备望向压近的尘头沉声道，语气是军令也是关切，示意先裹伤，眉眼凝重",
+              "shot": "固定镜头中景，主公沉声叮嘱，风把他的袍角掀起来，语气里一半是军令一半是关切",
+              "lens": "50mm 标准，中浅景深",
+              "cameraPosition": "主公 + 平视正面",
+              "composition": "三分法",
+              "eyeline": "天边的尘头",
+              "focus": "锁定主公凝重的眉眼",
+              "stability": "stable"
+            }
+          ],
+          "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 5.00-second mark of the target video; Picture 3 (from Shot 3) aligns with the 8.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] <Picture 1> holds on the young general as he steadies himself on the planted spear and catches his breath; static shot, and with a quiet, dogged voice (S1) he answers: <d>[Chinese] 全凭一口气撑着，少主平安就好。</d>\n[Shot 2] At 00:05.000, A static shot close-up of <Picture 2>: the lord wipes the sweat and blood from the general’s brow, then lifts his eyes to the dust cloud pressing down from the distance, his bearing cooling at once.\n[Shot 3] At 00:08.000, Holding <Picture 3> on the lord, his eyes on the approaching dust, static shot, and with a grave, concerned voice (S2) he orders: <d>[Chinese] 曹军来得比风还快。先歇歇，把伤裹了。</d>\n\noverall_soundscape: Wind pressing harder, faint distant hoofbeats beyond the grove, the general letting out a long held breath.\n\nnon_diegetic_music: Low strings steadying on a single long tone, moderate-slow, withholding a decision.",
+          "blocking": "近景互换：白袍将军居右喇叭裹气，主公居左抬眼望向天边尘头；两人并肩而不再面对面。",
+          "soundscape": "风声更紧，远处尘头隐约的马蹄，将军长出一口气的呼吸声",
+          "music": "低音弦乐稳住一个长音，中慢速，蓄着下一步的决定"
+        },
+        {
+          "id": "E41-11",
+          "sceneIndex": 2,
+          "cuts": [
+            {
+              "beats": [
+                13,
+                13
+              ],
+              "seconds": 3,
+              "size": "wide",
+              "camera": "Static Shot",
+              "characters": [
+                "C11",
+                "C01"
+              ],
+              "frame": "全景，赵云顺着主公的目光望去，村林外的尘雾里又竖起几杆曹旗，军旗在风里猎猎",
+              "shot": "固定镜头，白袍将军顺着主公的目光望向村林外，尘雾里又竖起几杆敌幡，在风里猎猎摆动",
+              "lens": "35mm 广角，中景深",
+              "cameraPosition": "两人 + 平视侧面",
+              "composition": "三分法",
+              "eyeline": "村林外的曹旗",
+              "focus": "锁定尘雾里的旗",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                14,
+                14
+              ],
+              "seconds": 4,
+              "size": "close",
+              "camera": "Push In",
+              "characters": [
+                "C11"
+              ],
+              "frame": "特写，赵云把目光从敌旗上收回来，认真地看着少主，一字一句地应下这句话，语气滚烫",
+              "shot": "镜头小幅缓推，白袍将军把目光从敌旗收回，看着怀抱的少主一字一句应下，喉结滚了滚",
+              "lens": "85mm 长焦，极浅景深",
+              "cameraPosition": "白袍将军 + 平视正面",
+              "composition": "三分法",
+              "eyeline": "襁褓里的少主",
+              "focus": "锁定将军认真的神色",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                15,
+                16
+              ],
+              "seconds": 6,
+              "size": "wide",
+              "camera": "Static Shot",
+              "characters": [
+                "C01"
+              ],
+              "frame": "全景，刘备把婴儿交到身后护卫怀中，掉头望向尘雾滚滚的来路，声有牵挂地提到二弟三弟",
+              "shot": "固定镜头，主公把婴儿交到身后一名护卫怀里，掉头望向尘雾滚滚的来路，声音里带着牵挂",
+              "lens": "35mm 广角，中景深",
+              "cameraPosition": "主公 + 平视侧面",
+              "composition": "三分法",
+              "eyeline": "尘雾滚滚的来路",
+              "focus": "锁定主公望向来路的侧脸",
+              "stability": "stable"
+            }
+          ],
+          "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 3.00-second mark of the target video; Picture 3 (from Shot 3) aligns with the 7.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] The wide of <Picture 1> holds as the young general follows the lord’s gaze; static shot, beyond the village grove a few enemy banners rise again through the dusty haze, snapping in the wind.\n[Shot 2] At 00:03.000, A slow push in with small amplitude on <Picture 2>: tearing his gaze from the banners, the young general looks at the child in swaddling and answers earnestly, and with a warm, steadfast voice (S1) commits: <d>[Chinese] 少主安好，末将就没有白走这一遭。</d>\n[Shot 3] At 00:07.000, Holding the wide of <Picture 3>, the lord hands the child to a guard behind him and turns toward the rolling dust of the road; static shot, and with a worried voice (S2) he says: <d>[Chinese] 二弟三弟，还散在乱军里。</d>\n\noverall_soundscape: Distant hoofbeats and wind beyond the grove, the bundle giving a small sound, the two men breathing.\n\nnon_diegetic_music: Low strings building slowly, a faint undertone of unease.",
+          "blocking": "主公居左抱着襁褓回头望向村林外竖起的曹旗，白袍将军居右拄枪立着，两人同一朝向望向来路。",
+          "soundscape": "村林外的马蹄与风声，襁褓传出一点声响，两人的呼吸",
+          "music": "低音弦乐缓慢蓄势，带一丝不安的余韵"
+        },
+        {
+          "id": "E41-12",
+          "sceneIndex": 2,
+          "cuts": [
+            {
+              "beats": [
+                17,
+                17
+              ],
+              "seconds": 3,
+              "size": "medium",
+              "camera": "Static Shot",
+              "characters": [
+                "C11"
+              ],
+              "frame": "中景，赵云拄着长枪，一条腿就要往马镫上抬，作势要策马再杀回去寻人",
+              "shot": "固定镜头中景，白袍将军拄着长枪，一条腿已经抬向马镫，作势就要翻身上马杀回去",
+              "lens": "50mm 标准，中浅景深",
+              "cameraPosition": "白袍将军 + 平视侧面",
+              "composition": "三分法",
+              "eyeline": "来路方向",
+              "focus": "锁定抬向马镫的腿",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                18,
+                19
+              ],
+              "seconds": 6,
+              "size": "medium",
+              "camera": "Static Shot",
+              "characters": [
+                "C01",
+                "C11"
+              ],
+              "frame": "中景，赵云斩钉截铁承诺要去寻回二位将军，刘备一把按住他渗血的肋侧不放人，两人一个要冲一个要拦",
+              "shot": "固定镜头，白袍将军沉声立下死诺，就要催马；主公上前一把按住他渗血的肋侧，不肯放人",
+              "lens": "50mm 标准，中浅景深",
+              "cameraPosition": "双人 + 平视侧面",
+              "composition": "三分法",
+              "eyeline": "按住肋侧的手",
+              "focus": "锁定按住伤口的手",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                20,
+                21
+              ],
+              "seconds": 5,
+              "size": "medium",
+              "camera": "Static Shot",
+              "characters": [
+                "C01"
+              ],
+              "frame": "中景，刘备斩钉截铁只让他先裹伤不许再去，话音未落，远坡头一声号角响起，曹军旌旗从尘雾露出",
+              "shot": "固定镜头，主公一句话堵回，正说着，远处坡头骤然响起一声号角，敌军的旌旗从尘雾一角露了出来",
+              "lens": "35mm 广角，中景深",
+              "cameraPosition": "主公 + 平视正面",
+              "composition": "三分法",
+              "eyeline": "远坡头的号角方向",
+              "focus": "锁定主公与远处旗影",
+              "stability": "stable"
+            }
+          ],
+          "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 3.00-second mark of the target video; Picture 3 (from Shot 3) aligns with the 9.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] <Picture 1> holds as the young general plants the spear and lifts one leg toward the stirrup, poised to ride back; static shot.\n[Shot 2] At 00:03.000, Holding <Picture 2> of both men, the young general swears he will find the missing commanders no matter the cost; over a static shot the lord presses a hand firmly over the seeping ribs to hold him back, and the general with a determined voice (S1) insists: <d>[Chinese] 末将这就去寻，拼死也把二位将军带回来。</d>\n[Shot 3] At 00:09.000, The medium of <Picture 3> holds on the lord cutting him off; static shot — just then a horn blows on the far slope and an enemy banner edge shows through the dust; the lord with a firm, sharp voice (S2) orders: <d>[Chinese] 先裹伤，不许再去。</d>\n\noverall_soundscape: The stir of a foot toward the stirrup, the clutch of cloth against ribs, a dull horn sounding far off.\n\nnon_diegetic_music: A decisive low-string accent, then easing back to moderate-slow.",
+          "blocking": "白袍将军拄枪在右欲抬腿上马，主公主左一把按住他肋侧；背后是隐入村林的车驾与燃起的号角。",
+          "soundscape": "马蹄欲动的窸窣，主公按住肋侧衣料摩擦，远处一声号角沉闷响起",
+          "music": "低音弦乐一个斩钉截铁的重音，随即稳回中慢速"
+        },
+        {
+          "id": "E41-13",
+          "sceneIndex": 2,
+          "cuts": [
+            {
+              "beats": [
+                22,
+                23
+              ],
+              "seconds": 5,
+              "size": "wide",
+              "camera": "Static Shot",
+              "characters": [
+                "C01",
+                "C11"
+              ],
+              "frame": "全景，刘备上马举目望着那条越来越近的铁流眉头拧成深沟，赵云也抬头望去狠狠攥住长枪",
+              "shot": "固定镜头，主公上马举目望着越来越近的铁流，眉头拧成一道深沟；身边的将军也抬头望向那里，双手狠狠攥紧长枪",
+              "lens": "35mm 广角，中景深",
+              "cameraPosition": "两人 + 平视略仰",
+              "composition": "三分法",
+              "eyeline": "逼近的铁流",
+              "focus": "锁定两人凝望的侧影",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                24,
+                25
+              ],
+              "seconds": 5,
+              "size": "medium",
+              "camera": "Static Shot",
+              "characters": [
+                "C01",
+                "C11"
+              ],
+              "frame": "中景，刘备回身看一眼立在车前的护卫老小，又望向赵云，终究没有下令启程，两人立在林梢阴影下谁也没先开口",
+              "shot": "固定镜头，主公回头看了看车前的护卫与家小，又看了看身边的将军，终究没有下令启程；两人立在林影里沉默，谁都没先开口",
+              "lens": "50mm 标准，中浅景深",
+              "cameraPosition": "两人 + 平视侧面",
+              "composition": "对称构图",
+              "eyeline": "互相短暂交错，再看远方",
+              "focus": "锁定两人相望又沉默的一瞬",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                26,
+                27
+              ],
+              "seconds": 5,
+              "size": "wide",
+              "camera": "Static Shot",
+              "characters": [
+                "C01",
+                "C11"
+              ],
+              "frame": "全景，暮色压上长坂坡，风一阵紧似一阵把道上的尘土高高卷起，远处铁蹄声越来越响，两道剪影立在营地边",
+              "shot": "固定镜头远景，暮色压上坡头，风把道上的尘土高高卷起，远处铁蹄声越来越近，两道人影立在林边一动未动",
+              "lens": "35mm 广角，深景深",
+              "cameraPosition": "坡地远景 + 平视",
+              "composition": "三分法",
+              "eyeline": "逼来的铁蹄方向",
+              "focus": "锁定暮色里的两道剪影",
+              "stability": "stable"
+            }
+          ],
+          "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 5.00-second mark of the target video; Picture 3 (from Shot 3) aligns with the 10.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] The wide of <Picture 1> holds on the two men watching the iron column draw nearer; static shot, the lord’s brow knots into a deep furrow and the general beside him tightens his grip on the spear.\n[Shot 2] At 00:05.000, Holding <Picture 2> of both men, the lord glances back at the guards and dependents by the cart, then at the general, and gives no order to set out; static shot, the two stand in the grove shadow, neither speaking first.\n[Shot 3] At 00:10.000, The extreme wide of <Picture 3> closes the episode: dusk presses down over the slope and the wind whips the dust high off the road; static shot, the approaching hoofbeats grow louder while the two silhouettes stand motionless at the wood’s edge.\n\noverall_soundscape: Horn dying away, hoofbeats rolling closer and denser, dusk wind whipping dust while grove leaves hiss.\n\nnon_diegetic_music: Low strings holding, tightening as the hoofbeats near, letting down as dusk settles.",
+          "blocking": "两人并肩立在林梢阴影下望向那条越来越近的铁流：主公居左，将军居右双手都握在兵器上。",
+          "soundscape": "号角余音，铁蹄声由远及近越发密集，暮风卷尘土，林梢沙沙",
+          "music": "低音弦乐稳住，速度随铁蹄渐近期显收紧，收在暮色压上来处"
+        }
+      ]
+    }
+  ]
+}

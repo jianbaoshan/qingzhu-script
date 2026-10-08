@@ -1,0 +1,244 @@
+[
+  {
+    "id": "C01",
+    "name": "刘备",
+    "aliases": ["玄德", "刘玄德", "刘皇叔", "刘先主"],
+    "importance": "protagonist",
+    "oneLiner": "织席贩屦出身的汉室宗亲，性宽和、寡言语，靠一双过膝长手和至诚之心聚拢关、张与天下豪杰，是仁德之主。"
+
+    ,
+    "persona": {
+      "gender": "男",
+      "ageRange": "四十余岁（故事主体时段，推断）；登场时二十八岁",
+      "identity": "汉室宗亲（中山靖王之后、汉景帝玄孙），先布衣、后屡任州郡长官，终为蜀汉之主",
+      "appearance": "身长七尺五寸，生得面如冠玉、唇如涂脂，皮肤白净亮泽如脂玉。最特异处是两耳垂肩、双耳大而贴腮，目能自顾其耳；双手过膝，臂长超常（这些是原文明确的识别锚点）。喜怒常不形于色，眉目间自有一股仁厚之气。体态谈不上魁梧，靠气质与沉稳立住。（帝王冠冕、朝服等成型装束为推断设定。）",
+      "personality": ["仁厚", "宽和", "有耐性", "重情义"],
+      "temperament": "寡言语，喜怒不言于色；待人谦和诚恳，遇事沉稳，极少显急色，是人群里那个愿意先退一步、却从不动摇的人。",
+      "motivation": "以汉室宗亲之名讨贼安民、复汉兴祚，靠『兄弟如手足』收拢人心，把一穷二白的自己带成一方之主。",
+      "arc": "从织席贩履的汉室宗亲，经鞭督邮、三让徐州、携民渡江，到三顾请出诸葛亮，以『兄弟如手足』收拢人心，赤壁后仍秉结义之情。",
+      "relationships": [
+        { "name": "关羽", "relation": "桃园结义二弟，终生以兄弟相待" },
+        { "name": "张飞", "relation": "桃园结义三弟，义同生死" },
+        { "name": "诸葛亮", "relation": "三顾茅庐请出的军师，托付后事的臂膀" },
+        { "name": "曹操", "relation": "青梅煮酒的对饮之人，也是逐鹿天下的劲敌" }
+      ],
+      "evidence": [
+        "那人不甚好讀書；性寬和，寡言語，喜怒不言於色；素有大志，專好結交天下豪傑；生得身長七尺五寸，兩耳垂肩，雙手過膝，目能自顧其耳，面如冠玉，唇如塗脂；中山靖王劉勝之後，漢景帝閣下玄孫",
+        "玄德孤幼，事母至孝；家貧，販屨織席為業",
+        "玄德終是仁慈的人，急喝張飛住手"
+      ]
+    },
+
+    "image": {
+      "prompt": "Portrait of a Han Chinese nobleman, late Eastern Han dynasty, Central Plains of China, three-quarter bust view, plain neutral background. A self-made royal scion in his forties: gentle south, white-jade-clear smooth skin, extraordinary long earlobes hanging down past the jaw so the ear tips nearly touch the shoulders, unusually long arms with fingertips reaching below the knees, thin lips, sparse short beard and faint moustache, mild kind eyes slightly unequal in size, composed serene expression. Formal imperial-reserved garb: deep crimson and dark-green silk court robe with long flowing wide black sleeves, dragon-embroidered dark sash, layered high collar, tall flat-topped black cloth crown, plain white inner robe, modest fine fabric with simple neat trim, dignified not opulent. Soft directional key light from upper left with faint cool fill, shallow depth of field, face in sharpest focus.",
+      "promptLocal": "人物图：东汉末年、中国中原的一位皇室宗亲贵族，四分之三半身视角，中性纯背景。一位四十余岁、起于微末的皇家后裔：面容温和，皮肤白净亮泽如脂玉，两耳特大、耳垂及肩、耳尖近乎触肩，双臂超长、指尖过膝，唇薄，须疏而短、略留小须，眉眼柔和稍有大小差，神情沉静。正式而不失身份的装束：深绯与墨绿的丝绸朝袍、宽大的黑色长袖，玄色绣龙腰带，层叠高领，高平顶黑布冠，素白衬袍，衣料尚可而收边素净，端重而不奢华。左上柔和方向主光、辅以微冷补光、浅景深、面部最实。",
+      "negativePrompt": "all figures looking the same face, baby-face large eyes, over-smoothed plastic skin, perfectly symmetrical face, dead eyes without catchlights, helmet hair without loose strands, stiff mannequin pose, extra fingers, distorted limbs, malformed ears, text, watermark",
+      "tags": ["late Eastern Han", "Central Plains China", "crimson and dark green", "silk brocade", "jade-pale skin", "soft directional light", "court nobleman"],
+      "sheet": "ONE 16:9 landscape canvas for a single character model sheet, plain pure white background, divided by thin hairline rules into three zones. Subject: a Han Chinese royal scion of the late Eastern Han dynasty, Central Plains of China, in his forties, in a deep-crimson-and-dark-green silk court robe with wide black sleeves, dragon sash, layered high collar and a tall flat-topped black cloth crown; signature features to preserve in every view: very long earlobes reaching past the jaw, extremely long arms, fingertips past the knees, jade-pale smooth skin, modest sparse beard. LEFT ZONE, about 34% of the canvas width: one full bust portrait, face centered, three-quarter front, shoulders fully included, bottom edge straight and cleanly cropped, LIGHTING IN THE LEFT ZONE ONLY with a soft directional key light from the upper left, natural falloff, gentle ambient occlusion under the chin, brow sockets and collar; this bust is the face-design baseline. RIGHT-TOP ZONE: three full-body views side by side (front, side, back) standing on one shared horizon line, LIGHTING IN THE RIGHT ZONES: flat even orthographic lighting, no directional key, no cast shadows. PROPORTIONS ARE CRITICAL, all three figures equal height, same head-to-body ratio, correct limb lengths, both feet on the same horizon, headroom and clearance above and below, no stretching, squashing or foreshortening; the three-view faces must match the bust portrait exactly - same features, same hairstyle, same expression. RIGHT-BOTTOM ZONE: a row of four small isolated close-up studies of the signature details (the long pendant earlobes, the long hands, the tall black cloth crown, the dragon-embroidered sash); the detail studies give way along the right margin, not the figures.",
+      "negativePromptSheet": "two different faces in one sheet, stretched or squashed figures, missing shoulders on the bust, rounded or faded bottom edge, off-center bust, black background, gray background, text, watermark"
+    },
+
+    "voice": {
+      "timbre": "温厚圆润的男中音，声带松弛，带一点喉音",
+      "pitch": "中偏低",
+      "pace": "适中偏缓，字句清晰，语尾下沉",
+      "accent": "北方官话，口音偏中原、略含混不显棱角",
+      "emotion": "诚恳、宽和而沉稳",
+      "referenceHint": "像一个总在人群里先退一步、却从不动摇的仁厚之长",
+      "prompt": "40-year-old male, warm mellow baritone, mid-low pitch, soft rounded resonance with a touch of throatiness, modest volume. Moderate unhurried pace, clear articulation, gentle falling cadence at phrase ends. North-China standard Mandarin, mildly muted accent. Sincere, generous and calmly resolute."
+    }
+  },
+  {
+    "id": "C04",
+    "name": "曹操",
+    "aliases": ["孟德", "阿瞒", "曹丞相", "曹公"],
+    "importance": "major",
+    "oneLiner": "身长七尺、细眼长髯的乱世奸雄，幼好游猎喜歌舞、有权谋多机变，被许劭断为『治世之能臣，乱世之奸雄』，奉天子而号令诸侯。"
+
+    ,
+    "persona": {
+      "gender": "男",
+      "ageRange": "五十岁上下（故事主体时段，推断）；登场时二十余岁",
+      "identity": "沛国谯郡人，官至东汉丞相，挟天子以令诸侯的实际执权者",
+      "appearance": "身长七尺，生得细眼长髯——眼睛细窄、目光沉暗，蓄一部长髯垂胸（原文明确的识别锚点）。作相时体态沉实，气度威严，眉宇间带一股枭雄的冷峻。早年扮刺董壮士、后又为汉室丞相，中年后形貌稳重而心思深不可测。（相袍、进贤冠等成型装束为推断设定。）",
+      "personality": ["机敏", "多疑", "权变", "果决", "狂放"],
+      "temperament": "喜怒无常、城府极深，谈笑间藏杀机；于乱世中既极重情（待关羽、收降将）又极多疑（梦中杀人、宁我负人），是那种说得出『宁教我负天下人』的人。",
+      "motivation": "以丞相之位挟天子以令诸侯，荡平群雄、定鼎北方，成就梟雄霸业。",
+      "arc": "从刺董的壮士，经陈留起兵、迎献帝挟天子令诸侯，到青梅煮酒对刘备既招揽又忌惮，终赤壁大败、华容道被义释。",
+      "relationships": [
+        { "name": "刘备", "relation": "青梅煮酒的对饮之人，也是逐鹿中原的心腹劲敌" },
+        { "name": "董卓", "relation": "曾屈身侍奉、又谋借七星宝刀刺杀的对象" },
+        { "name": "袁绍", "relation": "少年旧交、同举义兵，后为官渡一决的宿敌" },
+        { "name": "王允", "relation": "借七星宝刀助其行刺董卓的老臣" }
+      ],
+      "evidence": [
+        "為首閃出一將：身長七尺，細眼長髯；官拜騎都尉；沛國譙郡人也，姓曹，名操，字孟德",
+        "操幼時，好游獵，喜歌舞；有權謀，多機變",
+        "汝南許劭，有知人之名。操往見之，問曰：「我何如人？」劭不答。又問，劭曰：「子治世之能臣，亂世之奸雄也。」操聞言大喜"
+      ]
+    },
+
+    "image": {
+      "prompt": "Portrait of a Han Chinese warlord-statesman, late Eastern Han dynasty, capital region of the Central Plains China, three-quarter bust view, plain neutral background. A commanding man in his late forties on a powerful frame: a pale weathered face marked by age, characterfully narrow slender eyes set in deep sockets with a shrewd guarded gaze, a long full grey-speckled beard reaching low on the chest, high cheekbones, slightly uneven eyebrows, quiet self-possessed air. Senior minister ceremonial attire: deep-black and dark-red silk chancellor's robe with wide sleeves and round-collar layers, brass-and-jade belt, tall lacquered black court hat (jinxian), plain dark under-robe, fine dense fabric kept immaculate. Soft directional key light from upper left with faint cool fill, shallow depth of field, face in sharpest focus.",
+      "promptLocal": "人物图：东汉末年、中国中原京畿地区的一位汉族军事政客，四分之三半身视角，中性纯背景。一位年近五十、体格雄沉、气度压人的男子：面色苍白瘦削而留岁月痕迹，眼睛细长深陷、目光精明而戒备，一部夹杂灰白的浓长须垂至胸前，颧骨高，眉略有高低之差，神情自持而深藏。相位重臣装束：玄黑与暗红的丝绸官袍、宽袖圆领叠层，铜玉革带，黑色漆质高冠（进贤冠），素暗里衬，衣料细密而保养精洁。左上柔和方向主光、辅以微冷补光、浅景深、面部最实。",
+      "negativePrompt": "all figures looking the same face, baby-face large eyes, over-smoothed plastic skin, perfectly symmetrical face, dead eyes without catchlights, helmet hair without loose strands, stiff mannequin pose, extra fingers, distorted limbs, clownish goatee, text, watermark",
+      "tags": ["late Eastern Han", "Central Plains China", "black and dark red", "dense silk brocade", "grey-speckled long beard", "slender narrow eyes", "soft directional light", "chancellor warlord"],
+      "sheet": "ONE 16:9 landscape canvas for a single character model sheet, plain pure white background, divided by thin hairline rules into three zones. Subject: a Han Chinese chancellor-warlord of the late Eastern Han dynasty, Central Plains China, late forties, heavy-set imposing frame, in a deep-black-and-dark-red silk chancellor's robe with wide sleeves, round-collar layers, brass-and-jade belt and a tall lacquered black court hat; signature features to preserve in every view: characterfully narrow slender eyes in deep sockets, long grey-speckled beard reaching low on the chest, pale weathered high-cheekboned face. LEFT ZONE, about 34% of the canvas width: one full bust portrait, face centered, three-quarter front, shoulders fully included, bottom edge straight and cleanly cropped, LIGHTING IN THE LEFT ZONE ONLY with a soft directional key light from the upper left, natural falloff, gentle ambient occlusion under the chin, brow sockets and collar; this bust is the face-design baseline. RIGHT-TOP ZONE: three full-body views side by side (front, side, back) standing on one shared horizon line, LIGHTING IN THE RIGHT ZONES: flat even orthographic lighting, no directional key, no cast shadows. PROPORTIONS ARE CRITICAL, all three figures equal height, same head-to-body ratio, correct limb lengths, both feet on the same horizon, headroom and clearance above and below, no stretching, squashing or foreshortening; the three-view faces must match the bust portrait exactly - same features, same hairstyle, same expression. RIGHT-BOTTOM ZONE: a row of four small isolated close-up studies of the signature details (the slender narrowed eyes, the long grey-speckled beard, the tall lacquered court hat, the brass-and-jade belt clasp); the detail studies give way along the right margin, not the figures.",
+      "negativePromptSheet": "two different faces in one sheet, stretched or squashed figures, missing shoulders on the bust, rounded or faded bottom edge, off-center bust, black background, gray background, text, watermark"
+    },
+
+    "voice": {
+      "timbre": "深沉沙哑的男低中音，共鸣很厚，带粗粝颗粒感",
+      "pitch": "低",
+      "pace": "平稳而威压，句与句之间留有意停顿",
+      "accent": "北方官话，略带中原枭雄的硬朗",
+      "emotion": "冷静、精明而带杀伐之气",
+      "referenceHint": "像一个说得出『宁教我负天下人』的枭雄",
+      "prompt": "50-year-old male, deep gravelly dark baritone, low pitch, strong full-chest support, wide dynamic range. Firm measured pace, deliberate pauses between phrases. North-China standard Mandarin with a hard edge. Cool, shrewd and commanding."
+    }
+  },
+  {
+    "id": "C10",
+    "name": "袁绍",
+    "aliases": ["本初", "袁本初", "袁公"],
+    "importance": "supporting",
+    "oneLiner": "字本初、四世三公的名门贵胄，曾为讨董盟主、雄踞河北，空负傲才与门阀之势，官渡乌巢一败而亡命的荆州遂衰。"
+
+    ,
+    "persona": {
+      "gender": "男",
+      "ageRange": "四十余岁（故事主体时段，推断）",
+      "identity": "司隶校尉出身，四世三公的汝南名门后裔，官渡时为冀州牧、河北霸主，讨董联军盟主",
+      "appearance": "身量长大而华贵，生得修眉俊目、仪容端重，留一部打理齐整的美髯，扮相贵气（原文未细写其貌，此段为推断）。举手投足皆有名门世家的端方，却常带一股盛气凌人的自负；作为雄踞一方的诸侯，惯以佩剑华服示人。（冀州牧/诸侯装束为推断设定。）",
+      "personality": ["自负", "好名", "优柔寡断", "色厉内荏", "有傲才"],
+      "temperament": "外示宽厚、内多猜疑，好虚名而寡决断；出身门阀让他既暗怨曹操寒微、又轻看草莽之雄，是那种会因容不得人才而自折羽翼的贵胄。",
+      "motivation": "凭四世三公的门望与河北大势，与曹操争天下、成一方霸业，却深受门第之见与优柔所困。",
+      "arc": "坐拥河北名门之势却空负傲才，官渡乌巢之败后败亡，反衬曹操枭雄。",
+      "relationships": [
+        { "name": "曹操", "relation": "少年旧交、同举义兵，后为官渡一决的宿敌" },
+        { "name": "董卓", "relation": "曾召集讨董联军、自任盟主的权臣" },
+        { "name": "许攸", "relation": "心怀怨恨、于官渡背主投曹的谋士" }
+      ],
+      "evidence": [
+        "乃司徒袁逢之子，袁隗之姪：名紹，字本初，見為司隸校尉",
+        "袁紹曰：「若不斬草除根，必為喪身之本。」進曰：「吾意已決，汝勿多言。」",
+        "操曰：「袁本初四世三公，門多故吏，漢朝名相之裔，可為盟主。」"
+      ]
+    },
+
+    "image": {
+      "prompt": "Portrait of a Han Chinese feudal lord, late Eastern Han dynasty, north China / Hebei region, three-quarter bust view, plain neutral background. A handsome patrician nobleman in his mid-forties: fine arched brows, sharp bright eyes, dignified regular features, a long well-groomed beard and artful moustache, fair imperial-bred complexion, haughty self-satisfied air. Lordly official trappings: rich dark-purple and bronze-gold silk nobleman's robe with broad sleeves and high round collar, intricate jade and gold belt with commander's seal, tall black gauze court hat, vivid layered brocade trim, sumptuous and immaculate fabrics suggesting great lineage. Soft directional key light from upper left with faint cool fill, shallow depth of field, face in sharpest focus.",
+      "promptLocal": "人物图：东汉末年、中国北方河北地区的一位汉族诸侯，四分之三半身视角，中性纯背景。一位年近四十五、相貌俊雅的名门贵胄：眉修目锐、五官端正，蓄一部打理齐整的长须与巧致小髭，肤色白皙而带贵气，神情自负温雅却露矜傲。诸侯尊贵装束：暗紫与铜金的丝绸华服、宽袖高圆领，缀玉金的革带并系官印，黑色纱质高冠，织锦收边繁丽，衣料华贵而保养一新，显出名门气派。左上柔和方向主光、辅以微冷补光、浅景深、面部最实。",
+      "negativePrompt": "all figures looking the same face, baby-face large eyes, over-smoothed plastic skin, perfectly symmetrical face, dead eyes without catchlights, helmet hair without loose strands, stiff mannequin pose, extra fingers, distorted limbs, scraggly unkempt beard, text, watermark",
+      "tags": ["late Eastern Han", "north China Hebei", "purple and bronze-gold", "sumptuous silk brocade", "long groomed beard", "patrician haughty", "soft directional light", "feudal lord"],
+      "sheet": "ONE 16:9 landscape canvas for a single character model sheet, plain pure white background, divided by thin hairline rules into three zones. Subject: a Han Chinese feudal lord of the late Eastern Han dynasty, north China Hebei region, mid-forties, handsome patrician bearing, in a rich dark-purple-and-bronze-gold silk nobleman's robe with broad sleeves, high round collar, intricate jade-and-gold belt bearing a commander's seal and a tall black gauze court hat; signature features to preserve in every view: fine arched brows, sharp bright eyes, long well-groomed beard, artful moustache, haughty self-satisfied air. LEFT ZONE, about 34% of the canvas width: one full bust portrait, face centered, three-quarter front, shoulders fully included, bottom edge straight and cleanly cropped, LIGHTING IN THE LEFT ZONE ONLY with a soft directional key light from the upper left, natural falloff, gentle ambient occlusion under the chin, brow sockets and collar; this bust is the face-design baseline. RIGHT-TOP ZONE: three full-body views side by side (front, side, back) standing on one shared horizon line, LIGHTING IN THE RIGHT ZONES: flat even orthographic lighting, no directional key, no cast shadows. PROPORTIONS ARE CRITICAL, all three figures equal height, same head-to-body ratio, correct limb lengths, both feet on the same horizon, headroom and clearance above and below, no stretching, squashing or foreshortening; the three-view faces must match the bust portrait exactly - same features, same hairstyle, same expression. RIGHT-BOTTOM ZONE: a row of four small isolated close-up studies of the signature details (the fine arched brows and sharp eyes, the well-groomed long beard, the commander's seal on the belt, the tall black gauze court hat); the detail studies give way along the right margin, not the figures.",
+      "negativePromptSheet": "two different faces in one sheet, stretched or squashed figures, missing shoulders on the bust, rounded or faded bottom edge, off-center bust, black background, gray background, text, watermark"
+    },
+
+    "voice": {
+      "timbre": "清亮圆润的男中音，共鸣明亮而有底气",
+      "pitch": "中偏高",
+      "pace": "从容偏慢，语尾常带着自我抬举的上扬",
+      "accent": "北方官话，带名门世家的文气腔调",
+      "emotion": "高傲、端方而不失世故",
+      "referenceHint": "像一个出身四世三公、惯于高高在上的贵胄",
+      "prompt": "45-year-old male, clear refined baritone, mid-to-high pitch, bright supported resonance, moderate volume. Graceful slow cadence with a self-regarding lift at phrase ends. Refined north-China standard Mandarin. Proud, patrician and haughty."
+    }
+  },
+  {
+    "id": "C08",
+    "name": "王允",
+    "aliases": ["王司徒", "司徒"],
+    "importance": "supporting",
+    "oneLiner": "忠于汉室的汉末司徒，借貂蝉施美人连环计诛杀董卓，计成后为卓党所害、以身殉汉。"
+
+    ,
+    "persona": {
+      "gender": "男",
+      "ageRange": "六十岁上下（推断）",
+      "identity": "东汉司徒（汉末朝廷重臣），连环计主谋，忠于汉室的清流老臣",
+      "appearance": "须发半白、形貌清癯的老臣，三绺白须垂胸，眉目间带着忧国与疲惫（原文未细写其貌，此段为推断）。常着深一色的朝服官袍，神情沉郁端肃，是被『满朝公卿夜哭到明』的末世局面熬出的那份憔悴与坚毅。",
+      "personality": ["忠直", "沉郁", "果敢", "有谋略", "性刚"],
+      "temperament": "出于忠汉之忱而深忧董卓之祸，外示温雅、内则铁腕；满堂哭而无策之际，独能咬牙设下连环计，是那种把国事扛在身上、宁折身也不改其志的老臣。",
+      "motivation": "救汉室于董卓弄权之祸，不惜以貂蝉为饵设连环计诛除国贼。",
+      "arc": "以美人连环计诛董卓，忠于汉室，计成后身死。",
+      "relationships": [
+        { "name": "董卓", "relation": "处心积虑要诛除的弄权国贼" },
+        { "name": "吕布", "relation": "连环计离间、使其反杀董卓的猛将" },
+        { "name": "貂蝉", "relation": "认作义女、用作连环计棋子的美人" },
+        { "name": "曹操", "relation": "借七星宝刀欲行刺董卓的壮士" }
+      ],
+      "evidence": [
+        "董卓欺主弄權，社稷旦夕難保。想高皇誅秦滅楚，奄有天下；誰想傳至今日，乃喪於董卓之手：此吾所以哭也",
+        "坐中一人撫掌大笑曰：「滿朝公卿，夜哭到明，明哭到夜，焉能哭死董卓耶？」允視之，乃驍騎校尉曹操也"
+      ]
+    },
+
+    "image": {
+      "prompt": "Portrait of a Han Chinese senior minister, late Eastern Han dynasty, Chinese imperial capital (Luoyang), three-quarter bust view, plain neutral background. A gaunt elderly loyalist statesman pushing sixty: sallow long face with deep anxiety lines, three muted-white strands of beard falling to the chest, furrowed brows, tired yet resolute sunken eyes, dignified withdrawn bearing. Formal courtier attire: deep charcoal-grey and faded-blue silk ministerial robe with broad sleeves and high round collar, sober black belt, matching black cloth official cap, plain inner robe; fine careful fabric but plainly the worn garb of a worried loyal old minister. Soft directional key light from upper left with faint cool fill, shallow depth of field, face in sharpest focus.",
+      "promptLocal": "人物图：东汉末年、中国京师洛阳地区的一位汉族重臣，四分之三半身视角，中性纯背景。一位年近六旬、清癯忠诚的老臣：面色瘦削枯黄、皱纹深重，三绺花白长须垂胸，眉峰微蹙，目光疲惫却坚毅，神情沉郁端正。朝廷重臣装束：深灰蓝的丝绸官袍、宽袖高圆领，端方黑带，配黑布官帽，素雅内衬；衣料细密却洗得素净平实，透着忧国老臣那份不事张扬的旧。左上柔和方向主光、辅以微冷补光、浅景深、面部最实。",
+      "negativePrompt": "all figures looking the same face, baby-face large eyes, over-smoothed plastic skin, perfectly symmetrical face, dead eyes without catchlights, helmet hair without loose strands, stiff mannequin pose, extra fingers, distorted limbs, youthful smooth complexion, text, watermark",
+      "tags": ["late Eastern Han", "Luoyang imperial capital", "charcoal grey and faded blue", "plain silk", "three-strand white beard", "faithful old minister", "soft directional light", "court official"],
+      "sheet": "ONE 16:9 landscape canvas for a single character model sheet, plain pure white background, divided by thin hairline rules into three zones. Subject: a Han Chinese senior minister of the late Eastern Han dynasty, Luoyang imperial capital, late fifties, gaunt worried loyalist bearing, in a deep-charcoal-grey-and-faded-blue silk ministerial robe with broad sleeves, high round collar, sober black belt and a black cloth official cap; signature features to preserve in every view: sallow long face, deep anxiety lines, three muted-white strands of beard to the chest, furrowed tired resolute eyes. LEFT ZONE, about 34% of the canvas width: one full bust portrait, face centered, three-quarter front, shoulders fully included, bottom edge straight and cleanly cropped, LIGHTING IN THE LEFT ZONE ONLY with a soft directional key light from the upper left, natural falloff, gentle ambient occlusion under the chin, brow sockets and collar; this bust is the face-design baseline. RIGHT-TOP ZONE: three full-body views side by side (front, side, back) standing on one shared horizon line, LIGHTING IN THE RIGHT ZONES: flat even orthographic lighting, no directional key, no cast shadows. PROPORTIONS ARE CRITICAL, all three figures equal height, same head-to-body ratio, correct limb lengths, both feet on the same horizon, headroom and clearance above and below, no stretching, squashing or foreshortening; the three-view faces must match the bust portrait exactly - same features, same hairstyle, same expression. RIGHT-BOTTOM ZONE: a row of four small isolated close-up studies of the signature details (the three-strand white beard, the furrowed worried brows, the black cloth official cap, the sober belt knot); the detail studies give way along the right margin, not the figures.",
+      "negativePromptSheet": "two different faces in one sheet, stretched or squashed figures, missing shoulders on the bust, rounded or faded bottom edge, off-center bust, black background, gray background, text, watermark"
+    },
+
+    "voice": {
+      "timbre": "苍老略薄的男中音，带一丝气力衰竭的干涩",
+      "pitch": "中",
+      "pace": "缓慢，句尾常拖出沉重气口",
+      "accent": "北方官话，带老臣的醇正腔调",
+      "emotion": "忧愤、悲切而坚毅",
+      "referenceHint": "像一个在满堂哭声中独自咬牙设连环计的忠臣",
+      "prompt": "60-year-old male, aged thinner tenor-to-baritone, mid pitch, slightly reedy dry resonance, modest volume. Slow measured pace, breathy weight at phrase ends. Learned north-China standard Mandarin with a literary cadence. Grieved, resolute and sorrowful."
+    }
+  },
+  {
+    "id": "C09",
+    "name": "董卓",
+    "aliases": ["董太师", "董卓"],
+    "importance": "supporting",
+    "oneLiner": "字仲颖、陇西临洮人的暴戾权臣，把持朝政、擅废少帝、焚掠洛阳，自为太师铺陈乱世底色，终被义子吕布所诛。"
+
+    ,
+    "persona": {
+      "gender": "男",
+      "ageRange": "五十余岁（故事主体时段，推断）",
+      "identity": "陇西临洮人，官拜河东太守起家，后进京把持朝政、废立天子、自为太师，乱世祸首",
+      "appearance": "身量高大魁梧、体躯臃肿，面相粗犷凶悍、眉头压着戾气，一部浓须根根如戟、色近褐黑（原文未细写其貌，此段为推断；『自來驕傲』之气却处处可见）。惯以权臣朝服示人，出入常带甲士护卫，气焰逼人。（太师朝服/相服为推断设定。）",
+      "personality": ["暴戾", "骄横", "贪暴", "多疑", "残虐"],
+      "temperament": "自恃兵权、跋扈专擅，喜怒横暴、动辄杀人，容不得半点冒犯；对汉室毫无恭敬，把满朝公卿视作玩物，是那种『欺主弄权、社稷旦夕难保』的祸根。",
+      "motivation": "以武力把持朝政、威慑朝野，享一己之暴权，铺开乱世底色。",
+      "arc": "把持朝政、焚掠洛阳，铺陈乱世底色，终被吕布诛杀。",
+      "relationships": [
+        { "name": "吕布", "relation": "认作义子、宠信又深防的猛将，终丧于其手" },
+        { "name": "王允", "relation": "设连环计诛除自己的汉室忠臣" },
+        { "name": "貂蝉", "relation": "沉迷美色、为其离间的连环计诱饵" }
+      ],
+      "evidence": [
+        "且說董卓字仲穎，隴西臨洮人也。官拜河東太守，自來驕傲",
+        "董卓自此出入常帶甲士護衛。時袁紹在渤海，聞知董卓弄權，乃差人齎密書來見王允",
+        "董卓欺主弄權，社稷旦夕難保"
+      ]
+    },
+
+    "image": {
+      "prompt": "Portrait of a Han Chinese military strongman, late Eastern Han dynasty, Central Plains China, three-quarter bust view, plain neutral background. A huge corpulent warlord in his fifties radiating menace: massive bullish build with a thick neck, coarse fierce dark-coarse-skinned face, low brow ridge over small dark cruel eyes, heavy jowls, a wild thick beard and bristling moustache of near-black hair, arrogant contemptuous expression. Overbearing court-general garb: heavy dark-purple and iron-grey silk officer's great-robe with broad armored-scaled pauldrons at the shoulders, wide leather-and-metal belt, tall black lacquered court cap, dark layered under-robe; dense brocade with brass fittings, massively imposing. Soft directional key light from upper left with faint cool fill, shallow depth of field, face in sharpest focus.",
+      "promptLocal": "人物图：东汉末年、中国中原地区的一位汉族军事强人，四分之三半身视角，中性纯背景。一位五十来岁、高大臃肿、浑身戾气的巨头：体躯雄壮、脖子粗厚，面皮黝黑粗粝，眉骨低、目小目锐而显得阴狠，双颊厚垂，一部浓密近黑的络腮胡与如戟短髭，神情骄横傲慢。权力压顶的朝臣兼武将装束：深紫与铁灰的丝绸大将长袍、肩部覆玄色鳞甲护肩，宽皮革嵌金属带的腰束，高黑漆冠，暗色叠衬；织锦紧密、附黄铜饰件，气焰慑人。左上柔和方向主光、辅以微冷补光、浅景深、面部最实。",
+      "negativePrompt": "all figures looking the same face, baby-face large eyes, over-smoothed plastic skin, perfectly symmetrical face, dead eyes without catchlights, helmet hair without loose strands, stiff mannequin pose, extra fingers, distorted limbs, lean slender figure, kindly gentle expression, text, watermark",
+      "tags": ["late Eastern Han", "Central Plains China", "dark purple and iron grey", "dense silk and brass armour fittings", "corpulent bullish build", "wild near-black beard", "soft directional light", "military strongman"],
+      "sheet": "ONE 16:9 landscape canvas for a single character model sheet, plain pure white background, divided by thin hairline rules into three zones. Subject: a Han Chinese military strongman of the late Eastern Han dynasty, Central Plains China, fifties, massive corpulent intimidating build with a thick neck, in a heavy dark-purple-and-iron-grey silk officer's great-robe with scaled armoured pauldrons, wide leather-and-metal belt, tall black lacquered court cap and dark layered under-robe; signature features to preserve in every view: coarse fierce dark-coarse-skinned face, low brow ridge, small dark cruel eyes, heavy jowls, wild thick near-black beard and bristling moustache. LEFT ZONE, about 34% of the canvas width: one full bust portrait, face centered, three-quarter front, shoulders fully included, bottom edge straight and cleanly cropped, LIGHTING IN THE LEFT ZONE ONLY with a soft directional key light from the upper left, natural falloff, gentle ambient occlusion under the chin, brow sockets and collar; this bust is the face-design baseline. RIGHT-TOP ZONE: three full-body views side by side (front, side, back) standing on one shared horizon line, LIGHTING IN THE RIGHT ZONES: flat even orthographic lighting, no directional key, no cast shadows. PROPORTIONS ARE CRITICAL, all three figures equal height, same head-to-body ratio, correct limb lengths, both feet on the same horizon, headroom and clearance above and below, no stretching, squashing or foreshortening; the three-view faces must match the bust portrait exactly - same features, same hairstyle, same expression. RIGHT-BOTTOM ZONE: a row of four small isolated close-up studies of the signature details (the low brow ridge and small cruel eyes, the wild near-black thick beard, the scaled armoured pauldron, the black lacquered court cap); the detail studies give way along the right margin, not the figures.",
+      "negativePromptSheet": "two different faces in one sheet, stretched or squashed figures, missing shoulders on the bust, rounded or faded bottom edge, off-center bust, black background, gray background, text, watermark"
+    },
+
+    "voice": {
+      "timbre": "浑厚粗粝的重低音，共鸣饱满、气嗓沉沉",
+      "pitch": "低",
+      "pace": "沉重而滞缓，字字带威压",
+      "accent": "北方口音，带陇西一带的粗硬腔调",
+      "emotion": "骄横、暴戾而不可一世",
+      "referenceHint": "像一个擅权废立、满朝敢怒不敢言的太师",
+      "prompt": "55-year-old male, heavy booming bass, low pitch, voluminous full-body resonance with glottal weight, loud volume. Deliberate heavy pace, thick assertion on stressed syllables. North-Western Chinese accent, gruff and hard. Arrogant, brutal and menacing."
+    }
+  }
+]

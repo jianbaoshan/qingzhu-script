@@ -1,0 +1,907 @@
+﻿{
+  "source": "三国演义",
+  "lang": "zh",
+  "summary": "",
+  "characters": [
+    {
+      "id": "C01",
+      "name": "刘备",
+      "importance": "protagonist",
+      "aliases": [],
+      "oneLiner": "",
+      "persona": {
+        "gender": "",
+        "ageRange": "",
+        "identity": "",
+        "appearance": "",
+        "personality": [],
+        "temperament": "",
+        "motivation": "",
+        "arc": "从织席贩履的汉室宗亲，经鞭督邮、三让徐州、携民渡江，到三顾请出诸葛亮，以『兄弟如手足』收拢人心，赤壁后仍秉结义之情",
+        "relationships": [],
+        "evidence": []
+      },
+      "image": {
+        "prompt": "",
+        "promptLocal": "",
+        "negativePrompt": "",
+        "tags": [],
+        "sheet": ""
+      },
+      "voice": {
+        "timbre": "",
+        "pitch": "",
+        "pace": "",
+        "accent": "",
+        "emotion": "",
+        "prompt": "",
+        "referenceHint": ""
+      },
+      "seedNote": "角色码 C01　大纲定位：仁德之主·结义大哥　大纲分档：lead　合并自：原著刘备"
+    },
+    {
+      "id": "C02",
+      "name": "关羽",
+      "importance": "protagonist",
+      "aliases": [],
+      "oneLiner": "",
+      "persona": {
+        "gender": "",
+        "ageRange": "",
+        "identity": "",
+        "appearance": "",
+        "personality": [],
+        "temperament": "",
+        "motivation": "",
+        "arc": "温酒斩华雄初显，过五关千里寻主，败于北、义重于金，最终在华容道违军令义释曹操，忠义升华为全剧主题",
+        "relationships": [],
+        "evidence": []
+      },
+      "image": {
+        "prompt": "",
+        "promptLocal": "",
+        "negativePrompt": "",
+        "tags": [],
+        "sheet": ""
+      },
+      "voice": {
+        "timbre": "",
+        "pitch": "",
+        "pace": "",
+        "accent": "",
+        "emotion": "",
+        "prompt": "",
+        "referenceHint": ""
+      },
+      "seedNote": "角色码 C02　大纲定位：忠义武圣·结义二弟　大纲分档：lead　合并自：原著关羽"
+    },
+    {
+      "id": "C03",
+      "name": "张飞",
+      "importance": "protagonist",
+      "aliases": [],
+      "oneLiner": "",
+      "persona": {
+        "gender": "",
+        "ageRange": "",
+        "identity": "",
+        "appearance": "",
+        "personality": [],
+        "temperament": "",
+        "motivation": "",
+        "arc": "从怒鞭督邮的莽夫，历徐州失守、古城重逢，到长坂桥横矛喝退曹军，于勇猛中见兄弟情深",
+        "relationships": [],
+        "evidence": []
+      },
+      "image": {
+        "prompt": "",
+        "promptLocal": "",
+        "negativePrompt": "",
+        "tags": [],
+        "sheet": ""
+      },
+      "voice": {
+        "timbre": "",
+        "pitch": "",
+        "pace": "",
+        "accent": "",
+        "emotion": "",
+        "prompt": "",
+        "referenceHint": ""
+      },
+      "seedNote": "角色码 C03　大纲定位：猛将·结义三弟　大纲分档：lead　合并自：原著张飞"
+    },
+    {
+      "id": "C04",
+      "name": "曹操",
+      "importance": "protagonist",
+      "aliases": [],
+      "oneLiner": "",
+      "persona": {
+        "gender": "",
+        "ageRange": "",
+        "identity": "",
+        "appearance": "",
+        "personality": [],
+        "temperament": "",
+        "motivation": "",
+        "arc": "从刺董的壮士，经陈留起兵、迎献帝挟天子令诸侯，到青梅煮酒对刘备既招揽又忌惮，终赤壁大败、华容道被义释",
+        "relationships": [],
+        "evidence": []
+      },
+      "image": {
+        "prompt": "",
+        "promptLocal": "",
+        "negativePrompt": "",
+        "tags": [],
+        "sheet": ""
+      },
+      "voice": {
+        "timbre": "",
+        "pitch": "",
+        "pace": "",
+        "accent": "",
+        "emotion": "",
+        "prompt": "",
+        "referenceHint": ""
+      },
+      "seedNote": "角色码 C04　大纲定位：乱世枭雄·主线反派　大纲分档：lead　合并自：原著曹操"
+    },
+    {
+      "id": "C05",
+      "name": "诸葛亮",
+      "importance": "protagonist",
+      "aliases": [],
+      "oneLiner": "",
+      "persona": {
+        "gender": "",
+        "ageRange": "",
+        "identity": "",
+        "appearance": "",
+        "personality": [],
+        "temperament": "",
+        "motivation": "",
+        "arc": "隆中对定三分天下，出山后博望坡、新野两把火烧出军师威名，草船借箭、祭东风，为刘备集团注入智谋底气，赤壁决胜后正式接棒",
+        "relationships": [],
+        "evidence": []
+      },
+      "image": {
+        "prompt": "",
+        "promptLocal": "",
+        "negativePrompt": "",
+        "tags": [],
+        "sheet": ""
+      },
+      "voice": {
+        "timbre": "",
+        "pitch": "",
+        "pace": "",
+        "accent": "",
+        "emotion": "",
+        "prompt": "",
+        "referenceHint": ""
+      },
+      "seedNote": "角色码 C05　大纲定位：卧龙军师·智谋核心　大纲分档：lead　合并自：原著诸葛亮"
+    },
+    {
+      "id": "C06",
+      "name": "吕布",
+      "importance": "supporting",
+      "aliases": [],
+      "oneLiner": "",
+      "persona": {
+        "gender": "",
+        "ageRange": "",
+        "identity": "",
+        "appearance": "",
+        "personality": [],
+        "temperament": "",
+        "motivation": "",
+        "arc": "从刺董的义士蜕变为反覆小人，辕门射戟显其勇，终失徐州、败於曹操",
+        "relationships": [],
+        "evidence": []
+      },
+      "image": {
+        "prompt": "",
+        "promptLocal": "",
+        "negativePrompt": "",
+        "tags": [],
+        "sheet": ""
+      },
+      "voice": {
+        "timbre": "",
+        "pitch": "",
+        "pace": "",
+        "accent": "",
+        "emotion": "",
+        "prompt": "",
+        "referenceHint": ""
+      },
+      "seedNote": "角色码 C06　大纲定位：反复无常的猛将　大纲分档：support　合并自：原著吕布"
+    },
+    {
+      "id": "C07",
+      "name": "貂蝉",
+      "importance": "supporting",
+      "aliases": [],
+      "oneLiner": "",
+      "persona": {
+        "gender": "",
+        "ageRange": "",
+        "identity": "",
+        "appearance": "",
+        "personality": [],
+        "temperament": "",
+        "motivation": "",
+        "arc": "王允连环计的核心一环，于凤仪亭离间董卓吕布，锄奸功成后功成身隐",
+        "relationships": [],
+        "evidence": []
+      },
+      "image": {
+        "prompt": "",
+        "promptLocal": "",
+        "negativePrompt": "",
+        "tags": [],
+        "sheet": ""
+      },
+      "voice": {
+        "timbre": "",
+        "pitch": "",
+        "pace": "",
+        "accent": "",
+        "emotion": "",
+        "prompt": "",
+        "referenceHint": ""
+      },
+      "seedNote": "角色码 C07　大纲定位：连环计美人·离间棋子　大纲分档：support　合并自：原著貂蝉"
+    },
+    {
+      "id": "C08",
+      "name": "王允",
+      "importance": "supporting",
+      "aliases": [],
+      "oneLiner": "",
+      "persona": {
+        "gender": "",
+        "ageRange": "",
+        "identity": "",
+        "appearance": "",
+        "personality": [],
+        "temperament": "",
+        "motivation": "",
+        "arc": "以美人连环计诛董卓，忠于汉室，计成后身死",
+        "relationships": [],
+        "evidence": []
+      },
+      "image": {
+        "prompt": "",
+        "promptLocal": "",
+        "negativePrompt": "",
+        "tags": [],
+        "sheet": ""
+      },
+      "voice": {
+        "timbre": "",
+        "pitch": "",
+        "pace": "",
+        "accent": "",
+        "emotion": "",
+        "prompt": "",
+        "referenceHint": ""
+      },
+      "seedNote": "角色码 C08　大纲定位：汉室忠臣·连环计主谋　大纲分档：support　合并自：原著王允"
+    },
+    {
+      "id": "C09",
+      "name": "董卓",
+      "importance": "supporting",
+      "aliases": [],
+      "oneLiner": "",
+      "persona": {
+        "gender": "",
+        "ageRange": "",
+        "identity": "",
+        "appearance": "",
+        "personality": [],
+        "temperament": "",
+        "motivation": "",
+        "arc": "把持朝政、焚掠洛阳，铺陈乱世底色，终被吕布诛杀",
+        "relationships": [],
+        "evidence": []
+      },
+      "image": {
+        "prompt": "",
+        "promptLocal": "",
+        "negativePrompt": "",
+        "tags": [],
+        "sheet": ""
+      },
+      "voice": {
+        "timbre": "",
+        "pitch": "",
+        "pace": "",
+        "accent": "",
+        "emotion": "",
+        "prompt": "",
+        "referenceHint": ""
+      },
+      "seedNote": "角色码 C09　大纲定位：暴戾权臣·乱世祸首　大纲分档：support　合并自：原著董卓"
+    },
+    {
+      "id": "C10",
+      "name": "袁绍",
+      "importance": "supporting",
+      "aliases": [],
+      "oneLiner": "",
+      "persona": {
+        "gender": "",
+        "ageRange": "",
+        "identity": "",
+        "appearance": "",
+        "personality": [],
+        "temperament": "",
+        "motivation": "",
+        "arc": "坐拥河北名门之势却空负傲才，官渡乌巢之败后败亡，反衬曹操枭雄",
+        "relationships": [],
+        "evidence": []
+      },
+      "image": {
+        "prompt": "",
+        "promptLocal": "",
+        "negativePrompt": "",
+        "tags": [],
+        "sheet": ""
+      },
+      "voice": {
+        "timbre": "",
+        "pitch": "",
+        "pace": "",
+        "accent": "",
+        "emotion": "",
+        "prompt": "",
+        "referenceHint": ""
+      },
+      "seedNote": "角色码 C10　大纲定位：名门望族·曹操劲敌　大纲分档：support　合并自：原著袁绍"
+    },
+    {
+      "id": "C11",
+      "name": "赵云",
+      "importance": "supporting",
+      "aliases": [],
+      "oneLiner": "",
+      "persona": {
+        "gender": "",
+        "ageRange": "",
+        "identity": "",
+        "appearance": "",
+        "personality": [],
+        "temperament": "",
+        "motivation": "",
+        "arc": "袁绍败北后经公孙瓒投奔刘备，长坂坡单骑救阿斗立孤忠，成为刘备集团新生代武将",
+        "relationships": [],
+        "evidence": []
+      },
+      "image": {
+        "prompt": "",
+        "promptLocal": "",
+        "negativePrompt": "",
+        "tags": [],
+        "sheet": ""
+      },
+      "voice": {
+        "timbre": "",
+        "pitch": "",
+        "pace": "",
+        "accent": "",
+        "emotion": "",
+        "prompt": "",
+        "referenceHint": ""
+      },
+      "seedNote": "角色码 C11　大纲定位：常山子龙·忠义名将　大纲分档：support　合并自：原著赵云"
+    },
+    {
+      "id": "C12",
+      "name": "周瑜",
+      "importance": "supporting",
+      "aliases": [],
+      "oneLiner": "",
+      "persona": {
+        "gender": "",
+        "ageRange": "",
+        "identity": "",
+        "appearance": "",
+        "personality": [],
+        "temperament": "",
+        "motivation": "",
+        "arc": "赤壁之战的江东主将，与孔明亦敌亦僚，智取曹操却终映衬孔明智谋",
+        "relationships": [],
+        "evidence": []
+      },
+      "image": {
+        "prompt": "",
+        "promptLocal": "",
+        "negativePrompt": "",
+        "tags": [],
+        "sheet": ""
+      },
+      "voice": {
+        "timbre": "",
+        "pitch": "",
+        "pace": "",
+        "accent": "",
+        "emotion": "",
+        "prompt": "",
+        "referenceHint": ""
+      },
+      "seedNote": "角色码 C12　大纲定位：江东大都督·赤壁主将　大纲分档：support　合并自：原著周瑜"
+    },
+    {
+      "id": "C13",
+      "name": "鲁肃",
+      "importance": "supporting",
+      "aliases": [],
+      "oneLiner": "",
+      "persona": {
+        "gender": "",
+        "ageRange": "",
+        "identity": "",
+        "appearance": "",
+        "personality": [],
+        "temperament": "",
+        "motivation": "",
+        "arc": "东吴坚定的联刘派，赤壁盟约的维系者，促成孙刘联盟",
+        "relationships": [],
+        "evidence": []
+      },
+      "image": {
+        "prompt": "",
+        "promptLocal": "",
+        "negativePrompt": "",
+        "tags": [],
+        "sheet": ""
+      },
+      "voice": {
+        "timbre": "",
+        "pitch": "",
+        "pace": "",
+        "accent": "",
+        "emotion": "",
+        "prompt": "",
+        "referenceHint": ""
+      },
+      "seedNote": "角色码 C13　大纲定位：联吴抗曹谋士　大纲分档：support　合并自：原著鲁肃"
+    },
+    {
+      "id": "C14",
+      "name": "孙权",
+      "importance": "supporting",
+      "aliases": [],
+      "oneLiner": "",
+      "persona": {
+        "gender": "",
+        "ageRange": "",
+        "identity": "",
+        "appearance": "",
+        "personality": [],
+        "temperament": "",
+        "motivation": "",
+        "arc": "父兄基业上的江东之主，赤壁抉择中联刘抗曹，定鼎江东",
+        "relationships": [],
+        "evidence": []
+      },
+      "image": {
+        "prompt": "",
+        "promptLocal": "",
+        "negativePrompt": "",
+        "tags": [],
+        "sheet": ""
+      },
+      "voice": {
+        "timbre": "",
+        "pitch": "",
+        "pace": "",
+        "accent": "",
+        "emotion": "",
+        "prompt": "",
+        "referenceHint": ""
+      },
+      "seedNote": "角色码 C14　大纲定位：江东少主·东吴之主　大纲分档：support　合并自：原著孙权"
+    },
+    {
+      "id": "C15",
+      "name": "徐庶",
+      "importance": "supporting",
+      "aliases": [],
+      "oneLiner": "",
+      "persona": {
+        "gender": "",
+        "ageRange": "",
+        "identity": "",
+        "appearance": "",
+        "personality": [],
+        "temperament": "",
+        "motivation": "",
+        "arc": "先佐刘备于新野，走马荐诸葛亮后被迫归曹，诸葛亮出山的引路人",
+        "relationships": [],
+        "evidence": []
+      },
+      "image": {
+        "prompt": "",
+        "promptLocal": "",
+        "negativePrompt": "",
+        "tags": [],
+        "sheet": ""
+      },
+      "voice": {
+        "timbre": "",
+        "pitch": "",
+        "pace": "",
+        "accent": "",
+        "emotion": "",
+        "prompt": "",
+        "referenceHint": ""
+      },
+      "seedNote": "角色码 C15　大纲定位：荐贤谋士　大纲分档：support　合并自：原著徐庶"
+    },
+    {
+      "id": "C16",
+      "name": "华雄",
+      "importance": "minor",
+      "aliases": [],
+      "oneLiner": "",
+      "persona": {
+        "gender": "",
+        "ageRange": "",
+        "identity": "",
+        "appearance": "",
+        "personality": [],
+        "temperament": "",
+        "motivation": "",
+        "arc": "",
+        "relationships": [],
+        "evidence": []
+      },
+      "image": {
+        "prompt": "",
+        "promptLocal": "",
+        "negativePrompt": "",
+        "tags": [],
+        "sheet": ""
+      },
+      "voice": {
+        "timbre": "",
+        "pitch": "",
+        "pace": "",
+        "accent": "",
+        "emotion": "",
+        "prompt": "",
+        "referenceHint": ""
+      },
+      "seedNote": "角色码 C16　大纲定位：汜水关守将　大纲分档：functional　合并自：原著华雄"
+    },
+    {
+      "id": "C17",
+      "name": "督邮",
+      "importance": "minor",
+      "aliases": [],
+      "oneLiner": "",
+      "persona": {
+        "gender": "",
+        "ageRange": "",
+        "identity": "",
+        "appearance": "",
+        "personality": [],
+        "temperament": "",
+        "motivation": "",
+        "arc": "",
+        "relationships": [],
+        "evidence": []
+      },
+      "image": {
+        "prompt": "",
+        "promptLocal": "",
+        "negativePrompt": "",
+        "tags": [],
+        "sheet": ""
+      },
+      "voice": {
+        "timbre": "",
+        "pitch": "",
+        "pace": "",
+        "accent": "",
+        "emotion": "",
+        "prompt": "",
+        "referenceHint": ""
+      },
+      "seedNote": "角色码 C17　大纲定位：欺压刘备的官吏　大纲分档：functional　合并自：原著督邮"
+    },
+    {
+      "id": "C18",
+      "name": "蒋干",
+      "importance": "minor",
+      "aliases": [],
+      "oneLiner": "",
+      "persona": {
+        "gender": "",
+        "ageRange": "",
+        "identity": "",
+        "appearance": "",
+        "personality": [],
+        "temperament": "",
+        "motivation": "",
+        "arc": "",
+        "relationships": [],
+        "evidence": []
+      },
+      "image": {
+        "prompt": "",
+        "promptLocal": "",
+        "negativePrompt": "",
+        "tags": [],
+        "sheet": ""
+      },
+      "voice": {
+        "timbre": "",
+        "pitch": "",
+        "pace": "",
+        "accent": "",
+        "emotion": "",
+        "prompt": "",
+        "referenceHint": ""
+      },
+      "seedNote": "角色码 C18　大纲定位：曹操说客·连环计枢纽　大纲分档：functional　合并自：原著蒋干"
+    },
+    {
+      "id": "C19",
+      "name": "黄盖",
+      "importance": "minor",
+      "aliases": [],
+      "oneLiner": "",
+      "persona": {
+        "gender": "",
+        "ageRange": "",
+        "identity": "",
+        "appearance": "",
+        "personality": [],
+        "temperament": "",
+        "motivation": "",
+        "arc": "",
+        "relationships": [],
+        "evidence": []
+      },
+      "image": {
+        "prompt": "",
+        "promptLocal": "",
+        "negativePrompt": "",
+        "tags": [],
+        "sheet": ""
+      },
+      "voice": {
+        "timbre": "",
+        "pitch": "",
+        "pace": "",
+        "accent": "",
+        "emotion": "",
+        "prompt": "",
+        "referenceHint": ""
+      },
+      "seedNote": "角色码 C19　大纲定位：苦肉计诈降的江东老将　大纲分档：functional　合并自：原著黄盖"
+    },
+    {
+      "id": "C20",
+      "name": "庞统",
+      "importance": "minor",
+      "aliases": [],
+      "oneLiner": "",
+      "persona": {
+        "gender": "",
+        "ageRange": "",
+        "identity": "",
+        "appearance": "",
+        "personality": [],
+        "temperament": "",
+        "motivation": "",
+        "arc": "",
+        "relationships": [],
+        "evidence": []
+      },
+      "image": {
+        "prompt": "",
+        "promptLocal": "",
+        "negativePrompt": "",
+        "tags": [],
+        "sheet": ""
+      },
+      "voice": {
+        "timbre": "",
+        "pitch": "",
+        "pace": "",
+        "accent": "",
+        "emotion": "",
+        "prompt": "",
+        "referenceHint": ""
+      },
+      "seedNote": "角色码 C20　大纲定位：连环计的献计者　大纲分档：functional　合并自：原著庞统"
+    },
+    {
+      "id": "C21",
+      "name": "颜良",
+      "importance": "minor",
+      "aliases": [],
+      "oneLiner": "",
+      "persona": {
+        "gender": "",
+        "ageRange": "",
+        "identity": "",
+        "appearance": "",
+        "personality": [],
+        "temperament": "",
+        "motivation": "",
+        "arc": "",
+        "relationships": [],
+        "evidence": []
+      },
+      "image": {
+        "prompt": "",
+        "promptLocal": "",
+        "negativePrompt": "",
+        "tags": [],
+        "sheet": ""
+      },
+      "voice": {
+        "timbre": "",
+        "pitch": "",
+        "pace": "",
+        "accent": "",
+        "emotion": "",
+        "prompt": "",
+        "referenceHint": ""
+      },
+      "seedNote": "角色码 C21　大纲定位：河北名将　大纲分档：functional　合并自：原著颜良"
+    },
+    {
+      "id": "C22",
+      "name": "文丑",
+      "importance": "minor",
+      "aliases": [],
+      "oneLiner": "",
+      "persona": {
+        "gender": "",
+        "ageRange": "",
+        "identity": "",
+        "appearance": "",
+        "personality": [],
+        "temperament": "",
+        "motivation": "",
+        "arc": "",
+        "relationships": [],
+        "evidence": []
+      },
+      "image": {
+        "prompt": "",
+        "promptLocal": "",
+        "negativePrompt": "",
+        "tags": [],
+        "sheet": ""
+      },
+      "voice": {
+        "timbre": "",
+        "pitch": "",
+        "pace": "",
+        "accent": "",
+        "emotion": "",
+        "prompt": "",
+        "referenceHint": ""
+      },
+      "seedNote": "角色码 C22　大纲定位：河北猛将　大纲分档：functional　合并自：原著文丑"
+    },
+    {
+      "id": "C23",
+      "name": "夏侯惇",
+      "importance": "minor",
+      "aliases": [],
+      "oneLiner": "",
+      "persona": {
+        "gender": "",
+        "ageRange": "",
+        "identity": "",
+        "appearance": "",
+        "personality": [],
+        "temperament": "",
+        "motivation": "",
+        "arc": "",
+        "relationships": [],
+        "evidence": []
+      },
+      "image": {
+        "prompt": "",
+        "promptLocal": "",
+        "negativePrompt": "",
+        "tags": [],
+        "sheet": ""
+      },
+      "voice": {
+        "timbre": "",
+        "pitch": "",
+        "pace": "",
+        "accent": "",
+        "emotion": "",
+        "prompt": "",
+        "referenceHint": ""
+      },
+      "seedNote": "角色码 C23　大纲定位：曹操猛将　大纲分档：functional　合并自：原著夏侯惇"
+    },
+    {
+      "id": "C24",
+      "name": "孙坚",
+      "importance": "minor",
+      "aliases": [],
+      "oneLiner": "",
+      "persona": {
+        "gender": "",
+        "ageRange": "",
+        "identity": "",
+        "appearance": "",
+        "personality": [],
+        "temperament": "",
+        "motivation": "",
+        "arc": "",
+        "relationships": [],
+        "evidence": []
+      },
+      "image": {
+        "prompt": "",
+        "promptLocal": "",
+        "negativePrompt": "",
+        "tags": [],
+        "sheet": ""
+      },
+      "voice": {
+        "timbre": "",
+        "pitch": "",
+        "pace": "",
+        "accent": "",
+        "emotion": "",
+        "prompt": "",
+        "referenceHint": ""
+      },
+      "seedNote": "角色码 C24　大纲定位：得传国玉玺的江东猛将　大纲分档：functional　合并自：原著孙坚"
+    },
+    {
+      "id": "C25",
+      "name": "许攸",
+      "importance": "minor",
+      "aliases": [],
+      "oneLiner": "",
+      "persona": {
+        "gender": "",
+        "ageRange": "",
+        "identity": "",
+        "appearance": "",
+        "personality": [],
+        "temperament": "",
+        "motivation": "",
+        "arc": "",
+        "relationships": [],
+        "evidence": []
+      },
+      "image": {
+        "prompt": "",
+        "promptLocal": "",
+        "negativePrompt": "",
+        "tags": [],
+        "sheet": ""
+      },
+      "voice": {
+        "timbre": "",
+        "pitch": "",
+        "pace": "",
+        "accent": "",
+        "emotion": "",
+        "prompt": "",
+        "referenceHint": ""
+      },
+      "seedNote": "角色码 C25　大纲定位：官渡背主投曹的袁营谋士　大纲分档：functional　合并自：原著许攸"
+    }
+  ]
+}

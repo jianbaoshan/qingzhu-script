@@ -1,0 +1,85 @@
+[
+  {
+    "id": "S07",
+    "name": "新野—卧龙岗—长坂坡·当阳道",
+    "primary": true,
+    "summary": "卧龙出山与长坂坡危局的复合主场景：一面是「待时而鸣」的清冷山居，一面是「携民渡江」的生死战场。卧龙岗草庐把三分天下从一纸对策落成现实，越安静越显出那分从容；新野县城是安民的据点、乱世的短暂鼎实；长坂坡当阳道则在溃退里转成救子、喝敌的绝境。三处同属江汉地域，安静处越静、乱世处越乱，同一片土做的正反两面戏。",
+    "anchors": [
+      { "name": "三间茅庐（草庐）", "desc": "卧龙岗高岗上青灰茅顶的三间土墙草庐，矮檐低门，斜披正屋与侧屋，屋前一方开窗见山的明堂" },
+      { "name": "竹篱柴扉石阶", "desc": "茅庐前斜靠的柴扉与竹篱，数级青苔石阶，两边山野灌丛" },
+      { "name": "卧龙岗山形", "desc": "正对草庐那圈低缓岗峦的轮廓线，山脚竹篱、岗脊起伏当识别锚" },
+      { "name": "新野砖砌城楼", "desc": "新野县城灰砖城墙与木构城楼，门洞上悬匾，城前护城河上一座木吊桥" },
+      { "name": "长坂坡当阳道", "desc": "黄土官道两畔枯树孤枝，路面深车辙与遗弃的辎重残件，坡头一株被火燎黑的老树" }
+    ],
+    "lighting": [
+      { "state": "卧龙岗晨雾", "prompt": "early dawn, dense white fog rolling over the low hills, the thatched cottage on a bamboo-forested slope emerging through drifting mist, dew beading on the roof thatch and the mossy stone steps, soft diffused pale light, empty scene, no people" },
+      { "state": "草庐暮色", "prompt": "late dusk over the quiet hill retreat, warm lamplight glowing through the paper window lattice, deep blue-grey sky with a few scattered stars, a single stone lantern by the bamboo fence, still mountain quiet, empty scene, no people" },
+      { "state": "长坂坡烟尘", "prompt": "overcast afternoon over the yellow-earth official road, a haze of battlefield dust hanging in the air, scorched rutted road, an abandoned broken cart and strewn war debris, dim smoky light, empty scene, no people" }
+    ],
+    "image": {
+      "prompt": "Three-room thatched cottage with a low slate-grey thatch roof and mud-and-timber walls set into a misty wooded hillside of the Central Plains, a bamboo fence and a leaning wooden wicket gate before the entrance, mossy stone steps, a lone bamboo path winding down through the valley, rolling green hills in the background, dense dawn mist, Eastern Han dynasty rural architecture, China, the entire scene empty of all human figures, absolutely no people",
+      "negativePrompt": "people, human figures, characters, crowds, silhouettes of people, faces, hands, modern objects, warped perspective, melted geometry, floating objects, text, watermark, signature, oversaturated colours, sterile showroom cleanliness",
+      "sheet": "A3 environment concept sheet, 16:9 horizontal layout. Master view of the thatched cottage on the misty hillside occupies the top-left area, about 72% width by 70% height, showing the standard full view. A thin-line L-shaped detail border fills the remaining top-right and bottom strips: two inset close-up detail panels on the right and three on the bottom. Every detail panel is a magnified crop of an anchor element taken from the master view only, nothing invented that is not present in the master view. Weathered, lived-in materials: chipped paint, water stains, patina on metal, worn wood grain, dust in corners and light shafts; fabric and paper props show creases and age; nothing looks factory-new. Atmospheric depth with haze or volumetric light where the space allows. Absolutely no people anywhere, the whole sheet is an empty scene. THE SPACE MUST BE IDENTICAL ACROSS ALL PANELS, stable perspective with no warping",
+      "tags": ["environment sheet", "weathered materials", "cinematic", "thatched cottage", "rustic hillside", "dawn mist", "eastern han dynasty", "china"]
+    },
+    "usage": {
+      "episodes": [29, 33, 34, 35, 36, 37, 38, 40, 41, 42],
+      "beats": ["江东余波", "迁新野", "荐贤", "三顾茅庐", "隆中对策", "卧龙出山", "两把火", "携民渡江", "单骑救主", "喝退千军"]
+    }
+  },
+  {
+    "id": "S08",
+    "name": "荆州·襄阳城",
+    "primary": true,
+    "summary": "荆州治所、联吴抗曹的枢纽，一个「城在曹刘之间摇摆」的权力现场。官衙府邸是暗流决策处，街市是荆益民望所在，城墙是权柄与防线的双重象征。晴日下的襄阳越繁华，越衬出「荆州易主」的悬；夜雨一落，整个城都是待变的味道。讲的是沃土之利与人心向背。",
+    "anchors": [
+      { "name": "官衙门楼", "desc": "州衙府邸大门上高起的两层木构门楼，斗拱出檐、脊上鸱吻，漆红门扇与门前石阶" },
+      { "name": "石狮与影壁", "desc": "门楼前一对蹲狮与一座石刻照壁，墙根青砖覆地的雕纹" },
+      { "name": "砖砌城墙瓮城", "desc": "州城灰砖城墙与方形瓮城门洞，城台角楼，城前护城河" },
+      { "name": "襄阳街市招幌", "desc": "街市两畔木构店铺，檐下招幌旗牌与挑出的竹帘，青石板路" },
+      { "name": "府衙庭院古柏", "desc": "官邸内院一株虬曲古柏，通廊与抱厦环绕其侧" }
+    ],
+    "lighting": [
+      { "state": "襄阳晴日", "prompt": "bright clear noon over the Jingzhou city, warm sunlight raking the grey brick city wall and the timber gate tower, tidy market streets with long soft shadows, crisp air, empty scene, no people" },
+      { "state": "荆州夜雨", "prompt": "drenching night rain over the city, slick wet stone pavement reflecting dim paper-lantern light, rain streaming off the tiled eaves and shop awnings, a few onlookers left off into darkness, empty scene, no people" }
+    ],
+    "image": {
+      "prompt": "Exterior of a grand prefecture yamen official residence of the Eastern Han, a two-storey timber gate tower with bracket dougong and upturned grey-tiled eaves, gilt-red double doors, guardian stone lions and a carved spirit screen wall before the gate, swept clean stone steps, grey-tiled walls, part of a brick city wall and gate tower glimpsed in the background, bright clear midday, Central Plains of China, the entire scene empty of all human figures, absolutely no people",
+      "negativePrompt": "people, human figures, characters, crowds, silhouettes of people, faces, hands, modern objects, warped perspective, melted geometry, floating objects, text, watermark, signature, oversaturated colours, sterile showroom cleanliness",
+      "sheet": "A3 environment concept sheet, 16:9 horizontal layout. Master view of the prefecture yamen official residence gate occupies the top-left area, about 72% width by 70% height, showing the standard full view. A thin-line L-shaped detail border fills the remaining top-right and bottom strips: two inset close-up detail panels on the right and three on the bottom. Every detail panel is a magnified crop of an anchor element taken from the master view only, nothing invented that is not present in the master view. Well-kept, actively maintained materials: sound lacquer with an even sheen, swept stone and timber, polished metal fittings, tight joinery, no peeling paint and no water staining; wear confined to the traffic a space like this really takes, thresholds, handrails, the stone directly inside a doorway. Atmospheric depth with haze or volumetric light where the space allows. Absolutely no people anywhere, the whole sheet is an empty scene. THE SPACE MUST BE IDENTICAL ACROSS ALL PANELS, stable perspective with no warping",
+      "tags": ["environment sheet", "well-kept materials", "cinematic", "official residence", "brick city wall", "market street", "eastern han dynasty", "china"]
+    },
+    "usage": {
+      "episodes": [31, 32, 33, 35, 39, 43],
+      "beats": ["依荆", "荆州暗流", "迁新野", "三顾茅庐", "荆州易主", "联吴抗曹"]
+    }
+  },
+  {
+    "id": "S09",
+    "name": "赤壁·江上船阵与华容道山道",
+    "primary": true,
+    "summary": "全剧视觉与剧情双高潮的巨制场地。大江东流、艨艟铁索连环为阵、七星坛祭风、赤壁大火，再到华容道两山夹峙的窄径——从浩瀚江面到逼仄山道的极差，正是「借箭、苦肉、祭风、火烧、义释」连环斗智的舞台。江面越大越显人谋之小，山道越窄越见绝处之缓。夜雾、东南风、烈焰三景，把同一片水面拍出三种肃杀。",
+    "anchors": [
+      { "name": "艨艟连环船阵", "desc": "江心并排经营连的艨艟蒙冲大船，重甲厚板、船楼高起，桅墙密立，夜雾中只露船体剪影" },
+      { "name": "连环铁索", "desc": "船与船之间横亘水面的粗大铁链，稍一绷紧便牵动整片船阵的特写锚" },
+      { "name": "七星祭风台", "desc": "江岸夯土筑起的方形高台，北端立七星旗幡，台下列烛火" },
+      { "name": "大江东流", "desc": "开阔苍茫的江面，水色漫涌，正面主景，作船阵与人谋的铺陈" },
+      { "name": "华容道窄山道", "desc": "两山夹峙的一条窄土径，崖壁削立、道旁老树，仅容一骑通行的逼仄感" }
+    ],
+    "lighting": [
+      { "state": "江面月夜大雾（借箭）", "prompt": "full silent night, dense fog rolling over the river, a pale moon obscured behind cloud, iron-chained warships as dark rocking silhouettes, faint swaying lanterns on the masts, humid stillness, empty scene, no people" },
+      { "state": "东南风起夜（祭风）", "prompt": "night with a rising southeast wind beginning to breathe across the river, rushing water, whipped mast pennants, the earth-platform of the Seven Stars altar with a line of lanterns on the bank, a single shaft of moonlight cutting through the restless dark, empty scene, no people" },
+      { "state": "火攻夜江面（赤壁大火）", "prompt": "night engulfed in a great conflagration, hundreds of linked warships ablaze, sheets of orange flame rising into a black smoke-ridden sky, feral red reflections dancing across the water, burning debris drifting downstream, scorching wind, empty scene, no people" }
+    ],
+    "image": {
+      "prompt": "A vast armada of heavy-strake great warships (mengchong) moored side by side on the broad Yangtze River, heavy straked wooden hulls linked by thick iron chains swaying over the water, raised fighting castles and a forest of masts with furled sails, the flat river stretching to a far misty shore, dense fog over the moonlit river at night, Eastern Han dynasty military fleet, China, the entire scene empty of all human figures, absolutely no people",
+      "negativePrompt": "people, human figures, characters, crowds, silhouettes of people, soldiers, naval crew, oarsmen, faces, hands, modern objects, warped perspective, melted geometry, floating objects, text, watermark, signature, oversaturated colours, sterile showroom cleanliness",
+      "sheet": "A3 environment concept sheet, 16:9 horizontal layout. Master view of the iron-chained warship armada on the moonlit foggy river occupies the top-left area, about 72% width by 70% height, showing the standard full view. A thin-line L-shaped detail border fills the remaining top-right and bottom strips: two inset close-up detail panels on the right and three on the bottom. Every detail panel is a magnified crop of an anchor element taken from the master view only, nothing invented that is not present in the master view. Well-kept, actively maintained materials: sound lacquer with an even sheen, swept timber and tarred strakes, polished metal fittings, tight joinery, no peeling paint and no water staining; wear confined to the traffic a space like this really takes, the decks where men tread and the hawsers and iron binding chains. Atmospheric depth with haze or volumetric light where the space allows. Absolutely no people anywhere, the whole sheet is an empty scene. THE SPACE MUST BE IDENTICAL ACROSS ALL PANELS, stable perspective with no warping",
+      "tags": ["environment sheet", "well-kept materials", "cinematic", "river naval fleet", "iron-chained warships", "night fog over river", "eastern han dynasty", "china"]
+    },
+    "usage": {
+      "episodes": [43, 44, 45, 46, 47, 48, 49, 50],
+      "beats": ["联吴抗曹", "舌战群儒", "反间计", "草船借箭", "苦肉计", "祭风", "火烧赤壁", "义释曹操"]
+    }
+  }
+]

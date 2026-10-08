@@ -1,0 +1,1049 @@
+{
+  "source": "三国演义",
+  "promptLang": "en",
+  "params": {
+    "maxSegmentSeconds": 15,
+    "minCutSeconds": 2,
+    "maxCutSeconds": 8,
+    "maxOnScreen": 3,
+    "tolerance": 0.15
+  },
+  "episodes": [
+    {
+      "ep": 43,
+      "segments": [
+        {
+          "id": "E43-01",
+          "sceneIndex": 1,
+          "cuts": [
+            {
+              "beats": [
+                1,
+                2
+              ],
+              "seconds": 5,
+              "size": "medium",
+              "camera": "Tracking Shot",
+              "characters": [
+                "C05"
+              ],
+              "frame": "中景，江面大雾一叶扁舟压着浪尖急行，孔明立在船头，衣角被江风撕得猎猎作响，望向前方灯火昏黄的江东岸",
+              "shot": "镜头平稳跟随，一名白袍谋士立在船头，衣角被风撕得猎猎，目光凝向前方灯火昏黄的岸",
+              "lens": "35mm 广角，中景深",
+              "cameraPosition": "白袍谋士 + 侧后方平视跟随",
+              "composition": "中心构图",
+              "eyeline": "前方的江东岸",
+              "focus": "锁定白袍谋士与翻卷衣角",
+              "stability": "slight-shake"
+            },
+            {
+              "beats": [
+                3,
+                3
+              ],
+              "seconds": 3,
+              "size": "close",
+              "camera": "Static Shot",
+              "characters": [
+                "C05"
+              ],
+              "frame": "特写，船身一颠浪花溅上船舷，孔明不避，伸手按住了晃动的篙竿，手指稳而有力",
+              "shot": "固定镜头近切，船猛颠了一下，白袍谋士不闪不避，抬手稳稳按住了晃动的篙竿",
+              "lens": "85mm 长焦，浅景深",
+              "cameraPosition": "白袍谋士 + 平视正面",
+              "composition": "三分法",
+              "eyeline": "晃动的篙竿",
+              "focus": "锁定按住篙竿的手",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                4,
+                4
+              ],
+              "seconds": 4,
+              "size": "close",
+              "camera": "Static Shot",
+              "characters": [
+                "C13"
+              ],
+              "frame": "特写，舱口的鲁肃上前两步与孔明并肩，略一迟疑，压低声探问一句",
+              "shot": "固定镜头近切，舱口那名魁梧文官上前两步站到白袍谋士身边，压低声音探问",
+              "lens": "85mm 长焦，中浅景深",
+              "cameraPosition": "魁梧文官 + 平视正面",
+              "composition": "三分法",
+              "eyeline": "白袍谋士的侧脸",
+              "focus": "锁定探问的神情",
+              "stability": "stable"
+            }
+          ],
+          "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 5.00-second mark of the target video; Picture 3 (from Shot 3) aligns with the 8.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] The cold open follows <Picture 1>: a single small boat lunges over the wave crests through thick fog, the white-robed sagely strategist standing at the bow with his robe torn and snapping in the river wind, gaze fixed on the dimly lit far shore; a tracking shot holds him from behind.\n[Shot 2] At 00:05.000, A static shot close-up of <Picture 2>: the boat heaves and spray dashes the gunwale, yet the white-robed sagely strategist does not flinch, reaching to steady the swaying pole with a firm hand.\n[Shot 3] At 00:08.000, A static shot close-up of <Picture 3>: the sturdy attendant steps up from the cabin hatch to stand beside the sagely strategist and, hesitating, with a low, cautious voice (S1) asks: <d>[Chinese] 先生入吴，心里可有成算？</d>\n\noverall_soundscape: River wind tearing at a robe, water washing the hull, faint voices behind the dim shore lamps.\n\nnon_diegetic_music: Low strings lying on the mist, slow to middle tempo, wide and open.",
+          "blocking": "江上大雾，一叶扁舟破浪急行：白袍谋士居前立于船头，魁梧文官在舱口偏后，一前一后错开半步。",
+          "soundscape": "江风撕掠衣角，船底破浪的水声，远处江岸灯火里隐约的人声",
+          "music": "低沉弦乐压在雾面上，中慢速，视野开阔"
+        },
+        {
+          "id": "E43-02",
+          "sceneIndex": 1,
+          "cuts": [
+            {
+              "beats": [
+                5,
+                6
+              ],
+              "seconds": 5,
+              "size": "medium",
+              "camera": "Static Shot",
+              "characters": [
+                "C05"
+              ],
+              "frame": "中景，孔明收回手回头看鲁肃，目光平静，口中淡然接上一句",
+              "shot": "固定镜头中景，白袍谋士收回手回头看向同伴，目光平静，徐徐接上一句",
+              "lens": "50mm 标准，中浅景深",
+              "cameraPosition": "白袍谋士 + 平视侧面",
+              "composition": "三分法",
+              "eyeline": "魁梧文官的面容",
+              "focus": "锁定白袍谋士平静的目光",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                7,
+                7
+              ],
+              "seconds": 3,
+              "size": "close",
+              "camera": "Static Shot",
+              "characters": [
+                "C13"
+              ],
+              "frame": "特写，鲁肃闻言眉头松了松，抬手替孔明整了整肩头那方白巾，动作里透着宽慰",
+              "shot": "固定镜头近切，魁梧文官闻言眉心松了松，抬手替白袍谋士把肩头的白巾整了整",
+              "lens": "85mm 长焦，浅景深",
+              "cameraPosition": "魁梧文官 + 平视正面",
+              "composition": "三分法",
+              "eyeline": "白袍谋士肩头",
+              "focus": "锁定整巾的手",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                8,
+                8
+              ],
+              "seconds": 4,
+              "size": "close",
+              "camera": "Static Shot",
+              "characters": [
+                "C13"
+              ],
+              "frame": "特写，鲁肃略一沉吟，又郑重地追问一句，眼底带着几分期待与不安",
+              "shot": "固定镜头近切，魁梧文官略一沉吟，又郑重地开口追问，眼底带着几分探问",
+              "lens": "85mm 长焦，中浅景深",
+              "cameraPosition": "魁梧文官 + 平视正面",
+              "composition": "三分法",
+              "eyeline": "白袍谋士",
+              "focus": "锁定追问的神情",
+              "stability": "stable"
+            }
+          ],
+          "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 5.00-second mark of the target video; Picture 3 (from Shot 3) aligns with the 8.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] Holding <Picture 1>, the sagely strategist draws his hand back and turns to the companion beside him; static shot, and with a calm, quiet voice (S1) he answers: <d>[Chinese] 江东主降者多，可孙权不信命。</d>\n[Shot 2] At 00:05.000, A static shot close-up of <Picture 2>: relieved at the words, the sturdy attendant relaxes his brow and reaches up to tidy the white cloth draping the counselor’s shoulder.\n[Shot 3] At 00:08.000, A static shot close-up of <Picture 3>: after a pause the sturdy attendant puts a graver question to him, and with a serious, somewhat anxious voice (S2) presses: <d>[Chinese] 先生可敢当着满朝，驳他们一问？</d>\n\noverall_soundscape: Water slapping the gunwale, cloth stirring, the two lowered voices caught in the wind.\n\nnon_diegetic_music: Low strings lifting, the pace drawing in a little.",
+          "blocking": "白袍谋士转身侧对，魁梧文官贴他近旁；换气般的两张近景在两人间来回切。",
+          "soundscape": "江水拍舷，衣角抚动，两人压低的声音裹在风里",
+          "music": "低音弦乐托起，速度略有收拢"
+        },
+        {
+          "id": "E43-03",
+          "sceneIndex": 1,
+          "cuts": [
+            {
+              "beats": [
+                9,
+                9
+              ],
+              "seconds": 3,
+              "size": "medium",
+              "camera": "Static Shot",
+              "characters": [
+                "C05"
+              ],
+              "frame": "中景，孔明负手望江，江面上雾气翻涌不休，侧脸映着昏黄的灯火",
+              "shot": "固定镜头中景，白袍谋士负手望江，江雾翻涌不已，他的侧脸映着灯火的微光",
+              "lens": "50mm 标准，中浅景深",
+              "cameraPosition": "白袍谋士 + 平视侧面",
+              "composition": "三分法",
+              "eyeline": "翻涌的江雾",
+              "focus": "锁定白袍谋士的侧影",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                10,
+                10
+              ],
+              "seconds": 3,
+              "size": "medium",
+              "camera": "Static Shot",
+              "characters": [
+                "C13"
+              ],
+              "frame": "中景，一浪打来船身侧倾，鲁肃一把扶住船沿，面上却绷得紧紧的",
+              "shot": "固定镜头，大浪涌来船身侧倾，魁梧文官一把扶住船沿稳住身形，神情绷紧",
+              "lens": "50mm 标准，中浅景深",
+              "cameraPosition": "魁梧文官 + 平视侧面",
+              "composition": "三分法",
+              "eyeline": "脚下的船沿",
+              "focus": "锁定扶住船沿的手",
+              "stability": "slight-shake"
+            },
+            {
+              "beats": [
+                11,
+                11
+              ],
+              "seconds": 4,
+              "size": "close",
+              "camera": "Static Shot",
+              "characters": [
+                "C13"
+              ],
+              "frame": "特写，鲁肃望着那片雾，低低叹出心中的顾虑",
+              "shot": "固定镜头近切，魁梧文官望着船头那片浓雾，低低叹出一句",
+              "lens": "85mm 长焦，中浅景深",
+              "cameraPosition": "魁梧文官 + 平视正面",
+              "composition": "三分法",
+              "eyeline": "船头的江雾",
+              "focus": "锁定低叹的神情",
+              "stability": "stable"
+            }
+          ],
+          "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 3.00-second mark of the target video; Picture 3 (from Shot 3) aligns with the 6.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] Holding <Picture 1>, the sagely strategist stands with his hands behind his back gazing at the river, the mist churning endlessly; static shot, his profile lit by the faint shore lights.\n[Shot 2] At 00:03.000, Under <Picture 2>, a wave strikes and the boat lists; static shot, the sturdy attendant grips the gunwale to steady himself, his face white-knuckled with tension.\n[Shot 3] At 00:06.000, A static shot close-up of <Picture 3>: looking out at the fog ahead, the sturdy attendant lets out a low sigh, and with a worried, weighing voice (S2) muses: <d>[Chinese] 我看江东这满朝，没几个是好相与的。</d>\n\noverall_soundscape: The muffled churn of fog, the creak of wooden planks, spray hissing as a wave lists the boat.\n\nnon_diegetic_music: Low strings holding an unresolved note, something stirring below the surface.",
+          "blocking": "白袍谋士负手望江立在前，魁梧文官扶船沿立于侧后方，江水雾气在两人之间翻涌。",
+          "soundscape": "江雾翻涌的闷响，木板船身的吱呀，一浪侧倾时水花溅起",
+          "music": "低音弦乐压着一个未落的音，暗藏汹涌"
+        },
+        {
+          "id": "E43-04",
+          "sceneIndex": 1,
+          "cuts": [
+            {
+              "beats": [
+                12,
+                13
+              ],
+              "seconds": 6,
+              "size": "medium",
+              "camera": "Static Shot",
+              "characters": [
+                "C05"
+              ],
+              "frame": "中景，孔明转过身来，目光在雾里顿了片刻，才沉稳地开口点破那句要害",
+              "shot": "固定镜头中景，白袍谋士转过身来，目光在雾里顿了顿，才沉稳地开口，一字一句都在要害",
+              "lens": "50mm 标准，中浅景深",
+              "cameraPosition": "白袍谋士 + 平视正面",
+              "composition": "三分法",
+              "eyeline": "魁梧文官的面容",
+              "focus": "锁定白袍谋士开口的从容",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                14,
+                14
+              ],
+              "seconds": 4,
+              "size": "close",
+              "camera": "Static Shot",
+              "characters": [
+                "C13"
+              ],
+              "frame": "特写，鲁肃听了似懂非懂，只默默替孔明拉了拉被风吹乱的衣角",
+              "shot": "固定镜头近切，魁梧文官听了似懂非懂，没再多问，默默替白袍谋士把吹乱的衣角拉平",
+              "lens": "85mm 长焦，中浅景深",
+              "cameraPosition": "魁梧文官 + 平视正面",
+              "composition": "三分法",
+              "eyeline": "白袍谋士的衣角",
+              "focus": "锁定拉衣角的动作",
+              "stability": "stable"
+            }
+          ],
+          "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 6.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] Holding <Picture 1>, the sagely strategist turns around, holding his gaze in the mist for a beat before speaking; static shot, and with a steady, pointed voice (S1) he says: <d>[Chinese] 他们越急，越说明这条船必须靠岸。</d>\n[Shot 2] At 00:06.000, A static shot close-up of <Picture 2>: half understanding, the sturdy attendant does not press further, only quietly smoothing the counselor’s wind-blown lapel.\n\noverall_soundscape: Rustle of cloth, river water, mist drifting through the lamplight.\n\nnon_diegetic_music: Low strings rising steadily, saving for a pivotal answer.",
+          "blocking": "白袍谋士转身面向同伴，两人一正一侧隔半步相对；魁梧文官抬手替他理衣角。",
+          "soundscape": "衣料窸窣，江水声，雾气在灯影里流动",
+          "music": "低音弦乐稳升，蓄着一句关键的答"
+        },
+        {
+          "id": "E43-05",
+          "sceneIndex": 1,
+          "cuts": [
+            {
+              "beats": [
+                15,
+                15
+              ],
+              "seconds": 3,
+              "size": "wide",
+              "camera": "Static Shot",
+              "characters": [
+                "C05"
+              ],
+              "frame": "全景，船又破开一团白雾，江岸的灯火一茬一茬亮起来，近在眼前",
+              "shot": "固定镜头，小船又破开一团白雾，江岸的灯火一茬茬亮起，近在眼前",
+              "lens": "35mm 广角，深景深",
+              "cameraPosition": "江岸远景 + 平视",
+              "composition": "三分法",
+              "eyeline": "渐亮的岸灯",
+              "focus": "锁定雾与灯火",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                16,
+                16
+              ],
+              "seconds": 4,
+              "size": "close",
+              "camera": "Static Shot",
+              "characters": [
+                "C13"
+              ],
+              "frame": "特写，鲁肃望着那排火光，提醒孔明上岸前再想想措辞",
+              "shot": "固定镜头近切，魁梧文官望着岸上那排火光，回头提醒白袍谋士",
+              "lens": "85mm 长焦，中浅景深",
+              "cameraPosition": "魁梧文官 + 平视正面",
+              "composition": "三分法",
+              "eyeline": "岸上那排火光",
+              "focus": "锁定提醒的神情",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                17,
+                17
+              ],
+              "seconds": 3,
+              "size": "close",
+              "camera": "Static Shot",
+              "characters": [
+                "C05"
+              ],
+              "frame": "特写，孔明望着那排火光没有答话，只把袍角往腰里一掖，整了整衣冠",
+              "shot": "固定镜头近切，白袍谋士望着火光没有答话，只把袍角掖进腰里，随手正了正衣冠",
+              "lens": "85mm 长焦，浅景深",
+              "cameraPosition": "白袍谋士 + 平视正面",
+              "composition": "三分法",
+              "eyeline": "岸上的火光",
+              "focus": "锁定整衣冠的动作",
+              "stability": "stable"
+            }
+          ],
+          "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 3.00-second mark of the target video; Picture 3 (from Shot 3) aligns with the 7.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] The wide of <Picture 1> holds as the boat splits another bank of fog and the shore lamps come alight one after another, close ahead; static shot.\n[Shot 2] At 00:03.000, A static shot close-up of <Picture 2>: looking at the line of shore torches, the sturdy attendant turns to warn the strategist, and with a light, concerned voice (S2) says: <d>[Chinese] 到渡口了。上岸前，先生再想想措辞。</d>\n[Shot 3] At 00:07.000, A static shot close-up of <Picture 3>: the sagely strategist says nothing to the shore lights, only tucks the hem of his robe into his sash and straightens his cap.\n\noverall_soundscape: The swish of the bow parting fog, shore lamps growing bright, faint movement of distant soldiers.\n\nnon_diegetic_music: Strings opening out, slow to middle tempo, easing toward landfall.",
+          "blocking": "船头破雾，两人一前一后立定：白袍谋士在前，魁梧文官在后替他整理衣冠。",
+          "soundscape": "船破开白雾的响，江岸灯火渐渐亮起，远处军士隐约的走动",
+          "music": "弦乐略开阔，中慢速，靠岸前的收势"
+        },
+        {
+          "id": "E43-06",
+          "sceneIndex": 1,
+          "cuts": [
+            {
+              "beats": [
+                18,
+                18
+              ],
+              "seconds": 3,
+              "size": "wide",
+              "camera": "Static Shot",
+              "characters": [
+                "C05"
+              ],
+              "frame": "全景，船身一靠，岸上兵卒的火把一晃，吴字旗在风口猎猎招展",
+              "shot": "固定镜头，船身靠岸，岸上兵卒的火把一晃，一面旗在风口猎猎招展",
+              "lens": "35mm 广角，深景深",
+              "cameraPosition": "江岸 + 平视",
+              "composition": "对角线构图",
+              "eyeline": "岸上执火的兵卒",
+              "focus": "锁定翻卷的吴字旗",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                19,
+                19
+              ],
+              "seconds": 4,
+              "size": "close",
+              "camera": "Static Shot",
+              "characters": [
+                "C05"
+              ],
+              "frame": "特写，孔明踏着船板，不紧不慢地应了这一句，语气闲淡",
+              "shot": "固定镜头近切，白袍谋士踏稳船板，不紧不慢地回了一句，语气云淡风轻",
+              "lens": "85mm 长焦，浅景深",
+              "cameraPosition": "白袍谋士 + 平视正面",
+              "composition": "三分法",
+              "eyeline": "岸上列队的兵卒",
+              "focus": "锁定闲淡的神情",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                20,
+                20
+              ],
+              "seconds": 4,
+              "size": "wide",
+              "camera": "Static Shot",
+              "characters": [
+                "C05"
+              ],
+              "frame": "全景，船头撞开一团白雾，江东岸的旗杆与楼台轮廓渐次清晰，灯火连成一片",
+              "shot": "固定镜头，船头撞开白雾，江岸的旗杆与楼台轮廓渐次清晰，灯火连成一片",
+              "lens": "35mm 广角，深景深",
+              "cameraPosition": "江岸全景 + 平视",
+              "composition": "三分法",
+              "eyeline": "江岸楼台轮廓",
+              "focus": "锁定雾散灯稠的岸",
+              "stability": "stable"
+            }
+          ],
+          "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 3.00-second mark of the target video; Picture 3 (from Shot 3) aligns with the 7.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] The wide of <Picture 1> holds as the boat nudges the bank, torchlight flickering among the soldiers and a banner snapping in the wind; static shot.\n[Shot 2] At 00:03.000, A static shot close-up of <Picture 2>: settling his footing on the plank, the sagely strategist answers the unspoken weight of the moment lightly, and with an easy, offhand voice (S1) says: <d>[Chinese] 都是刀笔闲工夫，何必放在心上下不来。</d>\n[Shot 3] At 00:07.000, Holding the wide of <Picture 3>, the bow splits the fog and the masts and pavilions of the shore take shape, lamps linking into one sheet of light; static shot.\n\noverall_soundscape: The thud of the hull against the bank, torches crackling, a banner snapping, soldiers’ boots.\n\nnon_diegetic_music: Light low strings with a thread of tension before the audience begins.",
+          "blocking": "船首靠岸，白袍谋士独立船头，岸上兵卒执火列队，吴字旗在船尾翻卷。",
+          "soundscape": "船体靠岸的木响，火把噼啪，旗帜在风里猎猎，军士脚步声",
+          "music": "低音弦乐轻扬，带一线将要登场的张力"
+        },
+        {
+          "id": "E43-07",
+          "sceneIndex": 1,
+          "cuts": [
+            {
+              "beats": [
+                21,
+                21
+              ],
+              "seconds": 3,
+              "size": "medium",
+              "camera": "Static Shot",
+              "characters": [
+                "C13"
+              ],
+              "frame": "中景，鲁肃搀着孔明上岸，岸边早有江东士卒执火列队相候",
+              "shot": "固定镜头，魁梧文官搀着白袍谋士登岸，岸上早有执火的士卒列队相候",
+              "lens": "50mm 标准，中浅景深",
+              "cameraPosition": "两人 + 平视侧面",
+              "composition": "三分法",
+              "eyeline": "列队相候的兵卒",
+              "focus": "锁定两人上岸的身影",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                22,
+                22
+              ],
+              "seconds": 4,
+              "size": "close",
+              "camera": "Static Shot",
+              "characters": [
+                "C13"
+              ],
+              "frame": "特写，鲁肃侧身相请，请孔明随他先见主公孙权",
+              "shot": "固定镜头近切，魁梧文官侧身做了个请的手势，请白袍谋士随他先去见主公",
+              "lens": "85mm 长焦，中浅景深",
+              "cameraPosition": "魁梧文官 + 平视正面",
+              "composition": "三分法",
+              "eyeline": "前方的道路",
+              "focus": "锁定相请的手势",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                23,
+                23
+              ],
+              "seconds": 4,
+              "size": "wide",
+              "camera": "Static Shot",
+              "characters": [
+                "C05"
+              ],
+              "frame": "全景，孔明拂了拂衣袍上的水珠，迈步跟上，身后江水滔滔",
+              "shot": "固定镜头，白袍谋士抬手拂去衣袍上的水珠，迈步跟上，身后的江水滔滔",
+              "lens": "35mm 广角，深景深",
+              "cameraPosition": "白袍谋士 + 背面平视",
+              "composition": "三分法",
+              "eyeline": "前方的宫室",
+              "focus": "锁定白袍谋士迈步的背影",
+              "stability": "stable"
+            }
+          ],
+          "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 3.00-second mark of the target video; Picture 3 (from Shot 3) aligns with the 7.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] Holding <Picture 1>, the sturdy attendant helps the sagely strategist ashore where units of torch-bearing soldiers wait in line; static shot.\n[Shot 2] At 00:03.000, A static shot close-up of <Picture 2>: gesturing the way ahead, the sturdy attendant invites the strategist to follow, and with a deferential voice (S2) says: <d>[Chinese] 先生随我来，先见我家主公。</d>\n[Shot 3] At 00:07.000, The wide of <Picture 3> closes the scene: the sagely strategist brushes the spray from his robe and steps forward to follow, the great river churning behind him; static shot.\n\noverall_soundscape: Steps on the landing, the river surging behind, a brief murmur among the waiting soldiers.\n\nnon_diegetic_music: Low strings drawing in, setting up the chamber to come.",
+          "blocking": "两人一前一后踏上岸梯：魁梧文官在前引路，白袍谋士在后拂衣跟上，身后江水滔滔。",
+          "soundscape": "登岸的脚步声，江水在身后涌，岸上军士短暂的低语",
+          "music": "低音弦乐收束，为下一场厅堂对话起势"
+        },
+        {
+          "id": "E43-08",
+          "sceneIndex": 2,
+          "cuts": [
+            {
+              "beats": [
+                1,
+                2
+              ],
+              "seconds": 5,
+              "size": "wide",
+              "camera": "Static Shot",
+              "characters": [
+                "C14"
+              ],
+              "frame": "全景，厅堂之上日光斜斜打进来，孙权重袍坐定抬眼打量初渡江来的客人，鲁肃先行拜过引孔明上前",
+              "shot": "固定镜头，宽厅里日光照进来，一名年轻主公重袍坐定抬眼打量进门的新客，一旁文官先行长揖引见",
+              "lens": "35mm 广角，深景深",
+              "cameraPosition": "主公 + 平视略仰",
+              "composition": "三分法",
+              "eyeline": "进门的客人",
+              "focus": "锁定主公安坐打量之姿",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                3,
+                3
+              ],
+              "seconds": 5,
+              "size": "medium",
+              "camera": "Static Shot",
+              "characters": [
+                "C13"
+              ],
+              "frame": "中景，鲁肃长揖引见，向孙权禀明来客身份",
+              "shot": "固定镜头，那名魁梧文官长揖见礼，向主公禀明来客的身份",
+              "lens": "50mm 标准，中浅景深",
+              "cameraPosition": "魁梧文官 + 平视正面",
+              "composition": "三分法",
+              "eyeline": "安坐的主公",
+              "focus": "锁定长揖引见的身姿",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                4,
+                4
+              ],
+              "seconds": 4,
+              "size": "close",
+              "camera": "Static Shot",
+              "characters": [
+                "C14"
+              ],
+              "frame": "特写，孙权微微颔首，抬手请客落座，目光却在孔明脸上多停了片刻",
+              "shot": "固定镜头近切，年轻主公微微颔首，抬手请客落座，目光却在新客脸上多停了一瞬",
+              "lens": "85mm 长焦，中浅景深",
+              "cameraPosition": "主公 + 平视正面",
+              "composition": "三分法",
+              "eyeline": "白袍谋士的面容",
+              "focus": "锁定审视的目光",
+              "stability": "stable"
+            }
+          ],
+          "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 5.00-second mark of the target video; Picture 3 (from Shot 3) aligns with the 10.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] The cold open holds the full hall of <Picture 1>: slanting daylight fills the chamber, a seated young lord in heavy robes studies the newly arrived guest while a civil official performs the introduction; static shot.\n[Shot 2] At 00:05.000, Holding <Picture 2>, the sturdy attendant bows and presents the guest to the lord, and with a formal, respectful voice (S1) reports: <d>[Chinese] 主公，这位便是刘备麾下军师诸葛孔明。</d> The camera performs a static shot.\n[Shot 3] At 00:10.000, A static shot close-up of <Picture 3>: the young lord gives a slight nod and gestures for the guest to sit, but his eyes linger on the newcomer’s face a moment longer than politeness allows.\n\noverall_soundscape: A stillness in the hall, motes turning in the sunlight, the rustle of cloth and wood.\n\nnon_diegetic_music: Sparce strings beneath, slow to middle tempo, the sharp air of a first meeting.",
+          "blocking": "日光斜斜打进的厅堂，主公居主位坐定，魁梧文官引白袍谋士上前；堂下随侍。",
+          "soundscape": "厅堂里的静，日光落下的空气中微尘，衣料与木案轻响",
+          "music": "疏朗的弦乐托底，中慢速，见客的张力"
+        },
+        {
+          "id": "E43-09",
+          "sceneIndex": 2,
+          "cuts": [
+            {
+              "beats": [
+                5,
+                6
+              ],
+              "seconds": 5,
+              "size": "medium",
+              "camera": "Static Shot",
+              "characters": [
+                "C14"
+              ],
+              "frame": "中景，孙权单刀直入问孔明此来是否讨救兵，孔明在客位不慌不忙拱了拱手",
+              "shot": "固定镜头中景，年轻主公直问一句，客位上的白袍谋士不慌不忙拱手作答",
+              "lens": "50mm 标准，中浅景深",
+              "cameraPosition": "双人 + 平视侧面",
+              "composition": "三分法",
+              "eyeline": "客位的白袍谋士",
+              "focus": "锁定主公直问的神情",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                7,
+                7
+              ],
+              "seconds": 6,
+              "size": "medium",
+              "camera": "Static Shot",
+              "characters": [
+                "C05"
+              ],
+              "frame": "中景，孔明不慌不忙拱了拱手，字字沉稳地撇清来意",
+              "shot": "固定镜头中景，白袍谋士拱了拱手，不慌不忙，一字一句沉稳作答",
+              "lens": "50mm 标准，中浅景深",
+              "cameraPosition": "白袍谋士 + 平视正面",
+              "composition": "三分法",
+              "eyeline": "安坐的主公",
+              "focus": "锁定沉稳作答的神情",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                8,
+                8
+              ],
+              "seconds": 3,
+              "size": "medium",
+              "camera": "Static Shot",
+              "characters": [
+                "C14"
+              ],
+              "frame": "中景，孙权眉头一动，示意他接着说下去",
+              "shot": "固定镜头中景，年轻主公眉头微动，抬手示意客位的谋士往下说",
+              "lens": "50mm 标准，中浅景深",
+              "cameraPosition": "主公 + 平视正面",
+              "composition": "三分法",
+              "eyeline": "客位的白袍谋士",
+              "focus": "锁定示意的手势",
+              "stability": "stable"
+            }
+          ],
+          "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 5.00-second mark of the target video; Picture 3 (from Shot 3) aligns with the 11.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] Holding <Picture 1>, the young lord opens without ceremony, and with a probing voice (S1) he asks: <d>[Chinese] 先生此来，是替你那位皇叔讨救兵？</d> The camera performs a static shot.\n[Shot 2] At 00:05.000, Holding <Picture 2>, the sagely strategist folds his hands in a bow and answers without hurry, and with a steady, measured voice (S2) declares: <d>[Chinese] 既非讨兵，也非求援，是来与江东共谋生路。</d> The camera performs a static shot.\n[Shot 3] At 00:11.000, A static shot of <Picture 3> holds on the young lord, who raises a single brow and gestures for the guest to go on.\n\noverall_soundscape: Faint clink of cup and table, sunlight across the hall, the light silk of clothing.\n\nnon_diegetic_music: Low strings contracting and releasing with the exchange.",
+          "blocking": "主客对坐：主公居主位，白袍谋士居客位，隔案相对；两人一进一出地过招。",
+          "soundscape": "茶盏与案几轻响，日光落在堂上，衣料摩擦的细声",
+          "music": "低音弦乐一收一放，随交锋起伏"
+        },
+        {
+          "id": "E43-10",
+          "sceneIndex": 2,
+          "cuts": [
+            {
+              "beats": [
+                9,
+                10
+              ],
+              "seconds": 5,
+              "size": "close",
+              "camera": "Static Shot",
+              "characters": [
+                "C14"
+              ],
+              "frame": "特写，孙权嘲弄般点破孔明故意说轻曹家兵势，孔明不接话，端茶盏饮了一口缓缓放下",
+              "shot": "固定镜头近切，年轻主公语带激将点了一句；白袍谋士不接话，端起茶盏饮了一口才轻轻放下",
+              "lens": "85mm 长焦，中浅景深",
+              "cameraPosition": "主公 + 平视正面",
+              "composition": "三分法",
+              "eyeline": "白袍谋士",
+              "focus": "锁定激将的神情",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                11,
+                11
+              ],
+              "seconds": 6,
+              "size": "medium",
+              "camera": "Static Shot",
+              "characters": [
+                "C05"
+              ],
+              "frame": "中景，孔明放下茶盏，徐徐亮出那层利害",
+              "shot": "固定镜头中景，白袍谋士缓缓放下茶盏，不紧不慢地亮出那层利害",
+              "lens": "50mm 标准，中浅景深",
+              "cameraPosition": "白袍谋士 + 平视正面",
+              "composition": "三分法",
+              "eyeline": "安坐的主公",
+              "focus": "锁定说话的从容",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                12,
+                12
+              ],
+              "seconds": 4,
+              "size": "medium",
+              "camera": "Static Shot",
+              "characters": [
+                "C14"
+              ],
+              "frame": "中景，孙权不答，只把眉头锁深了些，像是被这句话砸到了心上",
+              "shot": "固定镜头中景，年轻主公有话不说，只把眉头锁得更深，像是被这句话砸中了心事",
+              "lens": "50mm 标准，中浅景深",
+              "cameraPosition": "主公 + 平视正面",
+              "composition": "三分法",
+              "eyeline": "案前的茶盏",
+              "focus": "锁定紧锁的眉头",
+              "stability": "stable"
+            }
+          ],
+          "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 5.00-second mark of the target video; Picture 3 (from Shot 3) aligns with the 11.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] The close shot of <Picture 1> holds on the young lord, and with a challenging, mocking voice (S1) he needles: <d>[Chinese] 曹贼兵盛，先生却说的像一场买卖。</d> The camera performs a static shot.\n[Shot 2] At 00:05.000, Holding <Picture 2>, the sagely strategist sets down the cup and lays out the stakes unhurriedly, and with a clear, weighty voice (S2) explains: <d>[Chinese] 曹操持百万之众南下，江东挡，则两家俱存。</d> The camera performs a static shot.\n[Shot 3] At 00:11.000, A static shot of <Picture 3> holds on the young lord, who says nothing, only furrows his brow deeper, struck by the force of the words.\n\noverall_soundscape: A cup set down with a click, brief silences between the exchanges, wind past the windows.\n\nnon_diegetic_music: Strings with a crisp rhythm, question and answer falling into step.",
+          "blocking": "对坐交锋继续：主公一句句进逼，白袍谋士一盏茶一把尺稳稳接住。",
+          "soundscape": "茶盏搁下的轻响，几句问答间的短暂静默，窗外风声",
+          "music": "弦乐节奏清晰，一问一答错落有致"
+        },
+        {
+          "id": "E43-11",
+          "sceneIndex": 2,
+          "cuts": [
+            {
+              "beats": [
+                13,
+                13
+              ],
+              "seconds": 3,
+              "size": "wide",
+              "camera": "Static Shot",
+              "characters": [
+                "C05"
+              ],
+              "frame": "全景，堂上一时静得出奇，只有窗外的风声偶尔漏进来，白袍谋士端坐等待",
+              "shot": "固定镜头，厅堂里静得出奇，只有窗外风声偶尔漏进来，白袍谋士端坐等着主公接话",
+              "lens": "35mm 广角，深景深",
+              "cameraPosition": "堂景 + 平视",
+              "composition": "三分法",
+              "eyeline": "安坐的主公",
+              "focus": "锁定满堂的静",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                14,
+                14
+              ],
+              "seconds": 6,
+              "size": "close",
+              "camera": "Static Shot",
+              "characters": [
+                "C05"
+              ],
+              "frame": "特写，孔明一字一顿地落下那句重话，把利害摆到桌面上",
+              "shot": "固定镜头近切，白袍谋士抬眼看着主公，一字一顿把那句利害落定",
+              "lens": "85mm 长焦，浅景深",
+              "cameraPosition": "白袍谋士 + 平视正面",
+              "composition": "三分法",
+              "eyeline": "安坐的主公",
+              "focus": "锁定落话时的眼神",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                15,
+                15
+              ],
+              "seconds": 5,
+              "size": "close",
+              "camera": "Static Shot",
+              "characters": [
+                "C14"
+              ],
+              "frame": "特写，孙权握着案卷的指节泛了泛白，一时没有答话",
+              "shot": "固定镜头近切，年轻主公握着案卷的指节微微泛白，半晌没能接上话",
+              "lens": "85mm 长焦，中浅景深",
+              "cameraPosition": "主公 + 平视正面",
+              "composition": "三分法",
+              "eyeline": "案上的卷帛",
+              "focus": "锁定泛白的指节",
+              "stability": "stable"
+            }
+          ],
+          "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 3.00-second mark of the target video; Picture 3 (from Shot 3) aligns with the 9.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] The wide of <Picture 1> holds on the suddenly hushed chamber, only a stray gust slipping in past the window while the sagely strategist waits in his seat; static shot.\n[Shot 2] At 00:03.000, A static shot close-up of <Picture 2>: fixing the young lord with his gaze, the sagely strategist sets down the weight of the choice, and with a grave, final voice (S2) warns: <d>[Chinese] 主公若不肯并力，曹兵一渡江，江东便是第二个荆州。</d>\n[Shot 3] At 00:09.000, A static shot close-up of <Picture 3>: the young lord’s knuckles whiten around the scroll in his hand, and for a long moment he finds no reply.\n\noverall_soundscape: The whole chamber fallen silent, a stray gust slipping past the window, a scroll clenched.\n\nnon_diegetic_music: Strings pressing to near stillness, holding the weight of the next line.",
+          "blocking": "堂上一时静极，白袍谋士端坐待答，主公握卷锁眉良久才开口。",
+          "soundscape": "满堂寂静，窗外风漏进一点，卷帛被攥紧的细响",
+          "music": "弦乐压到极静，蓄着下一句的分量"
+        },
+        {
+          "id": "E43-12",
+          "sceneIndex": 2,
+          "cuts": [
+            {
+              "beats": [
+                16,
+                16
+              ],
+              "seconds": 4,
+              "size": "close",
+              "camera": "Static Shot",
+              "characters": [
+                "C14"
+              ],
+              "frame": "特写，孙权不放松地追一句，问曹兵到底多不多",
+              "shot": "固定镜头近切，年轻主公凝神追问一句，问曹家的兵到底多不多",
+              "lens": "85mm 长焦，中浅景深",
+              "cameraPosition": "主公 + 平视正面",
+              "composition": "三分法",
+              "eyeline": "白袍谋士",
+              "focus": "锁定追问的神情",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                17,
+                17
+              ],
+              "seconds": 4,
+              "size": "medium",
+              "camera": "Static Shot",
+              "characters": [
+                "C05"
+              ],
+              "frame": "中景，孔明朗声一笑，抬手一比，比了个极宽的手势",
+              "shot": "固定镜头中景，白袍谋士朗声一笑，抬手一比，比出一个极宽的手势",
+              "lens": "50mm 标准，中浅景深",
+              "cameraPosition": "白袍谋士 + 平视正面",
+              "composition": "三分法",
+              "eyeline": "比出的手势",
+              "focus": "锁定朗笑与手势",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                18,
+                18
+              ],
+              "seconds": 5,
+              "size": "close",
+              "camera": "Static Shot",
+              "characters": [
+                "C05"
+              ],
+              "frame": "特写，孔明收了笑，沉稳地接上那句，点出人多未必有用",
+              "shot": "固定镜头近切，白袍谋士敛起笑意，沉稳地接上那句点破",
+              "lens": "85mm 长焦，浅景深",
+              "cameraPosition": "白袍谋士 + 平视正面",
+              "composition": "三分法",
+              "eyeline": "安坐的主公",
+              "focus": "锁定敛笑后的淡定",
+              "stability": "stable"
+            }
+          ],
+          "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 4.00-second mark of the target video; Picture 3 (from Shot 3) aligns with the 8.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] A static shot close-up of <Picture 1>: not letting the point go, the young lord presses on, and with a skeptical voice (S1) he asks: <d>[Chinese] 你说的轻巧，可知曹兵到底多不多？</d>\n[Shot 2] At 00:04.000, Holding <Picture 2>, the sagely strategist lets out an easy laugh and holds up a hand, describing a very wide span; static shot.\n[Shot 3] At 00:08.000, A static shot close-up of <Picture 3>: the sagely strategist tucks the smile away and answers steadily, and with a composed voice (S2) says: <d>[Chinese] 多，可多又有何用？抵得过归心之兵。</d>\n\noverall_soundscape: A few exchanges, cup and table-click, the lord’s tone pressing sharper.\n\nnon_diegetic_music: Strings turning light for a beat, then settling back into quiet.",
+          "blocking": "主公一句句试探深浅，白袍谋士以手势与一句轻答稳稳化解。",
+          "soundscape": "几声问答，茶盏轻响，主公追问的语气渐急",
+          "music": "弦乐轻快一线，又压回沉静"
+        },
+        {
+          "id": "E43-13",
+          "sceneIndex": 2,
+          "cuts": [
+            {
+              "beats": [
+                19,
+                19
+              ],
+              "seconds": 3,
+              "size": "close",
+              "camera": "Static Shot",
+              "characters": [
+                "C14"
+              ],
+              "frame": "特写，孙权盯着孔明抬起的手指，半晌，忽然点了点头",
+              "shot": "固定镜头近切，年轻主公盯着客座那位举着的手指，沉默片刻，忽然点了一下头",
+              "lens": "85mm 长焦，中浅景深",
+              "cameraPosition": "主公 + 平视正面",
+              "composition": "三分法",
+              "eyeline": "客座的手势",
+              "focus": "锁定点头的一瞬",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                20,
+                21
+              ],
+              "seconds": 5,
+              "size": "medium",
+              "camera": "Static Shot",
+              "characters": [
+                "C14",
+                "C05"
+              ],
+              "frame": "中景，孙权目光落在窗缝透进的江上灯火上指尖轻扣案沿，孔明不催，自顾自又饮了口茶",
+              "shot": "固定镜头中景，年轻主公望着窗缝透进来的灯火，指尖轻扣案沿；白袍谋士不催，自顾又饮了口茶",
+              "lens": "50mm 标准，中浅景深",
+              "cameraPosition": "双人 + 平视侧面",
+              "composition": "三分法",
+              "eyeline": "窗缝的灯火",
+              "focus": "锁定主公出神的神情",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                22,
+                22
+              ],
+              "seconds": 4,
+              "size": "close",
+              "camera": "Static Shot",
+              "characters": [
+                "C13"
+              ],
+              "frame": "特写，鲁肃低声朝主公禀一句，船已备好就等发话",
+              "shot": "固定镜头近切，那名魁梧文官放低声音，向主公禀上一句",
+              "lens": "85mm 长焦，中浅景深",
+              "cameraPosition": "魁梧文官 + 平视正面",
+              "composition": "三分法",
+              "eyeline": "安坐的主公",
+              "focus": "锁定低声禀报的神情",
+              "stability": "stable"
+            }
+          ],
+          "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 3.00-second mark of the target video; Picture 3 (from Shot 3) aligns with the 8.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] A static shot close-up of <Picture 1>: the young lord stares at the raised hand of the visitor, and after a long moment gives a small nod.\n[Shot 2] At 00:03.000, The medium of <Picture 2> holds on the two of them: the young lord gazes at the river lights through the window slats, fingers tapping the table edge, while the sagely strategist makes no move to rush him and quietly takes another sip of tea; static shot.\n[Shot 3] At 00:08.000, A static shot close-up of <Picture 3>: the sturdy attendant lowers his voice to the lord, and with a discreet tone (S3) states: <d>[Chinese] 主公，船已备下，就等您一句话。</d>\n\noverall_soundscape: Wind, the fine click of a cup, the lord tapping the table edge with a fingertip.\n\nnon_diegetic_music: Strings hollow and waiting on a decision.",
+          "blocking": "主公望着案上灯火出神，白袍谋士不催，魁梧文官在旁禀一句船备已下。",
+          "soundscape": "风声，茶盏细响，主公指尖敲案沿的轻响",
+          "music": "弦乐空落，等一个决定"
+        },
+        {
+          "id": "E43-14",
+          "sceneIndex": 2,
+          "cuts": [
+            {
+              "beats": [
+                23,
+                24
+              ],
+              "seconds": 5,
+              "size": "medium",
+              "camera": "Static Shot",
+              "characters": [
+                "C14"
+              ],
+              "frame": "中景，孙权伸手按向案头的军报，指尖却在一封信上顿住，缓缓拿起又放回",
+              "shot": "固定镜头中景，年轻主公伸手按向案头军报，指尖却在叠纸上顿住，把那封信拿起又缓缓放回",
+              "lens": "50mm 标准，中浅景深",
+              "cameraPosition": "主公 + 平视正面",
+              "composition": "三分法",
+              "eyeline": "案上那封信",
+              "focus": "锁定顿住的指尖",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                25,
+                25
+              ],
+              "seconds": 3,
+              "size": "close",
+              "camera": "Static Shot",
+              "characters": [
+                "C05"
+              ],
+              "frame": "特写，孔明迎着他的目光，既不闪避也不催促，只静静等着",
+              "shot": "固定镜头近切，白袍谋士迎着主公的目光，不闪不避也不催，只静静端坐",
+              "lens": "85mm 长焦，浅景深",
+              "cameraPosition": "白袍谋士 + 平视正面",
+              "composition": "三分法",
+              "eyeline": "主公的目光",
+              "focus": "锁定安然的静候",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                26,
+                26
+              ],
+              "seconds": 5,
+              "size": "close",
+              "camera": "Static Shot",
+              "characters": [
+                "C05"
+              ],
+              "frame": "特写，孔明缓缓点破那句，把真正的尺度落回主公心上",
+              "shot": "固定镜头近切，白袍谋士缓缓开口点破，一句落定便不再多言",
+              "lens": "85mm 长焦，浅景深",
+              "cameraPosition": "白袍谋士 + 平视正面",
+              "composition": "三分法",
+              "eyeline": "主公",
+              "focus": "锁定点破时的沉静",
+              "stability": "stable"
+            }
+          ],
+          "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 5.00-second mark of the target video; Picture 3 (from Shot 3) aligns with the 8.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] Holding <Picture 1>, the young lord presses a hand toward the reports on the table, his fingertip catching on one sealed letter, picking it up and setting it down again; static shot.\n[Shot 2] At 00:05.000, A static shot close-up of <Picture 2>: the sagely strategist meets the lord’s gaze, neither looking away nor pushing, simply waiting in patience.\n[Shot 3] At 00:08.000, A static shot close-up of <Picture 3>: softly, the sagely strategist sets the deciding measure back upon the lord himself, and with a low, pointed voice (S2) concludes: <d>[Chinese] 主公心中那把尺，原不在曹贼，在江东。</d>\n\noverall_soundscape: The press of a fingertip over paper, a letter lifted and set back, the silence of the hall.\n\nnon_diegetic_music: Strings holding a single suspended note, waiting on the lord’s word.",
+          "blocking": "主公指按军报又停在信上，拿起又放回；白袍谋士迎着他的目光静静等待。",
+          "soundscape": "指节按纸的轻响，信纸拿起又放回的窸窣，厅堂静默",
+          "music": "弦乐压着一个悬音，静等主公表态"
+        },
+        {
+          "id": "E43-15",
+          "sceneIndex": 2,
+          "cuts": [
+            {
+              "beats": [
+                27,
+                28
+              ],
+              "seconds": 5,
+              "size": "close",
+              "camera": "Static Shot",
+              "characters": [
+                "C14"
+              ],
+              "frame": "特写，孙权像是被说中心事，指尖微微一颤把信压回案下，再抬眼看孔明时，眼底那道防备的线松动了一线",
+              "shot": "固定镜头近切，年轻主公像被说中心事，指尖微颤把信压回案下，再抬眼时，眼底的防备松了一线",
+              "lens": "85mm 长焦，中浅景深",
+              "cameraPosition": "主公 + 平视正面",
+              "composition": "三分法",
+              "eyeline": "白袍谋士",
+              "focus": "锁定松动一线的眼神",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                29,
+                29
+              ],
+              "seconds": 5,
+              "size": "medium",
+              "camera": "Static Shot",
+              "characters": [
+                "C14"
+              ],
+              "frame": "中景，孙权终于松口，请孔明容他一夜，明日满朝再议",
+              "shot": "固定镜头中景，年轻主公终于开口，请白袍谋士容他一夜，明日满朝同议",
+              "lens": "50mm 标准，中浅景深",
+              "cameraPosition": "主公 + 平视正面",
+              "composition": "三分法",
+              "eyeline": "白袍谋士",
+              "focus": "锁定松口的郑重",
+              "stability": "stable"
+            },
+            {
+              "beats": [
+                30,
+                31
+              ],
+              "seconds": 4,
+              "size": "wide",
+              "camera": "Static Shot",
+              "characters": [
+                "C05"
+              ],
+              "frame": "全景，孔明起身一揖随鲁肃退出门去，门扇掩阖的声音在堂内轻轻回荡",
+              "shot": "固定镜头全景，白袍谋士起身深深一揖，随文官退出堂门，门扇掩阖，声音在堂内轻轻回荡",
+              "lens": "35mm 广角，深景深",
+              "cameraPosition": "堂门全景 + 平视",
+              "composition": "中心构图",
+              "eyeline": "退出的方向",
+              "focus": "锁定掩阖的门扇",
+              "stability": "stable"
+            }
+          ],
+          "h3Prompt": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 5.00-second mark of the target video; Picture 3 (from Shot 3) aligns with the 10.00-second mark of the target video.\n\nintegrated_multimodal_description:\n[Shot 1] A static shot close-up of <Picture 1>: as if the truth of it struck home, the young lord’s finger quivers, pressing the letter back beneath the table, and when he lifts his eyes to the strategist again the guarded line in them loosens a hair.\n[Shot 2] At 00:05.000, Holding <Picture 2>, the young lord grants time and gives his word, and with a solemn, decision-softened voice (S2) says: <d>[Chinese] 容我一夜。明日，满朝同公卿再议。</d> The camera performs a static shot.\n[Shot 3] At 00:10.000, The wide of <Picture 3> closes the scene: with a deep bow the sagely strategist follows the attendant out of the chamber, and the door falls shut, its sound echoing once through the hall; static shot.\n\noverall_soundscape: A fingertip trembling across paper, the lord’s voice at last, the silk of rising and bowing.\n\nnon_diegetic_music: Strings easing open, a crack of daylight let into the resolve.",
+          "blocking": "主公被动摇防线、终于松口松线，白袍谋士长揖告辞退出厅堂。",
+          "soundscape": "指尖颤过纸面，主公开口说话，随后长揖起的衣料声",
+          "music": "弦乐松动，一线天光落进的决定"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,244 @@
+36 E36-01 S1 chars=['C01', 'C05']
+  SOUND: Dawn mist hangs silent over the low hills, the bamboo wicket gate creaks open, and soft footsteps cross the swept stone before the thatched cottage.
+  MUSIC: Low warm strings at a slow tempo.
+  FRAME1: 全景，晨雾笼罩的卧龙岗上，一身鹤氅的诸葛亮手执羽扇立在草庐柴扉前，刘备在竹篱外第三次登门，柴扉正自行敞开，青苔石阶与灰顶草庐
+36 E36-02 S1 chars=['C01', 'C05']
+  SOUND: A bamboo mat rustles as the two men settle, tea vapor rises softly, and the quiet rustle of the feather fan joins the hush of the misty morning cottage.
+  MUSIC: Slow low strings, a faint plucked note between phrases.
+  FRAME1: 中景，草堂内刘备拱手谦让与孔明对坐于矮案两侧，门窗间透进晨光，茶香氤氲，刘备神色恳切
+36 E36-03 S1 chars=['C01', 'C05']
+  SOUND: Tea sloshes softly into the porcelain cup, the bamboo mat creaks, and birdsong carries faintly through the drifting valley fog.
+  MUSIC: Sparse warm strings, slightly rising, at a slow tempo.
+  FRAME1: 特写，诸葛亮为刘备斟一盏清茶，白瓷盏内热气轻袅，刘备诚恳地低声言谢，微倾上身相请
+36 E36-04 S1 chars=['C05']
+  SOUND: The feather fan swishes softly with each gesture, tea cools on the table, and the hush of the misty cottage carries the strategist's measured tone.
+  MUSIC: Low strings at a deliberate slow tempo, a single bowed note holding beneath the speech.
+  FRAME1: 特写，诸葛亮执扇侃侃而谈，目光锐利，开口点出曹操挟天子令诸侯之势不可争锋，晨光照亮半边面容
+36 E36-05 S1 chars=['C01', 'C05']
+  SOUND: The sleeve of the court robe brushes the mat as the nobleman leans in, the feather fan swishes, and the low hum of the misty cottage returns between phrases.
+  MUSIC: Slow rising strings, growing slightly in warmth.
+  FRAME1: 特写，诸葛亮收扇指案，言荆州北据汉沔利尽南海，益州险塞沃野千里，眉目笃定，晨光在案上斜照
+36 E36-06 S1 chars=['C01', 'C05']
+  SOUND: The mat shifts under the nobleman, the feather fan swishes gently, and the morning hush holds between the two voices.
+  MUSIC: Low sustained strings at a slow tempo, faint and even throughout.
+  FRAME1: 特写，刘备蹙眉追问如何守得住荆益两方，目光恳切，双眉间微蹙，案上茶露轻晃
+36 E36-07 S1 chars=['C05']
+  SOUND: The feather fan brushes the air, distant birdsong drifts through the open door, and the cottage returns to still silence.
+  MUSIC: Sparse low strings, slowing toward a nearly still breath.
+  FRAME1: 特写，诸葛亮执扇言先荆州而后益州次第图之，基业渐固可待北出，目光落在案上地势，沉稳有力
+36 E36-08 S1 chars=['C01', 'C05']
+  SOUND: The nobleman's robe rustles as he straightens, the morning tea steams softly, and a faint wind stirs the bamboo outside.
+  MUSIC: Warm low strings swelling gently, at a slow tempo.
+  FRAME1: 特写，诸葛亮执扇正色续言据荆益而抚民心，西和诸戎以固其本，则可闰土进取，眸光坚定如星
+36 E36-09 S1 chars=['C01', 'C02', 'C03']
+  SOUND: A rough laugh from the doorway dies down, robes rustle as the two men shift back behind the door, and the cottage returns to silent stillness.
+  MUSIC: Low strings hold, then thin out, at a slow tempo.
+  FRAME1: 中景，张飞侍立门外探头插嘴，粗声大气地说听着倒玄乎得很，虬髯宽脸，阳光斜落廊下
+36 E36-10 S1 chars=['C01', 'C05']
+  SOUND: The feather fan keeps its soft rhythm, the nobleman's robe rustles as he leans in, and the morning quiet holds between the words.
+  MUSIC: Slow low strings, even and unhurried.
+  FRAME1: 中景，诸葛亮并未接话，只是望着窗外，缓缓摇着那把羽扇，神情沉静如常，晨光斜照
+36 E36-11 S1 chars=['C01', 'C05']
+  SOUND: The nobleman's voice catches briefly, the mat creaks under a shift, and the quiet of the cottage settles around them.
+  MUSIC: Warm low strings swelling gently, at a slow tempo.
+  FRAME1: 中景，诸葛亮执扇续言外结孙权内修政理，待天下有变可成鼎足之势，抬手比划间气势渐起
+36 E36-12 S1 chars=['C01', 'C05']
+  SOUND: A sip and a soft clink as the cup returns to the table, the feather fan stalls briefly, and the cottage breathes in quiet.
+  MUSIC: Low strings interleaved with a single plucked note, slow tempo.
+  FRAME1: 特写，诸葛亮执扇动容道正因皇叔能得人心亮才信四境之势可握你掌中，目光专注而郑重
+36 E36-13 S1 chars=['C05']
+  SOUND: Robes settle as the strategist straightens, the fan quiets mid-air, and the afternoon light slants still across the cottage.
+  MUSIC: Low strings swelling with quiet resolve, slow tempo.
+  FRAME1: 特写，诸葛亮言昔管仲乐毅亦不过待时而动，今遇皇叔此其时矣，执扇抬手，目光微亮
+36 E36-14 S1 chars=['C01']
+  SOUND: Robe fabric settles as the nobleman rises and bows low, his voice earnest, and the cottage holds its reverent hush.
+  MUSIC: Slow warm strings, a firm note as the bow falls.
+  FRAME1: 特写，刘备闻言动容道相见恨晚如鱼得水，神情激动而郑重，目光灼灼
+36 E36-15 S1 chars=['C02', 'C03', 'C05']
+  SOUND: The feather fan stalls in the air, the two robed figures beyond the door hold still, and the cottage waits in near-silence.
+  MUSIC: Low, measured strings, swelling once and easing, at a slow tempo.
+  FRAME1: 特写，诸葛亮目光微动，手中羽扇停在半空，望着刘备久不出声，烛光样的晨光在眼里浮沉
+36 E36-16 S1 chars=['C01', 'C05']
+  SOUND: The sentence hangs unfinished in the quiet, the feather fan wavering just above the air, and the cottage holds its breath.
+  MUSIC: Low strings cut to a near-silence, one held note hanging, slow and expectant.
+  FRAME1: 中景，诸葛亮正色相告天下大乱非有明主不可拯之，皇叔有此仁心亮当以诚相告，目光落向刘备，郑重而热切
+37 E37-01 S1 chars=['C01', 'C05']
+  SOUND: The wicket gate swings fully open with a creak, robes rustle in the morning mist, and the quiet hillside stirs with faint birdsong.
+  MUSIC: Warm low strings rising gently, at a slow tempo.
+  FRAME1: 全景，卧龙岗草庐柴扉大开，诸葛亮卷一卷书册跨出门槛而立，刘备在门外整冠长揖相迎，晨雾飘散
+37 E37-02 S1 chars=['C01', 'C05']
+  SOUND: Morning mist shifts around the cottage, the rolled scroll rustles in the strategist's hand, and the hillside quiet settles round them.
+  MUSIC: Low strings with a warm resolve, slow tempo.
+  FRAME1: 特写，刘备喜极而应得先生出山如久旱逢霖是备之幸更是汉室之幸，眉目舒展笑意满溢，晨光暖人
+37 E37-03 S1 chars=['C02', 'C03', 'C05']
+  SOUND: Fawn of cloth as sleeves raise in salute, a creak of the bamboo gate, and the low misty hum of the hillside around them.
+  MUSIC: Sparse warm strings at a slow tempo, a swelling note as the salute falls.
+  FRAME1: 中景，诸葛亮回身望一眼住了多年的草庐，目中有片刻留恋遂定了定神，门外红脸关羽抱拳说道军师既肯下山云长与三弟当以军师之命是从
+37 E37-04 S1 chars=['C01', 'C02', 'C03', 'C05']
+  SOUND: Hooves and footsteps pick their way down the stony hill path, mist rustles through the pines, and low voices carry in the open air.
+  MUSIC: Light rising strings at a slow-medium tempo, hopeful and brisk.
+  FRAME1: 中景，张飞咧嘴兴奋道军师往后你说打谁我飞就冲谁，诸葛亮执扇从容答道三将军骁勇日后自有大用先回新野整顿军务
+37 E37-05 S1 chars=['C01', 'C02', 'C05']
+  SOUND: Hooves measure out a steady rhythm, saddle leather creaks, and low voices mingle with the rustle of passing oaks.
+  MUSIC: Warm strings at a calm slow tempo, light and steady.
+  FRAME1: 特写，诸葛亮与刘备并肩而行，执扇叮嘱日后续取荆益当以民心为先方能立稳根基，目光清亮
+37 E37-06 S1 chars=['C01', 'C05']
+  SOUND: Flags snap in the wind over the city wall, hooves and wheels roll in over the stone road, and a low murmur of soldiers carries from the ramparts.
+  MUSIC: Bright rising strings at a moderate tempo, opening and lifting.
+  FRAME1: 大远景，新野城头旌旗猎猎，军中闻卧龙出山士气为之一振，城楼与旗帜在晨光里翻卷，远处一行军马进城
+37 E37-07 S2 chars=['C01', 'C05']
+  SOUND: The wooden tally and seal clink softly as they pass hands, robes rustle, and a low babble of tent-life settles at the edges.
+  MUSIC: Low measured strings at a slow tempo, grave and steady.
+  FRAME1: 中景，新野大帐内刘备将兵符印绶郑重交到诸葛亮手中，郑重嘱托军国大计一应调度皆听军师安排，烛光暖黄
+37 E37-08 S2 chars=['C03', 'C05']
+  SOUND: The feather fan swishes, tent cloth stirs in a draft, and a low murmur settles in the tense quiet of the tent.
+  MUSIC: Low strings drawing out, slightly tense, at a slow tempo.
+  FRAME1: 中景，关羽张飞侧立两旁看着新军师各有敬服之色，张飞忽问曹操敢不敢来打新野，大帐里油灯微微摇曳
+37 E37-09 S2 chars=['C01', 'C02', 'C05']
+  SOUND: Weapon hilts knock softly as fists close around them, tent cloth stirs, and a low heavy silence holds under the flickering lamplight.
+  MUSIC: Low, grave strings at a slow tempo, growing in resolve.
+  FRAME1: 全景，帐中众人闻言齐齐握紧手中兵刃神色凝重，关羽沉声应道既如此早做准备方能以逸待劳，油灯下铜色兵刃反光
+37 E37-10 S2 chars=['C02', 'C05']
+  SOUND: Map paper rustles as it is smoothed out, the fan swishes, and the lamplight pools over the tent in low flicker.
+  MUSIC: Low strings, steady and plotting, at a moderate-slow tempo.
+  FRAME1: 特写，诸葛亮取出舆图缓缓展开，指尖沿新野划到博望，沉声道北面若有敌来袭必走博望此处正是火攻的绝地，烛火摇影
+37 E37-11 S2 chars=['C01', 'C02', 'C03']
+  SOUND: Swords rattle once as the two men rise, tent cloth swishes back into place, and the low murmur of counsel resumes beneath the lamp.
+  MUSIC: Low strings returning to a contemplative slow tempo.
+  FRAME1: 全景，关羽抱拳应下与张飞一同出帐，留下刘备与孔明细谈军务，帐口掀开漏进一券天光，帐内两人对坐
+37 E37-12 S3 chars=['C04']
+  SOUND: The dispatch slaps down on the table, footsteps echo on the swept stone floor, and bronze lamp flames flutter low in the draft.
+  MUSIC: Low strings, brooding and cold, at a slow tempo.
+  FRAME1: 中景，许都相府夜政，曹操坐于案后将前线探报掷在案上，正要发话，烛影在朱红柱上晃动
+37 E37-13 S3 chars=['C04']
+  SOUND: Footsteps stop, the robe settles around him as he stills, and bronze flame sputters low in the draft over the hall.
+  MUSIC: Low cold strings, sinewy and slow.
+  FRAME1: 特写，曹操负手停步，冷声道刘表也不是个安分的主刘备一旦坐大荆州必危，烛火在瞳中一跳
+37 E37-14 S3 chars=['C04']
+  SOUND: A fingertip taps the map once, sharply, candle flame gutters, and the hall holds a cool, watchful quiet.
+  MUSIC: Low strings with a sharp cold edge, slow tempo.
+  FRAME1: 特写，烛影一摇，曹操立于舆图前目光一寸寸描过新野，指尖落在那位置上重重一点，指节白皙
+37 E37-15 S3 chars=['C04']
+  SOUND: Robes rustle as he turns, footsteps cross the stone in the candlelit hall, and the lamps gutter low.
+  MUSIC: Low cold strings, slow and menacing.
+  FRAME1: 特写，曹操沉声传令道待荆州军务清楚即整师南向直捣新野，眸光转厉，烛影在脸上明灭
+37 E37-16 S3 chars=['C04']
+  SOUND: Brush sandals drag on paper with each stroke, tamped ink clinks in the tray, and the flame of the bronze lamp sputters in the still hall.
+  MUSIC: A single low held string tone, slow and fateful.
+  FRAME1: 特写，灯焰晃了晃，曹操转身落笔写下一道南下的军令，笔锋在宣纸上一顿一顿，墨迹晕开
+38 E38-01 S1 chars=['C03', 'C05', 'C23']
+  SOUND: Hooves thunder over the dry road, wind whistles past as a horseman wheels away, and dust grits through the air.
+  MUSIC: Low urgent strings, building at a moderate tempo.
+  FRAME1: 全景，新野城北烟尘漫天，夏侯惇率军压来马蹄沉闷震地，诸葛亮立在高处羽扇轻指示意依计行事，两军对峙于黄土官道
+38 E38-02 S1 chars=['C23']
+  SOUND: Hooves crowd together in the narrow pass, dry grass rustles on both sides, and war-trumpets bray thin over the dust.
+  MUSIC: Low tense strings at a moderate tempo, tightening as the column enters.
+  FRAME1: 中景，夏侯惇独眼一瞪，扬声喝道区区小城也配拦我夏侯惇给我追，马鞭一甩，眼眸在尘土里森然发亮
+38 E38-03 S1 chars=['C02', 'C05']
+  SOUND: Wind carries the rumble of distant hooves up the slope, banners snap overhead, and archers shift quietly in the grass-line.
+  MUSIC: Low held strings, coiled and patient, at a moderate-slow tempo.
+  FRAME1: 特写，关羽于坡上观阵抱拳急道军师他们进了谷口正是放火的好时候，长须在风里微扬，眼中跃着一线战意
+38 E38-04 S1 chars=['C05', 'C23']
+  SOUND: A whoosh as the fire takes the grass, crackling timber and screaming horses, hooves and men thundering in chaos through the smoke.
+  MUSIC: Percussive drums and low brass at a driving tempo, harsh and relentless.
+  FRAME1: 特写，诸葛亮在上风处将旗一展，军中火把应声而落，旗面猎猎，火光霎时腾起
+38 E38-05 S1 chars=['C23']
+  SOUND: Fire roars at his back, hooves skid and scatter on the burning slope, and his scorched cloth hisses as sparks fall away.
+  MUSIC: Low brass and drums, fast and chaotic, fading as the flight continues.
+  FRAME1: 特写，夏侯惇独眼圆睁惊觉火来得不对，连声喝道前面准有埋伏快退，中计了撤快撤，火光照亮惊骇的脸
+38 E38-06 S1 chars=['C02', 'C03']
+  SOUND: Fire crackles and roars in the valley below, wind lifts the banners, and the two voices carry over the slope's warm drone.
+  MUSIC: Bright low strings and brass, at a moderate tempo, victorious.
+  FRAME1: 中景，张飞于坡上望着火场，咧嘴大笑道烧得好烧得那群王八羔子屁滚尿流，虬髯随笑声抖动，火光映脸
+38 E38-07 S1 chars=['C01']
+  SOUND: Wind and fire crackle from the valley, the nobleman's robe shifts as he turns, and the slope holds a moment of quiet marvel.
+  MUSIC: Low warm strings, at a slow swelling tempo.
+  FRAME1: 特写，刘备在山上看到此幕，转头望向这位新军师，目光竟有些怔，眼底涌动着感慨与信服
+38 E38-08 S1 chars=['C01', 'C05']
+  SOUND: Wind lifts the banners, distant hooves fade into the smoke, and the slope settles into a watchful quiet.
+  MUSIC: Low strings, measured and watchful, at a slow tempo.
+  FRAME1: 中景，诸葛亮于坡上收扇执戈，神色从容道此不过小试锋芒夏侯部远未伤筋动骨尚须谨慎，火光的暖色爬上半边衣甲
+38 E38-09 S1 chars=['C01', 'C05']
+  SOUND: The fire crackles low in the valley, wind tugs at the robe edges, and a quiet confidence hangs between the two figures.
+  MUSIC: Low strings with a faint shift toward stillness, slow tempo.
+  FRAME1: 特写，刘备望着退敌方向沉声道军师他是往新野方向退的怕是还要卷土重来，眉宇间带着一层后忧
+38 E38-10 S2 chars=['C05', 'C23']
+  SOUND: War-horns bray low over the returning column, hooves and loose metal clatter under the wall, and the wind pulls at the banners.
+  MUSIC: Low strings, coiled and cold, at a moderate-slow tempo.
+  FRAME1: 全景，夏侯惇残部卷土重来气势汹汹扑向新野城下，诸葛亮在城头看毕转身下达第二道命令，城楼烟尘与旗帜翻卷
+38 E38-11 S2 chars=['C01', 'C05', 'C23']
+  SOUND: Gates slam and bolt shut, oil splashes on stone, then a great whoosh as the streets catch and crackle into fire.
+  MUSIC: Drums and low brass rising, harsh and swift, then climbing heat.
+  FRAME1: 特写，刘备闻言脸色一凛，蹙眉追问城中百姓呢，烟火映在焦急的眉眼间
+38 E38-12 S2 chars=['C23']
+  SOUND: Flame walls roar on both flanks, hooves crackle through burning debris, and the general's voice is swallowed by the blaze.
+  MUSIC: Low brass and drums, churning and chaotic, at a fast tempo.
+  FRAME1: 特写，夏侯惇勒马惊喝不好城门关了火这里也有伏兵，独眼圆睁，火光在他脸上乱跳
+38 E38-13 S2 chars=['C03', 'C05', 'C23']
+  SOUND: The fire crackles low and sinks, wind stirs the smoke, and the general's hoarse curse lingers in the cooling air.
+  MUSIC: Low drums easing to a steadier pulse, at a moderate tempo.
+  FRAME1: 中景，夏侯惇冲出火场狼狈勒马，独眼圆睁咬牙低喝又是火诸葛亮你好狠的手段，火光映着他满是烟灰的脸
+38 E38-14 S2 chars=['C01', 'C05']
+  SOUND: Embers crackle softly below, wind rustles the robe hem, and the two low voices weigh the cost of the victory.
+  MUSIC: Low strings, watchful and turning inward, at a slow tempo.
+  FRAME1: 特写，刘备站在高处望着渐熄的火光，眼中却浮起一丝忧色，火光明明灭灭映在他凝重的眉眼间
+38 E38-15 S2 chars=['C02', 'C05']
+  SOUND: A sword shifts in its grip, map paper crinkles under the fan tip, and the low murmur of the besieged town settles around them.
+  MUSIC: Low strings, deliberate and planning, at a slow tempo.
+  FRAME1: 中景，关羽握刀沉声问道那咱们是守是退，长须垂落，目光落在兄长与军师之间
+38 E38-16 S2 chars=['C01', 'C03', 'C05']
+  SOUND: The scattered flames hiss and die out on the charred town wall, wind carries the faint smell of smoke, and the clamour of the routed army fades into the distance.
+  MUSIC: Low strings with a sombre, deliberate pulse, at a slow tempo, steadied and resolute.
+  FRAME1: 中景，张飞在坡上瞪圆大眼，满是不平地嚷道才打胜仗就要撤这仗岂不是白赢了，一手提着长矛，一脸不服。
+38 E38-17 S2 chars=['C01', 'C05']
+  SOUND: The scattered flames hiss and die out on the charred town wall, wind carries the faint smell of smoke, and the clamour of the routed army fades into the distance.
+  MUSIC: Low strings with a sombre, deliberate pulse, at a slow tempo, steadied and resolute.
+  FRAME1: 特写，刘备望着北方，眉宇不展，轻声道两把火虽解此围可曹操岂肯善罢甘休，火烬在瞳中一明一灭。
+39 E39-01 S1 chars=['C01', 'C11']
+  SOUND: Rain drums on the eaves of the county office, one urgent hoofbeat stops short at the gate, parchment rustles under a trembling palm, and muffled voices carry the news of Jingzhou falling.
+  MUSIC: Low, anxious strings with a wary undercurrent, at a slow tempo, swelling as the letter is read.
+  FRAME1: 全景，雨夜府衙门口，一匹报马连滚带爬冲入，蹄下泥水四溅，来人立时翻身滚落鞍辔。
+39 E39-02 S1 chars=['C01', 'C03']
+  SOUND: Rain drums on the eaves of the county office, one urgent hoofbeat stops short at the gate, parchment rustles under a trembling palm, and muffled voices carry the news of Jingzhou falling.
+  MUSIC: Low, anxious strings with a wary undercurrent, at a slow tempo, swelling as the letter is read.
+  FRAME1: 特写，刘备声音发颤道刘表竟病故了蔡氏扶幼子刘琮竟举荆州降曹，眼里的光一寸寸暗下去。
+39 E39-03 S1 chars=['C02']
+  SOUND: Rain drums on the eaves of the county office, one urgent hoofbeat stops short at the gate, parchment rustles under a trembling palm, and muffled voices carry the news of Jingzhou falling.
+  MUSIC: Low, anxious strings with a wary undercurrent, at a slow tempo, swelling as the letter is read.
+  FRAME1: 特写，关羽蹙眉握住刀柄，目光沉凝地望向兄长，烛影在他眉心投下一道深纹。
+39 E39-04 S1 chars=['C01', 'C05']
+  SOUND: Rain drums on the eaves of the county office, one urgent hoofbeat stops short at the gate, parchment rustles under a trembling palm, and muffled voices carry the news of Jingzhou falling.
+  MUSIC: Low, anxious strings with a wary undercurrent, at a slow tempo, swelling as the letter is read.
+  FRAME1: 中景，诸葛亮执扇立于案侧，神色严峻道刘琮不战而降荆州大势已去皇叔此地不可久留。
+39 E39-05 S1 chars=['C05']
+  SOUND: Rain drums on the eaves of the county office, one urgent hoofbeat stops short at the gate, parchment rustles under a trembling palm, and muffled voices carry the news of Jingzhou falling.
+  MUSIC: Low, anxious strings with a wary undercurrent, at a slow tempo, swelling as the letter is read.
+  FRAME1: 特写，诸葛亮接口道曹军虽众所恃不过数州之兵公得民心这才是退的本钱，目光笃定冷静。
+39 E39-06 S1 chars=['C03', 'C05']
+  SOUND: Rain drums on the eaves of the county office, one urgent hoofbeat stops short at the gate, parchment rustles under a trembling palm, and muffled voices carry the news of Jingzhou falling.
+  MUSIC: Low, anxious strings with a wary undercurrent, at a slow tempo, swelling as the letter is read.
+  FRAME1: 中景，张飞一脸不甘地追问那新野就这么丢了，双手攥紧拳头垂在身侧。
+39 E39-07 S1 chars=['C01', 'C02']
+  SOUND: Rain drums on the eaves of the county office, one urgent hoofbeat stops short at the gate, parchment rustles under a trembling palm, and muffled voices carry the news of Jingzhou falling.
+  MUSIC: Low, anxious strings with a wary undercurrent, at a slow tempo, swelling as the letter is read.
+  FRAME1: 中景，关羽低声道军师说得是一时之失算不得败且看日后，神色沉稳地附和。
+39 E39-08 S1 chars=['C01', 'C02', 'C03']
+  SOUND: Rain drums on the eaves of the county office, one urgent hoofbeat stops short at the gate, parchment rustles under a trembling palm, and muffled voices carry the news of Jingzhou falling.
+  MUSIC: Low, anxious strings with a wary undercurrent, at a slow tempo, swelling as the letter is read.
+  FRAME1: 中景，张飞还想再争，被关羽伸手按住臂膀，硬生生咽下满腹的话。
+39 E39-09 S1 chars=['C02', 'C05']
+  SOUND: Rain drums on the eaves of the county office, one urgent hoofbeat stops short at the gate, parchment rustles under a trembling palm, and muffled voices carry the news of Jingzhou falling.
+  MUSIC: Low, anxious strings with a wary undercurrent, at a slow tempo, swelling as the letter is read.
+  FRAME1: 特写，关羽掷地有声道大哥往哪去云长便跟到哪刀山火海也在所不惜，目光坚定无惧。
+39 E39-10 S1 chars=['C01', 'C05']
+  SOUND: Rain drums on the eaves of the county office, one urgent hoofbeat stops short at the gate, parchment rustles under a trembling palm, and muffled voices carry the news of Jingzhou falling.
+  MUSIC: Low, anxious strings with a wary undercurrent, at a slow tempo, swelling as the letter is read.
+  FRAME1: 特写，刘备沉吟道军师是说剿仲弃地而民意仍可善加经营，眉头微动若有所思。
+39 E39-11 S1 chars=['C02', 'C03']
+  SOUND: Rain drums on the eaves of the county office, one urgent hoofbeat stops short at the gate, parchment rustles under a trembling palm, and muffled voices carry the news of Jingzhou falling.
+  MUSIC: Low, anxious strings with a wary undercurrent, at a slow tempo, swelling as the letter is read.
+  FRAME1: 中景，张飞仍不服输地别过脸咕哝那咱这仗算是白白败了，满是不甘。
+39 E39-12 S1 chars=['C01', 'C02', 'C03', 'C05']
+  SOUND: Rain drums on the eaves of the county office, one urgent hoofbeat stops short at the gate, parchment rustles under a trembling palm, and muffled voices carry the news of Jingzhou falling.
+  MUSIC: Low, anxious strings with a wary undercurrent, at a slow tempo, swelling as the letter is read.
+  FRAME1: 中景，刘备与诸葛亮相视一眼，又看向两位兄弟，四人目光一遇，已下了连夜撤出的决心。

@@ -1,0 +1,1401 @@
+{
+  "source": "三国演义",
+  "promptLang": "en",
+  "params": {
+    "maxSegmentSeconds": 15,
+    "minCutSeconds": 2,
+    "maxCutSeconds": 8,
+    "maxOnScreen": 3,
+    "tolerance": 0.15
+  },
+  "episodes": [
+    {
+      "ep": 26,
+      "segments": [],
+      "seedScenes": [
+        {
+          "sceneIndex": 1,
+          "sceneId": "S06",
+          "lighting": "白昼对峙",
+          "characters": [
+            "C04"
+          ],
+          "props": [],
+          "beats": [
+            {
+              "n": 1,
+              "kind": "action",
+              "seconds": 2.5,
+              "text": "官渡前线，两军隔河对峙月余。曹操立马高处，望着北岸连营十里的袁军旌旗，眉头深锁。"
+            },
+            {
+              "n": 2,
+              "kind": "line",
+              "seconds": 5.6,
+              "speaker": "C04",
+              "text": "兵不过数万，粮只支一月，此战须速决，再拖军心先垮。"
+            },
+            {
+              "n": 3,
+              "kind": "line",
+              "seconds": 5.1,
+              "speaker": "VO",
+              "text": "官渡相持，耗的是人粮，更是谁先撑不住的那口气。"
+            },
+            {
+              "n": 4,
+              "kind": "action",
+              "seconds": 2.5,
+              "text": "曹操引众将巡营，见士卒面有菜色，战马瘦得露出肋骨，默然端起一碗稀粥看了又看。"
+            },
+            {
+              "n": 5,
+              "kind": "line",
+              "seconds": 4.9,
+              "speaker": "C04",
+              "text": "军中粮草至多支一月，此战成败，系于能否速胜。"
+            },
+            {
+              "n": 6,
+              "kind": "action",
+              "seconds": 2.5,
+              "text": "曹操连夜召来心腹，密授一计：分兵袭扰袁军粮道，又扬言断其咽喉，乱其军心。"
+            },
+            {
+              "n": 7,
+              "kind": "line",
+              "seconds": 6,
+              "speaker": "C04",
+              "text": "袁绍兵多，孤不与他对耗；只消乱了他阵脚，便有可乘之机。"
+            },
+            {
+              "n": 8,
+              "kind": "action",
+              "seconds": 2.5,
+              "text": "是夜，曹营派出轻骑，潜入袁军屯粮之地放火，火光烛天，袁军大乱，喊声一夜未绝。"
+            },
+            {
+              "n": 9,
+              "kind": "action",
+              "seconds": 2.5,
+              "text": "次日，袁军果然疑神疑鬼，粮草转运多绕远路，来报者络绎不绝，袁绍疑心更重。"
+            },
+            {
+              "n": 10,
+              "kind": "line",
+              "seconds": 4.7,
+              "speaker": "C04",
+              "text": "袁绍兵多而谋官，这一把火，烧的正是他的胆。"
+            },
+            {
+              "n": 11,
+              "kind": "line",
+              "seconds": 4.2,
+              "speaker": "VO",
+              "text": "兵少粮缺，可这一计，先乱了袁绍的阵脚。"
+            },
+            {
+              "n": 12,
+              "kind": "action",
+              "seconds": 2.5,
+              "text": "曹操连夜巡视营盘，见士卒啃着干饼，亲自把仅存的面粉均分下去。"
+            },
+            {
+              "n": 13,
+              "kind": "line",
+              "seconds": 4.9,
+              "speaker": "C04",
+              "text": "粮少，便与士卒同食；军心在，孤就有几分胜算。"
+            },
+            {
+              "n": 14,
+              "kind": "action",
+              "seconds": 2.5,
+              "text": "众士卒见丞相如此，尽皆动容，纷纷跪地问安，士气为之一振。"
+            },
+            {
+              "n": 15,
+              "kind": "line",
+              "seconds": 4.4,
+              "speaker": "C04",
+              "text": "今晚且让士卒饱餐一顿，明日还有硬仗要打。"
+            },
+            {
+              "n": 16,
+              "kind": "line",
+              "seconds": 5.1,
+              "speaker": "VO",
+              "text": "兵少粮缺不可怕，怕的是军心先寒；这一餐，值了。"
+            },
+            {
+              "n": 17,
+              "kind": "action",
+              "seconds": 2.5,
+              "text": "曹操在不多的口粮里仍匀出一份，分给伤病，众将士无不感佩，齐声应诺。"
+            }
+          ]
+        },
+        {
+          "sceneIndex": 2,
+          "sceneId": "S06",
+          "lighting": "白昼对峙",
+          "characters": [
+            "C10",
+            "C01"
+          ],
+          "props": [],
+          "beats": [
+            {
+              "n": 1,
+              "kind": "action",
+              "seconds": 2.5,
+              "text": "袁绍大帐，火光映得满壁生辉。谋士们献计围困官渡，又有人劝分兵袭许都，袁绍捻须不答。"
+            },
+            {
+              "n": 2,
+              "kind": "line",
+              "seconds": 6.2,
+              "speaker": "C10",
+              "text": "曹操兵少粮竭，只消围住他，便可不战而胜，袭许都未免弄险。"
+            },
+            {
+              "n": 3,
+              "kind": "line",
+              "seconds": 6,
+              "speaker": "C01",
+              "text": "袁公兵多粮足，正该动刀，勿与曹操久耗，这仗宜速决客场。"
+            },
+            {
+              "n": 4,
+              "kind": "line",
+              "seconds": 5.8,
+              "speaker": "C10",
+              "text": "孤兵围官渡，正待不战而胜，何须舍近求远，去袭那许都？"
+            },
+            {
+              "n": 5,
+              "kind": "line",
+              "seconds": 4.7,
+              "speaker": "C01",
+              "text": "明公若迟疑不决，只恐坐失良机，还望再思之。"
+            },
+            {
+              "n": 6,
+              "kind": "action",
+              "seconds": 2.5,
+              "text": "袁绍抬眼打量刘备，半晌沉吟，终是摇头，仍旧抱持围困之计不肯改。"
+            },
+            {
+              "n": 7,
+              "kind": "line",
+              "seconds": 5.6,
+              "speaker": "C10",
+              "text": "玄德初来，未谙我河北军务，且退下养息，孤自有分寸。"
+            },
+            {
+              "n": 8,
+              "kind": "action",
+              "seconds": 2.5,
+              "text": "帐中诸将纷纷附和袁绍，只刘备一人蹙眉，欲言又止，终是退到一旁。"
+            },
+            {
+              "n": 9,
+              "kind": "line",
+              "seconds": 5.3,
+              "speaker": "C01",
+              "text": "袁公多疑，错失良机，只怕官渡一战，胜负已有分晓。"
+            },
+            {
+              "n": 10,
+              "kind": "line",
+              "seconds": 4.2,
+              "speaker": "VO",
+              "text": "袁绍兵多无谋，此等机缘，只怕要错付了。"
+            },
+            {
+              "n": 11,
+              "kind": "action",
+              "seconds": 2.5,
+              "text": "夜半，袁营托付松慢，各寨灯火渐次熄灭，唯有刘备独坐帐中，望着河北的夜空出神。"
+            },
+            {
+              "n": 12,
+              "kind": "line",
+              "seconds": 5.8,
+              "speaker": "C01",
+              "text": "我刘备借袁之粮、栖身于此，只为等一个真正能成事的人。"
+            },
+            {
+              "n": 13,
+              "kind": "line",
+              "seconds": 5.6,
+              "speaker": "C10",
+              "text": "玄德既归我麾下，且随军听用，待破曹之日，自有分赏。"
+            },
+            {
+              "n": 14,
+              "kind": "line",
+              "seconds": 3.1,
+              "speaker": "C01",
+              "text": "谢明公，玄德定当效犬马之劳。"
+            },
+            {
+              "n": 15,
+              "kind": "action",
+              "seconds": 2.5,
+              "text": "刘备望着袁绍的背影，心头一沉，却不露神色，退回自己的帐中。"
+            },
+            {
+              "n": 16,
+              "kind": "line",
+              "seconds": 5.3,
+              "speaker": "VO",
+              "text": "袁绍轻我，此非久留之地；只待时机，便当另寻明主。"
+            },
+            {
+              "n": 17,
+              "kind": "line",
+              "seconds": 5.3,
+              "speaker": "C10",
+              "text": "玄德若早有成算，何不早献？孤自有主张，无须多言。"
+            },
+            {
+              "n": 18,
+              "kind": "line",
+              "seconds": 4.7,
+              "speaker": "C01",
+              "text": "玄德不敢多言，唯盼明公审时度势，早定大计。"
+            },
+            {
+              "n": 19,
+              "kind": "line",
+              "seconds": 4.4,
+              "speaker": "C10",
+              "text": "玄德且退，明日与孤同观官渡，看曹贼败亡。"
+            },
+            {
+              "n": 20,
+              "kind": "action",
+              "seconds": 2.5,
+              "text": "袁绍哼了一声拂袖而入，刘备独自立在门外，夜风拂过他的衣甲。"
+            },
+            {
+              "n": 21,
+              "kind": "line",
+              "seconds": 4.4,
+              "speaker": "C01",
+              "text": "如此主公，终究难成大事，我刘备其志未央。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ep": 27,
+      "segments": [],
+      "seedScenes": [
+        {
+          "sceneIndex": 1,
+          "sceneId": "S06",
+          "lighting": "白昼对峙",
+          "characters": [
+            "C10",
+            "C25"
+          ],
+          "props": [],
+          "beats": [
+            {
+              "n": 1,
+              "kind": "action",
+              "seconds": 2.5,
+              "text": "袁绍大帐，许攸进言，劝袁绍趁官渡相持，分兵奇袭许都，断曹操后路。"
+            },
+            {
+              "n": 2,
+              "kind": "line",
+              "seconds": 5.3,
+              "speaker": "C25",
+              "text": "明公趁曹操主力在官渡，可分兵偷袭许都，大事可成。"
+            },
+            {
+              "n": 3,
+              "kind": "line",
+              "seconds": 5.8,
+              "speaker": "C10",
+              "text": "孤兵围官渡，正待不战而胜，何须舍近求远，去袭那许都？"
+            },
+            {
+              "n": 4,
+              "kind": "line",
+              "seconds": 5.3,
+              "speaker": "C25",
+              "text": "曹操兵少粮竭，正宜速决；若拖到解危，恐夜长梦多。"
+            },
+            {
+              "n": 5,
+              "kind": "action",
+              "seconds": 2.5,
+              "text": "袁绍正在迟疑，忽遇人来密告，说曹操与许攸旧有交情，登时疑心大起。"
+            },
+            {
+              "n": 6,
+              "kind": "line",
+              "seconds": 5.8,
+              "speaker": "C10",
+              "text": "你与曹孟德旧交一场，莫不是来替他说情、行那反间之计？"
+            },
+            {
+              "n": 7,
+              "kind": "line",
+              "seconds": 4.7,
+              "speaker": "C25",
+              "text": "明公！攸依袁氏多年，岂能做那背主求荣之事！"
+            },
+            {
+              "n": 8,
+              "kind": "action",
+              "seconds": 2.5,
+              "text": "袁绍怒不可遏，将许攸当堂斥逐，连他子侄贪赃犯法之事也一并拿出来数落。"
+            },
+            {
+              "n": 9,
+              "kind": "line",
+              "seconds": 6,
+              "speaker": "C10",
+              "text": "你子侄贪赃枉法，孤念你旧功不究；今再进谗言，休怪无情！"
+            },
+            {
+              "n": 10,
+              "kind": "line",
+              "seconds": 5.1,
+              "speaker": "C25",
+              "text": "袁公多疑若此，此诚非成大事之主，攸算看错了人！"
+            },
+            {
+              "n": 11,
+              "kind": "line",
+              "seconds": 5.1,
+              "speaker": "C10",
+              "text": "你既执意要走，孤也不拦你，只怨你自己不知进退！"
+            },
+            {
+              "n": 12,
+              "kind": "line",
+              "seconds": 3.3,
+              "speaker": "VO",
+              "text": "袁绍这般心胸，焉能成得了大业！"
+            },
+            {
+              "n": 13,
+              "kind": "action",
+              "seconds": 2.5,
+              "text": "许攸磕了个头，含恨出帐，把马一催，头也不回朝曹营驰去。"
+            },
+            {
+              "n": 14,
+              "kind": "line",
+              "seconds": 4.2,
+              "speaker": "VO",
+              "text": "一别袁营，从此两不相欠，攸当另投明主。"
+            }
+          ]
+        },
+        {
+          "sceneIndex": 2,
+          "sceneId": "S06",
+          "lighting": "大雾迟明",
+          "characters": [
+            "C04",
+            "C25"
+          ],
+          "props": [],
+          "beats": [
+            {
+              "n": 1,
+              "kind": "action",
+              "seconds": 2.5,
+              "text": "许攸策马赶到曹营，报上姓名，军士入帐通传。曹操正解衣欲睡，闻报大喜，连鞋都顾不得穿，跣足出迎。"
+            },
+            {
+              "n": 2,
+              "kind": "line",
+              "seconds": 2.7,
+              "speaker": "C04",
+              "text": "子远远来，孤之大事济矣！"
+            },
+            {
+              "n": 3,
+              "kind": "line",
+              "seconds": 3.1,
+              "speaker": "C25",
+              "text": "攸有要事相告，愿听主公决断。"
+            },
+            {
+              "n": 4,
+              "kind": "action",
+              "seconds": 2.5,
+              "text": "曹操亲引许攸入帐，亲手斟酒，屏退左右，压低声音询问战局虚实。"
+            },
+            {
+              "n": 5,
+              "kind": "line",
+              "seconds": 6,
+              "speaker": "C25",
+              "text": "袁军虽众，不足为虑；其辎重尽屯乌巢，守将无谋，可破也。"
+            },
+            {
+              "n": 6,
+              "kind": "line",
+              "seconds": 6.2,
+              "speaker": "C04",
+              "text": "乌巢屯粮？此计若成，袁军自解！只是此非常之谋，难保万全。"
+            },
+            {
+              "n": 7,
+              "kind": "line",
+              "seconds": 6,
+              "speaker": "C25",
+              "text": "攸以性命担保！昨夜被袁绍斥逐，才来相投，岂会虚言相欺！"
+            },
+            {
+              "n": 8,
+              "kind": "line",
+              "seconds": 5.6,
+              "speaker": "VO",
+              "text": "这一注押在许攸身上，若成则胜官渡，若败则全军俱陷。"
+            },
+            {
+              "n": 9,
+              "kind": "action",
+              "seconds": 2.5,
+              "text": "曹操盯着许攸看了半晌，忽而大笑，亲自把盏相贺，满帐烛影摇动。"
+            },
+            {
+              "n": 10,
+              "kind": "line",
+              "seconds": 5.8,
+              "speaker": "C04",
+              "text": "得子远来归，胜得十万雄兵。此计孤信你，明日便议乌巢。"
+            },
+            {
+              "n": 11,
+              "kind": "line",
+              "seconds": 5.1,
+              "speaker": "C25",
+              "text": "主公信攸一至于此，攸必当以死相报，保主公破袁。"
+            },
+            {
+              "n": 12,
+              "kind": "line",
+              "seconds": 5.3,
+              "speaker": "C04",
+              "text": "快起来，孤这一生信人不多，今日便信你许子远一回。"
+            },
+            {
+              "n": 13,
+              "kind": "action",
+              "seconds": 2.5,
+              "text": "二人就着烛火，轻声细议明日进军与烧粮之策，直到东方泛白。"
+            },
+            {
+              "n": 14,
+              "kind": "line",
+              "seconds": 5.3,
+              "speaker": "C04",
+              "text": "子远此来，足见赤诚；待破袁之日，孤必不亏待于你。"
+            },
+            {
+              "n": 15,
+              "kind": "line",
+              "seconds": 4.7,
+              "speaker": "C25",
+              "text": "攸但求为明主效命，别无他求，此心天地可鉴。"
+            },
+            {
+              "n": 16,
+              "kind": "line",
+              "seconds": 4.7,
+              "speaker": "C04",
+              "text": "子远既投孤，孤当以国士待之。明日随孤破袁。"
+            },
+            {
+              "n": 17,
+              "kind": "line",
+              "seconds": 3.1,
+              "speaker": "C25",
+              "text": "主公如此相待，攸敢不效死力！"
+            },
+            {
+              "n": 18,
+              "kind": "action",
+              "seconds": 2.5,
+              "text": "烛火把两人的影子拉得老长，一夜之间，破袁之计已成定局。"
+            },
+            {
+              "n": 19,
+              "kind": "line",
+              "seconds": 5.1,
+              "speaker": "C04",
+              "text": "夜已深，子远且去安歇，明日正午，孤要亲提大军。"
+            },
+            {
+              "n": 20,
+              "kind": "line",
+              "seconds": 4,
+              "speaker": "C25",
+              "text": "攸告退，主公早些歇息，破袁只在眼前。"
+            },
+            {
+              "n": 21,
+              "kind": "line",
+              "seconds": 4.4,
+              "speaker": "C04",
+              "text": "子远好好歇息，明日孤与你同建这一桩奇功！"
+            },
+            {
+              "n": 22,
+              "kind": "line",
+              "seconds": 4.7,
+              "speaker": "VO",
+              "text": "此夜过后，官渡之战的天平，已悄然偏向曹营。"
+            },
+            {
+              "n": 23,
+              "kind": "action",
+              "seconds": 2.5,
+              "text": "东方既白，曹操将军议说与许攸定夺，二人击掌为约，背信之言掷地有声。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ep": 28,
+      "segments": [],
+      "seedScenes": [
+        {
+          "sceneIndex": 1,
+          "sceneId": "S06",
+          "lighting": "乌巢夜火",
+          "characters": [
+            "C04",
+            "C25"
+          ],
+          "props": [],
+          "beats": [
+            {
+              "n": 1,
+              "kind": "action",
+              "seconds": 2.5,
+              "text": "乌巢夜色沉沉，曹操亲率五千精骑衔枚疾走，马匹裹蹄，连夜直扑袁军屯粮之地。"
+            },
+            {
+              "n": 2,
+              "kind": "line",
+              "seconds": 5.8,
+              "speaker": "C04",
+              "text": "今夜成败，全系于这一把火。传令下去，只许进，不许退。"
+            },
+            {
+              "n": 3,
+              "kind": "line",
+              "seconds": 5.6,
+              "speaker": "C25",
+              "text": "主公但放宽心，攸的军情无误，乌巢守将此刻早已高枕。"
+            },
+            {
+              "n": 4,
+              "kind": "action",
+              "seconds": 2.5,
+              "text": "火光渐近，曹操一骑当先，冲入辕门，守粮袁军自梦中惊起，仓皇结阵。"
+            },
+            {
+              "n": 5,
+              "kind": "line",
+              "seconds": 4,
+              "speaker": "C04",
+              "text": "火烧乌巢，断袁绍之臂，今日当立此功！"
+            },
+            {
+              "n": 6,
+              "kind": "action",
+              "seconds": 2.5,
+              "text": "曹操一声令下，精骑四面放火，仓库尽燃，火焰冲天，伏粮烧得噼啪作响。"
+            },
+            {
+              "n": 7,
+              "kind": "action",
+              "seconds": 2.5,
+              "text": "袁军守将拼死来夺，曹操一槊迎战，火光里你来我往，不落下风。"
+            },
+            {
+              "n": 8,
+              "kind": "line",
+              "seconds": 5.8,
+              "speaker": "C04",
+              "text": "守住阵脚，别教他救回粮草！孤便坐在这里，看他们如何。"
+            },
+            {
+              "n": 9,
+              "kind": "action",
+              "seconds": 2.5,
+              "text": "混战至天明，乌巢粮草已烧去大半，袁军守将所领人马四散奔逃。"
+            },
+            {
+              "n": 10,
+              "kind": "line",
+              "seconds": 4.4,
+              "speaker": "C25",
+              "text": "主公，粮已成灰，袁绍军粮已断，此战胜矣！"
+            },
+            {
+              "n": 11,
+              "kind": "action",
+              "seconds": 2.5,
+              "text": "曹操立马火场前，望着冲天烈焰，缓缓摘下头盔，任灰烬落满肩甲。"
+            },
+            {
+              "n": 12,
+              "kind": "line",
+              "seconds": 4.2,
+              "speaker": "C04",
+              "text": "此火一燃，官渡心腹已去其半，大事定矣。"
+            },
+            {
+              "n": 13,
+              "kind": "line",
+              "seconds": 4.2,
+              "speaker": "C25",
+              "text": "主公神机妙算，袁绍失了粮草，大势去矣！"
+            },
+            {
+              "n": 14,
+              "kind": "line",
+              "seconds": 4.7,
+              "speaker": "C04",
+              "text": "成大事者不拘小节，今夜这一把火，烧得痛快！"
+            },
+            {
+              "n": 15,
+              "kind": "line",
+              "seconds": 4.9,
+              "speaker": "C25",
+              "text": "主公，乌巢既破，当速归大军，恐袁绍派兵来援！"
+            },
+            {
+              "n": 16,
+              "kind": "line",
+              "seconds": 3.8,
+              "speaker": "C04",
+              "text": "不必恋战，传令退兵，回营再议进止。"
+            },
+            {
+              "n": 17,
+              "kind": "line",
+              "seconds": 4.7,
+              "speaker": "C25",
+              "text": "主公英明，趁天亮前掠了余粮，便无后顾之忧。"
+            },
+            {
+              "n": 18,
+              "kind": "line",
+              "seconds": 4.2,
+              "speaker": "C04",
+              "text": "好，收兵回营，明日再与袁绍算这笔总账。"
+            },
+            {
+              "n": 19,
+              "kind": "action",
+              "seconds": 2.5,
+              "text": "曹军掩住火光，悄然后撤，一夜之间已返回官渡大营。"
+            },
+            {
+              "n": 20,
+              "kind": "line",
+              "seconds": 5.6,
+              "speaker": "VO",
+              "text": "这一把火，烧掉的不止是粮草，更是袁军十余年的底气。"
+            }
+          ]
+        },
+        {
+          "sceneIndex": 2,
+          "sceneId": "S06",
+          "lighting": "白昼对峙",
+          "characters": [
+            "C04",
+            "C25"
+          ],
+          "props": [],
+          "beats": [
+            {
+              "n": 1,
+              "kind": "action",
+              "seconds": 2.5,
+              "text": "官渡战场，乌巢粮尽的消息传回，袁军一夜之间士气尽丧，夺路而降者不绝于道。"
+            },
+            {
+              "n": 2,
+              "kind": "line",
+              "seconds": 5.6,
+              "speaker": "C25",
+              "text": "袁兵无粮，各寨自溃，降者已数万，主公正宜乘势追击。"
+            },
+            {
+              "n": 3,
+              "kind": "line",
+              "seconds": 4.7,
+              "speaker": "C04",
+              "text": "传令三军，乘胜掩杀，一个都不许放回河北去。"
+            },
+            {
+              "n": 4,
+              "kind": "action",
+              "seconds": 2.5,
+              "text": "曹军如潮水般冲过河来，袁军阵脚大乱，践踏相死者无数，弃甲盈野。"
+            },
+            {
+              "n": 5,
+              "kind": "line",
+              "seconds": 4.7,
+              "speaker": "C04",
+              "text": "袁本初号称十万，今日可知何为十万人心已散。"
+            },
+            {
+              "n": 6,
+              "kind": "line",
+              "seconds": 4.9,
+              "speaker": "C25",
+              "text": "官渡一败，河北人心已散，主公当乘势北定中原。"
+            },
+            {
+              "n": 7,
+              "kind": "line",
+              "seconds": 4,
+              "speaker": "C04",
+              "text": "正是。传令下去，直取河北，一统中原！"
+            },
+            {
+              "n": 8,
+              "kind": "line",
+              "seconds": 4.4,
+              "speaker": "C25",
+              "text": "袁绍仓皇北走，主公宜追亡逐北，勿失此机。"
+            },
+            {
+              "n": 9,
+              "kind": "line",
+              "seconds": 3.8,
+              "speaker": "C04",
+              "text": "穷寇莫追，先收河北之地，再图余孽。"
+            },
+            {
+              "n": 10,
+              "kind": "action",
+              "seconds": 2.5,
+              "text": "曹军旌旗所向，河北州县望风而下，兵不血刃，尽皆归附。"
+            },
+            {
+              "n": 11,
+              "kind": "line",
+              "seconds": 4.9,
+              "speaker": "C04",
+              "text": "河北既定，孤当抚绥黎庶，休养生息，以图南方。"
+            },
+            {
+              "n": 12,
+              "kind": "line",
+              "seconds": 4.2,
+              "speaker": "C25",
+              "text": "主公圣明，宽仁待民，自当换来万民归心。"
+            },
+            {
+              "n": 13,
+              "kind": "action",
+              "seconds": 2.5,
+              "text": "曹操驻马北望，缓缓点头，随即拨转马头，向南方遥遥一指。"
+            },
+            {
+              "n": 14,
+              "kind": "line",
+              "seconds": 4.4,
+              "speaker": "C25",
+              "text": "主公且先休整，待查明袁军动静，再定去就。"
+            },
+            {
+              "n": 15,
+              "kind": "line",
+              "seconds": 4.9,
+              "speaker": "C04",
+              "text": "正合孤意，传令三军扎营，夯土为墙，严密戒备。"
+            },
+            {
+              "n": 16,
+              "kind": "action",
+              "seconds": 2.5,
+              "text": "曹军依令扎营，各处巡哨、樵采的士卒夹道往返，戒备森严。"
+            },
+            {
+              "n": 17,
+              "kind": "line",
+              "seconds": 4.7,
+              "speaker": "C04",
+              "text": "袁绍一败，此去定能扬威河北，你且看好营盘。"
+            },
+            {
+              "n": 18,
+              "kind": "line",
+              "seconds": 4,
+              "speaker": "C25",
+              "text": "主公放心，攸必当以死护营，绝无遗漏。"
+            },
+            {
+              "n": 19,
+              "kind": "action",
+              "seconds": 2.5,
+              "text": "曹操一锤定音，翻身上马，引大军直指河北，旌旗蔽日。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ep": 29,
+      "segments": [],
+      "seedScenes": [
+        {
+          "sceneIndex": 1,
+          "sceneId": "S07",
+          "lighting": "卧龙岗晨雾",
+          "characters": [
+            "C01",
+            "C02",
+            "C03"
+          ],
+          "props": [],
+          "beats": [
+            {
+              "n": 1,
+              "kind": "action",
+              "seconds": 2.5,
+              "text": "官渡战后的荒原，刘备兄弟仨牵马行在残阳里，望着远方弥漫的野火，谁也没先开口。"
+            },
+            {
+              "n": 2,
+              "kind": "line",
+              "seconds": 5.6,
+              "speaker": "VO",
+              "text": "官渡硝烟未散，江东孙氏亦自蓄力，乱世棋局各有算计。"
+            },
+            {
+              "n": 3,
+              "kind": "line",
+              "seconds": 5.6,
+              "speaker": "C03",
+              "text": "袁绍那十万大军，说垮就垮了，这天下才是真没个准头。"
+            },
+            {
+              "n": 4,
+              "kind": "line",
+              "seconds": 6,
+              "speaker": "C02",
+              "text": "曹操收河北，兵锋更盛，咱们这顺身之地，怕也越来越难寻。"
+            },
+            {
+              "n": 5,
+              "kind": "line",
+              "seconds": 5.8,
+              "speaker": "C01",
+              "text": "兄弟在，就还有去处。这乱世里，我信得过的只有咱们仨。"
+            },
+            {
+              "n": 6,
+              "kind": "action",
+              "seconds": 2.5,
+              "text": "三人寻了处破庙歇脚，刘备拨着火堆，火光在三人脸上明明灭灭。"
+            },
+            {
+              "n": 7,
+              "kind": "line",
+              "seconds": 4.9,
+              "speaker": "C02",
+              "text": "大哥，如今袁曹两家已分胜负，咱们该往哪儿去？"
+            },
+            {
+              "n": 8,
+              "kind": "line",
+              "seconds": 5.6,
+              "speaker": "C01",
+              "text": "荆州刘表，与我有亲，且荆州兵多粮足，可作安身之所。"
+            },
+            {
+              "n": 9,
+              "kind": "line",
+              "seconds": 5.1,
+              "speaker": "C03",
+              "text": "刘表那人我知道，守成之主，不见得敢收留咱哥仨。"
+            },
+            {
+              "n": 10,
+              "kind": "line",
+              "seconds": 5.1,
+              "speaker": "C02",
+              "text": "事到如今，也只得先去碰碰运气，总强过东奔西走。"
+            },
+            {
+              "n": 11,
+              "kind": "line",
+              "seconds": 5.1,
+              "speaker": "VO",
+              "text": "兵荒马乱里寻一块落脚的地，真比打一场硬仗还难。"
+            },
+            {
+              "n": 12,
+              "kind": "action",
+              "seconds": 2.5,
+              "text": "火堆旁，三餐过于草率，衣甲也旧了，三人的脸都带着风霜之色。"
+            },
+            {
+              "n": 13,
+              "kind": "line",
+              "seconds": 6.2,
+              "speaker": "C01",
+              "text": "咱们兄弟败过、散过、也受尽寄人篱下的苦，可从来没散过心。"
+            },
+            {
+              "n": 14,
+              "kind": "line",
+              "seconds": 5.3,
+              "speaker": "C03",
+              "text": "只要大哥一句话，俺张飞这条命，随时替你披上去闯。"
+            },
+            {
+              "n": 15,
+              "kind": "line",
+              "seconds": 5.1,
+              "speaker": "C02",
+              "text": "兄弟一场，患难与共，这比什么都强，你尽可放心。"
+            },
+            {
+              "n": 16,
+              "kind": "line",
+              "seconds": 5.1,
+              "speaker": "C01",
+              "text": "荆州刘表若肯接纳，咱就在那落脚养兵，再图大计。"
+            },
+            {
+              "n": 17,
+              "kind": "line",
+              "seconds": 5.6,
+              "speaker": "C02",
+              "text": "大哥此计稳妥，刘表虽非雄主，却重贤德，容得下咱们。"
+            },
+            {
+              "n": 18,
+              "kind": "line",
+              "seconds": 5.6,
+              "speaker": "C03",
+              "text": "只要有地练兵，俺张飞就不愁；就怕人家瞧不起咱哥仨。"
+            },
+            {
+              "n": 19,
+              "kind": "line",
+              "seconds": 5.3,
+              "speaker": "C01",
+              "text": "贤弟放心，刘备这一去，必要给兄弟们争个前程回来。"
+            },
+            {
+              "n": 20,
+              "kind": "action",
+              "seconds": 2.5,
+              "text": "三人在破庙里围火而坐，商议进荆州之策，火光映着三张风霜的脸。"
+            },
+            {
+              "n": 21,
+              "kind": "line",
+              "seconds": 5.1,
+              "speaker": "VO",
+              "text": "收荆襄之众，养兵聚贤，才是乱世立身的根本之道。"
+            },
+            {
+              "n": 22,
+              "kind": "line",
+              "seconds": 4.2,
+              "speaker": "C02",
+              "text": "大哥此计笃定，荆州便是咱们的下一程了。"
+            },
+            {
+              "n": 23,
+              "kind": "line",
+              "seconds": 4.2,
+              "speaker": "C03",
+              "text": "荆州好，粮多兵广，咱们去那儿攒些家底！"
+            },
+            {
+              "n": 24,
+              "kind": "line",
+              "seconds": 4.9,
+              "speaker": "C01",
+              "text": "二位贤弟既无异议，明日便整装，一路直奔荆州。"
+            },
+            {
+              "n": 25,
+              "kind": "line",
+              "seconds": 4.4,
+              "speaker": "C02",
+              "text": "那便定了，明日启程，先奔荆州去寻个着落。"
+            },
+            {
+              "n": 26,
+              "kind": "line",
+              "seconds": 3.8,
+              "speaker": "C03",
+              "text": "好，俺随大哥二哥走，走到哪儿都成！"
+            },
+            {
+              "n": 27,
+              "kind": "line",
+              "seconds": 4.4,
+              "speaker": "C02",
+              "text": "此番西去投荆，盼能站稳脚跟，再广揽贤才。"
+            },
+            {
+              "n": 28,
+              "kind": "line",
+              "seconds": 4.9,
+              "speaker": "C01",
+              "text": "贤弟说得极是，落脚之地找稳了，何愁不成大事。"
+            },
+            {
+              "n": 29,
+              "kind": "action",
+              "seconds": 2.5,
+              "text": "三人围火而坐，重新扎紧行囊，又商量一路的盘缠与章程，彼此打气。"
+            },
+            {
+              "n": 30,
+              "kind": "line",
+              "seconds": 4.2,
+              "speaker": "C01",
+              "text": "一路辛苦，咱们彼此扶持，总有出头之日。"
+            },
+            {
+              "n": 31,
+              "kind": "line",
+              "seconds": 4.2,
+              "speaker": "C02",
+              "text": "有大哥这句话，云长赴汤蹈火也在所不惜。"
+            },
+            {
+              "n": 32,
+              "kind": "action",
+              "seconds": 2.5,
+              "text": "三人在火堆旁交换了目光，都从彼此眼中看到了必胜的信念。"
+            },
+            {
+              "n": 33,
+              "kind": "line",
+              "seconds": 4.4,
+              "speaker": "C03",
+              "text": "明早一早便投荆州去，咱们定要活出个样来！"
+            },
+            {
+              "n": 34,
+              "kind": "line",
+              "seconds": 4.7,
+              "speaker": "C01",
+              "text": "荆州刘表与我同宗，去投他，总强过四处飘零。"
+            },
+            {
+              "n": 35,
+              "kind": "action",
+              "seconds": 2.5,
+              "text": "夜深了，三兄弟各自和衣而卧，唯有刘备仍睁着眼，望着窗外的星光出神。"
+            },
+            {
+              "n": 36,
+              "kind": "line",
+              "seconds": 4.2,
+              "speaker": "C01",
+              "text": "总有一天，要有块真正属于咱们自己的地。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ep": 30,
+      "segments": [],
+      "seedScenes": [
+        {
+          "sceneIndex": 1,
+          "sceneId": "S06",
+          "lighting": "白昼对峙",
+          "characters": [
+            "C04",
+            "C25"
+          ],
+          "props": [],
+          "beats": [
+            {
+              "n": 1,
+              "kind": "action",
+              "seconds": 2.5,
+              "text": "官渡大胜后，曹操引兵北进，连下数城，河北诸郡望风而降，旋旗千里。"
+            },
+            {
+              "n": 2,
+              "kind": "line",
+              "seconds": 6,
+              "speaker": "C04",
+              "text": "袁绍已败，诸郡皆降，中原当听孤号令，谁再负隅，杀无赦。"
+            },
+            {
+              "n": 3,
+              "kind": "line",
+              "seconds": 5.1,
+              "speaker": "C04",
+              "text": "传令犒赏三军，降卒择其精壮编入行伍，不得欺压。"
+            },
+            {
+              "n": 4,
+              "kind": "line",
+              "seconds": 3.8,
+              "speaker": "C25",
+              "text": "主公宽仁，降卒自当感戴，愿为前驱。"
+            },
+            {
+              "n": 5,
+              "kind": "line",
+              "seconds": 4.4,
+              "speaker": "C25",
+              "text": "主公威震河北，群雄敛迹，霸业根基已定矣。"
+            },
+            {
+              "n": 6,
+              "kind": "line",
+              "seconds": 4.4,
+              "speaker": "C04",
+              "text": "天下未定，何来霸业？你得替孤多想想南边。"
+            },
+            {
+              "n": 7,
+              "kind": "line",
+              "seconds": 4.2,
+              "speaker": "C25",
+              "text": "主公既怀南略，何不先固北方，再作他图？"
+            },
+            {
+              "n": 8,
+              "kind": "action",
+              "seconds": 2.5,
+              "text": "曹操收降数万袁军，择其精锐补充行伍，又抚恤流民，开仓放粮，人心渐附。"
+            },
+            {
+              "n": 9,
+              "kind": "line",
+              "seconds": 4.7,
+              "speaker": "C04",
+              "text": "兵贵精不贵多，降卒可用，便是孤手中的新刀。"
+            },
+            {
+              "n": 10,
+              "kind": "action",
+              "seconds": 2.5,
+              "text": "是夜，曹操登北城楼，望着远处渐收的烽烟，脸色却并未全然舒展。"
+            },
+            {
+              "n": 11,
+              "kind": "line",
+              "seconds": 6.4,
+              "speaker": "C04",
+              "text": "河北虽定，刘备屯兵荆州，又有卧龙凤雏之名的传闻，不可不防。"
+            },
+            {
+              "n": 12,
+              "kind": "line",
+              "seconds": 4.9,
+              "speaker": "VO",
+              "text": "放走的大耳贼，如今反倒成了心头悬着的一根刺。"
+            },
+            {
+              "n": 13,
+              "kind": "action",
+              "seconds": 2.5,
+              "text": "曹操背着手在城头来回踱步，忽然停步，眼中精光一闪。"
+            },
+            {
+              "n": 14,
+              "kind": "line",
+              "seconds": 5.8,
+              "speaker": "C04",
+              "text": "天下未定，孤岂敢高枕。下一个该收拾的，便是荆襄之地。"
+            },
+            {
+              "n": 15,
+              "kind": "line",
+              "seconds": 4.2,
+              "speaker": "C25",
+              "text": "主公既有此志，何不先固北方，再作南图？"
+            },
+            {
+              "n": 16,
+              "kind": "line",
+              "seconds": 4.2,
+              "speaker": "C04",
+              "text": "正该如此，一步一个脚印，方是长久之计。"
+            },
+            {
+              "n": 17,
+              "kind": "action",
+              "seconds": 2.5,
+              "text": "次日，曹操升帐议事，置群臣登高，缓缓摊开一幅荆州舆图，目光落于其上。"
+            },
+            {
+              "n": 18,
+              "kind": "line",
+              "seconds": 4.9,
+              "speaker": "C04",
+              "text": "先定荆襄，再图江东，天下大势，终将归于一统。"
+            },
+            {
+              "n": 19,
+              "kind": "line",
+              "seconds": 4.2,
+              "speaker": "C25",
+              "text": "主公胸怀天下，群雄俯首，实乃天命所归。"
+            },
+            {
+              "n": 20,
+              "kind": "line",
+              "seconds": 5.1,
+              "speaker": "C04",
+              "text": "这天下不是一日能定的，孤要一步一步，把它走完。"
+            },
+            {
+              "n": 21,
+              "kind": "line",
+              "seconds": 4.4,
+              "speaker": "C25",
+              "text": "主公既有南志，宜早练水军，以备来日之用。"
+            },
+            {
+              "n": 22,
+              "kind": "line",
+              "seconds": 4.9,
+              "speaker": "C04",
+              "text": "正是，传令择地操练水军，养马积粮，以待南征。"
+            },
+            {
+              "n": 23,
+              "kind": "action",
+              "seconds": 2.5,
+              "text": "数月之间，河北日静，仓廪丰实，曹操广纳贤才，中原气象一新。"
+            },
+            {
+              "n": 24,
+              "kind": "line",
+              "seconds": 5.1,
+              "speaker": "C04",
+              "text": "兵精粮足，士心又归，孤当整旗鼓，再图中原以南。"
+            },
+            {
+              "n": 25,
+              "kind": "line",
+              "seconds": 4.7,
+              "speaker": "C25",
+              "text": "主公向东眺望，江东群雄又多，只怕大事不易。"
+            },
+            {
+              "n": 26,
+              "kind": "line",
+              "seconds": 4.2,
+              "speaker": "C04",
+              "text": "无妨，孤自有安排，天下终归要归于一统。"
+            },
+            {
+              "n": 27,
+              "kind": "action",
+              "seconds": 2.5,
+              "text": "城墙之下，铁骑列阵，旌旗蔽日，只待一声号令，便要南下。"
+            },
+            {
+              "n": 28,
+              "kind": "line",
+              "seconds": 4.2,
+              "speaker": "C04",
+              "text": "传令，明日点兵三万，先取荆州门户襄阳。"
+            },
+            {
+              "n": 29,
+              "kind": "line",
+              "seconds": 4.7,
+              "speaker": "C25",
+              "text": "主公英明，襄阳地要兵少，宜速取，不可久拖。"
+            },
+            {
+              "n": 30,
+              "kind": "line",
+              "seconds": 4.4,
+              "speaker": "C04",
+              "text": "孤自有安排，你且备好军中粮草，不得有误。"
+            },
+            {
+              "n": 31,
+              "kind": "action",
+              "seconds": 2.5,
+              "text": "河北军民闻曹军将南征，皆束装以待，一时中原震动。"
+            },
+            {
+              "n": 32,
+              "kind": "line",
+              "seconds": 4.2,
+              "speaker": "C04",
+              "text": "传令，凡有功者论功行赏，不得克扣分毫。"
+            },
+            {
+              "n": 33,
+              "kind": "line",
+              "seconds": 4.2,
+              "speaker": "C25",
+              "text": "主公赏罚分明，三军士气，必当为之大振。"
+            },
+            {
+              "n": 34,
+              "kind": "action",
+              "seconds": 2.5,
+              "text": "旭日东升，曹操立于点将台，环视诸将，剑指南方。"
+            },
+            {
+              "n": 35,
+              "kind": "line",
+              "seconds": 5.1,
+              "speaker": "C04",
+              "text": "诸将听令，今岁当定荆襄。谁愿为先锋，替孤开道！"
+            },
+            {
+              "n": 36,
+              "kind": "action",
+              "seconds": 2.5,
+              "text": "帐外战鼓声声，河北渐定，一支铁骑重新整装，旌旗在朔风中猎猎翻飞。"
+            },
+            {
+              "n": 37,
+              "kind": "line",
+              "seconds": 4.9,
+              "speaker": "C04",
+              "text": "传令下去，秣马厉兵，来岁开春，孤要饮马长江。"
+            },
+            {
+              "n": 38,
+              "kind": "line",
+              "seconds": 4.9,
+              "speaker": "VO",
+              "text": "北定河北，曹操的目光，已越过黄河投向了江南。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
