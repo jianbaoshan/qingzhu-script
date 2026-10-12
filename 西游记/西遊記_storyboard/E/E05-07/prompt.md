@@ -3,17 +3,17 @@
 首帧 = **f1.png**。图片按 Picture 序号挂载：
 
 - Picture 1 = f1.png（**首帧**，钉 0.00 秒）
-- Picture 2 = f2.png（钉 3.00 秒）
-- Picture 3 = f3.png（钉 6.00 秒）
+- Picture 2 = f2.png（钉 4.40 秒）
+- Picture 3 = f3.png（钉 7.70 秒）
 
 ---
 
-How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 3.00-second mark of the target video; Picture 3 (from Shot 3) aligns with the 6.00-second mark of the target video.
+How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 4.40-second mark of the target video; Picture 3 (from Shot 3) aligns with the 7.70-second mark of the target video.
 
 integrated_multimodal_description:
-[Shot 1] Following <Picture 1>, static shot, a static close-up on the young monkey accepting the honor without hesitation <d>[Chinese] 承蒙玉帝厚爱，俺领下了。</d>
-[Shot 2] At 00:03.000, the camera cuts to <Picture 2>: static shot, At 00:03.000, a static medium shot of the young monkey receiving the small official seal and holding it up in both hands to study it
-[Shot 3] At 00:06.000, the camera cuts to <Picture 3>: static shot, At 00:06.000, a static close-up on the young monkey murmuring to himself, resolved to repay the kindness of holding office <d>[Chinese] 天家给了俺一个官，俺自当好生报答。</d>
+[Shot 1] Following <Picture 1>, static shot, a static medium shot of the elder proclaiming the appointment aloud, his voice ringing through the chamber <d>[Chinese] 孙猴听封——玉帝恩旨，封你御马监弼马温。</d>
+[Shot 2] At 00:04.400, static shot, At 00:05.000, a static close-up on the young monkey savoring the grand-sounding title, quietly pleased <d>[Chinese] 弼马温？听着倒像是个顶大的官。</d>
+[Shot 3] At 00:07.700, static shot, At 00:09.000, a static medium shot of the elder reassuring the monkey that the post overseeing heavenly horses is no small rank, urging him to settle in <d>[Chinese] 掌天马的差事，位份不低，你只管安心当。</d>
 
 overall_soundscape: The young monkey's clear answer, the light weight of the seal in his hands, and the soft rustle of robes.
 

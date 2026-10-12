@@ -11,7 +11,7 @@ How the reference pictures align with the target video — Picture 1 (from Shot 
 
 integrated_multimodal_description:
 [Shot 1] Following <Picture 1>, static shot, a static close-up on the young monkey cutting off the point in a hard flat voice, brows knitting <d>[Chinese] 会变的打不过无常，入定的躲不开生死。</d>
-[Shot 2] At 00:04.000, the camera cuts to <Picture 2>: static shot, At 00:04.000, a static close-up on the old master whose still gaze weighs the young monkey <d>[Chinese] 你倒把生死看得比什么都重。</d>
+[Shot 2] At 00:04.000, static shot, At 00:04.000, a static close-up on the old master whose still gaze weighs the young monkey <d>[Chinese] 你倒把生死看得比什么都重。</d>
 
 overall_soundscape: The young monkey's rebuttals rising, a quiet acknowledgment from the old master.
 

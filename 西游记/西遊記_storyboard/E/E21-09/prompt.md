@@ -3,15 +3,17 @@
 首帧 = **f1.png**。图片按 Picture 序号挂载：
 
 - Picture 1 = f1.png（**首帧**，钉 0.00 秒）
-- Picture 2 = f2.png（钉 4.00 秒）
+- Picture 2 = f2.png（钉 4.40 秒）
+- Picture 3 = f3.png（钉 8.80 秒）
 
 ---
 
-How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 4.00-second mark of the target video.
+How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 4.40-second mark of the target video; Picture 3 (from Shot 3) aligns with the 8.80-second mark of the target video.
 
 integrated_multimodal_description:
-[Shot 1] Following <Picture 1>, static shot, a static close-up on the monk hastily staying the monkey's hand and smoothing over, bidding the disciple be civil and apologize to the venerables <d>[Chinese] 徒儿休得无礼，快快与尊者赔个不是。</d>
-[Shot 2] At 00:04.000, the camera cuts to <Picture 2>: static shot, a static close-up on the monkey pursing his lips in resentment, snorting that he will not stoop to argue with such mercenary eyes <d>[Chinese] 哼，俺不与你这势利眼一般见识！</d>
+[Shot 1] Following <Picture 1>, static shot, a static close-up on the monkey unable to hold back, challenging whether no offering means no sutras and whether he is being deliberately blocked <d>[Chinese] 没人事就取不得经？你莫不是有意刁难俺们？</d>
+[Shot 2] At 00:04.400, static shot, a static close-up as the single word presses down on the whole hall, rebuking that the mysteries of heaven are not to be bellowed by a monkey <d>[Chinese] 咄，放肆！天机玄理，岂是你这泼猴吼得的！</d>
+[Shot 3] At 00:08.800, static shot, a static medium shot of the monkey falling silent at last, stiff-necked with a glare, stepping half a pace back without a word
 
 overall_soundscape: The monk's hurried pleasing words, and the monkey's low, grudging grumbles.
 

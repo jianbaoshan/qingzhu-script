@@ -4,16 +4,16 @@
 
 - Picture 1 = f1.png（**首帧**，钉 0.00 秒）
 - Picture 2 = f2.png（钉 5.00 秒）
-- Picture 3 = f3.png（钉 8.00 秒）
+- Picture 3 = f3.png（钉 9.20 秒）
 
 ---
 
-How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 5.00-second mark of the target video; Picture 3 (from Shot 3) aligns with the 8.00-second mark of the target video.
+How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 5.00-second mark of the target video; Picture 3 (from Shot 3) aligns with the 9.20-second mark of the target video.
 
 integrated_multimodal_description:
-[Shot 1] Following <Picture 1>, static shot, a static close-up on the elder laying out his plan with clear logic, hoping for a war-free settlement <d>[Chinese] 与其刀兵相见，不如一道诏书，招他上天当个官。</d>
-[Shot 2] At 00:05.000, the camera cuts to <Picture 2>: static shot, At 00:05.000, a static medium shot of the emperor growing doubtful, asking whether taking the monkey in would truly stop the trouble <d>[Chinese] 招他上来，就不闹了？</d>
-[Shot 3] At 00:08.000, the camera cuts to <Picture 3>: static shot, At 00:08.000, a static close-up on the elder reassuring gently with a smile, as though merely keeping another pet <d>[Chinese] 有名有位，他又何苦生事。玉帝只当多养只猴。</d>
+[Shot 1] Following <Picture 1>, static shot, At 00:05.000, a static medium shot of the elder stepping forward, bowing humbly to catch the emperor's rising anger
+[Shot 2] At 00:05.000, static shot, At 00:07.000, a static close-up on the elderly immortal imploring softly, worried that force would blunt the heavenly hosts <d>[Chinese] 玉帝息怒。那猴有本事，硬拿恐折了天兵。</d>
+[Shot 3] At 00:09.200, static shot, At 00:12.000, a static medium shot of the emperor answering flatly, unconcerned that a mere wild monkey could ever rebel against heaven <d>[Chinese] 一个野猴，还能反上天不成？</d>
 
 overall_soundscape: The elder's even counsel, the emperor's hesitant question, and the lingering echo through the hall.
 

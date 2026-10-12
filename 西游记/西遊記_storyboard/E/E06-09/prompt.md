@@ -4,16 +4,16 @@
 
 - Picture 1 = f1.png（**首帧**，钉 0.00 秒）
 - Picture 2 = f2.png（钉 5.00 秒）
-- Picture 3 = f3.png（钉 9.00 秒）
+- Picture 3 = f3.png（钉 7.70 秒）
 
 ---
 
-How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 5.00-second mark of the target video; Picture 3 (from Shot 3) aligns with the 9.00-second mark of the target video.
+How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 5.00-second mark of the target video; Picture 3 (from Shot 3) aligns with the 7.70-second mark of the target video.
 
 integrated_multimodal_description:
-[Shot 1] Following <Picture 1>, static shot, a static close-up on the young monkey standing center and flinging the accusation straight back <d>[Chinese] 反字安在俺头上？分明是你们先没了心思。</d>
-[Shot 2] At 00:05.000, the camera cuts to <Picture 2>: static shot, At 00:05.000, a static medium shot of the young monkey stating plainly that he has never bowed to anyone's yoke <d>[Chinese] 反？俺生来就没投过谁的降表。</d>
-[Shot 3] At 00:09.000, the camera cuts to <Picture 3>: static shot, At 00:09.000, a static wide shot of the monkey smashing a dragon column and scattering gilt as the emperor stands helpless <d>[Chinese] 满殿天将，竟无一人拦得住你！</d>
+[Shot 1] Following <Picture 1>, static shot, a static wide shot of the emperor rising abruptly behind the beaded curtain, his face draining white as the monkey enters
+[Shot 2] At 00:05.000, static shot, At 00:03.000, a static close-up on the emperor, composure gone, demanding to know why the monkey has rebelled <d>[Chinese] 孙、孙悟空，你怎么反了！</d>
+[Shot 3] At 00:07.700, static shot, At 00:06.000, a static medium shot of the emperor at a loss before the tumbled hall, wondering why such rebellion <d>[Chinese] 天大地大，何处不能容你，却偏要造反！</d>
 
 overall_soundscape: The thud of the staff grounding, and the exchange sharpening between ruler and rebel.
 

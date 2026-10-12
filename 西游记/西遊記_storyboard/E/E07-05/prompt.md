@@ -12,8 +12,8 @@ How the reference pictures align with the target video — Picture 1 (from Shot 
 
 integrated_multimodal_description:
 [Shot 1] Following <Picture 1>, static shot, a static wide shot of the young monkey bounding off with one somersault after another, more frantic by the moment
-[Shot 2] At 00:05.000, the camera cuts to <Picture 2>: static shot, At 00:05.000, a static medium shot of the young monkey planting a foot on the palm's edge, squinting at the endless horizon as the edge recedes
-[Shot 3] At 00:10.000, the camera cuts to <Picture 3>: static shot, At 00:10.000, a static wide shot of the young monkey charging at the imagined end, yet finding only endless palm, no gap in sight
+[Shot 2] At 00:05.000, static shot, At 00:05.000, a static medium shot of the young monkey planting a foot on the palm's edge, squinting at the endless horizon as the edge recedes
+[Shot 3] At 00:10.000, static shot, At 00:10.000, a static wide shot of the young monkey charging at the imagined end, yet finding only endless palm, no gap in sight
 
 overall_soundscape: The churn of cloud, the stir of air as the monkey tumbles, and his gritted breath growing urgent.
 

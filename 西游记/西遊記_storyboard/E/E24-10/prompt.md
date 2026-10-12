@@ -3,15 +3,15 @@
 首帧 = **f1.png**。图片按 Picture 序号挂载：
 
 - Picture 1 = f1.png（**首帧**，钉 0.00 秒）
-- Picture 2 = f2.png（钉 7.00 秒）
+- Picture 2 = f2.png（钉 5.00 秒）
 
 ---
 
-How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 7.00-second mark of the target video.
+How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 5.00-second mark of the target video.
 
 integrated_multimodal_description:
-[Shot 1] Following <Picture 1>, static shot, a static close-up on the buddha, though greed and anger still linger in the pig, yet his protection along the road is no small merit, and he is sealed as the Altar-Cleansing Messenger <d>[Chinese] 猪悟能，汝虽贪嗔未净，然一路护持，功不可没，加封为净坛使者。</d>
-[Shot 2] At 00:07.000, the camera cuts to <Picture 2>: static shot, a static close-up on the pig-faced warrior, eyes lighting up and hands clapping, delighted that the duty now in charge of offerings and food is simply excellent <d>[Chinese] 净坛使者？那是专管供品吃食的差事，妙极妙极！</d>
+[Shot 1] Following <Picture 1>, static shot, a static medium shot as the monkey chuckles and kneels on the spot, the golden circlet slipping from his brow and dissolving into a thread of golden light
+[Shot 2] At 00:05.000, static shot, a static close-up on the monkey beaming, that he who once wrecked the heavenly palace has this day withal attained the fruit of the way <d>[Chinese] 嘿，俺这闹过天宫的猴子，今儿个也修成正果了！</d>
 
 overall_soundscape: The buddha's conferral and the pig's cheerful clap of delight.
 

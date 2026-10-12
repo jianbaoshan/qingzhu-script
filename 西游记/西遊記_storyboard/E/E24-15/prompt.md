@@ -3,15 +3,17 @@
 首帧 = **f1.png**。图片按 Picture 序号挂载：
 
 - Picture 1 = f1.png（**首帧**，钉 0.00 秒）
-- Picture 2 = f2.png（钉 6.00 秒）
+- Picture 2 = f2.png（钉 4.90 秒）
+- Picture 3 = f3.png（钉 9.90 秒）
 
 ---
 
-How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 6.00-second mark of the target video.
+How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 4.90-second mark of the target video; Picture 3 (from Shot 3) aligns with the 9.90-second mark of the target video.
 
 integrated_multimodal_description:
-[Shot 1] Following <Picture 1>, static shot, a static close-up on the monk, palms joined and smiling, deeply moved that the trials along the road are the very meaning of the eighty-one ordeals <d>[Chinese] 善哉，一路的磨难，方是那八十一难的真正意义所在。</d>
-[Shot 2] At 00:06.000, the camera cuts to <Picture 2>: tracking shot, a tracking wide shot as bells and stone chimes ring in the clouds, golden lotuses rain down everywhere, and the pilgrims with the returning white dragon ascend together into the fruit of the way amid the chanting
+[Shot 1] Following <Picture 1>, static shot, a static close-up on the buddha concluding with lowered eyes, that the eighty-one ordeals are here complete and the Tripitaka sutras shall hence spread far across the Eastern land <d>[Chinese] 八十一难，到此圆满；三藏真经，自此广传东土。</d>
+[Shot 2] At 00:04.900, static shot, a static wide shot of the pilgrims standing shoulder to shoulder before the hall, gazing at the ten thousand beams of colored light as the dust of the whole road settles at once
+[Shot 3] At 00:09.900, static shot, a static close-up on the monkey exhaling long and easy, that this great dream of theirs has at last woken into the fruit of the way <d>[Chinese] 师父，咱们这场大梦，总算醒到正果上来了！</d>
 
 overall_soundscape: The monk's deeply moved words, the bells and chimes rising in the clouds with golden lotuses falling, and the chant as they ascend.
 

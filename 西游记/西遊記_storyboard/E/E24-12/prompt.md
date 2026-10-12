@@ -4,14 +4,16 @@
 
 - Picture 1 = f1.png（**首帧**，钉 0.00 秒）
 - Picture 2 = f2.png（钉 5.00 秒）
+- Picture 3 = f3.png（钉 11.40 秒）
 
 ---
 
-How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 5.00-second mark of the target video.
+How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot 2) aligns with the 5.00-second mark of the target video; Picture 3 (from Shot 3) aligns with the 11.40-second mark of the target video.
 
 integrated_multimodal_description:
-[Shot 1] Following <Picture 1>, static shot, a static medium shot of the oarsman folding his hands in thanks, that it has not been for naught after all <d>[Chinese] 沙僧多谢佛祖慈悲，总算是没白走这一遭！</d>
-[Shot 2] At 00:05.000, the camera cuts to <Picture 2>: static shot, a static close-up on the buddha, eyes lifting to the white horse, declaring that the one long returned to dragon form is likewise sealed this day as the Eight-Board Division dragon, to return to the Western Sea <d>[Chinese] 那白龙马，汝化龙已久，今日一并加封，为八部天龙，归位西海。</d>
+[Shot 1] Following <Picture 1>, static shot, a static medium shot as the pig-faced warrior hurriedly kowtows to receive the decree, the dust of the road quietly falling from him
+[Shot 2] At 00:05.000, static shot, a static close-up on the buddha turning to the oarsman, declaring that he, honest and steadfast, guarding his master with merit, is sealed a golden arahant among the ranks of the buddhas <d>[Chinese] 沙悟净，汝忠厚守分，护师有功，加封为金身罗汉，列诸佛之列。</d>
+[Shot 3] At 00:11.400, static shot, a static medium shot as the steady oarsman kneels with palms joined and bows in reverence, the dust about him washed clean at once and his figure drawing up taller
 
 overall_soundscape: The oarsman's steady thanks and the buddha's decree toward the white horse.
 

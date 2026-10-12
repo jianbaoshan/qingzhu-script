@@ -4,16 +4,16 @@
 
 | ID | 场景 | 类型 | 出现集 | 锚点 | 光照 | 变体 |
 | --- | --- | --- | --- | --- | --- | --- |
-| S01 | 花果山水帘洞 | 主场景 | 1、5 | 4 | 正午透光 | — |
+| S01 | 花果山水帘洞 | 主场景 | 1、5 | 4 | 正午透光、夜里月下 | — |
 | S02 | 天宫灵霄宝殿 | 主场景 | 5、6、17 | 4 | 朝会明光 | — |
-| S03 | 取经路山野 | 主场景 | 2、8、9、10、12、13、14、17 | 4 | 黄昏赶路 | — |
-| S04 | 妖窟高山洞口 | 主场景 | 12、13、14、15、16、19、20 | 4 | 夜半冷火 | — |
+| S03 | 取经路山野 | 主场景 | 2、8、9、10、12、13、14、17 | 4 | 黄昏赶路、月下三更 | — |
+| S04 | 妖窟高山洞口 | 主场景 | 12、13、14、15、16、19、20 | 4 | 夜半冷火、白日冷火、黄昏冷火 | — |
 | S05 | 五行山 | 变体 ← S03 | 7、8 | 4 | 清冷晌午 | 取经路山野的地貌隆起为五峰连山的厚重山体，主峰下生出一道深岩缝并贴上金色六字经帖，碎石坡替代道路，色调由黄昏转冷清正午。 |
 | S06 | 火焰山 | 变体 ← S04 | 19、20 | 4 | 赤焰白昼 | 妖窟的阴冷山岩升维为火焰山的焦红土坡与地裂烈焰，冷火石灯变为地缝明黄火舌，色调由幽蓝转炽红，夜半冷火转赤焰白昼。 |
-| S07 | 灵山大雷音寺 | 主场景 | 18、21、23、24 | 4 | 圣洁正午 | — |
+| S07 | 灵山大雷音寺 | 主场景 | 18、21、23、24 | 4 | 圣洁正午、残阳晚照 | — |
 | S08 | 东海龙宫 | 变体 ← S01 | 3 | 4 | 海底幽光 | 水帘洞的石窟改造成海底龙宫：石桥变珊瑚柱廊、石座变礁石宝台、飞瀑变海面上透下的粼粼波光，色调由石青转而幽绿海水蓝。 |
 | S09 | 高老庄 | 变体 ← S03 | 10 | 4 | 黄昏农院 | 取经路山野的道旁空地立起一座土夯农庄院墙，道路变院前土坪，杂树变院墙草头，色调由苍茫转向暖黄的农院黄昏。 |
-| S10 | 流沙河 | 变体 ← S03 | 11 | 4 | 阴晦白昼 | 取经路山野的土路改造成一条浑黄河边：道路变黑泥浅滩，石壁变缓坡沙岸，杂树变零落芦苇，色调由干燥土黄转为阴浑水色。 |
+| S10 | 流沙河 | 变体 ← S03 | 11 | 4 | 阴晦白昼、黄昏渡口 | 取经路山野的土路改造成一条浑黄河边：道路变黑泥浅滩，石壁变缓坡沙岸，杂树变零落芦苇，色调由干燥土黄转为阴浑水色。 |
 | S11 | 通天河畔 | 变体 ← S10 | 22 | 4 | 劫后清光 | 流沙河的黑泥浅滩加宽成一片平缓的大石滩，水色由浑黄转清浅退去的滩水，滩上多出晾晒的经卷包，天色由阴晦转雨后的清亮。 |
 | S12 | 森罗宝殿 | 一次性 | 4 | 4 | 幽焰冷光 | — |
 
@@ -33,6 +33,7 @@
 ### 光照与时段
 
 - **正午透光**：`empty stone cavern hidden behind a broad white waterfall, bright midday sunlight filtering through the falling water curtain, water-reflected light ripples dancing across the wet cave walls, mist and spray in the air, humid luminous atmosphere`
+- **夜里月下**：`empty stone cavern behind a broad waterfall at night, thin cold moonlight falling through the water curtain, faint blue-silver light ripples gliding over the wet cave walls, dark still pools, drifting night mist, water droplets shining on the iron bridge, quiet lonely atmosphere, empty scene with no people and no monkeys, cinematic wide shot`
 
 ### 出图提示词包
 
@@ -111,6 +112,7 @@ ONE 16:9 landscape environment reference sheet, plain neutral background, thin h
 ### 光照与时段
 
 - **黄昏赶路**：`empty solitary wilderness mountain trail at dusk, long warm low light, dusty yellow dirt road winding between sparse trees and withered grass, tall reeds bending in the breeze, hazy orange-gold sunset haze over distant barren hills, melancholic lonely atmosphere, empty road with no people, no animals, cinematic wide shot`
+- **月下三更**：`empty remote mountain slope deep in the night, a clear high moon casting cold blue-white light across grey boulders and dry grass, dew beading on the stones, a worn stone-step path winding up into darkness between leaning pines, thin low night mist in the hollows, silent desolate atmosphere, empty scene with no people and no animals, cinematic wide shot`
 
 ### 出图提示词包
 
@@ -150,6 +152,8 @@ ONE 16:9 landscape environment reference sheet, plain neutral background, thin h
 ### 光照与时段
 
 - **夜半冷火**：`empty demon cave entrance high on a cliff at night, eerie blue-green cold torches flickering in stone lamp brackets, damp rock, hanging dead vines, scattered pale bones half-buried in scree, thin cold mist, sinister hushed atmosphere, empty scene with no people and no monsters, cinematic wide shot`
+- **白日冷火**：`empty demon cave entrance high on a cliff in full daylight, the blue-green cold flames in the stone lamp brackets still burning unnaturally against the pale sun, damp dark rock, tangled dead vines, scattered pale bones half-buried in scree, a sickly haze hanging in the still air, unnerving daylight-quiet atmosphere, empty scene with no people and no monsters, cinematic wide shot`
+- **黄昏冷火**：`empty demon cave entrance high on a cliff at dusk, low orange dying light grazing the rock face while the blue-green cold flames in the stone lamp brackets burn brighter against it, damp rock, hanging dead vines, scattered pale bones half-buried in scree, drifting twilight mist, foreboding atmosphere, empty scene with no people and no monsters, cinematic wide shot`
 
 ### 出图提示词包
 
@@ -271,6 +275,7 @@ ONE 16:9 landscape environment reference sheet for a variant of S04, plain neutr
 ### 光照与时段
 
 - **圣洁正午**：`empty majestic golden Buddhist temple floating on a sea of clouds, an open lotus-petal stone terrace before the hall, pink lotus petals drifting down through sunlit air, five-coloured prayer banners swaying, soft radiant hallowed light, peaceful serene atmosphere, empty scene with no people, cinematic wide shot`
+- **残阳晚照**：`empty majestic golden Buddhist temple on a sea of clouds at sunset, the hall and the open lotus-petal stone terrace washed in warm low amber light, long soft shadows stretching east across the stone, lotus petals and five-coloured prayer banners catching the last rim of sun, hazy gold horizon fading to violet, tranquil bittersweet farewell atmosphere, empty scene with no people, cinematic wide shot`
 
 ### 出图提示词包
 
@@ -392,6 +397,7 @@ ONE 16:9 landscape environment reference sheet for a variant of S03, plain neutr
 ### 光照与时段
 
 - **阴晦白昼**：`empty turbid dark-yellow wide river under a grey overcast sky, dark silt bank with scattered waterlogged grass stalks pressed into the sand, a few sparse yellow reeds across the water, flat dim light, desolate dangerous feel, empty scene with no people, cinematic wide shot`
+- **黄昏渡口**：`empty turbid dark-yellow wide river at dusk, a heavy dull orange sky pressing low over the muddy water, dark silt bank with waterlogged grass stalks, scattered wet footprints along the waterline, a few sparse reeds silhouetted against the failing light, damp muggy evening air, desolate ominous feel, empty scene with no people, cinematic wide shot`
 
 > 变体来源：S03　改动：取经路山野的土路改造成一条浑黄河边：道路变黑泥浅滩，石壁变缓坡沙岸，杂树变零落芦苇，色调由干燥土黄转为阴浑水色。
 
