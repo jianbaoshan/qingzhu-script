@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>《西游记》提示词强化 · 对比报告</title>
+<style>
+  :root{
+    --bg:#0f1117; --bg2:#151927; --panel:#1a2034; --panel2:#202842;
+    --line:#2c3654; --line2:#3a4668;
+    --ink:#e8ecf8; --ink-dim:#aab3cc; --ink-faint:#76809e;
+    --gold:#d8b06a; --gold-soft:#f0d9ac; --blue:#7ea6e8; --teal:#6fd0c2;
+    --red:#e0706a; --ok:#7fdb9a; --chip:#181d2e;
+    --mono:"SFMono-Regular",Consolas,"Courier New",monospace;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{
+    background:radial-gradient(1200px 700px at 20% -10%, #1a2138 0%, #0f1117 55%) fixed, var(--bg);
+    color:var(--ink); font-family:"PingFang SC","Microsoft YaHei",-apple-system,"Segoe UI",Roboto,sans-serif;
+    line-height:1.7; padding:40px 20px 80px; min-height:100vh;
+  }
+  .wrap{max-width:1080px;margin:0 auto;}
+  header.hero{padding:34px 0 30px;border-bottom:1px solid var(--line);margin-bottom:34px;}
+  .kicker{display:inline-flex;align-items:center;gap:8px;font-size:12px;letter-spacing:2px;color:var(--gold);
+    border:1px solid var(--line2);border-radius:999px;padding:6px 14px;margin-bottom:18px;background:var(--chip);}
+  h1{font-size:34px;font-weight:700;letter-spacing:1px;line-height:1.3;}
+  h1 .accent{background:linear-gradient(90deg,var(--gold-soft),var(--gold));-webkit-background-clip:text;background-clip:text;color:transparent;}
+  .sub{color:var(--ink-faint);font-size:13px;margin-top:12px;}
+  .sub b{color:var(--ink-dim);font-weight:600;}
+  section{margin-bottom:46px;}
+  h2{font-size:22px;font-weight:700;margin-bottom:6px;display:flex;align-items:center;gap:10px;}
+  h2 .bar{width:4px;height:20px;border-radius:2px;background:linear-gradient(180deg,var(--gold),#b8893f);}
+  h2 small{font-size:12px;color:var(--ink-faint);font-weight:400;}
+  .sec-desc{color:var(--ink-dim);font-size:14px;margin:4px 0 18px;max-width:860px;}
+  .card{background:linear-gradient(180deg,var(--panel) 0%,var(--bg2) 100%);border:1px solid var(--line);
+    border-radius:14px;padding:22px 24px;margin-bottom:18px;box-shadow:0 8px 30px -18px rgba(0,0,0,.8);}
+  .badge{display:inline-flex;align-items:center;gap:6px;font-size:12px;font-weight:600;
+    border-radius:6px;padding:3px 10px;border:1px solid var(--line2);color:var(--blue);}
+  .badge.gold{color:var(--gold);} .badge.red{color:var(--red);} .badge.teal{color:var(--teal);}
+  .grid{display:grid;gap:14px;}
+  .grid2{grid-template-columns:1fr 1fr;}
+  .grid3{grid-template-columns:repeat(3,1fr);}
+  .grid4{grid-template-columns:repeat(4,1fr);}
+  @media(max-width:820px){.grid2,.grid3,.grid4{grid-template-columns:1fr;}}
+  .skill-tile{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px;}
+  .skill-tile h4{font-size:15px;color:var(--gold-soft);margin-bottom:8px;font-family:var(--mono);}
+  .skill-tile p{font-size:12.5px;color:var(--ink-faint);line-height:1.6;}
+  .skill-tile .dim{color:var(--teal);}
+  .anchor-block{background:var(--chip);border:1px solid var(--line);border-radius:12px;padding:18px 20px;margin-bottom:12px;}
+  .anchor-block .zh{font-size:14.5px;color:var(--ink);}
+  .anchor-block .en{font-family:var(--mono);font-size:12.5px;color:var(--ink-dim);margin-top:10px;word-break:break-word;}
+  .anchor-block label{display:block;font-size:11px;letter-spacing:1.5px;color:var(--gold);margin-bottom:6px;font-weight:600;}
+  .six-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:10px;}
+  @media(max-width:820px){.six-grid{grid-template-columns:repeat(2,1fr);}}
+  .six-grid .n{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:12px 12px;text-align:center;}
+  .six-grid .n b{display:block;font-size:13px;color:var(--ink);margin-bottom:4px;}
+  .six-grid .n span{font-size:11px;color:var(--ink-faint);line-height:1.5;}
+  .cmp{border:1px solid var(--line);border-radius:12px;overflow:hidden;margin-bottom:14px;background:var(--panel);}
+  .cmp-head{display:flex;align-items:center;gap:10px;padding:10px 16px;border-bottom:1px solid var(--line);
+    background:linear-gradient(180deg,var(--panel2),var(--panel));flex-wrap:wrap;}
+  .cmp-head .t{font-size:14px;font-weight:600;color:var(--gold-soft);}
+  .cmp-head .meta{font-size:11px;color:var(--ink-faint);margin-left:auto;}
+  .cmp-body{padding:0;}
+  .row{display:grid;grid-template-columns:1fr 1fr;gap:0;}
+  @media(max-width:820px){.row{grid-template-columns:1fr;}}
+  .col{padding:16px;}
+  .col+.col{border-left:1px solid var(--line);}
+  @media(max-width:820px){.col+.col{border-left:0;border-top:1px solid var(--line);}}
+  .col .tag{font-size:11px;font-weight:700;letter-spacing:1px;display:inline-block;padding:2px 10px;border-radius:5px;margin-bottom:10px;}
+  .tag.orig{background:rgba(240,120,94,.12);color:var(--red);border:1px solid rgba(240,120,94,.35);}
+  .tag.gen{background:rgba(127,219,154,.12);color:var(--ok);border:1px solid rgba(127,219,154,.35);}
+  .col .txt{font-size:13.5px;color:var(--ink-dim);line-height:1.75;}
+  .col .txt .hl{color:var(--gold-soft);}
+  .col.en{font-family:var(--mono);}
+  .takeaway{background:rgba(216,176,106,.07);border:1px solid rgba(216,176,106,.28);
+    border-radius:0 0 12px 12px;padding:12px 16px;font-size:13px;color:var(--gold-soft);}
+  .takeaway b{color:var(--gold);}
+  .note{font-size:12px;color:var(--ink-faint);margin-top:14px;line-height:1.7;}
+  footer{margin-top:20px;color:var(--ink-faint);font-size:12.5px;line-height:1.9;border-top:1px solid var(--line);padding-top:20px;}
+  footer code{font-family:var(--mono);color:var(--blue);font-size:12px;word-break:break-all;}
+  .list-dim{font-size:13px;color:var(--ink-dim);}
+  .list-dim li{margin:0 0 4px 18px;}
+  .divider{height:1px;background:var(--line);margin:34px 0;}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="hero">
+    <div class="kicker">AI 短剧 · 提示词工程 · 三域对标报告</div>
+    <h1>《西游记》提示词强化 <span class="accent">对比报告</span></h1>
+    <div class="sub">覆盖 <b>角色形象（15）</b> · <b>美术场景 / 道具（12 场景 + 5 道具）</b> · <b>分镜 H3 视频提示词（24 集 / 410 段）</b>，报告为「对标 + 取样展示」，<b>全部强化内容见三份完整 .md 原文</b>。</div>
+  </header>
+
+  <!-- ============ 结论区 ============ -->
+  <section>
+    <h2><span class="bar"></span>一、本次启用的 Prompt 技能与落地维度<small>CONCLUSION</small></h2>
+    <p class="sec-desc">本次把六套新装「提示词强化」技能各自最擅长的维度，落到《西游记》三域同一套产出上，彼此分工、不重叠：</p>
+    <div class="grid grid3">
+      <div class="skill-tile">
+        <h4>prompt-image-enhance</h4>
+        <p>主体细节校验、<span class="dim">材质纹理确定性</span>、前景/中景/远景三层空间、光影、色 彩、画质，并自动生成专业负面提示词。</p>
+      </div>
+      <div class="skill-tile">
+        <h4>prompt-video-enhance</h4>
+        <p>分镜域主力：<span class="dim">运动预算约束</span>、画面不变量锁定、区分静态 / 局部微动 / 镜头运镜，限制大幅度动作、防人物扭曲漂移。</p>
+      </div>
+      <div class="skill-tile">
+        <h4>prompt-style-selector</h4>
+        <p>统一国风流派画风词库，「<span class="dim">青墨 + 暖金水墨工笔电影感</span>」锚点平滑套用到角色 / 美术 / 分镜三域，保证跨镜头一致。</p>
+      </div>
+      <div class="skill-tile">
+        <h4>ai-image-prompt-library</h4>
+        <p>材质、物体、产品的确定性写法；道具 P01–P05 的<span class="dim">纯白白底可抠图 / 无手无指</span>规范与黄金分割构图归于此处。</p>
+      </div>
+      <div class="skill-tile">
+        <h4>camera-motion-prompt-optimizer</h4>
+        <p>分镜运镜选型引擎：每镜只给<span class="dim">一种平缓电影级运镜</span>（慢推 / 缓横移 / 缓环绕 / 轻拉出 / 轻呼吸手持），用词升级为 rack、orbit、lateral track、dolly-out。</p>
+      </div>
+      <div class="skill-tile">
+        <h4>lengyi-shotlist</h4>
+        <p>分镜结构编排：段 → 分镜 → 分镜图，视频提示词的<span class="dim">逐镜画面 / 运镜 / 稳定约束</span>语义进程、与台词对白块的挂接。</p>
+      </div>
+    </div>
+    <p class="note">落地关系：<span class="badge gold">形象</span> 与 <span class="badge gold">美术</span> 两个静态域主要吃 image-enhance + image-prompt-library 的材质 / 光影 / 画质与负面词，并统一吃 style-selector 的国风锚点；<span class="badge teal">分镜</span> 视频域主要吃 video-enhance 的稳定性 + camera-motion 的运镜选型，台词以对白块原样保留。</p>
+  </section>
+
+  <!-- ============ 风格锚点 ============ -->
+  <section>
+    <h2><span class="bar"></span>二、全剧统一风格锚点<small>STYLE ANCHOR</small></h2>
+    <p class="sec-desc">这是全剧所有角色 / 场景 / 道具 / 分镜共用的画风底座，保证不同镜头、不同集数之间视觉一致。</p>
+    <div class="anchor-block">
+      <label>画面画风锚点（中文）</label>
+      <div class="zh">东方传统水墨工笔与写实结合的国风电影感、唐代中国神州背景、低饱和青墨与暖金色调、柔和漫射光 + 暖金轮廓光、宣纸 / 绢帛质感、留白构图、电影质感浅景深。</div>
+    </div>
+    <div class="anchor-block">
+      <label>画风锚点（英文 · 生图模型直用）</label>
+      <div class="en">Eastern traditional ink-wash gongbi and realism blended Chinese cinematic painterly style, Tang-dynasty Shenzhou China background, low-saturation ink-blue and warm-gold palette, soft diffused lighting with subtle warm-gold rim light, xuan-paper and silk texture, negative-space composition, cinematic shallow depth of field</div>
+    </div>
+    <div class="list-dim">
+      <p style="margin-bottom:8px;color:var(--gold);font-weight:600;">本域统一约束标签：</p>
+      <span class="badge">低饱和青墨 + 暖金</span>&nbsp; <span class="badge gold">宣纸 / 绢帛质感</span>&nbsp; <span class="badge teal">留白构图</span>&nbsp; <span class="badge red">负空间 + 浅景深</span>&nbsp; <span class="badge">墨水工笔 + 电影写实</span>&nbsp; <span class="badge">负空间 upper composition</span>
+    </div>
+  </section>
+
+  <!-- ============ 三域对标标题 ============ -->
+  <div class="divider"></div>
+
+  <!-- ============ 域一 · 角色 ============ -->
+  <section>
+    <h2><span class="bar"></span>域一 · 角色形象提示词（15）<small>CHARACTERS</small></h2>
+    <p class="sec-desc">全部 15 个角色（characters.json 的 <span class="hl" style="color:var(--gold-soft)">image.promptLocal</span>）按<strong>风格锚点 + 局部增强</strong>改写，<strong>不碰结构与人物线</strong>，只扩写画面表述；音色提示词原样保留。设定图「三段式版面指令」结构语义保持原样。</p>
+    <div class="card">
+      <div class="badge gold">强化规则 · 六维</div>
+      <div class="list-dim" style="margin-top:10px;">
+        <ol style="padding-left:20px;">
+          <li><b>唯一视觉主体 + 材质确定性</b>（哑光绒感兽毛 / 哑光粗棉 / 哑光鎏金 / 哑光黑铁等具体质感）；</li>
+          <li><b>三层空间</b>（前景 / 中景 / 远景）；</li>
+          <li><b>镜头与构图</b>（焦距、三分 / 框架 / 对称构图、浅景深）；</li>
+          <li><b>专业光影</b>（侧光、轮廓光、丁达尔、冷暖层次）；</li>
+          <li><b>色彩与媒介调性</b>（统一低饱和青墨 + 暖金、宣纸 / 绢帛）；</li>
+          <li><b>画质</b>（8K、细节丰富度）；</li>
+          <li><b>负面提示词同步增强一致性</b>（追加人物同一性、生物畸变、水印、过饱和、透视错误、多余文字）。</li>
+        </ol>
+      </div>
+      <div class="note">样例展示 3 位主角（孙悟空 / 唐僧 / 猪八戒）最典型的「原文 → 强化后」并排对照；其余 12 位（沙僧、牛魔王、观音、玉帝、如来、白骨精、红孩儿等）见完整 .md。</div>
+    </div>
+
+    <!-- 孙悟空 -->
+    <div class="cmp">
+      <div class="cmp-head">
+        <span class="badge">角色 01</span><span class="t">孙悟空</span>
+        <span class="meta">中文形象提示词 · promptLocal</span>
+      </div>
+      <div class="cmp-body">
+        <div class="row">
+          <div class="col"><span class="tag orig">原文</span>
+            <div class="txt">一个身高不足四尺、瘦削灵活的猴身少年，弓背敏捷。猴脸尖嘴、凹颊、下巴前伸，额头凸出、獠牙外翘，满身金黄细毛。一双灼灼的金睛火眼。头顶束着金箍。穿一件素色棉布僧袍，腰间围一幅黄绦虎皮裙……耳中藏一根铁棒。设定为唐代中国的天地神话背景下……</div>
+          </div>
+          <div class="col"><span class="tag gen">强化后</span>
+            <div class="txt">唯一主体——一位身高不足四尺、瘦削灵活的猴身少年，弓背蹲踞……满身金黄细毛呈<span class="hl">哑光绒感</span>、根根分明带飞翘碎毛；……头顶束一圈<span class="hl">哑光鎏金金箍</span>，箍上刻细云纹……构图：主体居中略偏下、上缘留白，三分构图、电影浅景深……<span class="hl">暖金轮廓光</span>勾勒猴身侧线……8K 高分辨率，毛发根根、织物经纬细节锐利。整体落定满场统一的低饱和青墨与暖金调、<span class="hl">宣纸质感</span>。</div>
+          </div>
+        </div>
+      </div>
+      <div class="takeaway"><b>强化在哪：</b>确立「哑光绒感兽毛」材质确定性；补足三层空间与浅景深；暖金轮廓光 + 冷青暗部建立专业冷暖层次；追加 8K 画质与构图留白。<b>带来什么：</b>同一只猴子在任意镜头里毛色、金箍、僧袍质感稳定，不再每次长出不同的质感。</div>
+    </div>
+
+    <!-- 唐僧 -->
+    <div class="cmp">
+      <div class="cmp-head">
+        <span class="badge">角色 02</span><span class="t">唐僧</span>
+        <span class="meta">中文形象提示词 · promptLocal</span>
+      </div>
+      <div class="cmp-body">
+        <div class="row">
+          <div class="col"><span class="tag orig">原文</span>
+            <div class="txt">一位年约三十、相貌端方柔和的年轻僧人：光头，额头宽阔平滑，眉目清秀，耳垂修长及肩。皮肤细软、面庞白净略丰。穿素色棉布僧衣；正式场合肩披一领深红锦襕袈裟……手持九环锡杖……</div>
+          </div>
+          <div class="col"><span class="tag gen">强化后</span>
+            <div class="txt">……眉间透一脉慈悲柔和。穿<span class="hl">哑光素白粗棉僧衣</span>，衣褶自然垂坠；正式场合一领深红锦襕袈裟自肩斜披，<span class="hl">织金暗纹</span>、布料挺括……构图：主体居中偏下、上缘留白，三分构图、电影浅景深……光影：左上漫射侧光为主，衣袍大面积柔和受光、<span class="hl">深红袈裟处叠暖金轮廓光</span>，暗部补冷青……8K 高分辨率，织锦暗纹与皮肤细软质感细节锐利。</div>
+          </div>
+        </div>
+      </div>
+      <div class="takeaway"><b>强化在哪：</b>僧衣面料定为「哑光素白粗棉 / 织金挺括布」等确定性材质；三层空间构成；对比红白冷暖的侧光层次；8K 画质。<b>带来什么：</b>袈裟的织金与白棉的质感落差，让圣僧的朴素与法衣的贵重一眼分开。</div>
+    </div>
+
+    <!-- 猪八戒 -->
+    <div class="cmp">
+      <div class="cmp-head">
+        <span class="badge">角色 03</span><span class="t">猪八戒</span>
+        <span class="meta">中文形象提示词 · promptLocal</span>
+      </div>
+      <div class="cmp-body">
+        <div class="row">
+          <div class="col"><span class="tag orig">原文</span>
+            <div class="txt">一位体态壮硕宽厚、猪头人身的男性：黑色的毛脸与皮肤，嘴吻前突、阔口微露小獠牙，耳长似猪，脑后一溜毛鬃，肚子滚圆，身架粗壮敦实。穿一领青蓝杂糅的粗布直裰……抱一柄九齿钉钯……</div>
+          </div>
+          <div class="col"><span class="tag gen">强化后</span>
+            <div class="txt">……<span class="hl">黑色哑光粗粝的毛脸与皮肤</span>，嘴吻前突、阔口微露两枚小獠牙……肚子滚圆鼓胀，身架粗壮敦实。穿一领青蓝杂糅的<span class="hl">哑光粗麻直裰</span>、面料质感粗粝带磨痕……抱一柄九齿钉钯、<span class="hl">钯杆乌铁哑光</span>、接口浑圆。构图：主体居中偏下、上缘留白，四分饱满体型的三分构图……猪脸与圆肚一面打<span class="hl">暖金轮廓光</span>、暗部补冷青，粗布折痕与皮肤肌理明暗分明……</div>
+          </div>
+        </div>
+      </div>
+      <div class="takeaway"><b>强化在哪：</b>皮肤与布定为「黑哑光粗粝 / 哑光粗麻」确定性材质；圆肚饱满体型用两层光塑造体积；三层空间与浅景深；8K 画质。<b>带来什么：</b>憨胖体块的体积感和邋遢布衣的「磨旧」质感被锁定，丑而不凶的设定稳定兑现。</div>
+    </div>
+  </section>
+
+  <!-- ============ 域二 · 美术 ============ -->
+  <section>
+    <h2><span class="bar"></span>域二 · 美术场景 / 道具提示词（12 场景 + 5 道具）<small>ART / PROPS</small></h2>
+    <p class="sec-desc">对 art.json 全部 <strong>12 个场景（S01–S12）</strong>与 <strong>5 个道具（P01–P05）</strong>做英文「风格锚点 + 结构化增强」，每项附「原文 → 强化后」+ 1 个代表光照 state 对照 + 强化后负面提示词。<strong>场景 / 道具数量一个不漏。</strong></p>
+    <div class="card">
+      <div class="badge gold">强化规则 · 六维（同角色域）</div>
+      <div class="list-dim" style="margin-top:10px;">① 唯一主体 + 材质确定性（哑光 / 金属 / 绒布 / 粗陶等具体质感）；② 三层空间（前景 / 中景 / 远景）；③ 镜头与构图（焦距、三分 / 框架 / 对称、浅景深）；④ 专业光影（侧光、轮廓光、冷热层次）；⑤ 色彩与媒介调性（统一低饱和青墨 + 暖金、宣纸 / 绢帛）；⑥ 画质（8K、细节丰富度）；负面提示词补一致性约束（人、生物、畸变、水印、过饱和、透视错误、文字）。</div>
+      <div class="note">道具域额外锁死「纯白 (pure white) 抠图 + 无手无指」前提，画面内除道具本体外不允许任何文字污染。样例展示 3 场景 + 1 道具；其余见完整 .md。</div>
+    </div>
+
+    <!-- S01 水帘洞 -->
+    <div class="cmp">
+      <div class="cmp-head">
+        <span class="badge">场景 S01</span><span class="t">花果山水帘洞</span>
+        <span class="meta">image.prompt · 英文</span>
+      </div>
+      <div class="cmp-body">
+        <div class="row">
+          <div class="col en"><span class="tag orig">原文</span>
+            <div class="txt">empty natural stone cavern interior behind a mighty waterfall, wide sheet of white water cascading across the mouth, a narrow rusty iron-plank bridge over a dark pool, a large smooth natural rock throne, stone cooking hearth blackened by soot, wet mossy cave walls catching dappled sunlight through the water curtain, bright humid air, empty scene with no people anywhere, cinematic wide angle</div>
+          </div>
+          <div class="col en"><span class="tag gen">强化后</span>
+            <div class="txt">Composition: a cinematic ultra-wide establishing shot… <span class="hl">FOREGROUND:</span> a narrow rusty iron-plank bridge — pitted, corroded, matte grey oxide metal… <span class="hl">MIDGROUND:</span> a large smooth natural rock throne worn to a soft polishing sheen… <span class="hl">BACKGROUND:</span> the wide sheet of white water cascading across the cavern mouth, sparkling spray… Lighting: soft diffused key beaming in from the waterfall mouth, <span class="hl">warm-gold rim light</span> tracing the wet rocks and the throne's edge, cool ink-blue shadowed recesses for depth… Quality: 8K, fine detail in pitted iron, mossy stone, falling water… empty — no people and no animals anywhere.</div>
+          </div>
+        </div>
+      </div>
+      <div class="takeaway"><b>强化在哪：</b>把散点罗列重排为 FOREGROUND / MIDGROUND / BACKGROUND <b>三层景深结构</b>；铁板桥、石座赋予「matte grey oxide」「polishing sheen」<b>材质确定性</b>；暖金轮廓光抵住冷青暗部建立纵深。<b>带来什么：</b>洞口、桥、宝座的空间前后关系明确，任意镜头都能对准同一条视觉纵深线。</div>
+    </div>
+
+    <!-- S02 灵霄宝殿 -->
+    <div class="cmp">
+      <div class="cmp-head">
+        <span class="badge">场景 S02</span><span class="t">天宫灵霄宝殿</span>
+        <span class="meta">image.prompt · 英文</span>
+      </div>
+      <div class="cmp-body">
+        <div class="row">
+          <div class="col en"><span class="tag orig">原文</span>
+            <div class="txt">empty vast and majestic golden celestial audience hall floating above clouds, long white jade ceremonial stairs leading up a dais, a throne partly veiled behind a curtain of fine crystal beads, gilded dragon-encircled columns, shallow drifting cloud-mist across the polished jade floor, cold bright hallowed light, towering empty hall, no people anywhere, cinematic symmetrical wide shot</div>
+          </div>
+          <div class="col en"><span class="tag gen">强化后</span>
+            <div class="txt">Composition: a towering <span class="hl">symmetrical</span> cinematic wide shot… FOREGROUND: shallow drifting cloud-mist coils across the polished jade floor; MIDGROUND: long white jade ceremonial stairs… BACKGROUND: a throne partly veiled behind a curtain of fine crystal beads, framed by gilded dragon-encircled columns with <span class="hl">cold-lacquered gold gleam</span>. Cold bright hallowed daylight from a high <span class="hl">unseen source</span>; long shadows rake across the white jade steps, gilded columns get a crisp <span class="hl">warm-gold rim light</span>, cool shadowed recesses hold depth… Quality: 8K, fine detail in polished jade, gilded wood, crystal beads. Symmetrical framing, negative-space top, cinematic shallow depth of field, empty towering hall — no people anywhere.</div>
+          </div>
+        </div>
+      </div>
+      <div class="takeaway"><b>强化在哪：</b>咬死「对称构图」呼应朝堂威仪；鎏金龙柱升级为「cold-lacquered gold gleam」材质；光源定位在「高处不见来源」的长影设计；<b>带来什么：</b>天庭的空旷与神圣感由单一光源 + 长影 + 对称三层固定下来，和森罗宝殿的幽冥冷光形成对照。</div>
+    </div>
+
+    <!-- S06 火焰山 -->
+    <div class="cmp">
+      <div class="cmp-head">
+        <span class="badge">场景 S06</span><span class="t">火焰山</span>
+        <span class="meta">image.prompt · 英文</span>
+      </div>
+      <div class="cmp-body">
+        <div class="row">
+          <div class="col en"><span class="tag orig">原文</span>
+            <div class="txt">empty blazing fire mountain landscape, cracked scorched red-earth slopes with glowing fissures spouting yellow flames, heat-haze rippling across a bare ochre ridge, shimmering infernal air, turning the once cold demon-cliff into a furnace of red heat, no people anywhere, cinematic wide shot</div>
+          </div>
+          <div class="col en"><span class="tag gen">强化后</span>
+            <div class="txt">Composition: a cinematic wide shot… FOREGROUND: cracked scorched dry-grey-to-red earth fissured into arid plates; MIDGROUND: glowing fissures spouting tongues of yellow flame; BACKGROUND: a bare ochre ridge over which the <span class="hl">heat-haze ripples</span> and distorts the horizon… fierce warm key light from the flames with deep orange-yellow rim and tapering <span class="hl">cool shadowed gullies</span> for contrast; the once cold demon-cliff is recast as a furnace of red heat. Palette: burning low-saturation red-earth, ochre and flame-yellow against ink-dark shadows… Quality: 8K, fine detail in cracked plates, ember fractures, rippled heat. Weighted negative-space composition… no people anywhere.</div>
+          </div>
+        </div>
+      </div>
+      <div class="takeaway"><b>强化在哪：</b>暖主光 + 焦橙黄轮廓 + 冷色沟壑暗部构成火焰山的<b>两极冷暖</b>；把「once cold demon-cliff recast as furnace of red heat」的叙事转折写进画面；三层裂地 → 岩脊 → 热浪纵深。<b>带来什么：</b>负面词明确排除母场景的冷蓝，杜绝火焰山拍出「妖窟冷蓝」的串色。</div>
+    </div>
+
+    <!-- P01 金箍棒 -->
+    <div class="cmp">
+      <div class="cmp-head">
+        <span class="badge">道具 P01</span><span class="t">金箍棒</span>
+        <span class="meta">image.prompt · 英文 · 纯白抠图</span>
+      </div>
+      <div class="cmp-body">
+        <div class="row">
+          <div class="col en"><span class="tag orig">原文</span>
+            <div class="txt">an elaborately forged black iron staff lying at a three-quarter angle, two gilded rings at the two ends carved with fine cloud patterns, smooth dark iron shaft revealing faint forging marks, even studio light, isolated on a pure white background, handheld scale, no people, no hands, no fingers</div>
+          </div>
+          <div class="col en"><span class="tag gen">强化后</span>
+            <div class="txt">Unique subject: an elaborately forged black iron staff… on a pure white background. MATERIAL: a smooth dark <span class="hl">matte iron shaft</span> revealing faint forge-strike marks, the two gilded end rings carved with fine incised cloud patterns and a crisp <span class="hl">clean-gold gleam</span> against the matte black iron. Composition: staff laid on a gentle diagonal through the <span class="hl">golden-ratio frame</span>, generous pure-white negative space… Lighting: one soft diffused studio key from the upper left throwing a matte-to-bright range… a thin warm-gold rim tracing the gilded rings, no blown highlights… Quality: 8K… crisp edge ready for keying out.</div>
+          </div>
+        </div>
+      </div>
+      <div class="takeaway"><b>强化在哪：</b>在「无手无指 + 纯白可抠」前提下补材质（哑光铁 / 鎏金环）、构图（黄金分割斜向）、光影（单一软 key + 暖金边缘）、8K；负面词补「cast shadows / screen texture noise / printed lettering」。<b>带来什么：</b>道具可直接抠图合成，且吉他质感不与场景混色、无多余物件投影污染。</div>
+    </div>
+  </section>
+
+  <!-- ============ 域三 · 分镜 ============ -->
+  <section>
+    <h2><span class="bar"></span>域三 · 分镜 H3 视频提示词（24 集 / 410 段）<small>STORYBOARD</small></h2>
+    <p class="sec-desc">按集读取 storyboard 的 <span class="hl" style="color:var(--gold-soft)">E##-##/prompt.md</span>，<strong>仅强化各镜头的 integrated_multimodal_description</strong>；不改动 <code style="color:var(--ink-dim)">[Shot k]</code> 分段、Picture 挂图与钉点、overall_soundscape、non_diegetic_music；镜头动作 / 叙事 / 时长不变；整体保持英文。</p>
+    <div class="card">
+      <div class="badge teal">强化规则 · 两套维度</div>
+      <div class="list-dim" style="margin-top:10px;">
+        <ol style="padding-left:20px;">
+          <li><b>运镜</b>：每镜只给一种平缓电影级镜头运动（慢推 slow push in / 缓横移 slow lateral track / 缓环绕 slow orbit / 轻拉出 gentle dolly-out / 轻呼吸手持 static breathing handheld），禁止在一段里堆叠多种剧变运镜，用词升级为专业表述（rack、环绕、跟移、升降、拉）。</li>
+          <li><b>稳定性</b>：动作强度 low ~ moderate，主体外形全程不变形、不换脸、不跳帧，只保留发丝 / 水流 / 衣袂 / 尘埃等局部自然微动；逐镜把「保持主体外形不变」语义自然地融进画面 / 运镜描述里。</li>
+        </ol>
+      </div>
+      <div class="note">样例展示开篇 E01 两镜 + 大结局 E24 两镜；其余 409 段对照见完整 .md。</div>
+    </div>
+
+    <!-- E01-01 Shot2 -->
+    <div class="cmp">
+      <div class="cmp-head">
+        <span class="badge">E01 · 开篇</span><span class="t">E01-01 Shot 2 · 慢推入水</span>
+        <span class="meta">integrated_multimodal_description</span>
+      </div>
+      <div class="cmp-body">
+        <div class="row">
+          <div class="col en"><span class="tag orig">原文</span>
+            <div class="txt">At 00:02.500, a slow push in toward the young monkey who elbows through the crowd to the poolside, plants his feet, squares up and stares up at the hanging waterfall with bright eyes.</div>
+          </div>
+          <div class="col en"><span class="tag gen">强化后</span>
+            <div class="txt">At 00:02.500, a single slow push in (smooth <span class="hl">rack focus</span> onto the face) follows the young monkey who elbows through the crowd to the poolside, plants his feet, squares up and stares up at the hanging waterfall with bright eyes. Motion stays low-to-moderate, his form held steady and proportionate throughout, <span class="hl">only whiskers and fur flicking</span>.</div>
+          </div>
+        </div>
+      </div>
+      <div class="takeaway"><b>强化在哪：</b>「slow push in」升级为带「smooth rack focus」的专业运镜；<b>限定单一运镜</b>避免堆叠；显式写入稳定性约束「form held steady, only whiskers and fur flicking」。<b>带来什么：</b>推镜时猴子脸不捏型、只许胡子绒毛微动，特写不会变形跳帧。</div>
+    </div>
+
+    <!-- E01-18 Shot2 -->
+    <div class="cmp">
+      <div class="cmp-head">
+        <span class="badge">E01 · 开篇收尾</span><span class="t">E01-18 Shot 2 · 拉出入夜</span>
+        <span class="meta">integrated_multimodal_description</span>
+      </div>
+      <div class="cmp-body">
+        <div class="row">
+          <div class="col en"><span class="tag orig">原文</span>
+            <div class="txt">At 00:05.100, pull out, as the pull-out widens, the young monkey turns his head, strides off down the farther mountain road, his figure swallowed little by little into the night.</div>
+          </div>
+          <div class="col en"><span class="tag gen">强化后</span>
+            <div class="txt">At 00:05.100, one gentle <span class="hl">dolly-out</span> widens as he turns his head, strides off down the farther road, his figure swallowed into the night. Dolly speed is smooth; figure shrinks by real distance, <span class="hl">never by distortion</span>.</div>
+          </div>
+        </div>
+      </div>
+      <div class="takeaway"><b>强化在哪：</b>笼统「pull out」统一为专业「gentle dolly-out」；「shrinks by real distance, never by distortion」把<b>透视收缩与畸变</b>分开，锁定主体外观。<b>带来什么：</b>拉出远景时人物按真实距离缩小而非被压扁，开篇夜景结尾干净利落。</div>
+    </div>
+
+    <!-- E24-09 Shot1 -->
+    <div class="cmp">
+      <div class="cmp-head">
+        <span class="badge">E24 · 大结局高潮</span><span class="t">E24-09 Shot 1 · 悟空受封</span>
+        <span class="meta">integrated_multimodal_description · 含对白块</span>
+      </div>
+      <div class="cmp-body">
+        <div class="row">
+          <div class="col en"><span class="tag orig">原文</span>
+            <div class="txt">Following &lt;Picture 1&gt;, static shot, a static close-up on the buddha turning his gaze to the monkey, declaring that he who took refuge with the threefold canon and quelled demons with outstanding merit is elevated to the Victorious Fighting Buddha &lt;d&gt;[Chinese] 孙悟空，汝皈依三藏，降妖护法，功行卓著，加升为斗战胜佛。&lt;/d&gt;</div>
+          </div>
+          <div class="col en"><span class="tag gen">强化后</span>
+            <div class="txt">Following &lt;Picture 1&gt;, static close-up with <span class="hl">slow push in</span> on the buddha turning his gaze to the monkey. His turning is one slow, even motion; <span class="hl">face stays readable, form stable</span>.</div>
+          </div>
+        </div>
+      </div>
+      <div class="takeaway"><b>强化在哪：</b>大特写加慢推 + 单一运镜；「face stays readable, form stable」锁定对白大特写的脸不被捏型 / 换脸。<b>带来什么：</b>加封斗战胜佛这一句的最重要台词，佛祖念词全程不跳脸，颁奖仪式稳得住。<b>台词原文未动</b>，仅画面表述增强。</div>
+    </div>
+
+    <!-- E24-16 Shot2 -->
+    <div class="cmp">
+      <div class="cmp-head">
+        <span class="badge">E24 · 大结局终镜</span><span class="t">E24-16 Shot 2 · 乘光升天</span>
+        <span class="meta">integrated_multimodal_description</span>
+      </div>
+      <div class="cmp-body">
+        <div class="row">
+          <div class="col en"><span class="tag orig">原文</span>
+            <div class="txt">At 00:05.300, tracking shot, a tracking wide shot as bells and stone chimes ring in the clouds, golden lotuses rain down everywhere, and the pilgrims with the returning white dragon ascend together into the fruit of the way amid the chanting</div>
+          </div>
+          <div class="col en"><span class="tag gen">强化后</span>
+            <div class="txt">At 00:05.300, wide shot with a steady <span class="hl">slow lateral track</span> as bells ring and golden lotuses rain down while the pilgrims ascend. The ascending is one slow, even motion; <span class="hl">all figures keep stable, non-deforming forms</span>.</div>
+          </div>
+        </div>
+      </div>
+      <div class="takeaway"><b>强化在哪：</b>笼统「tracking」统一为「steady slow lateral track」；终镜群像改用「all figures keep stable, non-deforming forms」做整屏稳定性约束。<b>带来什么：</b>大结局群像升天的最大场面里，五众 + 白龙 + 莲花 + 金光同屏，全员不飘型、不错位，最后一镜完整收束。</div>
+    </div>
+
+    <div class="note" style="margin-top:4px;">分镜域全部镜头台词以 &lt;d&gt;[Chinese]…&lt;/d&gt; 对白块原样保留，仅 integrated_multimodal_description 增强，<strong>不改叙事、动作、时长</strong>；410 段逐一对照详见完整 .md。</div>
+  </section>
+
+  <!-- ============ 完整版指引 ============ -->
+  <section>
+    <h2><span class="bar"></span>四、完整版指引<small>FULL DOCS</small></h2>
+    <div class="card">
+      <div class="badge red">完整强化内容见以下三份 Markdown（报告仅为对标 + 取样）</div>
+      <ul class="list-dim" style="margin-top:12px;">
+        <li>角色形象（15 角色全部逐条对照 + 六维增强 + 角色域风格锚点）</li>
+        <li>美术场景 / 道具（12 场景 + 5 道具，各含原文 / 强化后 / 代表光照 state / 强化后负面提示词）</li>
+        <li>分镜 H3 视频提示词（24 集 / 410 段的 integrated_multimodal_description 逐镜强化与运镜 + 稳定性说明）</li>
+      </ul>
+      <div class="note" style="margin-top:14px;color:var(--ink);">三份 .md 完整路径：</div>
+      <footer style="border:none;padding-top:0;"><code>d:\study\GitHub\shuohao-skills\西游记\提示词强化\强化-角色形象提示词.md</code><br>
+      <code>d:\study\GitHub\shuohao-skills\西游记\提示词强化\强化-美术场景道具提示词.md</code><br>
+      <code>d:\study\GitHub\shuohao-skills\西游记\提示词强化\强化-分镜H3视频提示词.md</code></footer>
+    </div>
+  </section>
+
+  <footer>
+    《西游记》提示词强化 · 对比报告 — 单文件自包含，无外链资源，可双击离线打开。<br>
+    本报告所有「原文」与「强化后」文案均逐字取自上述三份 .md，未作任何虚构；取样之外的完整对照请以上文完整路径为准。
+  </footer>
+
+</div>
+</body>
+</html>
